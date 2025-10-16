@@ -1,0 +1,166 @@
+/* A flex container to organize header, main, and footer vertically */
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #000;
+}
+
+/* The header bar at the top */
+.appHeader {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    flex-shrink: 0;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.7);
+    z-index: 10;
+    line-height: 1.2;
+}
+
+/* The main content area */
+.mainContent {
+    flex-grow: 1;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    overflow-y: auto;
+    scrollbar-width: none; /* For Firefox */
+}
+
+.mainContent::-webkit-scrollbar {
+    display: none;
+}
+
+/* The footer at the bottom */
+.appFooter {
+    flex-shrink: 0;
+    padding: 15px; /* Add padding around the footer content */
+    border-top: 1px solid rgba(255, 0, 0, 0.7);
+}
+
+/* Container for the side-by-side arrow buttons */
+.navButtonContainer {
+    display: flex;
+}
+
+/* REVISED NAVIGATION BUTTON STYLES */
+.navButton {
+    flex: 1;
+    background-color: #cc0000;
+    color: #ffffff;
+    border: 1px solid #a30000;
+    padding: 10px; /* Reduced padding to make buttons shorter */
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.navButton:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: 0.5px solid #a30000; /* Thin divider line */
+}
+
+.navButton:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: 0.5px solid #a30000; /* Thin divider line */
+}
+
+.navButton:hover {
+    background-color: #a30000;
+    border-color: #7a0000;
+}
+
+/* Copyright Text Style */
+.copyrightText {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-top: 15px; /* Standard spacing */
+    border-radius: 8px;
+}
+
+/* --- Main Content Styles Below --- */
+.qrCodeContainer, .listenButton, .buttonContainer, .missionContainer {
+    margin-bottom: 15px;
+}
+
+.qrCodeImage {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), inset 0 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+.listenButton, .actionButton {
+    background-color: #cc0000;
+    color: #ffffff;
+    border: 1px solid #a30000;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.listenButton:hover, .actionButton:hover {
+    background-color: #a30000;
+    border-color: #7a0000;
+}
+
+.listenButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.missionTitle {
+    color: #ffffff;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.missionText {
+    color: #ffffff; /* Pure white */
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify; /* Justify text for a cleaner look */
+}
+
+/* --- NEW STYLES FOR BOLD AND RED TEXT --- */
+.boldText {
+    font-weight: bold;
+}
+
+.boldRedText {
+    font-weight: bold;
+    color: #cc0000; /* Bright Red */
+}

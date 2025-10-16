@@ -1,0 +1,40 @@
+/* src/components/LawItem.module.css */
+
+.lawItem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #cc0000; /* Bright Red */
+    color: #ffffff; /* White text */
+    border: 1px solid #a30000; /* Darker red border */
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.lawItem:hover {
+    background-color: #a30000; /* Darker red on hover */
+    border-color: #7a0000;
+}
+
+.itemNumber {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 15px;
+    background-color: rgba(0, 0, 0, 0.2); /* Slightly darker circle for number */
+    border-radius: 50%; /* Make it a circle */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; /* Prevent the circle from squishing */
+}
+
+.itemDescription {
+    line-height: 1.4;
+}

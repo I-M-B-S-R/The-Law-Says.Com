@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File scripts\populate-title-indexes.ps1// (scripts/generate-title-indexes.ps1)
