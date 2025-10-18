@@ -2,11 +2,10 @@
   "name": "the-law-says",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 STRICT_SSL=false NPM_CONFIG_STRICT_SSL=false next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.5.4",
@@ -15,16 +14,9 @@
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.14",
-    "@types/node": "^22.7.5",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "autoprefixer": "^10.4.21",
-    "cross-env": "^7.0.3",
+    "@types/node": "24.8.1",
+    "@types/react": "19.2.2",
     "eslint": "^9.12.0",
-    "eslint-config-next": "15.5.4",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.14",
-    "typescript": "^5.6.3"
+    "eslint-config-next": "15.5.4"
   }
 }

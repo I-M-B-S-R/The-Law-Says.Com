@@ -23,7 +23,7 @@
 /* The main content area */
 .mainContent {
     flex-grow: 1;
-    padding: 20px;
+    padding: 2px 20px 20px 20px;
     color: #fff;
     text-align: center;
     overflow-y: auto;
