@@ -1,4 +1,4 @@
-const axios = require('axios');
+const https = require('https');
 const fs = require('fs');
 
 // --- User Credentials ---
@@ -26,35 +26,51 @@ const xmlData = `<?xml version="1.0" encoding="utf-8"?>
 // These are the required headers for a SOAP request
 const headers = {
   'Content-Type': 'text/xml; charset=utf-8',
+  'Content-Length': Buffer.byteLength(xmlData),
   'SOAPAction': 'http://azleg.gov/webservices/ARS'
 };
 
 async function fetchLaws() {
   console.log('Attempting to fetch ARS documents from the web service...');
-  try {
-    const response = await axios.post(url, xmlData, { headers: headers });
+  
+  return new Promise((resolve, reject) => {
+    const req = https.request(url, {
+      method: 'POST',
+      headers: headers
+    }, (res) => {
+      let data = '';
+      
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+      
+      res.on('end', () => {
+        try {
+          // Save the data to a new file in your project folder
+          fs.writeFileSync('laws.xml', data);
+          
+          console.log('\nSUCCESS! ✅');
+          console.log('The law data has been downloaded and saved to a new file named "laws.xml".');
+          console.log('\n--- WHAT TO DO NEXT ---');
+          console.log('The data has been saved. Now we will parse it to generate individual title files.');
+          
+          resolve(data);
+        } catch (error) {
+          reject(error);
+        }
+      });
+    });
     
-    const responseData = response.data;
-    
-    // Save the data to a new file in your project folder
-    fs.writeFileSync('laws.xml', responseData);
-    
-    console.log('\nSUCCESS! ✅');
-    console.log('The law data has been downloaded and saved to a new file named "laws.xml".');
-    console.log('\n--- WHAT TO DO NEXT ---');
-    console.log('Please find the "laws.xml" file, open it, and paste a small part of its contents here so we can see the data structure.');
-
-  } catch (error) {
-    console.error('\n--- AN ERROR OCCURRED ---');
-    if (error.response) {
-      console.error('Error Status:', error.response.status);
-      console.error('Error Data:', error.response.data);
-    } else {
+    req.on('error', (error) => {
+      console.error('\n--- AN ERROR OCCURRED ---');
       console.error('Error Message:', error.message);
-    }
-    console.error('\nThe request failed. This could be due to incorrect credentials or a temporary issue with the service.');
-  }
+      console.error('\nThe request failed. This could be due to incorrect credentials or a temporary issue with the service.');
+      reject(error);
+    });
+    
+    req.write(xmlData);
+    req.end();
+  });
 }
 
-// Run the function
 fetchLaws();

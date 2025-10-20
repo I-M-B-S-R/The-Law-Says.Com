@@ -1,0 +1,32 @@
+/*
+ * Styles for the Breadcrumb component
+ */
+
+.breadcrumbNav {
+  width: 100%;
+  padding: 8px 20px; /* Spacing */
+  background-color: #1a1a1a; /* Dark background, slightly different from header */
+  border-bottom: 1px solid #444; /* Subtle line */
+  display: flex;
+  justify-content: flex-start; /* Align to the left */
+}
+
+.breadcrumbLink {
+  display: flex;
+  align-items: center;
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.breadcrumbLink:hover {
+  color: #cc0000; /* Red on hover */
+}
+
+.breadcrumbIcon {
+  margin-right: 6px;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,375 @@
+.arizonaContainer {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #cccccc;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.advancedSearchButton {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.advancedSearchButton:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+}
+
+/* Main Content */
+.mainContent {
+  padding: 0;
+}
+
+/* Search Section */
+.searchSection {
+  margin-bottom: 30px;
+}
+
+.searchContainer {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.searchInput {
+  width: 100%;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 2px solid #333333;
+  padding: 15px 50px 15px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #ff0000;
+}
+
+.searchInput::placeholder {
+  color: #888888;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  pointer-events: none;
+}
+
+/* Category Section */
+.categorySection {
+  margin-bottom: 30px;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.categoryButton {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 2px solid #333333;
+  padding: 15px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.categoryButton:hover {
+  border-color: #ff0000;
+  background-color: #0a0a0a;
+}
+
+.categoryButton.active {
+  background-color: #ff0000;
+  border-color: #ff0000;
+  color: #ffffff;
+}
+
+.categoryIcon {
+  font-size: 1.5rem;
+}
+
+.categoryName {
+  flex: 1;
+  text-align: left;
+}
+
+/* Info Banner */
+.infoBanner {
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.infoContent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.infoIcon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.infoContent p {
+  color: #cccccc;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Titles Section */
+.titlesSection {
+  margin-bottom: 40px;
+}
+
+.resultsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #333333;
+}
+
+.resultsHeader h2 {
+  color: #ff0000;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.resultCount {
+  color: #888888;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.titlesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.titleCard {
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 12px;
+  padding: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleCard:hover {
+  border-color: #ff0000;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.3);
+}
+
+.titleNumber {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: fit-content;
+}
+
+.titleName {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  flex: 1;
+  line-height: 1.4;
+}
+
+.titleFooter {
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid #333333;
+}
+
+.viewLink {
+  color: #ff0000;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.titleCard:hover .viewLink {
+  color: #ff3333;
+}
+
+/* No Results */
+.noResults {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 12px;
+}
+
+.noResults p {
+  color: #cccccc;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.clearButton {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clearButton:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+}
+
+/* Quick Links Section */
+.quickLinksSection {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 2px solid #333333;
+}
+
+.quickLinksSection h3 {
+  color: #ff0000;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.quickLinksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.quickLinkCard {
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.quickLinkCard:hover {
+  border-color: #ff0000;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.2);
+}
+
+.quickLinkIcon {
+  font-size: 2rem;
+}
+
+.quickLinkCard span:last-child {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .categoryGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .titlesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .resultsHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .quickLinksGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 20px 15px;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .categoryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .categoryButton {
+    padding: 12px 15px;
+  }
+}

@@ -1,0 +1,486 @@
+.homepageContainer {
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styles */
+.appHeader {
+  background-color: #000000;
+  border-bottom: 3px solid #ff0000;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(255, 0, 0, 0.3);
+}
+
+.logoSection h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+.tagline {
+  color: #cccccc;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Main Content */
+.mainContent {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Mission Section */
+.missionSection {
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.missionSection h2 {
+  color: #ff0000;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.missionContent {
+  color: #ffffff;
+}
+
+.missionIntro {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.missionFull {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #333333;
+}
+
+.missionFull p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.missionToggleBtn {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+  transition: all 0.3s ease;
+}
+
+.missionToggleBtn:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+}
+
+/* Search Bar Section */
+.searchBarSection {
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.searchBarSection h2 {
+  color: #ff0000;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.searchBarContainer {
+  display: flex;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto 15px;
+}
+
+.searchBarInput {
+  flex: 1;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  border: 2px solid #333333;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.searchBarInput:focus {
+  outline: none;
+  border-color: #ff0000;
+}
+
+.searchBarInput::placeholder {
+  color: #888888;
+}
+
+.searchBarButton {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.searchBarButton:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+}
+
+.searchHint {
+  text-align: center;
+  color: #888888;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/* Quick Access Section */
+.quickAccessSection {
+  margin-bottom: 40px;
+}
+
+.quickAccessSection h2 {
+  color: #ff0000;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.accessGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.accessCard,
+.accessCardFeatured {
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.accessCardFeatured {
+  border-color: #ff0000;
+  background: linear-gradient(135deg, #1a0000 0%, #1a1a1a 100%);
+}
+
+.accessCard:hover,
+.accessCardFeatured:hover {
+  border-color: #ff0000;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.3);
+}
+
+.cardIcon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.accessCard h3,
+.accessCardFeatured h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.accessCard p,
+.accessCardFeatured p {
+  color: #cccccc;
+  margin-bottom: 15px;
+}
+
+.cardBadge {
+  display: inline-block;
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Popular Topics Section */
+.popularTopicsSection {
+  margin-bottom: 40px;
+}
+
+.popularTopicsSection h2 {
+  color: #ff0000;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.topicsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.topicCard {
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.topicCard:hover {
+  border-color: #ff0000;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.2);
+}
+
+.topicCard h4 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.topicCard p {
+  color: #888888;
+  font-size: 0.9rem;
+}
+
+/* Features Section */
+.featuresSection {
+  margin-bottom: 40px;
+}
+
+.featuresSection h2 {
+  color: #ff0000;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.featureItem {
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.featureItem:hover {
+  border-color: #ff0000;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.2);
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.featureItem h4 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.featureItem p {
+  color: #cccccc;
+  font-size: 0.95rem;
+}
+
+/* CTA Section */
+.ctaSection {
+  background: linear-gradient(135deg, #1a0000 0%, #000000 100%);
+  border: 2px solid #ff0000;
+  border-radius: 12px;
+  padding: 50px 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ctaSection h2 {
+  color: #ff0000;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.ctaSection p {
+  color: #cccccc;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.ctaButton {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 18px 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ctaButton:hover {
+  background-color: #cc0000;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.5);
+}
+
+/* Footer Styles */
+.appFooter {
+  background-color: #000000;
+  border-top: 3px solid #ff0000;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.appFooter p {
+  color: #cccccc;
+  margin: 10px 0;
+}
+
+.disclaimer {
+  font-size: 0.85rem !important;
+  color: #888888 !important;
+  font-style: italic;
+  max-width: 800px;
+  margin: 15px auto !important;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #333333;
+}
+
+.footerLinks button {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footerLinks button:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .logoSection h1 {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .missionSection,
+  .searchBarSection {
+    padding: 20px;
+  }
+
+  .searchBarContainer {
+    flex-direction: column;
+  }
+
+  .searchBarButton {
+    width: 100%;
+  }
+
+  .accessGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .topicsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featuresGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footerLinks button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoSection h1 {
+    font-size: 1.5rem;
+  }
+
+  .topicsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaSection {
+    padding: 30px 20px;
+  }
+
+  .ctaSection h2 {
+    font-size: 1.8rem;
+  }
+
+  .ctaButton {
+    padding: 15px 30px;
+    font-size: 1rem;
+  }
+}

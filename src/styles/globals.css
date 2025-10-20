@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  color: #FFFFFF;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#__next {
+  min-height: 100vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0.5in 10px;
+}
+
+/* Consistent Button Styling */
+button,
+.button,
+a.button {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+button:hover,
+.button:hover,
+a.button:hover {
+  background-color: #CC0000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+}
+
+button:active,
+.button:active,
+a.button:active {
+  transform: translateY(0);
+}
+
+button:disabled {
+  background-color: #666666;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Links */
+a {
+  color: #FF0000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* Input Fields */
+input,
+textarea,
+select {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 2px solid #FF0000;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #FFFFFF;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #888888;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #CC0000;
+}
+
+/* Card Styling */
+.card {
+  background-color: #000000;
+  border: 2px solid #FF0000;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+}
+
+/* Header Styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Paragraph Styling */
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

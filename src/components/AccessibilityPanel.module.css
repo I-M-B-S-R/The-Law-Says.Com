@@ -1,0 +1,291 @@
+/* AccessibilityPanel.module.css */
+
+.floatingBtn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floatingBtn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(102, 126, 234, 0.5);
+}
+
+.floatingBtn:active {
+    transform: scale(0.95);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.panel {
+    position: fixed;
+    bottom: 2rem;
+    right: 6rem;
+    width: 350px;
+    max-height: 80vh;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    z-index: 1002;
+    overflow: hidden;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.panelHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.panelHeader h3 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.closeBtn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.closeBtn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.panelContent {
+    padding: 1.5rem;
+    max-height: calc(80vh - 80px);
+    overflow-y: auto;
+}
+
+.controlGroup {
+    margin-bottom: 1.5rem;
+}
+
+.controlGroup label {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: #2d3748;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.controlBtn {
+    flex: 1;
+    background: #f7fafc;
+    border: 2px solid #e2e8f0;
+    color: #4a5568;
+    padding: 0.75rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.controlBtn:hover {
+    background: #edf2f7;
+    border-color: #cbd5e0;
+}
+
+.controlBtn.active {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+}
+
+.controlBtn.large {
+    font-size: 1.2rem;
+}
+
+.toggleBtn {
+    width: 100%;
+    background: #f7fafc;
+    border: 2px solid #e2e8f0;
+    color: #4a5568;
+    padding: 0.75rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.toggleBtn:hover {
+    background: #edf2f7;
+    border-color: #cbd5e0;
+}
+
+.toggleBtn.active {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+}
+
+.infoBox {
+    background: #f0f4ff;
+    border-left: 4px solid #667eea;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.infoIcon {
+    font-size: 2rem;
+    color: #667eea;
+    flex-shrink: 0;
+}
+
+.infoBox h4 {
+    margin: 0 0 0.5rem 0;
+    color: #2d3748;
+    font-size: 1rem;
+}
+
+.infoBox p {
+    margin: 0;
+    color: #4a5568;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.shortcutsBox {
+    background: #f7fafc;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.shortcutsBox h4 {
+    margin: 0 0 0.75rem 0;
+    color: #2d3748;
+    font-size: 1rem;
+}
+
+.shortcutsBox ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.shortcutsBox li {
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+    font-size: 0.9rem;
+}
+
+.shortcutsBox kbd {
+    background: white;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    font-family: monospace;
+    font-size: 0.85rem;
+    color: #2d3748;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* High Contrast Mode */
+:global(body.high-contrast) {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+:global(body.high-contrast) * {
+    background: #000 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+:global(body.high-contrast) a {
+    color: #ffff00 !important;
+}
+
+:global(body.high-contrast) button {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .panel {
+        bottom: 1rem;
+        right: 1rem;
+        left: 1rem;
+        width: auto;
+    }
+
+    .floatingBtn {
+        bottom: 1rem;
+        right: 1rem;
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .panelContent {
+        padding: 1rem;
+    }
+
+    .controlBtn {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
