@@ -48,7 +48,7 @@ export default function TranslatePage() {
             <div className="flex flex-col gap-4">
               <Button
                 size="lg"
-                className="h-16 w-full font-bold border-destructive"
+                className="h-16 w-full border border-destructive font-bold"
                 variant="outline"
               >
                 English
