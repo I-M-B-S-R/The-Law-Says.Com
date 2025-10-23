@@ -34,18 +34,18 @@ const HomePage = () => {
         </header>
 
         <ScrollArea className="flex-grow">
-          <main className="p-4">
-            <div className="mb-6 flex justify-center">
+          <main className="space-y-6 p-4">
+            <div className="rounded-lg border border-destructive p-4">
               <Image
-                src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=http://the-law-says.com"
+                src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=http://the-law-says.com"
                 alt="QR Code for The-Law-Says.Com"
-                width={250}
-                height={250}
-                className="rounded-lg shadow-md"
+                width={400}
+                height={400}
+                className="h-full w-full rounded-lg shadow-md"
               />
             </div>
 
-            <div className="mb-6 grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4">
               <Button asChild size="lg" className="h-auto" variant="destructive">
                 <Link href="/translate" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
@@ -75,7 +75,7 @@ const HomePage = () => {
 
             <div className="space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
               <h2 className="mb-3 text-center text-2xl font-semibold text-foreground">Our Mission</h2>
-              <div className="prose max-w-none dark:prose-invert space-y-4 text-justify text-foreground">
+              <div className="prose max-w-none prose-p:text-foreground dark:prose-invert space-y-4 text-justify">
                 <p>
                   Our Mission Is To Provide Every Adult Living In Or Passing Through The United States Of America Or One Of The States Contained Therein, Including There Countys, Municipalities, Or Tribes, With The Most Comprehensive, Quick Reference Mobile App And Legal Research Platform Ever Built! It Has <strong>"AUTHENTIC, VERIFIED, AND REGULARLY UPDATED CONTENT FROM OFFICIAL GOVERNMENT SOURCES"!</strong> It Will Allow All Persons Using This APP To Understand Their <strong>RIGHTS, AND THEIR OBLIGATIONS, AS PRESCRIBED BY LAW.</strong> The Laws That Govern All Of Us Who Reside In, Or Who Are Passing Through, "The United States Of America".
                 </p>
