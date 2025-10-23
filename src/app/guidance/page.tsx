@@ -186,13 +186,13 @@ export default function GuidancePage() {
             </p>
           </div>
           <div className="order-1 flex w-full justify-center sm:order-2 sm:w-auto">
-            <div className="flex h-12 w-full max-w-xs items-center rounded-md border border-input">
+            <div className="flex h-14 w-full max-w-xs items-center rounded-md border border-input">
               <button
                 onClick={() => router.back()}
                 className="flex h-full flex-1 items-center justify-center rounded-l-md hover:bg-accent hover:text-accent-foreground"
                 aria-label="Go back"
               >
-                <ArrowLeft className="h-6 w-6" />
+                <ArrowLeft className="h-8 w-8" />
               </button>
               <div className="h-full w-px bg-border"></div>
               <button
@@ -200,7 +200,7 @@ export default function GuidancePage() {
                 className="flex h-full flex-1 items-center justify-center rounded-r-md hover:bg-accent hover:text-accent-foreground"
                 aria-label="Go forward"
               >
-                <ArrowRight className="h-6 w-6" />
+                <ArrowRight className="h-8 w-8" />
               </button>
             </div>
           </div>
