@@ -32,10 +32,12 @@ const UI_TEXT_ORIGINAL: Record<string, string> = {
 const HomePage = () => {
   const { isSpeaking, speak, stop } = useTextToSpeech();
   const router = useRouter();
-  const { language, translate, isTranslating } = useLanguage();
+  const { language, translate, isTranslating: isLanguageContextTranslating } = useLanguage();
 
   const [missionStatement, setMissionStatement] = useState(MISSION_STATEMENT_ORIGINAL);
   const [uiText, setUiText] = useState(UI_TEXT_ORIGINAL);
+
+  const isTranslating = isLanguageContextTranslating;
 
   useEffect(() => {
     const translateContent = async () => {
