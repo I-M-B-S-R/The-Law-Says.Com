@@ -60,8 +60,7 @@ const HomePage = () => {
 
               <Button asChild size="lg" className="h-16" variant="destructive">
                 <Link href="/guidance" className="flex items-center justify-center">
-                  <BookOpen className="mr-2 h-5 w-5" />
-                  Ask a Lawyer
+                  Federal Laws
                 </Link>
               </Button>
 
