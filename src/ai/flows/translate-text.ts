@@ -48,5 +48,3 @@ const translateTextFlow = ai.defineFlow(
     return output!;
   }
 );
-
-    
