@@ -1,4 +1,3 @@
-// Add this directive at the top for client-side interactivity (hooks, event handlers)
 "use client";
 
 import React from 'react';
@@ -8,16 +7,14 @@ import { useRouter } from 'next/navigation';
 import { Languages, AudioLines, ArrowLeft, ArrowRight, BookOpen, Map } from 'lucide-react';
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
 
-// Define the HomePage component
 const HomePage = () => {
   const { isSpeaking, speak, stop } = useTextToSpeech();
   const router = useRouter();
 
   const contentToRead = `
     Translate. Listen. Federal Laws. States. Our Mission: Our Mission Is To Provide Every Adult Living In Or Passing Through The United States Of America Or One Of The States Contained Therein...
-  `; // Simplified text for speech for now
+  `;
 
   const handleListenClick = () => {
     if (isSpeaking) {
@@ -27,7 +24,6 @@ const HomePage = () => {
     }
   };
 
-  // Return JSX, no <Layout> wrapper needed
   return (
     <div className="flex min-h-screen flex-col items-center bg-background text-foreground px-2.5 py-8 md:px-5">
       <header className="w-full max-w-lg py-4 px-5 bg-card border-b text-center font-bold text-xl mb-4 rounded-t-lg shadow-md">
@@ -35,7 +31,6 @@ const HomePage = () => {
       </header>
 
       <main className="w-full max-w-lg flex-grow p-4 bg-card border-x border-b rounded-b-lg shadow-md overflow-y-auto">
-        {/* QR Code */}
         <div className="flex justify-center mb-6">
           <Image
             src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=http://the-law-says.com"
@@ -46,7 +41,6 @@ const HomePage = () => {
           />
         </div>
 
-        {/* Action Buttons */}
         <div className="grid grid-cols-2 gap-4 mb-6">
           <Button asChild size="lg" className="h-auto">
             <Link href="/translate" className="flex items-center justify-center">
@@ -75,7 +69,6 @@ const HomePage = () => {
           </Button>
         </div>
 
-        {/* Mission Statement */}
         <div className="border rounded-lg p-4 shadow-md">
           <h2 className="text-2xl font-semibold mb-3 text-center text-foreground">Our Mission</h2>
           <div className="prose dark:prose-invert max-w-none text-muted-foreground space-y-4 text-justify">
@@ -103,10 +96,10 @@ const HomePage = () => {
 
       <footer className="w-full max-w-lg pt-4 mt-4 border-t">
         <div className="flex justify-between mb-2">
-          <Button variant="default" onClick={() => router.back()}>
+          <Button variant="outline" size="icon" onClick={() => router.back()}>
             <ArrowLeft />
           </Button>
-          <Button variant="default" onClick={() => router.forward()}>
+          <Button variant="outline" size="icon" onClick={() => router.forward()}>
             <ArrowRight />
           </Button>
         </div>
