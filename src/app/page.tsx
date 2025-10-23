@@ -5,7 +5,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Languages, AudioLines, ArrowLeft, ArrowRight, BookOpen, Map } from 'lucide-react';
+import { Languages, AudioLines, ArrowLeft, ArrowRight } from 'lucide-react';
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -100,13 +100,13 @@ const HomePage = () => {
         <footer className="flex-shrink-0 bg-destructive p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
             <button onClick={() => router.back()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go back">
-              <ArrowLeft strokeWidth={3} className="h-12 w-12" />
+              <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
             <p className="text-center text-xs">
               &copy; 2025 The-Law-Says.Com
             </p>
             <button onClick={() => router.forward()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go forward">
-              <ArrowRight strokeWidth={3} className="h-12 w-12" />
+              <ArrowRight strokeWidth={3} className="h-8 w-8" />
             </button>
           </div>
         </footer>

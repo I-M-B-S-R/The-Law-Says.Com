@@ -192,7 +192,7 @@ export default function GuidancePage() {
                 className="flex h-full flex-1 items-center justify-center rounded-l-md hover:bg-accent hover:text-accent-foreground"
                 aria-label="Go back"
               >
-                <ArrowLeft className="h-8 w-8" />
+                <ArrowLeft className="h-6 w-6" />
               </button>
               <div className="h-full w-px bg-border"></div>
               <button
@@ -200,7 +200,7 @@ export default function GuidancePage() {
                 className="flex h-full flex-1 items-center justify-center rounded-r-md hover:bg-accent hover:text-accent-foreground"
                 aria-label="Go forward"
               >
-                <ArrowRight className="h-8 w-8" />
+                <ArrowRight className="h-6 w-6" />
               </button>
             </div>
           </div>
