@@ -31,12 +31,12 @@ export default function TranslatePage() {
         </header>
 
         <div className="flex-shrink-0 p-4">
-          <div className="relative">
+          <div className="relative rounded-lg border border-destructive">
             <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
             <Input
               type="text"
               placeholder="Search for a language..."
-              className="h-16 w-full pl-10 text-lg"
+              className="h-16 w-full rounded-lg border-0 bg-transparent pl-10 text-lg"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
@@ -48,7 +48,7 @@ export default function TranslatePage() {
             <div className="flex flex-col gap-4">
               <Button
                 size="lg"
-                className="h-16 w-full font-bold"
+                className="h-16 w-full font-bold border-destructive"
                 variant="outline"
               >
                 English
