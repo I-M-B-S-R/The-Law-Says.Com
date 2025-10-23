@@ -56,13 +56,9 @@ const HomePage = () => {
       }
       setUiText(translatedUi);
     };
+    
+    translateContent();
 
-    if (language !== 'English') {
-        translateContent();
-    } else {
-        setMissionStatement(MISSION_STATEMENT_ORIGINAL);
-        setUiText(UI_TEXT_ORIGINAL);
-    }
   }, [language, translate]);
 
   const contentToRead = `
@@ -171,5 +167,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-    
