@@ -41,13 +41,13 @@ const HomePage = () => {
                 alt="QR Code for The-Law-Says.Com"
                 width={400}
                 height={400}
-                className="h-full w-full rounded-lg shadow-md"
+                className="h-full w-full rounded-lg border-4 border-white"
               />
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               <Button asChild size="lg" className="h-auto" variant="destructive">
-                <Link href="/translate" className="flex items-center justify-center">
+                <Link href="/guidance" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
                   Translate
                 </Link>
@@ -66,7 +66,7 @@ const HomePage = () => {
               </Button>
 
               <Button asChild size="lg" className="h-auto" variant="destructive">
-                <Link href="/states" className="flex items-center justify-center">
+                <Link href="/guidance" className="flex items-center justify-center">
                   <Map className="mr-2 h-5 w-5" />
                   States
                 </Link>
