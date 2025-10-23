@@ -68,7 +68,7 @@ export default function GuidancePage() {
   }
 
   return (
-    <main className="min-h-screen bg-background text-foreground">
+    <div className="flex min-h-screen flex-col bg-background text-foreground">
       <header className="sticky top-0 z-10 border-b bg-background/80 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link href="/" className="font-headline text-xl font-bold">
@@ -77,102 +77,111 @@ export default function GuidancePage() {
         </div>
       </header>
 
-      <div className="container mx-auto grid grid-cols-1 gap-8 p-4 md:grid-cols-2 md:p-8">
-        <Card>
-          <CardHeader>
-            <CardTitle>Ask a Legal Question</CardTitle>
-            <CardDescription>
-              Select your jurisdiction and ask a question to get AI-powered legal guidance.
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Form {...form}>
-              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                <FormField
-                  control={form.control}
-                  name="jurisdiction"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Jurisdiction</FormLabel>
-                      <Select onValueChange={field.onChange} defaultValue={field.value}>
+      <main className="flex-grow">
+        <div className="container mx-auto grid grid-cols-1 gap-8 p-4 md:grid-cols-2 md:p-8">
+          <Card>
+            <CardHeader>
+              <CardTitle>Ask a Legal Question</CardTitle>
+              <CardDescription>
+                Select your jurisdiction and ask a question to get AI-powered legal guidance.
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Form {...form}>
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                  <FormField
+                    control={form.control}
+                    name="jurisdiction"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>Jurisdiction</FormLabel>
+                        <Select onValueChange={field.onChange} defaultValue={field.value}>
+                          <FormControl>
+                            <SelectTrigger>
+                              <SelectValue placeholder="Select your state, county, or municipality" />
+                            </SelectTrigger>
+                          </FormControl>
+                          <SelectContent>
+                            {JURISDICTIONS.map((j) => (
+                              <SelectItem key={j} value={j}>
+                                {j}
+                              </SelectItem>
+                            ))}
+                          </SelectContent>
+                        </Select>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                  <FormField
+                    control={form.control}
+                    name="legalQuestion"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>Your Question</FormLabel>
                         <FormControl>
-                          <SelectTrigger>
-                            <SelectValue placeholder="Select your state, county, or municipality" />
-                          </SelectTrigger>
+                          <Textarea
+                            placeholder="e.g., What are my rights as a tenant if my landlord wants to evict me?"
+                            {...field}
+                            rows={5}
+                          />
                         </FormControl>
-                        <SelectContent>
-                          {JURISDICTIONS.map((j) => (
-                            <SelectItem key={j} value={j}>
-                              {j}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                <FormField
-                  control={form.control}
-                  name="legalQuestion"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Your Question</FormLabel>
-                      <FormControl>
-                        <Textarea
-                          placeholder="e.g., What are my rights as a tenant if my landlord wants to evict me?"
-                          {...field}
-                          rows={5}
-                        />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                <Button type="submit" disabled={isLoading} className="w-full">
-                  {isLoading ? (
-                    <>
-                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                      Getting Guidance...
-                    </>
-                  ) : (
-                    <>
-                      <Send className="mr-2 h-4 w-4" />
-                      Get Guidance
-                    </>
-                  )}
-                </Button>
-              </form>
-            </Form>
-          </CardContent>
-        </Card>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                  <Button type="submit" disabled={isLoading} className="w-full">
+                    {isLoading ? (
+                      <>
+                        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                        Getting Guidance...
+                      </>
+                    ) : (
+                      <>
+                        <Send className="mr-2 h-4 w-4" />
+                        Get Guidance
+                      </>
+                    )}
+                  </Button>
+                </form>
+              </Form>
+            </CardContent>
+          </Card>
 
-        <Card className="flex flex-col">
-          <CardHeader>
-            <CardTitle>Legal Guidance</CardTitle>
-            <CardDescription>
-              The AI's response will appear here.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="flex-grow">
-            {isLoading && (
-              <div className="flex h-full items-center justify-center">
-                <Loader2 className="h-12 w-12 animate-spin text-primary" />
-              </div>
-            )}
-            {guidance && (
-              <div className="prose prose-sm max-w-none dark:prose-invert">
-                <p>{guidance.guidance}</p>
-              </div>
-            )}
-            {!isLoading && !guidance && (
-               <div className="flex h-full items-center justify-center text-center text-muted-foreground">
-                 <p>Your legal guidance will be displayed here once generated.</p>
-               </div>
-            )}
-          </CardContent>
-        </Card>
-      </div>
-    </main>
+          <Card className="flex flex-col">
+            <CardHeader>
+              <CardTitle>Legal Guidance</CardTitle>
+              <CardDescription>
+                The AI's response will appear here.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="flex-grow">
+              {isLoading && (
+                <div className="flex h-full items-center justify-center">
+                  <Loader2 className="h-12 w-12 animate-spin text-primary" />
+                </div>
+              )}
+              {guidance && (
+                <div className="prose prose-sm max-w-none dark:prose-invert">
+                  <p>{guidance.guidance}</p>
+                </div>
+              )}
+              {!isLoading && !guidance && (
+                <div className="flex h-full items-center justify-center text-center text-muted-foreground">
+                  <p>Your legal guidance will be displayed here once generated.</p>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        </div>
+      </main>
+      <footer className="border-t bg-background/80">
+        <div className="container mx-auto flex h-16 items-center justify-center px-4">
+          <p className="text-center text-sm text-muted-foreground">
+            © {new Date().getFullYear()} The-Law-Says.Com. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
   );
 }
