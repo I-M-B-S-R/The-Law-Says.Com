@@ -5,7 +5,8 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Languages, AudioLines, ArrowLeft, ArrowRight } from 'lucide-react';
+import { Languages, AudioLines } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -47,7 +48,7 @@ const HomePage = () => {
 
             <div className="flex flex-col gap-4">
               <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
-                <Link href="/guidance" className="flex items-center justify-center">
+                <Link href="/translate" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
                   Translate
                 </Link>
