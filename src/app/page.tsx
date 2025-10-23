@@ -47,7 +47,7 @@ const HomePage = () => {
 
             <div className="flex flex-col gap-4">
               <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
-                <Link href="/language-select" className="flex items-center justify-center">
+                <Link href="/translate" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
                   Translate
                 </Link>
@@ -124,5 +124,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-    
