@@ -10,18 +10,21 @@ import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { LANGUAGES } from '@/lib/languages';
 import { useToast } from '@/hooks/use-toast';
+import { useLanguage } from '@/context/language-context';
 
 export default function LanguageSelectPage() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState('');
   const { toast } = useToast();
+  const { setLanguage } = useLanguage();
 
   const handleLanguageSelect = (language: string) => {
+    setLanguage(language);
     toast({
       title: 'Language Selected',
       description: `The site language has been set to ${language}.`,
     });
-    // The actual translation logic will be implemented in a future step.
+    router.push('/');
   };
 
   const filteredLanguages = useMemo(() => {
@@ -104,5 +107,3 @@ export default function LanguageSelectPage() {
     </div>
   );
 }
-
-    

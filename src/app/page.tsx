@@ -1,7 +1,7 @@
 
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
@@ -9,35 +9,63 @@ import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2 } from 'lucide-re
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { useToast } from '@/hooks/use-toast';
-import { translateTextAction } from './actions';
+import { useLanguage } from '@/context/language-context';
 
-const MISSION_STATEMENT_ORIGINAL = [
-  `Our Mission Is To Provide Every Adult Living In Or Passing Through The United States Of America Or One Of The States Contained Therein, Including There Countys, Municipalities, Or Tribes, With The Most Comprehensive, Quick Reference Mobile App And Legal Research Platform Ever Built! It Has <strong>"AUTHENTIC, VERIFIED, AND REGULARLY UPDATED CONTENT FROM OFFICIAL GOVERNMENT SOURCES"!</strong> It Will Allow All Persons Using This APP To Understand Their <strong>RIGHTS, AND THEIR OBLIGATIONS, AS PRESCRIBED BY LAW.</strong> The Laws That Govern All Of Us Who Reside In, Or Who Are Passing Through, "The United States Of America".`,
-  `It Is Our Belief That Most Disagreements Can Be Settled Simply By People "Knowing What The Laws Say, How Judges Have Interpreted Those Laws In The Past, And Are Likely To Interpret Them In Their Particular Case, And How Their Decisions Have Been Documented In (Case Law), And Again, What Their Rights and Obligations Are Under Law, That We All Have To Each Other, And To Those Authorities That Have Been Placed Above Us When We Are In, Or Passing Through Their Districts, As Prescribed By Law"!`,
-  `In The Past People Had To Rely On Legal Advice Provided By Lawyers In Making Their Decisions, But The SimpleFact Of The Matter Is Most People Cannot Afford A Lawyer's Advice! So, They Called The Police To Settle These Disagreements, The Problem With That Is The Police May Not Know What The Laws Are Themselves, That Deal With The Disagreement That The People Are Having!`,
-  `And Unfortunately, When The Police Don't Know The Laws Themselves They Can Be Influenced Not By The Laws Themselves, But By The Perceived Finances Or Political Standing That 1 Party May Have Over The Other In Their Decision Making! <strong>"THATS NOT JUSTICE!"</strong>`,
-  `The Other Thing The Police Do Is To Tell People To Go To Court To Settle The Matter, And <strong class="text-destructive">"IF YOU NEED TO GO TO COURT, YOU WILL NEED A LAWYER!"</strong> A Lawyer That Most People Cannot Afford! So, They End Up Forfeiting Their Rights Are Not Proving True To Their Obligations As Prescribed By Law! <strong>"THATS NOT JUSTICE EATHER!"</strong>`,
-  `It Is Our Hope That By People Using "The Arizona Law Quick Reference Mobile App", people will understand their "Rights and their Obligations" As Prescribed By Law. The Laws That Govern All Of Us Who Reside In Or Who Are Passing Through The 131 Districts That Are In "The Great State Of Arizona" Educating Them To Be Better Law Abiding Citizens Who Can Settle Disagreements Peacefully, And Legally, Even If They're Reading Ability Is Very Limited, They Can Listen To The Information, Without The Need Of The Police, Paralegals, Lawyers, Or Our Court System, Or Even Our Lawmakers!`
-];
+const MISSION_STATEMENT_ORIGINAL: Record<string, string[]> = {
+  English: [
+    `Our Mission Is To Provide Every Adult Living In Or Passing Through The United States Of America Or One Of The States Contained Therein, Including There Countys, Municipalities, Or Tribes, With The Most Comprehensive, Quick Reference Mobile App And Legal Research Platform Ever Built! It Has <strong>"AUTHENTIC, VERIFIED, AND REGULARLY UPDATED CONTENT FROM OFFICIAL GOVERNMENT SOURCES"!</strong> It Will Allow All Persons Using This APP To Understand Their <strong>RIGHTS, AND THEIR OBLIGATIONS, AS PRESCRIBED BY LAW.</strong> The Laws That Govern All Of Us Who Reside In, Or Who Are Passing Through, "The United States Of America".`,
+    `It Is Our Belief That Most Disagreements Can Be Settled Simply By People "Knowing What The Laws Say, How Judges Have Interpreted Those Laws In The Past, And Are Likely To Interpret Them In Their Particular Case, And How Their Decisions Have Been Documented In (Case Law), And Again, What Their Rights and Obligations Are Under Law, That We All Have To Each Other, And To Those Authorities That Have Been Placed Above Us When We Are In, Or Passing Through Their Districts, As Prescribed By Law"!`,
+    `In The Past People Had To Rely On Legal Advice Provided By Lawyers In Making Their Decisions, But The SimpleFact Of The Matter Is Most People Cannot Afford A Lawyer's Advice! So, They Called The Police To Settle These Disagreements, The Problem With That Is The Police May Not Know What The Laws Are Themselves, That Deal With The Disagreement That The People Are Having!`,
+    `And Unfortunately, When The Police Don't Know The Laws Themselves They Can Be Influenced Not By The Laws Themselves, But By The Perceived Finances Or Political Standing That 1 Party May Have Over The Other In Their Decision Making! <strong>"THATS NOT JUSTICE!"</strong>`,
+    `The Other Thing The Police Do Is To Tell People To Go To Court To Settle The Matter, And <strong class="text-destructive">"IF YOU NEED TO GO TO COURT, YOU WILL NEED A LAWYER!"</strong> A Lawyer That Most People Cannot Afford! So, They End Up Forfeiting Their Rights Are Not Proving True To Their Obligations As Prescribed By Law! <strong>"THATS NOT JUSTICE EATHER!"</strong>`,
+    `It Is Our Hope That By People Using "The Arizona Law Quick Reference Mobile App", people will understand their "Rights and their Obligations" As Prescribed By Law. The Laws That Govern All Of Us Who Reside In Or Who Are Passing Through The 131 Districts That Are In "The Great State Of Arizona" Educating Them To Be Better Law Abiding Citizens Who Can Settle Disagreements Peacefully, And Legally, Even If They're Reading Ability Is Very Limited, They Can Listen To The Information, Without The Need Of The Police, Paralegals, Lawyers, Or Our Court System, Or Even Our Lawmakers!`
+  ]
+};
 
+const UI_TEXT_ORIGINAL: Record<string, Record<string, string>> = {
+  English: {
+    translate: 'Translate',
+    listen: 'Listen',
+    stop: 'Stop',
+    federalLaws: 'Federal Laws',
+    states: 'States',
+    ourMission: 'Our Mission'
+  }
+};
 
 const HomePage = () => {
   const { isSpeaking, speak, stop } = useTextToSpeech();
   const router = useRouter();
-  const { toast } = useToast();
-  const [missionStatement, setMissionStatement] = useState(MISSION_STATEMENT_ORIGINAL);
-  const [isTranslating, setIsTranslating] = useState(false);
-  const [currentLanguage, setCurrentLanguage] = useState('English');
+  const { language, translate, isTranslating } = useLanguage();
+
+  const [missionStatement, setMissionStatement] = useState(MISSION_STATEMENT_ORIGINAL.English);
+  const [uiText, setUiText] = useState(UI_TEXT_ORIGINAL.English);
+
+  useEffect(() => {
+    const translateContent = async () => {
+      if (language === 'English') {
+        setMissionStatement(MISSION_STATEMENT_ORIGINAL.English);
+        setUiText(UI_TEXT_ORIGINAL.English);
+        return;
+      }
+
+      const translatedMission = await Promise.all(
+        MISSION_STATEMENT_ORIGINAL.English.map(p => translate(p, language))
+      );
+      setMissionStatement(translatedMission);
+
+      const translatedUi: Record<string, string> = {};
+      for (const key in UI_TEXT_ORIGINAL.English) {
+        translatedUi[key] = await translate(UI_TEXT_ORIGINAL.English[key], language);
+      }
+      setUiText(translatedUi);
+    };
+
+    translateContent();
+  }, [language, translate]);
 
   const contentToRead = `
-    Translate. Listen. Federal Laws. States. Our Mission: ${missionStatement.join(' ')}
+    ${uiText.translate}. ${uiText.listen}. ${uiText.federalLaws}. ${uiText.states}. ${uiText.ourMission}: ${missionStatement.join(' ')}
   `;
 
   const handleListenClick = () => {
@@ -45,54 +73,6 @@ const HomePage = () => {
       stop();
     } else {
       speak(contentToRead);
-    }
-  };
-
-  const handleLanguageChange = async (language: string) => {
-    if (language === 'English') {
-      setMissionStatement(MISSION_STATEMENT_ORIGINAL);
-      setCurrentLanguage('English');
-      return;
-    }
-
-    setIsTranslating(true);
-    setCurrentLanguage(language);
-    
-    try {
-      const translationPromises = MISSION_STATEMENT_ORIGINAL.map(paragraph => 
-        translateTextAction({ textToTranslate: paragraph, targetLanguage: language })
-      );
-      
-      const results = await Promise.all(translationPromises);
-      
-      const translatedParagraphs = results.map((result, index) => {
-        if (result.success && result.data) {
-          return result.data.translatedText;
-        } else {
-          // Fallback to original text if translation fails
-          toast({
-            variant: "destructive",
-            title: "Translation Error",
-            description: `Could not translate a paragraph to ${language}.`,
-          });
-          return MISSION_STATEMENT_ORIGINAL[index];
-        }
-      });
-
-      setMissionStatement(translatedParagraphs);
-
-    } catch (error) {
-      console.error("Translation failed:", error);
-      toast({
-        variant: "destructive",
-        title: "Error",
-        description: "An unexpected error occurred during translation.",
-      });
-      // Revert to original text on error
-      setMissionStatement(MISSION_STATEMENT_ORIGINAL);
-      setCurrentLanguage('English');
-    } finally {
-      setIsTranslating(false);
     }
   };
 
@@ -120,48 +100,36 @@ const HomePage = () => {
               <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
                 <Link href="/translate" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
-                  Translate
+                  {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.translate}
                 </Link>
               </Button>
 
               <Button size="lg" onClick={handleListenClick} className="h-16 font-bold" variant="destructive">
                 <AudioLines className="mr-2 h-5 w-5" />
-                {isSpeaking ? 'Stop' : 'Listen'}
+                 {isSpeaking ? uiText.stop : uiText.listen}
               </Button>
 
               <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
                 <Link href="/guidance" className="flex items-center justify-center">
-                  Federal Laws
+                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.federalLaws}
                 </Link>
               </Button>
 
               <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
                 <Link href="/guidance" className="flex items-center justify-center">
-                  States
+                  {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.states}
                 </Link>
               </Button>
             </div>
 
             <div className="space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
               <div className="flex items-center justify-between">
-                <h2 className="text-center text-2xl font-semibold text-foreground">Our Mission</h2>
-                <DropdownMenu>
-                  <DropdownMenuTrigger asChild>
-                    <Button variant="outline" className="w-32" disabled={isTranslating}>
-                      {isTranslating ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Languages className="mr-2 h-4 w-4" />}
-                      {currentLanguage}
-                    </Button>
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent>
-                    <DropdownMenuItem onSelect={() => handleLanguageChange('English')}>English</DropdownMenuItem>
-                    <DropdownMenuItem onSelect={() => handleLanguageChange('Spanish')}>Spanish</DropdownMenuItem>
-                    <DropdownMenuItem onSelect={() => handleLanguageChange('French')}>French</DropdownMenuItem>
-                    <DropdownMenuItem onSelect={() => handleLanguageChange('German')}>German</DropdownMenuItem>
-                  </DropdownMenuContent>
-                </DropdownMenu>
+                <h2 className="text-center text-2xl font-semibold text-foreground">
+                  {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.ourMission}
+                </h2>
               </div>
               <div className="prose max-w-none prose-p:text-foreground dark:prose-invert space-y-4 text-justify">
-                {isTranslating ? (
+                {isTranslating && language !== 'English' ? (
                   <div className="flex justify-center items-center h-48">
                     <Loader2 className="h-12 w-12 animate-spin text-primary" />
                   </div>
