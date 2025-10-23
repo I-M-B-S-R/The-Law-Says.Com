@@ -5,8 +5,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Languages, AudioLines } from 'lucide-react';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { Languages, AudioLines, ArrowLeft, ArrowRight } from 'lucide-react';
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -48,7 +47,7 @@ const HomePage = () => {
 
             <div className="flex flex-col gap-4">
               <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
-                <Link href="/translate" className="flex items-center justify-center">
+                <Link href="/language-select" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
                   Translate
                 </Link>
@@ -100,13 +99,21 @@ const HomePage = () => {
 
         <footer className="flex-shrink-0 bg-destructive p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
-            <button onClick={() => router.back()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go back">
+            <button
+              onClick={() => router.back()}
+              className="flex h-12 w-12 items-center justify-center rounded-md p-0 hover:bg-destructive-foreground/10"
+              aria-label="Go back"
+            >
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
             <p className="text-center text-xs">
               &copy; 2025 The-Law-Says.Com
             </p>
-            <button onClick={() => router.forward()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go forward">
+            <button
+              onClick={() => router.forward()}
+              className="flex h-12 w-12 items-center justify-center rounded-md p-0 hover:bg-destructive-foreground/10"
+              aria-label="Go forward"
+            >
               <ArrowRight strokeWidth={3} className="h-8 w-8" />
             </button>
           </div>
@@ -117,3 +124,5 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+    
