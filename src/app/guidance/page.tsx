@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { Loader2, Send } from 'lucide-react';
+import { Loader2, Send, ArrowLeft, ArrowRight } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import {
@@ -41,6 +42,7 @@ export default function GuidancePage() {
   const [guidance, setGuidance] = useState<GetLegalGuidanceOutput | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const { toast } = useToast();
+  const router = useRouter();
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
@@ -68,7 +70,7 @@ export default function GuidancePage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-background text-foreground">
+    <div className="flex min-h-screen flex-col bg-background text-foreground pb-28 md:pb-24">
       <header className="sticky top-0 z-10 border-b bg-background/80 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link href="/" className="font-headline text-xl font-bold">
@@ -175,11 +177,32 @@ export default function GuidancePage() {
           </Card>
         </div>
       </main>
-      <footer className="border-t bg-background/80">
-        <div className="container mx-auto flex h-16 items-center justify-center px-4">
-          <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} The-Law-Says.Com. All Rights Reserved.
-          </p>
+      <footer className="fixed bottom-0 left-0 right-0 z-10 bg-destructive text-destructive-foreground">
+        <div className="container mx-auto flex h-auto flex-col items-center gap-2 p-4 sm:h-24 sm:flex-row sm:justify-between">
+          <div className="order-2 sm:order-1">
+            <p className="text-center text-sm">
+              © 2025 The-law-says.com. All Rights Reserved
+            </p>
+          </div>
+          <div className="order-1 flex w-full justify-center sm:order-2 sm:w-auto">
+            <div className="flex h-10 w-full max-w-xs items-center rounded-md border border-destructive-foreground bg-destructive">
+              <button
+                onClick={() => router.back()}
+                className="flex h-full flex-1 items-center justify-center rounded-l-md hover:bg-white/10"
+                aria-label="Go back"
+              >
+                <ArrowLeft className="h-5 w-5" />
+              </button>
+              <div className="h-full w-px bg-destructive-foreground"></div>
+              <button
+                onClick={() => router.forward()}
+                className="flex h-full flex-1 items-center justify-center rounded-r-md hover:bg-white/10"
+                aria-label="Go forward"
+              >
+                <ArrowRight className="h-5 w-5" />
+              </button>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
