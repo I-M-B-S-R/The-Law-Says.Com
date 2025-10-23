@@ -72,7 +72,7 @@ export default function GuidancePage() {
 
   return (
     <div className="flex min-h-screen flex-col bg-background text-foreground pb-28 md:pb-24">
-      <header className="sticky top-0 z-10 border-b bg-destructive text-destructive-foreground">
+      <header className="sticky top-0 z-10 border-b bg-card text-foreground">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link href="/" className="font-headline text-xl font-bold">
             The-Law-Says.Com
@@ -178,7 +178,7 @@ export default function GuidancePage() {
           </Card>
         </div>
       </main>
-      <footer className="fixed bottom-0 left-0 right-0 z-10 bg-destructive text-destructive-foreground">
+      <footer className="fixed bottom-0 left-0 right-0 z-10 bg-card text-foreground">
         <div className="container mx-auto flex h-auto flex-col items-center gap-2 p-4 sm:h-24 sm:flex-row sm:justify-between">
           <div className="order-2 sm:order-1">
             <p className="text-center text-sm">
@@ -186,18 +186,18 @@ export default function GuidancePage() {
             </p>
           </div>
           <div className="order-1 flex w-full justify-center sm:order-2 sm:w-auto">
-            <div className="flex h-10 w-full max-w-xs items-center rounded-md border border-destructive-foreground bg-destructive">
+            <div className="flex h-10 w-full max-w-xs items-center rounded-md border border-input">
               <button
                 onClick={() => router.back()}
-                className="flex h-full flex-1 items-center justify-center rounded-l-md hover:bg-white/10"
+                className="flex h-full flex-1 items-center justify-center rounded-l-md hover:bg-accent hover:text-accent-foreground"
                 aria-label="Go back"
               >
                 <ArrowLeft className="h-5 w-5" />
               </button>
-              <div className="h-full w-px bg-destructive-foreground"></div>
+              <div className="h-full w-px bg-border"></div>
               <button
                 onClick={() => router.forward()}
-                className="flex h-full flex-1 items-center justify-center rounded-r-md hover:bg-white/10"
+                className="flex h-full flex-1 items-center justify-center rounded-r-md hover:bg-accent hover:text-accent-foreground"
                 aria-label="Go forward"
               >
                 <ArrowRight className="h-5 w-5" />
