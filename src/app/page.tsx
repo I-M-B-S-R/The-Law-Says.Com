@@ -189,7 +189,7 @@ const HomePage = () => {
             </p>
             <button
               onClick={() => router.forward()}
-              className="flex h-12 w-12 items-center justify-center rounded-md p-0 hover:bg-destructive-foreground/10"
+              className="flex h-12 w-12 items-center justify-center rounded-md p-0 hover:bg.destructive-foreground/10"
               aria-label="Go forward"
             >
               <ArrowRight strokeWidth={3} className="h-8 w-8" />
@@ -202,3 +202,5 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+    

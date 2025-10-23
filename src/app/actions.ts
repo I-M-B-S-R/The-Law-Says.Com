@@ -41,3 +41,5 @@ export async function translateTextAction(values: TranslateTextInput) {
         return { success: false, error: 'An unexpected error occurred. Please try again.' };
     }
 }
+
+    

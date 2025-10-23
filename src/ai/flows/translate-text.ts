@@ -29,7 +29,7 @@ const prompt = ai.definePrompt({
   name: 'translateTextPrompt',
   input: {schema: TranslateTextInputSchema},
   output: {schema: TranslateTextOutputSchema},
-  prompt: `Translate the following text into {{{targetLanguage}}}.
+  prompt: `Translate the following text into {{{targetLanguage}}}. Preserve any HTML tags in the text.
 
 Text to translate:
 {{{textToTranslate}}}
@@ -48,3 +48,5 @@ const translateTextFlow = ai.defineFlow(
     return output!;
   }
 );
+
+    
