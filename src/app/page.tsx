@@ -102,13 +102,13 @@ const HomePage = () => {
         <footer className="flex-shrink-0 bg-destructive p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
             <Button variant="ghost" size="icon" onClick={() => router.back()} className="hover:bg-destructive-foreground/10">
-              <ArrowLeft />
+              <ArrowLeft strokeWidth={3} />
             </Button>
             <p className="text-center text-xs">
               &copy; 2025 The-Law-Says.Com
             </p>
             <Button variant="ghost" size="icon" onClick={() => router.forward()} className="hover:bg-destructive-foreground/10">
-              <ArrowRight />
+              <ArrowRight strokeWidth={3} />
             </Button>
           </div>
         </footer>
