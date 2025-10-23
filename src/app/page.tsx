@@ -28,7 +28,7 @@ const HomePage = () => {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[95svh] w-full max-w-sm flex-col rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
+      <div className="flex h-[95svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
         <header className="flex-shrink-0 bg-destructive p-4 text-center text-xl font-bold text-destructive-foreground shadow-md">
           The-Law-Says.Com
         </header>
@@ -73,7 +73,7 @@ const HomePage = () => {
               </Button>
             </div>
 
-            <div className="space-y-4 rounded-lg border p-4 text-justify text-muted-foreground shadow-md">
+            <div className="space-y-4 rounded-lg border border-neutral-700 p-4 text-justify text-muted-foreground shadow-md">
               <h2 className="mb-3 text-center text-2xl font-semibold text-foreground">Our Mission</h2>
               <div className="prose max-w-none dark:prose-invert space-y-4 text-justify text-muted-foreground">
                 <p>
