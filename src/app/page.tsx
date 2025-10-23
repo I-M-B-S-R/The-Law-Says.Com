@@ -46,25 +46,25 @@ const HomePage = () => {
             </div>
 
             <div className="flex flex-col gap-4">
-              <Button asChild size="lg" className="h-16" variant="destructive">
+              <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
                 <Link href="/guidance" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
                   Translate
                 </Link>
               </Button>
 
-              <Button size="lg" onClick={handleListenClick} className="h-16" variant="destructive">
+              <Button size="lg" onClick={handleListenClick} className="h-16 font-bold" variant="destructive">
                 <AudioLines className="mr-2 h-5 w-5" />
                 {isSpeaking ? 'Stop' : 'Listen'}
               </Button>
 
-              <Button asChild size="lg" className="h-16" variant="destructive">
+              <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
                 <Link href="/guidance" className="flex items-center justify-center">
                   Federal Laws
                 </Link>
               </Button>
 
-              <Button asChild size="lg" className="h-16" variant="destructive">
+              <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
                 <Link href="/guidance" className="flex items-center justify-center">
                   States
                 </Link>
