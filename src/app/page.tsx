@@ -28,7 +28,7 @@ const HomePage = () => {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[95svh] w-full max-w-md flex-col rounded-2xl border-4 border-neutral-700 bg-background shadow-2xl">
+      <div className="flex h-[95svh] w-full max-w-sm flex-col rounded-2xl border-4 border-neutral-700 bg-background shadow-2xl">
         <header className="flex-shrink-0 bg-destructive text-destructive-foreground p-4 text-center font-bold text-xl shadow-md">
           The-Law-Says.Com
         </header>
@@ -59,9 +59,9 @@ const HomePage = () => {
               </Button>
 
               <Button asChild size="lg" className="h-auto" variant="destructive">
-                <Link href="/federal" className="flex items-center justify-center">
+                <Link href="/guidance" className="flex items-center justify-center">
                   <BookOpen className="mr-2 h-5 w-5" />
-                  Federal Laws
+                  Ask a Lawyer
                 </Link>
               </Button>
 
