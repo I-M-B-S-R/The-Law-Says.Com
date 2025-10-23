@@ -4,7 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
   title: 'The-Law-Says.Com',
-  description: 'The Law Says',
+  description: 'Quick reference for legal statutes and information',
 };
 
 export default function RootLayout({
