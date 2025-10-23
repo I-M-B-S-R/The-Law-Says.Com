@@ -45,16 +45,33 @@ const HomePage = () => {
         return;
       }
 
-      const translatedMission = await Promise.all(
-        MISSION_STATEMENT_ORIGINAL.map(p => translate(p, language))
-      );
-      setMissionStatement(translatedMission);
+      try {
+        const translatedMissionPromise = Promise.all(
+          MISSION_STATEMENT_ORIGINAL.map(p => translate(p, language))
+        );
 
-      const translatedUi: Record<string, string> = {};
-      for (const key in UI_TEXT_ORIGINAL) {
-        translatedUi[key] = await translate(UI_TEXT_ORIGINAL[key], language);
+        const translatedUiPromise = (async () => {
+          const translatedUi: Record<string, string> = {};
+          for (const key in UI_TEXT_ORIGINAL) {
+            translatedUi[key] = await translate(UI_TEXT_ORIGINAL[key], language);
+          }
+          return translatedUi;
+        })();
+
+        const [translatedMission, translatedUi] = await Promise.all([
+          translatedMissionPromise,
+          translatedUiPromise
+        ]);
+
+        setMissionStatement(translatedMission);
+        setUiText(translatedUi);
+
+      } catch (error) {
+        console.error("Translation failed", error);
+        // Fallback to English on error
+        setMissionStatement(MISSION_STATEMENT_ORIGINAL);
+        setUiText(UI_TEXT_ORIGINAL);
       }
-      setUiText(translatedUi);
     };
     
     translateContent();
