@@ -28,14 +28,14 @@ const HomePage = () => {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[95svh] w-full max-w-sm flex-col rounded-2xl border-4 border-neutral-700 bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-destructive text-destructive-foreground p-4 text-center font-bold text-xl shadow-md">
+      <div className="flex h-[95svh] w-full max-w-sm flex-col rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
+        <header className="flex-shrink-0 bg-destructive p-4 text-center text-xl font-bold text-destructive-foreground shadow-md">
           The-Law-Says.Com
         </header>
 
         <ScrollArea className="flex-grow">
           <main className="p-4">
-            <div className="flex justify-center mb-6">
+            <div className="mb-6 flex justify-center">
               <Image
                 src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=http://the-law-says.com"
                 alt="QR Code for The-Law-Says.Com"
@@ -45,7 +45,7 @@ const HomePage = () => {
               />
             </div>
 
-            <div className="grid grid-cols-2 gap-4 mb-6">
+            <div className="mb-6 grid grid-cols-2 gap-4">
               <Button asChild size="lg" className="h-auto" variant="destructive">
                 <Link href="/translate" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
@@ -73,9 +73,9 @@ const HomePage = () => {
               </Button>
             </div>
 
-            <div className="border rounded-lg p-4 shadow-md">
-              <h2 className="text-2xl font-semibold mb-3 text-center text-foreground">Our Mission</h2>
-              <div className="prose dark:prose-invert max-w-none text-muted-foreground space-y-4 text-justify">
+            <div className="space-y-4 rounded-lg border p-4 text-justify text-muted-foreground shadow-md">
+              <h2 className="mb-3 text-center text-2xl font-semibold text-foreground">Our Mission</h2>
+              <div className="prose max-w-none dark:prose-invert space-y-4 text-justify text-muted-foreground">
                 <p>
                   Our Mission Is To Provide Every Adult Living In Or Passing Through The United States Of America Or One Of The States Contained Therein, Including There Countys, Municipalities, Or Tribes, With The Most Comprehensive, Quick Reference Mobile App And Legal Research Platform Ever Built! It Has <strong>"AUTHENTIC, VERIFIED, AND REGULARLY UPDATED CONTENT FROM OFFICIAL GOVERNMENT SOURCES"!</strong> It Will Allow All Persons Using This APP To Understand Their <strong>RIGHTS, AND THEIR OBLIGATIONS, AS PRESCRIBED BY LAW.</strong> The Laws That Govern All Of Us Who Reside In, Or Who Are Passing Through, "The United States Of America".
                 </p>
@@ -99,8 +99,8 @@ const HomePage = () => {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-destructive text-destructive-foreground p-2">
-          <div className="flex justify-between items-center">
+        <footer className="flex-shrink-0 bg-destructive p-2 text-destructive-foreground">
+          <div className="flex items-center justify-between">
             <Button variant="ghost" size="icon" onClick={() => router.back()} className="hover:bg-destructive-foreground/10">
               <ArrowLeft />
             </Button>
