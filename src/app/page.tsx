@@ -73,9 +73,9 @@ const HomePage = () => {
               </Button>
             </div>
 
-            <div className="space-y-4 rounded-lg border border-neutral-700 p-4 text-justify text-muted-foreground shadow-md">
+            <div className="space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
               <h2 className="mb-3 text-center text-2xl font-semibold text-foreground">Our Mission</h2>
-              <div className="prose max-w-none dark:prose-invert space-y-4 text-justify text-muted-foreground">
+              <div className="prose max-w-none dark:prose-invert space-y-4 text-justify text-foreground">
                 <p>
                   Our Mission Is To Provide Every Adult Living In Or Passing Through The United States Of America Or One Of The States Contained Therein, Including There Countys, Municipalities, Or Tribes, With The Most Comprehensive, Quick Reference Mobile App And Legal Research Platform Ever Built! It Has <strong>"AUTHENTIC, VERIFIED, AND REGULARLY UPDATED CONTENT FROM OFFICIAL GOVERNMENT SOURCES"!</strong> It Will Allow All Persons Using This APP To Understand Their <strong>RIGHTS, AND THEIR OBLIGATIONS, AS PRESCRIBED BY LAW.</strong> The Laws That Govern All Of Us Who Reside In, Or Who Are Passing Through, "The United States Of America".
                 </p>
