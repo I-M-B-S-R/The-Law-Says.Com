@@ -71,7 +71,7 @@ export default function GuidancePage() {
 
   return (
     <div className="flex min-h-screen flex-col bg-background text-foreground pb-28 md:pb-24">
-      <header className="sticky top-0 z-10 border-b bg-background/80 backdrop-blur-sm">
+      <header className="sticky top-0 z-10 border-b bg-destructive text-destructive-foreground">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link href="/" className="font-headline text-xl font-bold">
             The-Law-Says.Com
