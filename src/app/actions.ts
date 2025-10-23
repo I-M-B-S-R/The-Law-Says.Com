@@ -1,6 +1,7 @@
 'use server';
 
 import { getLegalGuidance, type GetLegalGuidanceInput } from '@/ai/flows/get-legal-guidance';
+import { translateText, type TranslateTextInput } from '@/ai/flows/translate-text';
 import { z } from 'zod';
 
 const LegalActionInputSchema = z.object({
@@ -22,4 +23,21 @@ export async function getGuidanceAction(values: GetLegalGuidanceInput) {
   }
 }
 
-    
+const TranslateActionInputSchema = z.object({
+    textToTranslate: z.string(),
+    targetLanguage: z.string(),
+});
+
+export async function translateTextAction(values: TranslateTextInput) {
+    try {
+        const validatedInput = TranslateActionInputSchema.parse(values);
+        const result = await translateText(validatedInput);
+        return { success: true, data: result };
+    } catch (error) {
+        if (error instanceof z.ZodError) {
+            return { success: false, error: error.errors.map(e => e.message).join(', ') };
+        }
+        console.error('Error translating text:', error);
+        return { success: false, error: 'An unexpected error occurred. Please try again.' };
+    }
+}
