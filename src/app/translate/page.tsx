@@ -9,10 +9,20 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { LANGUAGES } from '@/lib/languages';
+import { useToast } from '@/hooks/use-toast';
 
 export default function TranslatePage() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState('');
+  const { toast } = useToast();
+
+  const handleLanguageSelect = (language: string) => {
+    toast({
+      title: 'Language Selected',
+      description: `The site language has been set to ${language}.`,
+    });
+    // The actual translation logic will be implemented in a future step.
+  };
 
   const filteredLanguages = useMemo(() => {
     if (!searchQuery) {
@@ -50,6 +60,7 @@ export default function TranslatePage() {
                 size="lg"
                 className="h-16 w-full border border-destructive font-bold"
                 variant="outline"
+                onClick={() => handleLanguageSelect('English')}
               >
                 English
               </Button>
@@ -59,6 +70,7 @@ export default function TranslatePage() {
                   size="lg"
                   className="h-16 w-full font-bold"
                   variant="destructive"
+                  onClick={() => handleLanguageSelect(language)}
                 >
                   {language}
                 </Button>
