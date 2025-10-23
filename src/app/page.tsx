@@ -81,8 +81,8 @@ const HomePage = () => {
   }, [language, translate]);
 
   const contentToRead = `
-    ${uiText.translate}. ${uiText.listen}. ${uiText.federalLaws}. ${uiText.states}. ${uiText.ourMission}: ${missionStatement.join(' ')}
-  `;
+    ${uiText.ourMission}: ${missionStatement.join(' ')}
+  `.replace(/<[^>]*>/g, '');
 
   const handleListenClick = () => {
     if (isSpeaking) {
@@ -186,5 +186,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-    
