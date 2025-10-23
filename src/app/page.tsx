@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from 'react';
@@ -27,7 +28,7 @@ const HomePage = () => {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[95svh] w-full max-w-4xl flex-col rounded-2xl border-4 border-neutral-700 bg-background shadow-2xl">
+      <div className="flex h-[95svh] w-full max-w-lg flex-col rounded-2xl border-4 border-neutral-700 bg-background shadow-2xl">
         <header className="flex-shrink-0 bg-destructive text-destructive-foreground p-4 text-center font-bold text-xl shadow-md">
           The-Law-Says.Com
         </header>
