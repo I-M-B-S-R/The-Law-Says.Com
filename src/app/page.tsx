@@ -99,15 +99,15 @@ const HomePage = () => {
 
         <footer className="flex-shrink-0 bg-destructive p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
-            <Button variant="ghost" onClick={() => router.back()} className="h-12 w-12 p-0 hover:bg-destructive-foreground/10">
-              <ArrowLeft strokeWidth={3} className="h-8 w-8" />
-            </Button>
+            <button onClick={() => router.back()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go back">
+              <ArrowLeft strokeWidth={3} className="h-12 w-12" />
+            </button>
             <p className="text-center text-xs">
               &copy; 2025 The-Law-Says.Com
             </p>
-            <Button variant="ghost" onClick={() => router.forward()} className="h-12 w-12 p-0 hover:bg-destructive-foreground/10">
-              <ArrowRight strokeWidth={3} className="h-8 w-8" />
-            </Button>
+            <button onClick={() => router.forward()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go forward">
+              <ArrowRight strokeWidth={3} className="h-12 w-12" />
+            </button>
           </div>
         </footer>
       </div>
