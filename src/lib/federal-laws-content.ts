@@ -95,26 +95,26 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To ensure that people with disabilities are protected from discrimination and have the same rights and opportunities as everyone else. The ADA is intended to guarantee that people with disabilities have equal opportunities to participate in the mainstream of American life — to enjoy employment opportunities, to purchase goods and services, and to participate in State and local government programs and services."
   },
   '5': {
-    summary: "The Animal Welfare Act of 1966 (AWA), found at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title7/USCODE-2021-title7-chap54' target='_blank' rel='noopener noreferrer' class='text-primary underline'>7 U.S.C. Chapter 54</a>, is the primary federal law in the United States that regulates the treatment of animals in research, exhibition, transport, and by dealers. It is enforced by the United States Department of Agriculture (USDA) and the Animal and Plant Health Inspection Service (APHIS).",
+    summary: "The Animal Welfare Act of 1966 (AWA), found at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title7/USCODE-2021-title7-chap54' target='_blank' rel='noopener noreferrer' class='text-primary underline'>7 U.S.C. Chapter 54</a>, is the primary federal law in the United States that regulates the treatment of animals in research, exhibition, transport, and by dealers. It is enforced by the United States Department of Agriculture (USDA) and the Animal and Plant Health Inspection Service (APHIS). The AWA aims to ensure that animals used in these capacities are provided humane care and treatment. It sets minimum standards for handling, housing, feeding, sanitation, ventilation, shelter from extremes of weather, and veterinary care for covered animals.",
     keyProvisions: [
-        {
-            title: "Regulated Activities and Animals",
-            content: "The law covers warm-blooded animals when they are used for research, testing, experimentation, or exhibition purposes, or as pets. The law specifically excludes birds, rats of the genus Rattus, and mice of the genus Mus bred for use in research. It also does not cover farm animals used for food or fiber."
-        },
-        {
-            title: "Standards of Humane Care and Treatment",
-            content: "The AWA requires that minimum standards of care and treatment be provided for regulated animals. This includes standards for housing, handling, feeding, watering, sanitation, ventilation, shelter from extremes of weather, and adequate veterinary care."
-        },
-        {
-            title: "Licensing and Registration",
-            content: "Individuals or businesses that breed or broker animals for sale as pets, for use in research, or for exhibition must be licensed with the USDA. Research facilities must be registered. These licensees and registrants are subject to unannounced inspections by APHIS to ensure compliance with the AWA."
-        },
-        {
-          title: "Institutional Animal Care and Use Committee (IACUC)",
-          content: "Research facilities are required to establish an IACUC to oversee and evaluate all aspects of the institution's animal care and use program. The committee must review and approve all proposed activities involving animals to ensure they are justified and humane."
-        }
+      {
+        title: "Regulated Activities and Animals",
+        content: "The law covers warm-blooded animals when they are used for research, testing, experimentation, or exhibition purposes, or as pets sold by dealers. The law specifically excludes birds, rats of the genus Rattus, and mice of the genus Mus bred for use in research. It also does not cover farm animals used for food or fiber, or cold-blooded animals such as reptiles and amphibians. This means that entities like zoos, research laboratories, commercial dog breeders, and animal transporters must comply with the AWA's standards."
+      },
+      {
+        title: "Standards of Humane Care and Treatment",
+        content: "The AWA requires that minimum standards of care and treatment be provided for regulated animals. This includes standards for housing, handling, feeding, watering, sanitation, ventilation, shelter from extremes of weather, and adequate veterinary care. For research facilities, it also requires that pain and distress be minimized and that alternatives to painful procedures be considered."
+      },
+      {
+        title: "Licensing and Registration",
+        content: "Individuals or businesses that breed or broker animals for sale as pets, for use in research, or for exhibition must be licensed with the USDA. Research facilities must be registered. These licensees and registrants are subject to unannounced inspections by APHIS to ensure compliance with the AWA. These inspections are a key enforcement mechanism of the Act."
+      },
+      {
+        title: "Institutional Animal Care and Use Committee (IACUC)",
+        content: "A significant amendment to the AWA requires that research facilities establish an Institutional Animal Care and Use Committee (IACUC). This committee must include a veterinarian and a member of the public, and it is responsible for overseeing and evaluating all aspects of the institution's animal care and use program. The IACUC must review and approve all proposed activities involving animals to ensure they are justified, humane, and that alternatives are considered."
+      }
     ],
-    purpose: "The main purpose of the Animal Welfare Act is to ensure that animals intended for use in research facilities, for exhibition purposes, or for use as pets are provided humane care and treatment. It also aims to assure the humane treatment of animals during transportation in commerce and to protect the owners of animals from theft of their animals by preventing the sale or use of animals that have been stolen."
+    purpose: "The main purpose of the Animal Welfare Act is to ensure that animals intended for use in research facilities, for exhibition purposes, or for use as pets are provided humane care and treatment. It also aims to assure the humane treatment of animals during transportation in commerce and to protect the owners of animals from theft of their animals by preventing the sale or use of animals that have been stolen. It seeks to balance the needs of science and industry with the moral responsibility to treat animals humanely."
   },
   '6': {
     summary: "Antitrust laws are a collection of federal and state government laws that regulate the conduct and organization of business corporations. The main federal statutes are the Sherman Antitrust Act of 1890 and the Clayton Antitrust Act of 1914. These laws are designed to promote fair competition for the benefit of consumers by preventing monopolies and other anti-competitive business practices. Key statutes can be found in <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap1' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 15 of the U.S. Code</a>.",
@@ -909,7 +909,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "The Lanham Act has a dual purpose: (1) to protect the owner of a trademark by preventing others from using the same or a confusingly similar mark, thereby protecting the owner's goodwill and investment in their brand; and (2) to protect consumers from confusion, deception, and mistake in the marketplace."
   },
   '42': {
-    summary: "The National Environmental Policy Act (NEPA), signed into law in 1970 and codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap55' target='_blank'rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 55</a>, is a foundational U.S. environmental law. NEPA establishes a national policy for protecting the environment and created the President's Council on Environmental Quality (CEQ) to oversee its implementation. Unlike laws like the Clean Air Act or Clean Water Act, NEPA does not set pollution standards but is instead a procedural law.",
+    summary: "The National Environmental Policy Act (NEPA), signed into law in 1970 and codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap55' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 55</a>, is a foundational U.S. environmental law. NEPA establishes a national policy for protecting the environment and created the President's Council on Environmental Quality (CEQ) to oversee its implementation. Unlike laws like the Clean Air Act or Clean Water Act, NEPA does not set pollution standards but is instead a procedural law.",
     keyProvisions: [
       {
         title: "Declaration of National Environmental Policy",
@@ -939,7 +939,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
       },
       {
         title: "Unfair Labor Practices (ULPs)",
-        content: "The NLRA defines and prohibits certain 'unfair labor practices' by both employers and unions. For employers, this includes interfering with employees' Section 7 rights, dominating or illegally assisting a union, discriminating against employees for他们的union activity, and refusing to bargain in good faith with the employees' representative."
+        content: "The NLRA defines and prohibits certain 'unfair labor practices' by both employers and unions. For employers, this includes interfering with employees' Section 7 rights, dominating or illegally assisting a union, discriminating against employees for their union activity, and refusing to bargain in good faith with the employees' representative."
       },
       {
         title: "Collective Bargaining",
@@ -1189,7 +1189,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
       },
       {
         title: "Good Faith",
-        content: "A fundamental principle贯穿the UCC is the obligation of 'good faith' in the performance and enforcement of every contract or duty. Good faith is defined as 'honesty in fact and the observance of reasonable commercial standards of fair dealing.'"
+        content: "A fundamental principle running through the UCC is the obligation of 'good faith' in the performance and enforcement of every contract or duty. Good faith is defined as 'honesty in fact and the observance of reasonable commercial standards of fair dealing.'"
       }
     ],
     purpose: "The main purpose of the UCC is to simplify, clarify, and modernize the law governing commercial transactions. It aims to permit the continued expansion of commercial practices through custom, usage, and agreement of the parties, and to make the law uniform among the various jurisdictions. This uniformity provides consistency and predictability, which are crucial for a robust national economy."
