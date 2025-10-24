@@ -33,7 +33,7 @@ const HomePage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[95svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-black p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
+        <header className="flex-shrink-0 bg-muted p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
           The-Law-Says.Com
         </header>
 
@@ -50,14 +50,14 @@ const HomePage = () => {
             </div>
 
             <div className="flex flex-col gap-4">
-              <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
+              <Button asChild size="lg" className="h-16 font-bold btn-destructive">
                 <Link href="/translate" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.translate}
                 </Link>
               </Button>
 
-              <Button size="lg" onClick={handleListenClick} className="h-16 font-bold" variant="destructive" disabled={isGenerating}>
+              <Button size="lg" onClick={handleListenClick} className="h-16 font-bold btn-destructive" disabled={isGenerating}>
                  {isGenerating ? (
                     <>
                         <Loader2 className="mr-2 h-5 w-5 animate-spin" />
@@ -76,13 +76,13 @@ const HomePage = () => {
                  )}
               </Button>
 
-              <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
+              <Button asChild size="lg" className="h-16 font-bold btn-destructive">
                 <Link href="/federal-laws" className="flex items-center justify-center">
                    {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.federalLaws}
                 </Link>
               </Button>
 
-              <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
+              <Button asChild size="lg" className="h-16 font-bold btn-destructive">
                 <Link href="/guidance" className="flex items-center justify-center">
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.states}
                 </Link>
@@ -110,7 +110,7 @@ const HomePage = () => {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-black p-2 text-destructive-foreground border-t-2 border-destructive">
+        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground border-t-2 border-destructive">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}

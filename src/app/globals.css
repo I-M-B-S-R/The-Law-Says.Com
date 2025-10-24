@@ -49,7 +49,7 @@
     --primary-foreground: 0 0% 100%;
     --secondary: 240 3.7% 15.9%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 240 3.7% 15.9%;
+    --muted: 240 3.7% 10%;
     --muted-foreground: 240 5% 64.9%;
     --accent: 240 3.7% 15.9%;
     --accent-foreground: 0 0% 100%;
@@ -85,5 +85,11 @@
   }
   body::-webkit-scrollbar {
     display: none; /* Chrome, Safari, and Opera */
+  }
+}
+
+@layer components {
+  .btn-destructive {
+    @apply bg-black text-white border border-destructive hover:bg-destructive/10;
   }
 }

@@ -36,7 +36,7 @@ export default function ArizonaStateLawDetailPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[95svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-black p-4 text-center text-xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
+        <header className="flex-shrink-0 bg-muted p-4 text-center text-xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
           <Link href="/guidance/arizona/state-laws">Arizona Revised Statutes</Link>
         </header>
 
@@ -85,7 +85,7 @@ export default function ArizonaStateLawDetailPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-black p-2 text-destructive-foreground border-t-2 border-destructive">
+        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground border-t-2 border-destructive">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
