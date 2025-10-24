@@ -61,38 +61,7 @@ export default function StateGuidancePage() {
 
         <ScrollArea className="flex-grow">
           <main className="p-4">
-            <Card className="border-destructive">
-              <CardHeader>
-                <CardTitle className="text-center text-2xl">Legal Guidance</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <Form {...form}>
-                  <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                    <FormField
-                      control={form.control}
-                      name="legalQuestion"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel className="text-lg">What is your legal question?</FormLabel>
-                          <FormControl>
-                            <Textarea
-                              placeholder={`Ask a question about ${state} law...`}
-                              className="min-h-[100px] resize-none"
-                              {...field}
-                            />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <Button type="submit" disabled={isPending} className="w-full">
-                      {isPending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-                      Get Guidance
-                    </Button>
-                  </form>
-                </Form>
-              </CardContent>
-            </Card>
+            
 
             {isPending && (
               <div className="mt-6 flex items-center justify-center">
@@ -139,4 +108,3 @@ export default function StateGuidancePage() {
     </div>
   );
 }
-
