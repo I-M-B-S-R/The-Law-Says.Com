@@ -22,7 +22,7 @@ export default function CountyLawsPage() {
           <header className="flex-shrink-0 bg-destructive p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md">
             <Link href="/guidance/arizona/county-laws">{county} County Laws</Link>
           </header>
-          <div className="flex flex-grow items-center justify-center">
+          <div className="flex flex-grow items-center justify-center p-4">
             <div className="text-center">
               <p className="text-2xl font-bold">Content for {county} County is coming soon.</p>
               <Button asChild className="mt-4">
