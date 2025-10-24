@@ -1,56 +1,18 @@
 
 'use client';
 
-import React, { useState, useTransition } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { useForm, type SubmitHandler } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { z } from 'zod';
-import { ArrowLeft, ArrowRight, Bot, Loader2, User } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
-import { Textarea } from '@/components/ui/textarea';
-import { getGuidanceAction } from '@/app/actions';
-
-const formSchema = z.object({
-  legalQuestion: z.string().min(20, 'Your question must be at least 20 characters.'),
-});
-
-type FormValues = z.infer<typeof formSchema>;
+import { Input } from '@/components/ui/input';
 
 export default function StateGuidancePage() {
   const router = useRouter();
   const params = useParams();
   const state = params.state ? (params.state as string).replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : '';
-  
-  const [guidance, setGuidance] = useState<string | null>(null);
-  const [isPending, startTransition] = useTransition();
-
-  const form = useForm<FormValues>({
-    resolver: zodResolver(formSchema),
-    defaultValues: {
-      legalQuestion: '',
-    },
-  });
-
-  const onSubmit: SubmitHandler<FormValues> = (values) => {
-    setGuidance(null);
-    startTransition(async () => {
-      const result = await getGuidanceAction({
-        jurisdiction: state,
-        legalQuestion: values.legalQuestion,
-      });
-
-      if (result.success && result.data) {
-        setGuidance(result.data.guidance);
-      } else {
-        setGuidance(`Error: ${result.error || 'An unexpected error occurred.'}`);
-      }
-    });
-  };
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
@@ -61,25 +23,37 @@ export default function StateGuidancePage() {
 
         <ScrollArea className="flex-grow">
           <main className="p-4">
-            
-
-            {isPending && (
-              <div className="mt-6 flex items-center justify-center">
-                <Loader2 className="h-12 w-12 animate-spin text-primary" />
-              </div>
-            )}
-
-            {guidance && (
-              <Card className="mt-6 border-destructive">
-                <CardHeader className="flex flex-row items-center gap-2">
-                  <Bot className="h-6 w-6" />
-                  <CardTitle className="text-2xl">AI Legal Guidance</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="prose prose-sm max-w-none dark:prose-invert" dangerouslySetInnerHTML={{ __html: guidance }} />
-                </CardContent>
-              </Card>
-            )}
+            <div className="flex flex-col gap-4">
+                <div className="relative">
+                    <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+                    <Input
+                        type="text"
+                        placeholder="Search..."
+                        className="h-16 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
+                    />
+                </div>
+                <Button
+                  size="lg"
+                  className="h-16 w-full font-bold"
+                  variant="destructive"
+                >
+                  State Laws
+                </Button>
+                <Button
+                  size="lg"
+                  className="h-16 w-full font-bold"
+                  variant="destructive"
+                >
+                  Municipality Laws
+                </Button>
+                <Button
+                  size="lg"
+                  className="h-16 w-full font-bold"
+                  variant="destructive"
+                >
+                  Tribal Laws
+                </Button>
+            </div>
           </main>
         </ScrollArea>
 
