@@ -54,4 +54,4 @@ export const FEDERAL_LAWS = [
   { id: '52', name: 'Social Security Act' },
   { id: '53', name: 'Telecommunications Act of 1996' },
   { id: '54', name: 'Uniform Commercial Code (UCC)' },
-];
+].sort((a, b) => a.name.localeCompare(b.name)));
