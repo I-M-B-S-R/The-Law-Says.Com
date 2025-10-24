@@ -28,7 +28,7 @@ export default function PrescottValleyLawsPage() {
                 variant="destructive"
                 asChild
               >
-                <Link href="https://gis.yavapaiaz.gov/v4/map.aspx" target="_blank" rel="noopener noreferrer">
+                <Link href="https://gis.yavapaiaz.gov/public/" target="_blank" rel="noopener noreferrer">
                   <div className="flex items-center">
                     <Map className="mr-4 h-8 w-8" />
                     <span>County Assessor's GIS Map</span>
