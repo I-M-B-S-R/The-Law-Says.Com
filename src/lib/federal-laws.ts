@@ -29,7 +29,7 @@ export const FEDERAL_LAWS = [
   { id: '27', name: 'Fair Labor Standards Act (FLSA)' },
   { id: '28', name: 'Family and Medical Leave Act (FMLA)' },
   { id: '29', name: 'Federal Aviation Administration (FAA) Regulations' },
-  { id's: '30', name: 'Federal Communications Commission (FCC) Regulations' },
+  { id: '30', name: 'Federal Communications Commission (FCC) Regulations' },
   { id: '31', name: 'Federal Food, Drug, and Cosmetic Act' },
   { id: '32', name: 'Federal Information Security Management Act (FISMA)' },
   { id: '33', name: 'Federal Insecticide, Fungicide, and Rodenticide Act' },
