@@ -22,8 +22,8 @@ export default function StateGuidancePage() {
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main className="p-4">
-            <div className="flex flex-col gap-4">
+          <main>
+            <div className="flex flex-col gap-4 p-4">
                 <div className="relative">
                     <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
                     <Input

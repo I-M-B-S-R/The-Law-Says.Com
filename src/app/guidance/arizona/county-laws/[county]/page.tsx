@@ -128,8 +128,8 @@ export default function CountyLawsPage() {
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main className="p-4">
-            <div className="flex flex-col gap-4">
+          <main>
+            <div className="flex flex-col gap-4 p-4">
               {ordinances.map((ord) => (
                 <Button
                   key={ord.id}

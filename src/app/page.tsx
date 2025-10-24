@@ -38,18 +38,18 @@ const HomePage = () => {
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main className="space-y-6 p-4">
-            <div className="rounded-lg border border-destructive p-4">
-              <Image
-                src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=http://the-law-says.com"
-                alt="QR Code for The-Law-Says.Com"
-                width={400}
-                height={400}
-                className="h-full w-full rounded-lg border-4 border-white"
-              />
+          <main className="space-y-6">
+            <div className="p-4">
+                <Image
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=http://the-law-says.com"
+                    alt="QR Code for The-Law-Says.Com"
+                    width={400}
+                    height={400}
+                    className="h-full w-full rounded-lg border-4 border-white"
+                />
             </div>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 px-4">
               <Button asChild size="lg" className="h-14 font-bold btn-destructive">
                 <Link href="/translate" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />

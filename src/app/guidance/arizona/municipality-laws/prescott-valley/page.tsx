@@ -20,8 +20,8 @@ export default function PrescottValleyLawsPage() {
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main className="p-4">
-            <div className="flex flex-col gap-4">
+          <main>
+            <div className="flex flex-col gap-4 p-4">
               {PRESCOTT_VALLEY_TOWN_CODE.map((law) => (
                 <Button
                   key={law.id}

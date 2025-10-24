@@ -41,10 +41,10 @@ export default function LaPazOrdinanceDetailPage() {
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main className="p-4">
+          <main>
             <Card className="border-destructive">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold">{ordinance.name}</CardTitle>
+                <CardTitle className="text-2xl font-bold">{ordinance.name}</CardTitle>PECIO
               </CardHeader>
               <CardContent>
                 <div className="prose prose-sm max-w-none text-justify dark:prose-invert">
