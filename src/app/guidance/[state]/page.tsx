@@ -46,15 +46,21 @@ export default function StateGuidancePage() {
                   size="lg"
                   className="h-16 w-full font-bold"
                   variant="destructive"
+                  asChild
                 >
-                  County Laws
+                  <Link href={params.state === 'arizona' ? '/guidance/arizona/county-laws' : '#'}>
+                    County Laws
+                  </Link>
                 </Button>
                 <Button
                   size="lg"
                   className="h-16 w-full font-bold"
                   variant="destructive"
+                  asChild
                 >
-                  Municipality Laws
+                  <Link href={params.state === 'arizona' ? '/guidance/arizona/municipality-laws' : '#'}>
+                    Municipality Laws
+                  </Link>
                 </Button>
                 <Button
                   size="lg"
