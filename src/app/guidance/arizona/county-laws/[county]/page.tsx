@@ -20,6 +20,8 @@ import { MOHAVE_COUNTY_ORDINANCES } from '@/lib/mohave-county-ordinances';
 import { NAVAJO_COUNTY_ORDINANCES } from '@/lib/navajo-county-ordinances';
 import { PIMA_COUNTY_ORDINANCES } from '@/lib/pima-county-ordinances';
 import { PINAL_COUNTY_ORDINANCES } from '@/lib/pinal-county-ordinances';
+import { SANTA_CRUZ_COUNTY_ORDINANCES } from '@/lib/santa-cruz-county-ordinances';
+import { YUMA_COUNTY_ORDINANCES } from '@/lib/yuma-county-ordinances';
 
 export default function CountyLawsPage() {
   const router = useRouter();
@@ -69,6 +71,12 @@ export default function CountyLawsPage() {
   } else if (countySlug === 'pinal') {
     ordinances = PINAL_COUNTY_ORDINANCES;
     ordinancesPath = '/guidance/arizona/county-laws/pinal';
+  } else if (countySlug === 'santa-cruz') {
+    ordinances = SANTA_CRUZ_COUNTY_ORDINANCES;
+    ordinancesPath = '/guidance/arizona/county-laws/santa-cruz';
+  } else if (countySlug === 'yuma') {
+    ordinances = YUMA_COUNTY_ORDINANCES;
+    ordinancesPath = '/guidance/arizona/county-laws/yuma';
   }
 
   if (ordinances.length === 0) {
