@@ -1,7 +1,7 @@
 
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
@@ -11,73 +11,11 @@ import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { useLanguage } from '@/context/language-context';
 
-const MISSION_STATEMENT_ORIGINAL: string[] = [
-  `Our Mission Is To Provide Every Adult Living In Or Passing Through The United States Of America Or One Of The States Contained Therein, Including There Countys, Municipalities, Or Tribes, With The Most Comprehensive, Quick Reference Mobile App And Legal Research Platform Ever Built! It Has <strong>"AUTHENTIC, VERIFIED, AND REGULARLY UPDATED CONTENT FROM OFFICIAL GOVERNMENT SOURCES"!</strong> It Will Allow All Persons Using This APP To Understand Their <strong>RIGHTS, AND THEIR OBLIGATIONS, AS PRESCRIBED BY LAW.</strong> The Laws That Govern All Of Us Who Reside In, Or Who Are Passing Through, "The United States Of America".`,
-  `It Is Our Belief That Most Disagreements Can Be Settled Simply By People "Knowing What The Laws Say, How Judges Have Interpreted Those Laws In The Past, And Are Likely To Interpret Them In Their Particular Case, And How Their Decisions Have Been Documented In (Case Law), And Again, What Their Rights and Obligations Are Under Law, That We All Have To Each Other, And To Those Authorities That Have Been Placed Above Us When We Are In, Or Passing Through Their Districts, As Prescribed By Law"!`,
-  `In The Past People Had To Rely On Legal Advice Provided By Lawyers In Making Their Decisions, But The SimpleFact Of The Matter Is Most People Cannot Afford A Lawyer's Advice! So, They Called The Police To Settle These Disagreements, The Problem With That Is The Police May Not Know What The Laws Are Themselves, That Deal With The Disagreement That The People Are Having!`,
-  `And Unfortunately, When The Police Don't Know The Laws Themselves They Can Be Influenced Not By The Laws Themselves, But By The Perceived Finances Or Political Standing That 1 Party May Have Over The Other In Their Decision Making! <strong>"THATS NOT JUSTICE!"</strong>`,
-  `The Other Thing The Police Do Is To Tell People To Go To Court To Settle The Matter, And <strong class="text-destructive font-bold">"IF YOU NEED TO GO TO COURT, YOU WILL NEED A LAWYER!"</strong> A Lawyer That Most People Cannot Afford! So, They End Up Forfeiting Their Rights Are Not Proving True To Their Obligations As Prescribed By Law! <strong>"THATS NOT JUSTICE EATHER!"</strong>`,
-  `It Is Our Hope That By People Using "The-Law-Says.Com", people will understand their "Rights and their Obligations" As Prescribed By Law. The Laws That Govern All Of Us Who Reside In Or Who Are Passing Through One Of The Great States Or Territories In The United States. Educating Them To Be Better Law Abiding Citizens Who Can Settle Disagreements Peacefully, And Legally, Even If They're Reading Ability Is Very Limited, They Can Listen To The Information, Without The Need Of The Police, Paralegals, Lawyers, Or Our CourtSystem, Or Even Our Lawmakers!`
-];
-
-const UI_TEXT_ORIGINAL: Record<string, string> = {
-  translate: 'Translate',
-  listen: 'Listen',
-  stop: 'Stop',
-  federalLaws: 'Federal Laws',
-  states: 'States',
-  ourMission: 'Our Mission'
-};
-
 const HomePage = () => {
   const { isSpeaking, isGenerating, speak, stop } = useTextToSpeech();
   const router = useRouter();
-  const { language, translate, isTranslating: isLanguageContextTranslating } = useLanguage();
+  const { language, isTranslating, isLoading, missionStatement, uiText } = useLanguage();
 
-  const [missionStatement, setMissionStatement] = useState(MISSION_STATEMENT_ORIGINAL);
-  const [uiText, setUiText] = useState(UI_TEXT_ORIGINAL);
-
-  const isTranslating = isLanguageContextTranslating || isGenerating;
-
-  useEffect(() => {
-    const translateContent = async () => {
-      if (language === 'English') {
-        setMissionStatement(MISSION_STATEMENT_ORIGINAL);
-        setUiText(UI_TEXT_ORIGINAL);
-        return;
-      }
-
-      try {
-        const translatedMissionPromise = Promise.all(
-          MISSION_STATEMENT_ORIGINAL.map(p => translate(p, language))
-        );
-
-        const translatedUiPromise = (async () => {
-          const translatedUi: Record<string, string> = {};
-          for (const key in UI_TEXT_ORIGINAL) {
-            translatedUi[key] = await translate(UI_TEXT_ORIGINAL[key], language);
-          }
-          return translatedUi;
-        })();
-
-        const [translatedMission, translatedUi] = await Promise.all([
-          translatedMissionPromise,
-          translatedUiPromise
-        ]);
-
-        setMissionStatement(translatedMission);
-        setUiText(translatedUi);
-
-      } catch (error) {
-        console.error("Translation failed", error);
-        setMissionStatement(MISSION_STATEMENT_ORIGINAL);
-        setUiText(UI_TEXT_ORIGINAL);
-      }
-    };
-    
-    translateContent();
-
-  }, [language, translate]);
 
   const contentToRead = `
     ${uiText.ourMission}: ${missionStatement.join(' ')}
@@ -158,7 +96,7 @@ const HomePage = () => {
                 </h2>
               </div>
               <div className="prose max-w-none prose-p:text-foreground dark:prose-invert space-y-4 text-justify">
-                {isTranslating && language !== 'English' ? (
+                {isLoading && language !== 'English' ? (
                   <div className="flex justify-center items-center h-48">
                     <Loader2 className="h-12 w-12 animate-spin text-primary" />
                   </div>
