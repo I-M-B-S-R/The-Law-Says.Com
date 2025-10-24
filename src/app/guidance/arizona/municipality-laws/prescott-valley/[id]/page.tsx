@@ -34,14 +34,14 @@ export default function PrescottValleyCodeDetailPage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-muted p-2 text-center text-xl font-bold text-destructive-foreground shadow-md border-2 border-destructive rounded-2xl">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-black">
+      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl border-2 border-destructive">
+        <header className="flex-shrink-0 bg-muted p-2 text-center text-xl font-bold text-destructive-foreground shadow-md">
           <Link href="/guidance/arizona/municipality-laws/prescott-valley">Prescott Valley Town Code</Link>
         </header>
 
-        <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main>
+        <ScrollArea className="flex-grow">
+          <main className="p-4">
             <Card className="border-destructive">
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl font-bold">{law.name}</CardTitle>
@@ -85,7 +85,7 @@ export default function PrescottValleyCodeDetailPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground border-2 border-destructive rounded-2xl">
+        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}

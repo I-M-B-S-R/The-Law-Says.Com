@@ -81,12 +81,12 @@ export default function CountyLawsPage() {
 
   if (ordinances.length === 0) {
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-        <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl">
-          <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md border-2 border-destructive rounded-2xl">
+      <div className="flex min-h-screen flex-col items-center justify-center bg-black">
+        <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl border-2 border-destructive">
+          <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
             <Link href="/guidance/arizona/county-laws">{county} County Laws</Link>
           </header>
-          <div className="flex flex-grow items-center justify-center p-4 border-x-2 border-destructive">
+          <div className="flex flex-grow items-center justify-center p-4">
             <div className="text-center">
               <p className="text-2xl font-bold">Content for {county} County is coming soon.</p>
               <Button asChild className="mt-4">
@@ -94,7 +94,7 @@ export default function CountyLawsPage() {
               </Button>
             </div>
           </div>
-          <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground border-2 border-destructive rounded-2xl">
+          <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground">
             <div className="flex items-center justify-between">
               <button
                 onClick={() => router.back()}
@@ -121,15 +121,15 @@ export default function CountyLawsPage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md border-2 border-destructive rounded-2xl">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-black">
+      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl border-2 border-destructive">
+        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           <Link href="/guidance/arizona/county-laws">{county} County Ordinances</Link>
         </header>
 
-        <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main>
-            <div className="flex flex-col gap-4 p-4">
+        <ScrollArea className="flex-grow">
+          <main className="p-4">
+            <div className="flex flex-col gap-4">
               {ordinances.map((ord) => (
                 <Button
                   key={ord.id}
@@ -146,7 +146,7 @@ export default function CountyLawsPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground border-2 border-destructive rounded-2xl">
+        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
