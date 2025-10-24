@@ -13,6 +13,7 @@ import { COCHISE_COUNTY_ORDINANCES } from '@/lib/cochise-county-ordinances';
 import { COCONINO_COUNTY_ORDINANCES } from '@/lib/coconino-county-ordinances';
 import { GILA_COUNTY_ORDINANCES } from '@/lib/gila-county-ordinances';
 import { GRAHAM_COUNTY_ORDINANCES } from '@/lib/graham-county-ordinances';
+import { GREENLEE_COUNTY_ORDINANCES } from '@/lib/greenlee-county-ordinances';
 
 export default function CountyLawsPage() {
   const router = useRouter();
@@ -41,6 +42,9 @@ export default function CountyLawsPage() {
   } else if (countySlug === 'graham') {
     ordinances = GRAHAM_COUNTY_ORDINANCES;
     ordinancesPath = '/guidance/arizona/county-laws/graham';
+  } else if (countySlug === 'greenlee') {
+    ordinances = GREENLEE_COUNTY_ORDINANCES;
+    ordinancesPath = '/guidance/arizona/county-laws/greenlee';
   }
 
   if (ordinances.length === 0) {
