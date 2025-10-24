@@ -77,7 +77,7 @@ const HomePage = () => {
               </Button>
 
               <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
-                <Link href="/guidance" className="flex items-center justify-center">
+                <Link href="/federal-laws" className="flex items-center justify-center">
                    {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.federalLaws}
                 </Link>
               </Button>
