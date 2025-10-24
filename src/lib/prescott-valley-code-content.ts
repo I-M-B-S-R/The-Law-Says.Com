@@ -159,5 +159,27 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
         content: "Includes a wide range of general standards that apply to development projects, such as requirements for landscaping, outdoor lighting (to protect dark skies), parking, and access management."
       }
     ]
+  },
+  '92': {
+    summary: "Chapter 92 of the Prescott Valley Town Code contains the regulations for Animal Control. These rules are part of Title IX (General Regulations) and are essential for public health and safety. The full text can be found within the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITIXGERE_CH92ANCO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>General Regulations on the town's Municode page</a>.",
+    purpose: "To establish regulations for the keeping of animals to protect public health, prevent public nuisances, and ensure the humane treatment of animals within the town.",
+    keyProvisions: [
+      {
+        title: "Licensing and Vaccinations",
+        content: "Requires that all dogs over the age of four months be licensed by the town. A current rabies vaccination is a prerequisite for obtaining a license. License tags must be worn by the dog at all times."
+      },
+      {
+        title: "Animals at Large",
+        content: "It is unlawful for any dog to be 'at large.' This means a dog must be confined to its owner's property or be under control by means of a leash when in public."
+      },
+      {
+        title: "Public Nuisance",
+        content: "Defines and prohibits animals from becoming a public nuisance. This includes behaviors like excessive barking, damaging property, or menacing pedestrians or vehicles."
+      },
+      {
+        title: "Cruelty to Animals",
+        content: "Makes it unlawful to subject any animal to cruelty or neglect, which includes failing to provide adequate food, water, shelter from the elements, and necessary veterinary care."
+      }
+    ]
   }
 };

@@ -7,6 +7,7 @@ export const PRESCOTT_VALLEY_TOWN_CODE = [
   { id: '11', name: 'Title XI: Business Regulations' },
   { id: '13', name: 'Title XIII: General Offenses' },
   { id: '15', name: 'Title XV: Land Usage' },
+  { id: '92', name: 'Title IX: Chapter 92 - Animal Control' },
 ].sort((a, b) => {
     const titleA = parseInt(a.id);
     const titleB = parseInt(b.id);
