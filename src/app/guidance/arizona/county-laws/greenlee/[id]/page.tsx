@@ -36,7 +36,7 @@ export default function GreenleeOrdinanceDetailPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl border-2 border-destructive">
-        <header className="flex-shrink-0 bg-muted p-2 text-center text-xl font-bold text-destructive-foreground shadow-md">
+        <header className="flex-shrink-0 bg-muted p-2 text-center text-xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
           <Link href="/guidance/arizona/county-laws/greenlee">Greenlee County Ordinance</Link>
         </header>
 
@@ -85,7 +85,7 @@ export default function GreenleeOrdinanceDetailPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground">
+        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground border-t-2 border-destructive">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
