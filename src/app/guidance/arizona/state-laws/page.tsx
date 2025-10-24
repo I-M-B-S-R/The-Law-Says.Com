@@ -3,59 +3,38 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Search } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Input } from '@/components/ui/input';
+import { ARIZONA_REVISED_STATUTES } from '@/lib/arizona-revised-statutes';
 
-export default function StateGuidancePage() {
+export default function ArizonaStateLawsPage() {
   const router = useRouter();
-  const params = useParams();
-  const state = params.state ? (params.state as string).replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : '';
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[95svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
         <header className="flex-shrink-0 bg-destructive p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md">
-          <Link href="/guidance">{state} Law</Link>
+          <Link href="/guidance/arizona">Arizona State Laws</Link>
         </header>
 
         <ScrollArea className="flex-grow">
           <main className="p-4">
             <div className="flex flex-col gap-4">
-                <div className="relative">
-                    <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
-                    <Input
-                        type="text"
-                        placeholder="Search..."
-                        className="h-16 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
-                    />
-                </div>
+              {ARIZONA_REVISED_STATUTES.map((law) => (
                 <Button
+                  key={law.id}
                   size="lg"
-                  className="h-16 w-full font-bold"
+                  className="h-24 w-full justify-start whitespace-normal px-4 text-left font-bold"
                   variant="destructive"
                   asChild
                 >
-                  <Link href={params.state === 'arizona' ? '/guidance/arizona/state-laws' : '#'}>
-                    State Laws
+                  <Link href={`/guidance/arizona/state-laws/${law.id}`}>
+                    <span>Title {law.id}. {law.name}</span>
                   </Link>
                 </Button>
-                <Button
-                  size="lg"
-                  className="h-16 w-full font-bold"
-                  variant="destructive"
-                >
-                  Municipality Laws
-                </Button>
-                <Button
-                  size="lg"
-                  className="h-16 w-full font-bold"
-                  variant="destructive"
-                >
-                  Tribal Laws
-                </Button>
+              ))}
             </div>
           </main>
         </ScrollArea>
