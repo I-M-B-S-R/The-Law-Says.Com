@@ -14,6 +14,7 @@ import { COCONINO_COUNTY_ORDINANCES } from '@/lib/coconino-county-ordinances';
 import { GILA_COUNTY_ORDINANCES } from '@/lib/gila-county-ordinances';
 import { GRAHAM_COUNTY_ORDINANCES } from '@/lib/graham-county-ordinances';
 import { GREENLEE_COUNTY_ORDINANCES } from '@/lib/greenlee-county-ordinances';
+import { LA_PAZ_COUNTY_ORDINANCES } from '@/lib/la-paz-county-ordinances';
 
 export default function CountyLawsPage() {
   const router = useRouter();
@@ -45,6 +46,9 @@ export default function CountyLawsPage() {
   } else if (countySlug === 'greenlee') {
     ordinances = GREENLEE_COUNTY_ORDINANCES;
     ordinancesPath = '/guidance/arizona/county-laws/greenlee';
+  } else if (countySlug === 'la-paz') {
+    ordinances = LA_PAZ_COUNTY_ORDINANCES;
+    ordinancesPath = '/guidance/arizona/county-laws/la-paz';
   }
 
   if (ordinances.length === 0) {
