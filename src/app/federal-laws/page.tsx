@@ -14,8 +14,8 @@ export default function FederalLawsPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
+      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl border-2 border-destructive">
+        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           <Link href="/">Federal Laws</Link>
         </header>
 
@@ -38,7 +38,7 @@ export default function FederalLawsPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground border-t-2 border-destructive">
+        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
