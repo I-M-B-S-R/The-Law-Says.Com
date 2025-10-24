@@ -47,6 +47,13 @@ export default function StateGuidancePage() {
                   className="h-16 w-full font-bold"
                   variant="destructive"
                 >
+                  County Laws
+                </Button>
+                <Button
+                  size="lg"
+                  className="h-16 w-full font-bold"
+                  variant="destructive"
+                >
                   Municipality Laws
                 </Button>
                 <Button
