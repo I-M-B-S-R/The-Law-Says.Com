@@ -14,12 +14,12 @@ export default function PrescottValleyLawsPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl border-2 border-destructive">
-        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
+      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden bg-background shadow-2xl">
+        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md rounded-t-2xl border-t-2 border-x-2 border-destructive">
           <Link href="/guidance/arizona/municipality-laws">Prescott Valley Town Code</Link>
         </header>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
             <div className="flex flex-col gap-4">
               {PRESCOTT_VALLEY_TOWN_CODE.map((law) => (
@@ -38,7 +38,7 @@ export default function PrescottValleyLawsPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground border-t-2 border-destructive">
+        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground rounded-b-2xl border-b-2 border-x-2 border-destructive">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}

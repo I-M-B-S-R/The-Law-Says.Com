@@ -38,12 +38,12 @@ export default function LanguageSelectPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl border-2 border-destructive">
-        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
+      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden bg-background shadow-2xl">
+        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md rounded-t-2xl border-t-2 border-x-2 border-destructive">
           <Link href="/">The-Law-Says.Com</Link>
         </header>
 
-        <div className="flex-shrink-0 p-4">
+        <div className="flex-shrink-0 p-4 border-x-2 border-destructive">
           <div className="relative rounded-lg border border-destructive">
             <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
             <Input
@@ -56,7 +56,7 @@ export default function LanguageSelectPage() {
           </div>
         </div>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="space-y-4 p-4 pt-0">
             <div className="flex flex-col gap-4">
               <Button
@@ -80,7 +80,7 @@ export default function LanguageSelectPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground border-t-2 border-destructive">
+        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground rounded-b-2xl border-b-2 border-x-2 border-destructive">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
