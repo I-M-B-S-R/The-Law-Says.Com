@@ -930,7 +930,7 @@ export const ARIZONA_REVISED_STATUTES_CONTENT: Record<string, LawContent> = {
         content: "Establishes a system for the state-level registration of trademarks and trade names, providing protection for businesses' brand identities within Arizona."
       },
       {
-        title:d: "Data Security and Breach Notification",
+        title: "Data Security and Breach Notification",
         content: "Requires businesses and government entities that maintain computerized data with personal information to implement reasonable security measures. If a security breach occurs, they must notify affected individuals and the Attorney General's office."
       }
     ],
