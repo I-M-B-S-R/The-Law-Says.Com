@@ -83,7 +83,7 @@ export default function CountyLawsPage() {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
         <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl">
-          <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md rounded-t-2xl border-2 border-b-0 border-destructive">
+          <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md rounded-2xl border-2 border-destructive mb-1">
             <Link href="/guidance/arizona/county-laws">{county} County Laws</Link>
           </header>
           <div className="flex flex-grow items-center justify-center p-4 border-x-2 border-destructive">
@@ -94,7 +94,7 @@ export default function CountyLawsPage() {
               </Button>
             </div>
           </div>
-          <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground rounded-b-2xl border-2 border-t-0 border-destructive">
+          <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground rounded-2xl border-2 border-destructive mt-1">
             <div className="flex items-center justify-between">
               <button
                 onClick={() => router.back()}
@@ -123,7 +123,7 @@ export default function CountyLawsPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md rounded-t-2xl border-2 border-b-0 border-destructive">
+        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md rounded-2xl border-2 border-destructive mb-1">
           <Link href="/guidance/arizona/county-laws">{county} County Ordinances</Link>
         </header>
 
@@ -146,7 +146,7 @@ export default function CountyLawsPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground rounded-b-2xl border-2 border-t-0 border-destructive">
+        <footer className="flex-shrink-0 bg-muted p-2 text-destructive-foreground rounded-2xl border-2 border-destructive mt-1">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
