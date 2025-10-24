@@ -184,90 +184,92 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
   },
   '93-weeds': {
     summary: "Chapter 93 of the Prescott Valley Town Code addresses public nuisances, including the regulation of weeds and unkempt property. These rules are crucial for maintaining neighborhood aesthetics and preventing fire hazards. The full text can be found on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITIXGERE_CH93NUPR' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
-    purpose: "To protect public health, safety, and welfare by preventing and abating nuisances caused by unmaintained property, including fire risks and visual blight.",
+    purpose: "To protect public health, safety, and welfare by preventing and abating nuisances caused by unmaintained property, including fire risks, pest harborage, and visual blight.",
     keyProvisions: [
       {
-        title: "Weeds Declared a Nuisance",
-        content: "The code declares that allowing weeds, grasses, or other non-cultivated vegetation to grow to a height of more than six inches is a public nuisance."
+        title: "Weeds and Grass Height",
+        content: "It is declared a public nuisance to permit weeds, grasses, or other non-cultivated vegetation to grow to a height of more than <strong>six inches</strong> on any lot or parcel. The property owner is responsible for maintaining their entire property, including any adjacent public rights-of-way."
       },
       {
-        title: "Owner's Responsibility",
-        content: "Property owners are responsible for maintaining their property, including any adjacent public rights-of-way, free of such nuisances."
+        title: "Trash and Debris",
+        content: "The accumulation of garbage, refuse, junk, and other debris on private property is prohibited. This includes, but is not limited to, scrap metal, appliances, and discarded furniture."
       },
       {
-        title: "Abatement by Town",
-        content: "If a property owner fails to remove the weeds after receiving notice from the town, the town has the authority to abate the nuisance itself (i.e., cut the weeds) and place a lien on the property for the cost of the abatement."
+        title: "Inoperable Vehicles",
+        content: "Storing or maintaining any 'inoperable, dismantled, or wrecked' vehicle on any residential property is declared a nuisance, unless it is stored within a completely enclosed building."
       },
       {
-        title: "Other Nuisances",
-        content: "This chapter also covers other public nuisances such as the accumulation of refuse, debris, and inoperable vehicles on private property."
+        title: "Abatement Procedure",
+        content: "If a property owner fails to correct a nuisance after receiving written notice, the town has the legal authority to abate the nuisance itself (e.g., hire a contractor to cut the weeds). The costs of this abatement are then billed to the property owner and can be placed as a lien on the property if unpaid."
       }
     ]
   },
   '154-fences': {
-    summary: "The regulations for fences, walls, and hedges are found within the Prescott Valley Zoning Ordinance, specifically in Title XV, Chapter 154. These rules govern the height and location of fences to ensure they do not obstruct views or create safety hazards. The full text is on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITXVLAUS_CH154ZO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Regulations for fences, walls, and hedges are found within the Prescott Valley Zoning Ordinance (Title XV, Chapter 154). These rules govern the height, location, and materials of fences to ensure they do not obstruct views or create safety hazards. The full text is on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITXVLAUS_CH154ZO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
     purpose: "To provide standards for the erection and maintenance of fences, walls, and hedges to ensure safety, provide for light and air, and protect the aesthetic character of the community.",
     keyProvisions: [
       {
-        title: "Front Yard Fence Height",
-        content: "In most residential zoning districts, fences and walls located in the required front yard setback are generally limited to a maximum height of four feet."
+        title: "Height Measurement",
+        content: "Fence or wall height shall be measured from the natural or finished grade of the lot, whichever is lower, at the base of the fence on the <strong>exterior side</strong>. On sloped lots, this prevents a fence from becoming excessively high on the downhill side."
       },
       {
-        title: "Side and Rear Yard Fence Height",
-        content: "Fences and walls located in the side and rear yards are typically limited to a maximum height of six feet."
+        title: "Residential Zone Height Limits",
+        content: "In most residential zoning districts: <ul><li>Fences in the <strong>front yard</strong> (between the front of the house and the street) are limited to a maximum height of <strong>four feet</strong>.</li><li>Fences in the interior <strong>side and rear yards</strong> are limited to a maximum height of <strong>six feet</strong>.</li></ul>"
       },
       {
         title: "Clear View Triangle",
-        content: "The code establishes a 'clear view triangle' at street corners. Within this area, fences, hedges, and other obstructions are severely restricted in height (usually to two or three feet) to ensure that drivers have a clear and unobstructed view of cross-traffic."
+        content: "At any corner where two streets intersect, a 'clear view triangle' is established. This is a triangular area formed by measuring <strong>25 feet</strong> along both street property lines from their point of intersection and connecting the endpoints. Within this triangle, no fence, wall, hedge, sign, or other obstruction may exceed a height of <strong>30 inches</strong>."
       },
       {
-        title: "Prohibited Materials",
-        content: "The code may prohibit the use of certain materials for fencing, such as barbed wire or electric fences, in residential areas."
+        title: "Prohibited Materials and Finish",
+        content: "The use of barbed wire, razor wire, and electric fences is prohibited in all residential zones. The finished side of any fence or wall shall face the adjacent property or public right-of-way."
       }
     ]
   },
   '93-noise': {
-    summary: "Noise regulations in Prescott Valley are part of the Public Nuisance ordinance, found in Chapter 93. The code is designed to preserve peace and quiet within the community by setting limits on excessive noise. The full text can be found on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITIXGERE_CH93NUPR_S93.02DE' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Noise regulations in Prescott Valley are part of the Public Nuisance ordinance (Title IX, Chapter 93). The code is designed to preserve community peace by setting limits on excessive and disturbing noise. The full text can be found on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITIXGERE_CH93NUPR_S93.02DE' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
     purpose: "To protect the peace, health, and welfare of the citizens by controlling and abating unnecessary, excessive, and annoying noise.",
     keyProvisions: [
       {
         title: "General Prohibition",
-        content: "It is unlawful for any person to make, continue, or cause to be made or continued any loud, unnecessary, or unusual noise which either annoys, disturbs, injures, or endangers the comfort, repose, health, peace, or safety of others."
+        content: "It is unlawful for any person to make or continue any <strong>loud, unnecessary, or unusual noise</strong> which either annoys, disturbs, injures, or endangers the comfort, repose, health, peace, or safety of a reasonable person of normal sensitivities."
       },
       {
-        title: "Specific Prohibited Acts",
-        content: "The ordinance lists specific prohibited acts, including loud music from stereos or vehicles, persistent barking dogs (also covered under Animal Control), and operating noisy construction equipment during nighttime hours."
+        title: "Specific Prohibited Noises",
+        content: "The ordinance specifically prohibits: <ul><li>Sound from radios, stereos, or musical instruments that is plainly audible within any dwelling unit which is not the source of the sound between the hours of <strong>10:00 p.m. and 7:00 a.m.</strong></li><li>Persistent barking, howling, or other animal noises that are plainly audible across a residential property line.</li><li>Operating construction equipment between <strong>10:00 p.m. and 6:00 a.m.</strong> on weekdays or <strong>10:00 p.m. and 7:00 a.m.</strong> on weekends and holidays.</li></ul>"
       },
       {
-        title: "Time Restrictions",
-        content: "Certain activities, such as construction and landscaping with power tools, are generally restricted to specific daytime hours to prevent disruption during the evening and early morning."
+        title: "Vehicle Noise",
+        content: "Prohibits the operation of any vehicle sound system which is plainly audible at a distance of <strong>50 feet</strong> from the vehicle."
       },
       {
         title: "Exemptions",
-        content: "The ordinance provides exemptions for certain sounds, such as those from emergency vehicles, sanctioned public events like parades, and normal activities associated with residential or commercial life."
+        content: "Exempts sounds from authorized emergency vehicles, sanctioned public events like parades or festivals, and normal activities associated with residential or commercial life during daytime hours."
       }
     ]
   },
   '154-lighting': {
-    summary: "Outdoor lighting regulations are part of the Zoning Ordinance in Chapter 154. Prescott Valley, being near major observatories, has rules to protect dark skies from light pollution. These regulations ensure that outdoor lighting is safe and effective without creating glare or light trespass. The full text is on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITXVLAUS_CH154ZO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Outdoor lighting regulations are part of the Zoning Ordinance (Title XV, Chapter 154). Prescott Valley values its dark night skies and has rules to prevent light pollution, glare, and light trespass. The full text is on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITXVLAUS_CH154ZO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
     purpose: "To permit reasonable use of outdoor lighting for safety and security while preventing light pollution, light trespass, and glare, thereby protecting the town's dark sky resource and the general welfare.",
     keyProvisions: [
       {
-        title: "Full Shielding Required",
-        content: "All outdoor light fixtures must be fully shielded, meaning the light source is not visible and all light is directed downward. This is the most effective way to prevent light pollution."
+        title: "Full Cutoff and Shielding",
+        content: "All outdoor light fixtures must be <strong>fully shielded</strong>, meaning the light source (the bulb or LED) is not visible from off the property and all light is directed downward, below the horizontal plane of the fixture."
       },
       {
-        title: "Light Trespass",
-        content: "The code limits the amount of light that can spill over onto neighboring properties. At the property line, the light level is not permitted to exceed a certain low threshold (e.g., 0.1 foot-candles)."
+        title: "Light Trespass Standard",
+        content: "The amount of light spilling onto an adjacent residential property shall not exceed <strong>0.1 foot-candles</strong> at the property line. For non-residential properties, the limit is 0.5 foot-candles."
+      },
+      {
+        title: "Color Temperature Limit",
+        content: "The correlated color temperature (CCT) of all outdoor lighting shall not exceed <strong>3,000 Kelvin (K)</strong>. This requires warmer, less-blue light to minimize sky glow."
       },
       {
         title: "Prohibited Lighting",
-        content: "Certain types of lighting, such as searchlights, mercury vapor lamps, and upward-aimed lighting, are generally prohibited."
-      },
-      {
-        title: "Commercial and Residential Standards",
-        content: "The ordinance sets different standards for residential and commercial properties, including limits on the total amount of light (lumens) that can be used."
+        content: "The installation of searchlights, laser source lights, mercury vapor lamps, and any upward-facing architectural or landscape lighting is prohibited."
       }
     ]
   }
 };
+
+    
