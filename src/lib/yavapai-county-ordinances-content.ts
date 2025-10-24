@@ -166,7 +166,7 @@ export const YAVAPAI_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent>
     keyProvisions: [
       {
         title: "Tiny Home Requirements",
-        content: "A 'tiny home' is typically defined as a dwelling between 160 and 400 square feet. To be used as a permanent residence, it must be placed on a permanent foundation and be connected to approved water, septic, and utility systems. It must also meet certain building code standards."
+        content: "A 'tiny home' is typically defined as a dwelling between 160 and 400 square feet. To be used as a permanent residence, it must be placed on a permanent foundation and be connected to an approved water, septic, and utility systems. It must also meet certain building code standards."
       },
       {
         title: "RV as a Residence",
