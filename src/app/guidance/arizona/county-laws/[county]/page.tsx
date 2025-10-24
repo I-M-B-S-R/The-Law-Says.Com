@@ -86,7 +86,7 @@ export default function CountyLawsPage() {
           <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md border-2 border-destructive rounded-2xl">
             <Link href="/guidance/arizona/county-laws">{county} County Laws</Link>
           </header>
-          <div className="flex flex-grow items-center justify-center p-4">
+          <div className="flex flex-grow items-center justify-center p-4 border-x-2 border-destructive">
             <div className="text-center">
               <p className="text-2xl font-bold">Content for {county} County is coming soon.</p>
               <Button asChild className="mt-4">
@@ -127,7 +127,7 @@ export default function CountyLawsPage() {
           <Link href="/guidance/arizona/county-laws">{county} County Ordinances</Link>
         </header>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
             <div className="flex flex-col gap-4">
               {ordinances.map((ord) => (

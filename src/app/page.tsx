@@ -37,7 +37,7 @@ const HomePage = () => {
           The-Law-Says.Com
         </header>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="space-y-6 p-4">
             <div className="rounded-lg border border-destructive p-4">
               <Image

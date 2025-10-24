@@ -19,7 +19,7 @@ export default function ArizonaStateLawsPage() {
           <Link href="/guidance/arizona">Arizona State Laws</Link>
         </header>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
             <div className="flex flex-col gap-4">
               {ARIZONA_REVISED_STATUTES.map((law) => (

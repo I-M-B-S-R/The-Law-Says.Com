@@ -40,7 +40,7 @@ export default function MaricopaOrdinanceDetailPage() {
           <Link href="/guidance/arizona/county-laws/maricopa">Maricopa County Ordinance</Link>
         </header>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
             <Card className="border-destructive">
               <CardHeader className="text-center">

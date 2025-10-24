@@ -21,7 +21,7 @@ export default function StateGuidancePage() {
           <Link href="/guidance">{state} Law</Link>
         </header>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
             <div className="flex flex-col gap-4">
                 <div className="relative">

@@ -43,7 +43,7 @@ export default function LanguageSelectPage() {
           <Link href="/">The-Law-Says.Com</Link>
         </header>
 
-        <div className="flex-shrink-0 p-4">
+        <div className="flex-shrink-0 p-4 border-x-2 border-destructive">
           <div className="relative rounded-lg border border-destructive">
             <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
             <Input
@@ -56,7 +56,7 @@ export default function LanguageSelectPage() {
           </div>
         </div>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="space-y-4 p-4 pt-0">
             <div className="flex flex-col gap-4">
               <Button

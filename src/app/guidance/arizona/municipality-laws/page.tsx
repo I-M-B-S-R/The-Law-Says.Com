@@ -19,7 +19,7 @@ export default function ArizonaMunicipalityLawsPage() {
           <Link href="/guidance/arizona">Arizona Municipalities</Link>
         </header>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
             <div className="grid grid-cols-2 gap-4">
               {ARIZONA_MUNICIPALITIES.map((municipality) => (
