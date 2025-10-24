@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { YAVAPAI_COUNTY_ORDINANCES } from '@/lib/yavapai-county-ordinances';
 import { APACHE_COUNTY_ORDINANCES } from '@/lib/apache-county-ordinances';
+import { COCHISE_COUNTY_ORDINANCES } from '@/lib/cochise-county-ordinances';
 
 export default function CountyLawsPage() {
   const router = useRouter();
@@ -25,6 +26,9 @@ export default function CountyLawsPage() {
   } else if (countySlug === 'apache') {
     ordinances = APACHE_COUNTY_ORDINANCES;
     ordinancesPath = '/guidance/arizona/county-laws/apache';
+  } else if (countySlug === 'cochise') {
+    ordinances = COCHISE_COUNTY_ORDINANCES;
+    ordinancesPath = '/guidance/arizona/county-laws/cochise';
   }
 
   if (ordinances.length === 0) {
