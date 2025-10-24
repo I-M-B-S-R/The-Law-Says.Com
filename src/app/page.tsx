@@ -39,7 +39,7 @@ const HomePage = () => {
 
         <ScrollArea className="flex-grow rounded-2xl border-2 border-destructive">
           <main className="p-4">
-            <div className="p-4">
+            <div className="flex flex-col gap-4">
                 <Image
                     src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=http://the-law-says.com"
                     alt="QR Code for The-Law-Says.Com"
@@ -47,9 +47,7 @@ const HomePage = () => {
                     height={400}
                     className="h-full w-full rounded-lg border-4 border-white"
                 />
-            </div>
 
-            <div className="flex flex-col gap-4 px-4">
               <Button asChild size="lg" className="h-14 font-bold btn-destructive">
                 <Link href="/translate" className="flex items-center justify-center">
                   <Languages className="mr-2 h-5 w-5" />
@@ -89,7 +87,7 @@ const HomePage = () => {
               </Button>
             </div>
 
-            <div className="space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
+            <div className="mt-4 space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
               <div className="flex items-center justify-center">
                 <h2 className="text-center text-2xl font-semibold text-foreground">
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.ourMission}
