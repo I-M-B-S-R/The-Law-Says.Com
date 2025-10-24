@@ -71,5 +71,27 @@ export const LA_PAZ_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> 
         content: "Prohibits development in the regulatory floodway that would obstruct floodwaters and cause any rise in the base flood elevation."
       }
     ]
+  },
+  'animal-control': {
+    summary: "La Paz County's animal control regulations are established to ensure public safety and animal welfare. The Sheriff's Office is responsible for enforcing these rules. Details can be found by contacting the <a href='https://www.lapazsheriff.org/animal-control' target='_blank' rel='noopener noreferrer' class='text-primary underline'>La Paz County Sheriff's Office</a>.",
+    purpose: "To protect the public from animal-related nuisances and dangers, and to provide for the humane treatment and control of animals.",
+    keyProvisions: [
+      {
+        title: "Licensing and Rabies Control",
+        content: "All dogs are required to be licensed annually with the county. A valid rabies vaccination certificate is necessary to obtain a license."
+      },
+      {
+        title: "Leash Law",
+        content: "Dogs must be confined to their owner's property or kept on a leash at all times when in public. It is unlawful for dogs to run at large."
+      },
+      {
+        title: "Nuisance Complaints",
+        content: "The ordinance addresses nuisance issues such as excessive barking, property damage, and aggressive behavior. Owners are held responsible for their pets' actions."
+      },
+      {
+        title: "Cruelty and Neglect",
+        content: "Prohibits the abuse or neglect of animals, requiring owners to provide adequate food, water, shelter, and medical care."
+      }
+    ]
   }
 };

@@ -16,7 +16,7 @@ export const GRAHAM_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> 
       },
       {
         title: "Conditional Use Permits",
-        content: "Requires a special permit for certain land uses that could have a significant impact. This involves a public hearing process to ensure the proposed use is appropriate for the location and mitigates potential negative effects."
+        content: "Requires a special permit for certain land uses that could have a significant impact. This involves a public hearing process to review the proposed use and mitigate potential negative effects."
       },
       {
         title: "Sign Regulations",
@@ -41,7 +41,7 @@ export const GRAHAM_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> 
         content: "Sets minimum design and construction standards for streets, drainage systems, and utility easements that must be built by the developer."
       },
       {
-        title: "Water Supply",
+        title: "Water Supply Requirements",
         content: "Requires subdividers to demonstrate that an adequate and potable water supply is available for the lots being created, in compliance with state and county requirements."
       },
       {
@@ -69,6 +69,28 @@ export const GRAHAM_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> 
       {
         title: "Floodway Protection",
         content: "Strictly prohibits development within the regulatory floodway that would obstruct flood flows and cause an increase in flood heights."
+      }
+    ]
+  },
+  'animal-control': {
+    summary: "Graham County Ordinance No. 01-16 provides for the control and licensing of dogs. It establishes rules to protect public safety and animal welfare, enforced by the Graham County Animal Control. More information is on the <a href='https://www.graham.az.gov/278/Animal-Control' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Graham County website</a>.",
+    purpose: "To provide for the humane and responsible control of dogs to protect the health, safety, and welfare of the residents of Graham County.",
+    keyProvisions: [
+      {
+        title: "Licensing and Vaccination",
+        content: "All dogs over four months of age must be vaccinated against rabies and licensed with the county. The license tag must be worn by the dog at all times."
+      },
+      {
+        title: "Dogs at Large",
+        content: "It is unlawful for a dog to be at large. Owners must keep their dogs confined to their property or on a leash when in public."
+      },
+      {
+        title: "Impoundment",
+        content: "Authorizes animal control officers to impound any dog found at large, any dog that has bitten a person, or any sick or injured animal."
+      },
+      {
+        title: "Public Nuisance",
+        content: "Defines a public nuisance dog as one that damages property, barks excessively, or threatens the safety of people or other domestic animals. Owners are required to abate such nuisances."
       }
     ]
   }

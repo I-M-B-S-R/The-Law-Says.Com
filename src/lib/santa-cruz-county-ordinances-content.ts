@@ -51,7 +51,7 @@ export const SANTA_CRUZ_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceConte
     ]
   },
   'floodplain': {
-    summary: "The Santa Cruz County Floodplain and Erosion Hazard Management Ordinance is in place to minimize flood and erosion risks. The ordinance restricts development in flood-prone and erosion-prone areas. The regulations can be viewed on the <a href='https://www.santacruzcountyaz.gov/18 Floodplain-and-Erosion-Hazard-Management-Ordinance' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Santa Cruz County website</a>.",
+    summary: "The Santa Cruz County Floodplain and Erosion Hazard Management Ordinance is in place to minimize flood and erosion risks. The ordinance restricts development in flood-prone and erosion-prone areas. The regulations can be viewed on the <a href='https://www.santacruzcountyaz.gov/DocumentCenter/View/95/Floodplain-and-Erosion-Hazard-Management-Ordinance' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Santa Cruz County website</a>.",
     purpose: "To protect human life, health, and property by regulating development within designated flood and erosion hazard areas, thereby minimizing public and private losses.",
     keyProvisions: [
       {
@@ -69,6 +69,28 @@ export const SANTA_CRUZ_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceConte
       {
         title: "Floodway Protection",
         content: "Strictly prohibits development within the regulatory floodway that would obstruct flood flows and cause an increase in flood heights."
+      }
+    ]
+  },
+  'animal-control': {
+    summary: "Santa Cruz County Ordinance No. 2005-02 provides for the care and control of animals to protect public health and safety. The ordinance covers licensing, rabies control, and stray animals. The rules are enforced by the <a href='https://www.santacruzcountyaz.gov/432/Animal-Control' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Animal Control Department</a>.",
+    purpose: "To regulate the keeping of animals in order to prevent public nuisances, protect residents from harm, and ensure the humane treatment of animals.",
+    keyProvisions: [
+      {
+        title: "Dog Licensing and Vaccination",
+        content: "All dogs over four months of age must be vaccinated against rabies and licensed with the county. The license tag must be affixed to the dog at all times."
+      },
+      {
+        title: "Running at Large",
+        content: "Prohibits owners from allowing their dogs or other domestic animals to run at large. Animals must be confined or on a leash."
+      },
+      {
+        title: "Public Nuisance",
+        content: "It is unlawful for an owner to permit an animal to become a public nuisance by excessive barking, damaging property, or menacing pedestrians."
+      },
+      {
+        title: "Cruelty and Neglect",
+        content: "The ordinance prohibits animal cruelty and neglect, mandating that owners provide sufficient food, water, shelter, and veterinary care."
       }
     ]
   }

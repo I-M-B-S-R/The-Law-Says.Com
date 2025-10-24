@@ -71,5 +71,27 @@ export const GILA_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> = 
         content: "Prohibits development within the designated floodway that would obstruct floodwaters and cause an increase in flood heights upstream."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Gila County's Animal Care and Control ordinance (Chapter 10) sets the rules for pet ownership to protect public health and ensure animal welfare. The ordinance covers licensing, leash laws, and the handling of stray animals. The full code is available on the <a href='https://www.gilacountyaz.gov/government/animal_care_and_control/ordinance.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Gila County website</a>.",
+    purpose: "To establish regulations that protect the public from animal-related health risks and nuisances, and to provide for the humane care and control of animals in the county.",
+    keyProvisions: [
+      {
+        title: "Dog Licensing",
+        content: "Requires all dogs over three months of age to be licensed with the county and wear the license tag. A current rabies vaccination is required to obtain a license."
+      },
+      {
+        title: "Animals at Large",
+        content: "It is unlawful for any animal to be 'at large.' Animals must be confined to the owner's property or under direct control, such as on a leash, when in public."
+      },
+      {
+        title: "Animal Nuisance",
+        content: "Prohibits owners from allowing their animals to become a nuisance, which includes excessive noise, property damage, or posing a threat to public safety."
+      },
+      {
+        title: "Animal Cruelty",
+        content: "Prohibits the cruel treatment of animals, which includes intentional abuse as well as the failure to provide necessary food, water, shelter, and veterinary care."
+      }
+    ]
   }
 };

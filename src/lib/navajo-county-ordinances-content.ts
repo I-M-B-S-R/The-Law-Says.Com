@@ -71,5 +71,27 @@ export const NAVAJO_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> 
         content: "Prohibits development within the designated floodway that would obstruct flood flows and cause an increase in flood heights."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Navajo County Ordinance 01-12 establishes the rules for animal control, including dog licensing, rabies prevention, and leash laws. The ordinance is enforced by the Navajo County Sheriff's Office Animal Control Division. More information is available on their <a href='https://www.navajocountyaz.gov/Departments/Sheriff/Animal-Control' target='_blank' rel='noopener noreferrer' class='text-primary underline'>website</a>.",
+    purpose: "To protect the public health, safety, and welfare by imposing regulations on the keeping of animals and to provide for the humane treatment of animals.",
+    keyProvisions: [
+      {
+        title: "Dog Licensing",
+        content: "All dogs over the age of three months must be licensed by the county. A valid rabies vaccination certificate is required to obtain the license."
+      },
+      {
+        title: "At Large Prohibited",
+        content: "It is unlawful for any dog to be 'at large'. Dogs must be confined to the owner's property or kept on a leash not exceeding six feet in length."
+      },
+      {
+        title: "Nuisance Animals",
+        content: "Prohibits owners from allowing their animals to become a nuisance by making excessive noise, damaging property, or disturbing the peace of neighbors."
+      },
+      {
+        title: "Impoundment and Vicious Animals",
+        content: "Authorizes animal control officers to impound animals running at large and provides a process for declaring an animal as 'vicious' and imposing strict confinement requirements."
+      }
+    ]
   }
 };

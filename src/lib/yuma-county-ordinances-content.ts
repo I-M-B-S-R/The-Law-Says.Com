@@ -71,5 +71,27 @@ export const YUMA_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> = 
         content: "Includes specific provisions related to development along the Colorado River to ensure safety and preserve the river's functions."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Yuma County's Animal Control Ordinance, Title 6 of the County Code, provides the regulations for the keeping of animals to protect public health and safety. The ordinance is enforced by the Yuma County Animal Control. The full code is available on the <a href='https://www.yumacountyaz.gov/government/animal-control/ordinances-and-fees' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Yuma County website</a>.",
+    purpose: "To prevent public nuisance, protect residents from animal-inflicted injuries, and provide for the humane treatment of animals within the county.",
+    keyProvisions: [
+      {
+        title: "License and Vaccination",
+        content: "Every dog over four months of age must have a current rabies vaccination and be licensed by the county. The license tag must be attached to the dog's collar or harness."
+      },
+      {
+        title: "Stray and At-Large Animals",
+        content: "Prohibits dogs from being 'at large'. Dogs must be confined to the owner's property or be under control by means of a leash."
+      },
+      {
+        title: "Public Nuisance",
+        content: "It is unlawful for an owner to allow an animal to become a public nuisance. This includes frequent, habitual barking or howling, and unsanitary conditions."
+      },
+      {
+        title: "Vicious Animals",
+        content: "Provides a procedure for investigating and declaring an animal as vicious after an unprovoked attack. A vicious animal declaration results in strict confinement requirements and other controls."
+      }
+    ]
   }
 };

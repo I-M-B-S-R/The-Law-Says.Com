@@ -71,5 +71,27 @@ export const GREENLEE_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent
         content: "Prohibits development in the regulatory floodway that would obstruct floodwaters and cause any rise in the base flood elevation."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Greenlee County Ordinance 10-01 sets the rules for animal control. It covers dog licensing, rabies prevention, and how to handle animals running at large to ensure public safety. More information is available via the <a href='https://www.greenlee.az.gov/departments/sheriffs-office' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Sheriff's Office</a>.",
+    purpose: "To protect the public from dangers and nuisances associated with uncontrolled animals and to ensure the humane treatment of animals.",
+    keyProvisions: [
+      {
+        title: "Licensing and Rabies Vaccination",
+        content: "All dogs over four months of age are required to be licensed with the county and must have a current rabies vaccination."
+      },
+      {
+        title: "Animals at Large",
+        content: "Prohibits dogs and other domestic animals from running 'at large.' Animals must be confined to their owner's property or kept on a leash."
+      },
+      {
+        title: "Impoundment of Animals",
+        content: "Authorizes Animal Control Officers to impound any animal found at large, any animal that is a public nuisance, or any animal subject to cruelty."
+      },
+      {
+        title: "Vicious Animals",
+        content: "Defines 'vicious animals' and outlines strict regulations for their confinement and control, including potential removal from the county if they pose a threat to public safety."
+      }
+    ]
   }
 };

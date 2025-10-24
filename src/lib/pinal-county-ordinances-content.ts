@@ -71,5 +71,27 @@ export const PINAL_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> =
         content: "Prohibits development in the regulatory floodway that would obstruct floodwaters and cause any rise in the base flood elevation."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Pinal County's animal control ordinance (Title 8 of the County Code) establishes the rules for keeping domestic animals. It is designed to protect public health and safety and to ensure animals are treated humanely. The ordinance is enforced by Pinal County Animal Care & Control. The full code is available on the <a href='https://www.pinal.gov/DocumentCenter/View/1000/Title-8---Animal-Control' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Pinal County website</a>.",
+    purpose: "To ensure the health, safety, and welfare of the residents of Pinal County by regulating the interactions between humans and animals, preventing nuisances, and providing for the humane treatment of animals.",
+    keyProvisions: [
+      {
+        title: "Dog Licensing",
+        content: "All dogs three months of age or older must be licensed by the county. A current rabies vaccination is required to obtain or renew a license."
+      },
+      {
+        title: "Leash Law",
+        content: "It is unlawful for a dog to be at large. Dogs must be confined to the owner's premises or restrained by a leash when in public areas."
+      },
+      {
+        title: "Animal Cruelty",
+        content: "Prohibits various forms of animal cruelty, including intentional abuse, neglect, and abandonment. It mandates that owners provide adequate food, water, shelter, and veterinary care."
+      },
+      {
+        title: "Nuisance and Vicious Animals",
+        content: "Defines what constitutes a nuisance animal (e.g., excessive barking) and establishes a legal process for declaring an animal 'vicious' after an attack, which imposes strict confinement requirements."
+      }
+    ]
   }
 };

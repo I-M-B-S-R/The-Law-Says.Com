@@ -71,5 +71,27 @@ export const MOHAVE_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> 
         content: "Strictly prohibits encroachments, including fill, new construction, and substantial improvements, within the regulatory floodway that would result in any increase in flood levels."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Mohave County Ordinance 88-1 establishes regulations for the control of dogs and other animals to ensure public health and safety. The ordinance covers licensing, rabies control, and at-large animals. The rules are enforced by Mohave County Animal Control. More information is available on the <a href='https://www.mohave.gov/ContentPage.aspx?id=113&cid=197' target='_blank' rel='noopener noreferrer' class='text-primary underline'>County website</a>.",
+    purpose: "To protect the public from injury and nuisance caused by uncontrolled animals and to provide for the humane treatment of animals.",
+    keyProvisions: [
+      {
+        title: "Dog Licensing and Vaccination",
+        content: "All dogs over four months old must be licensed with the county. A certificate of rabies vaccination is required to obtain a license."
+      },
+      {
+        title: "Dogs At Large",
+        content: "Prohibits any dog from being 'at large'. Dogs must be confined to the owner's property or restrained by a leash when in public."
+      },
+      {
+        title: "Impoundment",
+        content: "Animal control officers are authorized to impound any dog found at large or any animal being treated cruelly."
+      },
+      {
+        title: "Cruelty and Neglect",
+        content: "Makes it unlawful to mistreat or neglect an animal by failing to provide adequate food, water, shelter, or necessary veterinary care."
+      }
+    ]
   }
 };

@@ -71,5 +71,27 @@ export const APACHE_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> 
         content: "Prohibits development in certain areas, such as designated floodways, that would obstruct floodwaters and increase flood heights."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Apache County Ordinance 2011-01 establishes rules for animal control to protect public health and safety. It covers dog licensing, control of stray animals, and rabies prevention. The ordinance summary can be found on the <a href='https://www.apachecountyaz.gov/Animal-Control' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Apache County Sheriff's website</a>.",
+    purpose: "To provide for the control of dogs and other animals to protect the health and safety of residents, prevent the spread of rabies, and ensure the humane treatment of animals.",
+    keyProvisions: [
+      {
+        title: "Dog Licensing and Vaccination",
+        content: "Requires all dogs over the age of three months to be licensed with the county and have a current rabies vaccination. The license tag must be attached to the dog's collar or harness."
+      },
+      {
+        title: "Dogs at Large (Leash Law)",
+        content: "It is unlawful for any dog to be 'at large,' meaning it must be confined to the owner's property or under the control of a leash when off the property."
+      },
+      {
+        title: "Impoundment",
+        content: "Grants animal control officers the authority to capture and impound any dog found at large or any animal suspected of being rabid."
+      },
+      {
+        title: "Vicious Animals",
+        content: "Defines 'vicious animal' and outlines procedures for handling animals that have bitten a person, including quarantine and potential euthanasia."
+      }
+    ]
   }
 };

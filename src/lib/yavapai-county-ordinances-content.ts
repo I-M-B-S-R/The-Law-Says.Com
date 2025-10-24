@@ -181,5 +181,27 @@ export const YAVAPAI_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent>
         content: "The use of RVs and tiny homes as permanent residences is generally limited to more rural and agricultural zoning districts and is not permitted in more densely populated suburban-style subdivisions."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Yavapai County's Dog Control Ordinance (Ordinance 2021-1) sets the rules for dog ownership to protect public health and safety. The ordinance is enforced by the Yavapai County Sheriff's Office Animal Control division. The full text can be found on the <a href='https://www.ycsoaz.gov/Animal-Control' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Sheriff's Office website</a>.",
+    purpose: "To establish regulations concerning the keeping of dogs to protect the public from disease and nuisance, and to ensure the humane treatment of dogs.",
+    keyProvisions: [
+      {
+        title: "Licensing",
+        content: "All dogs kept in the county must be licensed and have a current rabies vaccination. The license tag must be attached to the dog's collar at all times."
+      },
+      {
+        title: "Dogs at Large",
+        content: "Prohibits any dog from being 'at large,' meaning off the premises of the owner and not under the control of the owner or a responsible person by a leash."
+      },
+      {
+        title: "Nuisance Dogs",
+        content: "Defines a nuisance dog as one that barks excessively, damages property, or causes disturbances. Owners are required to prevent their dogs from becoming a nuisance."
+      },
+      {
+        title: "Vicious Dogs",
+        content: "Outlines a legal process for declaring a dog as 'vicious' after an investigation of an attack. A vicious dog declaration imposes strict confinement and insurance requirements on the owner."
+      }
+    ]
   }
 };

@@ -71,5 +71,27 @@ export const COCONINO_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent
         content: "Bans certain types of lighting, such as searchlights, laser lights, and upward-facing architectural lighting, except under special permit conditions."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Coconino County Ordinance 2017-06 sets the regulations for animal care and control. It covers licensing, vaccinations, leash laws, and the handling of dangerous or nuisance animals to ensure public safety and animal welfare. The ordinance is available on the <a href='https://coconino.az.gov/DocumentCenter/View/14292/Ordinance-2017-06---Animal-Control' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Coconino County website</a>.",
+    purpose: "To protect the public from injury, property damage, and nuisance caused by dogs and other animals, and to ensure the humane treatment of animals.",
+    keyProvisions: [
+      {
+        title: "Licensing and Vaccination",
+        content: "All dogs over four months of age must be licensed with the county and have proof of current rabies vaccination. Licenses must be renewed periodically."
+      },
+      {
+        title: "Dog at Large",
+        content: "Prohibits dogs from being 'at large.' A dog must be confined to the owner's property or restrained by a leash not exceeding six feet in length."
+      },
+      {
+        title: "Nuisance Animals",
+        content: "Defines nuisance behaviors such as excessive, continuous barking; damaging property; or chasing pedestrians or vehicles. Owners are responsible for preventing their pets from becoming a nuisance."
+      },
+      {
+        title: "Dangerous and Vicious Animals",
+        content: "Establishes a formal process for declaring an animal 'dangerous' or 'vicious' after an investigation. Such a declaration imposes strict confinement and liability insurance requirements on the owner."
+      }
+    ]
   }
 };

@@ -71,5 +71,27 @@ export const COCHISE_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent>
         content: "Prohibits encroachments, including fill, new construction, and substantial improvements, within the regulatory floodway that would result in any increase in flood levels during the base flood discharge."
       }
     ]
+  },
+  'animal-control': {
+    summary: "Cochise County's animal control regulations are designed to protect public health and safety and ensure animal welfare. These rules cover dog licensing, leash laws, and dealing with dangerous animals. The regulations are enforced by the Sheriff's Office. More information is available on the <a href='https://www.cochise.az.gov/395/Animal-Control' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Cochise County Sheriff's website</a>.",
+    purpose: "To protect residents from nuisance, property damage, and physical harm caused by uncontrolled animals, and to provide for the humane treatment of animals in the county.",
+    keyProvisions: [
+      {
+        title: "Licensing and Vaccination",
+        content: "All dogs must be licensed annually and vaccinated against rabies. Licenses provide a way to return lost dogs to their owners and ensure public health."
+      },
+      {
+        title: "Dogs at Large Prohibited",
+        content: "The ordinance prohibits dogs from running at large. Dogs must be confined to the owner's property or be under the control of a leash when in public."
+      },
+      {
+        title: "Nuisance Animals",
+        content: "Defines a 'nuisance' animal, which includes animals that bark excessively, damage property, or chase vehicles. Owners are responsible for preventing their animals from becoming a nuisance."
+      },
+      {
+        title: "Cruelty to Animals",
+        content: "It is unlawful to subject an animal to cruel treatment, including failure to provide adequate food, water, shelter, or necessary medical attention."
+      }
+    ]
   }
 };
