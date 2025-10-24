@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, BookOpen } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { FEDERAL_LAWS } from '@/lib/federal-laws';
@@ -26,12 +26,11 @@ export default function FederalLawsPage() {
                 <Button
                   key={law.id}
                   size="lg"
-                  className="h-24 w-full justify-start whitespace-normal text-left font-bold"
+                  className="h-24 w-full justify-start whitespace-normal px-4 text-left font-bold"
                   variant="destructive"
                   asChild
                 >
-                  <Link href={`/federal-laws/${law.id}`} className="flex items-center">
-                    <BookOpen className="mr-4 h-6 w-6 flex-shrink-0" />
+                  <Link href={`/federal-laws/${law.id}`}>
                     <span>{law.id}. {law.name}</span>
                   </Link>
                 </Button>
