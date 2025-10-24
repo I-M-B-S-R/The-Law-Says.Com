@@ -48,7 +48,7 @@ export default function FederalLawDetailPage() {
               </CardHeader>
               <CardContent>
                 <div className="prose prose-sm max-w-none text-justify dark:prose-invert">
-                  <p className="font-semibold">{lawContent.summary}</p>
+                  <p className="font-semibold" dangerouslySetInnerHTML={{ __html: lawContent.summary }} />
                 </div>
               </CardContent>
             </Card>

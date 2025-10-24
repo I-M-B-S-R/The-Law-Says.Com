@@ -7,7 +7,7 @@ interface LawContent {
 
 export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
   '1': {
-    summary: "The Administrative Procedure Act (APA) is a United States federal statute that governs the way in which administrative agencies of the federal government may propose and establish regulations. It also sets up a process for courts to directly review agency decisions. It is one of the most important pieces of U.S. administrative law.",
+    summary: "The Administrative Procedure Act (APA), found in <a href='https://www.govinfo.gov/app/details/USCODE-2021-title5/USCODE-2021-title5-partI-chap5' target='_blank' rel='noopener noreferrer' class='text-primary underline'>5 U.S.C. §§ 551-559</a>, is a United States federal statute that governs the way in which administrative agencies of the federal government may propose and establish regulations. It also sets up a process for courts to directly review agency decisions. It is one of the most important pieces of U.S. administrative law.",
     keyProvisions: [
       {
         title: "Rulemaking (Section 553)",
@@ -29,7 +29,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "The primary purpose of the APA is to ensure that agency actions are fair, transparent, and accountable. It does this by requiring public participation in the rulemaking process (transparency), establishing fair procedures for individual decisions (fairness), and allowing for court oversight (accountability)."
   },
   '2': {
-    summary: "Admiralty law, also known as maritime law, is a distinct body of law that governs nautical issues and private maritime disputes. It includes both domestic law on maritime activities, and private international law governing the relationships between private entities that operate vessels on the oceans.",
+    summary: "Admiralty law, also known as maritime law, is a distinct body of law that governs nautical issues and private maritime disputes. It is codified in various sections of the U.S. Code, primarily <a href='https://www.govinfo.gov/app/details/USCODE-2021-title46' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 46 (Shipping)</a>. It includes both domestic law on maritime activities, and private international law governing the relationships between private entities that operate vessels on the oceans.",
     keyProvisions: [
       {
         title: "Maintenance and Cure",
@@ -47,7 +47,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To provide a consistent and predictable legal framework for maritime activities, resolving disputes and protecting the rights of seamen, shipowners, and other parties involved in maritime commerce."
   },
   '3': {
-    summary: "The Age Discrimination in Employment Act of 1967 (ADEA) is a US labor law that forbids employment discrimination against anyone at least 40 years of age in the United States.",
+    summary: "The Age Discrimination in Employment Act of 1967 (ADEA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title29/USCODE-2021-title29-chap14' target='_blank' rel='noopener noreferrer' class='text-primary underline'>29 U.S.C. §§ 621-634</a>, is a US labor law that forbids employment discrimination against anyone at least 40 years of age in the United States.",
     keyProvisions: [
       {
         title: "Prohibited Practices",
@@ -65,7 +65,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To promote the employment of older persons based on their ability rather than age; to prohibit arbitrary age discrimination in employment; and to help employers and workers find ways of meeting problems arising from the impact of age on employment."
   },
   '4': {
-    summary: "The Americans with Disabilities Act of 1990 (ADA) is a civil rights law that prohibits discrimination based on disability. It affords similar protections against discrimination to Americans with disabilities as the Civil Rights Act of 1964.",
+    summary: "The Americans with Disabilities Act of 1990 (ADA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap126' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 126</a>, is a civil rights law that prohibits discrimination based on disability. It affords similar protections against discrimination to Americans with disabilities as the Civil Rights Act of 1964.",
     keyProvisions: [
         {
             title: "Title I: Employment",
@@ -83,7 +83,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To ensure that people with disabilities have the same rights and opportunities as everyone else by prohibiting discrimination and guaranteeing that people with disabilities have the same opportunities as everyone else to participate in the mainstream of American life."
   },
   '5': {
-    summary: "The Animal Welfare Act of 1966 is the only federal law in the United States that regulates the treatment of animals in research, exhibition, transport, and by dealers.",
+    summary: "The Animal Welfare Act of 1966 (AWA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title7/USCODE-2021-title7-chap54' target='_blank' rel='noopener noreferrer' class='text-primary underline'>7 U.S.C. Chapter 54</a>, is the only federal law in the United States that regulates the treatment of animals in research, exhibition, transport, and by dealers.",
     keyProvisions: [
         {
             title: "Regulated Animals",
@@ -97,7 +97,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To ensure that animals intended for use in research facilities or for exhibition purposes or for use as pets are provided humane care and treatment, and to assure the humane treatment of animals during transportation in commerce."
   },
   '6': {
-    summary: "Antitrust laws are a collection of federal and state government laws that regulate the conduct and organization of business corporations, generally to promote fair competition for the benefit of consumers.",
+    summary: "Antitrust laws are a collection of federal and state government laws that regulate business conduct. Key federal acts are the Sherman Antitrust Act (<a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap1' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. §§ 1-7</a>) and the Clayton Antitrust Act (<a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap1' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. §§ 12-27</a>), designed to promote fair competition for the benefit of consumers.",
     keyProvisions: [
         {
             title: "Sherman Antitrust Act (1890)",
@@ -111,7 +111,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect the process of competition for the benefit of consumers, making sure there are strong incentives for businesses to operate efficiently, keep prices down, and keep quality up."
   },
   '7': {
-    summary: "Title 11 of the United States Code, known as the Bankruptcy Code, governs the process of bankruptcy in the United States.",
+    summary: "<a href='https://www.govinfo.gov/app/details/USCODE-2021-title11' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 11 of the United States Code</a>, known as the Bankruptcy Code, governs the process of bankruptcy in the United States, providing for the orderly distribution of a debtor's assets to creditors and giving honest debtors a 'fresh start'.",
     keyProvisions: [
       {
         title: "Chapter 7: Liquidation",
@@ -129,7 +129,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To give honest debtors a 'fresh start' from burdensome debts and to provide for the fair and orderly distribution of a debtor's assets among creditors."
   },
   '8': {
-    summary: "The Fair Labor Standards Act (FLSA) establishes federal standards for minimum wage, overtime pay, recordkeeping, and youth employment. The child labor provisions are designed to protect the educational opportunities of minors and prohibit their employment in jobs that are detrimental to their health and safety.",
+    summary: "The Fair Labor Standards Act (FLSA), found at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title29/USCODE-2021-title29-chap8' target='_blank' rel='noopener noreferrer' class='text-primary underline'>29 U.S.C. Chapter 8</a>, establishes federal standards for child labor. The provisions are designed to protect the educational opportunities of minors and prohibit their employment in jobs that are detrimental to their health and safety.",
     keyProvisions: [
       {
         title: "Age Restrictions",
@@ -147,7 +147,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect the health, well-being, and educational opportunities of young workers by restricting the types of jobs and the hours they can work."
   },
   '9': {
-    summary: "The Civil Rights Act of 1964 is a landmark civil rights and labor law in the United States that outlaws discrimination based on race, color, religion, sex, or national origin.",
+    summary: "The Civil Rights Act of 1964, a landmark law codified in <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap21' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 21</a>, outlaws discrimination based on race, color, religion, sex, or national origin in the United States.",
     keyProvisions: [
       {
         title: "Title II",
@@ -165,7 +165,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To end segregation in public places and ban employment discrimination on the basis of race, color, religion, sex or national origin."
   },
   '10': {
-    summary: "The Clean Air Act is a comprehensive federal law that regulates air emissions from stationary and mobile sources. This law authorizes the EPA to establish National Ambient Air Quality Standards (NAAQS) to protect public health and public welfare and to regulate emissions of hazardous air pollutants.",
+    summary: "The Clean Air Act, found at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap85' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 US.C. Chapter 85</a>, is a comprehensive federal law that regulates air emissions from stationary and mobile sources. This law authorizes the EPA to establish National Ambient Air Quality Standards (NAAQS) to protect public health and public welfare and to regulate emissions of hazardous air pollutants.",
     keyProvisions: [
       {
         title: "National Ambient Air Quality Standards (NAAQS)",
@@ -183,7 +183,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect public health and welfare from different types of air pollution caused by a diverse array of pollution sources."
   },
   '11': {
-    summary: "The Clean Water Act (CWA) establishes the basic structure for regulating discharges of pollutants into the waters of the United States and regulating quality standards for surface waters.",
+    summary: "The Clean Water Act (CWA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title33/USCODE-2021-title33-chap26' target='_blank' rel='noopener noreferrer' class='text-primary underline'>33 U.S.C. Chapter 26</a>, establishes the basic structure for regulating discharges of pollutants into the waters of the United States and regulating quality standards for surface waters.",
     keyProvisions: [
       {
         title: "NPDES Permit Program",
@@ -201,7 +201,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To restore and maintain the chemical, physical, and biological integrity of the nation's waters."
   },
   '12': {
-    summary: "The Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), commonly known as Superfund, provides a Federal 'Superfund' to clean up uncontrolled or abandoned hazardous-waste sites as well as accidents, spills, and other emergency releases of pollutants and contaminants into the environment.",
+    summary: "The Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), commonly known as Superfund, is codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap103' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 103</a>. It provides a Federal 'Superfund' to clean up uncontrolled or abandoned hazardous-waste sites as well as accidents, spills, and other emergency releases of pollutants and contaminants into the environment.",
     keyProvisions: [
       {
         title: "Hazardous Substance Release",
@@ -219,7 +219,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To provide for the cleanup of hazardous substance releases and to hold responsible parties accountable for the costs of cleanup."
   },
   '13': {
-    summary: "The Consolidated Omnibus Budget Reconciliation Act (COBRA) gives workers and their families who lose their health benefits the right to choose to continue group health benefits provided by their group health plan for limited periods of time under certain circumstances such as voluntary or involuntary job loss, reduction in the hours worked, transition between jobs, death, divorce, and other life events.",
+    summary: "The Consolidated Omnibus Budget Reconciliation Act (COBRA) gives workers and their families who lose their health benefits the right to continue group health benefits for limited periods. The provisions are found in <a href='https://www.govinfo.gov/app/details/USCODE-2021-title29/USCODE-2021-title29-chap18-subchapI-part6' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 29 of the U.S. Code</a>.",
     keyProvisions: [
       {
         title: "Continuation Coverage",
@@ -237,7 +237,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To provide a temporary bridge for individuals and their families to maintain health coverage during periods of job or life transition, preventing gaps in health insurance."
   },
   '14': {
-    summary: "The Consumer Credit Protection Act (CCPA) is a federal law designed to ensure the fair and honest extension of credit to consumers. It includes several key titles, most notably the Truth in Lending Act (TILA).",
+    summary: "The Consumer Credit Protection Act (CCPA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap41' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. Chapter 41</a>, is a federal law designed to ensure the fair and honest extension of credit to consumers. It includes several key titles, most notably the Truth in Lending Act (TILA).",
     keyProvisions: [
       {
         title: "Truth in Lending Act (TILA)",
@@ -255,7 +255,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect consumers in their dealings with lenders and credit reporting agencies, and to prevent abusive debt collection practices."
   },
   '15': {
-    summary: "Copyright law in the United States is governed by Title 17 of the U.S. Code. It grants the creator of an original work exclusive rights for its use and distribution. This protection is available for both published and unpublished works.",
+    summary: "Copyright law in the United States is governed by <a href='https://www.govinfo.gov/app/details/USCODE-2021-title17' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 17 of the U.S. Code</a>. It grants the creator of an original work exclusive rights for its use and distribution. This protection is available for both published and unpublished works.",
     keyProvisions: [
       {
         title: "Exclusive Rights",
@@ -273,7 +273,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To promote the progress of science and useful arts by securing for limited times to authors the exclusive right to their respective writings."
   },
   '16': {
-    summary: "Customs and Border Protection (CBP) regulations govern the flow of goods and people into and out of the United States. These regulations are enforced by the CBP, an agency of the Department of Homeland Security.",
+    summary: "Customs and Border Protection (CBP) regulations govern the flow of goods and people into and out of the United States. These regulations, primarily found in <a href='https://www.govinfo.gov/app/details/CFR-2023-title19-vol1' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 19 of the Code of Federal Regulations</a>, are enforced by the CBP, an agency of the Department of Homeland Security.",
     keyProvisions: [
       {
         title: "Import/Export Requirements",
@@ -291,7 +291,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To safeguard America's borders, prevent the entry of terrorists and their weapons, and to facilitate lawful international trade and travel."
   },
   '17': {
-    summary: "The Dodd-Frank Act was enacted in response to the 2008 financial crisis. It is a massive piece of financial reform legislation that established a number of new government agencies tasked with overseeing various components of the financial system.",
+    summary: "The Dodd-Frank Act was enacted in response to the 2008 financial crisis. It is a massive piece of financial reform legislation that established a number of new government agencies tasked with overseeing various components of the financial system. Key parts are found in <a href='https://www.govinfo.gov/app/details/USCODE-2021-title12/USCODE-2021-title12-chap53' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 12 of the U.S. Code</a>.",
     keyProvisions: [
       {
         title: "Consumer Financial Protection Bureau (CFPB)",
@@ -309,7 +309,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To promote the financial stability of the United States by improving accountability and transparency in the financial system, to end 'too big to fail', to protect the American taxpayer by ending bailouts, and to protect consumers from abusive financial services practices."
   },
   '18': {
-    summary: "The Drug Enforcement Administration (DEA) enforces the controlled substances laws and regulations of the United States. These regulations are primarily contained within the Controlled Substances Act (CSA).",
+    summary: "The Drug Enforcement Administration (DEA) enforces the controlled substances laws and regulations of the United States. These regulations are primarily contained within the Controlled Substances Act (CSA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title21/USCODE-2021-title21-chap13' target='_blank' rel='noopener noreferrer' class='text-primary underline'>21 U.S.C. Chapter 13</a>.",
     keyProvisions: [
       {
         title: "Drug Scheduling",
@@ -327,7 +327,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To enforce the controlled substances laws and regulations of the United States and bring to the criminal and civil justice system those organizations and principal members of organizations, involved in the growing, manufacture, or distribution of controlled substances."
   },
   '19': {
-    summary: "The Employee Retirement Income Security Act of 1974 (ERISA) is a federal law that sets minimum standards for most voluntarily established retirement and health plans in private industry to provide protection for individuals in these plans.",
+    summary: "The Employee Retirement Income Security Act of 1974 (ERISA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title29/USCODE-2021-title29-chap18' target='_blank' rel='noopener noreferrer' class='text-primary underline'>29 U.S.C. Chapter 18</a>, is a federal law that sets minimum standards for most voluntarily established retirement and health plans in private industry to provide protection for individuals in these plans.",
     keyProvisions: [
       {
         title: "Fiduciary Duties",
@@ -345,7 +345,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect the interests of participants and their beneficiaries in employee benefit plans."
   },
   '20': {
-    summary: "The Endangered Species Act (ESA) of 1973 provides a program for the conservation of threatened and endangered plants and animals and the habitats in which they are found.",
+    summary: "The Endangered Species Act (ESA) of 1973, codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title16/USCODE-2021-title16-chap35' target='_blank' rel='noopener noreferrer' class='text-primary underline'>16 U.S.C. Chapter 35</a>, provides a program for the conservation of threatened and endangered plants and animals and the habitats in which they are found.",
     keyProvisions: [
       {
         title: "Listing",
@@ -363,7 +363,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect and recover imperiled species and the ecosystems upon which they depend."
   },
   '21': {
-    summary: "The Energy Policy Act addresses energy production in the United States, including energy efficiency, renewable energy, oil and gas, coal, tribal energy, nuclear matters and security, vehicles and motor fuels, hydrogen, electricity, and energy tax incentives.",
+    summary: "The Energy Policy Act of 2005, found in <a href='https://www.govinfo.gov/app/details/PLAW-109publ58' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Public Law 109-58</a>, addresses energy production in the United States, including energy efficiency, renewable energy, oil and gas, coal, tribal energy, nuclear matters and security, vehicles and motor fuels, hydrogen, electricity, and energy tax incentives.",
     keyProvisions: [
       {
         title: "Renewable Fuel Standard (RFS)",
@@ -381,7 +381,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To combat growing energy problems, this act provides tax incentives and loan guarantees for energy production of various types."
   },
   '22': {
-    summary: "The Equal Credit Opportunity Act (ECOA) is a United States federal law that makes it illegal for any creditor to discriminate against any applicant, with respect to any aspect of a credit transaction, on the basis of race, color, religion, national origin, sex, marital status, or age.",
+    summary: "The Equal Credit Opportunity Act (ECOA), part of the CCPA and codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap41-subchapIV' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. § 1691 et seq.</a>, makes it illegal for any creditor to discriminate against any applicant, with respect to any aspect of a credit transaction, on the basis of race, color, religion, national origin, sex, marital status, or age.",
     keyProvisions: [
       {
         title: "Prohibited Basis",
@@ -399,7 +399,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To ensure that all consumers are given an equal chance to obtain credit."
   },
   '23': {
-    summary: "The Equal Pay Act of 1963 is a United States labor law amending the Fair Labor Standards Act, aimed at abolishing wage disparity based on sex. It was signed into law on June 10, 1963, by John F. Kennedy.",
+    summary: "The Equal Pay Act of 1963, codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title29/USCODE-2021-title29-chap8-sec206' target='_blank' rel='noopener noreferrer' class='text-primary underline'>29 U.S.C. § 206(d)</a>, is a United States labor law amending the Fair Labor Standards Act, aimed at abolishing wage disparity based on sex.",
     keyProvisions: [
       {
         title: "Equal Pay for Equal Work",
@@ -417,7 +417,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To prohibit discrimination on account of sex in the payment of wages by employers."
   },
   '24': {
-    summary: "The Fair Credit Reporting Act (FCRA) is a federal law that regulates the collection of consumers' credit information and access to their credit reports. It was passed in 1970 to address the fairness, accuracy, and privacy of the personal information contained in the files of the credit reporting agencies.",
+    summary: "The Fair Credit Reporting Act (FCRA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap41-subchapIII' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. § 1681 et seq.</a>, is a federal law that regulates the collection of consumers' credit information and access to their credit reports. It was passed in 1970 to address the fairness, accuracy, and privacy of personal information in credit files.",
     keyProvisions: [
       {
         title: "Access to Information",
@@ -435,7 +435,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To promote the accuracy, fairness, and privacy of information in the files of consumer reporting agencies."
   },
   '25': {
-    summary: "The Fair Debt Collection Practices Act (FDCPA) is a federal law that limits the behavior and actions of third-party debt collectors who are attempting to collect debts on behalf of another person or entity.",
+    summary: "The Fair Debt Collection Practices Act (FDCPA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap41-subchapV' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. § 1692 et seq.</a>, is a federal law that limits the behavior and actions of third-party debt collectors who are attempting to collect debts on behalf of another person or entity.",
     keyProvisions: [
       {
         title: "Prohibited Practices",
@@ -453,7 +453,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To eliminate abusive debt collection practices by debt collectors, to insure that those debt collectors who refrain from using abusive debt collection practices are not competitively disadvantaged, and to promote consistent State action to protect consumers against debt collection abuses."
   },
   '26': {
-    summary: "The Fair Housing Act is a federal law that prohibits discrimination in the sale, rental, and financing of dwellings, and in other housing-related transactions, based on race, color, national origin, religion, sex, familial status, and disability.",
+    summary: "The Fair Housing Act, codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap45' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 45</a>, is a federal law that prohibits discrimination in the sale, rental, and financing of dwellings, and in other housing-related transactions, based on race, color, national origin, religion, sex, familial status, and disability.",
     keyProvisions: [
       {
         title: "Prohibited Actions",
@@ -471,7 +471,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To provide for fair housing throughout the United States and to prevent discrimination in all housing-related activities."
   },
   '27': {
-    summary: "The Fair Labor Standards Act (FLSA) is a federal law which establishes minimum wage, overtime pay eligibility, recordkeeping, and child labor standards affecting full-time and part-time workers in the private sector and in federal, state, and local governments.",
+    summary: "The Fair Labor Standards Act (FLSA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title29/USCODE-2021-title29-chap8' target='_blank' rel='noopener noreferrer' class='text-primary underline'>29 U.S.C. Chapter 8</a>, is a federal law which establishes minimum wage, overtime pay eligibility, recordkeeping, and child labor standards affecting full-time and part-time workers in the private sector and in federal, state, and local governments.",
     keyProvisions: [
       {
         title: "Minimum Wage",
@@ -489,7 +489,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect workers from unfair labor practices by establishing minimum standards for wages and working conditions."
   },
   '28': {
-    summary: "The Family and Medical Leave Act of 1993 (FMLA) is a United States labor law requiring covered employers to provide employees with job-protected, unpaid leave for qualified medical and family reasons.",
+    summary: "The Family and Medical Leave Act of 1993 (FMLA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title29/USCODE-2021-title29-chap28' target='_blank' rel='noopener noreferrer' class='text-primary underline'>29 U.S.C. Chapter 28</a>, is a United States labor law requiring covered employers to provide employees with job-protected, unpaid leave for qualified medical and family reasons.",
     keyProvisions: [
       {
         title: "Eligibility",
@@ -507,7 +507,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To help employees balance their work and family responsibilities by allowing them to take reasonable unpaid leave for certain family and medical reasons."
   },
   '29': {
-    summary: "The Federal Aviation Administration (FAA) is the national aviation authority of the United States. It has authority to regulate and oversee all aspects of American civil aviation. FAA regulations are extensive and cover aircraft, airmen, airports, and air traffic control.",
+    summary: "The Federal Aviation Administration (FAA) is the national aviation authority of the United States. Its regulations, found in <a href='https://www.govinfo.gov/app/details/CFR-2023-title14-vol1' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 14 of the Code of Federal Regulations</a>, oversee all aspects of American civil aviation, covering aircraft, airmen, airports, and air traffic control.",
     keyProvisions: [
       {
         title: "Aircraft Certification",
@@ -525,7 +525,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To provide the safest, most efficient aerospace system in the world."
   },
   '30': {
-    summary: "The Federal Communications Commission (FCC) is an independent agency of the United States government created by statute to regulate interstate communications by radio, television, wire, satellite, and cable.",
+    summary: "The Federal Communications Commission (FCC) is an independent agency of the United States government created by the Communications Act of 1934 (<a href='https://www.govinfo.gov/app/details/USCODE-2021-title47' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 47 of the U.S. Code</a>) to regulate interstate communications by radio, television, wire, satellite, and cable.",
     keyProvisions: [
       {
         title: "Spectrum Management",
@@ -543,7 +543,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To regulate interstate and international communications by radio, television, wire, satellite, and cable in all 50 states, the District of Columbia, and U.S. territories."
   },
   '31': {
-    summary: "The Federal Food, Drug, and Cosmetic Act (FD&C Act) is a set of laws passed by Congress in 1938 giving authority to the U.S. Food and Drug Administration (FDA) to oversee the safety of food, drugs, medical devices, and cosmetics.",
+    summary: "The Federal Food, Drug, and Cosmetic Act (FD&C Act), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title21' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 21 of the U.S. Code</a>, is a set of laws passed by Congress in 1938 giving authority to the U.S. Food and Drug Administration (FDA) to oversee the safety of food, drugs, medical devices, and cosmetics.",
     keyProvisions: [
       {
         title: "Premarket Approval",
@@ -561,7 +561,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect public health by assuring the safety, efficacy, and security of human and veterinary drugs, biological products, medical devices, our nation's food supply, cosmetics, and products that emit radiation."
   },
   '32': {
-    summary: "The Federal Information Security Management Act (FISMA) is a United States federal law enacted in 2002 that made it a requirement for federal agencies to develop, document, and implement an agency-wide program to provide information security for the information and information systems that support the operations and assets of the agency.",
+    summary: "The Federal Information Security Management Act (FISMA) of 2002, found within <a href='https://www.govinfo.gov/app/details/USCODE-2021-title44/USCODE-2021-title44-chap35-subchapIII' target='_blank' rel='noopener noreferrer' class='text-primary underline'>44 U.S.C. §§ 3541-3549</a>, made it a requirement for federal agencies to develop, document, and implement an agency-wide program to provide information security for the information and systems that support the agency's operations.",
     keyProvisions: [
       {
         title: "Risk Management Framework",
@@ -579,7 +579,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To bolster computer and network security within the federal government and affiliated parties by mandating yearly audits."
   },
   '33': {
-    summary: "The Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA) is a United States federal law that set up the basic U.S. system of pesticide regulation to protect applicators, consumers, and the environment.",
+    summary: "The Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title7/USCODE-2021-title7-chap6' target='_blank' rel='noopener noreferrer' class='text-primary underline'>7 U.S.C. Chapter 6</a>, is a United States federal law that set up the basic U.S. system of pesticide regulation to protect applicators, consumers, and the environment.",
     keyProvisions: [
       {
         title: "Pesticide Registration",
@@ -597,7 +597,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To provide for federal regulation of pesticide distribution, sale, and use. All pesticides distributed or sold in the United States must be registered (licensed) by EPA."
   },
   '34': {
-    summary: "The Federal Trade Commission Act is the primary statute of the Federal Trade Commission (FTC). The Act, passed in 1914, prohibits unfair methods of competition and unfair or deceptive acts or practices in or affecting commerce.",
+    summary: "The Federal Trade Commission Act is the primary statute of the Federal Trade Commission (FTC), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap2-subchapI' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. §§ 41-58</a>. The Act, passed in 1914, prohibits unfair methods of competition and unfair or deceptive acts or practices in or affecting commerce.",
     keyProvisions: [
       {
         title: "Section 5: Unfair or Deceptive Acts",
@@ -615,7 +615,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect consumers and promote competition by preventing anticompetitive, deceptive, and unfair business practices."
   },
   '35': {
-    summary: "The Freedom of Information Act (FOIA) is a federal freedom of information law that requires the full or partial disclosure of previously unreleased information and documents controlled by the U.S. Government upon request.",
+    summary: "The Freedom of Information Act (FOIA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title5/USCODE-2021-title5-partI-chap5-subchapII-sec552' target='_blank' rel='noopener noreferrer' class='text-primary underline'>5 U.S.C. § 552</a>, is a federal freedom of information law that requires the full or partial disclosure of previously unreleased information and documents controlled by the U.S. Government upon request.",
     keyProvisions: [
       {
         title: "Right to Request",
@@ -633,7 +633,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To ensure public access to U.S. government records, promoting transparency and accountability in government."
   },
   '36': {
-    summary: "The Gramm-Leach-Bliley Act (GLBA), also known as the Financial Services Modernization Act of 1999, requires financial institutions to explain their information-sharing practices to their customers and to safeguard sensitive data.",
+    summary: "The Gramm-Leach-Bliley Act (GLBA), also known as the Financial Services Modernization Act of 1999, is codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap94' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. Chapter 94</a>. It requires financial institutions to explain their information-sharing practices to their customers and to safeguard sensitive data.",
     keyProvisions: [
       {
         title: "Financial Privacy Rule",
@@ -651,7 +651,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect consumers' personal financial information held by financial institutions."
   },
   '37': {
-    summary: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is a federal law that required the creation of national standards to protect sensitive patient health information from being disclosed without the patient's consent or knowledge.",
+    summary: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is a federal law that required the creation of national standards to protect sensitive patient health information from being disclosed without the patient's consent or knowledge. Its regulations are found in <a href='https://www.govinfo.gov/app/details/CFR-2023-title45-vol1/CFR-2023-title45-vol1-part160' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 45 of the CFR, Parts 160, 162, and 164</a>.",
     keyProvisions: [
       {
         title: "Privacy Rule",
@@ -669,7 +669,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To improve the efficiency and effectiveness of the health care system, HIPAA includes provisions to protect the privacy and security of patient health information."
   },
   '38': {
-    summary: "The Immigration and Nationality Act (INA), or INA, is the body of law that governs current immigration policy in the United States. It addresses issues such as visas, citizenship, and asylum.",
+    summary: "The Immigration and Nationality Act (INA), found in <a href='https://www.govinfo.gov/app/details/USCODE-2021-title8' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 8 of the U.S. Code</a>, is the body of law that governs current immigration policy in the United States. It addresses issues such as visas, citizenship, and asylum.",
     keyProvisions: [
       {
         title: "Immigrant and Nonimmigrant Visas",
@@ -687,7 +687,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To provide a comprehensive framework for immigration and citizenship in the United States."
   },
   '39': {
-    summary: "The Internal Revenue Code (IRC), formally the Internal Revenue Code of 1986, is the main body of domestic statutory tax law in the United States organized under Title 26 of the United States Code.",
+    summary: "The Internal Revenue Code (IRC), formally the Internal Revenue Code of 1986, is the main body of domestic statutory tax law in the United States, organized under <a href='https://www.govinfo.gov/app/details/USCODE-2021-title26' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 26 of the United States Code</a>.",
     keyProvisions: [
       {
         title: "Income Taxes",
@@ -705,7 +705,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To provide the statutory basis for all federal tax law in the United States, raising revenue for government operations."
   },
   '40': {
-    summary: "The International Traffic in Arms Regulations (ITAR) is a United States regulatory regime to restrict and control the export of defense and military related technologies to safeguard U.S. national security and further U.S. foreign policy objectives.",
+    summary: "The International Traffic in Arms Regulations (ITAR) is a United States regulatory regime to restrict and control the export of defense and military related technologies. The regulations are found in <a href='https://www.govinfo.gov/app/details/CFR-2023-title22-vol1/CFR-2023-title22-vol1-chapI-subchapM' target='_blank' rel='noopener noreferrer' class='text-primary underline'>22 CFR Parts 120-130</a>.",
     keyProvisions: [
       {
         title: "U.S. Munitions List (USML)",
@@ -723,7 +723,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To control the export and import of defense-related articles and services on the United States Munitions List (USML)."
   },
   '41': {
-    summary: "The Lanham Act (also known as the Trademark Act of 1946) is the federal statute that governs trademarks, service marks, and unfair competition. It is found in Title 15 of the U.S. Code.",
+    summary: "The Lanham Act (also known as the Trademark Act of 1946) is the federal statute that governs trademarks, service marks, and unfair competition. It is found in <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap22' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 15 of the U.S. Code, Chapter 22</a>.",
     keyProvisions: [
       {
         title: "Trademark Registration",
@@ -741,7 +741,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect the owner of a trademark by preventing others from using the same or a confusingly similar mark, and to protect consumers from confusion and deception."
   },
   '42': {
-    summary: "The National Environmental Policy Act (NEPA) is a United States environmental law that promotes the enhancement of the environment and established the President's Council on Environmental Quality (CEQ).",
+    summary: "The National Environmental Policy Act (NEPA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap55' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 55</a>, is a United States environmental law that promotes the enhancement of the environment and established the President's Council on Environmental Quality (CEQ).",
     keyProvisions: [
       {
         title: "Environmental Impact Statements (EIS)",
@@ -759,7 +759,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To ensure that federal agencies consider the environmental impacts of their actions in the decision-making process."
   },
   '43': {
-    summary: "The National Labor Relations Act (NLRA) of 1935 is a foundational statute of US labor law which guarantees the right of private sector employees to organize into trade unions, engage in collective bargaining, and take collective action such as strikes.",
+    summary: "The National Labor Relations Act (NLRA) of 1935, codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title29/USCODE-2021-title29-chap7' target='_blank' rel='noopener noreferrer' class='text-primary underline'>29 U.S.C. Chapter 7</a>, is a foundational statute of US labor law which guarantees the right of private sector employees to organize into trade unions, engage in collective bargaining, and take collective action such as strikes.",
     keyProvisions: [
       {
         title: "Right to Organize",
@@ -777,7 +777,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect the rights of employees and employers, to encourage collective bargaining, and to curtail certain private sector labor and management practices, which can harm the general welfare of workers, businesses and the U.S. economy."
   },
   '44': {
-    summary: "The Occupational Safety and Health Act of 1970 (OSH Act) is the primary federal law which governs occupational health and safety in the private sector and federal government in the United States. It was enacted by Congress in 1970 and was signed by President Richard Nixon on December 29, 1970.",
+    summary: "The Occupational Safety and Health Act of 1970 (OSH Act), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title29/USCODE-2021-title29-chap15' target='_blank' rel='noopener noreferrer' class='text-primary underline'>29 U.S.C. Chapter 15</a>, is the primary federal law which governs occupational health and safety in the private sector and federal government in the United States.",
     keyProvisions: [
       {
         title: "General Duty Clause",
@@ -795,7 +795,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To assure safe and healthful working conditions for working men and women by authorizing enforcement of the standards developed under the Act."
   },
   '45': {
-    summary: "Patent law in the United States is governed by Title 35 of the U.S. Code. A patent is an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem.",
+    summary: "Patent law in the United States is governed by <a href='https://www.govinfo.gov/app/details/USCODE-2021-title35' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 35 of the U.S. Code</a>. A patent is an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem.",
     keyProvisions: [
       {
         title: "Exclusive Rights",
@@ -813,7 +813,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To encourage invention and innovation by granting inventors exclusive rights to their inventions for a limited time."
   },
   '46': {
-    summary: "The Patient Protection and Affordable Care Act (ACA), often referred to as Obamacare, is a comprehensive healthcare reform law enacted in March 2010. The law has 3 primary goals: make affordable health insurance available to more people, expand the Medicaid program, and support innovative medical care delivery methods designed to lower the costs of health care generally.",
+    summary: "The Patient Protection and Affordable Care Act (ACA), often referred to as Obamacare, is a comprehensive healthcare reform law enacted in March 2010. You can find its text in various sections of the U.S. Code, including <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap157' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 157</a>.",
     keyProvisions: [
       {
         title: "Individual Mandate",
@@ -831,7 +831,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To increase the number of Americans with health insurance and to reform the health insurance market to be more affordable and accessible."
   },
   '47': {
-    summary: "The Racketeer Influenced and Corrupt Organizations (RICO) Act is a federal law passed in 1970 that provides for extended criminal penalties and a civil cause of action for acts performed as part of an ongoing criminal organization.",
+    summary: "The Racketeer Influenced and Corrupt Organizations (RICO) Act, codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title18/USCODE-2021-title18-partI-chap96' target='_blank' rel='noopener noreferrer' class='text-primary underline'>18 U.S.C. Chapter 96</a>, is a federal law passed in 1970 that provides for extended criminal penalties and a civil cause of action for acts performed as part of an ongoing criminal organization.",
     keyProvisions: [
       {
         title: "Pattern of Racketeering Activity",
@@ -849,7 +849,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To seek the eradication of organized crime in the United States by strengthening the legal tools in evidence gathering, and by providing for enhanced sanctions and new remedies to deal with the unlawful activities of those engaged in organized crime."
   },
   '48': {
-    summary: "The Resource Conservation and Recovery Act (RCRA) gives the EPA the authority to control hazardous waste from the 'cradle-to-grave.' This includes the generation, transportation, treatment, storage, and disposal of hazardous waste.",
+    summary: "The Resource Conservation and Recovery Act (RCRA), codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap82' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 82</a>, gives the EPA the authority to control hazardous waste from the 'cradle-to-grave.' This includes the generation, transportation, treatment, storage, and disposal of hazardous waste.",
     keyProvisions: [
       {
         title: "Hazardous Waste Management (Subtitle C)",
@@ -867,7 +867,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect human health and the environment from the potential hazards of waste disposal, to conserve energy and natural resources, to reduce the amount of waste generated, and to ensure that wastes are managed in an environmentally sound manner."
   },
   '49': {
-    summary: "The Sarbanes-Oxley Act of 2002 (SOX) is a federal law that established sweeping auditing and financial regulations for public companies. Lawmakers created the legislation in response to major corporate and accounting scandals in the early 2000s.",
+    summary: "The Sarbanes-Oxley Act of 2002 (SOX) is a federal law that established sweeping auditing and financial regulations for public companies. You can find its provisions in sections of <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 15</a> and <a href='https://www.govinfo.gov/app/details/USCODE-2021-title18' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 18</a> of the U.S. Code.",
     keyProvisions: [
       {
         title: "Public Company Accounting Oversight Board (PCAOB)",
@@ -885,7 +885,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To protect investors by improving the accuracy and reliability of corporate disclosures made pursuant to the securities laws, and for other purposes."
   },
   '50': {
-    summary: "The Securities Act of 1933, often referred to as the 'truth in securities' law, has two basic objectives: require that investors receive financial and other significant information concerning securities being offered for public sale; and prohibit deceit, misrepresentations, and other fraud in the sale of securities.",
+    summary: "The Securities Act of 1933, codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap2A' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. Chapter 2A</a>, has two basic objectives: require that investors receive financial and other significant information concerning securities being offered for public sale; and prohibit deceit, misrepresentations, and other fraud in the sale of securities.",
     keyProvisions: [
       {
         title: "Registration Statement",
@@ -903,7 +903,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To ensure that investors have access to essential information about securities being offered for sale and to prohibit fraud in the sale of securities."
   },
   '51': {
-    summary: "The Securities Exchange Act of 1934 was created to govern securities transactions on the secondary market, after issue, ensuring greater financial transparency and accuracy and less fraud or manipulation.",
+    summary: "The Securities Exchange Act of 1934, codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title15/USCODE-2021-title15-chap2B' target='_blank' rel='noopener noreferrer' class='text-primary underline'>15 U.S.C. Chapter 2B</a>, was created to govern securities transactions on the secondary market, after issue, ensuring greater financial transparency and accuracy and less fraud or manipulation.",
     keyProvisions: [
       {
         title: "Securities and Exchange Commission (SEC)",
@@ -921,7 +921,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To regulate the secondary trading of securities, ensuring fairness and transparency for investors."
   },
   '52': {
-    summary: "The Social Security Act of 1935 is a federal law that created the Social Security program in the United States. The law was enacted during the Great Depression as a way to provide a safety net for elderly, unemployed, and disadvantaged Americans.",
+    summary: "The Social Security Act of 1935, codified at <a href='https://www.govinfo.gov/app/details/USCODE-2021-title42/USCODE-2021-title42-chap7' target='_blank' rel='noopener noreferrer' class='text-primary underline'>42 U.S.C. Chapter 7</a>, is a federal law that created the Social Security program in the United States. The law was enacted during the Great Depression as a way to provide a safety net for elderly, unemployed, and disadvantaged Americans.",
     keyProvisions: [
       {
         title: "Retirement Benefits",
@@ -939,7 +939,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To provide for the general welfare by establishing a system of Federal old-age benefits, and by enabling the several States to make more adequate provision for aged persons, blind persons, dependent and crippled children, maternal and child welfare, public health, and the administration of their unemployment compensation laws."
   },
   '53': {
-    summary: "The Telecommunications Act of 1996 was the first major overhaul of telecommunications law in over 60 years. The goal of the law was to let anyone enter any communications business and to let any communications business compete in any market against any other.",
+    summary: "The Telecommunications Act of 1996 was the first major overhaul of telecommunications law in over 60 years. The act is part of the Communications Act of 1934, found in <a href='https://www.govinfo.gov/app/details/USCODE-2021-title47' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 47 of the U.S. Code</a>. The goal was to let any communications business compete in any market against any other.",
     keyProvisions: [
       {
         title: "Deregulation of Media",
@@ -957,7 +957,7 @@ export const FEDERAL_LAW_CONTENT: Record<string, LawContent> = {
     purpose: "To promote competition and reduce regulation in order to secure lower prices and higher quality services for American telecommunications consumers and encourage the rapid deployment of new telecommunications technologies."
   },
   '54': {
-    summary: "The Uniform Commercial Code (UCC) is a comprehensive set of laws governing commercial transactions in the United States. It is not a federal law, but a uniformly adopted state law. However, because it has been adopted in some form by all 50 states, it provides a consistent legal framework for commerce across the country.",
+    summary: "The Uniform Commercial Code (UCC) is a comprehensive set of laws governing commercial transactions. It is not a federal law, but a uniformly adopted state law. Because it has been adopted by all 50 states, it provides a consistent framework. An example can be seen from <a href='https://www.law.cornell.edu/ucc' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Cornell's LII</a>.",
     keyProvisions: [
       {
         title: "Article 2: Sales",
