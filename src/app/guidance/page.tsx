@@ -19,7 +19,7 @@ export default function StatesPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-muted p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
+        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
           <Link href="/">State Laws</Link>
         </header>
 
@@ -30,7 +30,7 @@ export default function StatesPage() {
                 <Button
                   key={state}
                   size="lg"
-                  className="h-16 w-full justify-center whitespace-normal px-4 text-center btn-destructive"
+                  className="h-14 w-full justify-center whitespace-normal px-4 text-center btn-destructive"
                   asChild
                 >
                   <Link href={`/guidance/${state.toLowerCase().replace(/ /g, '-')}`}>

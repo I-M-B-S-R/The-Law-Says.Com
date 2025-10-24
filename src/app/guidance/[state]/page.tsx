@@ -17,7 +17,7 @@ export default function StateGuidancePage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-muted p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
+        <header className="flex-shrink-0 bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
           <Link href="/guidance">{state} Law</Link>
         </header>
 
@@ -29,12 +29,12 @@ export default function StateGuidancePage() {
                     <Input
                         type="text"
                         placeholder="Search..."
-                        className="h-16 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
+                        className="h-14 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
                     />
                 </div>
                 <Button
                   size="lg"
-                  className="h-16 w-full font-bold btn-destructive"
+                  className="h-14 w-full font-bold btn-destructive"
                   asChild
                 >
                   <Link href={params.state === 'arizona' ? '/guidance/arizona/state-laws' : '#'}>
@@ -43,7 +43,7 @@ export default function StateGuidancePage() {
                 </Button>
                 <Button
                   size="lg"
-                  className="h-16 w-full font-bold btn-destructive"
+                  className="h-14 w-full font-bold btn-destructive"
                   asChild
                 >
                   <Link href={params.state === 'arizona' ? '/guidance/arizona/county-laws' : '#'}>
@@ -52,7 +52,7 @@ export default function StateGuidancePage() {
                 </Button>
                 <Button
                   size="lg"
-                  className="h-16 w-full font-bold btn-destructive"
+                  className="h-14 w-full font-bold btn-destructive"
                   asChild
                 >
                   <Link href={params.state === 'arizona' ? '/guidance/arizona/municipality-laws' : '#'}>
@@ -61,7 +61,7 @@ export default function StateGuidancePage() {
                 </Button>
                 <Button
                   size="lg"
-                  className="h-16 w-full font-bold btn-destructive"
+                  className="h-14 w-full font-bold btn-destructive"
                 >
                   Tribal Laws
                 </Button>
