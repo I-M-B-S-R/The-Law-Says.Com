@@ -18,6 +18,7 @@ import { LA_PAZ_COUNTY_ORDINANCES } from '@/lib/la-paz-county-ordinances';
 import { MARICOPA_COUNTY_ORDINANCES } from '@/lib/maricopa-county-ordinances';
 import { MOHAVE_COUNTY_ORDINANCES } from '@/lib/mohave-county-ordinances';
 import { NAVAJO_COUNTY_ORDINANCES } from '@/lib/navajo-county-ordinances';
+import { PIMA_COUNTY_ORDINANCES } from '@/lib/pima-county-ordinances';
 
 export default function CountyLawsPage() {
   const router = useRouter();
@@ -61,6 +62,9 @@ export default function CountyLawsPage() {
   } else if (countySlug === 'navajo') {
     ordinances = NAVAJO_COUNTY_ORDINANCES;
     ordinancesPath = '/guidance/arizona/county-laws/navajo';
+  } else if (countySlug === 'pima') {
+    ordinances = PIMA_COUNTY_ORDINANCES;
+    ordinancesPath = '/guidance/arizona/county-laws/pima';
   }
 
   if (ordinances.length === 0) {
