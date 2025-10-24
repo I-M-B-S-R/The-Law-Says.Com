@@ -20,19 +20,19 @@ export default function FederalLawsPage() {
         </header>
 
         <ScrollArea className="flex-grow">
-          <main className="space-y-4 p-4">
+          <main className="p-4">
             <div className="flex flex-col gap-4">
               {FEDERAL_LAWS.map((law) => (
                 <Button
                   key={law.id}
                   size="lg"
-                  className="h-16 w-full justify-start font-bold"
+                  className="h-24 w-full justify-start whitespace-normal text-left font-bold"
                   variant="destructive"
                   asChild
                 >
                   <Link href={`/federal-laws/${law.id}`} className="flex items-center">
-                    <BookOpen className="mr-4 h-6 w-6" />
-                    <span className="text-left">{law.name}</span>
+                    <BookOpen className="mr-4 h-6 w-6 flex-shrink-0" />
+                    <span>{law.id}. {law.name}</span>
                   </Link>
                 </Button>
               ))}
