@@ -12,6 +12,7 @@ import { APACHE_COUNTY_ORDINANCES } from '@/lib/apache-county-ordinances';
 import { COCHISE_COUNTY_ORDINANCES } from '@/lib/cochise-county-ordinances';
 import { COCONINO_COUNTY_ORDINANCES } from '@/lib/coconino-county-ordinances';
 import { GILA_COUNTY_ORDINANCES } from '@/lib/gila-county-ordinances';
+import { GRAHAM_COUNTY_ORDINANCES } from '@/lib/graham-county-ordinances';
 
 export default function CountyLawsPage() {
   const router = useRouter();
@@ -37,6 +38,9 @@ export default function CountyLawsPage() {
   } else if (countySlug === 'gila') {
     ordinances = GILA_COUNTY_ORDINANCES;
     ordinancesPath = '/guidance/arizona/county-laws/gila';
+  } else if (countySlug === 'graham') {
+    ordinances = GRAHAM_COUNTY_ORDINANCES;
+    ordinancesPath = '/guidance/arizona/county-laws/graham';
   }
 
   if (ordinances.length === 0) {
