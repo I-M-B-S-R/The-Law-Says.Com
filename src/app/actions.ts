@@ -2,6 +2,7 @@
 
 import { getLegalGuidance, type GetLegalGuidanceInput } from '@/ai/flows/get-legal-guidance';
 import { translateText, type TranslateTextInput } from '@/ai/flows/translate-text';
+import { textToSpeech, type TextToSpeechInput } from '@/ai/flows/text-to-speech';
 import { z } from 'zod';
 
 const LegalActionInputSchema = z.object({
@@ -42,4 +43,20 @@ export async function translateTextAction(values: TranslateTextInput) {
     }
 }
 
-    
+const TextToSpeechActionInputSchema = z.object({
+  text: z.string(),
+});
+
+export async function textToSpeechAction(values: TextToSpeechInput) {
+  try {
+    const validatedInput = TextToSpeechActionInputSchema.parse(values);
+    const result = await textToSpeech(validatedInput);
+    return { success: true, data: result };
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      return { success: false, error: error.errors.map(e => e.message).join(', ') };
+    }
+    console.error('Error converting text to speech:', error);
+    return { success: false, error: 'An unexpected error occurred. Please try again.' };
+  }
+}

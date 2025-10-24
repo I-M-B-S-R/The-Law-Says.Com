@@ -1,48 +1,51 @@
+'use client';
 
-"use client";
-
-import { useState, useEffect } from 'react';
+import { useState, useCallback, useRef } from 'react';
+import { textToSpeechAction } from '@/app/actions';
 
 export const useTextToSpeech = () => {
-    const [isSpeaking, setIsSpeaking] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [isGenerating, setIsGenerating] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
-    // This function will be called to start speaking
-    const speak = (text: string) => {
-        // Stop any speech that is already in progress
-        window.speechSynthesis.cancel();
+  const speak = useCallback(async (text: string) => {
+    if (isSpeaking || isGenerating) {
+      stop();
+      return;
+    }
+    
+    setIsGenerating(true);
+    
+    try {
+      const result = await textToSpeechAction({ text });
+      if (result.success && result.data) {
+        if (!audioRef.current) {
+            audioRef.current = new Audio();
+        }
+        audioRef.current.src = result.data.audioDataUri;
+        audioRef.current.play();
+        setIsSpeaking(true);
         
-        const utterance = new SpeechSynthesisUtterance(text);
-        
-        // When the speech ends, set isSpeaking to false
-        utterance.onend = () => {
+        audioRef.current.onended = () => {
             setIsSpeaking(false);
         };
-        
-        // When speech starts, set isSpeaking to true
-        utterance.onstart = () => {
-            setIsSpeaking(true);
-        };
+      }
+    } catch (error) {
+        console.error('Text-to-speech failed:', error);
+    } finally {
+        setIsGenerating(false);
+    }
 
-        // Tell the browser to speak
-        window.speechSynthesis.speak(utterance);
-    };
+  }, [isSpeaking, isGenerating]);
 
-    // This function will be called to stop speaking
-    const stop = () => {
-        window.speechSynthesis.cancel();
-        setIsSpeaking(false);
-    };
+  const stop = useCallback(() => {
+    if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+    }
+    setIsSpeaking(false);
+    setIsGenerating(false);
+  }, []);
 
-    // This is a safety cleanup.
-    // If you navigate to another page, this stops any speech.
-    useEffect(() => {
-        // This is the cleanup function
-        return () => {
-            if (window.speechSynthesis) {
-                window.speechSynthesis.cancel();
-            }
-        };
-    }, []);
-
-    return { isSpeaking, speak, stop };
+  return { isSpeaking, isGenerating, speak, stop };
 };

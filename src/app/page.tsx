@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2 } from 'lucide-react';
+import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2, StopCircle } from 'lucide-react';
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -30,14 +30,14 @@ const UI_TEXT_ORIGINAL: Record<string, string> = {
 };
 
 const HomePage = () => {
-  const { isSpeaking, speak, stop } = useTextToSpeech();
+  const { isSpeaking, isGenerating, speak, stop } = useTextToSpeech();
   const router = useRouter();
   const { language, translate, isTranslating: isLanguageContextTranslating } = useLanguage();
 
   const [missionStatement, setMissionStatement] = useState(MISSION_STATEMENT_ORIGINAL);
   const [uiText, setUiText] = useState(UI_TEXT_ORIGINAL);
 
-  const isTranslating = isLanguageContextTranslating;
+  const isTranslating = isLanguageContextTranslating || isGenerating;
 
   useEffect(() => {
     const translateContent = async () => {
@@ -70,7 +70,6 @@ const HomePage = () => {
 
       } catch (error) {
         console.error("Translation failed", error);
-        // Fallback to English on error
         setMissionStatement(MISSION_STATEMENT_ORIGINAL);
         setUiText(UI_TEXT_ORIGINAL);
       }
@@ -85,7 +84,7 @@ const HomePage = () => {
   `.replace(/<[^>]*>/g, '');
 
   const handleListenClick = () => {
-    if (isSpeaking) {
+    if (isSpeaking || isGenerating) {
       stop();
     } else {
       speak(contentToRead);
@@ -120,9 +119,23 @@ const HomePage = () => {
                 </Link>
               </Button>
 
-              <Button size="lg" onClick={handleListenClick} className="h-16 font-bold" variant="destructive">
-                <AudioLines className="mr-2 h-5 w-5" />
-                 {isSpeaking ? uiText.stop : uiText.listen}
+              <Button size="lg" onClick={handleListenClick} className="h-16 font-bold" variant="destructive" disabled={isGenerating}>
+                 {isGenerating ? (
+                    <>
+                        <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+                        Loading Audio...
+                    </>
+                 ) : isSpeaking ? (
+                    <>
+                        <StopCircle className="mr-2 h-5 w-5" />
+                        {uiText.stop}
+                    </>
+                 ): (
+                    <>
+                        <AudioLines className="mr-2 h-5 w-5" />
+                        {uiText.listen}
+                    </>
+                 )}
               </Button>
 
               <Button asChild size="lg" className="h-16 font-bold" variant="destructive">
