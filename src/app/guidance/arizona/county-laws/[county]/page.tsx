@@ -83,7 +83,7 @@ export default function CountyLawsPage() {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
         <div className="flex h-[95svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
-          <header className="flex-shrink-0 bg-destructive p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md">
+          <header className="flex-shrink-0 bg-black p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
             <Link href="/guidance/arizona/county-laws">{county} County Laws</Link>
           </header>
           <div className="flex flex-grow items-center justify-center p-4">
@@ -94,7 +94,7 @@ export default function CountyLawsPage() {
               </Button>
             </div>
           </div>
-          <footer className="flex-shrink-0 bg-destructive p-2 text-destructive-foreground">
+          <footer className="flex-shrink-0 bg-black p-2 text-destructive-foreground border-t-2 border-destructive">
             <div className="flex items-center justify-between">
               <button
                 onClick={() => router.back()}
@@ -123,7 +123,7 @@ export default function CountyLawsPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[95svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
-        <header className="flex-shrink-0 bg-destructive p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md">
+        <header className="flex-shrink-0 bg-black p-4 text-center text-3xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
           <Link href="/guidance/arizona/county-laws">{county} County Ordinances</Link>
         </header>
 
@@ -147,7 +147,7 @@ export default function CountyLawsPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 bg-destructive p-2 text-destructive-foreground">
+        <footer className="flex-shrink-0 bg-black p-2 text-destructive-foreground border-t-2 border-destructive">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
