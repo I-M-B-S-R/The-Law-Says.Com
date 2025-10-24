@@ -35,7 +35,7 @@ export default function PrescottValleyCodeDetailPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[95svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
+      <div className="flex h-[90svh] w-full max-w-sm flex-col overflow-hidden rounded-2xl border-x-4 border-destructive bg-background shadow-2xl">
         <header className="flex-shrink-0 bg-muted p-4 text-center text-xl font-bold text-destructive-foreground shadow-md border-b-2 border-destructive">
           <Link href="/guidance/arizona/municipality-laws/prescott-valley">Prescott Valley Town Code</Link>
         </header>
@@ -62,12 +62,12 @@ export default function PrescottValleyCodeDetailPage() {
                     </AccordionContent>
                 </AccordionItem>
               )}
-              {ordinanceContent.keyProvisions && ordinanceContent.keyProvisions.length > 0 && (
+              {lawContent.keyProvisions && lawContent.keyProvisions.length > 0 && (
                 <AccordionItem value="item-2">
                     <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Key Provisions</AccordionTrigger>
                     <AccordionContent>
                     <Accordion type="multiple" className="mt-2">
-                        {ordinanceContent.keyProvisions.map((provision, index) => (
+                        {lawContent.keyProvisions.map((provision, index) => (
                         <AccordionItem value={`sub-item-${index}`} key={index}>
                             <AccordionTrigger className="mt-2 rounded-md bg-destructive/80 px-4 text-left font-bold text-destructive-foreground">
                             {provision.title}
