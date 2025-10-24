@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Map } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { PRESCOTT_VALLEY_TOWN_CODE } from '@/lib/prescott-valley-code';
@@ -22,19 +22,6 @@ export default function PrescottValleyLawsPage() {
         <ScrollArea className="flex-grow">
           <main className="p-4">
             <div className="flex flex-col gap-4">
-              <Button
-                size="lg"
-                className="h-24 w-full justify-start whitespace-normal px-4 text-left font-bold"
-                variant="destructive"
-                asChild
-              >
-                <Link href="https://gis.yavapaiaz.gov/public/" target="_blank" rel="noopener noreferrer">
-                  <div className="flex items-center">
-                    <Map className="mr-4 h-8 w-8" />
-                    <span>County Assessor's GIS Map</span>
-                  </div>
-                </Link>
-              </Button>
               {PRESCOTT_VALLEY_TOWN_CODE.map((law) => (
                 <Button
                   key={law.id}
