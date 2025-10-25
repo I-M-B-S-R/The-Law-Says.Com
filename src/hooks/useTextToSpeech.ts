@@ -9,37 +9,26 @@ export const useTextToSpeech = () => {
   const [isGenerating, setIsGenerating] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  useEffect(() => {
-    // Initialize the Audio object once when the component mounts.
+  const playAudio = useCallback((audioDataUri: string) => {
     if (!audioRef.current) {
       audioRef.current = new Audio();
+      audioRef.current.addEventListener('ended', () => {
+        setIsSpeaking(false);
+      });
     }
-
-    const audio = audioRef.current;
-
-    const handleEnd = () => {
-      setIsSpeaking(false);
-    };
-
-    audio.addEventListener('ended', handleEnd);
-
-    // Cleanup function to remove the event listener.
-    return () => {
-      audio.removeEventListener('ended', handleEnd);
-      audio.pause();
-      audio.src = '';
-    };
+    audioRef.current.src = audioDataUri;
+    audioRef.current.play();
+    setIsSpeaking(true);
   }, []);
 
   const speak = useCallback(async (text: string) => {
     if (isSpeaking || isGenerating) {
-      // If it's already speaking or generating, calling speak again should stop it.
       if (audioRef.current) {
         audioRef.current.pause();
         audioRef.current.currentTime = 0;
       }
       setIsSpeaking(false);
-      setIsGenerating(false); // also reset generating state
+      setIsGenerating(false);
       return;
     }
     
@@ -47,12 +36,9 @@ export const useTextToSpeech = () => {
     
     try {
       const result = await textToSpeechAction({ text });
-      if (result.success && result.data && audioRef.current) {
-        audioRef.current.src = result.data.audioDataUri;
-        audioRef.current.play();
-        setIsSpeaking(true);
+      if (result.success && result.data?.audioDataUri) {
+        playAudio(result.data.audioDataUri);
       } else {
-        // If the action fails, ensure we reset the state.
         setIsSpeaking(false);
       }
     } catch (error) {
@@ -61,7 +47,7 @@ export const useTextToSpeech = () => {
     } finally {
         setIsGenerating(false);
     }
-  }, [isSpeaking, isGenerating]);
+  }, [isSpeaking, isGenerating, playAudio]);
 
   const stop = useCallback(() => {
     if (audioRef.current) {
@@ -70,6 +56,16 @@ export const useTextToSpeech = () => {
     }
     setIsSpeaking(false);
     setIsGenerating(false);
+  }, []);
+
+  useEffect(() => {
+    const audio = audioRef.current;
+    return () => {
+      if (audio) {
+        audio.pause();
+        audio.src = '';
+      }
+    };
   }, []);
 
   return { isSpeaking, isGenerating, speak, stop };
