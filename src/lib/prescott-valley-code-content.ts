@@ -7,7 +7,7 @@ interface CodeContent {
 
 export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
   '3': {
-    summary: "Title III of the Prescott Valley Town Code, found on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITIIIAD' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>, outlines the structure and administrative procedures of the town government. It establishes the roles of the Town Council, Town Manager, and various departments, and sets the rules for elections, meetings, and public records.",
+    summary: "Title III of the Prescott Valley Town Code, found on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>, outlines the structure and administrative procedures of the town government. It establishes the roles of the Town Council, Town Manager, and various departments, and sets the rules for elections, meetings, and public records.",
     purpose: "To establish a clear and efficient framework for the governance of the Town of Prescott Valley, ensuring accountability, transparency, and the orderly conduct of public business.",
     keyProvisions: [
       {
@@ -29,7 +29,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '5': {
-    summary: "Title V, Public Works, governs the essential infrastructure and services managed by the town. This includes regulations for streets, sidewalks, water, and wastewater systems. The full text is on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITVPUWO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Title V, Public Works, governs the essential infrastructure and services managed by the town. This includes regulations for streets, sidewalks, water, and wastewater systems. The full text is on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To ensure the safe and efficient provision of public works services and the proper management and maintenance of the town's public infrastructure.",
     keyProvisions: [
       {
@@ -51,7 +51,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '7': {
-    summary: "Title VII is the Prescott Valley Traffic Code, which adopts the Arizona State Traffic Code and includes additional local regulations for vehicle operation and parking. This title is essential for public safety on town streets. It can be viewed on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITVIITRCO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Title VII is the Prescott Valley Traffic Code, which adopts the Arizona State Traffic Code and includes additional local regulations for vehicle operation and parking. This title is essential for public safety on town streets. It can be viewed on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To provide for the safe and orderly movement of vehicular and pedestrian traffic within the Town of Prescott Valley.",
     keyProvisions: [
       {
@@ -73,7 +73,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '9': {
-    summary: "Title IX, General Regulations, covers a wide variety of ordinances aimed at protecting the health, safety, and welfare of the community. This includes animal control, nuisance abatement, and alarm systems. The full text is on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITIXGERE' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Title IX, General Regulations, covers a wide variety of ordinances aimed at protecting the health, safety, and welfare of the community. This includes animal control, nuisance abatement, and alarm systems. The full text is on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To address various issues affecting public health and quality of life that are not covered in other specific titles of the Town Code.",
     keyProvisions: [
       {
@@ -95,7 +95,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '11': {
-    summary: "Title XI, Business Regulations, governs the licensing and operation of various types of businesses within the town. It is designed to ensure that businesses operate in a fair and safe manner. This title can be found on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITXIBURE' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Title XI, Business Regulations, governs the licensing and operation of various types of businesses within the town. It is designed to ensure that businesses operate in a fair and safe manner. This title can be found on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To provide for the regulation of businesses, trades, and professions to protect the public health, safety, and welfare.",
     keyProvisions: [
       {
@@ -117,7 +117,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '13': {
-    summary: "Title XIII, General Offenses, defines various local-level criminal and civil offenses and their penalties. This title works in conjunction with state criminal law (A.R.S. Title 13) but addresses issues of specific local concern. The full text is on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITXIIIGEOF' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Title XIII, General Offenses, defines various local-level criminal and civil offenses and their penalties. This title works in conjunction with state criminal law (A.R.S. Title 13) but addresses issues of specific local concern. The full text is on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To define and prohibit conduct that is harmful to public peace, safety, and order within the Town of Prescott Valley, and to provide penalties for such conduct.",
     keyProvisions: [
       {
@@ -139,7 +139,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '15': {
-    summary: "Title XV, Land Usage, is the comprehensive planning and zoning code for the Town of Prescott Valley. It is the primary tool the town uses to regulate growth and development. This extensive title can be found on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITXVLAUS' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Title XV, Land Usage, is the comprehensive planning and zoning code for the Town of Prescott Valley. It is the primary tool the town uses to regulate growth and development. This extensive title can be found on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To implement the town's General Plan and to guide the physical development of the town in a manner that protects public health, safety, and welfare, and promotes a high-quality living environment.",
     keyProvisions: [
       {
@@ -161,7 +161,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '92': {
-    summary: "Chapter 92 of the Prescott Valley Town Code contains the regulations for Animal Control. These rules are part of Title IX (General Regulations) and are essential for public health and safety. The full text can be found within the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITIXGERE_CH92ANCO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>General Regulations on the town's Municode page</a>.",
+    summary: "Chapter 92 of the Prescott Valley Town Code contains the regulations for Animal Control. These rules are part of Title IX (General Regulations) and are essential for public health and safety. The full text can be found within the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To establish regulations for the keeping of animals to protect public health, prevent public nuisances, and ensure the humane treatment of animals within the town.",
     keyProvisions: [
       {
@@ -183,7 +183,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '93-weeds': {
-    summary: "Chapter 93 of the Prescott Valley Town Code addresses public nuisances, including the regulation of weeds and unkempt property. These rules are crucial for maintaining neighborhood aesthetics and preventing fire hazards. The full text can be found on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITIXGERE_CH93NUPR' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Chapter 93 of the Prescott Valley Town Code addresses public nuisances, including the regulation of weeds and unkempt property. These rules are crucial for maintaining neighborhood aesthetics and preventing fire hazards. The full text can be found on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To protect public health, safety, and welfare by preventing and abating nuisances caused by unmaintained property, including fire risks, pest harborage, and visual blight.",
     keyProvisions: [
       {
@@ -205,7 +205,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '154-fences': {
-    summary: "Regulations for fences, walls, and hedges are found within the Prescott Valley Zoning Ordinance (Title XV, Chapter 154). These rules govern the height, location, and materials of fences to ensure they do not obstruct views or create safety hazards. The full text is on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITXVLAUS_CH154ZO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Regulations for fences, walls, and hedges are found within the Prescott Valley Zoning Ordinance (Title XV, Chapter 154). These rules govern the height, location, and materials of fences to ensure they do not obstruct views or create safety hazards. The full text is on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To provide standards for the erection and maintenance of fences, walls, and hedges to ensure safety, provide for light and air, and protect the aesthetic character of the community.",
     keyProvisions: [
       {
@@ -227,7 +227,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '93-noise': {
-    summary: "Noise regulations in Prescott Valley are part of the Public Nuisance ordinance (Title IX, Chapter 93). The code is designed to preserve community peace by setting limits on excessive and disturbing noise. The full text can be found on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITIXGERE_CH93NUPR_S93.02DE' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Noise regulations in Prescott Valley are part of the Public Nuisance ordinance (Title IX, Chapter 93). The code is designed to preserve community peace by setting limits on excessive and disturbing noise. The full text can be found on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To protect the peace, health, and welfare of the citizens by controlling and abating unnecessary, excessive, and annoying noise.",
     keyProvisions: [
       {
@@ -249,7 +249,7 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '154-lighting': {
-    summary: "Outdoor lighting regulations are part of the Zoning Ordinance (Title XV, Chapter 154). Prescott Valley values its dark night skies and has rules to prevent light pollution, glare, and light trespass. The full text is on the <a href='https://library.municode.com/az/prescott_valley/codes/code_of_ordinances?nodeId=TITXVLAUS_CH154ZO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>town's Municode page</a>.",
+    summary: "Outdoor lighting regulations are part of the Zoning Ordinance (Title XV, Chapter 154). Prescott Valley values its dark night skies and has rules to prevent light pollution, glare, and light trespass. The full text is on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To permit reasonable use of outdoor lighting for safety and security while preventing light pollution, light trespass, and glare, thereby protecting the town's dark sky resource and the general welfare.",
     keyProvisions: [
       {
