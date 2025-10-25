@@ -7,31 +7,31 @@ import { useRouter } from 'next/navigation';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { PRESCOTT_VALLEY_TOWN_CODE } from '@/lib/prescott-valley-code';
+import { PRESCOTT_VALLEY_TITLE_9_CHAPTERS } from '@/lib/prescott-valley-title-9-chapters';
 
-export default function PrescottValleyLawsPage() {
+export default function PrescottValleyTitle9Page() {
   const router = useRouter();
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col gap-1 bg-background shadow-2xl">
-        <header className="flex-shrink-0 border-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md rounded-2xl">
-          <Link href="/guidance/arizona/municipality-laws">Prescott Valley Town Code</Link>
+        <header className="flex-shrink-0 border-2 border-destructive bg-muted p-2 text-center text-xl font-bold text-destructive-foreground shadow-md rounded-2xl">
+          <Link href="/guidance/arizona/municipality-laws/prescott-valley">Title IX: General Regulations</Link>
         </header>
 
         <ScrollArea className="flex-grow rounded-2xl border-2 border-destructive">
           <main className="p-4">
             <div className="flex flex-col gap-4">
-              {PRESCOTT_VALLEY_TOWN_CODE.map((law) => (
+              {PRESCOTT_VALLEY_TITLE_9_CHAPTERS.map((chapter) => (
                 <Button
-                  key={law.id}
+                  key={chapter.id}
                   size="lg"
                   className="h-20 w-full justify-start whitespace-normal px-4 text-left font-bold btn-destructive"
                   asChild
-                  disabled={law.reserved}
+                  disabled={chapter.reserved}
                 >
-                  <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${law.id}`}>
-                    <span>{law.name}</span>
+                  <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${chapter.id}`}>
+                    <span>{chapter.name}</span>
                   </Link>
                 </Button>
               ))}
