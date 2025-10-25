@@ -30,7 +30,7 @@ export default function PrescottValleyChapter154Page() {
                   asChild
                 >
                   <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${section.id}`}>
-                    <span>{section.name}</span>
+                    <span>Section: {section.name}</span>
                   </Link>
                 </Button>
               ))}
