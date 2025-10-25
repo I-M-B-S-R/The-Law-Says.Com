@@ -28,6 +28,7 @@ export default function PrescottValleyLawsPage() {
                   size="lg"
                   className="h-20 w-full justify-start whitespace-normal px-4 text-left font-bold btn-destructive"
                   asChild
+                  disabled={law.name.includes('(Reserved)')}
                 >
                   <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${law.id}`}>
                     <span>{law.name}</span>
