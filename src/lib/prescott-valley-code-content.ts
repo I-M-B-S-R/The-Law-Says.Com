@@ -11,20 +11,20 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     purpose: "To establish a clear and efficient framework for the governance of the Town of Prescott Valley, ensuring accountability, transparency, and the orderly conduct of public business.",
     keyProvisions: [
       {
-        title: "Town Council",
-        content: "Establishes the Town Council as the legislative body of the town, with powers to enact ordinances, approve budgets, and set policy. It details rules for meetings, agendas, and voting procedures, consistent with the Arizona Open Meeting Law."
+        title: "Town Council Structure",
+        content: "The Town Council is the legislative body, consisting of a directly elected Mayor and six Council members elected at large. The Council has the power to enact ordinances, approve the annual budget, and set town policy."
       },
       {
-        title: "Town Manager",
-        content: "Defines the council-manager form of government, where the Town Manager is the chief administrative officer responsible for the day-to-day operations of the town, implementing council policies, and managing town staff."
+        title: "Council-Manager Government",
+        content: "The code establishes a council-manager form of government. The Town Manager is appointed by the Council and serves as the chief administrative officer, responsible for the day-to-day operations, implementing council policies, and managing town staff."
+      },
+      {
+        title: "Open Meetings & Public Records",
+        content: "All Council meetings must comply with the Arizona Open Meeting Law, requiring public notice and agendas. All official town records are considered public and are available for inspection, ensuring government transparency."
       },
       {
         title: "Boards and Commissions",
-        content: "Provides for the creation of various citizen advisory boards and commissions, such as the Planning and Zoning Commission and the Parks and Recreation Commission, to provide input and recommendations to the Town Council."
-      },
-      {
-        title: "Town Elections",
-        content: "Sets forth the procedures for conducting town elections for the mayor and council members, including candidate qualifications and campaign finance regulations."
+        content: "Provides for the creation of citizen advisory boards and commissions, such as the Planning and Zoning Commission and the Arts and Culture Commission, to provide expert recommendations to the Town Council on specific issues."
       }
     ]
   },
@@ -33,20 +33,20 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     purpose: "To ensure the safe and efficient provision of public works services and the proper management and maintenance of the town's public infrastructure.",
     keyProvisions: [
       {
-        title: "Water and Sewers",
-        content: "Establishes comprehensive regulations for the town's water and wastewater (sewer) systems. It includes rules for service connections, water conservation measures, backflow prevention, and rates and fees for service."
+        title: "Water Conservation",
+        content: "Establishes mandatory water conservation stages (Stage 1 through Stage 4) that can be implemented by the Town Council during water shortages. These stages include restrictions on landscape watering days and times, filling swimming pools, and serving water at restaurants."
       },
       {
-        title: "Streets and Sidewalks",
-        content: "Sets standards for the construction, maintenance, and use of public streets and sidewalks. It includes regulations for excavations, encroachments, and requirements for developers to construct street improvements."
+        title: "Wastewater (Sewer) Regulations",
+        content: "Prohibits the discharge of certain substances into the public sewer system, including flammable liquids, grease, oil, and any material that could obstruct flow or cause damage to the treatment facilities. Industrial users may require a special discharge permit."
       },
       {
-        title: "Floodplain Management",
-        content: "Adopts floodplain maps and regulates development within designated flood hazard areas to minimize flood damage, as required by the National Flood Insurance Program (NFIP)."
+        title: "Street and Sidewalk Maintenance",
+        content: "It is the responsibility of the adjacent property owner to maintain sidewalks in a safe condition, free from hazards or obstructions. The code also sets standards for any excavation or construction work performed in the public right-of-way, requiring permits and traffic control plans."
       },
       {
-        title: "Public Property",
-        content: "Contains regulations for the use and protection of public property, including town parks and facilities."
+        title: "Backflow Prevention",
+        content: "Requires the installation and annual testing of backflow prevention assemblies on water service connections for commercial properties and residential properties with irrigation systems or other potential cross-contamination hazards to protect the public water supply."
       }
     ]
   },
@@ -56,19 +56,19 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     keyProvisions: [
       {
         title: "Adoption of State Law",
-        content: "The Town adopts by reference the traffic laws found in Title 28 of the Arizona Revised Statutes. This means state traffic laws are fully enforceable within the town."
+        content: "The Town adopts by reference the comprehensive traffic laws found in Title 28 of the Arizona Revised Statutes, making state traffic laws fully enforceable within the town."
+      },
+      {
+        title: "Speed Limits in Alleys",
+        content: "Specifies that the maximum speed limit in any alley within the town is <strong>15 miles per hour</strong>."
+      },
+      {
+        title: "Engine and Compression Brakes",
+        content: "The use of any engine brake, exhaust brake, or other compression brake is prohibited within the town limits, except in cases of emergency to prevent an accident. This is intended to reduce excessive noise."
       },
       {
         title: "Parking Regulations",
-        content: "Establishes specific local parking rules, including time limits in certain areas, prohibitions on parking in fire lanes or near hydrants, and regulations for overnight parking of commercial vehicles in residential areas."
-      },
-      {
-        title: "Speed Limits",
-        content: "Sets the prima facie speed limits for various streets within the town, which may differ from general state-mandated limits."
-      },
-      {
-        title: "Enforcement",
-        content: "Authorizes the Prescott Valley Police Department to enforce all provisions of the traffic code and issue citations for violations."
+        content: "Prohibits parking a vehicle on any street for a continuous period of more than <strong>48 hours</strong>. It also establishes rules against parking in fire lanes, within 15 feet of a fire hydrant, or blocking sidewalks."
       }
     ]
   },
@@ -85,12 +85,12 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
         content: "It is unlawful for any dog to be 'at large.' This means a dog must be confined to its owner's property or be under control by means of a leash when in public."
       },
       {
-        title: "Public Nuisance",
-        content: "Defines and prohibits animals from becoming a public nuisance. This includes behaviors like excessive barking, damaging property, or menacing pedestrians or vehicles."
+        title: "Public Nuisance (Barking)",
+        content: "A dog that barks, bays, cries, howls, or makes any noise for a continuous period of <strong>five minutes or more</strong>, or intermittently for 30 minutes or more, which disturbs the peace of any person, is declared a public nuisance."
       },
       {
-        title: "Cruelty to Animals",
-        content: "Makes it unlawful to subject any animal to cruelty or neglect, which includes failing to provide adequate food, water, shelter from the elements, and necessary veterinary care."
+        title: "Number of Animals",
+        content: "In most residential zones, a household is limited to keeping a maximum of <strong>four dogs and four cats</strong> over the age of four months."
       }
     ]
   },
@@ -99,20 +99,20 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     purpose: "To provide for the regulation of businesses, trades, and professions to protect the public health, safety, and welfare.",
     keyProvisions: [
       {
-        title: "Business Licenses (Chapter 110)",
-        content: "Requires most businesses operating within the town to obtain a business license. The process ensures that the business is operating in the correct zoning district and meets basic safety requirements."
+        title: "Business License / TPT License",
+        content: "All businesses operating in Prescott Valley must obtain a Town Business License. Furthermore, any business engaged in activities subject to sales tax must also have a valid Transaction Privilege Tax (TPT) license issued by the Arizona Department of Revenue and report town sales tax."
       },
       {
-        title: "Alcoholic Beverages (Chapter 111)",
-        content: "Sets forth local regulations for establishments that sell alcoholic beverages. While the state issues the liquor license, the town provides recommendations and has its own rules regarding operations."
+        title: "Mobile Food Vendors",
+        content: "Food trucks and other mobile food vendors must obtain a specific Mobile Food Vendor license. They are restricted from operating in residential zones and cannot operate within <strong>300 feet</strong> of a brick-and-mortar restaurant during that restaurant's business hours, unless they have written permission."
       },
       {
-        title: "Pawnbrokers and Secondhand Dealers (Chapter 114)",
-        content: "Provides specific regulations for pawnbrokers and secondhand dealers to help prevent the sale of stolen goods. This includes requirements for record-keeping and reporting transactions to law enforcement."
+        title: "Special Events",
+        content: "A Special Event Permit is required for any temporary event on public or private property that affects the ordinary use of public streets or sidewalks. This includes festivals, parades, and block parties. The application requires a site plan and proof of insurance."
       },
       {
-        title: "Mobile Food Vendors (Chapter 118)",
-        content: "Establishes rules for the operation of food trucks and other mobile food vendors, including licensing, location restrictions, and health and safety standards."
+        title: "Pawnbrokers and Secondhand Dealers",
+        content: "These businesses are required to maintain detailed records of all transactions, including a description of the item, the amount paid, and the identity of the seller. These records must be made available to law enforcement upon request to help track stolen property."
       }
     ]
   },
@@ -121,20 +121,20 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     purpose: "To define and prohibit conduct that is harmful to public peace, safety, and order within the Town of Prescott Valley, and to provide penalties for such conduct.",
     keyProvisions: [
       {
-        title: "Offenses Against Public Peace (Chapter 130)",
-        content: "Prohibits disorderly conduct, loitering, and other acts that disturb the public peace. This section gives law enforcement a tool to address disruptive behavior."
+        title: "Juvenile Curfew",
+        content: "It is unlawful for any minor under the age of 18 to be in a public place between the hours of <strong>10:00 p.m. and 5:00 a.m.</strong>, unless accompanied by a parent or guardian, or engaged in other specific exempt activities (like returning from work)."
       },
       {
-        title: "Minors (Chapter 131)",
-        content: "Establishes a juvenile curfew, making it unlawful for minors to be in public places during specified late-night hours. It also prohibits furnishing tobacco or vapor products to minors."
+        title: "Discharge of Firearms",
+        content: "Prohibits the discharge of any firearm within the town limits, except in self-defense, at a licensed firing range, or as otherwise permitted by state law. Discharging a firearm into the air is strictly forbidden."
       },
       {
-        title: "Weapons (Chapter 132)",
-        content: "Regulates the discharge of firearms and other weapons within the town limits, generally prohibiting it outside of designated ranges or for lawful hunting."
+        title: "Consumption of Alcohol in Public",
+        content: "It is unlawful for any person to consume spirituous liquor from a broken or unsealed container in any public place, park, street, or sidewalk, except in areas specifically licensed for such consumption (like a beer garden at a special event)."
       },
       {
-        title: "Property Offenses",
-        content: "Includes ordinances against damaging public property, graffiti, and theft of services."
+        title: "Park Regulations",
+        content: "Prohibits specific activities within town parks, including: being in a park after closing hours (typically 10:00 p.m.), operating a motor vehicle outside of designated roadways and parking areas, and using glass beverage containers."
       }
     ]
   },
@@ -227,5 +227,3 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   }
 };
-
-    
