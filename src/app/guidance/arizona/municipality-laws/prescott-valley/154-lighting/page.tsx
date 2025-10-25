@@ -37,7 +37,7 @@ export default function PrescottValleyLightingPage() {
           <Link href="/guidance/arizona/municipality-laws/prescott-valley">Prescott Valley Town Code</Link>
         </header>
 
-        <ScrollArea className="flex-grow rounded-2xl border-x-2 border-destructive">
+        <ScrollArea className="flex-grow rounded-2xl border-2 border-destructive">
           <main className="p-4">
             <Card className="border-destructive">
               <CardHeader className="text-center">
