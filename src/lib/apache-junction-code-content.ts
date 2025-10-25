@@ -50,4 +50,48 @@ export const APACHE_JUNCTION_CODE_CONTENT: Record<string, CodeContent> = {
       }
     ]
   },
+  '5': {
+    summary: "Title V, Public Works, governs the essential infrastructure and services managed by the city. This includes regulations for water and wastewater systems, garbage collection, and the maintenance of public streets and rights-of-way. The full text is on the <a href='https://www.apachejunctionaz.gov/10/City-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official city website</a>.",
+    purpose: "To ensure the safe and efficient provision of public works services and to protect public health and the environment through the proper management of water, wastewater, and solid waste.",
+    keyProvisions: [
+      {
+        title: "Water System Regulations",
+        content: "Establishes rules for connecting to the public water system and prohibits cross-connections that could contaminate the public water supply. It also includes measures for water conservation."
+      },
+      {
+        title: "Wastewater Regulations",
+        content: "Regulates the discharge of waste into the city's sanitary sewer system. It prohibits the disposal of harmful substances like grease, chemicals, and solid objects that can damage the system or treatment process."
+      },
+      {
+        title: "Solid Waste Collection",
+        content: "Mandates subscription to garbage collection services for occupied residences and businesses to ensure sanitary conditions. It specifies rules for container placement and collection times."
+      },
+      {
+        title: "Work in Public Rights-of-Way",
+        content: "Requires a permit for any private construction or excavation work within public streets, alleys, or easements to ensure that the work is done safely and that the public infrastructure is properly restored."
+      }
+    ]
+  },
+   '7': {
+    summary: "Title VII is the Apache Junction Traffic Code. It adopts state traffic laws by reference and establishes additional local regulations for vehicle operation, parking, and traffic control to ensure safety on city streets. It can be viewed on the <a href='https://www.apachejunctionaz.gov/10/City-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official city website</a>.",
+    purpose: "To provide for the safe, efficient, and orderly movement of vehicular and pedestrian traffic within the City of Apache Junction.",
+    keyProvisions: [
+      {
+        title: "Adoption of State Law",
+        content: "The City adopts the comprehensive traffic laws of the State of Arizona found in A.R.S. Title 28, making them fully enforceable within city limits."
+      },
+      {
+        title: "Speed Limits",
+        content: "Unless otherwise posted, the maximum speed limit on any local street within the city is <strong>25 miles per hour</strong>. The City Traffic Engineer has the authority to post different speed limits on specific streets based on traffic studies."
+      },
+      {
+        title: "Parking Regulations",
+        content: "Prohibits parking in specified areas, such as in front of fire hydrants, in loading zones, or on sidewalks. It also makes it unlawful to park a vehicle on a public street for a continuous period of more than <strong>72 hours</strong>."
+      },
+      {
+        title: "Off-Road Vehicles",
+        content: "Regulates the use of off-road vehicles (OHVs), generally prohibiting their operation on paved public streets unless the street is specifically signed to allow for OHV use to access trails."
+      }
+    ]
+  }
 };
