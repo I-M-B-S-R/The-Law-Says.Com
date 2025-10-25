@@ -33,7 +33,7 @@ const HomePage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
-        <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
+        <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           The-Law-Says.Com
         </header>
 
@@ -108,7 +108,7 @@ const HomePage = () => {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-destructive bg-muted p-2 text-destructive-foreground">
+        <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
