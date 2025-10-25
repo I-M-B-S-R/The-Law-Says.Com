@@ -30,6 +30,9 @@ const TranslateActionInputSchema = z.object({
 });
 
 export async function translateTextAction(values: TranslateTextInput) {
+    if (!values.textToTranslate.trim()) {
+        return { success: true, data: { translatedText: '' } };
+    }
     try {
         const validatedInput = TranslateActionInputSchema.parse(values);
         const result = await translateText(validatedInput);
@@ -48,6 +51,9 @@ const TextToSpeechActionInputSchema = z.object({
 });
 
 export async function textToSpeechAction(values: TextToSpeechInput) {
+  if (!values.text.trim()) {
+    return { success: false, error: 'Cannot convert empty text to speech.' };
+  }
   try {
     const validatedInput = TextToSpeechActionInputSchema.parse(values);
     const result = await textToSpeech(validatedInput);
