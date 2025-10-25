@@ -2,10 +2,10 @@
 export const AVONDALE_CITY_CODE = [
   { id: '1', name: 'Chapter 1: General Provisions', reserved: false },
   { id: '2', name: 'Chapter 2: Administration', reserved: false },
-  { id: '3', name: 'Chapter 3: Advertising', reserved: true },
+  { id: '3', name: 'Chapter 3: Advertising', reserved: false },
   { id: '4', name: 'Chapter 4: Alcoholic Beverages', reserved: true },
-  { id: '5', name: 'Chapter 5: Animals', reserved: true },
-  { id: '6', name: 'Chapter 6: Buildings and Building Regulations', reserved: true },
+  { id: '5', name: 'Chapter 5: Animals', reserved: false },
+  { id: '6', name: 'Chapter 6: Buildings and Building Regulations', reserved: false },
   { id: '7', name: 'Chapter 7: Cable Communications', reserved: true },
   { id: '8', name: 'Chapter 8: Courts', reserved: true },
   { id: '9', name: 'Chapter 9: Fire Prevention and Protection', reserved: true },

@@ -45,5 +45,59 @@ export const AVONDALE_CODE_CONTENT: Record<string, CodeContent> = {
         content: "Provides for the creation of citizen advisory bodies to provide recommendations and public input to the City Council on specific issues."
       }
     ]
+  },
+  '3': {
+    summary: "Chapter 3, Advertising, regulates signs and other forms of outdoor advertising to ensure they do not create safety hazards or visual blight. The full text can be viewed on the <a href='https://www.avondaleaz.gov/government/departments/city-clerk/city-code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official city website</a>.",
+    purpose: "To balance the need for business identification with the desire to maintain a safe and aesthetically pleasing community by regulating the size, location, and type of signs.",
+    keyProvisions: [
+      {
+        title: "Permit Requirement",
+        content: "A sign permit is required for the installation or alteration of most signs to ensure compliance with the code."
+      },
+      {
+        title: "Prohibited Signs",
+        content: "Prohibits certain types of signs, such as animated signs, roof signs, and signs that obstruct traffic views."
+      },
+      {
+        title: "Temporary Signs",
+        content: "Provides specific rules for temporary signs like banners and real estate signs, limiting their size and duration."
+      }
+    ]
+  },
+  '5': {
+    summary: "Chapter 5, Animals, sets the rules for keeping animals within the city to protect public health and safety and ensure animal welfare. It is enforced by the city's animal control services. The full text can be viewed on the <a href='https://www.avondaleaz.gov/government/departments/city-clerk/city-code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official city website</a>.",
+    purpose: "To regulate the keeping of animals to prevent public nuisances, protect residents from harm, and ensure the humane treatment of animals.",
+    keyProvisions: [
+      {
+        title: "Licensing and Vaccination",
+        content: "All dogs over four months old must be vaccinated against rabies and licensed with the county."
+      },
+      {
+        title: "Leash Law",
+        content: "Prohibits dogs from running 'at large.' Dogs must be confined to the owner's property or restrained by a leash."
+      },
+      {
+        title: "Nuisance Animals",
+        content: "It is unlawful for an owner to permit an animal to become a nuisance by making excessive noise or damaging property."
+      }
+    ]
+  },
+  '6': {
+    summary: "Chapter 6, Buildings and Building Regulations, adopts the set of international and national codes that govern all construction within Avondale. The full text can be viewed on the <a href='https://www.avondaleaz.gov/government/departments/city-clerk/city-code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official city website</a>.",
+    purpose: "To safeguard public health, safety, and general welfare by establishing minimum standards for the design, construction, and maintenance of all buildings.",
+    keyProvisions: [
+      {
+        title: "Adopted Codes",
+        content: "The city adopts specific editions of the International Building Code (IBC), International Residential Code (IRC), and National Electrical Code (NEC)."
+      },
+      {
+        title: "Permit Requirement",
+        content: "A building permit is required for most new construction, additions, and alterations to ensure compliance with safety codes."
+      },
+      {
+        title: "Inspections",
+        content: "Mandatory inspections are required at various stages of construction to verify that work is being done correctly and safely."
+      }
+    ]
   }
 };
