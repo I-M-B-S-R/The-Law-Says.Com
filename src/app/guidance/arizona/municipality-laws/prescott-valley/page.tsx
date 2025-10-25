@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Library } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { PRESCOTT_VALLEY_TOWN_CODE } from '@/lib/prescott-valley-code';
@@ -15,13 +15,26 @@ export default function PrescottValleyLawsPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
-        <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
+        <header className="flex-shrink-0 rounded-t-lg border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           <Link href="/guidance/arizona/municipality-laws">Prescott Valley Town Code</Link>
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
             <div className="flex flex-col gap-4">
+              <Button
+                size="lg"
+                className="h-20 w-full justify-center whitespace-normal px-4 text-center font-bold btn-destructive"
+                asChild
+              >
+                <Link href="/guidance/arizona/municipality-laws/prescott-valley/full-code">
+                  <div className="flex items-center gap-4">
+                    <Library className="h-8 w-8" />
+                    <span>View Full Town Code</span>
+                  </div>
+                </Link>
+              </Button>
+
               {PRESCOTT_VALLEY_TOWN_CODE.map((law) => (
                 <Button
                   key={law.id}
@@ -39,7 +52,7 @@ export default function PrescottValleyLawsPage() {
           </main>
         </ScrollArea>
 
-        <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
+        <footer className="flex-shrink-0 rounded-b-lg border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
