@@ -72,6 +72,50 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
       }
     ]
   },
+  '90': {
+    summary: "Chapter 90 governs alarm systems within the town, including both security and fire alarms. Its primary goal is to reduce the number of false alarms that result in unnecessary emergency responses. The full text is on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
+    purpose: "To encourage the proper use and maintenance of alarm systems and to reduce the number of false alarms, thereby conserving public safety resources and ensuring a more efficient response to genuine emergencies.",
+    keyProvisions: [
+      {
+        title: "Alarm User Permit",
+        content: "An Alarm User Permit is required for any person or business operating an alarm system. The permit must be renewed annually."
+      },
+      {
+        title: "False Alarm Penalties",
+        content: "The ordinance establishes a schedule of civil penalties for excessive false alarms within a permit year. The fines increase with each subsequent false alarm, starting with a warning for the first one."
+      },
+      {
+        title: "Alarm System Standards",
+        content: "Specifies that alarm systems must have features to prevent false alarms, such as a backup power supply and a system to automatically silence the audible alarm after a maximum of 15 minutes."
+      },
+      {
+        title: "Duties of Alarm Users",
+        content: "Requires alarm users to properly train individuals on how to operate the system and to provide the alarm company with the names and numbers of at least two responsible parties who can respond to the location if the alarm is activated."
+      }
+    ]
+  },
+  '91': {
+    summary: "Chapter 91, Cable Communications, establishes the framework for granting and regulating cable television franchises within the Town of Prescott Valley. It ensures that cable providers meet certain standards and provide public benefits. The full text is on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
+    purpose: "To establish fair and orderly procedures for the granting of cable communications franchises, to promote competition, and to ensure that the public interest is served by the provision of high-quality cable services.",
+    keyProvisions: [
+      {
+        title: "Franchise Requirement",
+        content: "It is unlawful for any person to construct or operate a cable television system within the town without first obtaining a franchise from the Town Council."
+      },
+      {
+        title: "Franchise Fees",
+        content: "The town is authorized to charge a franchise fee to the cable operator, typically calculated as a percentage (up to 5%) of the operator's gross revenues. These fees compensate the town for the use of public rights-of-way."
+      },
+      {
+        title: "Public, Educational, and Governmental (PEG) Access",
+        content: "The town may require a franchisee to provide channel capacity, facilities, and funding for public, educational, and governmental (PEG) access channels as a condition of the franchise."
+      },
+      {
+        title: "Customer Service Standards",
+        content: "The ordinance sets minimum customer service standards that franchisees must meet, covering topics like telephone response times, service interruptions, billing practices, and complaint resolution procedures."
+      }
+    ]
+  },
   '92': {
     summary: "Chapter 92 of the Prescott Valley Town Code contains the regulations for Animal Control. These rules are part of Title IX (General Regulations) and are essential for public health and safety. The full text can be found within the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
     purpose: "To establish regulations for the keeping of animals to protect public health, prevent public nuisances, and ensure the humane treatment of animals within the town.",
@@ -91,6 +135,77 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
       {
         title: "Number of Animals",
         content: "In most residential zones, a household is limited to keeping a maximum of <strong>four dogs and four cats</strong> over the age of four months."
+      }
+    ]
+  },
+  '93': {
+    summary: "This is a placeholder summary for Chapter 93: Nuisances.",
+    purpose: "This is a placeholder purpose.",
+    keyProvisions: []
+  },
+  '94': {
+    summary: "Chapter 94 provides the town with the legal framework for emergency management. It establishes the authority to declare emergencies, create emergency plans, and coordinate with county, state, and federal agencies during disasters. The full text is on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
+    purpose: "To provide for the preparation and carrying out of all emergency functions to prevent, minimize, and repair injury and damage resulting from disasters caused by enemy attack, sabotage, or other hostile action, or by fire, flood, earthquake, or other natural causes.",
+    keyProvisions: [
+      {
+        title: "Declaration of Emergency",
+        content: "The Mayor is empowered to declare a local emergency. This declaration allows the town to take extraordinary measures, such as implementing curfews, ordering evacuations, and suspending local regulations to protect public health and safety."
+      },
+      {
+        title: "Emergency Powers",
+        content: "During a declared emergency, the Town Manager, under the direction of the Council, has the authority to direct all town forces, enter into contracts for emergency supplies, and take other actions necessary for the management of the emergency."
+      },
+      {
+        title: "Cooperation with Other Agencies",
+        content: "The ordinance directs the town's emergency management organization to coordinate its planning and response efforts with Yavapai County, the State of Arizona, and federal agencies like FEMA."
+      },
+      {
+        title: "Violation Penalties",
+        content: "It is a misdemeanor to violate any order or rule issued pursuant to a declared emergency, such as violating a curfew or an evacuation order."
+      }
+    ]
+  },
+  '96': {
+    summary: "Chapter 96 outlines the rules and regulations for the use of town parks and recreational facilities. It ensures that these public spaces are safe, clean, and available for all residents to enjoy. The full text is on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
+    purpose: "To regulate the use of public parks, playgrounds, and recreational facilities to ensure the safety, enjoyment, and welfare of the public.",
+    keyProvisions: [
+      {
+        title: "Park Hours",
+        content: "Unless otherwise posted, it is unlawful to be in any town park between the hours of <strong>10:00 p.m. and 6:00 a.m.</strong>"
+      },
+      {
+        title: "Prohibited Activities",
+        content: "The ordinance prohibits certain activities within parks, including: consumption of alcoholic beverages (except by special permit), use of glass beverage containers, operation of motor vehicles off designated roadways, and camping."
+      },
+      {
+        title: "Animal Regulations",
+        content: "All pets within a park must be on a leash no longer than six feet. Owners are required to immediately clean up and properly dispose of their pet's waste."
+      },
+      {
+        title: "Reservation of Facilities",
+        content: "Provides a system for the public to reserve certain park facilities, such as ramadas, ball fields, and meeting rooms, for private events by obtaining a permit from the Parks and Recreation Department."
+      }
+    ]
+  },
+  '97': {
+    summary: "Chapter 97 governs the use and maintenance of public streets, sidewalks, and rights-of-way. It includes regulations to prevent obstructions and ensure public safety. The full text is on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
+    purpose: "To protect the public rights-of-way for their intended purpose of public travel and to regulate any encroachments or obstructions that could endanger public safety.",
+    keyProvisions: [
+      {
+        title: "Obstructions",
+        content: "It is unlawful for any person to place or maintain any obstruction on any public street, alley, or sidewalk without a permit. This includes merchandise, signs, and construction materials. Property owners are also responsible for trimming trees and shrubs so they do not obstruct pedestrian or vehicular traffic."
+      },
+      {
+        title: "Encroachment Permits",
+        content: "An encroachment permit is required before any work can be performed in the public right-of-way, such as installing a new driveway, repairing a utility line, or placing a dumpster."
+      },
+      {
+        title: "Sidewalk Maintenance",
+        content: "The ordinance places the responsibility for maintaining public sidewalks in a safe and passable condition on the owner of the adjacent property."
+      },
+      {
+        title: "House Numbering",
+        content: "Requires all residences and commercial buildings to display their assigned street address number in a location that is clearly visible from the street to assist emergency responders and the public."
       }
     ]
   },
@@ -157,6 +272,72 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
       {
         title: "Abatement Procedure",
         content: "If a property owner fails to correct a nuisance after receiving written notice, the town has the legal authority to abate the nuisance itself (e.g., hire a contractor to cut the weeds). The costs of this abatement are then billed to the property owner and can be placed as a lien on the property if unpaid."
+      }
+    ]
+  },
+  '150': {
+    summary: "Chapter 150 adopts the set of international and national codes that govern all building and construction within Prescott Valley. It ensures that all structures are built to minimum safety standards. The full text is on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
+    purpose: "To protect the public health, safety, and general welfare by establishing minimum standards for the design, construction, alteration, repair, and maintenance of all buildings and structures.",
+    keyProvisions: [
+      {
+        title: "Adoption of Codes",
+        content: "The town officially adopts specific editions of the International Building Code (IBC), International Residential Code (IRC), International Mechanical Code (IMC), International Plumbing Code (IPC), and the National Electrical Code (NEC), with some local amendments."
+      },
+      {
+        title: "Permit Requirement",
+        content: "A building permit is required for any new construction, addition, alteration, or repair of a structure. This includes projects like building a deck, re-roofing, or installing a water heater. The permit process involves plan review to ensure compliance with the codes."
+      },
+      {
+        title: "Inspections",
+        content: "The Building Safety Division conducts mandatory inspections at various stages of construction (e.g., foundation, framing, plumbing, electrical) to verify that the work is being performed correctly and safely according to the approved plans."
+      },
+      {
+        title: "Certificate of Occupancy",
+        content: "A Certificate of Occupancy is required before any new building can be legally occupied. It is issued only after all inspections have been passed and all requirements have been met."
+      }
+    ]
+  },
+  '152': {
+    summary: "Chapter 152, the Sign Code, regulates the size, location, type, and number of signs allowed within the town. It aims to balance the need for businesses to identify themselves with the community's desire to maintain an attractive appearance. The full text is on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
+    purpose: "To provide a reasonable and impartial means of regulating signs to protect public safety, communicate information, and promote a positive town image, while protecting the right to free speech.",
+    keyProvisions: [
+      {
+        title: "Permit Required",
+        content: "A sign permit is required for the installation or alteration of most signs, including permanent wall signs, monument signs, and temporary banners. This ensures all signs comply with the code before they are installed."
+      },
+      {
+        title: "Prohibited Signs",
+        content: "The code prohibits certain types of signs, such as animated signs, flashing signs, roof signs, and signs that obstruct traffic or mimic traffic signals."
+      },
+      {
+        title: "Temporary Signs",
+        content: "Provides specific regulations for temporary signs, such as real estate signs, political signs, and grand opening banners. These signs are typically limited in size, number, and the duration they can be displayed."
+      },
+      {
+        title: "Design and Maintenance",
+        content: "All signs must be maintained in good condition. The code includes standards for the design of signs to ensure they are compatible with the character of the surrounding area."
+      }
+    ]
+  },
+  '153': {
+    summary: "Chapter 153, the Subdivision Regulations, governs the process of dividing land into smaller parcels for sale or development. It is a critical tool for managing the town's growth and ensuring that new neighborhoods are safe and well-designed. The full text is on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
+    purpose: "To provide for the orderly growth and development of the town, the coordination of streets, the provision of adequate open space and public utilities, and to ensure proper legal description and monumentation of subdivided land.",
+    keyProvisions: [
+      {
+        title: "Platting Process",
+        content: "Defines the detailed process for creating a subdivision, which includes the submission of a preliminary plat for review and comment, followed by a final plat for approval and recording. This ensures a thorough review of the proposed design and its impacts."
+      },
+      {
+        title: "Public Improvements",
+        content: "Requires the developer to install (or provide a financial guarantee for) all necessary public improvements, including streets, curbs, sidewalks, water lines, sewer lines, and drainage facilities, to serve the new lots."
+      },
+      {
+        title: "Street Design Standards",
+        content: "Sets minimum design standards for streets, including right-of-way width, pavement width, grade, and intersection design, to ensure a safe and efficient transportation network."
+      },
+      {
+        title: "Water and Sewer Requirements",
+        content: "Requires that all new lots within a subdivision be served by the town's public water and sewer system. The developer must prove that adequate utility capacity is available."
       }
     ]
   },
