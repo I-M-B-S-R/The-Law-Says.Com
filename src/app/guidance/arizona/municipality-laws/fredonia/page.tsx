@@ -6,25 +6,40 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { ScrollArea } from '@/components/ui/scroll-area';
+import { FREDONIA_TOWN_CODE } from '@/lib/fredonia-code';
 
-export default function FredoniaPage() {
+export default function FredoniaLawsPage() {
   const router = useRouter();
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
-        <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
-          <Link href="/guidance/arizona/municipality-laws">Fredonia</Link>
+        <header className="flex-shrink-0 rounded-t-lg border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
+          <Link href="/guidance/arizona/municipality-laws">Fredonia Town Code</Link>
         </header>
-        <div className="flex flex-grow items-center justify-center border-x-2 border-destructive p-4">
-          <div className="text-center">
-            <p className="text-2xl font-bold">Content for Fredonia is coming soon.</p>
-            <Button asChild className="mt-4">
-              <Link href="/guidance/arizona/municipality-laws">Back to Municipalities</Link>
-            </Button>
-          </div>
-        </div>
-        <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
+
+        <ScrollArea className="flex-grow border-x-2 border-destructive">
+          <main className="p-4">
+            <div className="flex flex-col gap-4">
+              {FREDONIA_TOWN_CODE.map((law) => (
+                <Button
+                  key={law.id}
+                  size="lg"
+                  className="h-20 w-full justify-start whitespace-normal px-4 text-left font-bold btn-destructive"
+                  asChild
+                  disabled={law.reserved}
+                >
+                  <Link href={`/guidance/arizona/municipality-laws/fredonia/${law.id}`}>
+                    <span>{law.name}</span>
+                  </Link>
+                </Button>
+              ))}
+            </div>
+          </main>
+        </ScrollArea>
+
+        <footer className="flex-shrink-0 rounded-b-lg border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
             <button
               onClick={() => router.back()}
