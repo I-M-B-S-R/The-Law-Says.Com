@@ -6,6 +6,28 @@ interface CodeContent {
 }
 
 export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
+  '1': {
+    summary: "Title I of the Prescott Valley Town Code, found on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>, establishes the foundational legal principles for the entire code. It includes rules for interpretation, definitions of common terms, the legal authority under which the code is enacted, and the general penalties for violations.",
+    purpose: "To provide a consistent and stable legal foundation for the town's ordinances, ensuring that all parts of the code are applied uniformly and fairly.",
+    keyProvisions: [
+        {
+            title: "Rules of Construction",
+            content: "Provides rules for interpreting the code, such as 'the singular includes the plural' and that 'shall' is mandatory while 'may' is permissive."
+        },
+        {
+            title: "General Penalty",
+            content: "Establishes a default penalty for any violation of the Town Code where a specific penalty is not otherwise provided. This is typically a civil infraction or a Class 1 misdemeanor, subject to fines and/or jail time as determined by the court."
+        },
+        {
+            title: "Severability",
+            content: "Includes a 'severability clause,' which states that if any part of the Town Code is found to be invalid by a court, the remaining parts of the code will still remain in full force and effect."
+        },
+        {
+            title: "Definitions",
+            content: "Defines terms that are used throughout the code, such as 'Town,' 'person,' and 'right-of-way,' to ensure consistent meaning and application."
+        }
+    ]
+  },
   '3': {
     summary: "Title III of the Prescott Valley Town Code, found on the <a href='https://www.prescottvalley-az.gov/index.php' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>, outlines the structure and administrative procedures of the town government. It establishes the roles of the Town Council, Town Manager, and various departments, and sets the rules for elections, meetings, and public records.",
     purpose: "To establish a clear and efficient framework for the governance of the Town of Prescott Valley, ensuring accountability, transparency, and the orderly conduct of public business.",

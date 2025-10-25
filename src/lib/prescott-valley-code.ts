@@ -1,6 +1,6 @@
 
 export const PRESCOTT_VALLEY_TOWN_CODE = [
-  { id: '1', name: 'Title I: General Provisions', reserved: true },
+  { id: '1', name: 'Title I: General Provisions', reserved: false },
   { id: '2', name: 'Title II: (Reserved)', reserved: true },
   { id: '3', name: 'Title III: Administration', reserved: false },
   { id: '4', name: 'Title IV: (Reserved)', reserved: true },
