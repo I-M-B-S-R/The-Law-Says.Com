@@ -20,7 +20,7 @@ export default function CaveCreekCodeDetailPage() {
   const law = CAVE_CREEK_TOWN_CODE.find((l) => l.id === id);
   const lawContent = CAVE_CREEK_CODE_CONTENT[id as string];
 
-  if (!law || !lawContent) {
+  if (!law || !lawContent || law.reserved) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
         <div className="w-full max-w-sm text-center">
