@@ -14,7 +14,7 @@ export const PRESCOTT_VALLEY_TOWN_CODE = [
   { id: '12', name: 'Title XII: (Reserved)', reserved: true },
   { id: '13', name: 'Title XIII: General Offenses', reserved: true },
   { id: '14', name: 'Title XIV: (Reserved)', reserved: true },
-  { id: '15', name: 'Title XV: Land Usage', reserved: true },
+  { id: '15', name: 'Title XV: Land Usage', reserved: false },
 ].sort((a, b) => {
   const titleA = parseInt(a.id);
   const titleB = parseInt(b.id);
