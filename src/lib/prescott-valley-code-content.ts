@@ -72,25 +72,25 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
       }
     ]
   },
-  '9': {
-    summary: "Title IX, General Regulations, covers a wide variety of ordinances aimed at protecting the health, safety, and welfare of the community. This includes animal control, nuisance abatement, and alarm systems. The full text is on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
-    purpose: "To address various issues affecting public health and quality of life that are not covered in other specific titles of the Town Code.",
+  '92': {
+    summary: "Chapter 92 of the Prescott Valley Town Code contains the regulations for Animal Control. These rules are part of Title IX (General Regulations) and are essential for public health and safety. The full text can be found within the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
+    purpose: "To establish regulations for the keeping of animals to protect public health, prevent public nuisances, and ensure the humane treatment of animals within the town.",
     keyProvisions: [
       {
-        title: "Animal Control (Chapter 92)",
-        content: "Sets the rules for animal ownership. This includes dog licensing requirements, leash laws (prohibiting dogs from running 'at large'), and prohibitions on animal cruelty and neglect. It defines what constitutes a public nuisance animal (e.g., excessive barking)."
+        title: "Licensing and Vaccinations",
+        content: "Requires that all dogs over the age of four months be licensed by the town. A current rabies vaccination is a prerequisite for obtaining a license. License tags must be worn by the dog at all times."
       },
       {
-        title: "Nuisances (Chapter 93)",
-        content: "Defines and prohibits various public nuisances that can affect quality of life. This includes things like overgrown weeds, accumulation of trash and debris, and abandoned or inoperable vehicles on private property."
+        title: "Animals at Large",
+        content: "It is unlawful for any dog to be 'at large.' This means a dog must be confined to its owner's property or be under control by means of a leash when in public."
       },
       {
-        title: "Noise (Chapter 93)",
-        content: "Establishes noise regulations to preserve peace and quiet. It sets limits on noise levels and prohibits loud and unreasonable noise during certain hours."
+        title: "Public Nuisance",
+        content: "Defines and prohibits animals from becoming a public nuisance. This includes behaviors like excessive barking, damaging property, or menacing pedestrians or vehicles."
       },
       {
-        title: "Alarm Systems (Chapter 90)",
-        content: "Regulates security alarm systems to reduce the number of false alarms that result in unnecessary emergency responses. It requires alarm users to obtain a permit and establishes fines for excessive false alarms."
+        title: "Cruelty to Animals",
+        content: "Makes it unlawful to subject any animal to cruelty or neglect, which includes failing to provide adequate food, water, shelter from the elements, and necessary veterinary care."
       }
     ]
   },
@@ -135,50 +135,6 @@ export const PRESCOTT_VALLEY_CODE_CONTENT: Record<string, CodeContent> = {
       {
         title: "Property Offenses",
         content: "Includes ordinances against damaging public property, graffiti, and theft of services."
-      }
-    ]
-  },
-  '15': {
-    summary: "Title XV, Land Usage, is the comprehensive planning and zoning code for the Town of Prescott Valley. It is the primary tool the town uses to regulate growth and development. This extensive title can be found on the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
-    purpose: "To implement the town's General Plan and to guide the physical development of the town in a manner that protects public health, safety, and welfare, and promotes a high-quality living environment.",
-    keyProvisions: [
-      {
-        title: "Zoning Districts (Chapter 154)",
-        content: "Establishes the various residential, commercial, and industrial zoning districts and specifies the permitted uses, densities, setbacks, building heights, and other development standards for each zone."
-      },
-      {
-        title: "Subdivision Regulations (Chapter 153)",
-        content: "Governs the process of dividing land into smaller lots. It sets the standards for street design, drainage, utilities, and public amenities required for new developments."
-      },
-      {
-        title: "Sign Code (Chapter 152)",
-        content: "Provides detailed regulations for all types of signs, including their size, location, height, and construction, to ensure safety and maintain the town's aesthetic character."
-      },
-      {
-        title: "General Development Standards (Chapter 154)",
-        content: "Includes a wide range of general standards that apply to development projects, such as requirements for landscaping, outdoor lighting (to protect dark skies), parking, and access management."
-      }
-    ]
-  },
-  '92': {
-    summary: "Chapter 92 of the Prescott Valley Town Code contains the regulations for Animal Control. These rules are part of Title IX (General Regulations) and are essential for public health and safety. The full text can be found within the <a href='https://www.prescottvalley-az.gov/15/Town-Code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>official town website</a>.",
-    purpose: "To establish regulations for the keeping of animals to protect public health, prevent public nuisances, and ensure the humane treatment of animals within the town.",
-    keyProvisions: [
-      {
-        title: "Licensing and Vaccinations",
-        content: "Requires that all dogs over the age of four months be licensed by the town. A current rabies vaccination is a prerequisite for obtaining a license. License tags must be worn by the dog at all times."
-      },
-      {
-        title: "Animals at Large",
-        content: "It is unlawful for any dog to be 'at large.' This means a dog must be confined to its owner's property or be under control by means of a leash when in public."
-      },
-      {
-        title: "Public Nuisance",
-        content: "Defines and prohibits animals from becoming a public nuisance. This includes behaviors like excessive barking, damaging property, or menacing pedestrians or vehicles."
-      },
-      {
-        title: "Cruelty to Animals",
-        content: "Makes it unlawful to subject any animal to cruelty or neglect, which includes failing to provide adequate food, water, shelter from the elements, and necessary veterinary care."
       }
     ]
   },
