@@ -93,7 +93,7 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'holbrook': HOLBROOK_CODE_CONTENT,
     'huachuca-city': HUACHUCA_CITY_CODE_CONTENT,
     'jerome': JEROME_CODE_CONTENT,
-    'kearny': KEARNY_TOWN_CODE,
+    'kearny': KEARNY_CODE_CONTENT,
     'kingman': KINGMAN_CODE_CONTENT,
     'lake-havasu-city': LAKE_HAVASU_CITY_CODE_CONTENT,
     'litchfield-park': LITCHFIELD_PARK_CODE_CONTENT,
