@@ -55,6 +55,7 @@ import { PIMA_CODE_CONTENT } from './pima-code-content';
 import { PINETOP_LAKESIDE_CODE_CONTENT } from './pinetop-lakeside-code-content';
 import { PRESCOTT_VALLEY_CODE_CONTENT } from './prescott-valley-code-content';
 import { PRESCOTT_CODE_CONTENT } from './prescott-code-content';
+import { QUARTZSITE_CODE_CONTENT } from './quartzsite-code-content';
 
 const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } = {
     'apache-junction': APACHE_JUNCTION_CODE_CONTENT,
@@ -92,7 +93,7 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'holbrook': HOLBROOK_CODE_CONTENT,
     'huachuca-city': HUACHUCA_CITY_CODE_CONTENT,
     'jerome': JEROME_CODE_CONTENT,
-    'kearny': KEARNY_CODE_CONTENT,
+    'kearny': KEARNY_TOWN_CODE,
     'kingman': KINGMAN_CODE_CONTENT,
     'lake-havasu-city': LAKE_HAVASU_CITY_CODE_CONTENT,
     'litchfield-park': LITCHFIELD_PARK_CODE_CONTENT,
@@ -113,10 +114,9 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'pinetop-lakeside': PINETOP_LAKESIDE_CODE_CONTENT,
     'prescott-valley': PRESCOTT_VALLEY_CODE_CONTENT,
     'prescott': PRESCOTT_CODE_CONTENT,
+    'quartzsite': QUARTZSITE_CODE_CONTENT,
 };
 
 export const getMunicipalityLawContent = (municipality: string) => {
     return MUNICIPALITY_LAW_CONTENT[municipality];
 };
-
-    
