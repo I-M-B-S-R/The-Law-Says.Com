@@ -1,78 +1,170 @@
 
-export const GILBERT_CODE_CONTENT = {
+interface CodeContent {
+  title: string;
+  summary: string;
+  keyProvisions: { title: string; content: string }[];
+  source: string;
+}
+
+export const GILBERT_CODE_CONTENT: Record<string, CodeContent> = {
   '6': {
     title: 'Chapter 6: Animals',
     summary: 'Regulates the keeping, harboring, and control of animals within the town to protect public health and safety, including provisions on noise from animals and prohibitions on certain behaviors.',
+    purpose: 'To ensure public safety and welfare by regulating animal behavior and owner responsibilities.',
     keyProvisions: [
-      'Prohibits keeping or harboring any dog that causes annoyance through frequent barking, yelping, or howling.',
-      'Requires complaints for enforcement of animal noise violations.',
-      'Addresses general animal control, including restrictions on poisonous substances for animals.',
+      {
+        title: 'Noise from Animals',
+        content: 'Prohibits keeping or harboring any dog that causes annoyance through frequent barking, yelping, or howling.'
+      },
+      {
+        title: 'Enforcement',
+        content: 'Requires complaints for enforcement of animal noise violations.'
+      },
+      {
+        title: 'General Control',
+        content: 'Addresses general animal control, including restrictions on poisonous substances for animals.'
+      },
     ],
-    source: 'Official FAQ on Municipal Code from gilbertaz.gov at https://www.gilbertaz.gov/departments/development-services/plan-review-inspection/inspection-code-compliance/code-compliance/faq-municipal-code-land-development-code',
+    source: 'Official FAQ on Municipal Code from gilbertaz.gov',
   },
   '10': {
     title: 'Chapter 10: Buildings and Construction Regulations',
-    summary: 'Establishes standards for building permits, inspections, and adoption of international codes with local amendments for safety and compliance.',
+    summary: 'Establishes standards for building permits, inspections, and adoption of international codes with amendments for safety and compliance.',
+    purpose: 'To ensure all construction within the town meets safety standards and follows a regulated process.',
     keyProvisions: [
-      'Adopts international building codes with amendments for local conditions.',
-      'Requires permits for construction and alterations, with exemptions for minor work.',
-      'Includes provisions for hazardous materials in construction processes.',
-      'Penalties for violations include fines and potential imprisonment.',
+      {
+        title: 'Code Adoption',
+        content: 'Adopts the International Fire Code (2006 Edition) with local amendments for fire hazard mitigation.'
+      },
+      {
+        title: 'Permit Requirements',
+        content: 'Requires permits for construction and alterations, with exemptions for minor work.'
+      },
+      {
+        title: 'Fire Safety',
+        content: 'Mandates fire apparatus access roads and automatic sprinkler systems in new buildings.'
+      },
+      {
+        title: 'Penalties',
+        content: 'Violations may result in fines up to $2,500 and/or imprisonment up to 6 months.'
+      },
     ],
-    source: 'Official Ordinance No. 2788 from azurewebsites.us (official ordinance download) at https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/12036/1063958/pdf',
+    source: 'Official Ordinance No. 2086 & 2788',
   },
   '14': {
     title: 'Chapter 14: Businesses',
     summary: 'Regulates business licensing, operations, and specific industries like massage therapy establishments.',
+    purpose: 'To ensure businesses operate legally and safely, protecting both consumers and the public.',
     keyProvisions: [
-      'Mandates licenses for certain businesses, including background checks and compliance with health standards.',
-      'Sets forth requirements for massage therapy establishments, including special licenses and operational restrictions.',
-      'Includes provisions for revocation of licenses for violations.',
+      {
+        title: 'Licensing',
+        content: 'Mandates licenses for certain businesses, including background checks and compliance with health standards.'
+      },
+      {
+        title: 'Massage Establishments',
+        content: 'Sets forth requirements for massage therapy establishments, including special licenses and operational restrictions.'
+      },
+      {
+        title: 'Revocation',
+        content: 'Includes provisions for revocation of licenses for violations.'
+      },
     ],
-    source: 'Official Ordinance No. 2518 from https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/12036/686588/pdf?forceDownload=true',
+    source: 'Official Ordinance No. 2518',
   },
   '30': {
     title: 'Chapter 30: Environment',
-    summary: 'Promotes environmental protection through regulations on air quality, solid fuel burning devices, and dust control.',
+    summary: 'Focuses on air quality control, including restrictions on fireplaces and dust suppression measures.',
+    purpose: 'To protect the environment and public health through specific regulations on air quality and pollution.',
     keyProvisions: [
-      'Restricts installation of non-EPA-certified fireplaces and woodstoves in new construction.',
-      'Mandates dust-proofing measures for parking areas to reduce fugitive dust.',
-      'Prohibits certain activities like blowing debris into roads with leaf blowers.',
-      'Aligns with county and federal air quality standards, with penalties for violations.',
+      {
+        title: 'Fireplace Restrictions',
+        content: 'Bans non-EPA-certified fireplaces in new constructions and alterations.'
+      },
+      {
+        title: 'Dust Control',
+        content: 'Mandates dust-proofing of parking areas to meet opacity standards.'
+      },
+      {
+        title: 'Debris Management',
+        content: 'Prohibits leaf blowers from directing debris into streets.'
+      },
+      {
+        title: 'Compliance',
+        content: 'Aligns with Maricopa County air quality rules for exemptions and penalties.'
+      },
     ],
-    source: 'Official Ordinance No. 1066 from U.S. EPA at https://www.epa.gov/sites/default/files/2021-06/documents/town_of_gilbert_ordinance-1066.pdf and Ordinance No. 2151 from regulations.gov at https://downloads.regulations.gov/EPA-R09-OAR-2010-0715-0004/attachment_20.pdf',
+    source: 'Official Ordinance No. 1066 & 2151',
   },
   '42': {
     title: 'Chapter 42: Nuisances (Noise Ordinance)',
     summary: 'Defines and abates public nuisances, including noise control and smoking prohibitions to safeguard public health and welfare.',
+    purpose: 'To maintain public peace and quality of life by setting clear standards for noise and public smoking.',
     keyProvisions: [
-      'Establishes noise standards for residential, commercial, and industrial zones with decibel limits.',
-      'Exempts certain activities like emergency work and organized events from noise restrictions.',
-      'Prohibits smoking in workplaces and enclosed public places, with division-specific rules.',
-      'Enforces penalties under state laws for disorderly conduct and nuisances.',
+      {
+        title: 'Noise Standards',
+        content: 'Establishes decibel limits for residential, commercial, and industrial zones.'
+      },
+      {
+        title: 'Exemptions',
+        content: 'Exempts certain activities like emergency work, railroads, and sporting events from noise restrictions.'
+      },
+      {
+        title: 'Smoking Prohibitions',
+        content: 'Prohibits smoking in workplaces and enclosed public places, with division-specific rules.'
+      },
+      {
+        title: 'Enforcement',
+        content: 'Enforces penalties under state laws for disorderly conduct and nuisances.'
+      },
     ],
-    source: 'Official Noise Ordinance from gilbertaz.gov at https://www.gilbertaz.gov/departments/development-services/plan-review-inspection/inspection-code-compliance/ordinances/noise-ordinance and Smoking Ordinance from gilbertaz.gov at https://www.gilbertaz.gov/departments/development-services/plan-review-inspection/inspection-code-compliance/ordinances/smoking-ordinance',
+    source: 'Official Gilbert Noise & Smoking Ordinances',
   },
   '62': {
     title: 'Chapter 62: Traffic and Vehicles',
-    summary: 'Regulates traffic, vehicle operations, and incorporates state statutes, with specific rules for motorized vehicles and safety.',
+    summary: 'Covers vehicle operations, including rules for motorized play vehicles and integration with state statutes.',
+    purpose: 'To ensure the safe operation of all vehicles, including motorized play vehicles, on public and private property.',
     keyProvisions: [
-      'Applies traffic laws to motorized play vehicles and skateboards, prohibiting use on sidewalks and high-speed roads.',
-      'Requires safety equipment like helmets and lights, with age and hour restrictions.',
-      'Integrates Arizona Revised Statutes Title 28 for comprehensive traffic enforcement.',
-      'Violations are treated as civil traffic offenses with penalties.',
+      {
+        title: 'Application of Laws',
+        content: 'Applies traffic laws to motorized play vehicles and skateboards, prohibiting use on sidewalks and high-speed roads.'
+      },
+      {
+        title: 'Safety Equipment',
+        content: 'Requires safety equipment like helmets and lights, with age and hour restrictions.'
+      },
+      {
+        title: 'State Statute Integration',
+        content: 'Integrates Arizona Revised Statutes Title 28 for comprehensive traffic enforcement.'
+      },
+      {
+        title: 'Penalties',
+        content: 'Violations are treated as civil traffic offenses with penalties.'
+      },
     ],
-    source: 'Official Go-Ped Ordinance from gilbertaz.gov at https://www.gilbertaz.gov/departments/development-services/plan-review-inspection/inspection-code-compliance/ordinances/ordinance-go-ped and Code of Gilbert reference from gilbertaz.gov at https://www.gilbertaz.gov/departments/clerk-s-office/code-of-gilbert',
+    source: 'Official Go-Ped Ordinance & Gilbert Town Code',
   },
   '66': {
     title: 'Chapter 66: Utilities Operations',
-    summary: 'Governs utility services, including water connections and restrictions on fire hydrant usage for public safety and resource management.',
+    summary: 'Manages water utility connections and restricts unauthorized use of fire hydrants.',
+    purpose: 'To manage and protect the town\'s water utility systems and ensure public safety.',
     keyProvisions: [
-      'Prohibits unauthorized connections to water systems or fire hydrants without permits.',
-      'Requires metering and payments for construction water from hydrants on large parcels.',
-      'Bans water resale except in emergencies and enforces plumbing code compliance.',
-      'Violations are misdemeanors with fines up to $2,500 and possible imprisonment.',
+      {
+        title: 'Unauthorized Connections',
+        content: 'Prohibits unauthorized connections to water systems or fire hydrants without permits.'
+      },
+      {
+        title: 'Construction Water',
+        content: 'Requires metering and payments for construction water from hydrants on large parcels.'
+      },
+      {
+        title: 'Water Resale',
+        content: 'Bans water resale except in emergencies and enforces plumbing code compliance.'
+      },
+      {
+        title: 'Violations',
+        content: 'Violations are misdemeanors with fines up to $2,500 and possible imprisonment.'
+      },
     ],
-    source: 'Official Ordinance on Fire Hydrants from gilbertaz.gov at https://www.gilbertaz.gov/departments/development-services/plan-review-inspection/inspection-code-compliance/ordinances/ordinance-fire-hydrants',
+    source: 'Official Ordinance on Fire Hydrants',
   },
 };

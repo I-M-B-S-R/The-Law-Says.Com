@@ -52,23 +52,33 @@ export default function GilbertCodeDetailPage() {
             </Card>
 
             <Accordion type="single" collapsible className="mt-4 w-full">
+              {law.purpose && (
+                 <AccordionItem value="item-1">
+                    <AccordionTrigger className="rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Purpose</AccordionTrigger>
+                    <AccordionContent className="p-4 text-justify">
+                    {law.purpose}
+                    </AccordionContent>
+                </AccordionItem>
+              )}
               {law.keyProvisions && law.keyProvisions.length > 0 && (
-                <AccordionItem value="item-1">
-                  <AccordionTrigger className="rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Key Provisions</AccordionTrigger>
-                  <AccordionContent>
+                <AccordionItem value="item-2">
+                    <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Key Provisions</AccordionTrigger>
+                    <AccordionContent>
                     <ul className="list-disc space-y-2 p-4 text-justify">
                       {law.keyProvisions.map((provision, index) => (
-                        <li key={index} dangerouslySetInnerHTML={{ __html: provision }} />
+                        <li key={index}>
+                            <strong>{provision.title}:</strong> <span dangerouslySetInnerHTML={{ __html: provision.content }} />
+                        </li>
                       ))}
                     </ul>
-                  </AccordionContent>
+                    </AccordionContent>
                 </AccordionItem>
               )}
               {law.source && (
-                 <AccordionItem value="item-2">
+                 <AccordionItem value="item-3">
                     <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Source</AccordionTrigger>
                     <AccordionContent className="p-4 text-justify break-words">
-                        <a href={law.source.startsWith('http') ? law.source : '#'} target="_blank" rel="noopener noreferrer" className="text-primary underline" dangerouslySetInnerHTML={{ __html: law.source }} />
+                        <p dangerouslySetInnerHTML={{ __html: law.source }} />
                     </AccordionContent>
                 </AccordionItem>
               )}
