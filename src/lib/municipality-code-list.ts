@@ -56,6 +56,9 @@ import { PINETOP_LAKESIDE_TOWN_CODE } from './pinetop-lakeside-code';
 import { PRESCOTT_VALLEY_TOWN_CODE } from './prescott-valley-code';
 import { PRESCOTT_CITY_CODE } from './prescott-code';
 import { QUARTZSITE_TOWN_CODE } from './quartzsite-code';
+import { QUEEN_CREEK_TOWN_CODE } from './queen-creek-code';
+import { SAFFORD_CITY_CODE } from './safford-code';
+import { SAHUARITA_TOWN_CODE } from './sahuarita-code';
 
 const MUNICIPALITY_CODE_LIST: { [key: string]: any[] } = {
     'apache-junction': APACHE_JUNCTION_TOWN_CODE,
@@ -115,6 +118,9 @@ const MUNICIPALITY_CODE_LIST: { [key: string]: any[] } = {
     'prescott-valley': PRESCOTT_VALLEY_TOWN_CODE,
     'prescott': PRESCOTT_CITY_CODE,
     'quartzsite': QUARTZSITE_TOWN_CODE,
+    'queen-creek': QUEEN_CREEK_TOWN_CODE,
+    'safford': SAFFORD_CITY_CODE,
+    'sahuarita': SAHUARITA_TOWN_CODE,
 };
 
 export const getMunicipalityCodeList = (municipality: string) => {

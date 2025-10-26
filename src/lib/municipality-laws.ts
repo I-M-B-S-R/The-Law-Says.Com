@@ -56,6 +56,9 @@ import { PINETOP_LAKESIDE_CODE_CONTENT } from './pinetop-lakeside-code-content';
 import { PRESCOTT_VALLEY_CODE_CONTENT } from './prescott-valley-code-content';
 import { PRESCOTT_CODE_CONTENT } from './prescott-code-content';
 import { QUARTZSITE_CODE_CONTENT } from './quartzsite-code-content';
+import { QUEEN_CREEK_CODE_CONTENT } from './queen-creek-code-content';
+import { SAFFORD_CODE_CONTENT } from './safford-code-content';
+import { SAHUARITA_CODE_CONTENT } from './sahuarita-code-content';
 
 const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } = {
     'apache-junction': APACHE_JUNCTION_CODE_CONTENT,
@@ -115,6 +118,9 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'prescott-valley': PRESCOTT_VALLEY_CODE_CONTENT,
     'prescott': PRESCOTT_CODE_CONTENT,
     'quartzsite': QUARTZSITE_CODE_CONTENT,
+    'queen-creek': QUEEN_CREEK_CODE_CONTENT,
+    'safford': SAFFORD_CODE_CONTENT,
+    'sahuarita': SAHUARITA_CODE_CONTENT,
 };
 
 export const getMunicipalityLawContent = (municipality: string) => {
