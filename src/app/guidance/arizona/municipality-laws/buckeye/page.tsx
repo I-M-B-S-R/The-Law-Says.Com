@@ -30,7 +30,7 @@ export default function BuckeyeLawsPage() {
                   asChild
                   disabled={law.reserved}
                 >
-                  <Link href={`/guidance/arizona/municipality-laws/buckeye/${law.id}`}>
+                  <Link href={law.reserved ? '#' : `/guidance/arizona/municipality-laws/buckeye/${law.id}`}>
                     <span>{law.name}</span>
                   </Link>
                 </Button>

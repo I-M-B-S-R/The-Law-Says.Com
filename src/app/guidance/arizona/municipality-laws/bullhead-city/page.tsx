@@ -30,7 +30,7 @@ export default function BullheadCityLawsPage() {
                   asChild
                   disabled={law.reserved}
                 >
-                  <Link href={`/guidance/arizona/municipality-laws/bullhead-city/${law.id}`}>
+                  <Link href={law.reserved ? '#' : `/guidance/arizona/municipality-laws/bullhead-city/${law.id}`}>
                     <span>{law.name}</span>
                   </Link>
                 </Button>

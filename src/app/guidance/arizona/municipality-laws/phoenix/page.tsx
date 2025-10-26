@@ -30,7 +30,7 @@ export default function PhoenixLawsPage() {
                   asChild
                   disabled={law.reserved}
                 >
-                  <Link href={`/guidance/arizona/municipality-laws/phoenix/${law.id}`}>
+                  <Link href={law.reserved ? '#' : `/guidance/arizona/municipality-laws/phoenix/${law.id}`}>
                     <span>{law.name}</span>
                   </Link>
                 </Button>

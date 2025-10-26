@@ -30,7 +30,7 @@ export default function ApacheJunctionLawsPage() {
                   asChild
                   disabled={law.reserved}
                 >
-                  <Link href={`/guidance/arizona/municipality-laws/apache-junction/${law.id}`}>
+                  <Link href={law.reserved ? '#' : `/guidance/arizona/municipality-laws/apache-junction/${law.id}`}>
                     <span>{law.name}</span>
                   </Link>
                 </Button>

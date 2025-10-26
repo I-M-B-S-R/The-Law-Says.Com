@@ -30,7 +30,7 @@ export default function BisbeeLawsPage() {
                   asChild
                   disabled={law.reserved}
                 >
-                  <Link href={`/guidance/arizona/municipality-laws/bisbee/${law.id}`}>
+                  <Link href={law.reserved ? '#' : `/guidance/arizona/municipality-laws/bisbee/${law.id}`}>
                     <span>{law.name}</span>
                   </Link>
                 </Button>
