@@ -40,6 +40,9 @@ export default function TribalLawPage() {
               <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
                 Law Enforcement
               </Button>
+              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
+                Historical & Current Information
+              </Button>
             </div>
           </main>
         </ScrollArea>
