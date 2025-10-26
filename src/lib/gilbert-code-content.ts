@@ -2,13 +2,16 @@
 export const GILBERT_CODE_CONTENT = {
   '10': {
     title: 'Chapter 10: Buildings and Construction Regulations',
-    summary: 'This chapter regulates building standards, permits, inspections, and construction practices to ensure safety and compliance with state laws.',
+    summary: 'This chapter regulates building standards, permits, inspections, and construction practices, including adoption of the International Fire Code (2006 Edition) with local amendments for fire prevention and safety.',
     keyProvisions: [
-      'Requires permits for all construction, alterations, or repairs exceeding a certain value.',
-      'Adopts international building codes with local amendments for seismic, flood, and fire safety.',
-      'Establishes inspection requirements and penalties for violations.',
+      'Adopts the International Fire Code, 2006 Edition, including appendices and standards, for safeguarding life and property from fire and explosion hazards.',
+      'Establishes a Board of Appeals for code interpretations and alternate materials.',
+      'Requires fire apparatus access roads with specific widths, clearances, and signage.',
+      'Mandates automatic sprinkler systems in new buildings, with dedicated riser rooms and maintenance requirements.',
+      'Penalties for violations include fines up to $2,500 and imprisonment up to 6 months; each day of violation is a separate offense.',
+      'Provides for enforced abatement of hazardous conditions if not corrected within 15 days of notice.',
     ],
-    source: 'Official Ordinance No. 7459 from Gilbert AZ government records.',
+    source: 'Official Ordinance No. 2086 from https://gcifd.com/gilbert-ordinance-2086/',
   },
   '14': {
     title: 'Chapter 14: Businesses',
@@ -35,13 +38,15 @@ export const GILBERT_CODE_CONTENT = {
   },
   '42': {
     title: 'Chapter 42: Nuisances (Noise Ordinance)',
-    summary: 'Defines and regulates nuisances, with a focus on noise control from vehicles and other sources.',
+    summary: 'Defines and regulates nuisances with a focus on noise control to protect public health, safety, and welfare, including community noise standards and restrictions on special noise sources.',
     keyProvisions: [
-      'Requires vehicles to be equipped with proper mufflers to prevent excessive noise.',
-      'Prohibits operation of vehicles that produce unreasonable noise levels.',
-      'Outlines enforcement and penalties for noise violations.',
+      'Establishes community noise standards: Residential (45-55 dB(A) by time), Commercial (55-65 dB(A)), Industrial (60-70 dB(A)); measured indoors with windows closed.',
+      'Exemptions include air-conditioning equipment, lawn maintenance, emergency work, railroad trains, and organized sporting events.',
+      'Prohibits excessive noise from motor vehicles (e.g., muffler requirements, 82-92 dB(A) limits), construction outside allowed hours (5:00 a.m.-10:00 p.m., later start on weekends/holidays), and adjacent to schools/churches/hospitals.',
+      'Requires permits for sound amplifiers and regulates power plant equipment noise.',
+      'Violations reference state laws like A.R.S. §13-2904 for disorderly conduct.',
     ],
-    source: 'Official Noise Ordinance from Gilbert AZ government records.',
+    source: 'Official Noise Ordinance from https://www.gilbertaz.gov/departments/development-services/plan-review-inspection/inspection-code-compliance/ordinances/noise-ordinance',
   },
   '62': {
     title: 'Chapter 62: Traffic and Vehicles',
