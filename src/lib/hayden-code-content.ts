@@ -87,7 +87,7 @@ export const HAYDEN_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   },
   '15': {
-    summary: "Title XV, Land Usage, contains the comprehensive Zoning and Subdivision regulations for the town. It is the primary tool for managing growth and ensuring development aligns with the town's character.",
+    summary: "Title XV, Land Usage, contains the comprehensive Zoning and Subdivision regulations for the town. It is the primary tool for managing growth and ensuring development aligns with the town's character as a small mining community.",
     purpose: "To guide the physical development of the town in a manner that promotes public health and safety and ensures orderly growth.",
     keyProvisions: [
       {
