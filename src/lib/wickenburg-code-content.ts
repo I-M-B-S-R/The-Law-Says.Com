@@ -1,0 +1,121 @@
+
+interface CodeContent {
+  summary: string;
+  purpose: string;
+  keyProvisions: { title: string; content: string }[];
+}
+
+export const WICKENBURG_CODE_CONTENT: Record<string, CodeContent> = {
+  '1': {
+    summary: "Title I of the Wickenburg Town Code establishes the foundational legal framework for the entire code. It provides rules for interpretation, defines common terms, and specifies the general penalty for violations where a specific penalty is not otherwise stated.",
+    purpose: "To provide a consistent legal basis for the interpretation and enforcement of the Town Code, ensuring uniformity and clarity in governance.",
+    keyProvisions: [
+      {
+        title: "Rules of Interpretation",
+        content: "Provides standard rules for how the code should be read, such as definitions for terms like 'shall' (mandatory) and 'may' (discretionary)."
+      },
+      {
+        title: "General Penalty",
+        content: "Establishes a default penalty for any violation of the Town Code where a more specific penalty is not stated, making all parts of the code enforceable."
+      }
+    ]
+  },
+  '3': {
+    summary: "Title III, Administration, details the structure and organization of the town government. It defines the roles and responsibilities of the Town Council, Town Manager, and various departments.",
+    purpose: "To establish an organized, efficient, and transparent structure for town governance, outlining the powers and duties of elected officials and administrative staff.",
+    keyProvisions: [
+      {
+        title: "Council-Manager Form",
+        content: "The Town operates under a Council-Manager form of government. The Town Council is the legislative body, while the Town Manager, appointed by the Council, serves as the chief administrative officer responsible for daily operations."
+      },
+      {
+        title: "Town Council",
+        content: "The Council consists of a Mayor and six Councilmembers who set policy, approve the budget, and oversee town governance."
+      }
+    ]
+  },
+  '5': {
+    summary: "Title V, Public Works, governs the essential infrastructure and services managed by the town, including regulations for streets, public property, and utilities.",
+    purpose: "To ensure the safe and efficient provision of public works services and the proper management and maintenance of the town's public infrastructure.",
+    keyProvisions: [
+      {
+        title: "Street and Sidewalk Regulations",
+        content: "Establishes rules for the use and maintenance of public streets and sidewalks, including prohibiting obstructions."
+      },
+      {
+        title: "Water and Wastewater Systems",
+        content: "Contains regulations for connecting to and using the town's water and sewer utilities to protect public health and ensure system integrity."
+      }
+    ]
+  },
+  '7': {
+    summary: "Title VII is the Wickenburg Traffic Code. It adopts state traffic laws and establishes additional local regulations for vehicle operation and parking.",
+    purpose: "To provide for the safe and orderly movement of vehicular, equestrian, and pedestrian traffic within the Town of Wickenburg.",
+    keyProvisions: [
+      {
+        title: "Adoption of State Law",
+        content: "The Town adopts by reference the comprehensive traffic laws found in Title 28 of the Arizona Revised Statutes."
+      },
+      {
+        title: "Equestrian Traffic",
+        content: "Includes specific rules for horse riders, acknowledging the town's strong equestrian heritage."
+      }
+    ]
+  },
+  '9': {
+    summary: "Title IX, General Regulations, covers a wide range of rules related to public health, safety, and welfare, including animal control and nuisance abatement.",
+    purpose: "To protect the health, safety, and quality of life for residents by regulating activities that could become public nuisances.",
+    keyProvisions: [
+      {
+        title: "Animal Control",
+        content: "Regulates the keeping of animals, including livestock, requires licensing and vaccination of dogs, and prohibits animals from running at large."
+      },
+      {
+        title: "Nuisance Abatement",
+        content: "Declares conditions like overgrown weeds, accumulation of trash, and excessive noise to be public nuisances and provides a process for their abatement."
+      }
+    ]
+  },
+  '11': {
+    summary: "Title XI, Business Regulations, governs the licensing and operation of various businesses within the town.",
+    purpose: "To provide for the regulation of businesses to protect the public health, safety, and welfare.",
+    keyProvisions: [
+      {
+        title: "Business Licenses",
+        content: "Requires most businesses operating in Wickenburg to obtain a Town Business License."
+      },
+      {
+        title: "Special Events",
+        content: "A permit is required for temporary events, such as Gold Rush Days, to ensure public safety and coordination of town services."
+      }
+    ]
+  },
+  '13': {
+    summary: "Title XIII, General Offenses, defines various local-level criminal and civil offenses to maintain public order and safety within the town.",
+    purpose: "To define and prohibit conduct that is harmful to public peace, safety, and order within the Town of Wickenburg.",
+    keyProvisions: [
+      {
+        title: "Disorderly Conduct",
+        content: "Prohibits fighting, making unreasonable noise, or using abusive language in a manner likely to disturb the peace."
+      },
+      {
+        title: "Public Consumption of Alcohol",
+        content: "Regulates the consumption of alcoholic beverages in public places."
+      }
+    ]
+  },
+  '15': {
+    summary: "Title XV, Land Usage, contains the comprehensive Zoning and Subdivision regulations for the town. It is the primary tool for managing growth and ensuring development aligns with the town's western character.",
+    purpose: "To guide the physical development of the town in a manner that promotes public health and safety, preserves its historic western character, and ensures orderly growth.",
+    keyProvisions: [
+      {
+        title: "Zoning Districts",
+        content: "Establishes various residential, commercial, and industrial zoning districts, as well as a specific Historic Downtown district, and specifies the permitted uses for each."
+      },
+      {
+        title: "Historic Preservation",
+        content: "Includes regulations aimed at preserving the unique historic character of Wickenburg's downtown and historic neighborhoods."
+      }
+    ]
+  }
+};

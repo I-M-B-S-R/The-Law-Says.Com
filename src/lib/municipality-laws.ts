@@ -59,6 +59,33 @@ import { QUARTZSITE_CODE_CONTENT } from './quartzsite-code-content';
 import { QUEEN_CREEK_CODE_CONTENT } from './queen-creek-code-content';
 import { SAFFORD_CODE_CONTENT } from './safford-code-content';
 import { SAHUARITA_CODE_CONTENT } from './sahuarita-code-content';
+import { SAN_LUIS_CODE_CONTENT } from './san-luis-code-content';
+import { SCOTTSDALE_CODE_CONTENT } from './scottsdale-code-content';
+import { SEDONA_CODE_CONTENT } from './sedona-code-content';
+import { SHOW_LOW_CODE_CONTENT } from './show-low-code-content';
+import { SIERRA_VISTA_CODE_CONTENT } from './sierra-vista-code-content';
+import { SNOWFLAKE_CODE_CONTENT } from './snowflake-code-content';
+import { SOMERTON_CODE_CONTENT } from './somerton-code-content';
+import { SOUTH_TUCSON_CODE_CONTENT } from './south-tucson-code-content';
+import { SPRINGERVILLE_CODE_CONTENT } from './springerville-code-content';
+import { ST_JOHNS_CODE_CONTENT } from './st-johns-code-content';
+import { STAR_VALLEY_CODE_CONTENT } from './star-valley-code-content';
+import { SUPERIOR_CODE_CONTENT } from './superior-code-content';
+import { SURPRISE_CODE_CONTENT } from './surprise-code-content';
+import { TAYLOR_CODE_CONTENT } from './taylor-code-content';
+import { TEMPE_CODE_CONTENT } from './tempe-code-content';
+import { THATCHER_CODE_CONTENT } from './thatcher-code-content';
+import { TOLLESON_CODE_CONTENT } from './tolleson-code-content';
+import { TOMBSTONE_CODE_CONTENT } from './tombstone-code-content';
+import { TUCSON_CODE_CONTENT } from './tucson-code-content';
+import { WELLTON_CODE_CONTENT } from './wellton-code-content';
+import { WICKENBURG_CODE_CONTENT } from './wickenburg-code-content';
+import { WILLCOX_CODE_CONTENT } from './willcox-code-content';
+import { WILLIAMS_CODE_CONTENT } from './williams-code-content';
+import { WINKELMAN_CODE_CONTENT } from './winkelman-code-content';
+import { WINSLOW_CODE_CONTENT } from './winslow-code-content';
+import { YOUNGTOWN_CODE_CONTENT } from './youngtown-code-content';
+import { YUMA_CODE_CONTENT } from './yuma-code-content';
 
 const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } = {
     'apache-junction': APACHE_JUNCTION_CODE_CONTENT,
@@ -121,6 +148,33 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'queen-creek': QUEEN_CREEK_CODE_CONTENT,
     'safford': SAFFORD_CODE_CONTENT,
     'sahuarita': SAHUARITA_CODE_CONTENT,
+    'san-luis': SAN_LUIS_CODE_CONTENT,
+    'scottsdale': SCOTTSDALE_CODE_CONTENT,
+    'sedona': SEDONA_CODE_CONTENT,
+    'show-low': SHOW_LOW_CODE_CONTENT,
+    'sierra-vista': SIERRA_VISTA_CODE_CONTENT,
+    'snowflake': SNOWFLAKE_CODE_CONTENT,
+    'somerton': SOMERTON_CODE_CONTENT,
+    'south-tucson': SOUTH_TUCSON_CODE_CONTENT,
+    'springerville': SPRINGERVILLE_CODE_CONTENT,
+    'st-johns': ST_JOHNS_CODE_CONTENT,
+    'star-valley': STAR_VALLEY_CODE_CONTENT,
+    'superior': SUPERIOR_CODE_CONTENT,
+    'surprise': SURPRISE_CODE_CONTENT,
+    'taylor': TAYLOR_CODE_CONTENT,
+    'tempe': TEMPE_CODE_CONTENT,
+    'thatcher': THATCHER_CODE_CONTENT,
+    'tolleson': TOLLESON_CODE_CONTENT,
+    'tombstone': TOMBSTONE_CODE_CONTENT,
+    'tucson': TUCSON_CODE_CONTENT,
+    'wellton': WELLTON_CODE_CONTENT,
+    'wickenburg': WICKENBURG_CODE_CONTENT,
+    'willcox': WILLCOX_CODE_CONTENT,
+    'williams': WILLIAMS_CODE_CONTENT,
+    'winkelman': WINKELMAN_CODE_CONTENT,
+    'winslow': WINSLOW_CODE_CONTENT,
+    'youngtown': YOUNGTOWN_CODE_CONTENT,
+    'yuma': YUMA_CODE_CONTENT,
 };
 
 export const getMunicipalityLawContent = (municipality: string) => {

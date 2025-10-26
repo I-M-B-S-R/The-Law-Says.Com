@@ -59,6 +59,33 @@ import { QUARTZSITE_TOWN_CODE } from './quartzsite-code';
 import { QUEEN_CREEK_TOWN_CODE } from './queen-creek-code';
 import { SAFFORD_CITY_CODE } from './safford-code';
 import { SAHUARITA_TOWN_CODE } from './sahuarita-code';
+import { SAN_LUIS_CITY_CODE } from './san-luis-code';
+import { SCOTTSDALE_CITY_CODE } from './scottsdale-code';
+import { SEDONA_CITY_CODE } from './sedona-code';
+import { SHOW_LOW_CITY_CODE } from './show-low-code';
+import { SIERRA_VISTA_CITY_CODE } from './sierra-vista-code';
+import { SNOWFLAKE_TOWN_CODE } from './snowflake-code';
+import { SOMERTON_CITY_CODE } from './somerton-code';
+import { SOUTH_TUCSON_CITY_CODE } from './south-tucson-code';
+import { SPRINGERVILLE_TOWN_CODE } from './springerville-code';
+import { ST_JOHNS_CITY_CODE } from './st-johns-code';
+import { STAR_VALLEY_TOWN_CODE } from './star-valley-code';
+import { SUPERIOR_TOWN_CODE } from './superior-code';
+import { SURPRISE_CITY_CODE } from './surprise-code';
+import { TAYLOR_TOWN_CODE } from './taylor-code';
+import { TEMPE_CITY_CODE } from './tempe-code';
+import { THATCHER_TOWN_CODE } from './thatcher-code';
+import { TOLLESON_CITY_CODE } from './tolleson-code';
+import { TOMBSTONE_CITY_CODE } from './tombstone-code';
+import { TUCSON_CITY_CODE } from './tucson-code';
+import { WELLTON_TOWN_CODE } from './wellton-code';
+import { WICKENBURG_TOWN_CODE } from './wickenburg-code';
+import { WILLCOX_CITY_CODE } from './willcox-code';
+import { WILLIAMS_CITY_CODE } from './williams-code';
+import { WINKELMAN_TOWN_CODE } from './winkelman-code';
+import { WINSLOW_CITY_CODE } from './winslow-code';
+import { YOUNGTOWN_TOWN_CODE } from './youngtown-code';
+import { YUMA_CITY_CODE } from './yuma-code';
 
 const MUNICIPALITY_CODE_LIST: { [key: string]: any[] } = {
     'apache-junction': APACHE_JUNCTION_TOWN_CODE,
@@ -121,6 +148,33 @@ const MUNICIPALITY_CODE_LIST: { [key: string]: any[] } = {
     'queen-creek': QUEEN_CREEK_TOWN_CODE,
     'safford': SAFFORD_CITY_CODE,
     'sahuarita': SAHUARITA_TOWN_CODE,
+    'san-luis': SAN_LUIS_CITY_CODE,
+    'scottsdale': SCOTTSDALE_CITY_CODE,
+    'sedona': SEDONA_CITY_CODE,
+    'show-low': SHOW_LOW_CITY_CODE,
+    'sierra-vista': SIERRA_VISTA_CITY_CODE,
+    'snowflake': SNOWFLAKE_TOWN_CODE,
+    'somerton': SOMERTON_CITY_CODE,
+    'south-tucson': SOUTH_TUCSON_CITY_CODE,
+    'springerville': SPRINGERVILLE_TOWN_CODE,
+    'st-johns': ST_JOHNS_CITY_CODE,
+    'star-valley': STAR_VALLEY_TOWN_CODE,
+    'superior': SUPERIOR_TOWN_CODE,
+    'surprise': SURPRISE_CITY_CODE,
+    'taylor': TAYLOR_TOWN_CODE,
+    'tempe': TEMPE_CITY_CODE,
+    'thatcher': THATCHER_TOWN_CODE,
+    'tolleson': TOLLESON_CITY_CODE,
+    'tombstone': TOMBSTONE_CITY_CODE,
+    'tucson': TUCSON_CITY_CODE,
+    'wellton': WELLTON_TOWN_CODE,
+    'wickenburg': WICKENBURG_TOWN_CODE,
+    'willcox': WILLCOX_CITY_CODE,
+    'williams': WILLIAMS_CITY_CODE,
+    'winkelman': WINKELMAN_TOWN_CODE,
+    'winslow': WINSLOW_CITY_CODE,
+    'youngtown': YOUNGTOWN_TOWN_CODE,
+    'yuma': YUMA_CITY_CODE,
 };
 
 export const getMunicipalityCodeList = (municipality: string) => {
