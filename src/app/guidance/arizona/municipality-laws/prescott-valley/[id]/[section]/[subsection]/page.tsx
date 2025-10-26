@@ -16,11 +16,11 @@ import { PRESCOTT_VALLEY_CHAPTER_154_SECTIONS } from '@/lib/prescott-valley-chap
 export default function MunicipalityLawDetailPage() {
   const router = useRouter();
   const params = useParams();
-  const { id: chapterId, section: sectionId, subsection: subsectionId } = params;
+  const { id: titleId, section: sectionId, subsection: subsectionId } = params;
 
   const law = PRESCOTT_VALLEY_CODE_CONTENT[subsectionId as string];
   
-  const backLink = `/guidance/arizona/municipality-laws/prescott-valley/${chapterId}/${sectionId}`;
+  const backLink = `/guidance/arizona/municipality-laws/prescott-valley/${titleId}/${sectionId}`;
   
   const parentSection = [...PRESCOTT_VALLEY_CHAPTER_93_SECTIONS, ...PRESCOTT_VALLEY_CHAPTER_154_SECTIONS].find(s => s.id === subsectionId);
   const title = parentSection ? parentSection.name : 'Prescott Valley Town Code';

@@ -18,7 +18,7 @@ import { PRESCOTT_VALLEY_CHAPTER_154_SECTIONS } from '@/lib/prescott-valley-chap
 export default function MunicipalityLawDetailPage() {
   const router = useRouter();
   const params = useParams();
-  const { id: chapterId, section: sectionId } = params;
+  const { id: titleId, section: sectionId } = params;
 
   let sections: { id: string; name: string; }[] = [];
   if (sectionId === '93') {
@@ -29,8 +29,7 @@ export default function MunicipalityLawDetailPage() {
 
   const law = PRESCOTT_VALLEY_CODE_CONTENT[sectionId as string];
   
-  const municipalityName = 'Prescott Valley';
-  const backLink = `/guidance/arizona/municipality-laws/prescott-valley/${chapterId}`;
+  const backLink = `/guidance/arizona/municipality-laws/prescott-valley/${titleId}`;
 
   const parentChapter = [...PRESCOTT_VALLEY_TITLE_9_CHAPTERS, ...PRESCOTT_VALLEY_TITLE_15_CHAPTERS].find(c => c.id === sectionId);
   const title = parentChapter ? parentChapter.name : 'Prescott Valley Town Code';
@@ -54,7 +53,7 @@ export default function MunicipalityLawDetailPage() {
                     className="h-20 w-full justify-start whitespace-normal px-4 text-left font-bold btn-destructive"
                     asChild
                   >
-                    <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${chapterId}/${sectionId}/${sec.id}`}>
+                    <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${titleId}/${sectionId}/${sec.id}`}>
                       <span>{sec.name}</span>
                     </Link>
                   </Button>
