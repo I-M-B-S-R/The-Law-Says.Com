@@ -46,7 +46,7 @@ export default function MunicipalityLawsPage() {
                   asChild
                   disabled={law.reserved}
                 >
-                  <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${law.id}`}>
+                  <Link href={!law.reserved ? `/guidance/arizona/municipality-laws/prescott-valley/${law.id}` : '#'}>
                     <span>{law.name}</span>
                   </Link>
                 </Button>
