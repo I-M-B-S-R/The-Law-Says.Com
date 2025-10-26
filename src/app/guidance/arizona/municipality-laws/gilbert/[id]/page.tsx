@@ -5,7 +5,6 @@ import React from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
 import { ArrowLeft, ArrowRight, Loader2 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { GILBERT_CODE_CONTENT } from '@/lib/gilbert-code-content';
@@ -40,7 +39,7 @@ const GilbertCodeDetailPage = () => {
   if (!law) {
     return (
         <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-             <div className="flex h-[90svh] w-full max-w-sm flex-col items-center justify-center bg-background shadow-2xl text-center">
+             <div className="flex h-[90svh] w-full max-w-sm flex-col items-center justify-center bg-background shadow-2xl text-center p-4">
                 <p className="text-2xl font-bold text-destructive">Law not found for ID: {id}</p>
                 <Link href="/guidance/arizona/municipality-laws/gilbert" className="mt-4 inline-block rounded-md bg-destructive px-4 py-2 text-destructive-foreground">
                     Back to Gilbert Town Code
