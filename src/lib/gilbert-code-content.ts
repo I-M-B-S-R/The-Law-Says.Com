@@ -2,6 +2,7 @@
 interface CodeContent {
   title: string;
   summary: string;
+  purpose: string;
   keyProvisions: { title: string; content: string }[];
   source: string;
 }
@@ -29,7 +30,7 @@ export const GILBERT_CODE_CONTENT: Record<string, CodeContent> = {
   },
   '10': {
     title: 'Chapter 10: Buildings and Construction Regulations',
-    summary: 'Establishes standards for building permits, inspections, and adoption of international codes with amendments for safety and compliance.',
+    summary: 'Establishes standards for building permits, inspections, and adoption of international codes with local amendments for safety and compliance.',
     purpose: 'To ensure all construction within the town meets safety standards and follows a regulated process.',
     keyProvisions: [
       {
