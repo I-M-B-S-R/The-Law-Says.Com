@@ -2,7 +2,6 @@
 interface CodeContent {
   title: string;
   summary: string;
-  purpose: string;
   keyProvisions: { title: string; content: string }[];
   source: string;
 }
