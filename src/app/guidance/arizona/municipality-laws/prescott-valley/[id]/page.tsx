@@ -3,7 +3,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { useParams, useRouter, notFound } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -13,22 +13,23 @@ import { PRESCOTT_VALLEY_TITLE_15_CHAPTERS } from '@/lib/prescott-valley-title-1
 import { PRESCOTT_VALLEY_CODE_CONTENT } from '@/lib/prescott-valley-code-content';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { notFound } from 'next/navigation';
 
 export default function MunicipalityChapterPage() {
   const router = useRouter();
   const params = useParams();
-  const { id: chapterId } = params;
+  const { id } = params;
 
-  const parentTitle = PRESCOTT_VALLEY_TOWN_CODE.find(t => t.id === chapterId);
+  const parentTitle = PRESCOTT_VALLEY_TOWN_CODE.find(t => t.id === id);
 
   if (!parentTitle) {
     notFound();
   }
 
   let chapters: { id: string; name: string; reserved: boolean }[] = [];
-  if (chapterId === '9') {
+  if (id === '9') {
     chapters = PRESCOTT_VALLEY_TITLE_9_CHAPTERS;
-  } else if (chapterId === '15') {
+  } else if (id === '15') {
     chapters = PRESCOTT_VALLEY_TITLE_15_CHAPTERS;
   }
 
@@ -66,7 +67,7 @@ export default function MunicipalityChapterPage() {
 
   // If there are no sub-chapters, display the content directly.
   if (chapters.length === 0) {
-    const law = PRESCOTT_VALLEY_CODE_CONTENT[chapterId as string];
+    const law = PRESCOTT_VALLEY_CODE_CONTENT[id as string];
     if (!law) notFound();
 
     return (
@@ -140,7 +141,7 @@ export default function MunicipalityChapterPage() {
                   asChild
                   disabled={chap.reserved}
                 >
-                  <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${chapterId}/${chap.id}`}>
+                  <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${id}/${chap.id}`}>
                     <span>{chap.name}</span>
                   </Link>
                 </Button>
