@@ -54,6 +54,7 @@ import { PHOENIX_CODE_CONTENT } from './phoenix-code-content';
 import { PIMA_CODE_CONTENT } from './pima-code-content';
 import { PINETOP_LAKESIDE_CODE_CONTENT } from './pinetop-lakeside-code-content';
 import { PRESCOTT_VALLEY_CODE_CONTENT } from './prescott-valley-code-content';
+import { PRESCOTT_CODE_CONTENT } from './prescott-code-content';
 
 const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } = {
     'apache-junction': APACHE_JUNCTION_CODE_CONTENT,
@@ -111,8 +112,11 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'pima': PIMA_CODE_CONTENT,
     'pinetop-lakeside': PINETOP_LAKESIDE_CODE_CONTENT,
     'prescott-valley': PRESCOTT_VALLEY_CODE_CONTENT,
+    'prescott': PRESCOTT_CODE_CONTENT,
 };
 
 export const getMunicipalityLawContent = (municipality: string) => {
     return MUNICIPALITY_LAW_CONTENT[municipality];
 };
+
+    
