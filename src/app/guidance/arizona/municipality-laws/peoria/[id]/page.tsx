@@ -12,11 +12,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PEORIA_CITY_CODE } from '@/lib/peoria-code';
 import { PEORIA_CODE_CONTENT } from '@/lib/peoria-code-content';
 
-export default function PeoriaCodeDetailPage() {
+function PeoriaCodeDetailContent({ id }: { id: string | undefined }) {
   const router = useRouter();
-  const params = useParams();
-
-  const id = Array.isArray(params?.id) ? params.id[0] : params?.id;
 
   if (!id) {
     return (
@@ -29,7 +26,7 @@ export default function PeoriaCodeDetailPage() {
   }
 
   const law = PEORIA_CITY_CODE.find((l) => l.id === id);
-  const lawContent = PEORIA_CODE_CONTENT[id as string];
+  const lawContent = PEORIA_CODE_CONTENT[id];
 
   if (!law || !lawContent) {
     return (
@@ -120,4 +117,11 @@ export default function PeoriaCodeDetailPage() {
       </div>
     </div>
   );
+}
+
+export default function PeoriaCodeDetailPage() {
+    const params = useParams();
+    const id = Array.isArray(params?.id) ? params.id[0] : params?.id;
+  
+    return <PeoriaCodeDetailContent id={id} />;
 }
