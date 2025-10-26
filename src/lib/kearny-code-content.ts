@@ -44,7 +44,7 @@ export const KEARNY_CODE_CONTENT: Record<string, CodeContent> = {
       },
       {
         title: "Water and Wastewater Systems",
-        content: "Contains regulations for connecting to and using the town's water and sewer utilities to protect public health and ensure system integrity."
+        content: "Contains regulations for connecting to and using the town\'s water and sewer utilities to protect public health and ensure system integrity."
       }
     ]
   },
