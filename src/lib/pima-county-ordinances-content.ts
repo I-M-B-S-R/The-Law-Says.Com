@@ -7,7 +7,7 @@ interface OrdinanceContent {
 
 export const PIMA_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> = {
   'zoning': {
-    summary: "Pima County's Zoning Code is codified in Title 18 of the Pima County Code. It regulates land use, development density, and building placement in the unincorporated areas of the county, balancing growth with the preservation of the Sonoran Desert. The full code is available on the <a href='https://library.municode.com/az/pima_county/codes/code_of_ordinances?nodeId=TIT18ZO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Pima County Municode website</a>.",
+    summary: "Pima County's Zoning Code is codified in Title 18 of the Pima County Code. It regulates land use, development density, and building placement in the unincorporated areas of the county, balancing growth with the preservation of the Sonoran Desert. The full code is available on the <a href='https://pima.gov/development-services/zoning-code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Pima County website</a>.",
     purpose: "To promote public health, safety, and welfare by guiding the location and use of buildings and land, conserving property values, and protecting the county's unique natural and cultural resources.",
     keyProvisions: [
       {
@@ -29,7 +29,7 @@ export const PIMA_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> = 
     ]
   },
   'subdivision': {
-    summary: "The Pima County Subdivision and Development Standards govern the process of dividing land. These rules ensure that new lots and developments are designed safely and are served by adequate infrastructure. The standards are found within the Zoning Code, primarily in <a href='https://library.municode.com/az/pima_county/codes/code_of_ordinances?nodeId=TIT18ZO_CH18.71SUDE' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Chapter 18.71</a>.",
+    summary: "The Pima County Subdivision and Development Standards govern the process of dividing land. These rules ensure that new lots and developments are designed safely and are served by adequate infrastructure. The standards are found within the Zoning Code, primarily in Chapter 18.71, available on the <a href='https://pima.gov/development-services/zoning-code' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Pima County website</a>.",
     purpose: "To ensure that land division occurs in an orderly manner, providing for safe and efficient street systems, adequate drainage, and the necessary public and private utilities, all while respecting the natural environment.",
     keyProvisions: [
       {
@@ -51,7 +51,7 @@ export const PIMA_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> = 
     ]
   },
   'floodplain': {
-    summary: "The Pima County Floodplain Management Ordinance, found in <a href='https://library.municode.com/az/pima_county/codes/code_of_ordinances?nodeId=TIT16FLCO' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 16 of the County Code</a>, is designed to minimize flood risk. It regulates all development within designated floodplains to protect lives and property. It is administered by the Pima County Regional Flood Control District.",
+    summary: "The Pima County Floodplain Management Ordinance, found in Title 16 of the County Code, is designed to minimize flood risk. It regulates all development within designated floodplains to protect lives and property. It is administered by the Pima County Regional Flood Control District. The code is available on the <a href='https://pima.gov/development-services/floodplain-information' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Pima County website</a>.",
     purpose: "To protect human life and health, minimize property damage, and encourage the wise use of floodplains by regulating development in flood-prone areas.",
     keyProvisions: [
       {
@@ -73,7 +73,7 @@ export const PIMA_COUNTY_ORDINANCES_CONTENT: Record<string, OrdinanceContent> = 
     ]
   },
   'animal-control': {
-    summary: "The Pima County Animal Control Ordinance, codified as <a href='https://library.municode.com/az/pima_county/codes/code_of_ordinances?nodeId=TIT6AN' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Title 6 of the County Code</a>, sets the rules for the care and control of domestic animals. It is enforced by Pima Animal Care Center (PACC).",
+    summary: "The Pima County Animal Control Ordinance, codified as Title 6 of the County Code, sets the rules for the care and control of domestic animals. It is enforced by Pima Animal Care Center (PACC). The full code is available on the <a href='https://pima.gov/animal-care' target='_blank' rel='noopener noreferrer' class='text-primary underline'>Pima County website</a>.",
     purpose: "To protect public health and safety from animal-related problems (like bites and diseases) and to ensure the humane treatment of animals within the community.",
     keyProvisions: [
       {
