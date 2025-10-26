@@ -198,7 +198,7 @@ export const GILBERT_CODE_CONTENT: Record<string, CodeContent> = {
       },
       {
         title: "Container Requirements",
-        content: "Specifies that residents must use town-provided containers and sets rules for their placement on collection days."
+        content: "Specifies that residents must use town-provided containers for trash and recycling and sets rules for their placement on collection days."
       }
     ]
   },
