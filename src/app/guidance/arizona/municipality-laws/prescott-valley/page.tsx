@@ -3,7 +3,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { useParams, useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -11,8 +11,6 @@ import { PRESCOTT_VALLEY_TOWN_CODE } from '@/lib/prescott-valley-code';
 
 export default function MunicipalityLawsPage() {
   const router = useRouter();
-  const params = useParams();
-  const { municipality } = params;
 
   const municipalityName = 'Prescott Valley';
   const laws = PRESCOTT_VALLEY_TOWN_CODE;
