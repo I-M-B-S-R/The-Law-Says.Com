@@ -45,10 +45,9 @@ export default function MunicipalityLawsPage() {
                   className="h-20 w-full justify-start whitespace-normal px-4 text-left font-bold btn-destructive"
                   asChild={!law.reserved}
                   disabled={law.reserved}
-                  variant={law.reserved ? 'outline' : 'default'}
                 >
                   {law.reserved ? (
-                    <span>{law.name} (Reserved)</span>
+                    <span>{law.name}</span>
                   ) : (
                     <Link href={`/guidance/arizona/municipality-laws/prescott-valley/${law.id}`}>
                       <span>{law.name}</span>
