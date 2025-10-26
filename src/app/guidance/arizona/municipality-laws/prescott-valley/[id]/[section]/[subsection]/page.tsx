@@ -3,43 +3,37 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams, useRouter, notFound } from 'next/navigation';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PRESCOTT_VALLEY_CODE_CONTENT } from '@/lib/prescott-valley-code-content';
+import { PRESCOTT_VALLEY_CHAPTER_93_SECTIONS } from '@/lib/prescott-valley-chapter-93-sections';
+import { PRESCOTT_VALLEY_CHAPTER_154_SECTIONS } from '@/lib/prescott-valley-chapter-154-sections';
 
 export default function MunicipalityLawDetailPage() {
   const router = useRouter();
   const params = useParams();
-  const { chapter, section } = params;
+  const { id: chapterId, section: sectionId, subsection: subsectionId } = params;
 
-  const id = section || chapter;
-  const law = PRESCOTT_VALLEY_CODE_CONTENT[id as string];
+  const law = PRESCOTT_VALLEY_CODE_CONTENT[subsectionId as string];
   
-  const municipalityName = 'Prescott Valley';
-  const backLink = section ? `/guidance/arizona/municipality-laws/prescott-valley/${chapter}` : '/guidance/arizona/municipality-laws/prescott-valley';
+  const backLink = `/guidance/arizona/municipality-laws/prescott-valley/${chapterId}/${sectionId}`;
+  
+  const parentSection = [...PRESCOTT_VALLEY_CHAPTER_93_SECTIONS, ...PRESCOTT_VALLEY_CHAPTER_154_SECTIONS].find(s => s.id === subsectionId);
+  const title = parentSection ? parentSection.name : 'Prescott Valley Town Code';
 
   if (!law) {
-    return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-        <div className="w-full max-w-sm text-center">
-          <p className="text-2xl font-bold text-destructive-foreground">Law not found for ID: {id}</p>
-          <Button asChild className="mt-4">
-            <Link href={backLink}>Back to {municipalityName} Town Code</Link>
-          </Button>
-        </div>
-      </div>
-    );
+    notFound();
   }
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-xl font-bold text-destructive-foreground shadow-md">
-          <Link href={backLink}>{municipalityName} Town Code</Link>
+          <Link href={backLink}>{title}</Link>
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
@@ -76,21 +70,11 @@ export default function MunicipalityLawDetailPage() {
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
-            <button
-              onClick={() => router.back()}
-              className="rounded-md p-2 hover:bg-destructive-foreground/10"
-              aria-label="Go back"
-            >
+            <button onClick={() => router.back()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go back">
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
-            <p className="text-center text-xs">
-              &copy; 2025 The-Law-Says.Com
-            </p>
-            <button
-              onClick={() => router.forward()}
-              className="rounded-md p-2 hover:bg-destructive-foreground/10"
-              aria-label="Go forward"
-            >
+            <p className="text-center text-xs">&copy; 2025 The-Law-Says.Com</p>
+            <button onClick={() => router.forward()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go forward">
               <ArrowRight strokeWidth={3} className="h-8 w-8" />
             </button>
           </div>
