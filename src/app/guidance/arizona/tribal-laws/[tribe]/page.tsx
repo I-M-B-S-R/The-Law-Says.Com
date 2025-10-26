@@ -7,7 +7,10 @@ import { useParams, useRouter } from 'next/navigation';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ARIZONA_TRIBES } from '@/lib/arizona-tribes';
+import { AK_CHIN_CONTENT } from '@/lib/ak-chin-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -18,52 +21,94 @@ export default function TribalLawPage() {
     (tribe) => tribe.toLowerCase().replace(/ /g, '-').replace(/'/g, '') === tribeSlug
   );
 
+  const tribeContent = tribeSlug === 'ak-chin-indian-community' ? AK_CHIN_CONTENT : null;
+
+  if (!tribeName) {
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
+        <div className="w-full max-w-sm text-center">
+          <p className="text-2xl font-bold text-destructive-foreground">Tribe not found.</p>
+          <Button asChild className="mt-4">
+            <Link href="/guidance/arizona/tribal-laws">Back to Tribal Laws</Link>
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
+  if (!tribeContent) {
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
+        <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
+          <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
+            <Link href="/guidance/arizona/tribal-laws">{tribeName}</Link>
+          </header>
+          <div className="flex flex-grow items-center justify-center border-x-2 border-destructive p-4">
+            <div className="text-center">
+              <p className="text-2xl font-bold">Content for the {tribeName} is coming soon.</p>
+              <Button asChild className="mt-4">
+                <Link href="/guidance/arizona/tribal-laws">Back to Tribes</Link>
+              </Button>
+            </div>
+          </div>
+          <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
+            <div className="flex items-center justify-between">
+                <button onClick={() => router.back()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go back">
+                    <ArrowLeft strokeWidth={3} className="h-8 w-8" />
+                </button>
+                <p className="text-center text-xs">&copy; 2025 The-Law-Says.Com</p>
+                <button onClick={() => router.forward()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go forward">
+                    <ArrowRight strokeWidth={3} className="h-8 w-8" />
+                </button>
+            </div>
+          </footer>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
-          <Link href="/guidance/arizona/tribal-laws">{tribeName || 'Tribal Law'}</Link>
+          <Link href="/guidance/arizona/tribal-laws">{tribeName}</Link>
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
-            <div className="flex flex-col gap-4">
-              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
-                Tribal Constitution
-              </Button>
-              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
-                Tribal Code/Ordinances
-              </Button>
-              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
-                Tribal Courts
-              </Button>
-              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
-                Law Enforcement
-              </Button>
-              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
-                Historical & Current Information
-              </Button>
-            </div>
+            <Card className="border-destructive">
+              <CardHeader className="text-center">
+                <CardTitle className="text-2xl font-bold">{tribeContent.title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="prose prose-sm max-w-none text-justify dark:prose-invert">
+                  <p className="font-semibold" dangerouslySetInnerHTML={{ __html: tribeContent.summary }} />
+                </div>
+              </CardContent>
+            </Card>
+
+            <Accordion type="single" collapsible className="mt-4 w-full">
+              {Object.entries(tribeContent.sections).map(([key, section]) => (
+                <AccordionItem value={key} key={key}>
+                  <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">
+                    {section.title}
+                  </AccordionTrigger>
+                  <AccordionContent className="p-4 text-justify">
+                    <div className="prose prose-sm max-w-none dark:prose-invert" dangerouslySetInnerHTML={{ __html: section.content }} />
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </main>
         </ScrollArea>
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
           <div className="flex items-center justify-between">
-            <button
-              onClick={() => router.back()}
-              className="rounded-md p-2 hover:bg-destructive-foreground/10"
-              aria-label="Go back"
-            >
+            <button onClick={() => router.back()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go back">
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
-            <p className="text-center text-xs">
-              &copy; 2025 The-Law-Says.Com
-            </p>
-            <button
-              onClick={() => router.forward()}
-              className="rounded-md p-2 hover:bg-destructive-foreground/10"
-              aria-label="Go forward"
-            >
+            <p className="text-center text-xs">&copy; 2025 The-Law-Says.Com</p>
+            <button onClick={() => router.forward()} className="rounded-md p-2 hover:bg-destructive-foreground/10" aria-label="Go forward">
               <ArrowRight strokeWidth={3} className="h-8 w-8" />
             </button>
           </div>
