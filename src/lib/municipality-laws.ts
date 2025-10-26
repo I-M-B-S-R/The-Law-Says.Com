@@ -13,7 +13,7 @@ import { CHINO_VALLEY_CODE_CONTENT } from './chino-valley-code-content';
 import { CLARKDALE_CODE_CONTENT } from './clarkdale-code-content';
 import { CLIFTON_CODE_CONTENT } from './clifton-code-content';
 import { COOLIDGE_CODE_CONTENT } from './coolidge-code-content';
-import { COTTONWOOD_CODE_CONTENT } from './cottonwood-code-content';
+import { COTTONWOOD_CITY_CODE_CONTENT } from './cottonwood-code-content';
 import { DEWEY_HUMBOLDT_CODE_CONTENT } from './dewey-humboldt-code-content';
 import { DOUGLAS_CODE_CONTENT } from './douglas-code-content';
 import { DUNCAN_CODE_CONTENT } from './duncan-code-content';
@@ -68,7 +68,7 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'clarkdale': CLARKDALE_CODE_CONTENT,
     'clifton': CLIFTON_CODE_CONTENT,
     'coolidge': COOLIDGE_CODE_CONTENT,
-    'cottonwood': COTTONWOOD_CODE_CONTENT,
+    'cottonwood': COTTONWOOD_CITY_CODE_CONTENT,
     'dewey-humboldt': DEWEY_HUMBOLDT_CODE_CONTENT,
     'douglas': DOUGLAS_CODE_CONTENT,
     'duncan': DUNCAN_CODE_CONTENT,
