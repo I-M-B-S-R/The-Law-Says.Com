@@ -8,7 +8,7 @@ import { BULLHEAD_CITY_CODE_CONTENT } from './bullhead-city-code-content';
 import { CAMP_VERDE_CODE_CONTENT } from './camp-verde-code-content';
 import { CAREFREE_CODE_CONTENT } from './carefree-code-content';
 import { CAVE_CREEK_CODE_CONTENT } from './cave-creek-code-content';
-import { CHANDLER_CODE_CONTENT } from './chandler-code-content';
+import { CHANDLER_CITY_CODE_CONTENT } from './chandler-code-content';
 import { CHINO_VALLEY_CODE_CONTENT } from './chino-valley-code-content';
 import { CLARKDALE_CODE_CONTENT } from './clarkdale-code-content';
 import { CLIFTON_CODE_CONTENT } from './clifton-code-content';
@@ -63,7 +63,7 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'camp-verde': CAMP_VERDE_CODE_CONTENT,
     'carefree': CAREFREE_CODE_CONTENT,
     'cave-creek': CAVE_CREEK_CODE_CONTENT,
-    'chandler': CHANDLER_CODE_CONTENT,
+    'chandler': CHANDLER_CITY_CODE_CONTENT,
     'chino-valley': CHINO_VALLEY_CODE_CONTENT,
     'clarkdale': CLARKDALE_CODE_CONTENT,
     'clifton': CLIFTON_CODE_CONTENT,
