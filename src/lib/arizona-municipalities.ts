@@ -12,7 +12,7 @@ export const ARIZONA_MUNICIPALITIES = [
   'Pima', 'Pinetop-Lakeside', 'Prescott', 'Prescott Valley', 'Quartzsite',
   'Queen Creek', 'Safford', 'Sahuarita', 'San Luis', 'Scottsdale', 'Sedona',
   'Show Low', 'Sierra Vista', 'Snowflake', 'Somerton', 'South Tucson',
-  'Springerville', 'St. Johns', 'Star Valley', 'Superior', 'Surprise',
+  'Springerville', 'St Johns', 'Star Valley', 'Superior', 'Surprise',
   'Taylor', 'Tempe', 'Thatcher', 'Tolleson', 'Tombstone', 'Tucson', 'Wellton',
   'Wickenburg', 'Willcox', 'Williams', 'Winkelman', 'Winslow', 'Youngtown', 'Yuma'
 ].sort((a, b) => a.localeCompare(b));
