@@ -52,6 +52,7 @@ import { PAYSON_TOWN_CODE } from './payson-code';
 import { PEORIA_CITY_CODE } from './peoria-code';
 import { PHOENIX_CITY_CODE } from './phoenix-code';
 import { PIMA_TOWN_CODE } from './pima-code';
+import { PINETOP_LAKESIDE_TOWN_CODE } from './pinetop-lakeside-code';
 import { PRESCOTT_VALLEY_TOWN_CODE } from './prescott-valley-code';
 
 const MUNICIPALITY_CODE_LIST: { [key: string]: any[] } = {
@@ -108,6 +109,7 @@ const MUNICIPALITY_CODE_LIST: { [key: string]: any[] } = {
     'peoria': PEORIA_CITY_CODE,
     'phoenix': PHOENIX_CITY_CODE,
     'pima': PIMA_TOWN_CODE,
+    'pinetop-lakeside': PINETOP_LAKESIDE_TOWN_CODE,
     'prescott-valley': PRESCOTT_VALLEY_TOWN_CODE,
 };
 
