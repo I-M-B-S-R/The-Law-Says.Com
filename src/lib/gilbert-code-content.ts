@@ -190,7 +190,7 @@ export const GILBERT_CODE_CONTENT: Record<string, CodeContent> = {
   },
   '50': {
     summary: "Chapter 50, Solid Waste, regulates the storage, collection, and disposal of solid waste to ensure public health and sanitation.",
-    purpose: "To protect public health and the environment by establishing standards for the safe and sanitary management of solid waste.",
+    purpose: "To protect public health and the environment by establishing standards for the safe and sanitary management of solid waste and to promote recycling.",
     keyProvisions: [
       {
         title: "Mandatory Collection",
@@ -268,4 +268,6 @@ export const GILBERT_CODE_CONTENT: Record<string, CodeContent> = {
       }
     ]
   }
-}
+};
+
+    
