@@ -269,5 +269,3 @@ export const GILBERT_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   }
 }
-
-    
