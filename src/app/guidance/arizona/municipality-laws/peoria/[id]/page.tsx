@@ -16,12 +16,17 @@ export default function PeoriaCodeDetailPage() {
   const router = useRouter();
   const params = useParams();
 
-  // Defensive check for params
-  if (!params) {
-    return null; // or a loading spinner
-  }
+  const id = Array.isArray(params?.id) ? params.id[0] : params?.id;
 
-  const { id } = params;
+  if (!id) {
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
+        <div className="w-full max-w-sm text-center">
+          <p className="text-2xl font-bold text-destructive-foreground">Loading...</p>
+        </div>
+      </div>
+    );
+  }
 
   const law = PEORIA_CITY_CODE.find((l) => l.id === id);
   const lawContent = PEORIA_CODE_CONTENT[id as string];
