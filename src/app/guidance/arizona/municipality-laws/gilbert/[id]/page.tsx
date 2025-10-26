@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Loader2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -12,13 +12,25 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { GILBERT_TOWN_CODE } from '@/lib/gilbert-code';
 import { GILBERT_CODE_CONTENT } from '@/lib/gilbert-code-content';
 
+interface Law {
+  id: string;
+  name: string;
+  reserved: boolean;
+}
+
+interface LawContent {
+  summary: string;
+  purpose: string;
+  keyProvisions: { title: string; content: string }[];
+}
+
 export default function GilbertCodeDetailPage() {
   const router = useRouter();
   const params = useParams();
   const { id } = params;
 
   const law = GILBERT_TOWN_CODE.find((l) => l.id === id);
-  const lawContent = GILBERT_CODE_CONTENT[id as string];
+  const lawContent = id ? GILBERT_CODE_CONTENT[id as string] : undefined;
 
   if (!law || !lawContent) {
     return (
@@ -110,3 +122,5 @@ export default function GilbertCodeDetailPage() {
     </div>
   );
 }
+
+    

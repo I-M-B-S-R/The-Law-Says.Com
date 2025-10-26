@@ -1,4 +1,6 @@
 
+'use client';
+
 interface CodeContent {
   summary: string;
   purpose: string;
@@ -269,3 +271,5 @@ export const GILBERT_CODE_CONTENT: Record<string, CodeContent> = {
     ]
   }
 };
+
+    
