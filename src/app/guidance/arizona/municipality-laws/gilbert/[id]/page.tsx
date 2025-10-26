@@ -63,7 +63,7 @@ const GilbertCodeDetailPage = () => {
                   </CardHeader>
                   <CardContent>
                     <div className="prose prose-sm max-w-none text-justify dark:prose-invert">
-                        <p className="font-semibold">{law.summary}</p>
+                        <p className="font-semibold" dangerouslySetInnerHTML={{ __html: law.summary }} />
                         <h3 className="text-lg font-bold mt-4">Key Provisions</h3>
                         <ul className="list-disc pl-6 space-y-1">
                             {law.keyProvisions.map((provision, index) => (

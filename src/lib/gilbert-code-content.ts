@@ -37,22 +37,24 @@ export const GILBERT_CODE_CONTENT = {
   },
   '62': {
     title: 'Chapter 62: Traffic and Vehicles',
-    summary: 'Covers vehicle operations, including rules for motorized play vehicles and integration with state statutes.',
+    summary: 'Governs traffic regulations, vehicle operations, and specific rules for motorized play vehicles and skateboards, including definitions, operating restrictions, and safety requirements.',
     keyProvisions: [
-      'Prohibits operation on sidewalks, high-speed roads, and without permission on private property.',
-      'Requires helmets, lights, and noise limits for operators.',
-      'Limits operating hours and treats violations as civil offenses.',
+      'Applies traffic laws to motorized play vehicles/skateboards; prohibits operation on sidewalks, parks, high-speed roads, or private property without permission.',
+      'Restricts operation to ages 13+, reasonable speeds, no passengers, no attachments to vehicles, and max 80 dB noise; prohibits alterations increasing noise.',
+      'Limits hours to 8:00 a.m. to sunset/8:00 p.m.; requires helmets for under-18s, lights/reflectors at night, brakes, footwear, and eye protection.',
+      'Violations are civil traffic violations prosecuted under Town Code Section 1-5.',
     ],
     source: 'Official Go-Ped Ordinance from gilbertaz.gov at https://www.gilbertaz.gov/departments/development-services/plan-review-inspection/inspection-code-compliance/ordinances/ordinance-go-ped',
   },
   '66': {
     title: 'Chapter 66: Utilities Operations',
-    summary: 'Manages water utility connections and restricts unauthorized use of fire hydrants.',
+    summary: 'Regulates utility services, including potable water, with rules for connections, permits, and restrictions on fire hydrant use for construction water.',
     keyProvisions: [
-      'Requires permits for water connections and prohibits resale.',
-      'Mandates metering for construction water from hydrants on large parcels.',
-      'Imposes misdemeanor penalties for violations.',
+      'Prohibits unauthorized connections to water supply or fire hydrants; requires permits for turn-ons and compliance with plumbing code.',
+      'Bans resale of water except in emergencies; mandates separate metering for construction water from fire hydrants.',
+      'Limits construction water from hydrants on parcels ≥10 acres unless unsafe conditions or no alternative; requires deposits, payments, and town-installed meters.',
+      'Violations are misdemeanors with fines up to $2,500, imprisonment up to 6 months, or both; each day a separate offense.',
     ],
-    source: 'Official Ordinance on Fire Hydrants from gilbertaz.gov at https://www.gilbertaz.gov/departments/development-services/plan-review-inspection/inspection-code-compliance/ordinances/ordinance-fire-hydrants',
+    source: 'Official Ordinance on Connection to Town Fire Hydrants from https://www.gilbertaz.gov/departments/development-services/plan-review-inspection/inspection-code-compliance/ordinances/ordinance-fire-hydrants',
   },
 };

@@ -34,6 +34,24 @@ export const PEORIA_CODE_CONTENT: Record<string, CodeContent> = {
       }
     ]
   },
+  '3': {
+    summary: "Chapter 3, Advertising, regulates signs and other forms of outdoor advertising to ensure they are compatible with their surroundings and do not create safety hazards.",
+    purpose: "To balance the need for business identification and advertising with the desire to maintain a safe and aesthetically pleasing community by regulating the size, location, and type of signs.",
+    keyProvisions: [
+        {
+            title: "Permit Requirement",
+            content: "A sign permit is required for the installation or alteration of most signs to ensure compliance with the code."
+        },
+        {
+            title: "Prohibited Signs",
+            content: "Prohibits certain types of signs, such as animated signs, roof signs, and signs that obstruct traffic views or are placed in the public right-of-way."
+        },
+        {
+            title: "Temporary Signs",
+            content: "Provides specific rules for temporary signs like banners, A-frame signs, and real estate signs, limiting their size, location, and the duration they can be displayed."
+        }
+    ]
+  },
   '4': {
     summary: "Chapter 4, Alcoholic Beverages, governs the sale and consumption of liquor within the City of Peoria. It primarily adopts state law but also includes local regulations.",
     purpose: "To regulate the sale and consumption of alcoholic beverages in a manner that protects public health, safety, and welfare.",
