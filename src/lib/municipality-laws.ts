@@ -164,7 +164,7 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'taylor': TAYLOR_CODE_CONTENT,
     'tempe': TEMPE_CODE_CONTENT,
     'thatcher': THATCHER_CODE_CONTENT,
-    'tolleson': TOLLESON_CODE_CONTENT,
+    'tolleson': TOLLESON_CITY_CODE,
     'tombstone': TOMBSTONE_CODE_CONTENT,
     'tucson': TUCSON_CODE_CONTENT,
     'wellton': WELLTON_CODE_CONTENT,
