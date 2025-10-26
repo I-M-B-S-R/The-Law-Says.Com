@@ -51,6 +51,7 @@ import { PATAGONIA_CODE_CONTENT } from './patagonia-code-content';
 import { PAYSON_CODE_CONTENT } from './payson-code-content';
 import { PEORIA_CODE_CONTENT } from './peoria-code-content';
 import { PHOENIX_CODE_CONTENT } from './phoenix-code-content';
+import { PIMA_CODE_CONTENT } from './pima-code-content';
 import { PRESCOTT_VALLEY_CODE_CONTENT } from './prescott-valley-code-content';
 
 const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } = {
@@ -106,6 +107,7 @@ const MUNICIPALITY_LAW_CONTENT: { [key: string]: typeof GILBERT_CODE_CONTENT } =
     'payson': PAYSON_CODE_CONTENT,
     'peoria': PEORIA_CODE_CONTENT,
     'phoenix': PHOENIX_CODE_CONTENT,
+    'pima': PIMA_CODE_CONTENT,
     'prescott-valley': PRESCOTT_VALLEY_CODE_CONTENT,
 };
 
