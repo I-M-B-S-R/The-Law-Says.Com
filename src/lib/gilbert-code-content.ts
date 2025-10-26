@@ -2,7 +2,7 @@
 export const GILBERT_CODE_CONTENT = {
   '10': {
     title: 'Chapter 10: Buildings and Construction Regulations',
-    summary: 'This chapter regulates building standards, permits, inspections, and construction practices, including adoption of the International Fire Code (2006 Edition) with local amendments for fire prevention and safety.',
+    summary: 'Regulates building standards, permits, inspections, and construction practices, including adoption of the International Fire Code (2006 Edition) with local amendments for fire prevention and safety.',
     keyProvisions: [
       'Adopts the International Fire Code, 2006 Edition, including appendices and standards, for safeguarding life and property from fire and explosion hazards.',
       'Establishes a Board of Appeals for code interpretations and alternate materials.',
@@ -13,7 +13,7 @@ export const GILBERT_CODE_CONTENT = {
     ],
     source: 'Official Ordinance No. 2086 from https://gcifd.com/gilbert-ordinance-2086/',
   },
-  '14': {
+   '14': {
     title: 'Chapter 14: Businesses',
     summary: 'Regulates business licensing, operations, and specific industries like massage therapy establishments.',
     keyProvisions: [
