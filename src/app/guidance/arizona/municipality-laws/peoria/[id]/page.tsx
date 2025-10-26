@@ -15,6 +15,12 @@ import { PEORIA_CODE_CONTENT } from '@/lib/peoria-code-content';
 export default function PeoriaCodeDetailPage() {
   const router = useRouter();
   const params = useParams();
+
+  // Defensive check for params
+  if (!params) {
+    return null; // or a loading spinner
+  }
+
   const { id } = params;
 
   const law = PEORIA_CITY_CODE.find((l) => l.id === id);
