@@ -26,13 +26,19 @@ export default function TribalLawPage() {
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main className="flex h-full flex-col items-center justify-center p-4">
-            <div className="text-center">
-              <p className="text-2xl font-bold">
-                Content for the {tribeName} is coming soon.
-              </p>
-              <Button asChild className="mt-4">
-                <Link href="/guidance/arizona/tribal-laws">Back to Tribal Laws</Link>
+          <main className="p-4">
+            <div className="flex flex-col gap-4">
+              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
+                Tribal Constitution
+              </Button>
+              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
+                Tribal Code/Ordinances
+              </Button>
+              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
+                Tribal Courts
+              </Button>
+              <Button size="lg" className="h-14 w-full font-bold btn-destructive" disabled>
+                Law Enforcement
               </Button>
             </div>
           </main>
