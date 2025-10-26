@@ -12,7 +12,7 @@ import { Input } from '@/components/ui/input';
 export default function StateGuidancePage() {
   const router = useRouter();
   const params = useParams();
-  const state = params.state ? (params.state as string).replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : '';
+  const state = params.state ? (params.state as string).replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : 'Arizona';
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
@@ -37,7 +37,7 @@ export default function StateGuidancePage() {
                   className="h-14 w-full font-bold btn-destructive"
                   asChild
                 >
-                  <Link href={params.state === 'arizona' ? '/guidance/arizona/state-laws' : '#'}>
+                  <Link href={'/guidance/arizona/state-laws'}>
                     State Laws
                   </Link>
                 </Button>
@@ -46,7 +46,7 @@ export default function StateGuidancePage() {
                   className="h-14 w-full font-bold btn-destructive"
                   asChild
                 >
-                  <Link href={params.state === 'arizona' ? '/guidance/arizona/county-laws' : '#'}>
+                  <Link href={'/guidance/arizona/county-laws'}>
                     County Laws
                   </Link>
                 </Button>
@@ -55,7 +55,7 @@ export default function StateGuidancePage() {
                   className="h-14 w-full font-bold btn-destructive"
                   asChild
                 >
-                  <Link href={params.state === 'arizona' ? '/guidance/arizona/municipality-laws' : '#'}>
+                  <Link href={'/guidance/arizona/municipality-laws'}>
                     Municipality Laws
                   </Link>
                 </Button>
@@ -64,7 +64,7 @@ export default function StateGuidancePage() {
                   className="h-14 w-full font-bold btn-destructive"
                   asChild
                 >
-                  <Link href={params.state === 'arizona' ? '/guidance/arizona/tribal-laws' : '#'}>
+                  <Link href={'/guidance/arizona/tribal-laws'}>
                     Tribal Laws
                   </Link>
                 </Button>
