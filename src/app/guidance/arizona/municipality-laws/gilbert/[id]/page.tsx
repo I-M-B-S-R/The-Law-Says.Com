@@ -1,3 +1,4 @@
+
 'use client';
 
 import React from 'react';
@@ -45,7 +46,7 @@ export default function GilbertCodeDetailPage() {
               </CardHeader>
               <CardContent>
                 <div className="prose prose-sm max-w-none text-justify dark:prose-invert">
-                  <p className="font-semibold">{law.summary}</p>
+                  <p className="font-semibold" dangerouslySetInnerHTML={{ __html: law.summary }} />
                 </div>
               </CardContent>
             </Card>
@@ -67,7 +68,7 @@ export default function GilbertCodeDetailPage() {
                  <AccordionItem value="item-2">
                     <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Source</AccordionTrigger>
                     <AccordionContent className="p-4 text-justify break-words">
-                        <a href={law.source.startsWith('http') ? law.source : '#'} target="_blank" rel="noopener noreferrer" className="text-primary underline">{law.source}</a>
+                        <a href={law.source.startsWith('http') ? law.source : '#'} target="_blank" rel="noopener noreferrer" className="text-primary underline" dangerouslySetInnerHTML={{ __html: law.source }} />
                     </AccordionContent>
                 </AccordionItem>
               )}
