@@ -3,58 +3,76 @@
 
 import { useState, useCallback, useRef, useEffect } from 'react';
 
+const CHUNK_SIZE = 150; // A safe chunk size for most TTS engines
+
 export const useTextToSpeech = () => {
   const [isSpeaking, setIsSpeaking] = useState(false);
-  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const utteranceQueueRef = useRef<SpeechSynthesisUtterance[]>([]);
+  const isCancelledRef = useRef(false);
 
   const speak = useCallback((text: string) => {
     if (!window.speechSynthesis) {
       console.error('Text-to-speech is not supported in this browser.');
       return;
     }
-
+    
+    // Stop any ongoing speech before starting a new one
     if (window.speechSynthesis.speaking) {
+      isCancelledRef.current = true;
       window.speechSynthesis.cancel();
-      // The 'end' event will set isSpeaking to false.
-      // We check if the current utterance is the one speaking, if so, we just stop.
-      if (utteranceRef.current && utteranceRef.current.text === text) {
-        return;
-      }
     }
     
-    // Clean up text by removing HTML tags
-    const strippedText = text.replace(/<[^>]*>/g, ' ');
+    isCancelledRef.current = false;
 
-    const newUtterance = new SpeechSynthesisUtterance(strippedText);
-    utteranceRef.current = newUtterance;
+    // Split text into manageable chunks
+    const sentences = text.match(/[^.!?]+[.!?]*/g) || [];
+    const chunks = sentences.reduce((acc: string[], sentence) => {
+        if (sentence.length > CHUNK_SIZE) {
+            // Further split long sentences
+            const parts = sentence.match(new RegExp(`.{1,${CHUNK_SIZE}}`, 'g')) || [];
+            return acc.concat(parts);
+        }
+        acc.push(sentence);
+        return acc;
+    }, []);
 
-    newUtterance.onstart = () => {
-      setIsSpeaking(true);
-    };
+    if (chunks.length === 0) return;
 
-    newUtterance.onend = () => {
-      setIsSpeaking(false);
-      utteranceRef.current = null;
-    };
+    utteranceQueueRef.current = chunks.map(chunk => {
+        const utterance = new SpeechSynthesisUtterance(chunk.trim());
+        utterance.onend = () => {
+            // Dequeue and speak next chunk
+            utteranceQueueRef.current.shift();
+            if (utteranceQueueRef.current.length > 0 && !isCancelledRef.current) {
+                window.speechSynthesis.speak(utteranceQueueRef.current[0]);
+            } else {
+                setIsSpeaking(false);
+            }
+        };
+        utterance.onerror = (event) => {
+            console.error('SpeechSynthesisUtterance.onerror', event);
+            setIsSpeaking(false);
+            utteranceQueueRef.current = []; // Clear queue on error
+        };
+        return utterance;
+    });
+    
+    setIsSpeaking(true);
+    window.speechSynthesis.speak(utteranceQueueRef.current[0]);
 
-    newUtterance.onerror = (event) => {
-      console.error('SpeechSynthesisUtterance.onerror', event);
-      setIsSpeaking(false);
-      utteranceRef.current = null;
-    };
-
-    window.speechSynthesis.speak(newUtterance);
   }, []);
 
   const stop = useCallback(() => {
-    if (window.speechSynthesis && window.speechSynthesis.speaking) {
+    isCancelledRef.current = true;
+    utteranceQueueRef.current = [];
+    if (window.speechSynthesis) {
       window.speechSynthesis.cancel();
     }
-    // onend handler will set isSpeaking to false
+    setIsSpeaking(false);
   }, []);
 
-  // Cleanup on unmount
   useEffect(() => {
+    // Cleanup on unmount
     return () => {
       if (window.speechSynthesis) {
         window.speechSynthesis.cancel();
@@ -62,8 +80,5 @@ export const useTextToSpeech = () => {
     };
   }, []);
 
-  // isGenerating is no longer relevant for client-side TTS
-  const isGenerating = false;
-
-  return { isSpeaking, isGenerating, speak, stop };
+  return { isSpeaking, speak, stop };
 };
