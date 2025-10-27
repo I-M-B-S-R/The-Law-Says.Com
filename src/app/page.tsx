@@ -111,7 +111,10 @@ const HomePage = () => {
               <div className="flex items-center justify-center">
                 <h2 className="text-center text-2xl font-semibold text-foreground flex items-center justify-center">
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : (
-                    <><span className="text-destructive mr-2 text-4xl">*</span>{uiText.whyLawyer}</>
+                    <>
+                      <span className="text-destructive mr-2 text-4xl">*</span>
+                      {uiText.whyLawyer}
+                    </>
                   )}
                 </h2>
               </div>
