@@ -39,9 +39,7 @@ export default function TribalLawPage() {
   const params = useParams();
   const tribeSlug = params.tribe as string;
   const mainSpeech = useTextToSpeech();
-  const sectionSpeeches = Object.fromEntries(
-    Object.keys(AK_CHIN_CONTENT.sections).map(key => [key, useTextToSpeech()])
-  );
+  const sectionSpeech = useTextToSpeech();
 
   const tribeName = ARIZONA_TRIBES.find(
     (tribe) => tribe.toLowerCase().replace(/ /g, '-').replace(/'/g, '') === tribeSlug
@@ -146,22 +144,11 @@ export default function TribalLawPage() {
   `;
 
   const handleMainListenClick = () => {
-    if (mainSpeech.isSpeaking) {
-      mainSpeech.stop();
-    } else {
-      mainSpeech.speak(mainContentToRead);
-    }
+    mainSpeech.speak(mainContentToRead);
   };
 
-  const handleSectionListenClick = (key: string) => {
-    const speech = sectionSpeeches[key];
-    if (speech.isSpeaking) {
-      speech.stop();
-    } else {
-      const section = tribeContent.sections[key];
-      const contentToRead = `${section.title}. ${section.content.replace(/<[^>]*>/g, '')}`;
-      speech.speak(contentToRead);
-    }
+  const handleSectionListenClick = (content: string) => {
+    sectionSpeech.speak(content.replace(/<[^>]*>/g, ''));
   };
 
   return (
@@ -207,8 +194,8 @@ export default function TribalLawPage() {
                   </AccordionTrigger>
                   <AccordionContent className="p-4 text-justify">
                     <div className="mb-4 flex justify-center">
-                        <Button size="lg" onClick={() => handleSectionListenClick(key)} className="h-14 w-full font-bold btn-destructive">
-                            {sectionSpeeches[key].isSpeaking ? (
+                        <Button size="lg" onClick={() => handleSectionListenClick(section.content)} className="h-14 w-full font-bold btn-destructive">
+                            {sectionSpeech.isSpeaking ? (
                                 <>
                                     <StopCircle className="mr-2 h-5 w-5" />
                                     Stop

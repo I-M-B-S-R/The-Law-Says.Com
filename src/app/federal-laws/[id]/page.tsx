@@ -20,6 +20,7 @@ export default function FederalLawDetailPage() {
   const mainSpeech = useTextToSpeech();
   const purposeSpeech = useTextToSpeech();
   const keyProvisionsSpeech = useTextToSpeech();
+  const keyProvisionsContentSpeeches = useTextToSpeech();
 
   const law = FEDERAL_LAWS.find((l) => l.id === id);
   const lawContent = FEDERAL_LAW_CONTENT[id as string];
@@ -40,35 +41,27 @@ export default function FederalLawDetailPage() {
   const mainContentToRead = `
     ${law.id}. ${law.name}.
     Summary: ${lawContent.summary.replace(/<[^>]*>/g, '')}.
-    Purpose.
-    Key Provisions.
+    ${lawContent.purpose ? 'Purpose.' : ''}
+    ${lawContent.keyProvisions && lawContent.keyProvisions.length > 0 ? 'Key Provisions.' : ''}
   `;
 
   const handleMainListenClick = () => {
-    if (mainSpeech.isSpeaking) {
-      mainSpeech.stop();
-    } else {
-      mainSpeech.speak(mainContentToRead);
-    }
+    mainSpeech.speak(mainContentToRead);
   };
   
-  const purposeContentToRead = `Purpose: ${lawContent.purpose}`;
+  const purposeContentToRead = lawContent.purpose;
   const handlePurposeListenClick = () => {
-    if (purposeSpeech.isSpeaking) {
-      purposeSpeech.stop();
-    } else {
-      purposeSpeech.speak(purposeContentToRead);
-    }
+    purposeSpeech.speak(purposeContentToRead);
   };
 
-  const keyProvisionsContentToRead = `Key Provisions: ${lawContent.keyProvisions.map(p => `${p.title}. ${p.content}`).join(' ')}`;
+  const keyProvisionsToRead = lawContent.keyProvisions.map(p => p.title).join(', ');
   const handleKeyProvisionsListenClick = () => {
-    if (keyProvisionsSpeech.isSpeaking) {
-      keyProvisionsSpeech.stop();
-    } else {
-      keyProvisionsSpeech.speak(keyProvisionsContentToRead);
-    }
+      keyProvisionsSpeech.speak(keyProvisionsToRead);
   };
+
+  const handleProvisionContentListenClick = (content: string) => {
+    keyProvisionsContentSpeeches.speak(content.replace(/<[^>]*>/g, ''));
+  }
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
@@ -155,6 +148,21 @@ export default function FederalLawDetailPage() {
                                 {provision.title}
                                 </AccordionTrigger>
                                 <AccordionContent className="p-4 text-justify">
+                                <div className="mb-4 flex justify-center">
+                                    <Button size="lg" onClick={() => handleProvisionContentListenClick(provision.content)} className="h-14 w-full font-bold btn-destructive">
+                                        {keyProvisionsContentSpeeches.isSpeaking ? (
+                                            <>
+                                                <StopCircle className="mr-2 h-5 w-5" />
+                                                Stop
+                                            </>
+                                        ): (
+                                            <>
+                                                <AudioLines className="mr-2 h-5 w-5" />
+                                                Listen
+                                            </>
+                                        )}
+                                    </Button>
+                                </div>
                                 {provision.content}
                                 </AccordionContent>
                             </AccordionItem>

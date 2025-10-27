@@ -17,6 +17,7 @@ export default function MunicipalityCodeDetailClientPage({ law, municipality, mu
   const purposeSpeech = useTextToSpeech();
   const keyProvisionsSpeech = useTextToSpeech();
   const sourceSpeech = useTextToSpeech();
+  const keyProvisionsContentSpeeches = useTextToSpeech();
 
   if (!law) {
     return (
@@ -40,39 +41,27 @@ export default function MunicipalityCodeDetailClientPage({ law, municipality, mu
   `;
 
   const handleMainListenClick = () => {
-    if (mainSpeech.isSpeaking) {
-      mainSpeech.stop();
-    } else {
-      mainSpeech.speak(mainContentToRead);
-    }
+    mainSpeech.speak(mainContentToRead);
   };
 
-  const purposeContentToRead = `Purpose: ${law.purpose}`;
+  const purposeContentToRead = law.purpose;
   const handlePurposeListenClick = () => {
-    if (purposeSpeech.isSpeaking) {
-      purposeSpeech.stop();
-    } else {
-      purposeSpeech.speak(purposeContentToRead);
-    }
+    purposeSpeech.speak(purposeContentToRead);
   };
 
-  const keyProvisionsContentToRead = `Key Provisions: ${law.keyProvisions.map((p: any) => `${p.title}. ${p.content.replace(/<[^>]*>/g, '')}`).join(' ')}`;
+  const keyProvisionsToRead = law.keyProvisions.map((p: any) => p.title).join(', ');
   const handleKeyProvisionsListenClick = () => {
-    if (keyProvisionsSpeech.isSpeaking) {
-      keyProvisionsSpeech.stop();
-    } else {
-      keyProvisionsSpeech.speak(keyProvisionsContentToRead);
-    }
+    keyProvisionsSpeech.speak(keyProvisionsToRead);
   };
   
-  const sourceContentToRead = `Source: ${law.source ? law.source.replace(/<[^>]*>/g, '') : ''}`;
+  const sourceContentToRead = law.source ? law.source.replace(/<[^>]*>/g, '') : '';
   const handleSourceListenClick = () => {
-    if (sourceSpeech.isSpeaking) {
-      sourceSpeech.stop();
-    } else {
-      sourceSpeech.speak(sourceContentToRead);
-    }
+    sourceSpeech.speak(sourceContentToRead);
   };
+
+  const handleProvisionContentListenClick = (content: string) => {
+    keyProvisionsContentSpeeches.speak(content.replace(/<[^>]*>/g, ''));
+  }
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
@@ -155,7 +144,23 @@ export default function MunicipalityCodeDetailClientPage({ law, municipality, mu
                         <ul className="list-disc space-y-2 p-4 text-justify">
                         {law.keyProvisions.map((provision: any, index: number) => (
                             <li key={index}>
-                                <strong>{provision.title}:</strong> <span dangerouslySetInnerHTML={{ __html: provision.content }} />
+                                <strong>{provision.title}:</strong>
+                                <div className="mb-4 flex justify-center">
+                                    <Button size="lg" onClick={() => handleProvisionContentListenClick(provision.content)} className="h-14 w-full font-bold btn-destructive">
+                                        {keyProvisionsContentSpeeches.isSpeaking ? (
+                                            <>
+                                                <StopCircle className="mr-2 h-5 w-5" />
+                                                Stop
+                                            </>
+                                        ): (
+                                            <>
+                                                <AudioLines className="mr-2 h-5 w-5" />
+                                                Listen
+                                            </>
+                                        )}
+                                    </Button>
+                                </div>
+                                <span dangerouslySetInnerHTML={{ __html: provision.content }} />
                             </li>
                         ))}
                         </ul>

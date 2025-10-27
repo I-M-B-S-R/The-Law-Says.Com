@@ -20,6 +20,7 @@ export default function GilaOrdinanceDetailPage() {
   const mainSpeech = useTextToSpeech();
   const purposeSpeech = useTextToSpeech();
   const keyProvisionsSpeech = useTextToSpeech();
+  const keyProvisionsContentSpeeches = useTextToSpeech();
 
   const ordinance = GILA_COUNTY_ORDINANCES.find((o) => o.id === id);
   const ordinanceContent = GILA_COUNTY_ORDINANCES_CONTENT[id as string];
@@ -40,35 +41,27 @@ export default function GilaOrdinanceDetailPage() {
   const mainContentToRead = `
     ${ordinance.name}.
     Summary: ${ordinanceContent.summary.replace(/<[^>]*>/g, '')}.
-    Purpose.
-    Key Provisions.
+    ${ordinanceContent.purpose ? 'Purpose.' : ''}
+    ${ordinanceContent.keyProvisions && ordinanceContent.keyProvisions.length > 0 ? 'Key Provisions.' : ''}
   `;
 
   const handleMainListenClick = () => {
-    if (mainSpeech.isSpeaking) {
-      mainSpeech.stop();
-    } else {
-      mainSpeech.speak(mainContentToRead);
-    }
+    mainSpeech.speak(mainContentToRead);
   };
 
-  const purposeContentToRead = `Purpose: ${ordinanceContent.purpose}`;
+  const purposeContentToRead = ordinanceContent.purpose;
   const handlePurposeListenClick = () => {
-    if (purposeSpeech.isSpeaking) {
-      purposeSpeech.stop();
-    } else {
-      purposeSpeech.speak(purposeContentToRead);
-    }
+    purposeSpeech.speak(purposeContentToRead);
   };
 
-  const keyProvisionsContentToRead = `Key Provisions: ${ordinanceContent.keyProvisions.map(p => `${p.title}. ${p.content.replace(/<[^>]*>/g, '')}`).join(' ')}`;
+  const keyProvisionsToRead = ordinanceContent.keyProvisions.map(p => p.title).join(', ');
   const handleKeyProvisionsListenClick = () => {
-    if (keyProvisionsSpeech.isSpeaking) {
-      keyProvisionsSpeech.stop();
-    } else {
-      keyProvisionsSpeech.speak(keyProvisionsContentToRead);
-    }
+    keyProvisionsSpeech.speak(keyProvisionsToRead);
   };
+
+  const handleProvisionContentListenClick = (content: string) => {
+    keyProvisionsContentSpeeches.speak(content.replace(/<[^>]*>/g, ''));
+  }
 
 
   return (
@@ -156,6 +149,21 @@ export default function GilaOrdinanceDetailPage() {
                                 {provision.title}
                                 </AccordionTrigger>
                                 <AccordionContent className="p-4 text-justify">
+                                <div className="mb-4 flex justify-center">
+                                    <Button size="lg" onClick={() => handleProvisionContentListenClick(provision.content)} className="h-14 w-full font-bold btn-destructive">
+                                        {keyProvisionsContentSpeeches.isSpeaking ? (
+                                            <>
+                                                <StopCircle className="mr-2 h-5 w-5" />
+                                                Stop
+                                            </>
+                                        ): (
+                                            <>
+                                                <AudioLines className="mr-2 h-5 w-5" />
+                                                Listen
+                                            </>
+                                        )}
+                                    </Button>
+                                </div>
                                 <div dangerouslySetInnerHTML={{ __html: provision.content }} />
                                 </AccordionContent>
                             </AccordionItem>
