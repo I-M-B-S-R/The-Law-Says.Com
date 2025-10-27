@@ -18,6 +18,7 @@ import { FORT_MOJAVE_INDIAN_TRIBE_CONTENT } from '@/lib/fort-mojave-indian-tribe
 import { GILA_RIVER_INDIAN_COMMUNITY_CONTENT } from '@/lib/gila-river-indian-community-content';
 import { HAVASUPAI_CONTENT } from '@/lib/havasupai-content';
 import { HOPI_CONTENT } from '@/lib/hopi-content';
+import { HUALAPAI_CONTENT } from '@/lib/hualapai-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -45,6 +46,8 @@ export default function TribalLawPage() {
     tribeContent = HAVASUPAI_CONTENT;
   } else if (tribeSlug === 'hopi-tribe') {
     tribeContent = HOPI_CONTENT;
+  } else if (tribeSlug === 'hualapai-tribe') {
+    tribeContent = HUALAPAI_CONTENT;
   }
 
 
