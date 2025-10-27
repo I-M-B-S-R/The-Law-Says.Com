@@ -105,16 +105,16 @@ const HomePage = () => {
 
             <div className="mt-4 space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
                 <div className="flex justify-center">
-                    <Button size="sm" onClick={handleMissionListenClick} className="font-bold btn-destructive">
+                    <Button size="lg" onClick={handleMissionListenClick} className="h-14 w-full font-bold btn-destructive">
                         {missionSpeech.isSpeaking ? (
                             <>
-                                <StopCircle className="mr-2 h-4 w-4" />
-                                Stop
+                                <StopCircle className="mr-2 h-5 w-5" />
+                                {uiText.stop}
                             </>
                         ): (
                             <>
-                                <AudioLines className="mr-2 h-4 w-4" />
-                                Listen
+                                <AudioLines className="mr-2 h-5 w-5" />
+                                {uiText.listen}
                             </>
                         )}
                     </Button>
