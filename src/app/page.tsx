@@ -31,7 +31,7 @@ const HomePage = () => {
   `.replace(/<[^>]*>/g, '');
 
   const handleMainListenClick = () => {
-    if (mainButtonsSpeech.isSpeaking || mainButtonsSpeech.isGenerating) {
+    if (mainButtonsSpeech.isSpeaking) {
       mainButtonsSpeech.stop();
     } else {
       mainButtonsSpeech.speak(mainButtonsContent);
@@ -39,7 +39,7 @@ const HomePage = () => {
   };
 
   const handleMissionListenClick = () => {
-    if (missionSpeech.isSpeaking || missionSpeech.isGenerating) {
+    if (missionSpeech.isSpeaking) {
       missionSpeech.stop();
     } else {
       missionSpeech.speak(missionContent);
@@ -76,13 +76,8 @@ const HomePage = () => {
                 </Link>
               </Button>
 
-              <Button size="lg" onClick={handleMainListenClick} className="h-14 font-bold btn-destructive" disabled={mainButtonsSpeech.isGenerating}>
-                 {mainButtonsSpeech.isGenerating ? (
-                    <>
-                        <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-                        Loading Audio...
-                    </>
-                 ) : mainButtonsSpeech.isSpeaking ? (
+              <Button size="lg" onClick={handleMainListenClick} className="h-14 font-bold btn-destructive">
+                 {mainButtonsSpeech.isSpeaking ? (
                     <>
                         <StopCircle className="mr-2 h-5 w-5" />
                         {uiText.stop}
@@ -110,13 +105,8 @@ const HomePage = () => {
 
             <div className="mt-4 space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
                 <div className="flex justify-center">
-                    <Button size="sm" onClick={handleMissionListenClick} className="font-bold btn-destructive" disabled={missionSpeech.isGenerating}>
-                        {missionSpeech.isGenerating ? (
-                            <>
-                                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                                Loading...
-                            </>
-                        ) : missionSpeech.isSpeaking ? (
+                    <Button size="sm" onClick={handleMissionListenClick} className="font-bold btn-destructive">
+                        {missionSpeech.isSpeaking ? (
                             <>
                                 <StopCircle className="mr-2 h-4 w-4" />
                                 Stop
