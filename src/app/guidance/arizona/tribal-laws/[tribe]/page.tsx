@@ -14,6 +14,7 @@ import { AK_CHIN_CONTENT } from '@/lib/ak-chin-content';
 import { COCOPAH_CONTENT } from '@/lib/cocopah-content';
 import { COLORADO_RIVER_INDIAN_TRIBES_CONTENT } from '@/lib/colorado-river-indian-tribes-content';
 import { FORT_MCDOWELL_YAVAPAI_NATION_CONTENT } from '@/lib/fort-mcdowell-yavapai-nation-content';
+import { FORT_MOJAVE_INDIAN_TRIBE_CONTENT } from '@/lib/fort-mojave-indian-tribe-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -33,6 +34,8 @@ export default function TribalLawPage() {
     tribeContent = COLORADO_RIVER_INDIAN_TRIBES_CONTENT;
   } else if (tribeSlug === 'fort-mcdowell-yavapai-nation') {
     tribeContent = FORT_MCDOWELL_YAVAPAI_NATION_CONTENT;
+  } else if (tribeSlug === 'fort-mojave-indian-tribe') {
+    tribeContent = FORT_MOJAVE_INDIAN_TRIBE_CONTENT;
   }
 
 
