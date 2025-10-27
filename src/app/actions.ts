@@ -5,7 +5,6 @@ import { getLegalGuidance, type GetLegalGuidanceInput } from '@/ai/flows/get-leg
 import { translateText, type TranslateTextInput } from '@/ai/flows/translate-text';
 import { textToSpeech, type TextToSpeechInput } from '@/ai/flows/text-to-speech';
 import { z } from 'zod';
-import { streamFlow } from '@genkit-ai/next/server';
 
 const LegalActionInputSchema = z.object({
   jurisdiction: z.string().min(1, 'Jurisdiction is required.'),
@@ -32,11 +31,11 @@ const TranslateActionInputSchema = z.object({
 });
 
 export async function translateTextAction(values: TranslateTextInput) {
-    if (!values.textToTranslate.trim()) {
-        return { success: true, data: { translatedText: '' } };
-    }
     try {
         const validatedInput = TranslateActionInputSchema.parse(values);
+        if (!validatedInput.textToTranslate.trim()) {
+            return { success: true, data: { translatedText: '' } };
+        }
         const result = await translateText(validatedInput);
         return { success: true, data: result };
     } catch (error) {
@@ -54,17 +53,5 @@ const TextToSpeechActionInputSchema = z.object({
 
 export async function textToSpeechAction(values: TextToSpeechInput) {
   const validatedInput = TextToSpeechActionInputSchema.parse(values);
-  // This is a streaming action.
-  // The `streamFlow` utility will pipe the flow's stream
-  // to the client.
-  return streamFlow({
-    flow: textToSpeech,
-    input: validatedInput,
-    context: {
-        __registry: (await import('@/ai/dev')).registry,
-    },
-    config: {
-        // ...
-    }
-  });
+  return textToSpeech(validatedInput);
 }
