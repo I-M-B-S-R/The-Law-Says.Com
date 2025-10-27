@@ -11,6 +11,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ARIZONA_TRIBES } from '@/lib/arizona-tribes';
 import { AK_CHIN_CONTENT } from '@/lib/ak-chin-content';
+import { COCOPAH_CONTENT } from '@/lib/cocopah-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -21,7 +22,13 @@ export default function TribalLawPage() {
     (tribe) => tribe.toLowerCase().replace(/ /g, '-').replace(/'/g, '') === tribeSlug
   );
 
-  const tribeContent = tribeSlug === 'ak-chin-indian-community' ? AK_CHIN_CONTENT : null;
+  let tribeContent = null;
+  if (tribeSlug === 'ak-chin-indian-community') {
+    tribeContent = AK_CHIN_CONTENT;
+  } else if (tribeSlug === 'cocopah-indian-tribe') {
+    tribeContent = COCOPAH_CONTENT;
+  }
+
 
   if (!tribeName) {
     return (
