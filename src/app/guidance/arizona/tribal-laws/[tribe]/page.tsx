@@ -24,6 +24,7 @@ import { NAVAJO_NATION_CONTENT } from '@/lib/navajo-nation-content';
 import { PASCUA_YAQUI_CONTENT } from '@/lib/pascua-yaqui-content';
 import { PUEBLO_OF_ZUNI_CONTENT } from '@/lib/pueblo-of-zuni-content';
 import { QUECHAN_CONTENT } from '@/lib/quechan-content';
+import { SALT_RIVER_PIMA_MARICOPA_INDIAN_COMMUNITY_CONTENT } from '@/lib/salt-river-pima-maricopa-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -63,6 +64,8 @@ export default function TribalLawPage() {
     tribeContent = PUEBLO_OF_ZUNI_CONTENT;
   } else if (tribeSlug === 'quechan-tribe') {
     tribeContent = QUECHAN_CONTENT;
+  } else if (tribeSlug === 'salt-river-pima-maricopa-indian-community') {
+    tribeContent = SALT_RIVER_PIMA_MARICOPA_INDIAN_COMMUNITY_CONTENT;
   }
 
 
