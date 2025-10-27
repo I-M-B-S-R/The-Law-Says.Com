@@ -27,6 +27,7 @@ import { QUECHAN_CONTENT } from '@/lib/quechan-content';
 import { SALT_RIVER_PIMA_MARICOPA_INDIAN_COMMUNITY_CONTENT } from '@/lib/salt-river-pima-maricopa-content';
 import { SAN_CARLOS_APACHE_CONTENT } from '@/lib/san-carlos-apache-content';
 import { SAN_JUAN_SOUTHERN_PAIUTE_CONTENT } from '@/lib/san-juan-southern-paiute-content';
+import { TOHONO_OODHAM_CONTENT } from '@/lib/tohono-oodham-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -72,6 +73,8 @@ export default function TribalLawPage() {
     tribeContent = SAN_CARLOS_APACHE_CONTENT;
   } else if (tribeSlug === 'san-juan-southern-paiute-tribe') {
     tribeContent = SAN_JUAN_SOUTHERN_PAIUTE_CONTENT;
+  } else if (tribeSlug === 'tohono-oodham-nation') {
+    tribeContent = TOHONO_OODHAM_CONTENT;
   }
 
 
