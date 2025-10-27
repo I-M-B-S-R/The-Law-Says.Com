@@ -30,6 +30,7 @@ import { SAN_JUAN_SOUTHERN_PAIUTE_CONTENT } from '@/lib/san-juan-southern-paiute
 import { TOHONO_OODHAM_CONTENT } from '@/lib/tohono-oodham-content';
 import { TONTO_APACHE_CONTENT } from '@/lib/tonto-apache-content';
 import { WHITE_MOUNTAIN_APACHE_CONTENT } from '@/lib/white-mountain-apache-content';
+import { YAVAPAI_APACHE_CONTENT } from '@/lib/yavapai-apache-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -81,6 +82,8 @@ export default function TribalLawPage() {
     tribeContent = TONTO_APACHE_CONTENT;
   } else if (tribeSlug === 'white-mountain-apache-tribe') {
     tribeContent = WHITE_MOUNTAIN_APACHE_CONTENT;
+  } else if (tribeSlug === 'yavapai-apache-nation') {
+    tribeContent = YAVAPAI_APACHE_CONTENT;
   }
 
 
