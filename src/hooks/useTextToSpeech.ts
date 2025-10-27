@@ -25,6 +25,7 @@ export const useTextToSpeech = () => {
       }
     } else if (
       mediaSourceRef.current &&
+      mediaSourceRef.current.readyState === 'open' &&
       sourceBufferRef.current &&
       !sourceBufferRef.current.updating &&
       streamEnded.current &&
@@ -62,13 +63,16 @@ export const useTextToSpeech = () => {
         }
         audioRef.current.src = URL.createObjectURL(mediaSourceRef.current);
 
-        mediaSourceRef.current.addEventListener('sourceopen', () => {
+        const onSourceOpen = () => {
           if (!mediaSourceRef.current) return;
           sourceBufferRef.current =
             mediaSourceRef.current.addSourceBuffer('audio/webm; codecs=opus');
           sourceBufferRef.current.addEventListener('updateend', processAudioQueue);
-        });
-
+          mediaSourceRef.current.removeEventListener('sourceopen', onSourceOpen);
+        };
+        
+        mediaSourceRef.current.addEventListener('sourceopen', onSourceOpen);
+        
         audioRef.current.play();
         setIsSpeaking(true);
 
@@ -104,26 +108,32 @@ export const useTextToSpeech = () => {
   const stop = useCallback(() => {
     if (audioRef.current) {
       audioRef.current.pause();
-      audioRef.current.currentTime = 0;
+      if (audioRef.current.src) {
+        URL.revokeObjectURL(audioRef.current.src);
+        audioRef.current.removeAttribute('src');
+        audioRef.current.load();
+      }
     }
     setIsSpeaking(false);
     setIsGenerating(false);
+    streamEnded.current = true;
+    audioQueue.current = [];
+    sourceBufferRef.current = null;
+    mediaSourceRef.current = null;
   }, []);
 
   useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.addEventListener('ended', () => {
-        setIsSpeaking(false);
-      });
-    }
-    const audio = audioRef.current;
-    return () => {
-      if (audio) {
-        audio.pause();
-        audio.src = '';
-      }
+    const currentAudio = audioRef.current;
+    const handleEnded = () => {
+      setIsSpeaking(false);
     };
-  }, []);
+    currentAudio?.addEventListener('ended', handleEnded);
+    
+    return () => {
+      currentAudio?.removeEventListener('ended', handleEnded);
+      stop();
+    };
+  }, [stop]);
 
   return { isSpeaking, isGenerating, speak, stop };
 };
