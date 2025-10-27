@@ -58,7 +58,7 @@ export async function textToSpeechAction(values: TextToSpeechInput) {
   // The `streamFlow` utility will pipe the flow's stream
   // to the client.
   return streamFlow({
-    flow: (await import('@/ai/flows/text-to-speech')).textToSpeech,
+    flow: textToSpeech,
     input: validatedInput,
     context: {
         __registry: (await import('@/ai/dev')).registry,
