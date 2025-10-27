@@ -13,7 +13,7 @@ import { useLanguage } from '@/context/language-context';
 
 export default function FederalLawsPage() {
   const router = useRouter();
-  const { language, isTranslating, isLoading, uiText } = useLanguage();
+  const { language, isTranslating, uiText } = useLanguage();
   const speech = useTextToSpeech();
 
   const federalLawsContent = FEDERAL_LAWS.map(law => `${law.id}. ${law.name}`).join(', ');
@@ -28,7 +28,7 @@ export default function FederalLawsPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-full w-full max-w-sm flex-col bg-background shadow-2xl">
+      <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
         <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
             <Link href="/" className="flex items-center justify-center gap-2">
                 <Home className="h-4 w-4" />
