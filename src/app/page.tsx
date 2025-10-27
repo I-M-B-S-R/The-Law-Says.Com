@@ -82,7 +82,7 @@ const HomePage = () => {
 
               <Button asChild size="lg" className="h-14 font-bold btn-destructive">
                 <Link href="/guidance" className="flex items-center justify-center">
-                  {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.states}
+                  {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.stateLaws}
                 </Link>
               </Button>
             </div>

@@ -18,7 +18,7 @@ const UI_TEXT_ORIGINAL: Record<string, string> = {
     listen: 'Listen',
     stop: 'Stop',
     federalLaws: 'Federal Laws',
-    states: 'States',
+    stateLaws: 'State Laws',
     ourMission: 'Our Mission'
 };
 
