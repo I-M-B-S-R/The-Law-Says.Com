@@ -26,6 +26,7 @@ import { PUEBLO_OF_ZUNI_CONTENT } from '@/lib/pueblo-of-zuni-content';
 import { QUECHAN_CONTENT } from '@/lib/quechan-content';
 import { SALT_RIVER_PIMA_MARICOPA_INDIAN_COMMUNITY_CONTENT } from '@/lib/salt-river-pima-maricopa-content';
 import { SAN_CARLOS_APACHE_CONTENT } from '@/lib/san-carlos-apache-content';
+import { SAN_JUAN_SOUTHERN_PAIUTE_CONTENT } from '@/lib/san-juan-southern-paiute-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -69,6 +70,8 @@ export default function TribalLawPage() {
     tribeContent = SALT_RIVER_PIMA_MARICOPA_INDIAN_COMMUNITY_CONTENT;
   } else if (tribeSlug === 'san-carlos-apache-tribe') {
     tribeContent = SAN_CARLOS_APACHE_CONTENT;
+  } else if (tribeSlug === 'san-juan-southern-paiute-tribe') {
+    tribeContent = SAN_JUAN_SOUTHERN_PAIUTE_CONTENT;
   }
 
 
