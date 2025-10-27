@@ -23,7 +23,9 @@ export default function ArizonaStateLawDetailPage() {
   const router = useRouter();
   const params = useParams();
   const { id } = params;
-  const speech = useTextToSpeech();
+  const mainSpeech = useTextToSpeech();
+  const purposeSpeech = useTextToSpeech();
+  const keyProvisionsSpeech = useTextToSpeech();
 
   const law = ARIZONA_REVISED_STATUTES.find((l) => l.id === id);
   const lawContent = ARIZONA_REVISED_STATUTES_CONTENT[id as string];
@@ -41,18 +43,36 @@ export default function ArizonaStateLawDetailPage() {
     );
   }
 
-    const contentToRead = `
+  const mainContentToRead = `
     Title ${law.id}. ${law.name}.
     Summary: ${lawContent.summary.replace(/<[^>]*>/g, '')}.
-    Purpose: ${lawContent.purpose}.
-    Key Provisions: ${lawContent.keyProvisions.map(p => `${p.title}. ${p.content}`).join(' ')}
+    Purpose.
+    Key Provisions.
   `;
 
-  const handleListenClick = () => {
-    if (speech.isSpeaking) {
-      speech.stop();
+  const handleMainListenClick = () => {
+    if (mainSpeech.isSpeaking) {
+      mainSpeech.stop();
     } else {
-      speech.speak(contentToRead);
+      mainSpeech.speak(mainContentToRead);
+    }
+  };
+
+  const purposeContentToRead = `Purpose: ${lawContent.purpose}`;
+  const handlePurposeListenClick = () => {
+    if (purposeSpeech.isSpeaking) {
+      purposeSpeech.stop();
+    } else {
+      purposeSpeech.speak(purposeContentToRead);
+    }
+  };
+
+  const keyProvisionsContentToRead = `Key Provisions: ${lawContent.keyProvisions.map(p => `${p.title}. ${p.content}`).join(' ')}`;
+  const handleKeyProvisionsListenClick = () => {
+    if (keyProvisionsSpeech.isSpeaking) {
+      keyProvisionsSpeech.stop();
+    } else {
+      keyProvisionsSpeech.speak(keyProvisionsContentToRead);
     }
   };
 
@@ -68,8 +88,8 @@ export default function ArizonaStateLawDetailPage() {
           <main className="p-4">
             <Card className="border-destructive p-4">
                 <div className="mb-4 flex justify-center">
-                    <Button size="lg" onClick={handleListenClick} className="h-14 w-full font-bold btn-destructive">
-                        {speech.isSpeaking ? (
+                    <Button size="lg" onClick={handleMainListenClick} className="h-14 w-full font-bold btn-destructive">
+                        {mainSpeech.isSpeaking ? (
                             <>
                                 <StopCircle className="mr-2 h-5 w-5" />
                                 Stop
@@ -97,7 +117,22 @@ export default function ArizonaStateLawDetailPage() {
                  <AccordionItem value="item-1">
                     <AccordionTrigger className="rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Purpose</AccordionTrigger>
                     <AccordionContent className="p-4 text-justify">
-                    {lawContent.purpose}
+                        <div className="mb-4 flex justify-center">
+                            <Button size="lg" onClick={handlePurposeListenClick} className="h-14 w-full font-bold btn-destructive">
+                                {purposeSpeech.isSpeaking ? (
+                                    <>
+                                        <StopCircle className="mr-2 h-5 w-5" />
+                                        Stop
+                                    </>
+                                ): (
+                                    <>
+                                        <AudioLines className="mr-2 h-5 w-5" />
+                                        Listen
+                                    </>
+                                )}
+                            </Button>
+                        </div>
+                        {lawContent.purpose}
                     </AccordionContent>
                 </AccordionItem>
               )}
@@ -105,18 +140,33 @@ export default function ArizonaStateLawDetailPage() {
                 <AccordionItem value="item-2">
                     <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Key Provisions</AccordionTrigger>
                     <AccordionContent>
-                    <Accordion type="multiple" className="mt-2">
-                        {lawContent.keyProvisions.map((provision, index) => (
-                        <AccordionItem value={`sub-item-${index}`} key={index}>
-                            <AccordionTrigger className="mt-2 rounded-md bg-destructive/80 px-4 text-left font-bold text-destructive-foreground">
-                            {provision.title}
-                            </AccordionTrigger>
-                            <AccordionContent className="p-4 text-justify">
-                            {provision.content}
-                            </AccordionContent>
-                        </AccordionItem>
-                        ))}
-                    </Accordion>
+                        <div className="mb-4 flex justify-center p-4">
+                            <Button size="lg" onClick={handleKeyProvisionsListenClick} className="h-14 w-full font-bold btn-destructive">
+                                {keyProvisionsSpeech.isSpeaking ? (
+                                    <>
+                                        <StopCircle className="mr-2 h-5 w-5" />
+                                        Stop
+                                    </>
+                                ): (
+                                    <>
+                                        <AudioLines className="mr-2 h-5 w-5" />
+                                        Listen
+                                    </>
+                                )}
+                            </Button>
+                        </div>
+                        <Accordion type="multiple" className="mt-2">
+                            {lawContent.keyProvisions.map((provision, index) => (
+                            <AccordionItem value={`sub-item-${index}`} key={index}>
+                                <AccordionTrigger className="mt-2 rounded-md bg-destructive/80 px-4 text-left font-bold text-destructive-foreground">
+                                {provision.title}
+                                </AccordionTrigger>
+                                <AccordionContent className="p-4 text-justify">
+                                {provision.content}
+                                </AccordionContent>
+                            </AccordionItem>
+                            ))}
+                        </Accordion>
                     </AccordionContent>
                 </AccordionItem>
               )}

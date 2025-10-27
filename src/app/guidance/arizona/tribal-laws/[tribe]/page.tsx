@@ -38,13 +38,16 @@ export default function TribalLawPage() {
   const router = useRouter();
   const params = useParams();
   const tribeSlug = params.tribe as string;
-  const speech = useTextToSpeech();
+  const mainSpeech = useTextToSpeech();
+  const sectionSpeeches = Object.fromEntries(
+    Object.keys(AK_CHIN_CONTENT.sections).map(key => [key, useTextToSpeech()])
+  );
 
   const tribeName = ARIZONA_TRIBES.find(
     (tribe) => tribe.toLowerCase().replace(/ /g, '-').replace(/'/g, '') === tribeSlug
   );
 
-  let tribeContent = null;
+  let tribeContent: any = null;
   if (tribeSlug === 'ak-chin-indian-community') {
     tribeContent = AK_CHIN_CONTENT;
   } else if (tribeSlug === 'cocopah-indian-tribe') {
@@ -136,16 +139,27 @@ export default function TribalLawPage() {
     );
   }
 
-  const contentToRead = `
+  const mainContentToRead = `
     ${tribeContent.title}.
     Summary: ${tribeContent.summary.replace(/<[^>]*>/g, '')}.
-    ${Object.values(tribeContent.sections).map(s => `${s.title}. ${s.content.replace(/<[^>]*>/g, '')}`).join(' ')}
+    ${Object.values(tribeContent.sections).map((s: any) => s.title).join('. ')}
   `;
 
-  const handleListenClick = () => {
+  const handleMainListenClick = () => {
+    if (mainSpeech.isSpeaking) {
+      mainSpeech.stop();
+    } else {
+      mainSpeech.speak(mainContentToRead);
+    }
+  };
+
+  const handleSectionListenClick = (key: string) => {
+    const speech = sectionSpeeches[key];
     if (speech.isSpeaking) {
       speech.stop();
     } else {
+      const section = tribeContent.sections[key];
+      const contentToRead = `${section.title}. ${section.content.replace(/<[^>]*>/g, '')}`;
       speech.speak(contentToRead);
     }
   };
@@ -161,8 +175,8 @@ export default function TribalLawPage() {
           <main className="p-4">
             <Card className="border-destructive p-4">
               <div className="mb-4 flex justify-center">
-                  <Button size="lg" onClick={handleListenClick} className="h-14 w-full font-bold btn-destructive">
-                      {speech.isSpeaking ? (
+                  <Button size="lg" onClick={handleMainListenClick} className="h-14 w-full font-bold btn-destructive">
+                      {mainSpeech.isSpeaking ? (
                           <>
                               <StopCircle className="mr-2 h-5 w-5" />
                               Stop
@@ -186,12 +200,27 @@ export default function TribalLawPage() {
             </Card>
 
             <Accordion type="single" collapsible className="mt-4 w-full">
-              {Object.entries(tribeContent.sections).map(([key, section]) => (
+              {Object.entries(tribeContent.sections).map(([key, section]: [string, any]) => (
                 <AccordionItem value={key} key={key}>
                   <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">
                     {section.title}
                   </AccordionTrigger>
                   <AccordionContent className="p-4 text-justify">
+                    <div className="mb-4 flex justify-center">
+                        <Button size="lg" onClick={() => handleSectionListenClick(key)} className="h-14 w-full font-bold btn-destructive">
+                            {sectionSpeeches[key].isSpeaking ? (
+                                <>
+                                    <StopCircle className="mr-2 h-5 w-5" />
+                                    Stop
+                                </>
+                            ): (
+                                <>
+                                    <AudioLines className="mr-2 h-5 w-5" />
+                                    Listen
+                                </>
+                            )}
+                        </Button>
+                    </div>
                     <div className="prose prose-sm max-w-none dark:prose-invert" dangerouslySetInnerHTML={{ __html: section.content }} />
                   </AccordionContent>
                 </AccordionItem>

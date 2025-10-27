@@ -17,7 +17,9 @@ export default function SantaCruzOrdinanceDetailPage() {
   const router = useRouter();
   const params = useParams();
   const { id } = params;
-  const speech = useTextToSpeech();
+  const mainSpeech = useTextToSpeech();
+  const purposeSpeech = useTextToSpeech();
+  const keyProvisionsSpeech = useTextToSpeech();
 
   const ordinance = SANTA_CRUZ_COUNTY_ORDINANCES.find((o) => o.id === id);
   const ordinanceContent = SANTA_CRUZ_COUNTY_ORDINANCES_CONTENT[id as string];
@@ -35,20 +37,39 @@ export default function SantaCruzOrdinanceDetailPage() {
     );
   }
 
-  const contentToRead = `
+  const mainContentToRead = `
     ${ordinance.name}.
     Summary: ${ordinanceContent.summary.replace(/<[^>]*>/g, '')}.
-    Purpose: ${ordinanceContent.purpose}.
-    Key Provisions: ${ordinanceContent.keyProvisions.map(p => `${p.title}. ${p.content.replace(/<[^>]*>/g, '')}`).join(' ')}
+    Purpose.
+    Key Provisions.
   `;
 
-  const handleListenClick = () => {
-    if (speech.isSpeaking) {
-      speech.stop();
+  const handleMainListenClick = () => {
+    if (mainSpeech.isSpeaking) {
+      mainSpeech.stop();
     } else {
-      speech.speak(contentToRead);
+      mainSpeech.speak(mainContentToRead);
     }
   };
+
+  const purposeContentToRead = `Purpose: ${ordinanceContent.purpose}`;
+  const handlePurposeListenClick = () => {
+    if (purposeSpeech.isSpeaking) {
+      purposeSpeech.stop();
+    } else {
+      purposeSpeech.speak(purposeContentToRead);
+    }
+  };
+
+  const keyProvisionsContentToRead = `Key Provisions: ${ordinanceContent.keyProvisions.map(p => `${p.title}. ${p.content.replace(/<[^>]*>/g, '')}`).join(' ')}`;
+  const handleKeyProvisionsListenClick = () => {
+    if (keyProvisionsSpeech.isSpeaking) {
+      keyProvisionsSpeech.stop();
+    } else {
+      keyProvisionsSpeech.speak(keyProvisionsContentToRead);
+    }
+  };
+
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
@@ -61,8 +82,8 @@ export default function SantaCruzOrdinanceDetailPage() {
           <main className="p-4">
             <Card className="border-destructive p-4">
               <div className="mb-4 flex justify-center">
-                  <Button size="lg" onClick={handleListenClick} className="h-14 w-full font-bold btn-destructive">
-                      {speech.isSpeaking ? (
+                  <Button size="lg" onClick={handleMainListenClick} className="h-14 w-full font-bold btn-destructive">
+                      {mainSpeech.isSpeaking ? (
                           <>
                               <StopCircle className="mr-2 h-5 w-5" />
                               Stop
@@ -90,7 +111,22 @@ export default function SantaCruzOrdinanceDetailPage() {
                  <AccordionItem value="item-1">
                     <AccordionTrigger className="rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Purpose</AccordionTrigger>
                     <AccordionContent className="p-4 text-justify">
-                    {ordinanceContent.purpose}
+                      <div className="mb-4 flex justify-center">
+                            <Button size="lg" onClick={handlePurposeListenClick} className="h-14 w-full font-bold btn-destructive">
+                                {purposeSpeech.isSpeaking ? (
+                                    <>
+                                        <StopCircle className="mr-2 h-5 w-5" />
+                                        Stop
+                                    </>
+                                ): (
+                                    <>
+                                        <AudioLines className="mr-2 h-5 w-5" />
+                                        Listen
+                                    </>
+                                )}
+                            </Button>
+                        </div>
+                        {ordinanceContent.purpose}
                     </AccordionContent>
                 </AccordionItem>
               )}
@@ -98,18 +134,33 @@ export default function SantaCruzOrdinanceDetailPage() {
                 <AccordionItem value="item-2">
                     <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Key Provisions</AccordionTrigger>
                     <AccordionContent>
-                    <Accordion type="multiple" className="mt-2">
-                        {ordinanceContent.keyProvisions.map((provision, index) => (
-                        <AccordionItem value={`sub-item-${index}`} key={index}>
-                            <AccordionTrigger className="mt-2 rounded-md bg-destructive/80 px-4 text-left font-bold text-destructive-foreground">
-                            {provision.title}
-                            </AccordionTrigger>
-                            <AccordionContent className="p-4 text-justify">
-                            <div dangerouslySetInnerHTML={{ __html: provision.content }} />
-                            </AccordionContent>
-                        </AccordionItem>
-                        ))}
-                    </Accordion>
+                      <div className="mb-4 flex justify-center p-4">
+                            <Button size="lg" onClick={handleKeyProvisionsListenClick} className="h-14 w-full font-bold btn-destructive">
+                                {keyProvisionsSpeech.isSpeaking ? (
+                                    <>
+                                        <StopCircle className="mr-2 h-5 w-5" />
+                                        Stop
+                                    </>
+                                ): (
+                                    <>
+                                        <AudioLines className="mr-2 h-5 w-5" />
+                                        Listen
+                                    </>
+                                )}
+                            </Button>
+                        </div>
+                        <Accordion type="multiple" className="mt-2">
+                            {ordinanceContent.keyProvisions.map((provision, index) => (
+                            <AccordionItem value={`sub-item-${index}`} key={index}>
+                                <AccordionTrigger className="mt-2 rounded-md bg-destructive/80 px-4 text-left font-bold text-destructive-foreground">
+                                {provision.title}
+                                </AccordionTrigger>
+                                <AccordionContent className="p-4 text-justify">
+                                <div dangerouslySetInnerHTML={{ __html: provision.content }} />
+                                </AccordionContent>
+                            </AccordionItem>
+                            ))}
+                        </Accordion>
                     </AccordionContent>
                 </AccordionItem>
               )}

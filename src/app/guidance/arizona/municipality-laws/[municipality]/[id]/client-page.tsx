@@ -13,7 +13,10 @@ import { useTextToSpeech } from '@/hooks/useTextToSpeech';
 
 export default function MunicipalityCodeDetailClientPage({ law, municipality, municipalityName, id }: { law: any, municipality: string, municipalityName: string, id: string }) {
   const router = useRouter();
-  const speech = useTextToSpeech();
+  const mainSpeech = useTextToSpeech();
+  const purposeSpeech = useTextToSpeech();
+  const keyProvisionsSpeech = useTextToSpeech();
+  const sourceSpeech = useTextToSpeech();
 
   if (!law) {
     return (
@@ -28,19 +31,46 @@ export default function MunicipalityCodeDetailClientPage({ law, municipality, mu
     );
   }
 
-  const contentToRead = `
+  const mainContentToRead = `
     ${law.title}.
     Summary: ${law.summary.replace(/<[^>]*>/g, '')}.
-    Purpose: ${law.purpose}.
-    Key Provisions: ${law.keyProvisions.map((p: any) => `${p.title}. ${p.content.replace(/<[^>]*>/g, '')}`).join(' ')}.
-    Source: ${law.source ? law.source.replace(/<[^>]*>/g, '') : ''}
+    ${law.purpose ? 'Purpose.' : ''}
+    ${law.keyProvisions && law.keyProvisions.length > 0 ? 'Key Provisions.' : ''}
+    ${law.source ? 'Source.' : ''}
   `;
 
-  const handleListenClick = () => {
-    if (speech.isSpeaking) {
-      speech.stop();
+  const handleMainListenClick = () => {
+    if (mainSpeech.isSpeaking) {
+      mainSpeech.stop();
     } else {
-      speech.speak(contentToRead);
+      mainSpeech.speak(mainContentToRead);
+    }
+  };
+
+  const purposeContentToRead = `Purpose: ${law.purpose}`;
+  const handlePurposeListenClick = () => {
+    if (purposeSpeech.isSpeaking) {
+      purposeSpeech.stop();
+    } else {
+      purposeSpeech.speak(purposeContentToRead);
+    }
+  };
+
+  const keyProvisionsContentToRead = `Key Provisions: ${law.keyProvisions.map((p: any) => `${p.title}. ${p.content.replace(/<[^>]*>/g, '')}`).join(' ')}`;
+  const handleKeyProvisionsListenClick = () => {
+    if (keyProvisionsSpeech.isSpeaking) {
+      keyProvisionsSpeech.stop();
+    } else {
+      keyProvisionsSpeech.speak(keyProvisionsContentToRead);
+    }
+  };
+  
+  const sourceContentToRead = `Source: ${law.source ? law.source.replace(/<[^>]*>/g, '') : ''}`;
+  const handleSourceListenClick = () => {
+    if (sourceSpeech.isSpeaking) {
+      sourceSpeech.stop();
+    } else {
+      sourceSpeech.speak(sourceContentToRead);
     }
   };
 
@@ -55,8 +85,8 @@ export default function MunicipalityCodeDetailClientPage({ law, municipality, mu
           <main className="p-4">
             <Card className="border-destructive p-4">
               <div className="mb-4 flex justify-center">
-                  <Button size="lg" onClick={handleListenClick} className="h-14 w-full font-bold btn-destructive">
-                      {speech.isSpeaking ? (
+                  <Button size="lg" onClick={handleMainListenClick} className="h-14 w-full font-bold btn-destructive">
+                      {mainSpeech.isSpeaking ? (
                           <>
                               <StopCircle className="mr-2 h-5 w-5" />
                               Stop
@@ -84,7 +114,22 @@ export default function MunicipalityCodeDetailClientPage({ law, municipality, mu
                  <AccordionItem value="item-1">
                     <AccordionTrigger className="rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Purpose</AccordionTrigger>
                     <AccordionContent className="p-4 text-justify">
-                    {law.purpose}
+                      <div className="mb-4 flex justify-center">
+                            <Button size="lg" onClick={handlePurposeListenClick} className="h-14 w-full font-bold btn-destructive">
+                                {purposeSpeech.isSpeaking ? (
+                                    <>
+                                        <StopCircle className="mr-2 h-5 w-5" />
+                                        Stop
+                                    </>
+                                ): (
+                                    <>
+                                        <AudioLines className="mr-2 h-5 w-5" />
+                                        Listen
+                                    </>
+                                )}
+                            </Button>
+                        </div>
+                        {law.purpose}
                     </AccordionContent>
                 </AccordionItem>
               )}
@@ -92,13 +137,28 @@ export default function MunicipalityCodeDetailClientPage({ law, municipality, mu
                 <AccordionItem value="item-2">
                     <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Key Provisions</AccordionTrigger>
                     <AccordionContent>
-                    <ul className="list-disc space-y-2 p-4 text-justify">
-                      {law.keyProvisions.map((provision: any, index: number) => (
-                        <li key={index}>
-                            <strong>{provision.title}:</strong> <span dangerouslySetInnerHTML={{ __html: provision.content }} />
-                        </li>
-                      ))}
-                    </ul>
+                      <div className="mb-4 flex justify-center p-4">
+                            <Button size="lg" onClick={handleKeyProvisionsListenClick} className="h-14 w-full font-bold btn-destructive">
+                                {keyProvisionsSpeech.isSpeaking ? (
+                                    <>
+                                        <StopCircle className="mr-2 h-5 w-5" />
+                                        Stop
+                                    </>
+                                ): (
+                                    <>
+                                        <AudioLines className="mr-2 h-5 w-5" />
+                                        Listen
+                                    </>
+                                )}
+                            </Button>
+                        </div>
+                        <ul className="list-disc space-y-2 p-4 text-justify">
+                        {law.keyProvisions.map((provision: any, index: number) => (
+                            <li key={index}>
+                                <strong>{provision.title}:</strong> <span dangerouslySetInnerHTML={{ __html: provision.content }} />
+                            </li>
+                        ))}
+                        </ul>
                     </AccordionContent>
                 </AccordionItem>
               )}
@@ -106,6 +166,21 @@ export default function MunicipalityCodeDetailClientPage({ law, municipality, mu
                  <AccordionItem value="item-3">
                     <AccordionTrigger className="mt-4 rounded-md bg-destructive px-4 text-lg font-bold text-destructive-foreground">Source</AccordionTrigger>
                     <AccordionContent className="p-4 text-justify break-words">
+                      <div className="mb-4 flex justify-center">
+                            <Button size="lg" onClick={handleSourceListenClick} className="h-14 w-full font-bold btn-destructive">
+                                {sourceSpeech.isSpeaking ? (
+                                    <>
+                                        <StopCircle className="mr-2 h-5 w-5" />
+                                        Stop
+                                    </>
+                                ): (
+                                    <>
+                                        <AudioLines className="mr-2 h-5 w-5" />
+                                        Listen
+                                    </>
+                                )}
+                            </Button>
+                        </div>
                         <p dangerouslySetInnerHTML={{ __html: law.source }} />
                     </AccordionContent>
                 </AccordionItem>
