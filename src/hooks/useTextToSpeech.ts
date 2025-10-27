@@ -62,6 +62,7 @@ export const useTextToSpeech = () => {
           audioRef.current = new Audio();
         }
         audioRef.current.src = URL.createObjectURL(mediaSourceRef.current);
+        audioRef.current.load(); // Explicitly load the new source
 
         const onSourceOpen = () => {
           if (!mediaSourceRef.current) return;
@@ -69,7 +70,7 @@ export const useTextToSpeech = () => {
             mediaSourceRef.current.addSourceBuffer('audio/webm; codecs=opus');
           sourceBufferRef.current.addEventListener('updateend', processAudioQueue);
           mediaSourceRef.current.removeEventListener('sourceopen', onSourceOpen);
-          
+
           if(audioRef.current) {
             audioRef.current.play();
             setIsSpeaking(true);
@@ -120,6 +121,11 @@ export const useTextToSpeech = () => {
     setIsGenerating(false);
     streamEnded.current = true;
     audioQueue.current = [];
+    if (mediaSourceRef.current && mediaSourceRef.current.readyState === 'open' && sourceBufferRef.current) {
+        if (!sourceBufferRef.current.updating) {
+            mediaSourceRef.current.endOfStream();
+        }
+    }
     sourceBufferRef.current = null;
     mediaSourceRef.current = null;
   }, []);
