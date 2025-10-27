@@ -21,6 +21,7 @@ import { HOPI_CONTENT } from '@/lib/hopi-content';
 import { HUALAPAI_CONTENT } from '@/lib/hualapai-content';
 import { KAIBAB_PAIUTE_CONTENT } from '@/lib/kaibab-paiute-content';
 import { NAVAJO_NATION_CONTENT } from '@/lib/navajo-nation-content';
+import { PASCUA_YAQUI_CONTENT } from '@/lib/pascua-yaqui-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -54,6 +55,8 @@ export default function TribalLawPage() {
     tribeContent = KAIBAB_PAIUTE_CONTENT;
   } else if (tribeSlug === 'navajo-nation') {
     tribeContent = NAVAJO_NATION_CONTENT;
+  } else if (tribeSlug === 'pascua-yaqui-tribe') {
+    tribeContent = PASCUA_YAQUI_CONTENT;
   }
 
 
