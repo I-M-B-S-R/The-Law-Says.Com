@@ -3,7 +3,7 @@
 
 import { useState, useCallback, useRef, useEffect } from 'react';
 
-const CHUNK_SIZE = 150; // A safe chunk size for most TTS engines
+const CHUNK_SIZE = 180; // A safe chunk size for most TTS engines
 
 export const useTextToSpeech = () => {
   const [isSpeaking, setIsSpeaking] = useState(false);
@@ -15,50 +15,61 @@ export const useTextToSpeech = () => {
       console.error('Text-to-speech is not supported in this browser.');
       return;
     }
-    
-    // Stop any ongoing speech before starting a new one
+
     if (window.speechSynthesis.speaking) {
       isCancelledRef.current = true;
       window.speechSynthesis.cancel();
     }
-    
+
     isCancelledRef.current = false;
 
-    // Split text into manageable chunks
-    const sentences = text.match(/[^.!?]+[.!?]*/g) || [];
-    const chunks = sentences.reduce((acc: string[], sentence) => {
-        if (sentence.length > CHUNK_SIZE) {
-            // Further split long sentences
-            const parts = sentence.match(new RegExp(`.{1,${CHUNK_SIZE}}`, 'g')) || [];
-            return acc.concat(parts);
+    // A more robust chunking function
+    const createChunks = (textToChunk: string) => {
+      const chunks: string[] = [];
+      let i = 0;
+      while (i < textToChunk.length) {
+        let chunkEnd = i + CHUNK_SIZE;
+        if (chunkEnd < textToChunk.length) {
+          // Find the last space within the chunk to avoid splitting words
+          let lastSpace = textToChunk.lastIndexOf(' ', chunkEnd);
+          if (lastSpace > i) {
+            chunkEnd = lastSpace;
+          }
         }
-        acc.push(sentence);
-        return acc;
-    }, []);
+        chunks.push(textToChunk.substring(i, chunkEnd));
+        i = chunkEnd;
+      }
+      return chunks;
+    };
+    
+    const chunks = createChunks(text);
 
     if (chunks.length === 0) return;
 
+    const processQueue = () => {
+      if (isCancelledRef.current) return;
+      
+      const chunk = utteranceQueueRef.current.shift();
+      if (chunk) {
+        window.speechSynthesis.speak(chunk);
+      } else {
+        setIsSpeaking(false);
+      }
+    };
+
     utteranceQueueRef.current = chunks.map(chunk => {
-        const utterance = new SpeechSynthesisUtterance(chunk.trim());
-        utterance.onend = () => {
-            // Dequeue and speak next chunk
-            utteranceQueueRef.current.shift();
-            if (utteranceQueueRef.current.length > 0 && !isCancelledRef.current) {
-                window.speechSynthesis.speak(utteranceQueueRef.current[0]);
-            } else {
-                setIsSpeaking(false);
-            }
-        };
-        utterance.onerror = (event) => {
-            console.error('SpeechSynthesisUtterance.onerror', event);
-            setIsSpeaking(false);
-            utteranceQueueRef.current = []; // Clear queue on error
-        };
-        return utterance;
+      const utterance = new SpeechSynthesisUtterance(chunk.trim());
+      utterance.onend = processQueue;
+      utterance.onerror = (event) => {
+        console.error('SpeechSynthesisUtterance.onerror', event);
+        setIsSpeaking(false);
+        utteranceQueueRef.current = []; // Clear queue on error
+      };
+      return utterance;
     });
-    
+
     setIsSpeaking(true);
-    window.speechSynthesis.speak(utteranceQueueRef.current[0]);
+    processQueue();
 
   }, []);
 
@@ -72,7 +83,6 @@ export const useTextToSpeech = () => {
   }, []);
 
   useEffect(() => {
-    // Cleanup on unmount
     return () => {
       if (window.speechSynthesis) {
         window.speechSynthesis.cancel();
