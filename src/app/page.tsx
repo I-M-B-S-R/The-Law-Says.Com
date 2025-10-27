@@ -12,21 +12,37 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { useLanguage } from '@/context/language-context';
 
 const HomePage = () => {
-  const { isSpeaking, isGenerating, speak, stop } = useTextToSpeech();
   const router = useRouter();
   const { language, isTranslating, isLoading, missionStatement, whyLawyerText, uiText } = useLanguage();
 
+  const mainButtonsSpeech = useTextToSpeech();
+  const missionSpeech = useTextToSpeech();
 
-  const contentToRead = `
+  const mainButtonsContent = `
+    Please Share,
+    ${uiText.translate},
+    ${uiText.listen},
+    ${uiText.federalLaws},
+    ${uiText.stateLaws}
+  `;
+
+  const missionContent = `
     ${uiText.ourMission}: ${missionStatement.join(' ')}
-    ${uiText.whyLawyer}: ${whyLawyerText.join(' ')}
   `.replace(/<[^>]*>/g, '');
 
-  const handleListenClick = () => {
-    if (isSpeaking || isGenerating) {
-      stop();
+  const handleMainListenClick = () => {
+    if (mainButtonsSpeech.isSpeaking || mainButtonsSpeech.isGenerating) {
+      mainButtonsSpeech.stop();
     } else {
-      speak(contentToRead);
+      mainButtonsSpeech.speak(mainButtonsContent);
+    }
+  };
+
+  const handleMissionListenClick = () => {
+    if (missionSpeech.isSpeaking || missionSpeech.isGenerating) {
+      missionSpeech.stop();
+    } else {
+      missionSpeech.speak(missionContent);
     }
   };
 
@@ -60,13 +76,13 @@ const HomePage = () => {
                 </Link>
               </Button>
 
-              <Button size="lg" onClick={handleListenClick} className="h-14 font-bold btn-destructive" disabled={isGenerating}>
-                 {isGenerating ? (
+              <Button size="lg" onClick={handleMainListenClick} className="h-14 font-bold btn-destructive" disabled={mainButtonsSpeech.isGenerating}>
+                 {mainButtonsSpeech.isGenerating ? (
                     <>
                         <Loader2 className="mr-2 h-5 w-5 animate-spin" />
                         Loading Audio...
                     </>
-                 ) : isSpeaking ? (
+                 ) : mainButtonsSpeech.isSpeaking ? (
                     <>
                         <StopCircle className="mr-2 h-5 w-5" />
                         {uiText.stop}
@@ -93,6 +109,26 @@ const HomePage = () => {
             </div>
 
             <div className="mt-4 space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
+                <div className="flex justify-center">
+                    <Button size="sm" onClick={handleMissionListenClick} className="font-bold btn-destructive" disabled={missionSpeech.isGenerating}>
+                        {missionSpeech.isGenerating ? (
+                            <>
+                                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                                Loading...
+                            </>
+                        ) : missionSpeech.isSpeaking ? (
+                            <>
+                                <StopCircle className="mr-2 h-4 w-4" />
+                                Stop
+                            </>
+                        ): (
+                            <>
+                                <AudioLines className="mr-2 h-4 w-4" />
+                                Listen
+                            </>
+                        )}
+                    </Button>
+                </div>
               <div className="flex items-center justify-center">
                 <h2 className="text-center text-2xl font-semibold text-foreground">
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.ourMission}
