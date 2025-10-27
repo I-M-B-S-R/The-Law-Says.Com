@@ -17,6 +17,7 @@ import { FORT_MCDOWELL_YAVAPAI_NATION_CONTENT } from '@/lib/fort-mcdowell-yavapa
 import { FORT_MOJAVE_INDIAN_TRIBE_CONTENT } from '@/lib/fort-mojave-indian-tribe-content';
 import { GILA_RIVER_INDIAN_COMMUNITY_CONTENT } from '@/lib/gila-river-indian-community-content';
 import { HAVASUPAI_CONTENT } from '@/lib/havasupai-content';
+import { HOPI_CONTENT } from '@/lib/hopi-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -42,6 +43,8 @@ export default function TribalLawPage() {
     tribeContent = GILA_RIVER_INDIAN_COMMUNITY_CONTENT;
   } else if (tribeSlug === 'havasupai-tribe') {
     tribeContent = HAVASUPAI_CONTENT;
+  } else if (tribeSlug === 'hopi-tribe') {
+    tribeContent = HOPI_CONTENT;
   }
 
 
