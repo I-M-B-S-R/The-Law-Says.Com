@@ -110,7 +110,7 @@ const HomePage = () => {
             <div className="mt-4 space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
               <div className="flex items-center justify-center">
                 <h2 className="text-center text-2xl font-semibold text-foreground flex items-center justify-center">
-                  <span className="text-destructive mr-2">*</span> 
+                  <span className="text-destructive mr-2">*</span>
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.whyLawyer}
                 </h2>
               </div>
