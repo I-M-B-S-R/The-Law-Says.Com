@@ -48,6 +48,10 @@ const HomePage = () => {
                     height={400}
                     className="h-full w-full rounded-lg border-4 border-white"
                 />
+                
+                <div className="text-center">
+                  <p className="text-5xl font-bold text-destructive-foreground">Please Share</p>
+                </div>
 
               <Button asChild size="lg" className="h-14 font-bold btn-destructive">
                 <Link href="/translate" className="flex items-center justify-center">
@@ -110,8 +114,9 @@ const HomePage = () => {
             <div className="mt-4 space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
               <div className="flex items-center justify-center">
                 <h2 className="text-center text-2xl font-semibold text-foreground">
+                  <span className="text-destructive mr-2 text-4xl">*</span>
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : (
-                    <><span className="text-destructive mr-2 text-4xl">*</span>{uiText.whyLawyer}</>
+                    <>{uiText.whyLawyer}</>
                   )}
                 </h2>
               </div>
