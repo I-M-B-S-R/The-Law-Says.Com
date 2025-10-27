@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, AudioLines, StopCircle, Home, Wheelchair } from 'lucide-react';
+import { ArrowLeft, ArrowRight, AudioLines, StopCircle, Home, Accessibility } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -192,7 +192,7 @@ export default function LaPazOrdinanceDetailPage() {
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
             <div className="flex flex-col items-center">
-                <Wheelchair className="h-6 w-6" />
+                <Accessibility className="h-6 w-6" />
                 <p className="text-center text-xs">
                     &copy; 2025 The-Law-Says.Com
                 </p>

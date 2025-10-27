@@ -1,11 +1,11 @@
 
 "use client";
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2, StopCircle, Wheelchair } from 'lucide-react';
+import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2, StopCircle, Accessibility, Home } from 'lucide-react';
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -19,21 +19,22 @@ const HomePage = () => {
   const missionSpeech = useTextToSpeech();
   const whyLawyerSpeech = useTextToSpeech();
 
-  const mainButtonsContent = `
+  const mainButtonsContent = useMemo(() => `
     Please Share,
     ${uiText.translate},
     ${uiText.listen},
     ${uiText.federalLaws},
     ${uiText.stateLaws}
-  `;
+  `, [uiText]);
 
-  const missionContent = `
+  const missionContent = useMemo(() => `
     ${uiText.ourMission}: ${missionStatement.join(' ')}
-  `.replace(/<[^>]*>/g, '');
+  `.replace(/<[^>]*>/g, ''), [uiText.ourMission, missionStatement]);
 
-  const whyLawyerContent = `
+  const whyLawyerContent = useMemo(() => `
     ${uiText.whyLawyer}: ${whyLawyerText.join(' ')}
-  `.replace(/<[^>]*>/g, '');
+  `.replace(/<[^>]*>/g, ''), [uiText.whyLawyer, whyLawyerText]);
+
 
   const handleMainListenClick = () => {
     if (mainButtonsSpeech.isSpeaking) {
@@ -68,7 +69,13 @@ const HomePage = () => {
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main className="p-4">
+          <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
+              <Link href="/" className="flex items-center justify-center gap-2">
+                  <Home className="h-4 w-4" />
+                  Home
+              </Link>
+          </div>
+          <main className="p-4 pt-0">
             <div className="flex flex-col gap-4">
                 <Image
                     src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=http://the-law-says.com"
@@ -133,7 +140,7 @@ const HomePage = () => {
                     </Button>
                 </div>
               <div className="flex items-center justify-center gap-2">
-                <Wheelchair className="h-8 w-8 text-destructive" />
+                <Accessibility className="h-8 w-8 text-destructive" />
                 <h2 className="text-center text-2xl font-semibold text-foreground">
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.ourMission}
                 </h2>
@@ -200,7 +207,7 @@ const HomePage = () => {
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
             <div className="flex flex-col items-center">
-                <Wheelchair className="h-6 w-6" />
+                <Accessibility className="h-6 w-6" />
                 <p className="text-center text-xs">
                     &copy; 2025 The-Law-Says.Com
                 </p>

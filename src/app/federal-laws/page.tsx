@@ -4,7 +4,7 @@
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, AudioLines, StopCircle, Loader2, Home, Search, Wheelchair } from 'lucide-react';
+import { ArrowLeft, ArrowRight, AudioLines, StopCircle, Loader2, Home, Search, Accessibility } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { FEDERAL_LAWS } from '@/lib/federal-laws';
@@ -28,7 +28,7 @@ export default function FederalLawsPage() {
     );
   }, [searchQuery]);
 
-  const federalLawsContent = filteredLaws.map(law => `${law.id}. ${law.name}`).join(', ');
+  const federalLawsContent = useMemo(() => filteredLaws.map(law => `${law.id}. ${law.name}`).join(', '), [filteredLaws]);
 
   const handleListenClick = () => {
     if (speech.isSpeaking) {
@@ -107,7 +107,7 @@ export default function FederalLawsPage() {
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
             <div className="flex flex-col items-center">
-                <Wheelchair className="h-6 w-6" />
+                <Accessibility className="h-6 w-6" />
                 <p className="text-center text-xs">
                     &copy; 2025 The-Law-Says.Com
                 </p>

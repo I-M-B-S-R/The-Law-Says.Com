@@ -4,7 +4,7 @@
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Home, Search, Wheelchair } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home, Search, Accessibility } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { YAVAPAI_COUNTY_ORDINANCES } from '@/lib/yavapai-county-ordinances';
@@ -124,7 +124,7 @@ export default function CountyLawsPage() {
                 <ArrowLeft strokeWidth={3} className="h-8 w-8" />
               </button>
               <div className="flex flex-col items-center">
-                <Wheelchair className="h-6 w-6" />
+                <Accessibility className="h-6 w-6" />
                 <p className="text-center text-xs">
                     &copy; 2025 The-Law-Says.Com
                 </p>
@@ -197,7 +197,7 @@ export default function CountyLawsPage() {
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
             <div className="flex flex-col items-center">
-                <Wheelchair className="h-6 w-6" />
+                <Accessibility className="h-6 w-6" />
                 <p className="text-center text-xs">
                     &copy; 2025 The-Law-Says.Com
                 </p>
