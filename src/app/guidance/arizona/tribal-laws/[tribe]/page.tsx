@@ -22,6 +22,7 @@ import { HUALAPAI_CONTENT } from '@/lib/hualapai-content';
 import { KAIBAB_PAIUTE_CONTENT } from '@/lib/kaibab-paiute-content';
 import { NAVAJO_NATION_CONTENT } from '@/lib/navajo-nation-content';
 import { PASCUA_YAQUI_CONTENT } from '@/lib/pascua-yaqui-content';
+import { PUEBLO_OF_ZUNI_CONTENT } from '@/lib/pueblo-of-zuni-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -57,6 +58,8 @@ export default function TribalLawPage() {
     tribeContent = NAVAJO_NATION_CONTENT;
   } else if (tribeSlug === 'pascua-yaqui-tribe') {
     tribeContent = PASCUA_YAQUI_CONTENT;
+  } else if (tribeSlug === 'pueblo-of-zuni') {
+    tribeContent = PUEBLO_OF_ZUNI_CONTENT;
   }
 
 
