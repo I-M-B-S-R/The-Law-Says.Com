@@ -17,6 +17,7 @@ const HomePage = () => {
 
   const mainButtonsSpeech = useTextToSpeech();
   const missionSpeech = useTextToSpeech();
+  const whyLawyerSpeech = useTextToSpeech();
 
   const mainButtonsContent = `
     Please Share,
@@ -28,6 +29,10 @@ const HomePage = () => {
 
   const missionContent = `
     ${uiText.ourMission}: ${missionStatement.join(' ')}
+  `.replace(/<[^>]*>/g, '');
+
+  const whyLawyerContent = `
+    ${uiText.whyLawyer}: ${whyLawyerText.join(' ')}
   `.replace(/<[^>]*>/g, '');
 
   const handleMainListenClick = () => {
@@ -43,6 +48,14 @@ const HomePage = () => {
       missionSpeech.stop();
     } else {
       missionSpeech.speak(missionContent);
+    }
+  };
+
+  const handleWhyLawyerListenClick = () => {
+    if (whyLawyerSpeech.isSpeaking) {
+      whyLawyerSpeech.stop();
+    } else {
+      whyLawyerSpeech.speak(whyLawyerContent);
     }
   };
 
@@ -138,6 +151,21 @@ const HomePage = () => {
             </div>
 
             <div className="mt-4 space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
+                <div className="flex justify-center">
+                    <Button size="lg" onClick={handleWhyLawyerListenClick} className="h-14 w-full font-bold btn-destructive">
+                        {whyLawyerSpeech.isSpeaking ? (
+                            <>
+                                <StopCircle className="mr-2 h-5 w-5" />
+                                {uiText.stop}
+                            </>
+                        ): (
+                            <>
+                                <AudioLines className="mr-2 h-5 w-5" />
+                                {uiText.listen}
+                            </>
+                        )}
+                    </Button>
+                </div>
               <div className="flex items-center justify-center">
                 <h2 className="text-center text-2xl font-semibold text-foreground">
                   <span className="text-destructive mr-2 text-4xl">*</span>
