@@ -38,7 +38,7 @@ export default function MunicipalityLawDetailPage() {
   if (sections.length > 0) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-        <div className="flex h-full w-full max-w-sm flex-col bg-background shadow-2xl">
+        <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
             <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
                 <Link href="/" className="flex items-center justify-center gap-2">
                     <Home className="h-4 w-4" />
@@ -91,7 +91,7 @@ export default function MunicipalityLawDetailPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-full w-full max-w-sm flex-col bg-background shadow-2xl">
+      <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
         <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
             <Link href="/" className="flex items-center justify-center gap-2">
                 <Home className="h-4 w-4" />
