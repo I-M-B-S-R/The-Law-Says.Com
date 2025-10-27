@@ -1,16 +1,28 @@
 
 'use client';
 
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Home } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ARIZONA_MUNICIPALITIES } from '@/lib/arizona-municipalities';
+import { Input } from '@/components/ui/input';
 
 export default function ArizonaMunicipalityLawsPage() {
   const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredMunicipalities = useMemo(() => {
+    if (!searchQuery) {
+      return ARIZONA_MUNICIPALITIES;
+    }
+    return ARIZONA_MUNICIPALITIES.filter((municipality) =>
+      municipality.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }, [searchQuery]);
+
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
@@ -26,22 +38,34 @@ export default function ArizonaMunicipalityLawsPage() {
                   Home
               </Link>
           </div>
-          <main className="p-4 pt-0">
-            <div className="grid grid-cols-2 gap-4">
-              {ARIZONA_MUNICIPALITIES.map((municipality) => (
-                <Button
-                  key={municipality}
-                  size="lg"
-                  className="h-14 w-full justify-center whitespace-normal px-2 text-center text-xs font-bold btn-destructive"
-                  asChild
-                >
-                  <Link href={`/guidance/arizona/municipality-laws/${municipality.toLowerCase().replace(/ /g, '-')}`}>
-                    <span>{municipality}</span>
-                  </Link>
-                </Button>
-              ))}
+          <div className="p-4 pt-0">
+            <div className="relative mb-4">
+                <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+                <Input
+                    type="text"
+                    placeholder="Search municipalities..."
+                    className="h-14 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                />
             </div>
-          </main>
+            <main>
+              <div className="grid grid-cols-2 gap-4">
+                {filteredMunicipalities.map((municipality) => (
+                  <Button
+                    key={municipality}
+                    size="lg"
+                    className="h-14 w-full justify-center whitespace-normal px-2 text-center text-xs font-bold btn-destructive"
+                    asChild
+                  >
+                    <Link href={`/guidance/arizona/municipality-laws/${municipality.toLowerCase().replace(/ /g, '-')}`}>
+                      <span>{municipality}</span>
+                    </Link>
+                  </Button>
+                ))}
+              </div>
+            </main>
+          </div>
         </ScrollArea>
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">

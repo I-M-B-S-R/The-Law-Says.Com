@@ -1,13 +1,14 @@
 
 'use client';
 
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Home } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { JURISDICTIONS } from '@/lib/constants';
+import { Input } from '@/components/ui/input';
 
 const states = JURISDICTIONS.filter(
     j => !["District of Columbia", "Puerto Rico", "Guam", "American Samoa", "U.S. Virgin Islands", "Northern Mariana Islands"].includes(j)
@@ -15,6 +16,16 @@ const states = JURISDICTIONS.filter(
 
 export default function StatesPage() {
   const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredStates = useMemo(() => {
+    if (!searchQuery) {
+      return states;
+    }
+    return states.filter((state) =>
+      state.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }, [searchQuery]);
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
@@ -30,27 +41,39 @@ export default function StatesPage() {
                   Home
               </Link>
           </div>
-          <main className="p-4 pt-0">
-            <div className="flex flex-col gap-4">
-              {states.map((state) => (
-                <Button
-                  key={state}
-                  size="lg"
-                  className="h-14 w-full justify-center whitespace-normal px-4 text-center btn-destructive"
-                  asChild
-                >
-                  <Link href={`/guidance/${state.toLowerCase().replace(/ /g, '-')}`}>
-                    <div className="flex flex-col items-center">
-                      <span className="font-bold">{state}</span>
-                      {state !== 'Arizona' && (
-                        <span className="text-sm font-normal opacity-80">Coming Soon</span>
-                      )}
-                    </div>
-                  </Link>
-                </Button>
-              ))}
+          <div className="p-4 pt-0">
+             <div className="relative mb-4">
+              <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                type="text"
+                placeholder="Search states..."
+                className="h-14 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
             </div>
-          </main>
+            <main>
+              <div className="flex flex-col gap-4">
+                {filteredStates.map((state) => (
+                  <Button
+                    key={state}
+                    size="lg"
+                    className="h-14 w-full justify-center whitespace-normal px-4 text-center btn-destructive"
+                    asChild
+                  >
+                    <Link href={`/guidance/${state.toLowerCase().replace(/ /g, '-')}`}>
+                      <div className="flex flex-col items-center">
+                        <span className="font-bold">{state}</span>
+                        {state !== 'Arizona' && (
+                          <span className="text-sm font-normal opacity-80">Coming Soon</span>
+                        )}
+                      </div>
+                    </Link>
+                  </Button>
+                ))}
+              </div>
+            </main>
+          </div>
         </ScrollArea>
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">

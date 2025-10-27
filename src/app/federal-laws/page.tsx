@@ -1,22 +1,34 @@
 
 'use client';
 
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, AudioLines, StopCircle, Loader2, Home } from 'lucide-react';
+import { ArrowLeft, ArrowRight, AudioLines, StopCircle, Loader2, Home, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { FEDERAL_LAWS } from '@/lib/federal-laws';
 import { useTextToSpeech } from '@/hooks/useTextToSpeech';
 import { useLanguage } from '@/context/language-context';
+import { Input } from '@/components/ui/input';
 
 export default function FederalLawsPage() {
   const router = useRouter();
   const { language, isTranslating, uiText } = useLanguage();
   const speech = useTextToSpeech();
+  const [searchQuery, setSearchQuery] = useState('');
 
-  const federalLawsContent = FEDERAL_LAWS.map(law => `${law.id}. ${law.name}`).join(', ');
+  const filteredLaws = useMemo(() => {
+    if (!searchQuery) {
+      return FEDERAL_LAWS;
+    }
+    return FEDERAL_LAWS.filter((law) =>
+      law.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      law.id.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }, [searchQuery]);
+
+  const federalLawsContent = filteredLaws.map(law => `${law.id}. ${law.name}`).join(', ');
 
   const handleListenClick = () => {
     if (speech.isSpeaking) {
@@ -37,40 +49,52 @@ export default function FederalLawsPage() {
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
           <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
-              <Link href="/" className="flex items-center justify-center gap-2">
-                  <Home className="h-4 w-4" />
-                  Home
-              </Link>
+            <Link href="/" className="flex items-center justify-center gap-2">
+              <Home className="h-4 w-4" />
+              Home
+            </Link>
           </div>
-          <main className="p-4 pt-0">
-            <div className="flex flex-col gap-4">
-              <Button onClick={handleListenClick} size="lg" className="h-14 w-full font-bold btn-destructive">
-                {speech.isSpeaking ? (
-                  <>
-                    <StopCircle className="mr-2 h-5 w-5" />
-                    {uiText.stop}
-                  </>
-                ) : (
-                  <>
-                    <AudioLines className="mr-2 h-5 w-5" />
-                    {uiText.listen}
-                  </>
-                )}
-              </Button>
-              {FEDERAL_LAWS.map((law) => (
-                <Button
-                  key={law.id}
-                  size="lg"
-                  className="h-20 w-full justify-start whitespace-normal px-4 text-left font-bold btn-destructive"
-                  asChild
-                >
-                  <Link href={`/federal-laws/${law.id}`}>
-                    <span>{law.id}. {law.name}</span>
-                  </Link>
-                </Button>
-              ))}
+          <div className="p-4 pt-0">
+            <div className="relative mb-4">
+              <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                type="text"
+                placeholder="Search federal laws..."
+                className="h-14 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
             </div>
-          </main>
+            <main>
+              <div className="flex flex-col gap-4">
+                <Button onClick={handleListenClick} size="lg" className="h-14 w-full font-bold btn-destructive">
+                  {speech.isSpeaking ? (
+                    <>
+                      <StopCircle className="mr-2 h-5 w-5" />
+                      {uiText.stop}
+                    </>
+                  ) : (
+                    <>
+                      <AudioLines className="mr-2 h-5 w-5" />
+                      {uiText.listen}
+                    </>
+                  )}
+                </Button>
+                {filteredLaws.map((law) => (
+                  <Button
+                    key={law.id}
+                    size="lg"
+                    className="h-20 w-full justify-start whitespace-normal px-4 text-left font-bold btn-destructive"
+                    asChild
+                  >
+                    <Link href={`/federal-laws/${law.id}`}>
+                      <span>{law.id}. {law.name}</span>
+                    </Link>
+                  </Button>
+                ))}
+              </div>
+            </main>
+          </div>
         </ScrollArea>
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">

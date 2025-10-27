@@ -1,16 +1,28 @@
 
 'use client';
 
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Home } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ARIZONA_REVISED_STATUTES } from '@/lib/arizona-revised-statutes';
+import { Input } from '@/components/ui/input';
 
 export default function ArizonaStateLawsPage() {
   const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredLaws = useMemo(() => {
+    if (!searchQuery) {
+      return ARIZONA_REVISED_STATUTES;
+    }
+    return ARIZONA_REVISED_STATUTES.filter((law) =>
+      law.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      `title ${law.id}`.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }, [searchQuery]);
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
@@ -26,22 +38,34 @@ export default function ArizonaStateLawsPage() {
                   Home
               </Link>
           </div>
-          <main className="p-4 pt-0">
-            <div className="flex flex-col gap-4">
-              {ARIZONA_REVISED_STATUTES.map((law) => (
-                <Button
-                  key={law.id}
-                  size="lg"
-                  className="h-20 w-full justify-start whitespace-normal px-4 text-left font-bold btn-destructive"
-                  asChild
-                >
-                  <Link href={`/guidance/arizona/state-laws/${law.id}`}>
-                    <span>Title {law.id}. {law.name}</span>
-                  </Link>
-                </Button>
-              ))}
+          <div className="p-4 pt-0">
+            <div className="relative mb-4">
+                <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+                <Input
+                    type="text"
+                    placeholder="Search state laws..."
+                    className="h-14 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                />
             </div>
-          </main>
+            <main>
+              <div className="flex flex-col gap-4">
+                {filteredLaws.map((law) => (
+                  <Button
+                    key={law.id}
+                    size="lg"
+                    className="h-20 w-full justify-start whitespace-normal px-4 text-left font-bold btn-destructive"
+                    asChild
+                  >
+                    <Link href={`/guidance/arizona/state-laws/${law.id}`}>
+                      <span>Title {law.id}. {law.name}</span>
+                    </Link>
+                  </Button>
+                ))}
+              </div>
+            </main>
+          </div>
         </ScrollArea>
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">

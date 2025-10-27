@@ -1,16 +1,27 @@
 
 'use client';
 
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Home } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ARIZONA_TRIBES } from '@/lib/arizona-tribes';
+import { Input } from '@/components/ui/input';
 
 export default function ArizonaTribalLawsPage() {
   const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredTribes = useMemo(() => {
+    if (!searchQuery) {
+      return ARIZONA_TRIBES;
+    }
+    return ARIZONA_TRIBES.filter((tribe) =>
+      tribe.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }, [searchQuery]);
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
@@ -26,22 +37,34 @@ export default function ArizonaTribalLawsPage() {
                   Home
               </Link>
           </div>
-          <main className="p-4 pt-0">
-            <div className="flex flex-col gap-4">
-              {ARIZONA_TRIBES.map((tribe) => (
-                <Button
-                  key={tribe}
-                  size="lg"
-                  className="h-14 w-full justify-center whitespace-normal px-4 text-center font-bold btn-destructive"
-                  asChild
-                >
-                  <Link href={`/guidance/arizona/tribal-laws/${tribe.toLowerCase().replace(/ /g, '-')}`}>
-                    <span>{tribe}</span>
-                  </Link>
-                </Button>
-              ))}
+          <div className="p-4 pt-0">
+            <div className="relative mb-4">
+                <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+                <Input
+                    type="text"
+                    placeholder="Search tribes..."
+                    className="h-14 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                />
             </div>
-          </main>
+            <main>
+              <div className="flex flex-col gap-4">
+                {filteredTribes.map((tribe) => (
+                  <Button
+                    key={tribe}
+                    size="lg"
+                    className="h-14 w-full justify-center whitespace-normal px-4 text-center font-bold btn-destructive"
+                    asChild
+                  >
+                    <Link href={`/guidance/arizona/tribal-laws/${tribe.toLowerCase().replace(/ /g, '-').replace(/'/g, '')}`}>
+                      <span>{tribe}</span>
+                    </Link>
+                  </Button>
+                ))}
+              </div>
+            </main>
+          </div>
         </ScrollArea>
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">

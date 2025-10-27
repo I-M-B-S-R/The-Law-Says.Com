@@ -1,10 +1,10 @@
 
 'use client';
 
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Home } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { YAVAPAI_COUNTY_ORDINANCES } from '@/lib/yavapai-county-ordinances';
@@ -22,12 +22,14 @@ import { PIMA_COUNTY_ORDINANCES } from '@/lib/pima-county-ordinances';
 import { PINAL_COUNTY_ORDINANCES } from '@/lib/pinal-county-ordinances';
 import { SANTA_CRUZ_COUNTY_ORDINANCES } from '@/lib/santa-cruz-county-ordinances';
 import { YUMA_COUNTY_ORDINANCES } from '@/lib/yuma-county-ordinances';
+import { Input } from '@/components/ui/input';
 
 export default function CountyLawsPage() {
   const router = useRouter();
   const params = useParams();
   const countySlug = params.county as string;
   const county = countySlug ? countySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : '';
+  const [searchQuery, setSearchQuery] = useState('');
 
   let ordinances: { id: string; name: string }[] = [];
   let ordinancesPath = '';
@@ -78,6 +80,16 @@ export default function CountyLawsPage() {
     ordinances = YUMA_COUNTY_ORDINANCES;
     ordinancesPath = '/guidance/arizona/county-laws/yuma';
   }
+
+  const filteredOrdinances = useMemo(() => {
+    if (!searchQuery) {
+      return ordinances;
+    }
+    return ordinances.filter((ord) =>
+      ord.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }, [searchQuery, ordinances]);
+
 
   if (ordinances.length === 0) {
     return (
@@ -142,22 +154,34 @@ export default function CountyLawsPage() {
                   Home
               </Link>
           </div>
-          <main className="p-4 pt-0">
-            <div className="flex flex-col gap-4">
-              {ordinances.map((ord) => (
-                <Button
-                  key={ord.id}
-                  size="lg"
-                  className="h-20 w-full justify-center whitespace-normal px-4 text-center font-bold btn-destructive"
-                  asChild
-                >
-                  <Link href={`${ordinancesPath}/${ord.id}`}>
-                    <span>{ord.name}</span>
-                  </Link>
-                </Button>
-              ))}
+          <div className="p-4 pt-0">
+             <div className="relative mb-4">
+                <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+                <Input
+                    type="text"
+                    placeholder="Search ordinances..."
+                    className="h-14 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                />
             </div>
-          </main>
+            <main>
+              <div className="flex flex-col gap-4">
+                {filteredOrdinances.map((ord) => (
+                  <Button
+                    key={ord.id}
+                    size="lg"
+                    className="h-20 w-full justify-center whitespace-normal px-4 text-center font-bold btn-destructive"
+                    asChild
+                  >
+                    <Link href={`${ordinancesPath}/${ord.id}`}>
+                      <span>{ord.name}</span>
+                    </Link>
+                  </Button>
+                ))}
+              </div>
+            </main>
+          </div>
         </ScrollArea>
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">

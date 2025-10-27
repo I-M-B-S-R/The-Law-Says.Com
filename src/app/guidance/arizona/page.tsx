@@ -28,16 +28,16 @@ export default function StateGuidancePage() {
                   Home
               </Link>
           </div>
-          <main className="p-4 pt-0">
-            <div className="flex flex-col gap-4">
-                <div className="relative">
-                    <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
-                    <Input
-                        type="text"
-                        placeholder="Search..."
-                        className="h-14 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
-                    />
-                </div>
+          <div className="p-4 pt-0">
+            <div className="relative mb-4">
+                <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+                <Input
+                    type="text"
+                    placeholder="Search..."
+                    className="h-14 w-full rounded-lg border-destructive bg-transparent pl-10 text-lg border-2"
+                />
+            </div>
+            <main className="flex flex-col gap-4">
                 <Button
                   size="lg"
                   className="h-14 w-full font-bold btn-destructive"
@@ -74,8 +74,8 @@ export default function StateGuidancePage() {
                     Tribal Laws
                   </Link>
                 </Button>
-            </div>
-          </main>
+            </main>
+          </div>
         </ScrollArea>
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
