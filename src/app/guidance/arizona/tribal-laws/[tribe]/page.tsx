@@ -20,6 +20,7 @@ import { HAVASUPAI_CONTENT } from '@/lib/havasupai-content';
 import { HOPI_CONTENT } from '@/lib/hopi-content';
 import { HUALAPAI_CONTENT } from '@/lib/hualapai-content';
 import { KAIBAB_PAIUTE_CONTENT } from '@/lib/kaibab-paiute-content';
+import { NAVAJO_NATION_CONTENT } from '@/lib/navajo-nation-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -51,6 +52,8 @@ export default function TribalLawPage() {
     tribeContent = HUALAPAI_CONTENT;
   } else if (tribeSlug === 'kaibab-band-of-paiute-indians') {
     tribeContent = KAIBAB_PAIUTE_CONTENT;
+  } else if (tribeSlug === 'navajo-nation') {
+    tribeContent = NAVAJO_NATION_CONTENT;
   }
 
 
