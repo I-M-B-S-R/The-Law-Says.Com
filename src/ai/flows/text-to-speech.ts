@@ -1,3 +1,4 @@
+
 'use server';
 /**
  * @fileOverview A flow for converting text to speech.
@@ -9,7 +10,6 @@
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
 import wav from 'wav';
-import { media, prompt } from 'genkit/ai';
 
 const TextToSpeechInputSchema = z.object({
   text: z.string().describe('The text to be converted to speech.'),
@@ -55,7 +55,7 @@ const textToSpeechFlow = ai.defineFlow(
     outputSchema: z.any(),
     stream: z.any(),
   },
-  async ({ text }, streamingCallback) => {
+  async ({ text }) => {
     const { stream, response } = await ai.generateStream({
       model: 'googleai/gemini-2.5-flash-preview-tts',
       config: {
@@ -69,39 +69,30 @@ const textToSpeechFlow = ai.defineFlow(
       prompt: text,
     });
 
-    if (streamingCallback) {
-      for await (const chunk of stream) {
-        const audioChunk = chunk.media;
-        if (!audioChunk) continue;
-
-        const audioBuffer = Buffer.from(
-          audioChunk.url.substring(audioChunk.url.indexOf(',') + 1),
-          'base64'
-        );
-
-        const wavChunk = await toWav(audioBuffer);
-        streamingCallback( { index: chunk.index, data: { wavChunk } });
-      }
-    } else {
-        const result = await response;
-        const audioChunk = result.media;
-        if (!audioChunk) {
-            throw new Error('no media returned');
-        }
-        const audioBuffer = Buffer.from(
-            audioChunk.url.substring(audioChunk.url.indexOf(',') + 1),
-            'base64'
-        );
-        const audioDataUri =
-            'data:audio/wav;base64,' + (await toWav(audioBuffer));
+    const outputStream = new ReadableStream({
+        async start(controller) {
+            for await (const chunk of stream) {
+                const audioChunk = chunk.media;
+                if (!audioChunk) continue;
         
-        return {audioDataUri};
-    }
+                const audioBuffer = Buffer.from(
+                  audioChunk.url.substring(audioChunk.url.indexOf(',') + 1),
+                  'base64'
+                );
+        
+                const wavChunk = await toWav(audioBuffer);
+                controller.enqueue({ index: chunk.index, data: { wavChunk } });
+            }
+            controller.close();
+        }
+    });
+
+    return outputStream;
   }
 );
 
 export async function textToSpeech(
   input: TextToSpeechInput
-): Promise<TextToSpeechOutput> {
+): Promise<ReadableStream> {
   return textToSpeechFlow(input);
 }
