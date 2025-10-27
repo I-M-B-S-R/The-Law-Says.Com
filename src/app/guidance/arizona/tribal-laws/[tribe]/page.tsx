@@ -19,6 +19,7 @@ import { GILA_RIVER_INDIAN_COMMUNITY_CONTENT } from '@/lib/gila-river-indian-com
 import { HAVASUPAI_CONTENT } from '@/lib/havasupai-content';
 import { HOPI_CONTENT } from '@/lib/hopi-content';
 import { HUALAPAI_CONTENT } from '@/lib/hualapai-content';
+import { KAIBAB_PAIUTE_CONTENT } from '@/lib/kaibab-paiute-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -48,6 +49,8 @@ export default function TribalLawPage() {
     tribeContent = HOPI_CONTENT;
   } else if (tribeSlug === 'hualapai-tribe') {
     tribeContent = HUALAPAI_CONTENT;
+  } else if (tribeSlug === 'kaibab-band-of-paiute-indians') {
+    tribeContent = KAIBAB_PAIUTE_CONTENT;
   }
 
 
