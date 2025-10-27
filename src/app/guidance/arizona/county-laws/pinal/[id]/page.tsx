@@ -59,22 +59,22 @@ export default function PinalOrdinanceDetailPage() {
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
-            <div className="mb-4 flex justify-center">
-                <Button size="lg" onClick={handleListenClick} className="h-14 w-full font-bold btn-destructive">
-                    {speech.isSpeaking ? (
-                        <>
-                            <StopCircle className="mr-2 h-5 w-5" />
-                            Stop
-                        </>
-                    ): (
-                        <>
-                            <AudioLines className="mr-2 h-5 w-5" />
-                            Listen
-                        </>
-                    )}
-                </Button>
-            </div>
-            <Card className="border-destructive">
+            <Card className="border-destructive p-4">
+              <div className="mb-4 flex justify-center">
+                  <Button size="lg" onClick={handleListenClick} className="h-14 w-full font-bold btn-destructive">
+                      {speech.isSpeaking ? (
+                          <>
+                              <StopCircle className="mr-2 h-5 w-5" />
+                              Stop
+                          </>
+                      ): (
+                          <>
+                              <AudioLines className="mr-2 h-5 w-5" />
+                              Listen
+                          </>
+                      )}
+                  </Button>
+              </div>
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl font-bold">{ordinance.name}</CardTitle>
               </CardHeader>
