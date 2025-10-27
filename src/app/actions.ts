@@ -4,6 +4,7 @@ import { getLegalGuidance, type GetLegalGuidanceInput } from '@/ai/flows/get-leg
 import { translateText, type TranslateTextInput } from '@/ai/flows/translate-text';
 import { textToSpeech, type TextToSpeechInput } from '@/ai/flows/text-to-speech';
 import { z } from 'zod';
+import { streamFlow } from 'genkit/next/server';
 
 const LegalActionInputSchema = z.object({
   jurisdiction: z.string().min(1, 'Jurisdiction is required.'),
@@ -56,8 +57,10 @@ export async function textToSpeechAction(values: TextToSpeechInput) {
   }
   try {
     const validatedInput = TextToSpeechActionInputSchema.parse(values);
-    const result = await textToSpeech(validatedInput);
-    return { success: true, data: result };
+    return streamFlow(
+      (await import('@/ai/flows/text-to-speech')).textToSpeech,
+      validatedInput
+    );
   } catch (error) {
     if (error instanceof z.ZodError) {
       return { success: false, error: error.errors.map(e => e.message).join(', ') };

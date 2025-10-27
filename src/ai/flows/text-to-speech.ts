@@ -9,6 +9,7 @@
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
 import wav from 'wav';
+import { media, prompt } from 'genkit/ai';
 
 const TextToSpeechInputSchema = z.object({
   text: z.string().describe('The text to be converted to speech.'),
@@ -51,32 +52,51 @@ const textToSpeechFlow = ai.defineFlow(
   {
     name: 'textToSpeechFlow',
     inputSchema: TextToSpeechInputSchema,
-    outputSchema: TextToSpeechOutputSchema,
+    outputSchema: z.any(),
+    stream: z.any(),
   },
-  async ({text}) => {
-    const {media} = await ai.generate({
+  async ({ text }, streamingCallback) => {
+    const { stream, response } = await ai.generateStream({
       model: 'googleai/gemini-2.5-flash-preview-tts',
       config: {
         responseModalities: ['AUDIO'],
         speechConfig: {
           voiceConfig: {
-            prebuiltVoiceConfig: {voiceName: 'Algenib'},
+            prebuiltVoiceConfig: { voiceName: 'Algenib' },
           },
         },
       },
       prompt: text,
     });
-    if (!media) {
-      throw new Error('no media returned');
-    }
-    const audioBuffer = Buffer.from(
-      media.url.substring(media.url.indexOf(',') + 1),
-      'base64'
-    );
-    const audioDataUri =
-      'data:audio/wav;base64,' + (await toWav(audioBuffer));
 
-    return {audioDataUri};
+    if (streamingCallback) {
+      for await (const chunk of stream) {
+        const audioChunk = chunk.media;
+        if (!audioChunk) continue;
+
+        const audioBuffer = Buffer.from(
+          audioChunk.url.substring(audioChunk.url.indexOf(',') + 1),
+          'base64'
+        );
+
+        const wavChunk = await toWav(audioBuffer);
+        streamingCallback( { index: chunk.index, data: { wavChunk } });
+      }
+    } else {
+        const result = await response;
+        const audioChunk = result.media;
+        if (!audioChunk) {
+            throw new Error('no media returned');
+        }
+        const audioBuffer = Buffer.from(
+            audioChunk.url.substring(audioChunk.url.indexOf(',') + 1),
+            'base64'
+        );
+        const audioDataUri =
+            'data:audio/wav;base64,' + (await toWav(audioBuffer));
+        
+        return {audioDataUri};
+    }
   }
 );
 
