@@ -58,17 +58,22 @@ export default function StatesPage() {
                   <Button
                     key={state}
                     size="lg"
-                    className="h-14 w-full justify-center whitespace-normal px-4 text-center btn-destructive"
-                    asChild
+                    className="h-14 w-full justify-center whitespace-normal px-4 text-center btn-destructive disabled:opacity-50 disabled:cursor-not-allowed"
+                    asChild={state === 'Arizona'}
+                    disabled={state !== 'Arizona'}
                   >
-                    <Link href={`/guidance/${state.toLowerCase().replace(/ /g, '-')}`}>
-                      <div className="flex flex-col items-center">
+                    {state === 'Arizona' ? (
+                       <Link href={`/guidance/arizona`}>
+                        <div className="flex flex-col items-center">
+                          <span className="font-bold">{state}</span>
+                        </div>
+                      </Link>
+                    ) : (
+                       <div className="flex flex-col items-center">
                         <span className="font-bold">{state}</span>
-                        {state !== 'Arizona' && (
-                          <span className="text-sm font-normal opacity-80">Coming Soon</span>
-                        )}
+                        <span className="text-sm font-normal opacity-80">Coming Soon</span>
                       </div>
-                    </Link>
+                    )}
                   </Button>
                 ))}
               </div>

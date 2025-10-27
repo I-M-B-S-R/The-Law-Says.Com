@@ -12,7 +12,9 @@ import { Input } from '@/components/ui/input';
 export default function StateGuidancePage() {
   const router = useRouter();
   const params = useParams();
-  const state = params.state ? (params.state as string).replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : '';
+  const stateSlug = params.state as string;
+  const state = stateSlug ? (stateSlug).replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : '';
+  const isArizona = stateSlug === 'arizona';
 
   return (
     <div className="flex h-screen flex-col items-center justify-center bg-black p-4">
@@ -40,36 +42,35 @@ export default function StateGuidancePage() {
             <main className="flex flex-col gap-4">
                 <Button
                   size="lg"
-                  className="h-14 w-full font-bold btn-destructive"
-                  asChild
+                  className="h-14 w-full font-bold btn-destructive disabled:opacity-50 disabled:cursor-not-allowed"
+                  asChild={isArizona}
+                  disabled={!isArizona}
                 >
-                  <Link href={params.state === 'arizona' ? '/guidance/arizona/state-laws' : '#'}>
-                    State Laws
-                  </Link>
+                  {isArizona ? <Link href='/guidance/arizona/state-laws'>State Laws</Link> : <span>State Laws</span>}
                 </Button>
                 <Button
                   size="lg"
-                  className="h-14 w-full font-bold btn-destructive"
-                  asChild
+                  className="h-14 w-full font-bold btn-destructive disabled:opacity-50 disabled:cursor-not-allowed"
+                  asChild={isArizona}
+                  disabled={!isArizona}
                 >
-                  <Link href={params.state === 'arizona' ? '/guidance/arizona/county-laws' : '#'}>
-                    County Laws
-                  </Link>
+                  {isArizona ? <Link href='/guidance/arizona/county-laws'>County Laws</Link> : <span>County Laws</span>}
                 </Button>
                 <Button
                   size="lg"
-                  className="h-14 w-full font-bold btn-destructive"
-                  asChild
+                  className="h-14 w-full font-bold btn-destructive disabled:opacity-50 disabled:cursor-not-allowed"
+                  asChild={isArizona}
+                  disabled={!isArizona}
                 >
-                  <Link href={params.state === 'arizona' ? '/guidance/arizona/municipality-laws' : '#'}>
-                    Municipality Laws
-                  </Link>
+                  {isArizona ? <Link href='/guidance/arizona/municipality-laws'>Municipality Laws</Link> : <span>Municipality Laws</span>}
                 </Button>
-                <Button
+                 <Button
                   size="lg"
-                  className="h-14 w-full font-bold btn-destructive"
+                  className="h-14 w-full font-bold btn-destructive disabled:opacity-50 disabled:cursor-not-allowed"
+                  asChild={isArizona}
+                  disabled={!isArizona}
                 >
-                  Tribal Laws
+                  {isArizona ? <Link href='/guidance/arizona/tribal-laws'>Tribal Laws</Link> : <span>Tribal Laws</span>}
                 </Button>
             </main>
           </div>
