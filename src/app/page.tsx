@@ -14,11 +14,12 @@ import { useLanguage } from '@/context/language-context';
 const HomePage = () => {
   const { isSpeaking, isGenerating, speak, stop } = useTextToSpeech();
   const router = useRouter();
-  const { language, isTranslating, isLoading, missionStatement, uiText } = useLanguage();
+  const { language, isTranslating, isLoading, missionStatement, whyLawyerText, uiText } = useLanguage();
 
 
   const contentToRead = `
     ${uiText.ourMission}: ${missionStatement.join(' ')}
+    ${uiText.whyLawyer}: ${whyLawyerText.join(' ')}
   `.replace(/<[^>]*>/g, '');
 
   const handleListenClick = () => {
@@ -100,6 +101,25 @@ const HomePage = () => {
                   </div>
                 ) : (
                   missionStatement.map((paragraph, index) => (
+                    <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
+                  ))
+                )}
+              </div>
+            </div>
+
+            <div className="mt-4 space-y-4 rounded-lg border border-destructive p-4 text-justify text-foreground shadow-md">
+              <div className="flex items-center justify-center">
+                <h2 className="text-center text-2xl font-semibold text-foreground">
+                  {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.whyLawyer}
+                </h2>
+              </div>
+              <div className="prose max-w-none prose-p:text-foreground dark:prose-invert space-y-4 text-justify">
+                {isLoading && language !== 'English' ? (
+                  <div className="flex justify-center items-center h-48">
+                    <Loader2 className="h-12 w-12 animate-spin text-primary" />
+                  </div>
+                ) : (
+                  whyLawyerText.map((paragraph, index) => (
                     <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
                   ))
                 )}

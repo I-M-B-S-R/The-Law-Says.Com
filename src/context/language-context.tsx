@@ -12,14 +12,27 @@ const MISSION_STATEMENT_ORIGINAL: string[] = [
     `The Other Thing The Police Do Is To Tell People To Go To Court To Settle The Matter, And <strong class="text-destructive font-bold">"IF YOU NEED TO GO TO COURT, YOU WILL NEED A LAWYER!"</strong> A Lawyer That Most People Cannot Afford! So, They End Up Forfeiting Their Rights Are Not Proving True To Their Obligations As Prescribed By Law! <strong>"THATS NOT JUSTICE EATHER!"</strong>`,
     `It Is Our Hope That By People Using "The-Law-Says.Com", people will understand their "Rights and their Obligations" As Prescribed By Law. The Laws That Govern All Of Us Who Reside In Or Who Are Passing Through One Of The Great States Or Territories In The United States. Educating Them To Be Better Law Abiding Citizens Who Can Settle Disagreements Peacefully, And Legally, Even If They're Reading Ability Is Very Limited, They Can Listen To The Information, Without The Need Of The Police, Paralegals, Lawyers, Or Our CourtSystem, Or Even Our Lawmakers!`
 ];
-  
+
+const WHY_LAWYER_TEXT_ORIGINAL: string[] = [
+    `Knowing the law (statutes, cases, etc.) is like knowing the rules of a game—but courts are a high-stakes arena with complex procedures, strategies, and pitfalls that go far beyond the black-letter law. Representing yourself (pro se) is allowed in most courts, but it's often risky and less effective. Here's why lawyers are typically essential:`,
+    `<strong>Procedural Rules and Court Etiquette:</strong> Courts follow strict rules (e.g., Federal Rules of Civil Procedure or Evidence). Missing a filing deadline, improperly formatting documents, or failing to serve papers correctly can get your case dismissed. Lawyers navigate these to avoid procedural traps.`,
+    `<strong>Evidence and Admissibility:</strong> Not everything you "know" can be presented. Rules of evidence dictate what's admissible (e.g., hearsay is often excluded). Lawyers know how to gather, authenticate, and introduce evidence, cross-examine witnesses, and object to opponents' tactics.`,
+    `<strong>Advocacy and Persuasion:</strong> Trials involve arguing persuasively to judges or juries. Lawyers are trained in rhetoric, legal research, and framing arguments. They spot weaknesses in the other side's case that a layperson might miss.`,
+    `<strong>Negotiation and Settlements:</strong> Most cases (over 90% in civil matters) settle out of court. Lawyers negotiate deals, mediate, or plea bargain, often getting better outcomes than going solo.`,
+    `<strong>Complexity and Interpretation:</strong> Laws aren't always straightforward—statutes can conflict, and case law evolves. Lawyers interpret nuances, cite precedents, and adapt to judges' preferences. For example, what seems like a clear "self-defense" law might hinge on subtle facts or state-specific rulings.`,
+    `<strong>Objectivity and Emotional Detachment:</strong> People in their own cases get emotional, leading to poor decisions. Lawyers provide impartial advice and strategy.`,
+    `<strong>Resources and Expertise:</strong> Lawyers have access to legal databases, networks, and experience from similar cases. In criminal matters, public defenders are often appointed if you can't afford one, as the stakes (like jail time) are high.`,
+    `In short, while you can represent yourself, statistics show pro se litigants win far less often (e.g., in civil cases, success rates drop significantly without counsel). Courts encourage lawyers to ensure fairness and efficiency. If you're facing a legal issue, consulting one early (even for advice) is wise—many offer free initial consultations.`
+];
+
 const UI_TEXT_ORIGINAL: Record<string, string> = {
     translate: 'Translate',
     listen: 'Listen',
     stop: 'Stop',
     federalLaws: 'Federal Laws',
     stateLaws: 'State Laws',
-    ourMission: 'Our Mission'
+    ourMission: 'Our Mission',
+    whyLawyer: 'Why Do You Need a Lawyer Even If You Know What the Law Says?'
 };
 
 interface LanguageContextType {
@@ -28,6 +41,7 @@ interface LanguageContextType {
   isTranslating: boolean;
   isLoading: boolean;
   missionStatement: string[];
+  whyLawyerText: string[];
   uiText: Record<string, string>;
 }
 
@@ -38,6 +52,7 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
   const [isTranslating, startTransition] = useTransition();
   const [isLoading, setIsLoading] = useState(false);
   const [missionStatement, setMissionStatement] = useState<string[]>(MISSION_STATEMENT_ORIGINAL);
+  const [whyLawyerText, setWhyLawyerText] = useState<string[]>(WHY_LAWYER_TEXT_ORIGINAL);
   const [uiText, setUiText] = useState<Record<string, string>>(UI_TEXT_ORIGINAL);
 
   const translate = useCallback(async (text: string, targetLanguage: string) => {
@@ -63,6 +78,7 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
   useEffect(() => {
     if (language === 'English') {
       setMissionStatement(MISSION_STATEMENT_ORIGINAL);
+      setWhyLawyerText(WHY_LAWYER_TEXT_ORIGINAL);
       setUiText(UI_TEXT_ORIGINAL);
       return;
     }
@@ -74,6 +90,11 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
         MISSION_STATEMENT_ORIGINAL.map(p => translate(p, language))
       );
       setMissionStatement(translatedMission);
+
+      const translatedWhyLawyer = await Promise.all(
+        WHY_LAWYER_TEXT_ORIGINAL.map(p => translate(p, language))
+      );
+      setWhyLawyerText(translatedWhyLawyer);
 
       const translatedUi: Record<string, string> = {};
       for (const key in UI_TEXT_ORIGINAL) {
@@ -95,7 +116,7 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
   }, [language, translate]);
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, isTranslating, isLoading, missionStatement, uiText }}>
+    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, isTranslating, isLoading, missionStatement, whyLawyerText, uiText }}>
       {children}
     </LanguageContext.Provider>
   );
