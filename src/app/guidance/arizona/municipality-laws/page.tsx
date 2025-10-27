@@ -15,18 +15,18 @@ export default function ArizonaMunicipalityLawsPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
-        <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
-            <Link href="/" className="flex items-center justify-center gap-2">
-                <Home className="h-4 w-4" />
-                Home
-            </Link>
-        </div>
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           <Link href="/guidance/arizona">Arizona Municipalities</Link>
         </header>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
-          <main className="p-4">
+          <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
+              <Link href="/" className="flex items-center justify-center gap-2">
+                  <Home className="h-4 w-4" />
+                  Home
+              </Link>
+          </div>
+          <main className="p-4 pt-0">
             <div className="grid grid-cols-2 gap-4">
               {ARIZONA_MUNICIPALITIES.map((municipality) => (
                 <Button
