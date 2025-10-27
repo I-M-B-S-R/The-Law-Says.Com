@@ -28,6 +28,7 @@ import { SALT_RIVER_PIMA_MARICOPA_INDIAN_COMMUNITY_CONTENT } from '@/lib/salt-ri
 import { SAN_CARLOS_APACHE_CONTENT } from '@/lib/san-carlos-apache-content';
 import { SAN_JUAN_SOUTHERN_PAIUTE_CONTENT } from '@/lib/san-juan-southern-paiute-content';
 import { TOHONO_OODHAM_CONTENT } from '@/lib/tohono-oodham-content';
+import { TONTO_APACHE_CONTENT } from '@/lib/tonto-apache-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -75,6 +76,8 @@ export default function TribalLawPage() {
     tribeContent = SAN_JUAN_SOUTHERN_PAIUTE_CONTENT;
   } else if (tribeSlug === 'tohono-oodham-nation') {
     tribeContent = TOHONO_OODHAM_CONTENT;
+  } else if (tribeSlug === 'tonto-apache-tribe') {
+    tribeContent = TONTO_APACHE_CONTENT;
   }
 
 
