@@ -4,7 +4,7 @@
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Home, Search } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home, Search, Wheelchair } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ARIZONA_COUNTIES } from '@/lib/arizona-counties';
@@ -24,7 +24,7 @@ export default function ArizonaCountyLawsPage() {
   }, [searchQuery]);
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
+    <div className="flex h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           <Link href="/guidance/arizona">Arizona County Laws</Link>
@@ -76,9 +76,12 @@ export default function ArizonaCountyLawsPage() {
             >
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
-            <p className="text-center text-xs">
-              &copy; 2025 The-Law-Says.Com
-            </p>
+            <div className="flex flex-col items-center">
+                <Wheelchair className="h-6 w-6" />
+                <p className="text-center text-xs">
+                    &copy; 2025 The-Law-Says.Com
+                </p>
+            </div>
             <button
               onClick={() => router.forward()}
               className="rounded-md p-2 hover:bg-destructive-foreground/10"

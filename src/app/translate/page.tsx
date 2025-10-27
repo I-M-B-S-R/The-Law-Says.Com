@@ -4,7 +4,7 @@
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Search, Home } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Search, Home, Wheelchair } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -37,24 +37,11 @@ export default function LanguageSelectPage() {
   }, [searchQuery]);
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
+    <div className="flex h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90vh] w-full max-w-sm flex-col bg-background shadow-2xl">
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           <Link href="/">The-Law-Says.Com</Link>
         </header>
-
-        <div className="flex-shrink-0 p-4 border-x-2 border-destructive">
-          <div className="relative rounded-lg border border-destructive">
-            <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
-            <Input
-              type="text"
-              placeholder="Search for a language..."
-              className="h-14 w-full rounded-lg border-0 bg-transparent pl-10 text-lg"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-          </div>
-        </div>
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
           <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
@@ -63,27 +50,40 @@ export default function LanguageSelectPage() {
               Home
             </Link>
           </div>
-          <main className="space-y-4 px-4 pt-0">
-            <div className="flex flex-col gap-4">
-              <Button
-                size="lg"
-                className="h-14 w-full border bg-black font-bold text-white border-destructive hover:bg-destructive/10"
-                onClick={() => handleLanguageSelect('English')}
-              >
-                English
-              </Button>
-              {filteredLanguages.map((language) => (
-                <Button
-                  key={language}
-                  size="lg"
-                  className="h-14 w-full font-bold btn-destructive"
-                  onClick={() => handleLanguageSelect(language)}
-                >
-                  {language}
-                </Button>
-              ))}
+          <div className="p-4 pt-0">
+            <div className="relative mb-4">
+              <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                type="text"
+                placeholder="Search for a language..."
+                className="h-14 w-full rounded-lg border-2 border-destructive bg-transparent pl-10 text-lg"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
             </div>
-          </main>
+
+            <main className="space-y-4">
+              <div className="flex flex-col gap-4">
+                <Button
+                  size="lg"
+                  className="h-14 w-full border bg-black font-bold text-white border-destructive hover:bg-destructive/10"
+                  onClick={() => handleLanguageSelect('English')}
+                >
+                  English
+                </Button>
+                {filteredLanguages.map((language) => (
+                  <Button
+                    key={language}
+                    size="lg"
+                    className="h-14 w-full font-bold btn-destructive"
+                    onClick={() => handleLanguageSelect(language)}
+                  >
+                    {language}
+                  </Button>
+                ))}
+              </div>
+            </main>
+          </div>
         </ScrollArea>
 
         <footer className="flex-shrink-0 rounded-b-2xl border-x-2 border-b-2 border-t-2 border-destructive bg-muted p-2 text-destructive-foreground">
@@ -95,9 +95,12 @@ export default function LanguageSelectPage() {
             >
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
-            <p className="text-center text-xs">
-              &copy; 2025 The-Law-Says.Com
-            </p>
+            <div className="flex flex-col items-center">
+                <Wheelchair className="h-6 w-6" />
+                <p className="text-center text-xs">
+                    &copy; 2025 The-Law-Says.Com
+                </p>
+            </div>
             <button
               onClick={() => router.forward()}
               className="rounded-md p-2 hover:bg-destructive-foreground/10"

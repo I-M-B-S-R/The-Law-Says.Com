@@ -5,7 +5,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2, StopCircle } from 'lucide-react';
+import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2, StopCircle, Wheelchair } from 'lucide-react';
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -61,7 +61,7 @@ const HomePage = () => {
 
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
+    <div className="flex h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           The-Law-Says.Com
@@ -132,7 +132,8 @@ const HomePage = () => {
                         )}
                     </Button>
                 </div>
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center gap-2">
+                <Wheelchair className="h-8 w-8 text-destructive" />
                 <h2 className="text-center text-2xl font-semibold text-foreground">
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.ourMission}
                 </h2>
@@ -198,9 +199,12 @@ const HomePage = () => {
             >
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
-            <p className="text-center text-xs">
-              &copy; 2025 The-Law-Says.Com
-            </p>
+            <div className="flex flex-col items-center">
+                <Wheelchair className="h-6 w-6" />
+                <p className="text-center text-xs">
+                    &copy; 2025 The-Law-Says.Com
+                </p>
+            </div>
             <button
               onClick={() => router.forward()}
               className="flex h-12 w-12 items-center justify-center rounded-md p-0 hover:bg-destructive-foreground/10"
