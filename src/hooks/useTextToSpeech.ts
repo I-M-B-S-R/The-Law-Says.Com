@@ -12,44 +12,60 @@ export const useTextToSpeech = () => {
   const sourceBufferRef = useRef<SourceBuffer | null>(null);
   const audioQueue = useRef<ArrayBuffer[]>([]);
   const streamEnded = useRef(false);
+  const readerRef = useRef<ReadableStreamDefaultReader<any> | null>(null);
+  const abortControllerRef = useRef<AbortController | null>(null);
 
-  const processAudioQueue = useCallback(() => {
-    if (
-      sourceBufferRef.current &&
-      !sourceBufferRef.current.updating &&
-      audioQueue.current.length > 0
-    ) {
-      const audioData = audioQueue.current.shift();
-      if (audioData) {
-        sourceBufferRef.current.appendBuffer(audioData);
-      }
-    } else if (
-      mediaSourceRef.current &&
-      mediaSourceRef.current.readyState === 'open' &&
-      sourceBufferRef.current &&
-      !sourceBufferRef.current.updating &&
-      streamEnded.current &&
-      audioQueue.current.length === 0
-    ) {
-      mediaSourceRef.current.endOfStream();
+
+  const stop = useCallback(() => {
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+      abortControllerRef.current = null;
     }
+    if (readerRef.current) {
+        readerRef.current.cancel().catch(() => {});
+        readerRef.current = null;
+    }
+
+    if (audioRef.current) {
+      if (!audioRef.current.paused) {
+        audioRef.current.pause();
+      }
+      if (audioRef.current.src) {
+        URL.revokeObjectURL(audioRef.current.src);
+        audioRef.current.removeAttribute('src');
+        audioRef.current.load();
+      }
+    }
+
+    if (mediaSourceRef.current && mediaSourceRef.current.readyState === 'open') {
+        try {
+            if(sourceBufferRef.current && !sourceBufferRef.current.updating) {
+                mediaSourceRef.current.endOfStream();
+            }
+        } catch (e) {
+            console.error('Error ending stream on stop:', e);
+        }
+    }
+    
+    mediaSourceRef.current = null;
+    sourceBufferRef.current = null;
+    audioQueue.current = [];
+    streamEnded.current = false;
+    setIsGenerating(false);
+    setIsSpeaking(false);
   }, []);
 
   const speak = useCallback(
     async (text: string) => {
-      if (isSpeaking || isGenerating) {
-        if (audioRef.current) {
-          audioRef.current.pause();
-          audioRef.current.currentTime = 0;
-        }
-        setIsSpeaking(false);
-        setIsGenerating(false);
+      if (isGenerating || isSpeaking) {
+        stop();
         return;
       }
-
+      
       setIsGenerating(true);
       streamEnded.current = false;
       audioQueue.current = [];
+      abortControllerRef.current = new AbortController();
 
       try {
         const stream = await textToSpeechAction({ text });
@@ -57,91 +73,120 @@ export const useTextToSpeech = () => {
           throw new Error('Failed to start audio stream.');
         }
 
+        readerRef.current = stream.getReader();
         mediaSourceRef.current = new MediaSource();
+        
         if (!audioRef.current) {
-          audioRef.current = new Audio();
+            audioRef.current = new Audio();
         }
-        audioRef.current.src = URL.createObjectURL(mediaSourceRef.current);
-        audioRef.current.load(); // Explicitly load the new source
+
+        const audio = audioRef.current;
+        const mediaSource = mediaSourceRef.current;
 
         const onSourceOpen = () => {
-          if (!mediaSourceRef.current) return;
-          sourceBufferRef.current =
-            mediaSourceRef.current.addSourceBuffer('audio/webm; codecs=opus');
-          sourceBufferRef.current.addEventListener('updateend', processAudioQueue);
-          mediaSourceRef.current.removeEventListener('sourceopen', onSourceOpen);
+            if (!mediaSource || mediaSource.readyState !== 'open') return;
+            try {
+                const sourceBuffer = mediaSource.addSourceBuffer('audio/webm; codecs=opus');
+                sourceBufferRef.current = sourceBuffer;
 
-          if(audioRef.current) {
-            audioRef.current.play();
-            setIsSpeaking(true);
+                const processQueue = () => {
+                    if (sourceBuffer.updating || audioQueue.current.length === 0) {
+                        if (streamEnded.current && mediaSource.readyState === 'open' && !sourceBuffer.updating) {
+                           try {
+                             mediaSource.endOfStream();
+                           } catch (e) {
+                             console.error("Error ending stream:", e);
+                           }
+                        }
+                        return;
+                    }
+                    sourceBuffer.appendBuffer(audioQueue.current.shift()!);
+                };
+                
+                sourceBuffer.addEventListener('updateend', processQueue);
+                
+                // Start processing the queue if there's already data
+                processQueue();
+
+            } catch (e) {
+                console.error("Error adding source buffer:", e);
+                stop();
+            }
+        };
+
+        const onAudioEnded = () => {
+          stop();
+        };
+
+        mediaSource.addEventListener('sourceopen', onSourceOpen);
+        audio.addEventListener('ended', onAudioEnded);
+
+        audio.src = URL.createObjectURL(mediaSource);
+        audio.play().catch(e => {
+            console.error("Audio play failed:", e);
+            stop();
+        });
+        setIsSpeaking(true);
+
+
+        const readStream = async () => {
+          if(!readerRef.current) return;
+          try {
+            while (true) {
+                const { done, value } = await readerRef.current.read();
+
+                if (done) {
+                    streamEnded.current = true;
+                    if (sourceBufferRef.current && !sourceBufferRef.current.updating) {
+                        if (mediaSourceRef.current && mediaSourceRef.current.readyState === 'open') {
+                          try {
+                            mediaSourceRef.current.endOfStream();
+                          } catch (e) {
+                             console.error("Error ending stream on done:", e);
+                          }
+                        }
+                    }
+                    break;
+                }
+                if (value?.data?.wavChunk) {
+                    const byteCharacters = atob(value.data.wavChunk);
+                    const byteNumbers = new Array(byteCharacters.length);
+                    for (let i = 0; i < byteCharacters.length; i++) {
+                        byteNumbers[i] = byteCharacters.charCodeAt(i);
+                    }
+                    const byteArray = new Uint8Array(byteNumbers);
+                    audioQueue.current.push(byteArray.buffer);
+
+                    if (sourceBufferRef.current && !sourceBufferRef.current.updating) {
+                       sourceBufferRef.current.appendBuffer(audioQueue.current.shift()!);
+                    }
+                }
+            }
+          } catch(error) {
+             if ((error as Error).name !== 'AbortError') {
+                console.error('Stream reading failed:', error);
+             }
+          } finally {
+             setIsGenerating(false);
           }
         };
         
-        mediaSourceRef.current.addEventListener('sourceopen', onSourceOpen);
+        readStream();
 
-        const reader = stream.getReader();
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) {
-            streamEnded.current = true;
-            processAudioQueue();
-            break;
-          }
-          if (value?.data?.wavChunk) {
-            const byteCharacters = atob(value.data.wavChunk);
-            const byteNumbers = new Array(byteCharacters.length);
-            for (let i = 0; i < byteCharacters.length; i++) {
-              byteNumbers[i] = byteCharacters.charCodeAt(i);
-            }
-            const byteArray = new Uint8Array(byteNumbers);
-            audioQueue.current.push(byteArray.buffer);
-            processAudioQueue();
-          }
-        }
       } catch (error) {
         console.error('Text-to-speech failed:', error);
-        setIsSpeaking(false);
-      } finally {
-        setIsGenerating(false);
+        stop();
       }
     },
-    [isSpeaking, isGenerating, processAudioQueue]
+    [isGenerating, isSpeaking, stop]
   );
-
-  const stop = useCallback(() => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      if (audioRef.current.src) {
-        URL.revokeObjectURL(audioRef.current.src);
-        audioRef.current.removeAttribute('src');
-        audioRef.current.load();
-      }
-    }
-    setIsSpeaking(false);
-    setIsGenerating(false);
-    streamEnded.current = true;
-    audioQueue.current = [];
-    if (mediaSourceRef.current && mediaSourceRef.current.readyState === 'open' && sourceBufferRef.current) {
-        if (!sourceBufferRef.current.updating) {
-            mediaSourceRef.current.endOfStream();
-        }
-    }
-    sourceBufferRef.current = null;
-    mediaSourceRef.current = null;
-  }, []);
-
+  
   useEffect(() => {
-    const currentAudio = audioRef.current;
-    const handleEnded = () => {
-      setIsSpeaking(false);
-    };
-    currentAudio?.addEventListener('ended', handleEnded);
-    
     return () => {
-      currentAudio?.removeEventListener('ended', handleEnded);
       stop();
     };
   }, [stop]);
+
 
   return { isSpeaking, isGenerating, speak, stop };
 };
