@@ -13,12 +13,6 @@ import { ARIZONA_REVISED_STATUTES } from '@/lib/arizona-revised-statutes';
 import { ARIZONA_REVISED_STATUTES_CONTENT } from '@/lib/arizona-revised-statutes-content';
 import { useTextToSpeech } from '@/hooks/useTextToSpeech';
 
-export function generateStaticParams() {
-  return ARIZONA_REVISED_STATUTES.map((law) => ({ 
-    id: law.id, 
-}));
-}
-
 export default function ArizonaStateLawDetailPage() {
   const router = useRouter();
   const params = useParams();
@@ -212,4 +206,10 @@ export default function ArizonaStateLawDetailPage() {
       </div>
     </div>
   );
+}
+
+export function generateStaticParams() {
+  return ARIZONA_REVISED_STATUTES.map((law) => ({ 
+    id: law.id, 
+  }));
 }

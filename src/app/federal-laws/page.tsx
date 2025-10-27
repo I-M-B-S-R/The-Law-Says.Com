@@ -36,7 +36,7 @@ export default function FederalLawsPage() {
             </Link>
         </div>
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
-          <Link href="/">
+          <Link href="/federal-laws">
             {isTranslating && language !== 'English' ? <Loader2 className="mx-auto h-8 w-8 animate-spin" /> : uiText.federalLaws}
           </Link>
         </header>

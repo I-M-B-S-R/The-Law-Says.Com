@@ -1,26 +1,26 @@
 
 'use client';
 
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 
 export const useTextToSpeech = () => {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
   const speak = useCallback((text: string) => {
-    if (!window.speechSynthesis) {
+    if (typeof window === 'undefined' || !window.speechSynthesis) {
       console.error('Text-to-speech is not supported in this browser.');
       return;
     }
 
-    // Stop any currently speaking utterance
+    // If speech is already in progress, stop it before starting a new one.
     if (window.speechSynthesis.speaking) {
       window.speechSynthesis.cancel();
     }
 
     const newUtterance = new SpeechSynthesisUtterance(text);
     utteranceRef.current = newUtterance;
-
+    
     newUtterance.onstart = () => {
       setIsSpeaking(true);
     };
@@ -33,22 +33,22 @@ export const useTextToSpeech = () => {
     newUtterance.onerror = (event) => {
       console.error('SpeechSynthesisUtterance.onerror', event);
       setIsSpeaking(false);
-      utteranceRef.current = null;
+       utteranceRef.current = null;
     };
-
+    
     window.speechSynthesis.speak(newUtterance);
   }, []);
 
   const stop = useCallback(() => {
     if (window.speechSynthesis) {
       window.speechSynthesis.cancel();
+      setIsSpeaking(false);
+      utteranceRef.current = null;
     }
-    setIsSpeaking(false);
-    utteranceRef.current = null;
   }, []);
 
+  // Cleanup effect to cancel speech when the component unmounts
   useEffect(() => {
-    // Cleanup function to cancel speech when the component unmounts
     return () => {
       if (window.speechSynthesis) {
         window.speechSynthesis.cancel();
