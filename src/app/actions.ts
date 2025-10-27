@@ -1,3 +1,4 @@
+
 'use server';
 
 import { getLegalGuidance, type GetLegalGuidanceInput } from '@/ai/flows/get-legal-guidance';
@@ -52,20 +53,18 @@ const TextToSpeechActionInputSchema = z.object({
 });
 
 export async function textToSpeechAction(values: TextToSpeechInput) {
-  try {
-    const validatedInput = TextToSpeechActionInputSchema.parse(values);
-    // This is a streaming action.
-    // The `streamFlow` utility will pipe the flow's stream
-    // to the client.
-    return streamFlow(
-      (await import('@/ai/flows/text-to-speech')).textToSpeech,
-      validatedInput
-    );
-  } catch (error) {
-    if (error instanceof z.ZodError) {
-      return { success: false, error: error.errors.map(e => e.message).join(', ') };
+  const validatedInput = TextToSpeechActionInputSchema.parse(values);
+  // This is a streaming action.
+  // The `streamFlow` utility will pipe the flow's stream
+  // to the client.
+  return streamFlow({
+    flow: (await import('@/ai/flows/text-to-speech')).textToSpeech,
+    input: validatedInput,
+    context: {
+        __registry: (await import('@/ai/dev')).registry,
+    },
+    config: {
+        // ...
     }
-    console.error('Error converting text to speech:', error);
-    return { success: false, error: 'An unexpected error occurred. Please try again.' };
-  }
+  });
 }
