@@ -25,7 +25,7 @@ export default function FederalLawsPage() {
     return FEDERAL_LAWS.filter((law) =>
       law.name.toLowerCase().includes(lowercasedQuery) ||
       law.id.toLowerCase().includes(lowercasedQuery) ||
-      law.keywords.some(keyword => keyword.toLowerCase().includes(lowercasedQuery))
+      (law.keywords && law.keywords.some(keyword => keyword.toLowerCase().includes(lowercasedQuery)))
     );
   }, [searchQuery]);
 
