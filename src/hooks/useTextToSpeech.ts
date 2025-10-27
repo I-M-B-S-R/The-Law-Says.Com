@@ -69,12 +69,14 @@ export const useTextToSpeech = () => {
             mediaSourceRef.current.addSourceBuffer('audio/webm; codecs=opus');
           sourceBufferRef.current.addEventListener('updateend', processAudioQueue);
           mediaSourceRef.current.removeEventListener('sourceopen', onSourceOpen);
+          
+          if(audioRef.current) {
+            audioRef.current.play();
+            setIsSpeaking(true);
+          }
         };
         
         mediaSourceRef.current.addEventListener('sourceopen', onSourceOpen);
-        
-        audioRef.current.play();
-        setIsSpeaking(true);
 
         const reader = stream.getReader();
         while (true) {
