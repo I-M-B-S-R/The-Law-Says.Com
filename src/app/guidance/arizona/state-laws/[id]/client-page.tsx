@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight, AudioLines, StopCircle, Home, Accessibility } from 'lucide-react';
+import { ArrowLeft, ArrowRight, AudioLines, StopCircle, Home, Accessibility, Landmark } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -56,6 +56,8 @@ export default function ArizonaStateLawDetailClientPage({ law, lawContent }: { l
     keyProvisionsContentSpeeches.speak(content.replace(/<[^>]*>/g, ''));
   }
 
+  const fullLawName = `Arizona Revised Statutes Title ${law.id}`;
+  const courtListenerUrl = `https://www.courtlistener.com/opinion/?q="${encodeURIComponent(fullLawName)}"`;
 
   return (
     <div className="flex h-screen flex-col items-center justify-center bg-black p-4">
@@ -73,7 +75,7 @@ export default function ArizonaStateLawDetailClientPage({ law, lawContent }: { l
           </div>
           <main className="p-4 pt-0">
             <Card className="border-destructive p-4">
-                <div className="mb-4 flex justify-center">
+                <div className="mb-4 flex flex-col gap-4">
                     <Button size="lg" onClick={handleMainListenClick} className="h-14 w-full font-bold btn-destructive">
                         {mainSpeech.isSpeaking ? (
                             <>
@@ -86,6 +88,12 @@ export default function ArizonaStateLawDetailClientPage({ law, lawContent }: { l
                                 Listen
                             </>
                         )}
+                    </Button>
+                     <Button asChild size="lg" className="h-14 font-bold btn-destructive">
+                      <a href={courtListenerUrl} target="_blank" rel="noopener noreferrer">
+                          <Landmark className="mr-2 h-5 w-5" />
+                          Find Relevant Case Law
+                      </a>
                     </Button>
                 </div>
               <CardHeader className="text-center">
