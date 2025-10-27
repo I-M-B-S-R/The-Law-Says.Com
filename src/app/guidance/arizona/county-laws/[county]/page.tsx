@@ -8,20 +8,6 @@ import { ArrowLeft, ArrowRight, Home, Search, Accessibility } from 'lucide-react
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { YAVAPAI_COUNTY_ORDINANCES } from '@/lib/yavapai-county-ordinances';
-import { APACHE_COUNTY_ORDINANCES } from '@/lib/apache-county-ordinances';
-import { COCHISE_COUNTY_ORDINANCES } from '@/lib/cochise-county-ordinances';
-import { COCONINO_COUNTY_ORDINANCES } from '@/lib/coconino-county-ordinances';
-import { GILA_COUNTY_ORDINANCES } from '@/lib/gila-county-ordinances';
-import { GRAHAM_COUNTY_ORDINANCES } from '@/lib/graham-county-ordinances';
-import { GREENLEE_COUNTY_ORDINANCES } from '@/lib/greenlee-county-ordinances';
-import { LA_PAZ_COUNTY_ORDINANCES } from '@/lib/la-paz-county-ordinances';
-import { MARICOPA_COUNTY_ORDINANCES } from '@/lib/maricopa-county-ordinances';
-import { MOHAVE_COUNTY_ORDINANCES } from '@/lib/mohave-county-ordinances';
-import { NAVAJO_COUNTY_ORDINANCES } from '@/lib/navajo-county-ordinances';
-import { PIMA_COUNTY_ORDINANCES } from '@/lib/pima-county-ordinances';
-import { PINAL_COUNTY_ORDINANCES } from '@/lib/pinal-county-ordinances';
-import { SANTA_CRUZ_COUNTY_ORDINANCES } from '@/lib/santa-cruz-county-ordinances';
-import { YUMA_COUNTY_ORDINANCES } from '@/lib/yuma-county-ordinances';
 import { Input } from '@/components/ui/input';
 
 export default function CountyLawsPage() {
@@ -31,55 +17,10 @@ export default function CountyLawsPage() {
   const county = countySlug ? countySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : '';
   const [searchQuery, setSearchQuery] = useState('');
 
-  let ordinances: { id: string; name: string }[] = [];
-  let ordinancesPath = '';
-
-  if (countySlug === 'yavapai') {
-    ordinances = YAVAPAI_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/yavapai';
-  } else if (countySlug === 'apache') {
-    ordinances = APACHE_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/apache';
-  } else if (countySlug === 'cochise') {
-    ordinances = COCHISE_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/cochise';
-  } else if (countySlug === 'coconino') {
-    ordinances = COCONINO_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/coconino';
-  } else if (countySlug === 'gila') {
-    ordinances = GILA_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/gila';
-  } else if (countySlug === 'graham') {
-    ordinances = GRAHAM_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/graham';
-  } else if (countySlug === 'greenlee') {
-    ordinances = GREENLEE_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/greenlee';
-  } else if (countySlug === 'la-paz') {
-    ordinances = LA_PAZ_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/la-paz';
-  } else if (countySlug === 'maricopa') {
-    ordinances = MARICOPA_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/maricopa';
-  } else if (countySlug === 'mohave') {
-    ordinances = MOHAVE_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/mohave';
-  } else if (countySlug === 'navajo') {
-    ordinances = NAVAJO_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/navajo';
-  } else if (countySlug === 'pima') {
-    ordinances = PIMA_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/pima';
-  } else if (countySlug === 'pinal') {
-    ordinances = PINAL_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/pinal';
-  } else if (countySlug === 'santa-cruz') {
-    ordinances = SANTA_CRUZ_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/santa-cruz';
-  } else if (countySlug === 'yuma') {
-    ordinances = YUMA_COUNTY_ORDINANCES;
-    ordinancesPath = '/guidance/arizona/county-laws/yuma';
-  }
+  // This is a placeholder for a dynamic import system
+  // For now, we only have data for Yavapai County
+  const ordinances = countySlug === 'yavapai' ? YAVAPAI_COUNTY_ORDINANCES : [];
+  const ordinancesPath = `/guidance/arizona/county-laws/yavapai`;
 
   const filteredOrdinances = useMemo(() => {
     if (!searchQuery) {
