@@ -35,7 +35,7 @@ export default function ArizonaTribalLawsPage() {
                   className="h-14 w-full justify-center whitespace-normal px-4 text-center font-bold btn-destructive"
                   asChild
                 >
-                  <Link href={`/guidance/arizona/tribal-laws/${tribe.toLowerCase().replace(/ /g, '-').replace(/'/g, '')}`}>
+                  <Link href={`/guidance/arizona/tribal-laws/${tribe.toLowerCase().replace(/ /g, '-')}`}>
                     <span>{tribe}</span>
                   </Link>
                 </Button>
