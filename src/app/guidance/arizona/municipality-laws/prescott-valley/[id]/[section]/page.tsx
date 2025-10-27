@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useParams, useRouter, notFound } from 'next/navigation';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -38,7 +38,13 @@ export default function MunicipalityLawDetailPage() {
   if (sections.length > 0) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-        <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
+        <div className="flex h-full w-full max-w-sm flex-col bg-background shadow-2xl">
+            <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
+                <Link href="/" className="flex items-center justify-center gap-2">
+                    <Home className="h-4 w-4" />
+                    Home
+                </Link>
+            </div>
           <header className="flex-shrink-0 rounded-t-lg border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
             <Link href={backLink}>{title}</Link>
           </header>
@@ -85,7 +91,13 @@ export default function MunicipalityLawDetailPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
+      <div className="flex h-full w-full max-w-sm flex-col bg-background shadow-2xl">
+        <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
+            <Link href="/" className="flex items-center justify-center gap-2">
+                <Home className="h-4 w-4" />
+                Home
+            </Link>
+        </div>
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-xl font-bold text-destructive-foreground shadow-md">
           <Link href={backLink}>{title}</Link>
         </header>

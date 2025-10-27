@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ARIZONA_COUNTIES } from '@/lib/arizona-counties';
@@ -14,7 +14,13 @@ export default function ArizonaCountyLawsPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
+      <div className="flex h-full w-full max-w-sm flex-col bg-background shadow-2xl">
+        <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
+            <Link href="/" className="flex items-center justify-center gap-2">
+                <Home className="h-4 w-4" />
+                Home
+            </Link>
+        </div>
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           <Link href="/guidance/arizona">Arizona County Laws</Link>
         </header>
