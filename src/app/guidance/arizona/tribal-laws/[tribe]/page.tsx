@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, AudioLines, StopCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -32,11 +32,13 @@ import { TONTO_APACHE_CONTENT } from '@/lib/tonto-apache-content';
 import { WHITE_MOUNTAIN_APACHE_CONTENT } from '@/lib/white-mountain-apache-content';
 import { YAVAPAI_APACHE_CONTENT } from '@/lib/yavapai-apache-content';
 import { YAVAPAI_PRESCOTT_CONTENT } from '@/lib/yavapai-prescott-content';
+import { useTextToSpeech } from '@/hooks/useTextToSpeech';
 
 export default function TribalLawPage() {
   const router = useRouter();
   const params = useParams();
   const tribeSlug = params.tribe as string;
+  const speech = useTextToSpeech();
 
   const tribeName = ARIZONA_TRIBES.find(
     (tribe) => tribe.toLowerCase().replace(/ /g, '-').replace(/'/g, '') === tribeSlug
@@ -134,6 +136,20 @@ export default function TribalLawPage() {
     );
   }
 
+  const contentToRead = `
+    ${tribeContent.title}.
+    Summary: ${tribeContent.summary.replace(/<[^>]*>/g, '')}.
+    ${Object.values(tribeContent.sections).map(s => `${s.title}. ${s.content.replace(/<[^>]*>/g, '')}`).join(' ')}
+  `;
+
+  const handleListenClick = () => {
+    if (speech.isSpeaking) {
+      speech.stop();
+    } else {
+      speech.speak(contentToRead);
+    }
+  };
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
@@ -143,6 +159,21 @@ export default function TribalLawPage() {
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
+            <div className="mb-4 flex justify-center">
+                <Button size="lg" onClick={handleListenClick} className="h-14 w-full font-bold btn-destructive">
+                    {speech.isSpeaking ? (
+                        <>
+                            <StopCircle className="mr-2 h-5 w-5" />
+                            Stop
+                        </>
+                    ): (
+                        <>
+                            <AudioLines className="mr-2 h-5 w-5" />
+                            Listen
+                        </>
+                    )}
+                </Button>
+            </div>
             <Card className="border-destructive">
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl font-bold">{tribeContent.title}</CardTitle>

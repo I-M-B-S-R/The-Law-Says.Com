@@ -4,18 +4,20 @@
 import React from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, AudioLines, StopCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FEDERAL_LAWS } from '@/lib/federal-laws';
 import { FEDERAL_LAW_CONTENT } from '@/lib/federal-laws-content';
+import { useTextToSpeech } from '@/hooks/useTextToSpeech';
 
 export default function FederalLawDetailPage() {
   const router = useRouter();
   const params = useParams();
   const { id } = params;
+  const speech = useTextToSpeech();
 
   const law = FEDERAL_LAWS.find((l) => l.id === id);
   const lawContent = FEDERAL_LAW_CONTENT[id as string];
@@ -33,6 +35,21 @@ export default function FederalLawDetailPage() {
     );
   }
 
+  const contentToRead = `
+    ${law.id}. ${law.name}.
+    Summary: ${lawContent.summary.replace(/<[^>]*>/g, '')}.
+    Purpose: ${lawContent.purpose}.
+    Key Provisions: ${lawContent.keyProvisions.map(p => `${p.title}. ${p.content}`).join(' ')}
+  `;
+
+  const handleListenClick = () => {
+    if (speech.isSpeaking) {
+      speech.stop();
+    } else {
+      speech.speak(contentToRead);
+    }
+  };
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4">
       <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
@@ -42,6 +59,21 @@ export default function FederalLawDetailPage() {
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
           <main className="p-4">
+            <div className="mb-4 flex justify-center">
+                <Button size="lg" onClick={handleListenClick} className="h-14 w-full font-bold btn-destructive">
+                    {speech.isSpeaking ? (
+                        <>
+                            <StopCircle className="mr-2 h-5 w-5" />
+                            Stop
+                        </>
+                    ): (
+                        <>
+                            <AudioLines className="mr-2 h-5 w-5" />
+                            Listen
+                        </>
+                    )}
+                </Button>
+            </div>
             <Card className="border-destructive">
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl font-bold">{law.id}. {law.name}</CardTitle>
