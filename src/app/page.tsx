@@ -5,7 +5,7 @@ import React, { useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2, StopCircle, Accessibility, Home } from 'lucide-react';
+import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2, StopCircle, Accessibility, Home, MessageSquareQuote } from 'lucide-react';
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -24,7 +24,8 @@ const HomePage = () => {
     ${uiText.translate},
     ${uiText.listen},
     ${uiText.federalLaws},
-    ${uiText.stateLaws}
+    ${uiText.stateLaws},
+    Ask the AI a question
   `, [uiText]);
 
   const missionContent = useMemo(() => `
@@ -119,6 +120,13 @@ const HomePage = () => {
               <Button asChild size="lg" className="h-14 font-bold btn-destructive">
                 <Link href="/guidance" className="flex items-center justify-center">
                   {isTranslating && language !== 'English' ? <Loader2 className="h-5 w-5 animate-spin" /> : uiText.stateLaws}
+                </Link>
+              </Button>
+
+              <Button asChild size="lg" className="h-14 font-bold btn-destructive">
+                <Link href="/guidance/ask" className="flex items-center justify-center">
+                   <MessageSquareQuote className="mr-2 h-5 w-5" />
+                   Ask The AI A Question
                 </Link>
               </Button>
             </div>
@@ -227,3 +235,5 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+    
