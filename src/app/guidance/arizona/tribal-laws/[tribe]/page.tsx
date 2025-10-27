@@ -12,6 +12,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { ARIZONA_TRIBES } from '@/lib/arizona-tribes';
 import { AK_CHIN_CONTENT } from '@/lib/ak-chin-content';
 import { COCOPAH_CONTENT } from '@/lib/cocopah-content';
+import { COLORADO_RIVER_INDIAN_TRIBES_CONTENT } from '@/lib/colorado-river-indian-tribes-content';
 
 export default function TribalLawPage() {
   const router = useRouter();
@@ -27,6 +28,8 @@ export default function TribalLawPage() {
     tribeContent = AK_CHIN_CONTENT;
   } else if (tribeSlug === 'cocopah-indian-tribe') {
     tribeContent = COCOPAH_CONTENT;
+  } else if (tribeSlug === 'colorado-river-indian-tribes') {
+    tribeContent = COLORADO_RIVER_INDIAN_TRIBES_CONTENT;
   }
 
 
