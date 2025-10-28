@@ -1,0 +1,155 @@
+{
+  "id": 11,
+  "name": "Bankruptcy",
+  "chapters": [
+    {
+      "id": "/us/usc/t11/ch1",
+      "number": null,
+      "name": "GENERAL PROVISIONS",
+      "sections": [
+        {
+          "id": "/us/usc/t11/s101",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s102",
+          "number": null,
+          "heading": "Rules of construction",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s103",
+          "number": null,
+          "heading": "Applicability of chapters",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s104",
+          "number": null,
+          "heading": "Adjustment of dollar amounts",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s105",
+          "number": null,
+          "heading": "Power of court",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s106",
+          "number": null,
+          "heading": "Waiver of sovereign immunity",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s107",
+          "number": null,
+          "heading": "Public access to papers",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s108",
+          "number": null,
+          "heading": "Extension of time",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s109",
+          "number": null,
+          "heading": "Who may be a debtor",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s110",
+          "number": null,
+          "heading": "Penalty for persons who negligently or fraudulently prepare bankruptcy petitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s111",
+          "number": null,
+          "heading": "Nonprofit budget and credit counseling agencies; financial management instructional courses",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t11/s112",
+          "number": null,
+          "heading": "Prohibition on disclosure of name of minor children",
+          "text": "The debtor may be required to provide information regarding a minor child involved in matters under this title but may not be required to disclose in the public records in the case the name of such minor child. The debtor may be required to disclose the name of such minor child in a nonpublic record that is maintained by the court and made available by the court for examination by the United States trustee, the trustee, and the auditor (if any) serving under , in the case. The court, the United States trustee, the trustee, and such auditor shall not disclose the name of such minor child maintained in such nonpublic record.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t11/ch3",
+      "number": null,
+      "name": "CASE ADMINISTRATION",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t11/ch5",
+      "number": null,
+      "name": "CREDITORS, THE DEBTOR, AND THE ESTATE",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t11/ch7",
+      "number": null,
+      "name": "LIQUIDATION",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t11/ch9",
+      "number": null,
+      "name": "ADJUSTMENT OF DEBTS OF A MUNICIPALITY",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t11/ch11",
+      "number": null,
+      "name": "REORGANIZATION",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t11/ch12",
+      "number": null,
+      "name": "ADJUSTMENT OF DEBTS OF A FAMILY FARMER OR FISHERMAN WITH REGULAR ANNUAL INCOME",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t11/ch13",
+      "number": null,
+      "name": "ADJUSTMENT OF DEBTS OF AN INDIVIDUAL WITH REGULAR INCOME",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t11/ch15",
+      "number": null,
+      "name": "ANCILLARY AND OTHER CROSS-BORDER CASES",
+      "sections": [
+        {
+          "id": "/us/usc/t11/s1501",
+          "number": null,
+          "heading": "Purpose and scope of application",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "subtitles": [],
+  "parts": []
+}

@@ -8,7 +8,7 @@
   background-color: #1a1a1a; /* Dark background, slightly different from header */
   border-bottom: 1px solid #444; /* Subtle line */
   display: flex;
-  justify-content: flex-start; /* Align to the left */
+  justify-content: center; /* Center align */
 }
 
 .breadcrumbLink {

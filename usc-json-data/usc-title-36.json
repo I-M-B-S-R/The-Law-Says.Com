@@ -1,0 +1,125 @@
+{
+  "id": 36,
+  "name": "Patriotic and National Observances, Ceremonies, and Organizations",
+  "chapters": [],
+  "subtitles": [
+    {
+      "id": "/us/usc/t36/stI",
+      "number": null,
+      "name": "Patriotic and National Observances and Ceremonies",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t36/stII",
+      "number": null,
+      "name": "Patriotic and National Organizations",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t36/stIII",
+      "number": null,
+      "name": "Treaty Obligation Organizations",
+      "chapters": [
+        {
+          "id": "/us/usc/t36/stIII/ch3001",
+          "number": null,
+          "name": "THE AMERICAN NATIONAL RED CROSS",
+          "sections": [
+            {
+              "id": "/us/usc/t36/s300101",
+              "number": null,
+              "heading": "Organization",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300102",
+              "number": null,
+              "heading": "Purposes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300103",
+              "number": null,
+              "heading": "Membership and chapters",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300104",
+              "number": null,
+              "heading": "Board of governors",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300105",
+              "number": null,
+              "heading": "Powers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300106",
+              "number": null,
+              "heading": "Emblem, badge, and brassard",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300107",
+              "number": null,
+              "heading": "Annual meeting",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300108",
+              "number": null,
+              "heading": "Buildings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300109",
+              "number": null,
+              "heading": "Endowment fund",
+              "text": "The endowment fund of the corporation shall be kept and invested under the management and control of a board of trustees elected by the board of governors. The corporation shall prescribe policies and regulations on terms and tenure of office, accountability, and expenses of the board of trustees.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300110",
+              "number": null,
+              "heading": "Annual report and audit",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300111",
+              "number": null,
+              "heading": "Authority of the Comptroller General of the United States",
+              "text": "The Comptroller General of the United States is authorized to review the corporation’s involvement in any Federal program or activity the Government carries out under law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300112",
+              "number": null,
+              "heading": "Office of the Ombudsman",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t36/s300113",
+              "number": null,
+              "heading": "Reservation of right to amend or repeal",
+              "text": "Congress reserves the right to amend or repeal the provisions of this chapter.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": []
+}

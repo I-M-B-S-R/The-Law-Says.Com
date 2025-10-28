@@ -1,0 +1,539 @@
+{
+  "id": 41,
+  "name": "Public Contracts",
+  "chapters": [],
+  "subtitles": [
+    {
+      "id": "/us/usc/t41/stI",
+      "number": null,
+      "name": "Federal Procurement Policy",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t41/stII",
+      "number": null,
+      "name": "Other Advertising and Contract Provisions",
+      "chapters": [
+        {
+          "id": "/us/usc/t41/stII/ch61",
+          "number": null,
+          "name": "ADVERTISING",
+          "sections": [
+            {
+              "id": "/us/usc/t41/s6101",
+              "number": null,
+              "heading": "Advertising requirement for Federal Government purchases and sales",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6102",
+              "number": null,
+              "heading": "Exceptions from advertising requirement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6103",
+              "number": null,
+              "heading": "Opening of bids",
+              "text": "Whenever proposals for supplies have been solicited, the parties responding to the solicitation shall be notified of the time and place of the opening of the bids, and be permitted to be present either in person or by attorney. A record of each bid shall be made at the time and place of the opening of the bids.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t41/stII/ch63",
+          "number": null,
+          "name": "GENERAL CONTRACT PROVISIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t41/s6301",
+              "number": null,
+              "heading": "Authorization requirement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6302",
+              "number": null,
+              "heading": "Contracts for fuel made by Secretary of the Army",
+              "text": "The Secretary of the Army, when the Secretary believes it is in the interest of the United States, may enter into contracts and incur obligations for fuel in sufficient quantities to meet the requirements for one year without regard to the current fiscal year. Amounts appropriated for the fiscal year in which the contract is made or amounts appropriated or which may be appropriated for the following fiscal year may be used to pay for supplies delivered under a contract made pursuant to this section.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6303",
+              "number": null,
+              "heading": "Certain contracts limited to appropriated amounts",
+              "text": "A contract to erect, repair, or furnish a public building, or to make any public improvement, shall not be made on terms requiring the Federal Government to pay more than the amount specifically appropriated for the activity covered by the contract.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6304",
+              "number": null,
+              "heading": "Certain contracts limited to one-year term",
+              "text": "Except as otherwise provided, an executive department shall not make a contract for stationery or other supplies for a term longer than one year from the time the contract is made.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6305",
+              "number": null,
+              "heading": "Prohibition on transfer of contract and certain allowable assignments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6306",
+              "number": null,
+              "heading": "Prohibition on Members of Congress making contracts with Federal Government",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6307",
+              "number": null,
+              "heading": "Contracts with Federal Government-owned establishments and availability of appropriations",
+              "text": "An order or contract placed with a Federal Government-owned establishment for work, material, or the manufacture of material pertaining to an approved project is deemed to be an obligation in the same manner that a similar order or contract placed with a commercial manufacturer or private contractor is an obligation. Appropriations remain available to pay an obligation to a Federal Government-owned establishment just as appropriations remain available to pay an obligation to a commercial manufacturer or private contractor.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6308",
+              "number": null,
+              "heading": "Contracts for transportation of Federal Government securities",
+              "text": "When practicable, a contract for transporting bullion, cash, or securities of the Federal Government shall be awarded to the lowest responsible bidder after notice to all parties with means of transportation.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6309",
+              "number": null,
+              "heading": "Honorable discharge certificate in lieu of birth certificate",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t41/stII/ch65",
+          "number": null,
+          "name": "CONTRACTS FOR MATERIALS, SUPPLIES, ARTICLES, AND EQUIPMENT EXCEEDING $10,000",
+          "sections": [
+            {
+              "id": "/us/usc/t41/s6501",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6502",
+              "number": null,
+              "heading": "Required contract terms",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6503",
+              "number": null,
+              "heading": "Breach or violation of required contract terms",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6504",
+              "number": null,
+              "heading": "Three-year prohibition on new contracts in case of breach or violation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6505",
+              "number": null,
+              "heading": "Exclusions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6506",
+              "number": null,
+              "heading": "Administrative provisions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6507",
+              "number": null,
+              "heading": "Hearing authority and procedures",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6508",
+              "number": null,
+              "heading": "Authority to make exceptions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6509",
+              "number": null,
+              "heading": "Other procedures",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6510",
+              "number": null,
+              "heading": "Manufacturers and regular dealers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6511",
+              "number": null,
+              "heading": "Effect on other law",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t41/stII/ch67",
+          "number": null,
+          "name": "SERVICE CONTRACT LABOR STANDARDS",
+          "sections": [
+            {
+              "id": "/us/usc/t41/s6701",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6702",
+              "number": null,
+              "heading": "Contracts to which this chapter applies",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6703",
+              "number": null,
+              "heading": "Required contract terms",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6704",
+              "number": null,
+              "heading": "Limitation on minimum wage",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6705",
+              "number": null,
+              "heading": "Violations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6706",
+              "number": null,
+              "heading": "Three-year prohibition on new contracts in case of violation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s6707",
+              "number": null,
+              "heading": "Enforcement and administration of chapter",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t41/stIII",
+      "number": null,
+      "name": "Contract Disputes",
+      "chapters": [
+        {
+          "id": "/us/usc/t41/stIII/ch71",
+          "number": null,
+          "name": "CONTRACT DISPUTES",
+          "sections": [
+            {
+              "id": "/us/usc/t41/s7101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s7102",
+              "number": null,
+              "heading": "Applicability of chapter",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s7103",
+              "number": null,
+              "heading": "Decision by contracting officer",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s7104",
+              "number": null,
+              "heading": "Contractor’s right of appeal from decision by contracting officer",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s7105",
+              "number": null,
+              "heading": "Agency boards",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s7106",
+              "number": null,
+              "heading": "Agency board procedures for accelerated and small claims",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s7107",
+              "number": null,
+              "heading": "Judicial review of agency board decisions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s7108",
+              "number": null,
+              "heading": "Payment of claims",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s7109",
+              "number": null,
+              "heading": "Interest",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t41/stIV",
+      "number": null,
+      "name": "Miscellaneous",
+      "chapters": [
+        {
+          "id": "/us/usc/t41/stIV/ch81",
+          "number": null,
+          "name": "DRUG-FREE WORKPLACE",
+          "sections": [
+            {
+              "id": "/us/usc/t41/s8101",
+              "number": null,
+              "heading": "Definitions and construction",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8102",
+              "number": null,
+              "heading": "Drug-free workplace requirements for Federal contractors",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8103",
+              "number": null,
+              "heading": "Drug-free workplace requirements for Federal grant recipients",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8104",
+              "number": null,
+              "heading": "Employee sanctions and remedies",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8105",
+              "number": null,
+              "heading": "Waiver",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8106",
+              "number": null,
+              "heading": "Regulations",
+              "text": "Government-wide regulations governing actions under this chapter shall be issued pursuant to division B of subtitle I of this title.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t41/stIV/ch83",
+          "number": null,
+          "name": "BUY AMERICAN",
+          "sections": [
+            {
+              "id": "/us/usc/t41/s8301",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8302",
+              "number": null,
+              "heading": "American materials required for public use",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8303",
+              "number": null,
+              "heading": "Contracts for public works",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8304",
+              "number": null,
+              "heading": "Waiver rescission",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8305",
+              "number": null,
+              "heading": "Annual report",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t41/stIV/ch85",
+          "number": null,
+          "name": "COMMITTEE FOR PURCHASE FROM PEOPLE WHO ARE BLIND OR SEVERELY DISABLED",
+          "sections": [
+            {
+              "id": "/us/usc/t41/s8501",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8502",
+              "number": null,
+              "heading": "Committee for Purchase From People Who Are Blind or Severely Disabled",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8503",
+              "number": null,
+              "heading": "Duties and powers of the Committee",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8504",
+              "number": null,
+              "heading": "Procurement requirements for the Federal Government",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8505",
+              "number": null,
+              "heading": "Audit",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8506",
+              "number": null,
+              "heading": "Authorization of appropriations",
+              "text": "Necessary amounts may be appropriated to the Committee to carry out this chapter.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t41/stIV/ch87",
+          "number": null,
+          "name": "KICKBACKS",
+          "sections": [
+            {
+              "id": "/us/usc/t41/s8701",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8702",
+              "number": null,
+              "heading": "Prohibited conduct",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8703",
+              "number": null,
+              "heading": "Contractor responsibilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8704",
+              "number": null,
+              "heading": "Inspection authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8705",
+              "number": null,
+              "heading": "Administrative offsets",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8706",
+              "number": null,
+              "heading": "Civil actions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t41/s8707",
+              "number": null,
+              "heading": "Criminal penalties",
+              "text": "A person that knowingly and willfully engages in conduct prohibited by  shall be fined under title 18, imprisoned for not more than 10 years, or both.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": []
+}

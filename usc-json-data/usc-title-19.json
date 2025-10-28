@@ -1,0 +1,1690 @@
+{
+  "id": 19,
+  "name": "Customs Duties",
+  "chapters": [
+    {
+      "id": "/us/usc/t19/ch1",
+      "number": null,
+      "name": "COLLECTION DISTRICTS, PORTS, AND OFFICERS",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s1",
+          "number": null,
+          "heading": "Organization of customs service",
+          "text": "Except as hereinafter provided the reorganization of the customs service made by the President and communicated to Congress under date of , shall, until otherwise provided by Congress, constitute the permanent organization of the customs service.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2",
+          "number": null,
+          "heading": "Rearrangement and limitation of districts; changing locations",
+          "text": "The President is authorized from time to time, as the exigencies of the service may require, to rearrange, by consolidation or otherwise, the several customs-collection districts and to discontinue ports of entry by abolishing the same or establishing others in their stead. The President is authorized from time to time to change the location of the headquarters in any customs-collection district as the needs of the service may require.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3",
+          "number": null,
+          "heading": "Superintendence of collection of import duties",
+          "text": "The Secretary of the Treasury shall direct the superintendence of the collection of the duties on imports as he shall judge best.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s4",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s5, 5a",
+          "number": null,
+          "heading": "Repealed. , (b), ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s6",
+          "number": null,
+          "heading": "Designation of customs officers for foreign service; status; rejection of designated customs officer; applicability of civil service laws",
+          "text": "Any officer of the customs service designated by the Secretary of the Treasury for foreign service, shall, through the Department of State, be regularly and officially attached to the diplomatic missions of the United States in the countries in which they are to be stationed, and when such officers are assigned to countries in which there are no diplomatic missions of the United States, appropriate recognition and standing with full facilities for discharging their official duties shall be arranged by the Department of State. The Secretary of State may reject the name of any such officer whose assignment to the foreign post for which he has been designated would, in his judgment, be prejudicial to the public policy of the United States. The appointment of such customs officers shall be made pursuant to the civil service laws and regulations upon the nomination of the principal officer in charge of the office to which such appointments are to be made.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s6a to 6d",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s6e",
+          "number": null,
+          "heading": "Overtime compensation based on standard or daylight saving time",
+          "text": "On and after , overtime compensation of customs officers and employees, as authorized by law, shall be based either on standard or daylight saving time, whichever is observed where overtime services are performed.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s7 to 11",
+          "number": null,
+          "heading": "Repealed. –(g), ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s12 to 18",
+          "number": null,
+          "heading": "Repealed. –(7),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s19, 20",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s21 to 24",
+          "number": null,
+          "heading": "Repealed. –(11), (13),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s26 to 28",
+          "number": null,
+          "heading": "Repealed. –(14),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s29",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s30",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s30a",
+          "number": null,
+          "heading": "Repealed. , , eff.",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s31, 32",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s33 to 35",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s36, 37",
+          "number": null,
+          "heading": "Repealed. , (i), ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s38",
+          "number": null,
+          "heading": "Repealed. , title IV, § 651(a)(1), , eff.",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s39",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s40",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s41",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s42 to 45",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s46, 47",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s48",
+          "number": null,
+          "heading": "Repealed. , , eff.",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s49",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s50, 51",
+          "number": null,
+          "heading": "Repealed. , , , 645, 650",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s52",
+          "number": null,
+          "heading": "Payment of compensation and expenses",
+          "text": "The compensation of all customs officers and employees provided for by sections 6, 7, 8, 13, and 51 of this title, and the expenses authorized by , shall be paid from the appropriation for the collection of the revenue from customs.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s53 to 57",
+          "number": null,
+          "heading": "Repealed. –(20),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s58",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s58a",
+          "number": null,
+          "heading": "Fees for services of customs officers",
+          "text": "The Secretary may charge such fees as may be necessary to cover the costs of providing services similar to or the same as services furnished by customs officers under the sections repealed by subsection (a).",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s58b",
+          "number": null,
+          "heading": "User fee for customs services at certain small airports and other facilities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s58b–1",
+          "number": null,
+          "heading": "Expenses from fees collected",
+          "text": "Beginning in fiscal year 1998 and thereafter, such sums as may be necessary for expenses for the provision of Customs services at certain small airports or other facilities when authorized by law and designated by the Secretary of the Treasury, including expenditures for the salary and expenses of individuals employed to provide such services, to be derived from fees collected by the Secretary pursuant to  for each of these airports or other facilities when authorized by law and designated by the Secretary, and to remain available until expended.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s58c",
+          "number": null,
+          "heading": "Fees for certain customs services",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s59",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s60",
+          "number": null,
+          "heading": "Penalty for extortion",
+          "text": "Every officer of the customs who demands or receives any other or greater fee, compensation, or reward than is allowed by law, for performing any duty or service required from him by law, shall be liable to a penalty of $200 for each offense, recoverable to the use of the party aggrieved.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s61, 62",
+          "number": null,
+          "heading": "Repealed. , (23),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s63",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s64",
+          "number": null,
+          "heading": "Laws imposing fines applicable to persons acting under customs laws",
+          "text": "All Acts and parts of Acts imposing fines, penalties, or other punishment for offenses committed by an internal revenue officer or other officer of the Department of the Treasury of the United States, or under any bureau thereof, shall apply to all persons whomsoever, employed, appointed, or acting under the authority of any customs law, when such persons are designated or acting as officers or deputies, or persons having the custody or disposition of any public money.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s66",
+          "number": null,
+          "heading": "Rules and forms prescribed by Secretary",
+          "text": "The Secretary of the Treasury shall prescribe forms of entries, oaths, bonds, and other papers, and rules and regulations not inconsistent with law, to be used in carrying out the provisions of law relating to raising revenue from imports, or to duties on imports, or to warehousing, and shall give such directions to customs officers and prescribe such rules and forms to be observed by them as may be necessary for the proper execution of the law.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s67",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s68",
+          "number": null,
+          "heading": "Enforcement of customs and immigration laws in Guam and the Virgin Islands and along Canadian and Mexican borders; cooperation by Secretary of the Treasury and Attorney General; erection of buildings",
+          "text": "To aid in the enforcement of the customs and immigration laws along the Canadian and Mexican borders and to provide better facilities for such enforcement at points along such borders at which no Federal or other buildings adapted or suitably located for the purpose are available, and for similar purposes in the Virgin Islands of the United States, the Secretary of the Treasury and the Attorney General are hereby authorized to expend, and for similar purposes in Guam the Attorney General is hereby authorized to expend, from the funds appropriated for the general maintenance and operation of the Customs and the Immigration and Naturalization Services, respectively, the necessary amounts for the acquisition of land and the erection of buildings, sheds, and office quarters, including living quarters for officers where none are otherwise available: , That the total amount which may be so expended for any one project, including the site, shall not exceed $200,000 and that where the project is for the joint use of the Customs Service and the Immigration and Naturalization Service, the combined cost of the project, including the site, shall be charged to the two appropriations concerned.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s69",
+          "number": null,
+          "heading": "Erection of protective gates and fences across and around roads crossing borders",
+          "text": "The Secretary of the Treasury is authorized to expend, from the funds appropriated for the general maintenance and operation of the Customs Service, such amounts as may be necessary for the erection of protective gates across international highways and roads crossing the Canadian and Mexican borders and for the erection of such fences in the immediate vicinity of such highways and roads as may be necessary to prevent unlawful entry or smuggling.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s70",
+          "number": null,
+          "heading": "Obstruction of revenue officers by masters of vessels",
+          "text": "If the master of any vessel shall obstruct or hinder, or shall intentionally cause any obstruction or hindrance to any officer in lawfully going on board such vessel, for the purpose of carrying into effect any of the revenue or navigation laws of the United States, he shall for every such offense be liable to a penalty of not more than $2,000 nor less than $500.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch1A",
+      "number": null,
+      "name": "FOREIGN TRADE ZONES",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s81a",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81b",
+          "number": null,
+          "heading": "Establishment of zones",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81c",
+          "number": null,
+          "heading": "Exemption from customs laws of merchandise brought into foreign trade zone",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81d",
+          "number": null,
+          "heading": "Customs officers and guards",
+          "text": "The Secretary of the Treasury shall assign to the zone the necessary customs officers and guards to protect the revenue and to provide for the admission of foreign merchandise into customs territory.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81e",
+          "number": null,
+          "heading": "Vessels entering or leaving zone; coastwise trade",
+          "text": "Vessels entering or leaving a zone shall be subject to the operation of all the laws of the United States, except as otherwise provided in this chapter, and vessels leaving a zone and arriving in customs territory of the United States shall be subject to such regulations to protect the revenue as may be prescribed by the Secretary of the Treasury. Nothing in this chapter shall be construed in any manner so as to permit vessels under foreign flags to carry goods or merchandise shipped from one foreign trade zone to another zone or port in the protected coastwise trade of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81f",
+          "number": null,
+          "heading": "Application for establishment and expansion of zone",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81g",
+          "number": null,
+          "heading": "Granting of application",
+          "text": "If the Board finds that the proposed plans and location are suitable for the accomplishment of the purpose of a foreign trade zone under this chapter, and that the facilities and appurtenances which it is proposed to provide are sufficient it shall make the grant.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81h",
+          "number": null,
+          "heading": "Rules and regulations",
+          "text": "The Board shall prescribe such rules and regulations not inconsistent with the provisions of this chapter or the rules and regulations of the Secretary of the Treasury made hereunder and as may be necessary to carry out this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81i",
+          "number": null,
+          "heading": "Cooperation of Board with other agencies",
+          "text": "The Board shall cooperate with the State, subdivision, and municipality in which the zone is located in the exercise of their police, sanitary, and other powers in and in connection with the free zone. It shall also cooperate with the United States Customs Service, the United States Postal Service, the Public Health Service, the Immigration and Naturalization Service, and such other Federal agencies as have jurisdiction in ports of entry described in .",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81j",
+          "number": null,
+          "heading": "Cooperation of other agencies with Board",
+          "text": "For the purpose of facilitating the investigations of the Board and its work in the granting of the privilege, in the establishment, operation, and maintenance of a zone, the President may direct the executive departments and other establishments of the Government to cooperate with the Board, and for such purpose each of the several departments and establishments is authorized, upon direction of the President, to furnish to the Board such records, papers, and information in their possession as may be required by him, and temporarily to detail to the service of the Board such officers, experts, or engineers as may be necessary.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81k",
+          "number": null,
+          "heading": "Agreements as to use of property",
+          "text": "If the title to or right of user of any of the property to be included in a zone is in the United States, an agreement to use such property for zone purposes may be entered into between the grantee and the department or officer of the United States having control of the same, under such conditions, approved by the Board and such department or officer, as may be agreed upon.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81l",
+          "number": null,
+          "heading": "Facilities to be provided and maintained",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81m",
+          "number": null,
+          "heading": "Permission to others to use zone",
+          "text": "The grantee may, with the approval of the Board, and under reasonable and uniform regulations for like conditions and circumstances to be prescribed by it, permit other persons, firms, corporations, or associations to erect such buildings and other structures within the zone as will meet their particular requirements: , That such permission shall not constitute a vested right as against the United States, nor interfere with the regulation of the grantee or the permittee by the United States, nor interfere with or complicate the revocation of the grant by the United States: , That in the event of the United States or the grantee desiring to acquire the property of the permittee no good will shall be considered as accruing from the privilege granted to the zone: , That such permits shall not be granted on terms that conflict with the public use of the zone as set forth in this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81n",
+          "number": null,
+          "heading": "Operation of zone as public utility; cost of customs service",
+          "text": "Each zone shall be operated as a public utility, and all rates and charges for all services or privileges within the zone shall be fair and reasonable, and the grantee shall afford to all who may apply for the use of the zone and its facilities and appurtenances uniform treatment under like conditions, subject to such treaties or commercial conventions as are now in force or may hereafter be made from time to time by the United States with foreign governments and the cost of maintaining the additional customs service required under this chapter shall be paid by the operator of the zone.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81o",
+          "number": null,
+          "heading": "Residents of zone",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81p",
+          "number": null,
+          "heading": "Accounts and recordkeeping",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81q",
+          "number": null,
+          "heading": "Transfer of grant",
+          "text": "The grant shall not be sold, conveyed, transferred, set over, or assigned.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81r",
+          "number": null,
+          "heading": "Revocation of grants",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81s",
+          "number": null,
+          "heading": "Offenses",
+          "text": "In case of a violation of this chapter, or any regulation under this chapter, by the grantee, any officer, agent or employee thereof responsible for or permitting any such violation shall be subject to a fine of not more than $1,000. Each day during which a violation continues shall constitute a separate offense.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81t",
+          "number": null,
+          "heading": "Separability",
+          "text": "If any provision of this chapter or the application of such provision to certain circumstances be held invalid, the remainder of this chapter and the application of such provisions to circumstances other than those as to which it is held invalid shall not be affected thereby.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s81u",
+          "number": null,
+          "heading": "Right to alter, amend, or repeal chapter",
+          "text": "The right to alter, amend, or repeal this chapter is reserved.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch2",
+      "number": null,
+      "name": "THE TARIFF COMMISSION",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s91, 92",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s93",
+          "number": null,
+          "heading": "Repealed. , title IV, § 651(a)(1),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s94",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s95",
+          "number": null,
+          "heading": "Repealed. , title IV, § 651(a)(1),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s96 to 98",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s99",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s100",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s101",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s102 to 104",
+          "number": null,
+          "heading": "Repealed. , title IV, § 651(a)(1),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s105",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s106",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s107",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch3",
+      "number": null,
+      "name": "THE TARIFF AND RELATED PROVISIONS",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t19/ch4",
+      "number": null,
+      "name": "TARIFF ACT OF 1930",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t19/ch5",
+      "number": null,
+      "name": "SMUGGLING",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s1701",
+          "number": null,
+          "heading": "Customs-enforcement area",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1702",
+          "number": null,
+          "heading": "Repealed. , , eff.",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1703",
+          "number": null,
+          "heading": "Seizure and forfeiture of vessels",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1704",
+          "number": null,
+          "heading": "Refusal or revocation of registry, enrollment, license or number on evidence that vessel engaging in smuggling; appeal; immunity from liability",
+          "text": "Subject to appeal to the Secretary of the Treasury and under such regulations as he may prescribe, when the Secretary of Transportation is shown upon evidence which he deems sufficient that such vessel is being, or is intended to be, employed to smuggle, transport, or otherwise assist in the unlawful introduction or importation into the United States of any merchandise or person, or to smuggle any merchandise into the territory of any foreign government in violation of the laws there in force, if under the laws of such foreign government any penalty or forfeiture is provided for violation of the laws of the United States respecting the customs revenue, or whenever, from the design or fittings of any vessel or the nature of any repairs made thereon, it is apparent to the Secretary of Transportation that such vessel has been built or adapted for the purpose of smuggling merchandise, the the  Secretary of Transportation shall revoke any endorsement on the vessel’s certificate of documentation or number (when the Secretary is the authority issuing the number under chapter 123 of title 46) or refuse the same if application be made therefor, as the case may be. The Secretary of Transportation and all persons acting by or under his direction shall be indemnified from any penalties or actions for damages for carrying out the provisions of this section.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1705",
+          "number": null,
+          "heading": "Destruction of forfeited vessel or vehicle",
+          "text": "Any vessel or vehicle forfeited to the United States, whether summarily or by a decree of any court, for violation of any law respecting the revenue, may, in the discretion of the Secretary of the Treasury, if he deems it necessary to protect the revenue of the United States, be destroyed in lieu of the sale thereof under existing law.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1706",
+          "number": null,
+          "heading": "Importation in vessels under thirty tons and aircraft; licenses; labels as prima facie evidence of foreign origin of merchandise",
+          "text": "Except into the districts adjoining to the Dominion of Canada, or into the districts adjacent to Mexico, no merchandise of foreign growth or manufacture subject to the payment of duties shall be brought into the United States from any foreign port or place, or from any hovering vessel, in any vessel of less than thirty net tons burden without special license granted by the Secretary of the Treasury under such conditions as he may prescribe, nor in any other manner than by sea, except by aircraft duly licensed in accordance with law, or landed or unladen at any other port than is directed by law, under the penalty of seizure and forfeiture of all such unlicensed vessels or aircraft and of the merchandise imported therein, landed or unladen in any manner. Marks, labels, brands, or stamps, indicative of foreign origin, upon or accompanying merchandise or containers of merchandise found upon any such vessel or aircraft, shall be prima facie evidence of the foreign origin of such merchandise.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1706a",
+          "number": null,
+          "heading": "Civil penalties for trading without required certificate of documentation",
+          "text": "Whenever a vessel, entitled to be documented and not so documented, is employed in a trade for which certificates of documentation are issued under the vessel documentation laws, other than a trade covered by a registry, the vessel is liable to a civil penalty of $500 for each port at which it arrives without the proper certificate of documentation, and if it has on board any merchandise of foreign growth or manufacture (sea stores excepted), or any taxable domestic spirits, wines, or other alcoholic liquors, on which the duties or taxes have not been paid or secured to be paid, the vessel, together with its equipment and cargo, is liable to seizure and forfeiture. Marks, labels, brands, or stamps, indicative of foreign origin, upon or accompanying merchandise or containers of merchandise found on board such vessel, shall be prima facie evidence of the foreign origin of such merchandise.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1707",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1708",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1709",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1710",
+          "number": null,
+          "heading": "Separability",
+          "text": "If any clause, sentence, paragraph, or part of this Act, or the application thereof to any person, or circumstances, is held invalid, the application thereof to other persons, or circumstances, and the remainder of the Act, shall not be affected thereby.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1711",
+          "number": null,
+          "heading": "Citation of chapter",
+          "text": "This Act may be cited as the “Anti-Smuggling Act”.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch6",
+      "number": null,
+      "name": "TRADE FAIR PROGRAM",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s1751",
+          "number": null,
+          "heading": "Designation of fairs",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1752",
+          "number": null,
+          "heading": "Entry of articles for fairs",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1753",
+          "number": null,
+          "heading": "Disposition of articles entered for fairs",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1754",
+          "number": null,
+          "heading": "Marking, packaging, and labeling requirements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1755",
+          "number": null,
+          "heading": "Responsibilities of fair operator",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s1756",
+          "number": null,
+          "heading": "Regulations",
+          "text": "The Secretary of the Treasury may prescribe such regulations as may be necessary or appropriate to carry out the provisions of this chapter (other than section 1751 thereof).",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch7",
+      "number": null,
+      "name": "TRADE EXPANSION PROGRAM",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t19/ch8",
+      "number": null,
+      "name": "AUTOMOTIVE PRODUCTS",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t19/ch9",
+      "number": null,
+      "name": "VISUAL AND AUDITORY MATERIALS OF EDUCATIONAL, SCIENTIFIC, AND CULTURAL CHARACTER",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s2051",
+          "number": null,
+          "heading": "Implementation of the Agreement; executive designation and duty of Federal agencies",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2052",
+          "number": null,
+          "heading": "Assistance from other Federal agencies; facilities and personnel",
+          "text": "Agencies of the Federal Government are authorized to furnish facilities and personnel for the purpose of assisting the agency or agencies designated by the President in carrying out the provisions of the Agreement.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch10",
+      "number": null,
+      "name": "CUSTOMS SERVICE",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s2071",
+          "number": null,
+          "heading": "Establishment of Service; Commissioner; appointment",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2072",
+          "number": null,
+          "heading": "Officers and employees",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2073",
+          "number": null,
+          "heading": "Transfer of personnel, etc., to Service",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2074",
+          "number": null,
+          "heading": "Establishment of revolving fund",
+          "text": "There is established a revolving fund of $300,000 which shall be available, without fiscal year limitation exclusively for transfer to the appropriation for collecting the revenue from customs to cover obligations of the United States Customs Service arising from authorized reimbursable services, pending reimbursement from parties in interest:  That amounts so transferred shall be returned to the revolving fund not later than six months after the close of the fiscal year in which transferred.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2075",
+          "number": null,
+          "heading": "Appropriations authorization",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2076",
+          "number": null,
+          "heading": "Advances in foreign countries",
+          "text": "Section 3324(a) and (b) of title 31 shall not apply to payments made for the United States Customs Service in foreign countries.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2077",
+          "number": null,
+          "heading": "Advances for enforcement of customs provisions",
+          "text": "The Commissioner of Customs, with the approval of the Secretary of the Treasury, is authorized to direct the advance of funds by the Fiscal Service, Treasury Department, in connection with the enforcement of the customs laws.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2078",
+          "number": null,
+          "heading": "Certification of reason for advance",
+          "text": "A certificate by the Commissioner of Customs stating the amount of an expenditure made from funds advanced and certifying that the confidential nature of the transaction involved renders it inadvisable to specify the details thereof or impracticable to furnish the payee’s receipt shall be a sufficient voucher for the sum expressed to have been expended.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2079",
+          "number": null,
+          "heading": "Payments in foreign countries; claims for reimbursement",
+          "text": "The provisions of this Act shall not affect payments made for the United States Customs Service in foreign countries, nor the right of any customs officer or employee to claim reimbursement for personal funds expended in connection with the enforcement of the customs laws.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2080",
+          "number": null,
+          "heading": "Advances from available appropriations; rules and regulations",
+          "text": "Advances pursuant to this Act, in connection with the enforcement of the customs laws may be made, notwithstanding the provisions of section 3324(a) and (b) of title 31, from the appropriations available for the enforcement of such laws. The Secretary of the Treasury is authorized to prescribe such rules and regulations concerning advances made pursuant to this Act as are necessary or appropriate for the protection of the interests of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2081",
+          "number": null,
+          "heading": "Undercover investigative operations of Customs Service",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2082",
+          "number": null,
+          "heading": "Customs Service administration",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2083",
+          "number": null,
+          "heading": "Annual national trade and customs law violation estimates and enforcement strategy",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch11",
+      "number": null,
+      "name": "IMPORTATION OF PRE-COLUMBIAN MONUMENTAL OR ARCHITECTURAL SCULPTURE OR MURALS",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s2091",
+          "number": null,
+          "heading": "List of stone carvings and wall art; promulgation and revision; criteria for classification",
+          "text": "The Secretary, after consultation with the Secretary of State, by regulation shall promulgate, and thereafter when appropriate shall revise, a list of stone carvings and wall art which are pre-Columbian monumental or architectural sculpture or murals within the meaning of paragraph (3) of . Such stone carvings and wall art may be listed by type or other classification deemed appropriate by the Secretary.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2092",
+          "number": null,
+          "heading": "Export certification requirement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2093",
+          "number": null,
+          "heading": "Forfeiture of unlawful imports",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2094",
+          "number": null,
+          "heading": "Rules and regulations",
+          "text": "The Secretary shall prescribe such rules and regulations as are necessary and appropriate to carry out the provisions of this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2095",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch12",
+      "number": null,
+      "name": "TRADE ACT OF 1974",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s2101",
+          "number": null,
+          "heading": "Short title",
+          "text": "This chapter may be cited as the “Trade Act of 1974”.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2102",
+          "number": null,
+          "heading": "Congressional statement of purpose",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch13",
+      "number": null,
+      "name": "TRADE AGREEMENTS ACT OF 1979",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s2501",
+          "number": null,
+          "heading": "Short title",
+          "text": "This Act may be cited as the “Trade Agreements Act of 1979”.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2502",
+          "number": null,
+          "heading": "Congressional statement of purposes",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2503",
+          "number": null,
+          "heading": "Approval of trade agreements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2504",
+          "number": null,
+          "heading": "Relationship of trade agreements to United States law",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch14",
+      "number": null,
+      "name": "CONVENTION ON CULTURAL PROPERTY",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s2601",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2602",
+          "number": null,
+          "heading": "Agreements to implement Article 9 of the convention",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2603",
+          "number": null,
+          "heading": "Emergency implementation of import restrictions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2604",
+          "number": null,
+          "heading": "Designation of materials covered by agreements or emergency actions",
+          "text": "After any agreement enters into force under , or emergency action is taken under , the Secretary, in consultation with the Secretary of State, shall by regulation promulgate (and when appropriate shall revise) a list of the archaeological or ethnological material of the State Party covered by the agreement or by such action. The Secretary may list such material by type or other appropriate classification, but each listing made under this section shall be sufficiently specific and precise to insure that (1) the import restrictions under  are applied only to the archeological and ethnological material covered by the agreement or emergency action; and (2) fair notice is given to importers and other persons as to what material is subject to such restrictions.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2605",
+          "number": null,
+          "heading": "Cultural Property Advisory Committee",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2606",
+          "number": null,
+          "heading": "Import restrictions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2607",
+          "number": null,
+          "heading": "Stolen cultural property",
+          "text": "No article of cultural property documented as appertaining to the inventory of a museum or religious or secular public monument or similar institution in any State Party which is stolen from such institution after the effective date of this chapter, or after the date of entry into force of the Convention for the State Party, whichever date is later, may be imported into the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2608",
+          "number": null,
+          "heading": "Temporary disposition of materials and articles subject to this chapter",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2609",
+          "number": null,
+          "heading": "Seizure and forfeiture",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2610",
+          "number": null,
+          "heading": "Evidentiary requirements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2611",
+          "number": null,
+          "heading": "Certain material and articles exempt from this chapter",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2612",
+          "number": null,
+          "heading": "Regulations",
+          "text": "The Secretary shall prescribe such rules and regulations as are necessary and appropriate to carry out the provisions of this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2613",
+          "number": null,
+          "heading": "Enforcement",
+          "text": "In the customs territory of the United States, and in the Virgin Islands, the provisions of this chapter shall be enforced by appropriate customs officers. In any other territory or area within the United States, but not within such customs territory or the Virgin Islands, such provisions shall be enforced by such persons as may be designated by the President.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch15",
+      "number": null,
+      "name": "CARIBBEAN BASIN ECONOMIC RECOVERY",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s2701",
+          "number": null,
+          "heading": "Authority to grant duty-free treatment",
+          "text": "The President may proclaim duty-free treatment (or other preferential treatment) for all eligible articles from any beneficiary country in accordance with the provisions of this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2702",
+          "number": null,
+          "heading": "Beneficiary country",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2703",
+          "number": null,
+          "heading": "Eligible articles",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2703a",
+          "number": null,
+          "heading": "Special rules for Haiti",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2704",
+          "number": null,
+          "heading": "International Trade Commission reports on impact of Caribbean Basin Economic Recovery Program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2705",
+          "number": null,
+          "heading": "Impact study by Secretary of Labor",
+          "text": "The Secretary of Labor, in consulation  with other appropriate Federal agencies, shall undertake a continuing review and analysis of the impact which the implementation of the provisions of this chapter have with respect to United States labor; and shall make an annual written report to Congress on the results of such review and analysis.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2706",
+          "number": null,
+          "heading": "Effective date",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2707",
+          "number": null,
+          "heading": "Center for the Study of Western Hemispheric Trade",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch16",
+      "number": null,
+      "name": "WINE TRADE",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s2801",
+          "number": null,
+          "heading": "Congressional findings and purposes",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2802",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2803",
+          "number": null,
+          "heading": "Designation of major wine trading countries",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2804",
+          "number": null,
+          "heading": "Actions to reduce or eliminate tariff and nontariff barriers affecting United States wine",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2805",
+          "number": null,
+          "heading": "Required consultations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2806",
+          "number": null,
+          "heading": "United States wine export promotion",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch17",
+      "number": null,
+      "name": "NEGOTIATION AND IMPLEMENTATION OF TRADE AGREEMENTS",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s2901",
+          "number": null,
+          "heading": "Overall and principal trade negotiating objectives of the United States",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2902",
+          "number": null,
+          "heading": "Trade agreement negotiating authority",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2903",
+          "number": null,
+          "heading": "Implementation of trade agreements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2904",
+          "number": null,
+          "heading": "Termination and reservation authority; reciprocal nondiscriminatory treatment",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2905",
+          "number": null,
+          "heading": "Accession of state trading regimes to General Agreement on Tariffs and Trade or WTO",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s2906",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch18",
+      "number": null,
+      "name": "IMPLEMENTATION OF HARMONIZED TARIFF SCHEDULE",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s3001",
+          "number": null,
+          "heading": "Purposes",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3002",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3003",
+          "number": null,
+          "heading": "Congressional approval of United States accession to the Convention",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3004",
+          "number": null,
+          "heading": "Enactment of Harmonized Tariff Schedule",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3005",
+          "number": null,
+          "heading": "Commission review of, and recommendations regarding, Harmonized Tariff Schedule",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3006",
+          "number": null,
+          "heading": "Presidential action on Commission recommendations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3007",
+          "number": null,
+          "heading": "Publication of Harmonized Tariff Schedule",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3008",
+          "number": null,
+          "heading": "Import and export statistics",
+          "text": "The Secretary of Commerce shall compile, and make publicly available, the import and export trade statistics of the United States. Such statistics shall be conformed to the nomenclature of the Convention.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3009",
+          "number": null,
+          "heading": "Coordination of trade policy and Convention",
+          "text": "The United States Trade Representative is responsible for coordination of United States trade policy in relation to the Convention. Before formulating any United States position with respect to the Convention, including any proposed amendments thereto, the United States Trade Representative shall seek, and consider, information and advice from interested parties in the private sector (including a functional advisory committee) and from interested Federal agencies.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3010",
+          "number": null,
+          "heading": "United States participation on Customs Cooperation Council regarding Convention",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3011",
+          "number": null,
+          "heading": "Transition to Harmonized Tariff Schedule",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3012",
+          "number": null,
+          "heading": "Reference to Harmonized Tariff Schedule",
+          "text": "Any reference in any law to the “Tariff Schedules of the United States”, “the Tariff Schedules”, “such Schedules”, and any other general reference that clearly refers to the old Schedules shall be treated as a reference to the Harmonized Tariff Schedule.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch19",
+      "number": null,
+      "name": "TELECOMMUNICATIONS TRADE",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s3101",
+          "number": null,
+          "heading": "Findings and purposes",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3102",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3103",
+          "number": null,
+          "heading": "Investigation of foreign telecommunications trade barriers",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3104",
+          "number": null,
+          "heading": "Negotiations in response to investigation",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3105",
+          "number": null,
+          "heading": "Actions to be taken if no agreement obtained",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3106",
+          "number": null,
+          "heading": "Review of trade agreement implementation by Trade Representative",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3107",
+          "number": null,
+          "heading": "Compensation authority",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3108",
+          "number": null,
+          "heading": "Consultations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3109",
+          "number": null,
+          "heading": "Submission of data; action to ensure compliance",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3110",
+          "number": null,
+          "heading": "Study on telecommunications competitiveness in United States",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3111",
+          "number": null,
+          "heading": "International obligations",
+          "text": "Nothing in this chapter may be construed to require actions inconsistent with the international obligations of the United States, including the WTO Agreement and the multilateral trade agreements (as such terms are defined in paragraphs (9) and (4), respectively, of ).",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch20",
+      "number": null,
+      "name": "ANDEAN TRADE PREFERENCE",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s3201",
+          "number": null,
+          "heading": "Authority to grant duty-free treatment",
+          "text": "The President may proclaim duty-free treatment (or other preferential treatment) for all eligible articles from any beneficiary country in accordance with the provisions of this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3202",
+          "number": null,
+          "heading": "Beneficiary country",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3203",
+          "number": null,
+          "heading": "Eligible articles",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3204",
+          "number": null,
+          "heading": "International Trade Commission reports on impact of this chapter",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3205",
+          "number": null,
+          "heading": "Impact study by Secretary of Labor",
+          "text": "The Secretary of Labor, in consultation with other appropriate Federal agencies, shall undertake a continuing review and analysis of the impact that the implementation of the provisions of this chapter has with respect to United States labor; and shall make an annual written report to Congress on the results of such review and analysis.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3206",
+          "number": null,
+          "heading": "Termination of preferential treatment",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch21",
+      "number": null,
+      "name": "NORTH AMERICAN FREE TRADE",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s3301",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch22",
+      "number": null,
+      "name": "URUGUAY ROUND TRADE AGREEMENTS",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s3501",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch23",
+      "number": null,
+      "name": "EXTENSION OF CERTAIN TRADE BENEFITS TO SUB-SAHARAN AFRICA",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t19/ch24",
+      "number": null,
+      "name": "BIPARTISAN TRADE PROMOTION AUTHORITY",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s3801",
+          "number": null,
+          "heading": "Short title and findings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3802",
+          "number": null,
+          "heading": "Trade negotiating objectives",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3803",
+          "number": null,
+          "heading": "Trade agreements authority",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3804",
+          "number": null,
+          "heading": "Consultations and assessment",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3805",
+          "number": null,
+          "heading": "Implementation of trade agreements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3806",
+          "number": null,
+          "heading": "Treatment of certain trade agreements for which negotiations have already begun",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3807",
+          "number": null,
+          "heading": "Congressional Oversight Group",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3808",
+          "number": null,
+          "heading": "Additional implementation and enforcement requirements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3809",
+          "number": null,
+          "heading": "Committee staff",
+          "text": "The grant of trade promotion authority under this chapter is likely to increase the activities of the primary committees of jurisdiction in the area of international trade. In addition, the creation of the Congressional Oversight Group under  will increase the participation of a broader number of Members of Congress in the formulation of United States trade policy and oversight of the international trade agenda for the United States. The primary committees of jurisdiction should have adequate staff to accommodate these increases in activities.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3810",
+          "number": null,
+          "heading": "Application of certain provisions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3811",
+          "number": null,
+          "heading": "Report on impact of trade promotion authority",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3812",
+          "number": null,
+          "heading": "Interests of small business",
+          "text": "The Assistant United States Trade Representative for Industry and Telecommunications shall be responsible for ensuring that the interests of small business are considered in all trade negotiations in accordance with the objective described in . It is the sense of the Congress that the small business functions should be reflected in the title of the Assistant United States Trade Representative assigned the responsibility for small business.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3813",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch25",
+      "number": null,
+      "name": "CLEAN DIAMOND TRADE",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s3901",
+          "number": null,
+          "heading": "Findings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3902",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3903",
+          "number": null,
+          "heading": "Measures for the importation and exportation of rough diamonds",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3904",
+          "number": null,
+          "heading": "Regulatory and other authority",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3905",
+          "number": null,
+          "heading": "Importing and exporting authorities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3906",
+          "number": null,
+          "heading": "Statement of policy",
+          "text": "The Congress supports the policy that the President shall take appropriate steps to promote and facilitate the adoption by the international community of the Kimberley Process Certification Scheme implemented under this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3907",
+          "number": null,
+          "heading": "Enforcement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3908",
+          "number": null,
+          "heading": "Technical assistance",
+          "text": "The President may direct the appropriate agencies of the United States Government to make available technical assistance to countries seeking to implement the Kimberley Process Certification Scheme.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3909",
+          "number": null,
+          "heading": "Sense of Congress",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3910",
+          "number": null,
+          "heading": "Kimberley Process Implementation Coordinating Committee",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3911",
+          "number": null,
+          "heading": "Reports",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3912",
+          "number": null,
+          "heading": "GAO report",
+          "text": "Not later than 24 months after the effective date of this chapter, the Comptroller General of the United States shall transmit a report to the Congress on the effectiveness of the provisions of this chapter in preventing the importation or exportation of rough diamonds that is prohibited under . The Comptroller General shall include in the report any recommendations on any modifications to this chapter that may be necessary.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s3913",
+          "number": null,
+          "heading": "Delegation of authorities",
+          "text": "The President may delegate the duties and authorities under this chapter to such officers, officials, departments, or agencies of the United States Government as the President deems appropriate.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t19/ch26",
+      "number": null,
+      "name": "DOMINICAN REPUBLIC-CENTRAL AMERICA FREE TRADE",
+      "sections": [
+        {
+          "id": "/us/usc/t19/s4001",
+          "number": null,
+          "heading": "Purposes",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t19/s4002",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "subtitles": [],
+  "parts": []
+}

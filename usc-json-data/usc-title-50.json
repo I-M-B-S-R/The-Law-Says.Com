@@ -1,0 +1,2295 @@
+{
+  "id": 50,
+  "name": "War and National Defense",
+  "chapters": [
+    {
+      "id": "/us/usc/t50/ch1",
+      "number": null,
+      "name": "COUNCIL OF NATIONAL DEFENSE",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1",
+          "number": null,
+          "heading": "Creation, purpose, and composition of council",
+          "text": "A Council of National Defense is established, for the coordination of industries and resources for the national security and welfare, to consist of the Secretary of the Army, the Secretary of the Navy, the Secretary of the Interior, the Secretary of Agriculture, the Secretary of Commerce, and the Secretary of Labor.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s2",
+          "number": null,
+          "heading": "Advisory commission",
+          "text": "The Council of National Defense shall nominate to the President, and the President shall appoint, an advisory commission, consisting of not more than seven persons, each of whom shall have special knowledge of some industry, public utility, or the development of some natural resource, or be otherwise specially qualified, in the opinion of the council, for the performance of the duties hereinafter provided. The members of the advisory commission shall serve without compensation, but shall be allowed actual expenses of travel and subsistence when attending meetings of the commission or engaged in investigations pertaining to its activities. The advisory commission shall hold such meetings as shall be called by the council or be provided by the rules and regulations adopted by the council for the conduct of its work.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3",
+          "number": null,
+          "heading": "Duties of council",
+          "text": "It shall be the duty of the Council of National Defense to supervise and direct investigations and make recommendations to the President and the heads of executive departments as to the location of railroads with reference to the frontier of the United States so as to render possible expeditious concentration of troops and supplies to points of defense; the coordination of military, industrial, and commercial purposes in the location of branch lines of railroad; the utilization of waterways; the mobilization of military and naval resources for defense; the increase of domestic production of articles and materials essential to the support of armies and of the people during the interruption of foreign commerce; the development of seagoing transportation; data as to amounts, location, method and means of production, and availability of military supplies; the giving of information to producers and manufacturers as to the class of supplies needed by the military and other services of the Government, the requirements relating thereto, and the creation of relations which will render possible in time of need the immediate concentration and utilization of the resources of the Nation.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s4",
+          "number": null,
+          "heading": "Rules and regulations; subordinate bodies and committees",
+          "text": "The Council of National Defense shall adopt rules and regulations for the conduct of its work, which rules and regulations shall be subject to the approval of the President, and shall provide for the work of the advisory commission to the end that the special knowledge of such commission may be developed by suitable investigation, research, and inquiry and made available in conference and report for the use of the council; and the council may organize subordinate bodies for its assistance in special investigations, either by the employment of experts or by the creation of committees of specially qualified persons to serve without compensation, but to direct the investigations of experts so employed.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s5",
+          "number": null,
+          "heading": "Reports of subordinate bodies and committees; unvouchered expenditures",
+          "text": "Reports shall be submitted by all subordinate bodies and by the advisory commission to the council, and from time to time the council shall report to the President or to the heads of executive departments upon special inquiries or subjects appropriate thereto. When deemed proper the President may authorize, in amounts stipulated by him, unvouchered expenditures.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s6",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch2",
+      "number": null,
+      "name": "BOARD OF ORDNANCE AND FORTIFICATION",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s11 to 15",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch3",
+      "number": null,
+      "name": "ALIEN ENEMIES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s21",
+          "number": null,
+          "heading": "Restraint, regulation, and removal",
+          "text": "Whenever there is a declared war between the United States and any foreign nation or government, or any invasion or predatory incursion is perpetrated, attempted or threatened against the territory of the United States by any foreign nation or government, and the President makes public proclamation of the event, all natives, citizens, denizens, or subjects of the hostile nation or government, being of the age of fourteen years and upward, who shall be within the United States and not actually naturalized, shall be liable to be apprehended, restrained, secured, and removed as alien enemies. The President is authorized in any such event, by his proclamation thereof, or other public act, to direct the conduct to be observed on the part of the United States, toward the aliens who become so liable; the manner and degree of the restraint to which they shall be subject and in what cases, and upon what security their residence shall be permitted, and to provide for the removal of those who, not being permitted to reside within the United States, refuse or neglect to depart therefrom; and to establish any other regulations which are found necessary in the premises and for the public safety.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s22",
+          "number": null,
+          "heading": "Time allowed to settle affairs and depart",
+          "text": "When an alien who becomes liable as an enemy, in the manner prescribed in , is not chargeable with actual hostility, or other crime against the public safety, he shall be allowed, for the recovery, disposal, and removal of his goods and effects, and for his departure, the full time which is or shall be stipulated by any treaty then in force between the United States and the hostile nation or government of which he is a native citizen, denizen, or subject; and where no such treaty exists, or is in force, the President may ascertain and declare such reasonable time as may be consistent with the public safety, and according to the dictates of humanity and national hospitality.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s23",
+          "number": null,
+          "heading": "Jurisdiction of United States courts and judges",
+          "text": "After any such proclamation has been made, the several courts of the United States, having criminal jurisdiction, and the several justices and judges of the courts of the United States, are authorized and it shall be their duty, upon complaint against any alien enemy resident and at large within such jurisdiction or district, to the danger of the public peace or safety, and contrary to the tenor or intent of such proclamation, or other regulations which the President may have established, to cause such alien to be duly apprehended and conveyed before such court, judge, or justice; and after a full examination and hearing on such complaint, and sufficient cause appearing, to order such alien to be removed out of the territory of the United States, or to give sureties for his good behavior, or to be otherwise restrained, conformably to the proclamation or regulations established as aforesaid, and to imprison, or otherwise secure such alien, until the order which may be so made shall be performed.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s24",
+          "number": null,
+          "heading": "Duties of marshals",
+          "text": "When an alien enemy is required by the President, or by order of any court, judge, or justice, to depart and to be removed, it shall be the duty of the marshal of the district in which he shall be apprehended to provide therefor and to execute such order in person, or by his deputy or other discreet person to be employed by him, by causing a removal of such alien out of the territory of the United States; and for such removal the marshal shall have the warrant of the President, or of the court, judge, or justice ordering the same, as the case may be.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch4",
+      "number": null,
+      "name": "ESPIONAGE",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s31 to 39",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s40",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s41",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s42",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch4A",
+      "number": null,
+      "name": "PHOTOGRAPHING, SKETCHING, MAPPING, ETC., DEFENSIVE INSTALLATIONS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s45 to 45d",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch4B",
+      "number": null,
+      "name": "DISCLOSURE OF CLASSIFIED INFORMATION",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s46 to 46b",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch4C",
+      "number": null,
+      "name": "ATOMIC WEAPONS AND SPECIAL NUCLEAR MATERIALS INFORMATION REWARDS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s47a",
+          "number": null,
+          "heading": "Information concerning illegal introduction, manufacture, acquisition or export of special nuclear material or atomic weapons or conspiracies relating thereto; reward",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s47b",
+          "number": null,
+          "heading": "Determination by Attorney General of entitlement and amount of reward; consultation; Presidential approval",
+          "text": "The Attorney General shall determine whether a person furnishing information to the United States is entitled to a reward and the amount to be paid pursuant to . Before making a reward under this section the Attorney General shall advise and consult with the Atomic Energy Commission. A reward of $50,000 or more may not be made without the approval of the President.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s47c",
+          "number": null,
+          "heading": "Aliens; waiver of admission requirements",
+          "text": "If the information leading to an award under  is furnished by an alien, the Secretary of State, the Attorney General, and the Director of Central Intelligence, acting jointly, may determine that the admission of such alien into the United States is in the public interest and, in that event, such alien and the members of his immediate family may receive immigrant visas and may be admitted to the United States for permanent residence, notwithstanding the requirements of the Immigration and Nationality Act [ et seq.].",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s47d",
+          "number": null,
+          "heading": "Hearings; rules and regulations; conclusiveness of determinations of Attorney General",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s47e",
+          "number": null,
+          "heading": "Certification of award; approval; payment",
+          "text": "Any awards granted under  shall be certified by the Attorney General and, together with the approval of the President in those cases where such approval is required, transmitted to the Director of Central Intelligence for payment out of funds appropriated or available for the administration of the National Security Act of 1947, as amended.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s47f",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch5",
+      "number": null,
+      "name": "ARSENALS, ARMORIES, ARMS, AND WAR MATERIAL GENERALLY",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t50/ch6",
+      "number": null,
+      "name": "WILLFUL DESTRUCTION, ETC., OF WAR OR NATIONAL-DEFENSE MATERIAL",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s101 to 106",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch7",
+      "number": null,
+      "name": "INTERFERENCE WITH HOMING PIGEONS OWNED BY UNITED STATES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s111 to 113",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch8",
+      "number": null,
+      "name": "EXPLOSIVES; MANUFACTURE, DISTRIBUTION, STORAGE, USE, AND POSSESSION REGULATED",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s121 to 144",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch9",
+      "number": null,
+      "name": "AIRCRAFT",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s151 to 151f",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s152, 153",
+          "number": null,
+          "heading": "Repealed. , (b),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s154",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s155",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s156, 157",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s158 to 159",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s160",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s160a to 160f",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch10",
+      "number": null,
+      "name": "HELIUM GAS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s161 to 164",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s165",
+          "number": null,
+          "heading": "Repealed. , title V, § 542(a)(13),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s166",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167a",
+          "number": null,
+          "heading": "Authority of Secretary",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167b",
+          "number": null,
+          "heading": "Storage, transportation, and withdrawal of crude helium",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167c",
+          "number": null,
+          "heading": "Fees for storage, transportation, and withdrawal",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167d",
+          "number": null,
+          "heading": "Sale of helium",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167e",
+          "number": null,
+          "heading": "Intragovernmental cooperation",
+          "text": "The Secretary of Defense and the Chairman of the Atomic Energy Commission may each designate representatives to cooperate with the Secretary in carrying out the purposes of this chapter, and shall have complete right of access to plants, data, and accounts.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167f",
+          "number": null,
+          "heading": "Elimination of stockpile",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167g",
+          "number": null,
+          "heading": "Promulgation of rules and regulations",
+          "text": "The Secretary is authorized to establish and promulgate such rules and regulations, as are consistent with the directions of this chapter and are necessary to carry out the provisions hereof.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167h",
+          "number": null,
+          "heading": "Administrative procedure",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167i",
+          "number": null,
+          "heading": "Exclusion from Natural Gas Act provisions",
+          "text": "The provisions of the Natural Gas Act of , as amended [ et seq.], shall not be applicable to the sale, extraction, processing, transportation, or storage of helium either prior to or subsequent to the separation of such helium from the natural gas with which it is commingled, whether or not the provisions of such Act apply to such natural gas, and in determining the rates of a natural gas company under sections 4 and 5 of the Natural Gas Act, as amended [, 717d], whenever helium is extracted from helium-bearing natural gas, there shall be excluded (1) all income received from the sale of helium; (2) all direct costs incurred in the extraction, processing, compression, transportation or storage of helium; and (3) that portion of joint costs of exploration, production, gathering, extraction, processing, compression, transportation or storage divided and allocated to helium on a volumetric basis.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167j",
+          "number": null,
+          "heading": "Land conveyance in Potter County, Texas",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167k",
+          "number": null,
+          "heading": "Violations; penalties",
+          "text": "Whoever willfully violates, attempts to violate, or conspires to violate, any provision of this chapter or any regulation or order issued or any terms of a license granted thereunder shall, upon conviction thereof, be punished by a fine of not more than $5,000 or by imprisonment for not more than two years, or both, except that whoever commits such an offense with intent to injure the United States or with intent to secure an advantage to any foreign nation, shall upon conviction thereof, be punished by a fine of not more than $20,000 or by imprisonment for not more than twenty years, or both.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167l",
+          "number": null,
+          "heading": "Injunctions",
+          "text": "Whenever in the judgment of the Secretary any person has engaged or is about to engage in any act or practice which constitutes or will constitute a violation of any provision of this chapter, or any regulation or order issued or any term of a license granted thereunder, any such act or practice may be enjoined by any district court having jurisdiction of such person, and proper proceedings to this end may be instituted under the direction of the Attorney General of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167m",
+          "number": null,
+          "heading": "Report on helium",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s167n",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch11",
+      "number": null,
+      "name": "ACQUISITION OF AND EXPENDITURES ON LAND FOR NATIONAL-DEFENSE PURPOSES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s171, 171–1",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s171a",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s171b",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s172, 173",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s174",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s175",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s176",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s177 to 179",
+          "number": null,
+          "heading": "Repealed. , 70A Stat 641",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch12",
+      "number": null,
+      "name": "VESSELS IN TERRITORIAL WATERS OF UNITED STATES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s191",
+          "number": null,
+          "heading": "Regulation of anchorage and movement of vessels during national emergency",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s191a",
+          "number": null,
+          "heading": "Transfer of Secretary of Transportation’s powers to Secretary of Navy when Coast Guard operates as part of Navy",
+          "text": "When the Coast Guard operates as a part of the Navy pursuant to , the powers conferred on the Secretary of Transportation by , shall vest in and be exercised by the Secretary of the Navy.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s191b",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s191c",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s192",
+          "number": null,
+          "heading": "Seizure and forfeiture of vessel; fine and imprisonment",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s193",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s194",
+          "number": null,
+          "heading": "Enforcement provisions",
+          "text": "The President may employ such departments, agencies, officers, or instrumentalities of the United States as he may deem necessary to carry out the purpose of this title.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s195",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s196",
+          "number": null,
+          "heading": "Emergency foreign vessel acquisition; purchase or requisition of vessels lying idle in United States waters",
+          "text": "During any period in which vessels may be requisitioned under chapter 563 of title 46, the President is authorized and empowered through the Secretary of Transportation to purchase, or to requisition, or for any part of such period to charter or requisition the use of, or to take over the title to or possession of, for such use or disposition as he shall direct, any merchant vessel not owned by citizens of the United States which is lying idle in waters within the jurisdiction of the United States and which the President finds to be necessary to the national defense. Just compensation shall be determined and made to the owner or owners of any such vessel in accordance with the applicable provisions of chapter 563 of title 46. Such compensation hereunder, or advances on account thereof, shall be deposited with the Treasurer of the United States in a separate deposit fund. Payments for such compensation and also for payment of any valid claim upon such vessel in accord with the provisions of  shall be made from such fund upon the certificate of the Secretary of Transportation.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s197",
+          "number": null,
+          "heading": "Voluntary purchase or charter agreements",
+          "text": "During any period in which vessels may be req­uisitioned under chapter 563 of title 46, the President is authorized through the Secretary of Transportation to acquire by voluntary agreement of purchase or charter the ownership or use of any merchant vessel not owned by citizens of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s198",
+          "number": null,
+          "heading": "Requisitioned vessels",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch13",
+      "number": null,
+      "name": "INSURRECTION",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s201 to 204",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s205",
+          "number": null,
+          "heading": "Suspension of commercial intercourse with State in insurrection",
+          "text": "Whenever the President, in pursuance of the provisions of this chapter, has called forth the militia to suppress combinations against the laws of the United States, and to cause the laws to be duly executed, and the insurgents shall have failed to disperse by the time directed by the President, and when the insurgents claim to act under the authority of any State or States, and such claim is not disclaimed or repudiated by the persons exercising the functions of government in such State or States, or in the part or parts thereof in which such combination exists, and such insurrection is not suppressed by such State or States, or whenever the inhabitants of any State or part thereof are at any time found by the President to be in insurrection against the United States, the President may, by proclamation, declare that the inhabitants of such State, or of any section or part thereof where such insurrection exists, are in a state of insurrection against the United States; and thereupon all commercial intercourse by and between the same and the citizens thereof and the citizens of the rest of the United States shall cease and be unlawful so long as such condition of hostility shall continue; and all goods and chattels, wares and merchandise, coming from such State or section into the other parts of the United States, or proceeding from other parts of the United States to such State or section, by land or water, shall, together with the vessel or vehicle conveying the same, or conveying persons to or from such State or section, be forfeited to the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s206",
+          "number": null,
+          "heading": "Suspension of commercial intercourse with part of State in insurrection",
+          "text": "Whenever any part of a State not declared to be in insurrection is under the control of insurgents, or is in dangerous proximity to places under their control, all commercial intercourse therein and therewith shall be subject to the prohibitions and conditions of  for such time and to such extent as shall become necessary to protect the public interests, and be directed by the Secretary of the Treasury, with the approval of the President.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s207",
+          "number": null,
+          "heading": "Persons affected by suspension of commercial intercourse",
+          "text": "The provisions of this chapter in relation to commercial intercourse shall apply to all commercial intercourse by and between persons residing or being within districts within the lines of national military occupation in the States or parts of States declared in insurrection, whether with each other or with persons residing or being within districts declared in insurrection and not within those lines; and all persons within the United States, not native or naturalized citizens thereof, shall be subject to the same prohibitions, in all commercial intercourse with inhabitants of States or parts of States declared in insurrection, as citizens of States not declared to be in insurrection.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s208",
+          "number": null,
+          "heading": "Licensing or permitting commercial intercourse with State or region in insurrection",
+          "text": "The President may, in his discretion, license and permit commercial intercourse with any part of such State or section, the inhabitants of which are so declared in a state of insurrection, so far as may be necessary to authorize supplying the necessities of loyal persons residing in insurrectionary States, within the lines of actual occupation by the military forces of the United States, as indicated by published order of the commanding general of the department or district so occupied; and, also, so far as may be necessary to authorize persons residing within such lines to bring or send to market in the loyal States any products which they shall have produced with their own labor or the labor of freedmen, or others employed and paid by them, pursuant to rules relating thereto, which may be established under proper authority. And no goods, wares, or merchandise shall be taken into a State declared in insurrection, or transported therein, except to and from such places and to such monthly amounts as shall have been previously agreed upon, in writing, by the commanding general of the department in which such places are situated, and an officer designated by the Secretary of the Treasury for that purpose. Such commercial intercourse shall be in such articles and for such time and by such persons as the President, in his discretion, may think most conducive to the public interest; and, so far as by him licensed, shall be conducted and carried on only in pursuance of rules and regulations prescribed by the Secretary of the Treasury.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s209",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s210",
+          "number": null,
+          "heading": "Penalties for unauthorized trading, etc.; jurisdiction of prosecutions",
+          "text": "Every officer of the United States, civil, military, or naval, and every sutler, soldier, marine, or other person, who takes, or causes to be taken into a State declared to be in insurrection, or to any other point to be thence taken into such State, or who transports or sells, or otherwise disposes of therein, any goods, wares, or merchandise whatsoever, except in pursuance of license and authority of the President, as provided in this chapter, or who makes any false statement or representation upon which license and authority is granted for such transportation, sale, or other disposition, or who, under any license or authority obtained, willfully and knowingly transports, sells, or otherwise disposes of any other goods, wares, or merchandise than such as are in good faith so licensed and authorized, or who willfully and knowingly transports, sells, or disposes of the same, or any portion thereof, in violation of the terms of such license or authority, or of any rule or regulation prescribed by the Secretary of the Treasury concerning the same, or who is guilty of any act of embezzlement, of willful misappropriation of public or private money or property, of keeping false accounts, or of willfully making any false returns, shall be deemed guilty of a misdemeanor, and shall be fined not more than $5,000, and imprisoned in the penitentiary not more than three years. Violations of this section shall be cognizable before any court, civil or military, competent to try the same.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s211",
+          "number": null,
+          "heading": "Investigations to detect and prevent frauds and abuses",
+          "text": "It shall be the duty of the Secretary of the Treasury, from time to time, to institute such investigations as may be necessary to detect and prevent frauds and abuses in any trade or transactions which may be licensed between inhabitants of loyal States and of States in insurrection. And the agents making such investigations shall have power to compel the attendance of witnesses, and to make examinations on oath.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s212",
+          "number": null,
+          "heading": "Confiscation of property employed to aid insurrection",
+          "text": "Whenever during any insurrection against the Government of the United States, after the President shall have declared by proclamation that the laws of the United States are opposed, and the execution thereof obstructed, by combinations too powerful to be suppressed by the ordinary course of judicial proceedings, or by the power vested in the marshals by law, any person, or his agent, attorney, or employee, purchases or acquires, sells or gives, any property of whatsoever kind or description, with intent to use or employ the same, or suffers the same to be used or employed in aiding, abetting, or promoting such insurrection or resistance to the laws, or any person engaged therein; or being the owner of any such property, knowingly uses or employs, or consents to such use or employment of the same, all such property shall be lawful subject of prize and capture wherever found; and it shall be the duty of the President to cause the same to be seized, confiscated, and condemned.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s213",
+          "number": null,
+          "heading": "Jurisdiction of confiscation proceedings",
+          "text": "Such prizes and capture shall be condemned in the district court of the United States having jurisdiction of the amount, or in admiralty in any district in which the same may be seized, or into which they may be taken and proceedings first instituted.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s214",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s215",
+          "number": null,
+          "heading": "Institution of confiscation proceedings",
+          "text": "The Attorney General, or the United States attorney for any judicial district in which such property may at the time be, may institute the proceedings of condemnation, and in such case they shall be wholly for the benefit of the United States; or any person may file an information with such attorney, in which case the proceedings shall be for the use of such informer and the United States in equal parts.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s216",
+          "number": null,
+          "heading": "Preventing transportation of goods to aid insurrection",
+          "text": "The Secretary of the Treasury is authorized to prohibit and prevent the transportation in any vessel, or upon any railroad, turnpike, or other road or means of transportation within the United States, of any property, whatever may be the ostensible destination of the same, in all cases where there are satisfactory reasons to believe that such property is intended for any place in the possession or under the control of insurgents against the United States, or that there is imminent danger that such property will fall into the possession or under the control of such insurgents; and he is further authorized, in all cases where he deems it expedient so to do, to require reasonable security to be given that property shall not be transported to any place under insurrectionary control, and shall not, in any way, be used to give aid or comfort to such insurgents; and he may establish all such general or special regulations as may be necessary or proper to carry into effect the purposes of this section; and if any property is transported in violation of this chapter, or of any regulation of the Secretary of the Treasury, established in pursuance thereof, or if any attempt shall be made so to transport any, it shall be forfeited.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s217",
+          "number": null,
+          "heading": "Trading in captured or abandoned property",
+          "text": "All persons in the military or naval service of the United States are prohibited from buying or selling, trading, or in any way dealing in captured or abandoned property, whereby they shall receive or expect any profit, benefit, or advantage to themselves, or any other person, directly or indirectly connected with them; and it shall be the duty of such person whenever such property comes into his possession or custody, or within his control, to give notice thereof to some agent, appointed by virtue of this chapter, and to turn the same over to such agent without delay. Any officer of the United States, civil, military, or naval, or any sutler, soldier, or marine, or other person who shall violate any provision of this section, shall be deemed guilty of a misdemeanor, and shall be fined not more than $5,000, and imprisoned in the penitentiary not more than three years. Violations of this section shall be cognizable before any court, civil or military, competent to try the same.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s218",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s219",
+          "number": null,
+          "heading": "Removal of customhouse and detention of vessels thereat",
+          "text": "Whenever, at any port of entry, the duties on imports cannot, in the judgment of the President, be collected in the ordinary way, or by the course provided in section 218  of this title, by reason of the cause mentioned in said section, he may direct that the customhouse for the district be established in any secure place within the district, either on land or on board any vessel in the district, or at sea near the coast; and in such case the collector shall reside at such place, or on shipboard, as the case may be, and there detain all vessels and cargoes arriving within or approaching the district, until the duties imposed by law on such vessels and their cargoes are paid in cash. But if the owner or consignee of the cargo on board any vessel thus detained, or the master of the vessel, desires to enter a port of entry in any other district where no such obstructions to the execution of the laws exist, the master may be permitted so to change the destination of the vessel and cargo in his manifest; whereupon the collector shall deliver him a written permit to proceed to the port so designated. And the Secretary of the Treasury, with the approval of the President, shall make proper regulations for the enforcement on shipboard of such provisions of the laws regulating the assessment and collection of duties as in his judgment may be necessary and practicable.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s220",
+          "number": null,
+          "heading": "Enforcement of section 219",
+          "text": "It shall be unlawful to take any vessel or cargo detained under  from the custody of the proper officers of the customs, unless by process of some court of the United States; and in case of any attempt otherwise to take such vessel or cargo by any force, or combination, or assemblage of persons, too great to be overcome by the officers of the customs, the President, or such person as he shall have empowered for that purpose, may employ such part of the Army or Navy or militia of the United States, or such force of citizen volunteers as may be necessary, to prevent the removal of such vessel or cargo, and to protect the officers of the customs in retaining the custody thereof.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s221",
+          "number": null,
+          "heading": "Closing ports of entry; forfeiture of vessels seeking to enter closed port",
+          "text": "Whenever, in any collection district, the duties on imports can not, in the judgment of the President, be collected in the ordinary way, nor in the manner provided by sections 218  to 220 of this title, by reason of the cause mentioned in , the President may close the port of entry in that district; and shall in such case give notice thereof by proclamation. And thereupon all right of importation, warehousing, and other privileges incident to ports of entry shall cease and be discontinued at such port so closed until it is opened by the order of the President on the cessation of such obstructions. Every vessel from beyond the United States, or having on board any merchandise liable to duty, which attempts to enter any port which has been closed under this section, shall, with her tackle, apparel, furniture, and cargo, be forfeited.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s222",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s223",
+          "number": null,
+          "heading": "Forfeiture of vessels owned by citizens of insurrectionary States",
+          "text": "From and after fifteen days after the issuing of the proclamation, as provided in , any vessel belonging in whole or in part to any citizen or inhabitant of such State or part of a State whose inhabitants are so declared in a state of insurrection, found at sea, or in any port of the rest of the United States, shall be forfeited.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s224",
+          "number": null,
+          "heading": "Refusing clearance to vessels with suspected cargoes; forfeiture for departing without clearance",
+          "text": "The Secretary of the Treasury is authorized to refuse a clearance to any vessel or other vehicle laden with merchandise, destined for a foreign or domestic port, whenever he shall have satisfactory reason to believe that such merchandise, or any part thereof, whatever may be its ostensible destination, is intended for ports in possession or under control of insurgents against the United States; and if any vessel for which a clearance or permit has been refused by the Secretary of the Treasury, or by his order, shall depart or attempt to depart for a foreign or domestic port without being duly cleared or permitted, such vessel, with her tackle, apparel, furniture, and cargo, shall be forfeited.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s225",
+          "number": null,
+          "heading": "Bond to deliver cargo at destination named in clearance",
+          "text": "Whenever a permit or clearance is granted for either a foreign or domestic port, it shall be lawful for the collector of the customs granting the same, if he deems it necessary, under the circumstances of the case, to require a bond to be executed by the master or the owner of the vessel, in a penalty equal to the value of the cargo, and with sureties to the satisfaction of such collector, that the cargo shall be delivered at the destination for which it is cleared or permitted, and that no part thereof shall be used in affording aid or comfort to any person or parties in insurrection against the authority of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s226",
+          "number": null,
+          "heading": "Protection of liens on condemned vessels",
+          "text": "In all cases wherein any vessel, or other property, is condemned in any proceeding by virtue of any laws relating to insurrection or rebellion, the court rendering judgment of condemnation shall, notwithstanding such condemnation, and before awarding such vessel, or other property, or the proceeds thereof, to the United States, or to any informer, first provide for the payment, out of the proceeds of such vessel, or other property, of any bona fide claims which shall be filed by any loyal citizen of the United States, or of any foreign state or power at peace and amity with the United States, intervening in such proceeding, and which shall be duly established by evidence, as a valid claim against such vessel, or other property, under the laws of the United States or of any State thereof not declared to be in insurrection. No such claim shall be allowed in any case where the claimant has knowingly participated in the illegal use of such ship, vessel, or other property. This section shall extend to such claims only as might have been enforced specifically against such vessel, or other property, in any State not declared to be in insurrection, wherein such claim arose.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch14",
+      "number": null,
+      "name": "WARTIME VOTING BY LAND AND NAVAL FORCES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s301 to 303",
+          "number": null,
+          "heading": "Repealed. , title III, § 307,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s304 to 315",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s321 to 331",
+          "number": null,
+          "heading": "Repealed. , title III, § 307,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s332 to 340",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s341",
+          "number": null,
+          "heading": "Repealed. , title III, § 307,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s342",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s343 to 347",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s351 to 355",
+          "number": null,
+          "heading": "Repealed. , title III, § 307,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch15",
+      "number": null,
+      "name": "TRANSFERRED",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s401, 401a",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch16",
+      "number": null,
+      "name": "DEFENSE INDUSTRIAL RESERVES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s451 to 453",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s454",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s455",
+          "number": null,
+          "heading": "Authorization of appropriations",
+          "text": "There are authorized to be appropriated such sums as the Congress may from time to time determine to be necessary to enable the Secretary to carry out the provisions of this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s456 to 462",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch17",
+      "number": null,
+      "name": "ARMING AMERICAN VESSELS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s481",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch18",
+      "number": null,
+      "name": "AIR-WARNING SCREEN",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s491",
+          "number": null,
+          "heading": "Establishment and development of land-based air warning and control installations and facilities; extent of appropriation; procurement of communication services",
+          "text": "The Secretary of the Air Force is authorized to establish and develop within and without the continental limits of the United States in fulfilling the air defense responsibilities of the Department of the Air Force such land-based air warning and control installations and facilities, by the construction, installation, or equipment of temporary or permanent public works, including buildings, facilities, appurtenances, utilities, and access roads, and to provide for necessary administration and planning therefor, without regard to section 3324(a) and (b) of title 31, as he may deem necessary in the interest of national security: , That not to exceed $85,500,000 shall be appropriated for the construction of public works authorized by this section. The Secretary of the Air Force is authorized to procure communication services required for the semiautomatic ground environment system. No contract for such services may be for a period of more than ten years from the date communication services are first furnished under such contract. The aggregate contingent liability of the Government under the termination provisions of all contracts authorized hereunder may not exceed a total of $222,000,000 and the Government Accountability Office shall have access to such carrier records and accounts as it may deem necessary for the purpose of audit. In procuring such services, the Secretary of the Air Force shall utilize to the fullest extent practicable the facilities and capabilities of communication common carriers, including rural telephone cooperatives, within their respective service areas and for power supply, shall utilize to the fullest extent practicable, the facilities and capabilities of public utilities and rural electric cooperatives within their respective service areas. Negotiations with communication common carriers, including cooperatives, and representation in proceedings involving such carriers before Federal and State regulatory bodies where such negotiations or proceedings involve contracts authorized by this paragraph shall be in accordance with the provisions of sections 501–505 of title 40.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s492",
+          "number": null,
+          "heading": "Acquisition of land",
+          "text": "In furtherance of , the Secretary of the Air Force is authorized to make surveys and to acquire lands and rights pertaining thereto or other interests therein, including the temporary use thereof, by donation, purchase, exchange of Government-owned lands, or otherwise, and to place permanent and temporary improvements thereon whether such lands are held in fee or under lease, or under other temporary tenure.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s493",
+          "number": null,
+          "heading": "Authorization of appropriations",
+          "text": "There is authorized to be appropriated, out of any moneys in the Treasury of the United States not otherwise appropriated, such sums as may be necessary to carry out the purposes of this chapter, and when so specified in an appropriation Act such amounts shall remain available until expended.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s494",
+          "number": null,
+          "heading": "Supervision and control of project",
+          "text": "The provisions of this chapter shall be subject to the duties and authority of the Secretary of Defense and the departments and agencies of the Department of Defense as provided in the National Security Act of 1947.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch19",
+      "number": null,
+      "name": "GUIDED MISSILES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s501",
+          "number": null,
+          "heading": "Establishment of long-range proving ground for guided missiles and other weapons; jurisdiction of Secretary of the Air Force; use by all Services",
+          "text": "The Secretary of the Air Force is authorized to establish a joint long-range proving ground for guided missiles and other weapons by the construction, installation, or equipment of temporary or permanent public works, including buildings, facilities, appurtenances, and utilities, within or without the continental limits of the United States, for scientific study, testing, and training purposes by the Departments of the Army, Navy, and Air Force.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s502",
+          "number": null,
+          "heading": "Acquisition of land",
+          "text": "The Secretary of the Air Force is authorized in discharging the authority given in  to make surveys, to acquire lands and rights or other interests pertaining thereto, including the temporary use thereof, by donation, purchase, exchange of Government-owned lands, or otherwise, without regard to section 3324(a) and (b) of title 31. Prior to the acquisition under the authority of this section of any lands or rights or other interests pertaining thereto, the Secretary of the Air Force shall come into agreement with the Armed Services Committees of the Senate and the House of Representatives with respect to the acquisition of such lands, rights, or other interests.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s503",
+          "number": null,
+          "heading": "Authorization of appropriations",
+          "text": "There is authorized to be appropriated, out of any money in the Treasury not otherwise appropriated, not to exceed $75,000,000 to carry out the purposes of sections 501 and 502 of this title.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s504",
+          "number": null,
+          "heading": "Delegation of authority by Secretary of Defense; contributions for support",
+          "text": "The Secretary of Defense is authorized, in his discretion, to transfer to the Secretary of the Army or the Secretary of the Navy, and to retransfer from either of such Secretaries to the other or to the Secretary of the Air Force, all, or any part of, the authority granted by sections 501 and 502 of this title; and, in connection with any such transfer or retransfer, to transfer all or any part of the funds available for the establishment and support of the joint long-range proving ground for guided missiles and other weapons. The Secretary of Defense is further authorized to permit, to the extent that he may deem appropriate, the Secretaries of the Army, the Navy, and the Air Force to contribute, with or without reimbursement, to the establishment and support of the joint long-range proving ground for guided missiles authorized by this chapter, by the loan, assignment, or transfer of personnel, supplies, equipment, and services.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch20",
+      "number": null,
+      "name": "WIND TUNNELS",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t50/ch21",
+      "number": null,
+      "name": "ABACÁ PRODUCTION",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s541 to 546",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch22",
+      "number": null,
+      "name": "UNIFORM CODE OF MILITARY JUSTICE",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t50/ch22A",
+      "number": null,
+      "name": "REPRESENTATION OF ARMED FORCES PERSONNEL BEFORE FOREIGN JUDICIAL TRIBUNALS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s751 to 755",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch23",
+      "number": null,
+      "name": "INTERNAL SECURITY",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t50/ch24",
+      "number": null,
+      "name": "NATIONAL DEFENSE FACILITIES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s881 to 887",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch25",
+      "number": null,
+      "name": "ARMED FORCES RESERVE",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s901 to 905",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s921 to 935",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s936",
+          "number": null,
+          "heading": "Repealed. , title VII, § 702(d),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s941 to 956",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s961 to 967",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s971 to 975",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s981, 982",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s991, 992",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1001 to 1010",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1011, 1012",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1013",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1014",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1015",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1016",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1021 to 1024",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1041 to 1053",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1071 to 1074",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1091 to 1093",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1111 to 1124",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1125",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch26",
+      "number": null,
+      "name": "GIFTS FOR DEFENSE PURPOSES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1151 to 1156",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch27",
+      "number": null,
+      "name": "RESERVE OFFICER PERSONNEL PROGRAM",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1181, 1182",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1191 to 1202",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1221 to 1227",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1231 to 1238",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1241 to 1243",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1251 to 1255",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1261 to 1264",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1265",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1266, 1267",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1271 to 1279",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1281",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1301 to 1314",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1331 to 1357",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1381 to 1398",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1399",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch28",
+      "number": null,
+      "name": "STATUS OF ARMED FORCES PERSONNEL APPOINTED TO SERVICE ACADEMIES",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1411 to 1414",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch29",
+      "number": null,
+      "name": "NATIONAL DEFENSE CONTRACTS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1431",
+          "number": null,
+          "heading": "Authorization; official approval; Congressional action: notification of committees of certain proposed obligations, resolution of disapproval, continuity of session, computation of period",
+          "text": "The President may authorize any department or agency of the Government which exercises functions in connection with the national defense, acting in accordance with regulations prescribed by the President for the protection of the Government, to enter into contracts or into amendments or modifications of contracts heretofore or hereafter made and to make advance payments thereon, without regard to other provisions of law relating to the making, performance, amendment, or modification of contracts, whenever he deems that such action would facilitate the national defense. The authority conferred by this section shall not be utilized to obligate the United States in an amount in excess of $50,000 without approval by an official at or above the level of an Assistant Secretary or his Deputy, or an assistant head or his deputy, of such department or agency, or by a Contract Adjustment Board established therein. The authority conferred by this section may not be utilized to obligate the United States in any amount in excess of $25,000,000 unless the Committees on Armed Services of the Senate and the House of Representatives have been notified in writing of such proposed obligation and 60 days of continuous session of Congress have expired following the date on which such notice was transmitted to such Committees. For purposes of this section, the continuity of a session of Congress is broken only by an adjournment of the Congress sine die at the end of a Congress, and the days on which either House is not in session because of an adjournment of more than 3 days to a day certain, or because of an adjournment sine die other than at the end of a Congress, are excluded in the computation of such 60-day period.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1432",
+          "number": null,
+          "heading": "Restrictions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1433",
+          "number": null,
+          "heading": "Public record; examination of records by Comptroller General; exemptions: exceptional conditions; reports to Congress",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1434",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1435",
+          "number": null,
+          "heading": "Effective period",
+          "text": "This chapter shall be effective only during a national emergency declared by Congress or the President and for six months after the termination thereof or until such earlier time as Congress, by concurrent resolution, may designate.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1436",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch30",
+      "number": null,
+      "name": "FEDERAL ABSENTEE VOTING ASSISTANCE",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1451 to 1454",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1461 to 1465",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1471 to 1476",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch31",
+      "number": null,
+      "name": "ADVISORY COMMISSION ON INTERGOVERNMENTAL RELATIONS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1501 to 1509",
+          "number": null,
+          "heading": "Transferred",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch32",
+      "number": null,
+      "name": "CHEMICAL AND BIOLOGICAL WARFARE PROGRAM",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1511",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1512",
+          "number": null,
+          "heading": "Transportation, open air testing, and disposal; Presidential determination; report to Congress; notice to Congress and State Governors",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1512a",
+          "number": null,
+          "heading": "Transportation of chemical munitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1513",
+          "number": null,
+          "heading": "Deployment, storage, and disposal; notification to host country and Congress; international law violations; reports to Congress and international organizations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1514",
+          "number": null,
+          "heading": "“United States” defined",
+          "text": "Unless otherwise indicated, as used in this chapter the term “United States” means the several States the District of Columbia, and the territories and possessions of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1515",
+          "number": null,
+          "heading": "Suspension; Presidential authorization",
+          "text": "After , the operation of this chapter, or any portion thereof, may be suspended by the President during the period of any war declared by Congress and during the period of any national emergency declared by Congress or by the President.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1516",
+          "number": null,
+          "heading": "Delivery systems",
+          "text": "None of the funds authorized to be appropriated by this Act shall be used for the procurement of delivery systems specifically designed to disseminate lethal chemical or any biological warfare agents, or for the procurement of delivery system parts or components specifically designed for such purpose, unless the President shall certify to the Congress that such procurement is essential to the safety and security of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1517",
+          "number": null,
+          "heading": "Immediate disposal when health or safety are endangered",
+          "text": "Nothing contained in this chapter shall be deemed to restrict the transportation or disposal of research quantities of any lethal chemical or any biological warfare agent, or to delay or prevent, in emergency situations either within or outside the United States, the immediate disposal together with any necessary associated transportation, of any lethal chemical or any biological warfare agent when compliance with the procedures and requirements of this chapter would clearly endanger the health or safety of any person.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1518",
+          "number": null,
+          "heading": "Disposal; detoxification; report to Congress; emergencies",
+          "text": "On and after , no chemical or biological warfare agent shall be disposed of within or outside the United States unless such agent has been detoxified or made harmless to man and his environment unless immediate disposal is clearly necessary, in an emergency, to safeguard human life. An immediate report should be made to Congress in the event of such disposal.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1519",
+          "number": null,
+          "heading": "Lethal binary chemical munitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1519a",
+          "number": null,
+          "heading": "Limitation on procurement of binary chemical weapons",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1520",
+          "number": null,
+          "heading": "Repealed. , , , and , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1520a",
+          "number": null,
+          "heading": "Restrictions on use of human subjects for testing of chemical or biological agents",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1521",
+          "number": null,
+          "heading": "Destruction of existing stockpile of lethal chemical agents and munitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1521a",
+          "number": null,
+          "heading": "Destruction of existing stockpile of lethal chemical agents and munitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1522",
+          "number": null,
+          "heading": "Conduct of chemical and biological defense program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1523",
+          "number": null,
+          "heading": "Annual report on chemical and biological warfare defense",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1524",
+          "number": null,
+          "heading": "Agreements to provide support to vaccination programs of Department of Health and Human Services",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1525",
+          "number": null,
+          "heading": "Assistance for facilities subject to inspection under Chemical Weapons Convention",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1526",
+          "number": null,
+          "heading": "Effective use of resources for nonproliferation programs",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch33",
+      "number": null,
+      "name": "WAR POWERS RESOLUTION",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1541",
+          "number": null,
+          "heading": "Purpose and policy",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1542",
+          "number": null,
+          "heading": "Consultation; initial and regular consultations",
+          "text": "The President in every possible instance shall consult with Congress before introducing United States Armed Forces into hostilities or into situations where imminent involvement in hostilities is clearly indicated by the circumstances, and after every such introduction shall consult regularly with the Congress until United States Armed Forces are no longer engaged in hostilities or have been removed from such situations.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1543",
+          "number": null,
+          "heading": "Reporting requirement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1544",
+          "number": null,
+          "heading": "Congressional action",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1545",
+          "number": null,
+          "heading": "Congressional priority procedures for joint resolution or bill",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1546",
+          "number": null,
+          "heading": "Congressional priority procedures for concurrent resolution",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1546a",
+          "number": null,
+          "heading": "Expedited procedures for certain joint resolutions and bills",
+          "text": "Any joint resolution or bill introduced in either House which requires the removal of United States Armed Forces engaged in hostilities outside the territory of the United States, its possessions and territories, without a declaration of war or specific statutory authorization shall be considered in accordance with the procedures of section 601(b) of the International Security Assistance and Arms Export Control Act of 1976, except that any such resolution or bill shall be amendable. If such a joint resolution or bill should be vetoed by the President, the time for debate in consideration of the veto message on such measure shall be limited to twenty hours in the Senate and in the House shall be determined in accordance with the Rules of the House.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1547",
+          "number": null,
+          "heading": "Interpretation of joint resolution",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1548",
+          "number": null,
+          "heading": "Separability",
+          "text": "If any provision of this chapter or the application thereof to any person or circumstance is held invalid, the remainder of the chapter and the application of such provision to any other person or circumstance shall not be affected thereby.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch34",
+      "number": null,
+      "name": "NATIONAL EMERGENCIES",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t50/ch35",
+      "number": null,
+      "name": "INTERNATIONAL EMERGENCY ECONOMIC POWERS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1701",
+          "number": null,
+          "heading": "Unusual and extraordinary threat; declaration of national emergency; exercise of Presidential authorities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1702",
+          "number": null,
+          "heading": "Presidential authorities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1703",
+          "number": null,
+          "heading": "Consultation and reports",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1704",
+          "number": null,
+          "heading": "Authority to issue regulations",
+          "text": "The President may issue such regulations, including regulations prescribing definitions, as may be necessary for the exercise of the authorities granted by this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1705",
+          "number": null,
+          "heading": "Penalties",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1706",
+          "number": null,
+          "heading": "Savings provisions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1707",
+          "number": null,
+          "heading": "Multinational economic embargoes against governments in armed conflict with the United States",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch36",
+      "number": null,
+      "name": "FOREIGN INTELLIGENCE SURVEILLANCE",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t50/ch37",
+      "number": null,
+      "name": "NATIONAL SECURITY SCHOLARSHIPS, FELLOWSHIPS, AND GRANTS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s1901",
+          "number": null,
+          "heading": "Short title, findings, and purposes",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1902",
+          "number": null,
+          "heading": "Scholarship, fellowship, and grant program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1903",
+          "number": null,
+          "heading": "National Security Education Board",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1904",
+          "number": null,
+          "heading": "National Security Education Trust Fund",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1905",
+          "number": null,
+          "heading": "Regulations and administrative provisions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1906",
+          "number": null,
+          "heading": "Annual report",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1907",
+          "number": null,
+          "heading": "Government Accountability Office audits",
+          "text": "The conduct of the program required by this chapter may be audited by the Government Accountability Office under such rules and regulations as may be prescribed by the Comptroller General of the United States. Representatives of the Government Accountability Office shall have access to all books, accounts, records, reports, and files and all other papers, things, or property of the Department of Defense pertaining to such activities and necessary to facilitate the audit.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1908",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1909",
+          "number": null,
+          "heading": "Fiscal year 1992 funding",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1910",
+          "number": null,
+          "heading": "Funding",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1911",
+          "number": null,
+          "heading": "Additional annual authorization of appropriations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1912",
+          "number": null,
+          "heading": "Funding for scholarship program for advanced English language studies by heritage community citizens",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s1913",
+          "number": null,
+          "heading": "National Language Service Corps",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch38",
+      "number": null,
+      "name": "CENTRAL INTELLIGENCE AGENCY RETIREMENT AND DISABILITY",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t50/ch39",
+      "number": null,
+      "name": "SPOILS OF WAR",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s2201",
+          "number": null,
+          "heading": "Transfers of spoils of war",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s2202",
+          "number": null,
+          "heading": "Prohibition on transfers to countries which support terrorism",
+          "text": "Spoils of war in the possession, custody, or control of the United States may not be transferred to any country determined by the Secretary of State, for purposes of , to be a nation whose government has repeatedly provided support for acts of international terrorism.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s2203",
+          "number": null,
+          "heading": "Report on previous transfers",
+          "text": "Not later than 90 days after , the President shall submit to the appropriate congressional committees a report describing any spoils of war obtained subsequent to  that were transferred to any party, including any government, group, or person, before . Such report shall be submitted in unclassified form to the extent possible.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s2204",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s2205",
+          "number": null,
+          "heading": "Construction",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch40",
+      "number": null,
+      "name": "DEFENSE AGAINST WEAPONS OF MASS DESTRUCTION",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s2301",
+          "number": null,
+          "heading": "Findings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s2302",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch41",
+      "number": null,
+      "name": "NATIONAL NUCLEAR SECURITY ADMINISTRATION",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t50/ch42",
+      "number": null,
+      "name": "ATOMIC ENERGY DEFENSE PROVISIONS",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s2501",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch43",
+      "number": null,
+      "name": "PREVENTING WEAPONS OF MASS DESTRUCTION PROLIFERATION AND TERRORISM",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s2901",
+          "number": null,
+          "heading": "Findings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s2902",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch44",
+      "number": null,
+      "name": "NATIONAL SECURITY",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s3001",
+          "number": null,
+          "heading": "Short title",
+          "text": "This chapter may be cited as the “National Security Act of 1947”.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3002",
+          "number": null,
+          "heading": "Congressional declaration of purpose",
+          "text": "In enacting this chapter, it is the intent of Congress to provide a comprehensive program for the future security of the United States; to provide for the establishment of integrated policies and procedures for the departments, agencies, and functions of the Government relating to the national security; to provide a Department of Defense, including the three military Departments of the Army, the Navy (including naval aviation and the United States Marine Corps), and the Air Force under the direction, authority, and control of the Secretary of Defense; to provide that each military department shall be separately organized under its own Secretary and shall function under the direction, authority, and control of the Secretary of Defense; to provide for their unified direction under civilian control of the Secretary of Defense but not to merge these departments or services; to provide for the establishment of unified or specified combatant commands, and a clear and direct line of command to such commands; to eliminate unnecessary duplication in the Department of Defense, and particularly in the field of research and engineering by vesting its overall direction and control in the Secretary of Defense; to provide more effective, efficient, and economical administration in the Department of Defense; to provide for the unified strategic direction of the combatant forces, for their operation under unified command, and for their integration into an efficient team of land, naval, and air forces but not to establish a single Chief of Staff over the armed forces nor an overall armed forces general staff.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3003",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3004",
+          "number": null,
+          "heading": "Definitions of military departments",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3005",
+          "number": null,
+          "heading": "Applicable laws",
+          "text": "Except to the extent inconsistent with the provisions of this chapter, the provisions of title 4 of the Revised Statutes as now or hereafter amended shall be applicable to the Department of Defense.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3006",
+          "number": null,
+          "heading": "Repealing and savings provisions",
+          "text": "All laws, orders, and regulations inconsistent with the provisions of this title  are repealed insofar as they are inconsistent with the powers, duties, and responsibilities enacted hereby: , That the powers, duties, and responsibilities of the Secretary of Defense under this title  shall be administered in conformance with the policy and requirements for administration of budgetary and fiscal matters in the Government generally, including accounting and financial reporting, and that nothing in this title  shall be construed as eliminating or modifying the powers, duties, and responsibilities of any other department, agency, or officer of the Government in connection with such matters, but no such department, agency, or officer shall exercise any such powers, duties, or responsibilities in a manner that will render ineffective the provisions of this title.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch45",
+      "number": null,
+      "name": "MISCELLANEOUS INTELLIGENCE COMMUNITY AUTHORITIES",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t50/ch46",
+      "number": null,
+      "name": "CENTRAL INTELLIGENCE AGENCY",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s3501",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3502",
+          "number": null,
+          "heading": "Seal of office",
+          "text": "The Director shall cause a seal of office to be made for the Central Intelligence Agency, of such design as the President shall approve, and judicial notice shall be taken thereof.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3503",
+          "number": null,
+          "heading": "Procurement authorities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3504",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3505",
+          "number": null,
+          "heading": "Personnel allowances and benefits",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3506",
+          "number": null,
+          "heading": "General authorities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3506a",
+          "number": null,
+          "heading": "Transformation of Central Intelligence Agency",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3507",
+          "number": null,
+          "heading": "Protection of nature of Agency’s functions",
+          "text": "In the interests of the security of the foreign intelligence activities of the United States and in order further to implement  that the Director of National Intelligence shall be responsible for protecting intelligence sources and methods from unauthorized disclosure, the Agency shall be exempted from the provisions of sections 1 and 2 of the Act of  (, 957; ), and the provisions of any other law which require the publication or disclosure of the organization, functions, names, official titles, salaries, or numbers of personnel employed by the Agency: , That in furtherance of this section, the Director of the Office of Management and Budget shall make no reports to the Congress in connection with the Agency under , as amended ().",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3508",
+          "number": null,
+          "heading": "Admission of essential aliens; limitation on number",
+          "text": "Whenever the Director, the Attorney General, and the Commissioner of Immigration and Naturalization shall determine that the admission of a particular alien into the United States for permanent residence is in the interest of national security or essential to the furtherance of the national intelligence mission, such alien and his immediate family shall be admitted to the United States for permanent residence without regard to their inadmissibility under the immigration or any other laws and regulations, or to the failure to comply with such laws and regulations pertaining to admissibility: , That the number of aliens and members of their immediate families admitted to the United States under the authority of this section shall in no case exceed one hundred persons in any one fiscal year.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3509",
+          "number": null,
+          "heading": "Repealed. , title VI, § 601(b),",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3510",
+          "number": null,
+          "heading": "Appropriations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3510a",
+          "number": null,
+          "heading": "Availability of appropriations for construction projects",
+          "text": "During the current fiscal year and thereafter, funds appropriated for construction projects of the Central Intelligence Agency, which are transferred to another Agency for execution, shall remain available until expended.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3510b",
+          "number": null,
+          "heading": "Acquisition of critical skills",
+          "text": "Pursuant to the authority granted in , the Director of Central Intelligence shall establish an undergraduate training program with respect to civilian employees of the Central Intelligence Agency similar in purpose, conditions, content, and administration to the program which the Secretary of Defense is authorized to establish under  for civilian employees of the National Security Agency.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3511",
+          "number": null,
+          "heading": "Authority to pay death gratuities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3512",
+          "number": null,
+          "heading": "Authority to accept gifts, devises, and bequests",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3513",
+          "number": null,
+          "heading": "Misuse of Agency name, initials, or seal",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3514",
+          "number": null,
+          "heading": "Retirement equity for spouses of certain employees",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3515",
+          "number": null,
+          "heading": "Security personnel at Agency installations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3516",
+          "number": null,
+          "heading": "Health benefits for certain former spouses of Central Intelligence Agency employees",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3517",
+          "number": null,
+          "heading": "Inspector General for Agency",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3518",
+          "number": null,
+          "heading": "Special annuity computation rules for certain employees’ service abroad",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3518a",
+          "number": null,
+          "heading": "Portability of overseas service retirement benefit",
+          "text": "The special accrual rates provided by  and by  for computation of the annuity of an individual who has served abroad as an officer or employee of the Central Intelligence Agency shall be used to compute that portion of the annuity of such individual relating to such service abroad whether or not the individual is employed by the Central Intelligence Agency at the time of retirement from Federal service.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3519",
+          "number": null,
+          "heading": "Special rules for disability retirement and death-in-service benefits with respect to certain employees",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3519a",
+          "number": null,
+          "heading": "Separation pay program for voluntary separation from service",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3520",
+          "number": null,
+          "heading": "General Counsel of Central Intelligence Agency",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3521",
+          "number": null,
+          "heading": "Central services program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3522",
+          "number": null,
+          "heading": "Detail of employees",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3523",
+          "number": null,
+          "heading": "Intelligence operations and cover enhancement authority",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t50/ch47",
+      "number": null,
+      "name": "NATIONAL SECURITY AGENCY",
+      "sections": [
+        {
+          "id": "/us/usc/t50/s3601",
+          "number": null,
+          "heading": "Short title",
+          "text": "This chapter may be cited as the “National Security Agency Act of 1959”.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3602",
+          "number": null,
+          "heading": "Director of Compliance",
+          "text": "There is a Director of Compliance of the National Security Agency, who shall be appointed by the Director of the National Security Agency and who shall be responsible for the programs of compliance over mission activities of the National Security Agency.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3603",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3604",
+          "number": null,
+          "heading": "Additional compensation",
+          "text": "Officers and employees of the National Security Agency who are citizens or nationals of the United States may be granted additional compensation, in accordance with regulations which shall be prescribed by the Secretary of Defense, not in excess of additional compensation authorized by , for employees whose rates of basic compensation are fixed by statute.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3605",
+          "number": null,
+          "heading": "Disclosure of Agency’s organization, function, activities, or personnel",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3606",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3607",
+          "number": null,
+          "heading": "Support for activities and personnel outside the United States",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3608",
+          "number": null,
+          "heading": "Language training and cryptologic linguist reserve programs",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3609",
+          "number": null,
+          "heading": "Enhancement of security authorities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3610",
+          "number": null,
+          "heading": "Senior Cryptologic Executive Service",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3611",
+          "number": null,
+          "heading": "Cryptologic research grant program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3612",
+          "number": null,
+          "heading": "Availability of appropriations",
+          "text": "Funds appropriated to an entity of the Federal Government other than an element of the Department of Defense that have been specifically appropriated for the purchase of cryptologic equipment, materials, or services with respect to which the National Security Agency has been designated as the central source of procurement for the Government shall remain available for a period of three fiscal years.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3613",
+          "number": null,
+          "heading": "Misuse of Agency name, initials, or seal",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3614",
+          "number": null,
+          "heading": "Louis Stokes Educational Scholarship Program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3615",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3616",
+          "number": null,
+          "heading": "Transportation of remains of certain employees",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3617",
+          "number": null,
+          "heading": "National Security Agency Emerging Technologies Panel",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t50/s3618",
+          "number": null,
+          "heading": "Collection of service charges for certification or validation of information assurance products",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "subtitles": [],
+  "parts": []
+}

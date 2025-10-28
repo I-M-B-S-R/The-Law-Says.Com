@@ -1,0 +1,1855 @@
+{
+  "id": 26,
+  "name": "Internal Revenue Code",
+  "chapters": [],
+  "subtitles": [
+    {
+      "id": "/us/usc/t26/stA",
+      "number": null,
+      "name": "Income Taxes",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stA/ch1",
+          "number": null,
+          "name": "NORMAL TAXES AND SURTAXES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stA/ch2",
+          "number": null,
+          "name": "TAX ON SELF-EMPLOYMENT INCOME",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s1401",
+              "number": null,
+              "heading": "Rate of tax",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s1402",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s1403",
+              "number": null,
+              "heading": "Miscellaneous provisions",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stA/ch2A",
+          "number": null,
+          "name": "UNEARNED INCOME MEDICARE CONTRIBUTION",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s1411",
+              "number": null,
+              "heading": "Imposition of tax",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stA/ch3",
+          "number": null,
+          "name": "WITHHOLDING OF TAX ON NONRESIDENT ALIENS AND FOREIGN CORPORATIONS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stA/ch4",
+          "number": null,
+          "name": "TAXES TO ENFORCE REPORTING ON CERTAIN FOREIGN ACCOUNTS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s1471",
+              "number": null,
+              "heading": "Withholdable payments to foreign financial institutions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s1472",
+              "number": null,
+              "heading": "Withholdable payments to other foreign entities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s1473",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s1474",
+              "number": null,
+              "heading": "Special rules",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stA/ch5",
+          "number": null,
+          "name": "REPEALED]",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s1491, 1492",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s1493",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s1494",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stA/ch6",
+          "number": null,
+          "name": "CONSOLIDATED RETURNS",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stB",
+      "number": null,
+      "name": "Estate and Gift Taxes",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stB/ch11",
+          "number": null,
+          "name": "ESTATE TAX",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stB/ch12",
+          "number": null,
+          "name": "GIFT TAX",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stB/ch13",
+          "number": null,
+          "name": "TAX ON GENERATION-SKIPPING TRANSFERS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stB/ch14",
+          "number": null,
+          "name": "SPECIAL VALUATION RULES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s2701",
+              "number": null,
+              "heading": "Special valuation rules in case of transfers of certain interests in corporations or partnerships",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s2702",
+              "number": null,
+              "heading": "Special valuation rules in case of transfers of interests in trusts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s2703",
+              "number": null,
+              "heading": "Certain rights and restrictions disregarded",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s2704",
+              "number": null,
+              "heading": "Treatment of certain lapsing rights and restrictions",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stB/ch15",
+          "number": null,
+          "name": "GIFTS AND BEQUESTS FROM EXPATRIATES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s2801",
+              "number": null,
+              "heading": "Imposition of tax",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stC",
+      "number": null,
+      "name": "Employment Taxes",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stC/ch21",
+          "number": null,
+          "name": "FEDERAL INSURANCE CONTRIBUTIONS ACT",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stC/ch22",
+          "number": null,
+          "name": "RAILROAD RETIREMENT TAX ACT",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stC/ch23",
+          "number": null,
+          "name": "FEDERAL UNEMPLOYMENT TAX ACT",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s3301",
+              "number": null,
+              "heading": "Rate of tax",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3302",
+              "number": null,
+              "heading": "Credits against tax",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3303",
+              "number": null,
+              "heading": "Conditions of additional credit allowance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3304",
+              "number": null,
+              "heading": "Approval of State laws",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3305",
+              "number": null,
+              "heading": "Applicability of State law",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3306",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3307",
+              "number": null,
+              "heading": "Deductions as constructive payments",
+              "text": "Whenever under this chapter or any act of Congress, or under the law of any State, an employer is required or permitted to deduct any amount from the remuneration of an employee and to pay the amount deducted to the United States, a State, or any political subdivision thereof, then for purposes of this chapter the amount so deducted shall be considered to have been paid to the employee at the time of such deduction.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3308",
+              "number": null,
+              "heading": "Instrumentalities of the United States",
+              "text": "Notwithstanding any other provision of law (whether enacted before or after the enactment of this section) which grants to any instrumentality of the United States an exemption from taxation, such instrumentality shall not be exempt from the tax imposed by section 3301 unless such other provision of law grants a specific exemption, by reference to section 3301 (or the corresponding section of prior law), from the tax imposed by such section.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3309",
+              "number": null,
+              "heading": "State law coverage of services performed for nonprofit organizations or governmental entities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3310",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3311",
+              "number": null,
+              "heading": "Short title",
+              "text": "This chapter may be cited as the “Federal Unemployment Tax Act.”",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stC/ch23A",
+          "number": null,
+          "name": "RAILROAD UNEMPLOYMENT REPAYMENT TAX",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s3321",
+              "number": null,
+              "heading": "Imposition of tax",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3322",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3323",
+              "number": null,
+              "heading": "Omitted]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stC/ch24",
+          "number": null,
+          "name": "COLLECTION OF INCOME TAX AT SOURCE ON WAGES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s3401",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3402",
+              "number": null,
+              "heading": "Income tax collected at source",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3403",
+              "number": null,
+              "heading": "Liability for tax",
+              "text": "The employer shall be liable for the payment of the tax required to be deducted and withheld under this chapter, and shall not be liable to any person for the amount of any such payment.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3404",
+              "number": null,
+              "heading": "Return and payment by governmental employer",
+              "text": "If the employer is the United States, or a State, or political subdivision thereof, or the District of Columbia, or any agency or instrumentality of any one or more of the foregoing, the return of the amount deducted and withheld upon any wages may be made by any officer or employee of the United States, or of such State, or political subdivision, or of the District of Columbia, or of such agency or instrumentality, as the case may be, having control of the payment of such wages, or appropriately designated for that purpose.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3405",
+              "number": null,
+              "heading": "Special rules for pensions, annuities, and certain other deferred income",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3406",
+              "number": null,
+              "heading": "Backup withholding",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3451 to 3456",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stC/ch25",
+          "number": null,
+          "name": "GENERAL PROVISIONS RELATING TO EMPLOYMENT TAXES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s3501",
+              "number": null,
+              "heading": "Collection and payment of taxes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3502",
+              "number": null,
+              "heading": "Nondeductibility of taxes in computing taxable income",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3503",
+              "number": null,
+              "heading": "Erroneous payments",
+              "text": "Any tax paid under chapter 21 or 22 by a taxpayer with respect to any period with respect to which he is not liable to tax under such chapter shall be credited against the tax, if any, imposed by such other chapter upon the taxpayer, and the balance, if any, shall be refunded.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3504",
+              "number": null,
+              "heading": "Acts to be performed by agents",
+              "text": "In case a fiduciary, agent, or other person has the control, receipt, custody, or disposal of, or pays the wages of an employee or group of employees, employed by one or more employers, the Secretary, under regulations prescribed by him, is authorized to designate such fiduciary, agent, or other person to perform such acts as are required of employers under this title and as the Secretary may specify. Except as may be otherwise prescribed by the Secretary, all provisions of law (including penalties) applicable in respect of an employer shall be applicable to a fiduciary, agent, or other person so designated but, except as so provided, the employer for whom such fiduciary, agent, or other person acts shall remain subject to the provisions of law (including penalties) applicable in respect of employers.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3505",
+              "number": null,
+              "heading": "Liability of third parties paying or providing for wages",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3506",
+              "number": null,
+              "heading": "Individuals providing companion sitting placement services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3507",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3508",
+              "number": null,
+              "heading": "Treatment of real estate agents and direct­ sellers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3509",
+              "number": null,
+              "heading": "Determination of employer’s liability for certain employment taxes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s3510",
+              "number": null,
+              "heading": "Coordination of collection of domestic service employment taxes with collection of income taxes",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stD",
+      "number": null,
+      "name": "Miscellaneous Excise Taxes",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stD/ch31",
+          "number": null,
+          "name": "RETAIL EXCISE TAXES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stD/ch32",
+          "number": null,
+          "name": "MANUFACTURERS EXCISE TAXES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stD/ch33",
+          "number": null,
+          "name": "FACILITIES AND SERVICES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stD/ch34",
+          "number": null,
+          "name": "TAXES ON CERTAIN INSURANCE POLICIES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stD/ch35",
+          "number": null,
+          "name": "TAXES ON WAGERING",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stD/ch36",
+          "number": null,
+          "name": "CERTAIN OTHER EXCISE TAXES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stD/ch37",
+          "number": null,
+          "name": "REPEALED]",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s4501 to 4503",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch38",
+          "number": null,
+          "name": "REPEALED] 1",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s4521",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4531, 4532",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4541, 4542",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4551 to 4553",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4561, 4562",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4571, 4572",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4581, 4582",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4591 to 4597",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4601 to 4603",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch38",
+          "number": null,
+          "name": "ENVIRONMENTAL TAXES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stD/ch39",
+          "number": null,
+          "name": "REGISTRATION-REQUIRED OBLIGATIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s4701",
+              "number": null,
+              "heading": "Tax on issuer of registration-required obligation not in registered form",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch40",
+          "number": null,
+          "name": "GENERAL PROVISIONS RELATING TO OCCUPATIONAL TAXES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s4901",
+              "number": null,
+              "heading": "Payment of tax",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4902",
+              "number": null,
+              "heading": "Liability of partners",
+              "text": "Any number of persons doing business in copartnership at any one place shall be required to pay but one special tax.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4903",
+              "number": null,
+              "heading": "Liability in case of business in more than one location",
+              "text": "The payment of the special tax imposed, other than the tax imposed by section 4411, shall not exempt from an additional special tax the person carrying on a trade or business in any other place than that stated in the register kept in the office of the official in charge of the internal revenue district; but nothing herein contained shall require a special tax for the storage of goods, wares, or merchandise in other places than the place of business, nor, except as provided in this subtitle, for the sale by manufacturers or producers of their own goods, wares, and merchandise, at the place of production or manufacture, and at their principal office or place of business, provided no goods, wares, or merchandise shall be kept except as samples at said office or place of business.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4904",
+              "number": null,
+              "heading": "Liability in case of different businesses of same ownership and location",
+              "text": "Whenever more than one of the pursuits or occupations described in this subtitle are carried on in the same place by the same person at the same time, except as otherwise provided in this subtitle, the tax shall be paid for each according to the rates severally prescribed.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4905",
+              "number": null,
+              "heading": "Liability in case of death or change of location",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4906",
+              "number": null,
+              "heading": "Application of State laws",
+              "text": "The payment of any special tax imposed by this subtitle for carrying on any trade or business shall not be held to exempt any person from any penalty or punishment provided by the laws of any State for carrying on the same within such State, or in any manner to authorize the commencement or continuance of such trade or business contrary to the laws of such State or in places prohibited by municipal law; nor shall the payment of any such tax be held to prohibit any State from placing a duty or tax on the same trade or business, for State or other purposes.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4907",
+              "number": null,
+              "heading": "Federal agencies or instrumentalities",
+              "text": "Any special tax imposed by this subtitle, except the tax imposed by section 4411, shall apply to any agency or instrumentality of the United States unless such agency or instrumentality is granted by statute a specific exemption from such tax.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch41",
+          "number": null,
+          "name": "PUBLIC CHARITIES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s4911",
+              "number": null,
+              "heading": "Tax on excess expenditures to influence legislation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4912",
+              "number": null,
+              "heading": "Tax on disqualifying lobbying expenditures of certain organizations",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch42",
+          "number": null,
+          "name": "PRIVATE FOUNDATIONS; AND CERTAIN OTHER TAX-EXEMPT ORGANIZATIONS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stD/ch43",
+          "number": null,
+          "name": "QUALIFIED PENSION, ETC., PLANS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s4971",
+              "number": null,
+              "heading": "Taxes on failure to meet minimum funding standards",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4972",
+              "number": null,
+              "heading": "Tax on nondeductible contributions to qualified employer plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4973",
+              "number": null,
+              "heading": "Tax on excess contributions to certain tax-favored accounts and annuities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4974",
+              "number": null,
+              "heading": "Excise tax on certain accumulations in qualified retirement plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4975",
+              "number": null,
+              "heading": "Tax on prohibited transactions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4976",
+              "number": null,
+              "heading": "Taxes with respect to funded welfare benefit plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4977",
+              "number": null,
+              "heading": "Tax on certain fringe benefits provided by an employer",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4978",
+              "number": null,
+              "heading": "Tax on certain dispositions by employee stock ownership plans and certain cooperatives",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4978A",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4978B",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4979",
+              "number": null,
+              "heading": "Tax on certain excess contributions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4979A",
+              "number": null,
+              "heading": "Tax on certain prohibited allocations of qualified securities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980",
+              "number": null,
+              "heading": "Tax on reversion of qualified plan assets to employer",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980A",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980B",
+              "number": null,
+              "heading": "Failure to satisfy continuation coverage requirements of group health plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980C",
+              "number": null,
+              "heading": "Requirements for issuers of qualified long-term care insurance contracts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980D",
+              "number": null,
+              "heading": "Failure to meet certain group health plan requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980E",
+              "number": null,
+              "heading": "Failure of employer to make comparable Archer MSA contributions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980F",
+              "number": null,
+              "heading": "Failure of applicable plans reducing benefit accruals to satisfy notice requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980G",
+              "number": null,
+              "heading": "Failure of employer to make comparable health savings account contributions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980H",
+              "number": null,
+              "heading": "Shared responsibility for employers regarding health coverage",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4980I",
+              "number": null,
+              "heading": "Excise tax on high cost employer-sponsored health coverage",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch44",
+          "number": null,
+          "name": "QUALIFIED INVESTMENT ENTITIES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s4981",
+              "number": null,
+              "heading": "Excise tax on undistributed income of real estate investment trusts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s4982",
+              "number": null,
+              "heading": "Excise tax on undistributed income of regulated investment companies",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch45",
+          "number": null,
+          "name": "PROVISIONS RELATING TO EXPATRIATED ENTITIES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s4985",
+              "number": null,
+              "heading": "Stock compensation of insiders in expatriated corporations",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch46",
+          "number": null,
+          "name": "GOLDEN PARACHUTE PAYMENTS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s4999",
+              "number": null,
+              "heading": "Golden parachute payments",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch47",
+          "number": null,
+          "name": "CERTAIN GROUP HEALTH PLANS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s5000",
+              "number": null,
+              "heading": "Certain group health plans",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch48",
+          "number": null,
+          "name": "MAINTENANCE OF MINIMUM ESSENTIAL COVERAGE",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s5000A",
+              "number": null,
+              "heading": "Requirement to maintain minimum essential coverage",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch49",
+          "number": null,
+          "name": "COSMETIC SERVICES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s5000B",
+              "number": null,
+              "heading": "Imposition of tax on indoor tanning services",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stD/ch50",
+          "number": null,
+          "name": "FOREIGN PROCUREMENT",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s5000C",
+              "number": null,
+              "heading": "Imposition of tax on certain foreign procurement",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stE",
+      "number": null,
+      "name": "Alcohol, Tobacco, and Certain Other Excise Taxes",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stE/ch51",
+          "number": null,
+          "name": "DISTILLED SPIRITS, WINES, AND BEER",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stE/ch52",
+          "number": null,
+          "name": "TOBACCO PRODUCTS AND CIGARETTE PAPERS AND TUBES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stE/ch53",
+          "number": null,
+          "name": "MACHINE GUNS, DESTRUCTIVE DEVICES, AND CERTAIN OTHER FIREARMS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stE/ch54",
+          "number": null,
+          "name": "GREENMAIL",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s5881",
+              "number": null,
+              "heading": "Greenmail",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stE/ch55",
+          "number": null,
+          "name": "STRUCTURED SETTLEMENT FACTORING TRANSACTIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s5891",
+              "number": null,
+              "heading": "Structured settlement factoring transactions",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stF",
+      "number": null,
+      "name": "Procedure and Administration",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stF/ch61",
+          "number": null,
+          "name": "INFORMATION AND RETURNS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch62",
+          "number": null,
+          "name": "TIME AND PLACE FOR PAYING TAX",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch63",
+          "number": null,
+          "name": "ASSESSMENT",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch64",
+          "number": null,
+          "name": "COLLECTION",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch65",
+          "number": null,
+          "name": "ABATEMENTS, CREDITS, AND REFUNDS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch66",
+          "number": null,
+          "name": "LIMITATIONS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch67",
+          "number": null,
+          "name": "INTEREST",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch68",
+          "number": null,
+          "name": "ADDITIONS TO THE TAX, ADDITIONAL AMOUNTS, AND ASSESSABLE PENALTIES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch69",
+          "number": null,
+          "name": "GENERAL PROVISIONS RELATING TO STAMPS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s6801",
+              "number": null,
+              "heading": "Authority for establishment, alteration, and distribution",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6802",
+              "number": null,
+              "heading": "Supply and distribution",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6803",
+              "number": null,
+              "heading": "Accounting and safeguarding",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6804",
+              "number": null,
+              "heading": "Attachment and cancellation",
+              "text": "Except as otherwise expressly provided in this title, the stamps referred to in section 6801 shall be attached, protected, removed, canceled, obliterated, and destroyed, in such manner and by such instruments or other means as the Secretary may prescribe by rules or regulations.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6805",
+              "number": null,
+              "heading": "Redemption of stamps",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6806",
+              "number": null,
+              "heading": "Occupational tax stamps",
+              "text": "Every person engaged in any business, avocation, or employment, who is thereby made liable to a special tax (other than a special tax under subchapter B of chapter 35, under subchapter B of chapter 36, or under subtitle E) shall place and keep conspicuously in his establishment or place of business all stamps denoting payment of such special tax.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6807",
+              "number": null,
+              "heading": "Stamping, marking, and branding seized goods",
+              "text": "If any article of manufacture or produce requiring brands, stamps, or marks of whatever kind to be placed thereon, is sold upon levy, forfeiture (except as provided in section 5688 with respect to distilled spirits), or other process provided by law, the same not having been branded, stamped, or marked, as required by law, the officer selling the same shall, upon sale thereof, fix or cause to be affixed the brands, stamps, or marks so required.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6808",
+              "number": null,
+              "heading": "Special provisions relating to stamps",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stF/ch70",
+          "number": null,
+          "name": "JEOPARDY, RECEIVERSHIPS, ETC.",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch71",
+          "number": null,
+          "name": "TRANSFEREES AND FIDUCIARIES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s6901",
+              "number": null,
+              "heading": "Transferred assets",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6902",
+              "number": null,
+              "heading": "Provisions of special application to transferees",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6903",
+              "number": null,
+              "heading": "Notice of fiduciary relationship",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6904",
+              "number": null,
+              "heading": "Prohibition of injunctions",
+              "text": "For prohibition of suits to restrain enforcement of liability of transferee, or fiduciary, see section 7421(b).",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s6905",
+              "number": null,
+              "heading": "Discharge of executor from personal liability for decedent’s income and gift taxes",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stF/ch72",
+          "number": null,
+          "name": "LICENSING AND REGISTRATION",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch73",
+          "number": null,
+          "name": "BONDS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s7101",
+              "number": null,
+              "heading": "Form of bonds",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7102",
+              "number": null,
+              "heading": "Single bond in lieu of multiple bonds",
+              "text": "In any case in which two or more bonds are required or authorized, the Secretary may provide for the acceptance of a single bond complying with the requirements for which the several bonds are required or authorized.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7103",
+              "number": null,
+              "heading": "Cross references—Other provisions for bonds",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stF/ch74",
+          "number": null,
+          "name": "CLOSING AGREEMENTS AND COMPROMISES",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s7121",
+              "number": null,
+              "heading": "Closing agreements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7122",
+              "number": null,
+              "heading": "Compromises",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7123",
+              "number": null,
+              "heading": "Appeals dispute resolution procedures",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7124",
+              "number": null,
+              "heading": "Cross references",
+              "text": "For criminal penalties for concealment of property, false statement, or falsifying and destroying records, in connection with any closing agreement, compromise, or offer of compromise, see section 7206.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stF/ch75",
+          "number": null,
+          "name": "CRIMES, OTHER OFFENSES, AND FORFEITURES",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch76",
+          "number": null,
+          "name": "JUDICIAL PROCEEDINGS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch77",
+          "number": null,
+          "name": "MISCELLANEOUS PROVISIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s7501",
+              "number": null,
+              "heading": "Liability for taxes withheld or collected",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7502",
+              "number": null,
+              "heading": "Timely mailing treated as timely filing and paying",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7503",
+              "number": null,
+              "heading": "Time for performance of acts where last day falls on Saturday, Sunday, or legal holiday",
+              "text": "When the last day prescribed under authority of the internal revenue laws for performing any act falls on Saturday, Sunday, or a legal holiday, the performance of such act shall be considered timely if it is performed on the next succeeding day which is not a Saturday, Sunday, or a legal holiday. For purposes of this section, the last day for the performance of any act shall be determined by including any authorized extension of time; the term “legal holiday” means a legal holiday in the District of Columbia; and in the case of any return, statement, or other document required to be filed, or any other act required under authority of the internal revenue laws to be performed, at any office of the Secretary or at any other office of the United States or any agency thereof, located outside the District of Columbia but within an internal revenue district, the term “legal holiday” also means a Statewide legal holiday in the State where such office is located.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7504",
+              "number": null,
+              "heading": "Fractional parts of a dollar",
+              "text": "The Secretary may by regulations provide that in the allowance of any amount as a credit or refund, or in the collection of any amount as a deficiency or underpayment, of any tax imposed by this title, a fractional part of a dollar shall be disregarded, unless it amounts to 50 cents or more, in which case it shall be increased to 1 dollar.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7505",
+              "number": null,
+              "heading": "Sale of personal property acquired by the United States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7506",
+              "number": null,
+              "heading": "Administration of real estate acquired by the United States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7507",
+              "number": null,
+              "heading": "Exemption of insolvent banks from tax",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7508",
+              "number": null,
+              "heading": "Time for performing certain acts postponed by reason of service in combat zone or contingency operation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7508A",
+              "number": null,
+              "heading": "Authority to postpone certain deadlines by reason of Presidentially declared disaster or terroristic or military actions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7509",
+              "number": null,
+              "heading": "Expenditures incurred by the United States Postal Service",
+              "text": "The Postmaster General or his delegate shall at least once a month transfer to the Treasury of the United States a statement of the additional expenditures in the District of Columbia and elsewhere incurred by the United States Postal Service in performing the duties, if any, imposed upon such Service with respect to chapter 21, relating to the tax under the Federal Insurance Contributions Act, and the Secretary shall be authorized and directed to advance from time to time to the credit of the United States Postal Service, from appropriations made for the collection of the taxes imposed by chapter 21, such sums as may be required for such additional expenditures incurred by the United States Postal Service.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7510",
+              "number": null,
+              "heading": "Exemption from tax of domestic goods purchased for the United States",
+              "text": "The privilege existing by provision of law on , or thereafter of purchasing supplies of goods imported from foreign countries for the use of the United States, duty free, shall be extended, under such regulations as the Secretary may prescribe, to all articles of domestic production which are subject to tax by the provisions of this title.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7511",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7512",
+              "number": null,
+              "heading": "Separate accounting for certain collected taxes, etc.",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7513",
+              "number": null,
+              "heading": "Reproduction of returns and other documents",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7514",
+              "number": null,
+              "heading": "Authority to prescribe or modify seals",
+              "text": "The Secretary is authorized to prescribe or modify seals of office for the district directors of internal revenue and other officers or employees of the Treasury Department to whom any of the functions of the Secretary of the Treasury shall have been or may be delegated. Each seal so prescribed shall contain such device as the Secretary may select. Each seal shall remain in the custody of any officer or employee whom the Secretary may designate, and, in accordance with the regulations approved by the Secretary, may be affixed in lieu of the seal of the Treasury Department to any certificate or attestation (except for material to be published in the Federal Register) that may be required of such officer or employee. Judicial notice shall be taken of any seal prescribed in accordance with this authority, a facsimile of which has been published in the Federal Register together with the regulations prescribing such seal and the affixation thereof.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7515",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7516",
+              "number": null,
+              "heading": "Supplying training and training aids on request",
+              "text": "The Secretary is authorized within his discretion, upon written request, to admit employees and officials of any State, the Commonwealth of Puerto Rico, any possession of the United States, any political subdivision or instrumentality of any of the foregoing, the District of Columbia, or any foreign government to training courses conducted by the Internal Revenue Service, and to supply them with texts and other training aids. The Secretary may require payment from the party or parties making the request of a reasonable fee not to exceed the cost of the training and training aids supplied pursuant to such request.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7517",
+              "number": null,
+              "heading": "Furnishing on request of statement explaining estate or gift valuation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7518",
+              "number": null,
+              "heading": "Tax incentives relating to merchant marine capital construction funds",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7519",
+              "number": null,
+              "heading": "Required payments for entities electing not to have required taxable year",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7520",
+              "number": null,
+              "heading": "Valuation tables",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7521",
+              "number": null,
+              "heading": "Procedures involving taxpayer interviews",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7522",
+              "number": null,
+              "heading": "Content of tax due, deficiency, and other notices",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7523",
+              "number": null,
+              "heading": "Graphic presentation of major categories of Federal outlays and income",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7524",
+              "number": null,
+              "heading": "Annual notice of tax delinquency",
+              "text": "Not less often than annually, the Secretary shall send a written notice to each taxpayer who has a tax delinquent account of the amount of the tax delinquency as of the date of the notice.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7525",
+              "number": null,
+              "heading": "Confidentiality privileges relating to taxpayer communications",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7526",
+              "number": null,
+              "heading": "Low-income taxpayer clinics",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7527",
+              "number": null,
+              "heading": "Advance payment of credit for health insurance costs of eligible individuals",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7528",
+              "number": null,
+              "heading": "Internal Revenue Service user fees",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stF/ch78",
+          "number": null,
+          "name": "DISCOVERY OF LIABILITY AND ENFORCEMENT OF TITLE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t26/stF/ch79",
+          "number": null,
+          "name": "DEFINITIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s7701",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7702",
+              "number": null,
+              "heading": "Life insurance contract defined",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7702A",
+              "number": null,
+              "heading": "Modified endowment contract defined",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7702B",
+              "number": null,
+              "heading": "Treatment of qualified long-term care insurance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7703",
+              "number": null,
+              "heading": "Determination of marital status",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s7704",
+              "number": null,
+              "heading": "Certain publicly traded partnerships treated as corporations",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stF/ch80",
+          "number": null,
+          "name": "GENERAL RULES",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stG",
+      "number": null,
+      "name": "The Joint Committee on Taxation",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stG/ch91",
+          "number": null,
+          "name": "ORGANIZATION AND MEMBERSHIP OF THE JOINT COMMITTEE",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s8001",
+              "number": null,
+              "heading": "Authorization",
+              "text": "There shall be a joint congressional committee known as the Joint Committee on Taxation (hereinafter in this subtitle referred to as the “Joint Committee”).",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s8002",
+              "number": null,
+              "heading": "Membership",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s8003",
+              "number": null,
+              "heading": "Election of chairman and vice chairman",
+              "text": "The Joint Committee shall elect a chairman and vice chairman from among its members.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s8004",
+              "number": null,
+              "heading": "Appointment and compensation of staff",
+              "text": "Except as otherwise provided by law, the Joint Committee shall have power to appoint and fix the compensation of the Chief of Staff of the Joint Committee and such experts and clerical, stenographic, and other assistants as it deems advisable.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s8005",
+              "number": null,
+              "heading": "Payment of expenses",
+              "text": "The expenses of the Joint Committee shall be paid one-half from the contingent fund of the Senate and one-half from the contingent fund of the House of Representatives, upon vouchers signed by the chairman or the vice chairman.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stG/ch92",
+          "number": null,
+          "name": "POWERS AND DUTIES OF THE JOINT COMMITTEE",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s8021",
+              "number": null,
+              "heading": "Powers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s8022",
+              "number": null,
+              "heading": "Duties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s8023",
+              "number": null,
+              "heading": "Additional powers to obtain data",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stH",
+      "number": null,
+      "name": "Financing of Presidential Election Campaigns",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stH/ch95",
+          "number": null,
+          "name": "PRESIDENTIAL ELECTION CAMPAIGN FUND",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s9001",
+              "number": null,
+              "heading": "Short title",
+              "text": "This chapter may be cited as the “Presidential Election Campaign Fund Act”.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9002",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9003",
+              "number": null,
+              "heading": "Condition for eligibility for payments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9004",
+              "number": null,
+              "heading": "Entitlement of eligible candidates to payments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9005",
+              "number": null,
+              "heading": "Certification by Commission",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9006",
+              "number": null,
+              "heading": "Payments to eligible candidates",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9007",
+              "number": null,
+              "heading": "Examinations and audits; repayments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9008",
+              "number": null,
+              "heading": "Payments for presidential nominating conventions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9009",
+              "number": null,
+              "heading": "Reports to Congress; regulations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9010",
+              "number": null,
+              "heading": "Participation by Commission in judicial proceedings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9011",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9012",
+              "number": null,
+              "heading": "Criminal penalties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9013",
+              "number": null,
+              "heading": "Effective date of chapter",
+              "text": "The provisions of this chapter shall take effect on .",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t26/stH/ch96",
+          "number": null,
+          "name": "PRESIDENTIAL PRIMARY MATCHING PAYMENT ACCOUNT",
+          "sections": [
+            {
+              "id": "/us/usc/t26/s9031",
+              "number": null,
+              "heading": "Short title",
+              "text": "This chapter may be cited as the “Presidential Primary Matching Payment Account Act”.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9032",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9033",
+              "number": null,
+              "heading": "Eligibility for payments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9034",
+              "number": null,
+              "heading": "Entitlement of eligible candidates to payments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9035",
+              "number": null,
+              "heading": "Qualified campaign expense limitations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9036",
+              "number": null,
+              "heading": "Certification by Commission",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9037",
+              "number": null,
+              "heading": "Payments to eligible candidates",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9038",
+              "number": null,
+              "heading": "Examinations and audits; repayments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9039",
+              "number": null,
+              "heading": "Reports to Congress; regulations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9040",
+              "number": null,
+              "heading": "Participation by Commission in judicial proceedings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9041",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t26/s9042",
+              "number": null,
+              "heading": "Criminal penalties",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stI",
+      "number": null,
+      "name": "Trust Fund Code",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stI/ch98",
+          "number": null,
+          "name": "TRUST FUND CODE",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stJ",
+      "number": null,
+      "name": "Coal Industry Health Benefits",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stJ/ch99",
+          "number": null,
+          "name": "COAL INDUSTRY HEALTH BENEFITS",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t26/stK",
+      "number": null,
+      "name": "Group Health Plan Requirements",
+      "chapters": [
+        {
+          "id": "/us/usc/t26/stK/ch100",
+          "number": null,
+          "name": "GROUP HEALTH PLAN REQUIREMENTS",
+          "sections": []
+        }
+      ]
+    }
+  ],
+  "parts": []
+}

@@ -1,0 +1,1376 @@
+{
+  "id": 51,
+  "name": "National and Commercial Space Programs",
+  "chapters": [],
+  "subtitles": [
+    {
+      "id": "/us/usc/t51/stI",
+      "number": null,
+      "name": "General",
+      "chapters": [
+        {
+          "id": "/us/usc/t51/stI/ch101",
+          "number": null,
+          "name": "DEFINITIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s10101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t51/stII",
+      "number": null,
+      "name": "General Program and Policy Provisions",
+      "chapters": [
+        {
+          "id": "/us/usc/t51/stII/ch201",
+          "number": null,
+          "name": "NATIONAL AERONAUTICS AND SPACE PROGRAM",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t51/stII/ch203",
+          "number": null,
+          "name": "RESPONSIBILITIES AND VISION",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s20301",
+              "number": null,
+              "heading": "General responsibilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s20302",
+              "number": null,
+              "heading": "Vision for space exploration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s20303",
+              "number": null,
+              "heading": "Contribution to innovation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s20304",
+              "number": null,
+              "heading": "Basic research enhancement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s20305",
+              "number": null,
+              "heading": "National Academies decadal surveys",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t51/stIII",
+      "number": null,
+      "name": "Administrative Provisions",
+      "chapters": [
+        {
+          "id": "/us/usc/t51/stIII/ch301",
+          "number": null,
+          "name": "APPROPRIATIONS, BUDGETS, AND ACCOUNTING",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s30101",
+              "number": null,
+              "heading": "Prior authorization of appropriations required",
+              "text": "Notwithstanding the provisions of any other law, no appropriation may be made to the Administration unless previously authorized by legislation enacted by Congress.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30102",
+              "number": null,
+              "heading": "Working capital fund",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30103",
+              "number": null,
+              "heading": "Budgets",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30104",
+              "number": null,
+              "heading": "Baselines and cost controls",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIII/ch303",
+          "number": null,
+          "name": "CONTRACTING AND PROCUREMENT",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s30301",
+              "number": null,
+              "heading": "Guaranteed customer base",
+              "text": "No amount appropriated to the Administration may be used to fund grants, contracts, or other agreements with an expected duration of more than one year, when a primary effect of the grant, contract, or agreement is to provide a guaranteed customer base for or establish an anchor tenancy in new commercial space hardware or services unless an appropriations Act specifies the new commercial space hardware or services to be developed or used, or the grant, contract, or agreement is otherwise identified in such Act.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30302",
+              "number": null,
+              "heading": "Quality assurance personnel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30303",
+              "number": null,
+              "heading": "Tracking and data relay satellite services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30304",
+              "number": null,
+              "heading": "Award of contracts to small businesses and disadvantaged individuals",
+              "text": "The Administrator shall annually establish a goal of at least 8 percent of the total value of prime and subcontracts awarded in support of authorized programs, including the space station by the time operational status is obtained, which funds will be made available to small business concerns or other organizations owned or controlled by socially and economically disadvantaged individuals (within the meaning of paragraphs (5) and (6) of section 8(a) of the Small Business Act ()), including Historically Black Colleges and Universities that are part B institutions (as defined in section 322(2) of the Higher Education Act of 1965 ()), Hispanic-serving institutions (as defined in section 502(a)(5) of that Act ()), Tribal Colleges or Universities (as defined in section 316(b)(3) of that Act ()), Alaska Native-serving institutions (as defined in section 317(b)(2) of that Act ()), Native Hawaiian-serving institutions (as defined in section 317(b)(4) of that Act ()), and minority educational institutions (as defined by the Secretary of Education pursuant to the General Education Provisions Act ( et seq.)).",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30305",
+              "number": null,
+              "heading": "Outreach program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30306",
+              "number": null,
+              "heading": "Small business contracting",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30307",
+              "number": null,
+              "heading": "Requirement for independent cost analysis",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30308",
+              "number": null,
+              "heading": "Cost effectiveness calculations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30309",
+              "number": null,
+              "heading": "Use of abandoned and underutilized buildings, grounds, and facilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30310",
+              "number": null,
+              "heading": "Exception to alternative fuel procurement requirement",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIII/ch305",
+          "number": null,
+          "name": "MANAGEMENT AND REVIEW",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s30501",
+              "number": null,
+              "heading": "Lessons learned and best practices",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30502",
+              "number": null,
+              "heading": "Whistleblower protection",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30503",
+              "number": null,
+              "heading": "Performance assessments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30504",
+              "number": null,
+              "heading": "Assessment of science mission extensions",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIII/ch307",
+          "number": null,
+          "name": "INTERNATIONAL COOPERATION AND COMPETITION",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s30701",
+              "number": null,
+              "heading": "Competitiveness and international cooperation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30702",
+              "number": null,
+              "heading": "Foreign contract limitation",
+              "text": "The Administration shall not enter into any agreement or contract with a foreign government that grants the foreign government the right to recover profit in the event that the agreement or contract is terminated.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30703",
+              "number": null,
+              "heading": "Foreign launch vehicles",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30704",
+              "number": null,
+              "heading": "Offshore performance of contracts for the procurement of goods and services",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIII/ch309",
+          "number": null,
+          "name": "AWARDS",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s30901",
+              "number": null,
+              "heading": "Congressional Space Medal of Honor",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s30902",
+              "number": null,
+              "heading": "Charles “Pete” Conrad Astronomy Awards",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIII/ch311",
+          "number": null,
+          "name": "SAFETY",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s31101",
+              "number": null,
+              "heading": "Aerospace Safety Advisory Panel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s31102",
+              "number": null,
+              "heading": "Drug and alcohol testing",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIII/ch313",
+          "number": null,
+          "name": "HEALTHCARE",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s31301",
+              "number": null,
+              "heading": "Healthcare program",
+              "text": "The Administrator shall develop a plan to better understand the longitudinal health effects of space flight on humans. In the development of the plan, the Administrator shall consider the need for the establishment of a lifetime healthcare program for Administration astronauts and their families or other methods to obtain needed health data from astronauts and retired astronauts.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s31302",
+              "number": null,
+              "heading": "Astronaut healthcare survey",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIII/ch315",
+          "number": null,
+          "name": "MISCELLANEOUS",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s31501",
+              "number": null,
+              "heading": "Orbital debris",
+              "text": "The Administrator, in conjunction with the heads of other Federal agencies, shall take steps to develop or acquire technologies that will enable the Administration to decrease the risks associated with orbital debris.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s31502",
+              "number": null,
+              "heading": "Maintenance of facilities",
+              "text": "In order to sustain healthy Centers that are capable of carrying out the Administration’s missions, the Administrator shall ensure that adequate maintenance and upgrading of those Center facilities is performed on a regular basis.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s31503",
+              "number": null,
+              "heading": "Laboratory productivity",
+              "text": "The Administration’s laboratories are a critical component of the Administration’s research capabilities, and the Administrator shall ensure that those laboratories remain productive.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s31504",
+              "number": null,
+              "heading": "Cooperative unmanned aerial vehicle activities",
+              "text": "The Administrator, in cooperation with the Administrator of the National Oceanic and Atmospheric Administration and in coordination with other agencies that have existing civil capabilities, shall continue to utilize the capabilities of unmanned aerial vehicles as appropriate in support of Administration and interagency cooperative missions. The Administrator may enter into cooperative agreements with universities with unmanned aerial vehicle programs and related assets to conduct collaborative research and development activities, including development of appropriate applications of small unmanned aerial vehicle technologies and systems in remote areas.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s31505",
+              "number": null,
+              "heading": "Development of enhanced-use lease policy",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t51/stIV",
+      "number": null,
+      "name": "Aeronautics and Space Research and Education",
+      "chapters": [
+        {
+          "id": "/us/usc/t51/stIV/ch401",
+          "number": null,
+          "name": "AERONAUTICS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t51/stIV/ch403",
+          "number": null,
+          "name": "NATIONAL SPACE GRANT COLLEGE AND FELLOWSHIP PROGRAM",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s40301",
+              "number": null,
+              "heading": "Purposes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40302",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40303",
+              "number": null,
+              "heading": "National space grant college and fellowship program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40304",
+              "number": null,
+              "heading": "Grants or contracts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40305",
+              "number": null,
+              "heading": "Specific national needs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40306",
+              "number": null,
+              "heading": "Space grant college and space grant regional consortium",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40307",
+              "number": null,
+              "heading": "Space grant fellowship program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40308",
+              "number": null,
+              "heading": "Space grant review panel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40309",
+              "number": null,
+              "heading": "Availability of other Federal personnel and data",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40310",
+              "number": null,
+              "heading": "Designation or award to be on competitive basis",
+              "text": "The Administrator shall not under this chapter designate any space grant college or space grant regional consortium or award any fellowship, grant, or contract unless such designation or award is made in accordance with the competitive, merit-based review process employed by the Administration on .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40311",
+              "number": null,
+              "heading": "Continuing emphasis",
+              "text": "The Administration shall continue its emphasis on the importance of education to expand opportunities for Americans to understand and participate in the Administration’s aeronautics and space projects by supporting and enhancing science and engineering education, research, and public outreach efforts.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIV/ch405",
+          "number": null,
+          "name": "BIOMEDICAL RESEARCH IN SPACE",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s40501",
+              "number": null,
+              "heading": "Biomedical research joint working group",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40502",
+              "number": null,
+              "heading": "Biomedical research grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40503",
+              "number": null,
+              "heading": "Biomedical research fellowships",
+              "text": "The Administrator and the Director of the National Institutes of Health shall create a joint program of graduate research fellowships in biomedical research described in . Fellowships under such program may provide for participation in approved research conferences and symposia.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40504",
+              "number": null,
+              "heading": "Establishment of electronic data archive",
+              "text": "The Administrator shall create and maintain a national electronic data archive for biomedical research data obtained from space-based experiments.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40505",
+              "number": null,
+              "heading": "Establishment of emergency medical service telemedicine capability",
+              "text": "The Administrator, the Administrator of the Federal Emergency Management Agency, the Director of the Office of Foreign Disaster Assistance, and the Surgeon General of the United States shall jointly create and maintain an international telemedicine satellite consultation capability to support emergency medical services in disaster-stricken areas.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIV/ch407",
+          "number": null,
+          "name": "ENVIRONMENTALLY FRIENDLY AIRCRAFT",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s40701",
+              "number": null,
+              "heading": "Research and development initiative",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40702",
+              "number": null,
+              "heading": "Additional research and development initiative",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40703",
+              "number": null,
+              "heading": "Research alignment",
+              "text": "In addition to pursuing the research and development initiative described in , the Administrator shall, to the maximum extent practicable within available funding, align the fundamental aeronautics research program to address high priority technology challenges of the National Academies’ Decadal Survey of Civil Aeronautics, and shall work to increase the degree of involvement of external organizations, and especially of universities, in the fundamental aeronautics research program.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40704",
+              "number": null,
+              "heading": "Research program on perceived impact of sonic booms",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stIV/ch409",
+          "number": null,
+          "name": "MISCELLANEOUS",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s40901",
+              "number": null,
+              "heading": "Science, Space, and Technology Education Trust Fund",
+              "text": "There is appropriated, by transfer from funds appropriated in the Department of Housing and Urban Development—Independent Agencies Appropriations Act, 1989 (, ), for “Construction of facilities”, the sum of $15,000,000 to the “Science, Space, and Technology Education Trust Fund”, which is hereby established in the Treasury of the United States. The Secretary of the Treasury shall invest these funds in the United States Treasury special issue securities, and interest shall be credited to the Trust Fund on a quarterly basis. Such interest shall be available for the purpose of making grants for programs directed at improving science, space, and technology education in the United States. The Administrator, after consultation with the Director of the National Science Foundation, shall review applications made for such grants and determine the distribution of available funds on a competitive basis. Grants shall be made available to any awardee only to the extent that the awardee provides matching funds from non-Federal sources to carry out the program for which grants from this Trust Fund are made. Of the funds made available by this Trust Fund, $250,000 shall be disbursed each calendar quarter to the Challenger Center for Space Science Education. The Administrator shall submit to Congress an annual report on the grants made pursuant to this section.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40902",
+              "number": null,
+              "heading": "National Aeronautics and Space Administration Endeavor Teacher Fellowship Trust Fund",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40903",
+              "number": null,
+              "heading": "Experimental Program to Stimulate Competitive Research—merit grant competition requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40904",
+              "number": null,
+              "heading": "Microgravity research",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40905",
+              "number": null,
+              "heading": "Program to expand distance learning in rural underserved areas",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40906",
+              "number": null,
+              "heading": "Equal access to the Administration’s education programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40907",
+              "number": null,
+              "heading": "Museums",
+              "text": "The Administrator may provide grants to, and enter into cooperative agreements with, museums and planetariums to enable them to enhance programs related to space exploration, aeronautics, space science, Earth science, or microgravity.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40908",
+              "number": null,
+              "heading": "Continuation of certain education programs",
+              "text": "From amounts appropriated to the Administration for education programs, the Administrator shall ensure the continuation of the Space Grant Program, the Experimental Program to Stimulate Competitive Research, and, consistent with the results of the review under section 614 of the National Aeronautics and Space Administration Authorization Act of 2005 (, ), the Administration Explorer School program, to motivate and develop the next generation of explorers.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s40909",
+              "number": null,
+              "heading": "Compliance with title IX of Education Amendments of 1972",
+              "text": "To comply with title IX of the Education Amendments of 1972 ( et seq.), the Administrator shall conduct compliance reviews of at least 2 grantees annually.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t51/stV",
+      "number": null,
+      "name": "Programs Targeting Commercial Opportunities",
+      "chapters": [
+        {
+          "id": "/us/usc/t51/stV/ch501",
+          "number": null,
+          "name": "SPACE COMMERCE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t51/stV/ch503",
+          "number": null,
+          "name": "COMMERCIAL REUSABLE IN-SPACE TRANSPORTATION",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s50301",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50302",
+              "number": null,
+              "heading": "Loan guarantees for production of commercial reusable in-space transportation",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stV/ch505",
+          "number": null,
+          "name": "COMMERCIAL SPACE COMPETITIVENESS",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s50501",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50502",
+              "number": null,
+              "heading": "Launch voucher demonstration program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50503",
+              "number": null,
+              "heading": "Anchor tenancy and termination liability",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50504",
+              "number": null,
+              "heading": "Use of Government facilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50505",
+              "number": null,
+              "heading": "Test facilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50506",
+              "number": null,
+              "heading": "Commercial Space Achievement Award",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stV/ch507",
+          "number": null,
+          "name": "OFFICE OF SPACE COMMERCIALIZATION",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s50701",
+              "number": null,
+              "heading": "Definition of Office",
+              "text": "In this chapter, the term “Office” means the Office of Space Commercialization established in .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50702",
+              "number": null,
+              "heading": "Establishment",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50703",
+              "number": null,
+              "heading": "Annual report",
+              "text": "The Secretary of Commerce shall submit an annual report on the activities of the Office, including planned programs and expenditures, to the Committee on Commerce, Science, and Transportation of the Senate and the Committee on Science and Technology of the House of Representatives.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stV/ch509",
+          "number": null,
+          "name": "COMMERCIAL SPACE LAUNCH ACTIVITIES",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s50901",
+              "number": null,
+              "heading": "Findings and purposes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50902",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50903",
+              "number": null,
+              "heading": "General authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50904",
+              "number": null,
+              "heading": "Restrictions on launches, operations, and reentries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50905",
+              "number": null,
+              "heading": "License applications and requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50906",
+              "number": null,
+              "heading": "Experimental permits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50907",
+              "number": null,
+              "heading": "Monitoring activities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50908",
+              "number": null,
+              "heading": "Effective periods, and modifications, suspensions, and revocations, of licenses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50909",
+              "number": null,
+              "heading": "Prohibition, suspension, and end of launches, operation of launch sites and reentry sites, and reentries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50910",
+              "number": null,
+              "heading": "Preemption of scheduled launches or reentries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50911",
+              "number": null,
+              "heading": "Space advertising",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50912",
+              "number": null,
+              "heading": "Administrative hearings and judicial review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50913",
+              "number": null,
+              "heading": "Acquiring United States Government property and services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50914",
+              "number": null,
+              "heading": "Liability insurance and financial responsibility requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50915",
+              "number": null,
+              "heading": "Paying claims exceeding liability insurance and financial responsibility requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50916",
+              "number": null,
+              "heading": "Disclosing information",
+              "text": "The Secretary of Transportation, an officer or employee of the United States Government, or a person making a contract with the Secretary under  may disclose information under this chapter that qualifies for an exemption under  or is designated as confidential by the person or head of the executive agency providing the information only if the Secretary decides withholding the information is contrary to the public or national interest.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50917",
+              "number": null,
+              "heading": "Enforcement and penalty",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50918",
+              "number": null,
+              "heading": "Consultation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50919",
+              "number": null,
+              "heading": "Relationship to other executive agencies, laws, and international obligations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50920",
+              "number": null,
+              "heading": "User fees",
+              "text": "The Secretary of Transportation may collect a user fee for a regulatory or other service conducted under this chapter only if specifically authorized by this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50921",
+              "number": null,
+              "heading": "Office of Commercial Space Transportation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50922",
+              "number": null,
+              "heading": "Regulations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s50923",
+              "number": null,
+              "heading": "Report to Congress",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stV/ch511",
+          "number": null,
+          "name": "SPACE TRANSPORTATION INFRASTRUCTURE MATCHING GRANTS",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s51101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s51102",
+              "number": null,
+              "heading": "Grant authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s51103",
+              "number": null,
+              "heading": "Grant applications",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s51104",
+              "number": null,
+              "heading": "Environmental requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s51105",
+              "number": null,
+              "heading": "Authorization of appropriations",
+              "text": "Not more than $10,000,000 may be appropriated to the Secretary of Transportation to make grants under this chapter. Amounts appropriated under this section remain available until expended.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t51/stVI",
+      "number": null,
+      "name": "Earth Observations",
+      "chapters": [
+        {
+          "id": "/us/usc/t51/stVI/ch601",
+          "number": null,
+          "name": "LAND REMOTE SENSING POLICY",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t51/stVI/ch603",
+          "number": null,
+          "name": "REMOTE SENSING",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s60301",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60302",
+              "number": null,
+              "heading": "General responsibilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60303",
+              "number": null,
+              "heading": "Pilot projects to encourage public sector applications",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60304",
+              "number": null,
+              "heading": "Program evaluation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60305",
+              "number": null,
+              "heading": "Data availability",
+              "text": "The Administrator shall ensure that the results of each of the pilot projects completed under  shall be retrievable through an electronic, internet-accessible database.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60306",
+              "number": null,
+              "heading": "Education",
+              "text": "The Administrator shall establish an educational outreach program to increase awareness at institutions of higher education and State, local, regional, and tribal agencies of the potential applications of remote sensing and other geospatial information and awareness of the need for geospatial workforce development.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stVI/ch605",
+          "number": null,
+          "name": "EARTH SCIENCE",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s60501",
+              "number": null,
+              "heading": "Goal",
+              "text": "The goal for the Administration’s Earth Science program shall be to pursue a program of Earth observations, research, and applications activities to better understand the Earth, how it supports life, and how human activities affect its ability to do so in the future. In pursuit of this goal, the Administration’s Earth Science program shall ensure that securing practical benefits for society will be an important measure of its success in addition to securing new knowledge about the Earth system and climate change. In further pursuit of this goal, the Administration shall, together with the National Oceanic and Atmospheric Administration and other relevant agencies, provide United States leadership in developing and carrying out a cooperative international Earth observations-based research program.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60502",
+              "number": null,
+              "heading": "Transitioning experimental research into operational services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60503",
+              "number": null,
+              "heading": "Reauthorization of Glory Mission",
+              "text": "Congress reauthorizes the Administration to continue with development of the Glory Mission, which will examine how aerosols and solar energy affect the Earth’s climate.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60504",
+              "number": null,
+              "heading": "Tornadoes and other severe storms",
+              "text": "The Administrator shall ensure that the Administration gives high priority to those parts of its existing cooperative activities with the National Oceanic and Atmospheric Administration that are related to the study of tornadoes and other severe storms, tornado-force winds, and other factors determined to influence the development of tornadoes and other severe storms, with the goal of improving the Nation’s ability to predict tornados and other severe storms. Further, the Administrator shall examine whether there are additional cooperative activities with the National Oceanic and Atmospheric Administration that should be undertaken in the area of tornado and severe storm research.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60505",
+              "number": null,
+              "heading": "Coordination with the National Oceanic and Atmospheric Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s60506",
+              "number": null,
+              "heading": "Sharing of climate related data",
+              "text": "The Administrator shall work to ensure that the Administration’s policies on the sharing of climate related data respond to the recommendations of the Government Accountability Office’s report on climate change research and data-sharing policies and to the recommendations on the processing, distribution, and archiving of data by the National Academies Earth Science Decadal Survey, “Earth Science and Applications from Space”, and other relevant National Academies reports, to enhance and facilitate their availability and widest possible use to ensure public access to accurate and current data on global warming.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t51/stVII",
+      "number": null,
+      "name": "Access to Space",
+      "chapters": [
+        {
+          "id": "/us/usc/t51/stVII/ch701",
+          "number": null,
+          "name": "USE OF SPACE SHUTTLE OR ALTERNATIVES",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s70101",
+              "number": null,
+              "heading": "Recovery of fair value of placing Department of Defense payloads in orbit with space shuttle",
+              "text": "Notwithstanding any other provision of law, or any interagency agreement, the Administrator shall charge such prices as are necessary to recover the fair value of placing Department of Defense payloads into orbit by means of the space shuttle.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70102",
+              "number": null,
+              "heading": "Space shuttle use policy",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70103",
+              "number": null,
+              "heading": "Commercial payloads on space shuttle",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stVII/ch703",
+          "number": null,
+          "name": "SHUTTLE PRICING POLICY FOR COMMERCIAL AND FOREIGN USERS",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s70301",
+              "number": null,
+              "heading": "Congressional findings and declarations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70302",
+              "number": null,
+              "heading": "Purpose, policy, and goals",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70303",
+              "number": null,
+              "heading": "Definition of additive cost",
+              "text": "In this chapter, the term “additive cost” means the average direct and indirect costs to the Administration of providing additional flights of the Space Transportation System beyond the costs associated with those flights necessary to meet the space transportation needs of the United States Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70304",
+              "number": null,
+              "heading": "Duties of Administrator",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stVII/ch705",
+          "number": null,
+          "name": "EXPLORATION INITIATIVES",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s70501",
+              "number": null,
+              "heading": "Space shuttle follow-on",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70502",
+              "number": null,
+              "heading": "Exploration plan and programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70503",
+              "number": null,
+              "heading": "Ground-based analog capabilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70504",
+              "number": null,
+              "heading": "Stepping stone approach to exploration",
+              "text": "In order to maximize the cost-effectiveness of the long-term exploration and utilization activities of the United States, the Administrator shall take all necessary steps, including engaging international partners, to ensure that activities in its lunar exploration program shall be designed and implemented in a manner that gives strong consideration to how those activities might also help meet the requirements of future exploration and utilization activities beyond the Moon. The timetable of the lunar phase of the long-term international exploration initiative shall be determined by the availability of funding. However, once an exploration-related project enters its development phase, the Administrator shall seek, to the maximum extent practicable, to complete that project without undue delays.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70505",
+              "number": null,
+              "heading": "Lunar outpost",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70506",
+              "number": null,
+              "heading": "Exploration technology research",
+              "text": "The Administrator shall carry out a program of long-term exploration-related technology research and development, including such things as in-space propulsion, power systems, life support, and advanced avionics, that is not tied to specific flight projects. The program shall have the funding goal of ensuring that the technology research and development can be completed in a timely manner in order to support the safe, successful, and sustainable exploration of the solar system. In addition, in order to ensure that the broadest range of innovative concepts and technologies are captured, the long-term technology program shall have the goal of having a significant portion of its funding available for external grants and contracts with universities, research institutions, and industry.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70507",
+              "number": null,
+              "heading": "Technology development",
+              "text": "The Administrator shall establish an intra-Directorate long-term technology development program for space and Earth science within the Science Mission Directorate for the development of new technology. The program shall be independent of the flight projects under development. The Administration shall have a goal of funding the intra-Directorate technology development program at a level of 5 percent of the total Science Mission Directorate annual budget. The program shall be structured to include competitively awarded grants and contracts.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70508",
+              "number": null,
+              "heading": "Robotic or human servicing of spacecraft",
+              "text": "The Administrator shall take all necessary steps to ensure that provision is made in the design and construction of all future observatory-class scientific spacecraft intended to be deployed in Earth orbit or at a Lagrangian point in space for robotic or human servicing and repair to the extent practicable and appropriate.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stVII/ch707",
+          "number": null,
+          "name": "HUMAN SPACE FLIGHT INDEPENDENT INVESTIGATION COMMISSION",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s70701",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70702",
+              "number": null,
+              "heading": "Establishment of Commission",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70703",
+              "number": null,
+              "heading": "Tasks of Commission",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70704",
+              "number": null,
+              "heading": "Composition of Commission",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70705",
+              "number": null,
+              "heading": "Powers of Commission",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70706",
+              "number": null,
+              "heading": "Public meetings, information, and hearings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70707",
+              "number": null,
+              "heading": "Staff of Commission",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70708",
+              "number": null,
+              "heading": "Compensation and travel expenses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70709",
+              "number": null,
+              "heading": "Security clearances for Commission members and staff",
+              "text": "The appropriate Federal agencies or departments shall cooperate with a Commission in expeditiously providing to the Commission members and staff appropriate security clearances to the extent possible pursuant to existing procedures and requirements. No person shall be provided with access to classified information under this chapter without the appropriate security clearances.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70710",
+              "number": null,
+              "heading": "Reporting requirements and termination",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stVII/ch709",
+          "number": null,
+          "name": "INTERNATIONAL SPACE STATION",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s70901",
+              "number": null,
+              "heading": "Peaceful uses of space station",
+              "text": "No civil space station authorized under section 103(a)(1) of the National Aeronautics and Space Administration Authorization Act, Fiscal Year 1991 (, ) may be used to carry or place in orbit any nuclear weapon or any other weapon of mass destruction, to install any such weapon on any celestial body, or to station any such weapon in space in any other manner. This civil space station may be used only for peaceful purposes.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70902",
+              "number": null,
+              "heading": "Allocation of International Space Station research budget",
+              "text": "The Administrator shall allocate at least 15 percent of the funds budgeted for International Space Station research to ground-based, free-flyer, and International Space Station life and microgravity science research that is not directly related to supporting the human exploration program, consistent with .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70903",
+              "number": null,
+              "heading": "International Space Station research",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70904",
+              "number": null,
+              "heading": "International Space Station completion",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70905",
+              "number": null,
+              "heading": "National laboratory designation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70906",
+              "number": null,
+              "heading": "International Space Station National Laboratory Advisory Committee",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s70907",
+              "number": null,
+              "heading": "Maintaining use through at least 2020",
+              "text": "The Administrator shall take all necessary steps to ensure that the International Space Station remains a viable and productive facility capable of potential United States utilization through at least 2020 and shall take no steps that would preclude its continued operation and utilization by the United States after 2015.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stVII/ch711",
+          "number": null,
+          "name": "NEAR-EARTH OBJECTS",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s71101",
+              "number": null,
+              "heading": "Reaffirmation of policy",
+              "text": "Congress reaffirms the policy set forth in  (relating to surveying near-Earth asteroids and comets).",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s71102",
+              "number": null,
+              "heading": "Requests for information",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s71103",
+              "number": null,
+              "heading": "Developing policy and recommending responsible Federal agency",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s71104",
+              "number": null,
+              "heading": "Planetary radar",
+              "text": "The Administrator shall maintain a planetary radar that is comparable to the capability provided through the Deep Space Network Goldstone facility of the Administration.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t51/stVII/ch713",
+          "number": null,
+          "name": "COOPERATION FOR SAFETY AMONG SPACEFARING NATIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t51/s71301",
+              "number": null,
+              "heading": "Common docking system standard to enable rescue",
+              "text": "In order to maximize the ability to rescue astronauts whose space vehicles have become disabled, the Administrator shall enter into discussions with the appropriate representatives of spacefaring nations who have or plan to have crew transportation systems capable of orbital flight or flight beyond low Earth orbit for the purpose of agreeing on a common docking system standard.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t51/s71302",
+              "number": null,
+              "heading": "Information sharing to avoid physical or radio-frequency interference",
+              "text": "The Administrator shall, in consultation with other agencies of the Federal Government as the Administrator considers appropriate, initiate discussions with the appropriate representatives of spacefaring nations to determine an appropriate frame-work under which information intended to promote safe access into outer space, operations in outer space, and return from outer space to Earth free from physical or radio-frequency interference can be shared among the nations.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": []
+}

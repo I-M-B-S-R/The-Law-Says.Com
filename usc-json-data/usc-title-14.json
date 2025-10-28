@@ -1,0 +1,1671 @@
+{
+  "id": 14,
+  "name": "Coast Guard",
+  "chapters": [],
+  "subtitles": [],
+  "parts": [
+    {
+      "id": "/us/usc/t14/ptI",
+      "number": null,
+      "name": "REGULAR COAST GUARD",
+      "chapters": [
+        {
+          "id": "/us/usc/t14/ptI/ch1",
+          "number": null,
+          "name": "ESTABLISHMENT AND DUTIES",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s1",
+              "number": null,
+              "heading": "Establishment of Coast Guard",
+              "text": "The Coast Guard, established , shall be a military service and a branch of the armed forces of the United States at all times.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s2",
+              "number": null,
+              "heading": "Primary duties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s3",
+              "number": null,
+              "heading": "Department in which the Coast Guard operates",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s4",
+              "number": null,
+              "heading": "Secretary defined",
+              "text": "In this title, the term “Secretary” means the Secretary of the respective department in which the Coast Guard is operating.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s5",
+              "number": null,
+              "heading": "Omitted]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch3",
+          "number": null,
+          "name": "COMPOSITION AND ORGANIZATION",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s41",
+              "number": null,
+              "heading": "Grades and ratings",
+              "text": "In the Coast Guard there shall be an admiral, vice admirals; rear admirals; rear admirals (lower half); captains; commanders; lieutenant commanders; lieutenants; lieutenants (junior grade); ensigns; chief warrant officers; cadets; warrant officers; and enlisted members. Enlisted members shall be distributed in ratings established by the Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s41a",
+              "number": null,
+              "heading": "Active duty promotion list",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s42",
+              "number": null,
+              "heading": "Number and distribution of commissioned officers on active duty promotion list",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s43",
+              "number": null,
+              "heading": "Repealed. , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s44",
+              "number": null,
+              "heading": "Commandant; appointment",
+              "text": "The President may appoint, by and with the advice and consent of the Senate, one Commandant for a period of four years, who may be reappointed for further periods of four years, who shall act as Chief of the Coast Guard. The Commandant shall be appointed from the officers on the active duty promotion list serving above the grade of captain who have completed at least ten years of active service as a commissioned officer in the Coast Guard. The Commandant while so serving shall have the grade of admiral.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s45",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s46",
+              "number": null,
+              "heading": "Retirement of Commandant",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s47",
+              "number": null,
+              "heading": "Vice commandant;  appointment",
+              "text": "The President may appoint, by and with the advice and consent of the Senate, one Vice Commandant who shall rank next after the Commandant, shall perform such duties as the Commandant may prescribe and shall act as Commandant during the absence or disability of the Commandant or in the event that there is a vacancy in the office of Commandant. The Vice Commandant shall be selected from the officers on the active duty promotion list serving above the grade of captain. The Commandant shall make recommendation for such appointment. The Vice Commandant shall, while so serving, have the grade of vice admiral with pay and allowances of that grade. The appointment and grade of a Vice Commandant shall be effective on the date the officer assumes that duty, and shall terminate on the date the officer is detached from that duty, except as provided in .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s48, 49",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s50",
+              "number": null,
+              "heading": "Vice admirals",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s50a",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s51",
+              "number": null,
+              "heading": "Retirement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s52",
+              "number": null,
+              "heading": "Vice admirals and admiral, continuity of grade",
+              "text": "The continuity of an officer’s precedence on the active duty promotion list, date of rank, grade, pay, and allowances as a vice admiral or admiral shall not be interrupted by the termination of an appointment for the purpose of reappointment to another position as a vice admiral or admiral.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s53",
+              "number": null,
+              "heading": "Office of the Coast Guard Reserve; Director",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s54",
+              "number": null,
+              "heading": "Chief of Staff to President: appointment",
+              "text": "The President, by and with the advice and consent of the Senate, may appoint a flag officer of the Coast Guard as the Chief of Staff to the President.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s55",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s56",
+              "number": null,
+              "heading": "Chief Acquisition Officer",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s57",
+              "number": null,
+              "heading": "Prevention and response workforces",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s58",
+              "number": null,
+              "heading": "Centers of expertise for Coast Guard prevention and response",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s59",
+              "number": null,
+              "heading": "Marine industry training program",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch5",
+          "number": null,
+          "name": "FUNCTIONS AND POWERS",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s81",
+              "number": null,
+              "heading": "Aids to navigation authorized",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s82",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s83",
+              "number": null,
+              "heading": "Unauthorized aids to maritime navigation; penalty",
+              "text": "No person, or public body, or instrumentality, excluding the armed services, shall establish, erect, or maintain any aid to maritime navigation in or adjacent to the waters subject to the jurisdiction of the United States, its territories or possessions, or the Trust Territory of the Pacific Islands, or on the high seas if that person, or public body, or instrumentality is subject to the jurisdiction of the United States, without first obtaining authority to do so from the Coast Guard in accordance with applicable regulations. Whoever violates the provisions of this section or any of the regulations issued by the Secretary in accordance herewith shall be guilty of a misdemeanor and shall be fined not more than $100 for each offense. Each day during which such violation continues shall be considered as a new offense.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s84",
+              "number": null,
+              "heading": "Interference with aids to navigation; penalty",
+              "text": "It shall be unlawful for any person, or public body, or instrumentality, excluding the armed forces, to remove, change the location of, obstruct, wilfully damage, make fast to, or interfere with any aid to navigation established, installed, operated, or maintained by the Coast Guard pursuant to , or with any aid to navigation lawfully maintained under authority granted by the Coast Guard pursuant to , or to anchor any vessel in any of the navigable waters of the United States so as to obstruct or interfere with range lights maintained therein. Whoever violates the provisions of this section shall be guilty of a misdemeanor and shall be fined not more than $500 for each offense. Each day during which such violation shall continue shall be considered as a new offense.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s85",
+              "number": null,
+              "heading": "Aids to maritime navigation; penalty",
+              "text": "The Secretary shall prescribe and enforce necessary and reasonable rules and regulations, for the protection of maritime navigation, relative to the establishment, maintenance, and operation of lights and other signals on fixed and floating structures in or over waters subject to the jurisdiction of the United States and in the high seas for structures owned or operated by persons subject to the jurisdiction of the United States. Any owner or operator of such a structure, excluding an agency of the United States, who violates any of the rules or regulations prescribed hereunder, commits a misdemeanor and shall be punished, upon conviction thereof, by a fine of not exceeding $100 for each day which such violation continues.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s86",
+              "number": null,
+              "heading": "Marking of obstructions",
+              "text": "The Secretary may mark for the protection of navigation any sunken vessel or other obstruction existing on the navigable waters or waters above the continental shelf of the United States in such manner and for so long as, in his judgment, the needs of maritime navigation require. The owner of such an obstruction shall be liable to the United States for the cost of such marking until such time as the obstruction is removed or its abandonment legally established or until such earlier time as the Secretary may determine. All moneys received by the United States from the owners of obstructions, in accordance with this section, shall be covered into the Treasury of the United States as miscellaneous receipts. This section shall not be construed so as to relieve the owner of any such obstruction from the duty and responsibility suitably to mark the same and remove it as required by law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s87",
+              "number": null,
+              "heading": "Repealed. , (7), , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s88",
+              "number": null,
+              "heading": "Saving life and property",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s89",
+              "number": null,
+              "heading": "Law enforcement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s90",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s91",
+              "number": null,
+              "heading": "Safety of naval vessels",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s92",
+              "number": null,
+              "heading": "Secretary; general powers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s93",
+              "number": null,
+              "heading": "Commandant; general powers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s94",
+              "number": null,
+              "heading": "Oceanographic research",
+              "text": "The Coast Guard shall conduct such oceanographic research, use such equipment or instruments, and collect and analyze such oceanographic data, in cooperation with other agencies of the Government, or not, as may be in the national interest.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s95",
+              "number": null,
+              "heading": "Special agents of the Coast Guard Investigative Service law enforcement authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s96",
+              "number": null,
+              "heading": "Prohibition on overhaul, repair, and maintenance of Coast Guard vessels in foreign shipyards",
+              "text": "A Coast Guard vessel the home port of which is in the United States or Guam may not be overhauled, repaired, or maintained in a shipyard outside the United States or Guam, other than in the case of voyage repairs.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s97",
+              "number": null,
+              "heading": "Procurement of buoy chain",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s98",
+              "number": null,
+              "heading": "National Coast Guard Museum",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s99",
+              "number": null,
+              "heading": "Enforcement authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s100",
+              "number": null,
+              "heading": "Enforcement of coastwise trade laws",
+              "text": "Officers and members of the Coast Guard are authorized to enforce chapter 551 of title 46. The Secretary shall establish a program for these officers and members to enforce that chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s101",
+              "number": null,
+              "heading": "Appeals and waivers",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch7",
+          "number": null,
+          "name": "COOPERATION WITH OTHER AGENCIES",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s141",
+              "number": null,
+              "heading": "Cooperation with other agencies, States, territories, and political subdivisions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s142",
+              "number": null,
+              "heading": "State Department",
+              "text": "The Coast Guard, through the Secretary, may exchange information, through the Secretary of State, with foreign governments and suggest to the Secretary of State international collaboration and conferences on all matters dealing with the safety of life and property at sea, other than radio communication.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s143",
+              "number": null,
+              "heading": "Treasury Department",
+              "text": "Commissioned, warrant, and petty officers of the Coast Guard are deemed to be officers of the customs and when so acting shall, insofar as performance of the duties relating to customs laws are concerned, be subject to regulations issued by the Secretary of the Treasury governing officers of the customs.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s144",
+              "number": null,
+              "heading": "Department of the Army and Department of the Air Force",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s145",
+              "number": null,
+              "heading": "Navy Department",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s146",
+              "number": null,
+              "heading": "United States Postal Service",
+              "text": "Coast Guard facilities and personnel may be utilized for the transportation and delivery of mail matter during emergency conditions or at isolated locations under such arrangements as may be satisfactory to the Secretary and the United States Postal Service.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s147",
+              "number": null,
+              "heading": "Department of Commerce",
+              "text": "In order to promote the safety of life and property on and over the high seas and waters over which the United States has jurisdiction, and to facilitate the preparation and dissemination by the National Oceanic and Atmospheric Administration of the weather reports, forecasts, and warnings essential to the safe and efficient conduct of domestic and international commerce on and over such seas and waters, the Commandant may cooperate with the Administrator, National Oceanic and Atmospheric Administration by procuring, maintaining, and making available, facilities and assistance for observing, investigating, and communicating weather phenomena and for disseminating weather data, forecasts and warnings, the mutually satisfactory terms of such cooperation in weather service to be agreed upon and arranged between the Commandant and the Administrator, National Oceanic and Atmospheric Administration.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s147a",
+              "number": null,
+              "heading": "Department of Health and Human Services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s148",
+              "number": null,
+              "heading": "Maritime instruction",
+              "text": "The Coast Guard may, when so requested by proper authority, detail members for duty in connection with maritime instruction and training by the several States, Territories, the District of Columbia, and Puerto Rico, and when requested by the Maritime Administrator, detail persons in the Coast Guard for duty in connection with maritime instruction and training by the United States. The service rendered by any person so detailed shall be considered Coast Guard duty.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s149",
+              "number": null,
+              "heading": "Assistance to foreign governments and maritime authorities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s150",
+              "number": null,
+              "heading": "Coast Guard officers as attachés to missions",
+              "text": "Commissioned officers may, with the consent of the Secretary of State, be regularly and officially attached to the diplomatic missions of the United States in those nations with which the United States is extensively engaged in maritime commerce. Expenses for the maintenance of such Coast Guard attachés abroad, including office rental and pay of employees and allowances for living quarters, including heat, fuel, and light, may be defrayed by the Coast Guard.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s151",
+              "number": null,
+              "heading": "Contracts with Government-owned establishments for work and material",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s152",
+              "number": null,
+              "heading": "Nonappropriated fund instrumentalities: contracts with other agencies and instrumentalities to provide or obtain goods and services",
+              "text": "The Coast Guard Exchange System, or a morale, welfare, and recreation system of the Coast Guard, may enter into a contract or other agreement with any element or instrumentality of the Coast Guard or with another Federal department, agency, or instrumentality to provide or obtain goods and services beneficial to the efficient management and operation of the Coast Guard Exchange System or that morale, welfare, and recreation system.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s153",
+              "number": null,
+              "heading": "Appointment of judges",
+              "text": "The Secretary may appoint civilian employees of the department in which the Coast Guard is operating as appellate military judges, available for assignment to the Coast Guard Court of Criminal Appeals as provided for in .",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch9",
+          "number": null,
+          "name": "COAST GUARD ACADEMY",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s181",
+              "number": null,
+              "heading": "Administration of Academy",
+              "text": "The immediate government and military command of the Coast Guard Academy shall be in the Superintendent of the Academy, subject to the direction of the Commandant under the general supervision of the Secretary. The Commandant may select a superintendent from the active list of the Coast Guard who shall serve in the pleasure of the Commandant.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s181a",
+              "number": null,
+              "heading": "Cadet applicants; preappointment travel to Academy",
+              "text": "The Secretary is authorized to expend appropriated funds for selective preappointment travel to the Academy for orientation visits of cadet applicants.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s182",
+              "number": null,
+              "heading": "Cadets; number, appointment, obligation to serve",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s183",
+              "number": null,
+              "heading": "Cadets; initial clothing allowance",
+              "text": "The Secretary may prescribe a sum which shall be credited to each new cadet upon first admission to the Academy, to cover the cost of his initial clothing and equipment issue, which sum shall be deducted subsequently from his pay. Each cadet discharged prior to graduation who is indebted to the United States on account of advances of pay to purchase required clothing and equipment shall be required to turn in to the Academy all clothing and equipment of a distinctively military nature to the extent required to discharge such indebtedness; and, if the value of such clothing and equipment so turned in does not cover the indebtedness incurred, then such indebtedness shall be canceled.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s184",
+              "number": null,
+              "heading": "Cadets; degree of bachelor of science",
+              "text": "The Superintendent of the Academy may, under such rules and regulations as the Secretary shall prescribe, confer the degree of bachelor of science upon all graduates of the Academy and may, in addition, confer the degree of bachelor of science upon such other living graduates of the Academy as shall have met the requirements of the Academy for such degree.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s185",
+              "number": null,
+              "heading": "Cadets; appointment as ensign",
+              "text": "The President may, by and with the advice and consent of the Senate, appoint as ensigns in the Coast Guard all cadets who shall graduate from the Academy. Ensigns so commissioned on the same date shall take rank according to their proficiency as shown by the order of their merit at date of graduation.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s186",
+              "number": null,
+              "heading": "Civilian teaching staff",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s187",
+              "number": null,
+              "heading": "Permanent commissioned teaching staff; composition",
+              "text": "The permanent commissioned teaching staff at the Academy shall consist of professors, associate professors, assistant professors and instructors, in such numbers as the needs of the Service require. They shall perform duties as prescribed by the Commandant, and exercise command only in the academic department of the Academy.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s188",
+              "number": null,
+              "heading": "Appointment of permanent commissioned teaching staff",
+              "text": "The President may appoint in the Coast Guard, by and with the advice and consent of the Senate, the professors, associate professors, assistant professors, and instructors who are to serve on the permanent commissioned teaching staff of the Academy. An original appointment to the permanent commissioned teaching staff, unless the appointee has served as a civilian member of the teaching staff, regular commissioned officer, temporary commissioned officer, or reserve commissioned officer in the Coast Guard, shall be a temporary appointment until the appointee has satisfactorily completed a probationary term of four years of service; thereafter he may be regularly appointed and his rank shall date from the date of his temporary appointment in the grade in which permanently appointed.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s189",
+              "number": null,
+              "heading": "Grade of permanent commissioned teaching staff",
+              "text": "Professors shall be commissioned officers with grade not above captain, associate and assistant professors with grade not above commander, and instructors with grade not above lieutenant commander. All officers of the permanent commissioned teaching staff shall receive the pay and allowances of other commissioned officers of the same grade and length of service. When any such professor, associate professor, assistant professor, or instructor is appointed or commissioned with grade less than the highest grade permitted, he shall be promoted under regulations prescribed by the Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s190",
+              "number": null,
+              "heading": "Retirement of permanent commissioned teaching staff",
+              "text": "Professors, associate professors, assistant professors, and instructors in the Coast Guard shall be subject to retirement or discharge from active service for any cause on the same basis as other commissioned officers of the Coast Guard, except that they shall not be required to retire from active service under the provisions of , nor shall they be subject to the provisions of , nor shall they be required to retire at age sixty-two but may be permitted to serve until age sixty-four at which time unless earlier retired or separated they shall be retired. The Secretary may retire any member of the permanent commissioned teaching staff who has completed thirty years’ active service. Service as a civilian member of the teaching staff at the Academy in addition to creditable service authorized by any other law in any of the military services rendered prior to an appointment as a professor, associate professor, assistant professor, or instructor shall be credited in computing length of service for retirement purposes. The provisions of law relating to retirement for disability in line of duty shall not apply in the case of a professor, associate professor, assistant professor, or instructor serving under a temporary appointment.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s191",
+              "number": null,
+              "heading": "Credit for service as member of civilian teaching staff",
+              "text": "Service as a member of the civilian teaching staff at the Academy in addition to creditable services authorized by any other law in any of the military services rendered prior to an appointment as professor, associate professor, assistant professor, or instructor shall be credited in computing length of service as a professor, associate professor, assistant professor, or instructor for purposes of pay and allowances.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s192",
+              "number": null,
+              "heading": "Assignment of personnel as instructors",
+              "text": "The Commandant may assign any member to appropriate instruction duty at the Academy.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s193",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s194",
+              "number": null,
+              "heading": "Annual Board of Visitors",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s195",
+              "number": null,
+              "heading": "Admission of foreign nationals for instruction; restrictions; conditions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s196",
+              "number": null,
+              "heading": "Participation in Federal, State, or other educational research grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s197",
+              "number": null,
+              "heading": "Cadets: charges and fees for attendance; limitation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s198",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s199",
+              "number": null,
+              "heading": "Marine safety curriculum",
+              "text": "The Commandant of the Coast Guard shall ensure that professional courses of study in marine safety are provided at the Coast Guard Academy, and during other officer accession programs, to give Coast Guard cadets and other officer candidates a background and understanding of the marine safety program. These courses may include such topics as program history, vessel design and construction, vessel inspection, casualty investigation, and administrative law and regulations.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s200",
+              "number": null,
+              "heading": "Policy on sexual harassment and sexual violence",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch11",
+          "number": null,
+          "name": "PERSONNEL",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch13",
+          "number": null,
+          "name": "PAY, ALLOWANCES, AWARDS, AND OTHER RIGHTS AND BENEFITS",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s461",
+              "number": null,
+              "heading": "Remission of indebtedness of enlisted members upon discharge",
+              "text": "If he considers it in the best interest of the United States, the Secretary may have remitted or canceled any part of an enlisted member’s indebtedness to the United States or any of its instrumentalities remaining unpaid before or at the time of, that member’s honorable discharge.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s462",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s462a",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s463",
+              "number": null,
+              "heading": "Repealed. , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s464, 465",
+              "number": null,
+              "heading": "Repealed. , (3), , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s466",
+              "number": null,
+              "heading": "Repealed. , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s467",
+              "number": null,
+              "heading": "Computation of length of service",
+              "text": "In computing length of service of officers and enlisted personnel for any purpose all creditable service in the Army, Navy, Marine Corps, Air Force, Coast Guard, Revenue Cutter Service, and Life Saving Service shall be included in addition to any other creditable service authorized by any other law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s468",
+              "number": null,
+              "heading": "Procurement of personnel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s469",
+              "number": null,
+              "heading": "Training",
+              "text": "The Coast Guard may make expenditures for the training of personnel, including books, school supplies, correspondence courses, motion picture equipment, and other equipment for instructional purposes.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s470",
+              "number": null,
+              "heading": "Special instruction at universities",
+              "text": "Coast Guard personnel may be assigned for special instruction at private or state colleges or universities, and their expenses, including tuition, books, laboratory equipment and fees, and school supplies, may be defrayed by the Coast Guard.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s471",
+              "number": null,
+              "heading": "Attendance at professional meetings",
+              "text": "Coast Guard personnel may be directed to attend meetings of technical, professional, scientific, and other similar organizations and may be reimbursed for expenses thereby incurred at the rates authorized by law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s471a",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s472",
+              "number": null,
+              "heading": "Education loan repayment program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s473",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s474",
+              "number": null,
+              "heading": "Repealed. , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s475",
+              "number": null,
+              "heading": "Leasing and hiring of quarters; rental of in­adequate housing",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s476",
+              "number": null,
+              "heading": "Contingent expenses",
+              "text": "The Commandant may expend for contingencies of the Coast Guard a sum not to exceed $50,000 in any one fiscal year.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s477",
+              "number": null,
+              "heading": "Equipment to prevent accidents",
+              "text": "The Coast Guard may make such expenditures as are deemed appropriate for promotion and maintenance of the safety and occupational health of, and the prevention of accidents affecting, personnel of the Coast Guard, including the purchase of clothing, equipment, and other materials necessary thereto.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s478",
+              "number": null,
+              "heading": "Rations or commutation therefor in money",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s479",
+              "number": null,
+              "heading": "Sales of ration supplies to messes",
+              "text": "Ration supplies may be purchased by the cabin, wardroom, warrant officers’, and other authorized messes and payment therefor made in cash to the commissary officer. The prices to be charged for such supplies shall not be less than the invoice prices, and the cash received from such sales shall be accounted for on the ration return and may be expended for the general mess.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s480",
+              "number": null,
+              "heading": "Flight rations",
+              "text": "There may be furnished to officers, enlisted members, and civilian employees, while actually engaged in flight operations, an aircraft flight ration in kind, chargeable to the proper Coast Guard appropriation, which flight ration shall be supplementary to any ration or subsistence allowance now granted to such personnel. No part of an aircraft flight ration shall be furnished without cost to any person in a travel status or to any person to whom a per diem allowance is granted in lieu of actual subsistence.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s481",
+              "number": null,
+              "heading": "Payments at time of discharge for good of service",
+              "text": "Enlisted members discharged by dishonorable discharge, bad-conduct discharge, or any other discharge for the good of the service, may, upon discharge, be paid a sum not to exceed $25. The sum paid shall be fixed by and in the discretion of the Commandant, and shall be paid only in cases where the person so discharged would otherwise be without funds to meet his immediate needs.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s482",
+              "number": null,
+              "heading": "Clothing at time of discharge for good of service",
+              "text": "Enlisted members discharged for bad conduct, undesirability, unsuitability, or inaptitude may be furnished civilian clothing, including an overcoat when necessary, the cost of such furnished clothing not to exceed $30, per person.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s483",
+              "number": null,
+              "heading": "Right to wear uniform",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s484",
+              "number": null,
+              "heading": "Protection of uniform",
+              "text": "The provisions of law relating to the protection of the uniform of the United States Army, Navy, or Marine Corps shall apply to the protection of the uniform of the Coast Guard, in the same manner, to the same extent, and under the same conditions.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s485",
+              "number": null,
+              "heading": "Clothing for officers and enlisted personnel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s486",
+              "number": null,
+              "heading": "Clothing for destitute shipwrecked persons",
+              "text": "The Coast Guard may furnish clothing and subsistence to destitute shipwrecked persons, and the Coast Guard may reimburse, in cash or in kind, Coast Guard personnel who furnish clothing and subsistence to destitute ship- wrecked persons.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s487",
+              "number": null,
+              "heading": "Procurement and sale of stores to members and civilian employees",
+              "text": "Such stores as the Secretary may designate may be procured and sold to members of the Coast Guard, and to the surviving spouses of such members. Such designated stores may also be procured and sold to civilian officers and employees of the United States, and to such other persons as may be specifically authorized by the Secretary, at Coast Guard stations and other units beyond the continental limits of the United States or in Alaska.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s488",
+              "number": null,
+              "heading": "Advancement of public funds to personnel",
+              "text": "The Commandant, under regulations prescribed by the Secretary, may advance public funds to personnel when required to meet expenses of members detailed on emergency shore duty. Funds so advanced shall not exceed a reasonable estimate of the actual expenditures to be made and for which reimbursement is authorized by law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s489",
+              "number": null,
+              "heading": "Repealed. , title V, § 502(8)(A), ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s490",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s491",
+              "number": null,
+              "heading": "Medal of honor",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s491a",
+              "number": null,
+              "heading": "Coast Guard cross",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s492",
+              "number": null,
+              "heading": "Distinguished service medal",
+              "text": "The President may present, but not in the name of Congress, a distinguished service medal of appropriate design, with accompanying ribbon, together with a rosette or other device, to be worn in lieu thereof, to any person who, while serving in any capacity with the Coast Guard, distinguishes himself by exceptionally meritorious service to the Government in a duty of great responsibility.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s492a",
+              "number": null,
+              "heading": "Silver star medal",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s492b",
+              "number": null,
+              "heading": "Distinguished flying cross",
+              "text": "The President may present, but not in the name of Congress, a distinguished flying cross of appropriate design, with accompanying ribbon, to any person who, while serving in any capacity with the Coast Guard, distinguishes himself by heroism or extraordinary achievement while participating in an aerial flight.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s493",
+              "number": null,
+              "heading": "Coast Guard medal",
+              "text": "The President may present, but not in the name of Congress, a medal to be known as the Coast Guard medal, of appropriate design, with accompanying ribbon, together with a rosette or other device to be worn in lieu thereof, to any person who, while serving in any capacity with the Coast Guard, distinguishes himself by heroism not involving actual conflict with an enemy.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s494",
+              "number": null,
+              "heading": "Insignia for additional awards",
+              "text": "No more than one medal of honor, Coast Guard cross, distinguished service medal, silver star medal, distinguished flying cross, or one Coast Guard medal shall be issued to any one person; but for each succeeding deed or service sufficient to justify the awarding of a medal of honor, Coast Guard cross, distinguished service medal, silver star medal, distinguished flying cross, or Coast Guard medal, the President may award a suitable emblem or insignia to be worn with the decoration and a corresponding rosette or other device.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s495",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s496",
+              "number": null,
+              "heading": "Time limit on award; report concerning deed",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s497",
+              "number": null,
+              "heading": "Honorable subsequent service as condition to award",
+              "text": "No medal of honor, Coast Guard cross, distinguished service medal, silver star medal, distinguished flying cross, Coast Guard medal, or emblem, or insignia in lieu thereof shall be awarded or presented to any individual, or to the representative of any individual, whose entire service subsequent to the time he distinguished himself shall not in the opinion of the Commandant have been honorable.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s498",
+              "number": null,
+              "heading": "Posthumous awards",
+              "text": "In case an individual who distinguishes himself dies before the making of any award to which he may be entitled, as authorized in this chapter, the award may be made and presented within five years from the date of the act or service justifying the award to such next of kin as may have been designated by the individual, or in the absence of such designation, or if the designated person is not alive at the time of the award, or the relationship between such person and the serviceman shall have been terminated before his death, then to such representative as the President designates. In the event of a posthumous award when the award will be made to the parents of the deceased and the parents have been divorced or separated, a duplicate award may be made to each parent.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s499",
+              "number": null,
+              "heading": "Delegation of powers to make awards; rules and regulations",
+              "text": "The President may delegate to the Secretary, under such conditions, regulations, and limitations as he prescribes, the powers conferred upon him to make the awards designated in this chapter, and the President may make any and all rules, regulations, and orders which he deems necessary in the conferring of such awards.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s500",
+              "number": null,
+              "heading": "Life-saving medals",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s501",
+              "number": null,
+              "heading": "Replacement of medals",
+              "text": "In those cases where a medal, or a bar, emblem, or insignia in lieu thereof, awarded pursuant to this chapter has been stolen, lost, destroyed, or rendered unfit for use without fault or neglect on the part of the person to whom it was awarded, such medal, or bar, emblem, or insignia in lieu thereof, shall be replaced without charge, or, in the discretion of the Secretary, upon condition that the Government is reimbursed for the cost thereof.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s502",
+              "number": null,
+              "heading": "Award of other medals",
+              "text": "Coast Guard personnel, notwithstanding the provisions of this chapter, may be awarded medals, bars, emblems, or insignia to which such personnel may be entitled under other provisions of law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s503",
+              "number": null,
+              "heading": "Awards and insignia for excellence in service or conduct",
+              "text": "The Coast Guard may award trophies, badges, and cash prizes to Coast Guard personnel or groups thereof, including personnel of the reserve components thereof whether or not on active duty, for excellence in accomplishments related to Coast Guard service, to incur such expenses as may be necessary to enter such personnel in competitions, and to provide badges or buttons in recognition of special service, good conduct, and discharge under conditions other than dishonorable.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s504",
+              "number": null,
+              "heading": "Medal of honor: duplicate medal",
+              "text": "A person awarded a medal of honor shall, upon written application of that person, be issued, without charge, one duplicate medal of honor with ribbons and appurtenances. Such duplicate medal of honor shall be marked, in such manner as the Secretary may determine, as a duplicate or for display purposes only.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s505",
+              "number": null,
+              "heading": "Medal of honor: presentation of Medal of Honor Flag",
+              "text": "The President shall provide for the presentation of the Medal of Honor Flag designated under  to each person to whom a medal of honor is awarded under . Presentation of the flag shall be made at the same time as the presentation of the medal under section 491 or 498 of this title. In the case of a posthumous presentation of the medal, the flag shall be presented to the person to whom the medal is presented.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s506",
+              "number": null,
+              "heading": "Repealed. , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s507",
+              "number": null,
+              "heading": "Disposition of effects of decedents",
+              "text": "All moneys, articles of value, papers, keepsakes, and other similar effects belonging to the deceased persons in the Coast Guard, not claimed by their legal heirs or next of kin, shall be deposited in safe custody, and if any such moneys, articles of value, papers, keepsakes, or other similar effects so deposited have been, or shall hereafter be, unclaimed for a period of two years from the date of the death of such person, such articles and effects shall be sold and the proceeds thereof, together with the moneys above mentioned, shall be deposited in the Treasury as miscellaneous receipts. The Secretary shall make diligent inquiry in every instance after the death of such person to ascertain the whereabouts of his heirs or next of kin, and prescribe necessary regulations to carry out the foregoing provisions. Claims may be presented hereunder at any time within five years after such moneys or proceeds have been so deposited in the Treasury, and, when supported by competent proof in any case after such deposit in the Treasury, shall be certified to Congress for consideration.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s508",
+              "number": null,
+              "heading": "Deserters; payment of expenses incident to apprehension and delivery; penalties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s509",
+              "number": null,
+              "heading": "Persons discharged as result of court-martial; allowances to",
+              "text": "The Secretary may furnish persons discharged pursuant to the sentence of a Coast Guard court-martial suitable civilian clothing and a monetary allowance not to exceed $25 if the person discharged would not otherwise have suitable clothing or funds to meet immediate needs.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s510",
+              "number": null,
+              "heading": "Shore patrol duty; payment of expenses",
+              "text": "An officer or cadet of the Coast Guard who is assigned shore patrol duty away from his vessel or other duty station may be paid his actual expenses.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s511",
+              "number": null,
+              "heading": "Compensatory absence from duty for military personnel at isolated duty stations",
+              "text": "The Secretary may grant compensatory absence from duty to military personnel of the Coast Guard serving at isolated duty stations of the Coast Guard when conditions of duty result in confinement because of isolation or in long periods of continuous duty.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s512",
+              "number": null,
+              "heading": "Monetary allowance for transportation of household effects",
+              "text": "The transportation and reimbursement authorized by subsection (b) of  shall be available hereafter to pay a monetary allowance in place of such transportation to a member who, under regulations prescribed by the Secretary, participates in a program designated by the Secretary in which his baggage and household effects are moved by a privately owned or rental vehicle. This allowance shall not be limited to reimbursement for actual expenses and may be paid in advance of the transportation of the baggage and household effects. The allowance shall, however, be in an amount that will result in savings to the Government when the total cost of the movement of baggage and household effects is compared with the cost that otherwise would have been incurred under subsection (b) of .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s513",
+              "number": null,
+              "heading": "Retroactive payment of pay and allowances delayed by administrative error or oversight",
+              "text": "Under regulations prescribed by the Secretary, the Coast Guard may authorize retroactive payment of pay and allowances, including selective reenlistment bonuses, to enlisted members if entitlement to the pay and allowances was delayed in vesting solely because of an administrative error or oversight.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s514",
+              "number": null,
+              "heading": "Reimbursement for adoption expenses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s515",
+              "number": null,
+              "heading": "Child development services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s516",
+              "number": null,
+              "heading": "Presentation of United States flag upon retirement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s517",
+              "number": null,
+              "heading": "Travel card management",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s518",
+              "number": null,
+              "heading": "Reimbursement for medical-related travel expenses for certain persons residing on islands in the continental United States",
+              "text": "In any case in which a covered beneficiary (as defined in ) resides on an island that is located in the 48 contiguous States and the District of Columbia and that lacks public access roads to the mainland and is referred by a primary care physician to a specialty care provider (as defined in ) on the mainland who provides services less than 100 miles from the location where the beneficiary resides, the Secretary shall reimburse the reasonable travel expenses of the covered beneficiary and, when accompaniment by an adult is necessary, for a parent or guardian of the covered beneficiary or another member of the covered beneficiary’s family who is at least 21 years of age.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch15",
+          "number": null,
+          "name": "ACQUISITIONS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch17",
+          "number": null,
+          "name": "ADMINISTRATION",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s631",
+              "number": null,
+              "heading": "Delegation of powers by the Secretary",
+              "text": "The Secretary is authorized to confer or impose upon the Commandant any of the rights, privileges, powers, or duties, in respect to the administration of the Coast Guard, vested in or imposed upon the Secretary by this title or other provisions of law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s632",
+              "number": null,
+              "heading": "Functions and powers vested in the Commandant",
+              "text": "All powers and functions conferred upon the Coast Guard, or the Commandant, by or pursuant to this title or any other law shall, unless otherwise specifically stated, be executed by the Commandant subject to the general supervision of the Secretary. In order to execute the powers and functions vested in him, the Commandant may assign personnel of the Coast Guard to duty in the District of Columbia, elsewhere in the United States, in any territory of the United States, and in any foreign country, but such personnel shall not be assigned to duties in any foreign country without the consent of the government of that country; assign to such personnel such duties and authority as he deems necessary; and issue rules, orders, and instructions, not inconsistent with law, relating to the organization, internal administration, and personnel of the Coast Guard.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s633",
+              "number": null,
+              "heading": "Regulations",
+              "text": "In addition to the authority conferred by other provisions of this title the Secretary may promulgate such regulations and orders as he deems appropriate to carry out the provisions of this title or any other law applicable to the Coast Guard.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s634",
+              "number": null,
+              "heading": "Officers holding certain offices",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s635",
+              "number": null,
+              "heading": "Oaths required for boards",
+              "text": "The members of a retiring board, selection board, examining board, and any other board authorized to be assembled pursuant to this title shall be sworn to discharge their duties honestly and impartially, the oath to be administered to the members by the President or other presiding officer of the board, and to him by the junior member or recorder.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s636",
+              "number": null,
+              "heading": "Administration of oaths",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s637",
+              "number": null,
+              "heading": "Stopping vessels; indemnity for firing at or into vessel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s638",
+              "number": null,
+              "heading": "Coast Guard ensigns and pennants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s639",
+              "number": null,
+              "heading": "Penalty for unauthorized use of words “Coast Guard”",
+              "text": "No individual, association, partnership, or corporation shall, without authority of the Commandant, use the combination of letters “USCG” or “USCGR”, the words “Coast Guard,” “United States Coast Guard,” “Coast Guard Reserve,” “United States Coast Guard Reserve,” “Coast Guard Auxiliary,” “United States Coast Guard Auxiliary,” “Lighthouse Service,” “Life Saving Service,” or any combination or variation of such letters or words alone or with other letters or words, as the name under which he or it shall do business, for the purpose of trade, or by way of advertisement to induce the effect of leading the public to believe that any such individual, association, partnership, or corporation has any connection with the Coast Guard. No individual, association, partnership, or corporation shall falsely advertise, or otherwise represent falsely by any device whatsoever, that any project or business in which he or it is engaged, or product which he or it manufactures, deals in, or sells, has been in any way endorsed, authorized, or approved by the Coast Guard. Every person violating this section shall be fined not more than $1,000, or imprisoned not more than one year, or both.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s640",
+              "number": null,
+              "heading": "Coast Guard band recordings for commercial sale",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s641",
+              "number": null,
+              "heading": "Disposal of certain material",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s642",
+              "number": null,
+              "heading": "Deposit of damage payments",
+              "text": "Whenever an aid to navigation or other property belonging to the Coast Guard is damaged or destroyed by a private person, and such private person or his agent shall pay to the satisfaction of the proper official of the Coast Guard for the cost of repair or replacement of such property, the Commandant may accept and deposit such payments, through proper officers of the Fiscal Service, Treasury Department, in special deposit accounts in the Treasury, for payment therefrom to the person or persons repairing or replacing the damaged property and refundment of amounts collected in excess of the cost of the repairs or replacements concerned. In the event that repair or replacement of the damaged property is effected by the Coast Guard, the appropriations bearing the cost thereof and current at the time collection is made shall be reimbursed from the special deposit account.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s643",
+              "number": null,
+              "heading": "Rewards for apprehension of persons interfering with aids to navigation",
+              "text": "The Coast Guard may offer and pay rewards for the apprehension and conviction, or for information helpful therein, of persons found interfering in violation of law with aids to navigation maintained by the Coast Guard; or for information leading to the discovery of missing Coast Guard property or to recovery thereof.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s644",
+              "number": null,
+              "heading": "Payment for the apprehension of stragglers",
+              "text": "The Coast Guard may offer and pay rewards for the apprehension and delivery of deserters, stragglers, and prisoners.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s645",
+              "number": null,
+              "heading": "Confidentiality of medical quality assurance records; qualified immunity for participants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s646",
+              "number": null,
+              "heading": "Admiralty claims against the United States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s647",
+              "number": null,
+              "heading": "Claims for damage to property of the United States",
+              "text": "The Secretary may consider, ascertain, adjust, determine, compromise, or settle claims for damage cognizable in admiralty in a district court of the United States and all claims for damage caused by a vessel or floating object, to property of the United States under the jurisdiction of the Coast Guard or property for which the Coast Guard may have assumed, by contract or otherwise, any obligation to respond for damage thereto. The Secretary is further authorized to receive in payment of any such claim the amount due the United States pursuant to determination, compromise, or settlement as herein authorized and, upon acceptance of such payment but not until then, such determination, settlement, or compromise of such claim shall be final and conclusive for all purposes, any law to the contrary notwithstanding. All such payments shall be deposited in the Treasury of the United States as miscellaneous receipts. The Secretary is further authorized to execute on behalf of the United States and to deliver in exchange for such payment a full release of such claim. This section, as respects the determination, compromise, settlement, and payment of claims, shall be supplementary to, and not in lieu of, all other provisions of law authorizing the determination, compromise, or settlement of claims for damage to property hereinabove described. No settlement or compromise where there is involved a payment in the net amount of over $100,000 is authorized by this section.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s648",
+              "number": null,
+              "heading": "Accounting for industrial work",
+              "text": "The Secretary may prescribe regulations governing accounting for industrial work, including charges for overhead for civilian labor and for maintenance of industrial plant and equipment, performed at the Coast Guard Yard or such similar Coast Guard industrial establishments as he may designate. Any orders placed for such industrial work shall be covered by a transfer or advance of funds to cover the estimated cost thereof, and shall be credited to such accounts as may be necessary and established by the Secretary to carry out the provisions of this section. Accounts so established shall be available for materials, supplies, or equipment, and civilian labor, including overhead and maintenance, required in performing the work ordered. Upon completion of an order an adjustment will be made to make the amount transferred or advanced equal to the actual cost as computed in accordance with the accounting regulations prescribed by the Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s649",
+              "number": null,
+              "heading": "Supplies and equipment from stock",
+              "text": "Supplies and equipment for special work of the Coast Guard may be furnished from general stock and the applicable appropriation reimbursed therefor from the respective appropriations for such special work.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s650",
+              "number": null,
+              "heading": "Coast Guard Supply Fund",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s651",
+              "number": null,
+              "heading": "Annual report",
+              "text": "In April of each year, the Commandant, through the Secretary, shall report to Congress the operations and expenditures of the Coast Guard during the preceding fiscal year, including amounts collected as provided under .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s652",
+              "number": null,
+              "heading": "Removing restrictions",
+              "text": "Any law removing for the duration of a war or national emergency proclaimed by the President any restriction contained in any then-existing law as applied to the Navy, including, but not limited to, restrictions relating to the manner in which purchases may be made and contracts awarded, fiscal operations, and personnel, shall, in the same manner and to the same extent, remove such restrictions as applied to the Coast Guard.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s653",
+              "number": null,
+              "heading": "Employment of draftsmen and engineers",
+              "text": "The Coast Guard may employ temporarily, at the seat of government, draftsmen and engineers for the preparation of plans and specifications for vessels, lighthouses, aids to navigation, and other projects for the Coast Guard that may be authorized or appropriated for by Congress, to be paid from the appropriations applicable to such projects.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s654",
+              "number": null,
+              "heading": "Public and commercial vessels and other watercraft; sale of fuel, supplies, and services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s655",
+              "number": null,
+              "heading": "Arms and ammunition; immunity from taxation",
+              "text": "No tax on the sale or transfer of firearms, pistols, revolvers, shells, or cartridges may be imposed on such articles when bought with funds appropriated for the Coast Guard.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s656",
+              "number": null,
+              "heading": "Use of certain appropriated funds",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s657",
+              "number": null,
+              "heading": "Dependent school children",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s658",
+              "number": null,
+              "heading": "Confidential investigative expenses",
+              "text": "Not more than $45,000 each fiscal year appropriated for necessary expenses for the operation of the Coast Guard shall be available for investigative expenses of a confidential character, to be expended on the approval or authority of the Commandant and payment to be made on his certificate of necessity for confidential purposes, and his determination shall be final and conclusive upon the accounting officers of the Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s659",
+              "number": null,
+              "heading": "Assistance to film producers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s660",
+              "number": null,
+              "heading": "Transportation to and from certain places of employment",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s661",
+              "number": null,
+              "heading": "Authorization of personnel end strengths",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s662",
+              "number": null,
+              "heading": "Requirement for prior authorization of appropriations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s663",
+              "number": null,
+              "heading": "Capital investment plan",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s664",
+              "number": null,
+              "heading": "User fees",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s665",
+              "number": null,
+              "heading": "Restriction on construction of vessels in foreign shipyards",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s666",
+              "number": null,
+              "heading": "Local hire",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s667",
+              "number": null,
+              "heading": "Vessel construction bonding requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s668",
+              "number": null,
+              "heading": "Contracts for medical care for retirees, dependents, and survivors: alternative delivery of health care",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s669",
+              "number": null,
+              "heading": "Telephone installation and charges",
+              "text": "Under regulations prescribed by the Secretary, amounts appropriated to the Department of Homeland Security are available to install, repair, and maintain telephone wiring in residences owned or leased by the United States Government and, if necessary for national defense purposes in other private residences.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s670",
+              "number": null,
+              "heading": "Procurement authority for family housing",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s671",
+              "number": null,
+              "heading": "Air Station Cape Cod Improvements",
+              "text": "The Secretary may expend funds for the repair, improvement, restoration, or replacement of those federally or nonfederally owned support buildings, including appurtenances, which are on leased or permitted real property constituting Coast Guard Air Station Cape Cod, located on Massachusetts Military Reservation, Cape Cod, Massachusetts.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s672",
+              "number": null,
+              "heading": "Long-term lease of special purpose facilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s672a",
+              "number": null,
+              "heading": "Long-term lease authority for lighthouse property",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s673",
+              "number": null,
+              "heading": "Designation, powers, and accountability of deputy disbursing officials",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s674",
+              "number": null,
+              "heading": "Small boat station rescue capability",
+              "text": "The Secretary shall ensure that each Coast Guard small boat station (including a seasonally operated station) maintains, within the area of responsibility for the station, at least 1 vessel that is fully capable of performing offshore rescue operations, taking into consideration prevailing weather, marine conditions, and depositional geologic features such as sand bars.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s675",
+              "number": null,
+              "heading": "Small boat station closures",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s676",
+              "number": null,
+              "heading": "Search and rescue center standards",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s677",
+              "number": null,
+              "heading": "Turnkey selection procedures",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s678",
+              "number": null,
+              "heading": "Aircraft accident investigations",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch18",
+          "number": null,
+          "name": "COAST GUARD HOUSING AUTHORITIES",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s680",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s681",
+              "number": null,
+              "heading": "General authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s682 to 684",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s685",
+              "number": null,
+              "heading": "Conveyance of real property",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s686",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s687",
+              "number": null,
+              "heading": "Coast Guard Housing Fund",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s687a",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s688",
+              "number": null,
+              "heading": "Reports",
+              "text": "The Secretary shall prepare and submit to Congress, concurrent with the budget submitted pursuant to , a report identifying the contracts or agreements for the conveyance of properties pursuant to this chapter executed during the prior calendar year.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s689",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t14/ptI/ch19",
+          "number": null,
+          "name": "ENVIRONMENTAL COMPLIANCE AND RESTORATION PROGRAM",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s690",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s691",
+              "number": null,
+              "heading": "Environmental Compliance and Restoration Program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s692",
+              "number": null,
+              "heading": "Environmental Compliance and Restoration Account",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s693",
+              "number": null,
+              "heading": "Annual list of projects to Congress",
+              "text": "The Commandant of the Coast Guard shall submit to the Committee on Transportation and Infrastructure of the House of Representatives and the Committee on Commerce, Science, and Transportation of the Senate a prioritized list of projects eligible for environmental compliance and restoration funding for each fiscal year concurrent with the President’s budget submission for that fiscal year.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t14/ptII",
+      "number": null,
+      "name": "COAST GUARD RESERVE AND AUXILIARY",
+      "chapters": [
+        {
+          "id": "/us/usc/t14/ptII/ch21",
+          "number": null,
+          "name": "COAST GUARD RESERVE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t14/ptII/ch23",
+          "number": null,
+          "name": "COAST GUARD AUXILIARY",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s821",
+              "number": null,
+              "heading": "Administration of the Coast Guard Auxiliary",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s822",
+              "number": null,
+              "heading": "Purpose of the Coast Guard Auxiliary",
+              "text": "The purpose of the Auxiliary is to assist the Coast Guard as authorized by the Commandant, in performing any Coast Guard function, power, duty, role, mission, or operation authorized by law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s823",
+              "number": null,
+              "heading": "Eligibility; enrollments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s823a",
+              "number": null,
+              "heading": "Members of the Auxiliary; status",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s824",
+              "number": null,
+              "heading": "Disenrollment",
+              "text": "Members of the Auxiliary may be disenrolled pursuant to applicable regulations.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s825",
+              "number": null,
+              "heading": "Membership in other organizations",
+              "text": "Members of the Auxiliary may be appointed or enlisted in the Reserve, pursuant to applicable regulations, and membership in the Auxiliary shall not be a bar to membership in any other naval or military organization.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s826",
+              "number": null,
+              "heading": "Use of member’s facilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s827",
+              "number": null,
+              "heading": "Vessel deemed public vessel",
+              "text": "While assigned to authorized Coast Guard duty, any motorboat or yacht shall be deemed to be a public vessel of the United States and a vessel of the Coast Guard within the meaning of sections 646 and 647 of this title and other applicable provisions of law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s828",
+              "number": null,
+              "heading": "Aircraft deemed public aircraft",
+              "text": "While assigned to authorized Coast Guard duty, any aircraft shall be deemed to be a Coast Guard aircraft, a public vessel of the United States, and a vessel of the Coast Guard within the meaning of sections 646 and 647 of this title and other applicable provisions of law. Subject to the provisions of sections 823a and 831 of this title, while assigned to duty, qualified Auxiliary pilots shall be deemed to be Coast Guard pilots.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s829",
+              "number": null,
+              "heading": "Radio station deemed government station",
+              "text": "Any radio station, while assigned to authorized Coast Guard duty shall be deemed to be a radio station of the Coast Guard and a “government station” within the meaning of section 305 of the Communications Act of 1934 ().",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s830",
+              "number": null,
+              "heading": "Availability of appropriations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s831",
+              "number": null,
+              "heading": "Assignment and performance of duties",
+              "text": "No member of the Auxiliary, solely by reason of such membership, shall be vested with, or exercise, any right, privilege, power, or duty vested in or imposed upon the personnel of the Coast Guard or the Reserve, except that any such member may, under applicable regulations, be assigned duties, which, after appropriate training and examination, he has been found competent to perform, to effectuate the purposes of the Auxiliary. No member of the Auxiliary shall be placed in charge of a motorboat, yacht, aircraft, or radio station assigned to Coast Guard duty unless he has been specifically designated by authority of the Commandant to perform such duty. Members of the Auxiliary, when assigned to duties as herein authorized shall, unless otherwise limited by the Commandant, be vested with the same power and authority, in the execution of such duties, as members of the regular Coast Guard assigned to similar duty. When any member of the Auxiliary is assigned to such duty he may, pursuant to regulations issued by the Secretary, be paid actual necessary traveling expenses, including a per diem allowance in conformity with standardized Government travel regulations in lieu of subsistence, while traveling and while on duty away from his home. No per diem shall be paid for any period during which quarters and subsistence in kind are furnished by the Government, and no per diem shall be paid for any period while such member is performing duty on a vessel.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s832",
+              "number": null,
+              "heading": "Injury or death in line of duty",
+              "text": "When any member of the Auxiliary is physically injured or dies as a result of physical injury incurred while performing any duty to which he has been assigned by competent Coast Guard authority, such member or his beneficiary shall be entitled to the same benefits provided for temporary members of the Reserve who suffer physical injury or death resulting from physical injury incurred incident to service. Members of the Auxiliary who incur physical injury or contract sickness or disease while performing any duty to which they have been assigned by competent Coast Guard authority shall be entitled to the same hospital treatment afforded members of the Coast Guard. The performance of a duty as the term is used in this section includes time engaged in traveling back and forth between the place of assigned duty and the permanent residence of a member of the Auxiliary.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t14/ptII/ch25",
+          "number": null,
+          "name": "GENERAL PROVISIONS FOR COAST GUARD RESERVE AND AUXILIARY",
+          "sections": [
+            {
+              "id": "/us/usc/t14/s891",
+              "number": null,
+              "heading": "Flags; pennants; uniforms and insignia",
+              "text": "The Secretary may prescribe one or more suitable distinguishing flags, pennants, or other identifying insignia to be displayed by the motorboats, yachts, aircraft, and radio stations owned by members of the Auxiliary and one or more suitable insignia which may be worn by members of the Reserve or the Auxiliary, and may prescribe one or more suitable uniforms which may be worn by members of the Auxiliary. Such flags, pennants, uniforms, and insignia may be furnished by the Coast Guard at actual cost, and the proceeds received therefor shall be credited to current appropriations from which purchase of these articles is authorized.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s892",
+              "number": null,
+              "heading": "Penalty",
+              "text": "Whoever, without proper authority, flies from any building, aircraft, motorboat, yacht, or other vessel, any flag or pennant or displays any identifying insignia or wears any uniform or insignia of the Reserve or the Auxiliary shall be fined not more than $500.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s893",
+              "number": null,
+              "heading": "Limitation on rights of members of the Auxiliary and temporary members of the Reserve",
+              "text": "Members of the Auxiliary and temporary members of the Reserve shall be entitled only to such rights, privileges, and benefits as are specifically set forth for them in this title or as may be specifically provided for them in any other Act of Congress. Any Act of Congress which grants rights, privileges, or benefits generally to military personnel, or among others, to personnel of the Coast Guard and the Coast Guard Reserve, without specifically granting such rights, privileges, or benefits to members of the Auxiliary or temporary members of the Reserve, shall not be deemed applicable to members of the Auxiliary or to temporary members of the Reserve.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t14/s894",
+              "number": null,
+              "heading": "Availability of facilities and appropriations",
+              "text": "The services and facilities of and appropriations for the Coast Guard shall be available to effectuate the purposes of the Reserve and the Auxiliary.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+{
+  "id": 40,
+  "name": "Public Buildings, Property, and Works",
+  "chapters": [],
+  "subtitles": [
+    {
+      "id": "/us/usc/t40/stI",
+      "number": null,
+      "name": "FEDERAL PROPERTY AND ADMINISTRATIVE SERVICES",
+      "chapters": [
+        {
+          "id": "/us/usc/t40/stI/ch11",
+          "number": null,
+          "name": "GENERAL",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t40/stI/ch31",
+          "number": null,
+          "name": "ORGANIZATION OF GENERAL SERVICES ADMINISTRATION",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t40/stI/ch5",
+          "number": null,
+          "name": "PROPERTY MANAGEMENT",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t40/stI/ch7",
+          "number": null,
+          "name": "FOREIGN EXCESS PROPERTY",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s701",
+              "number": null,
+              "heading": "Administrative",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s702",
+              "number": null,
+              "heading": "Return of foreign excess property to United States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s703",
+              "number": null,
+              "heading": "Donation of medical supplies for use in foreign country",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s704",
+              "number": null,
+              "heading": "Other methods of disposal",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s705",
+              "number": null,
+              "heading": "Handling of proceeds from disposal",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stI/ch9",
+          "number": null,
+          "name": "URBAN LAND USE",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s901",
+              "number": null,
+              "heading": "Purpose and policy",
+              "text": "The purpose of this chapter is to promote harmonious intergovernmental relations and encourage sound planning, zoning, and land use practices by prescribing uniform policies and procedures for the Administrator of General Services to acquire, use, and dispose of land in urban areas. To the greatest extent practicable, urban land transactions entered into for the General Services Administration and other federal agencies shall be consistent with zoning and land use practices and with the planning and development objectives of local governments and planning agencies.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s902",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s903",
+              "number": null,
+              "heading": "Acquisition and use",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s904",
+              "number": null,
+              "heading": "Disposal",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s905",
+              "number": null,
+              "heading": "Waiver",
+              "text": "The procedures prescribed in sections 903 and 904 of this title may be waived during a period of national emergency proclaimed by the President.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stI/ch11",
+          "number": null,
+          "name": "SELECTION OF ARCHITECTS AND ENGINEERS",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s1101",
+              "number": null,
+              "heading": "Policy",
+              "text": "The policy of the Federal Government is to publicly announce all requirements for architectural and engineering services and to negotiate contracts for architectural and engineering services on the basis of demonstrated competence and qualification for the type of professional services required and at fair and reasonable prices.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1102",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1103",
+              "number": null,
+              "heading": "Selection procedure",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1104",
+              "number": null,
+              "heading": "Negotiation of contract",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stI/ch13",
+          "number": null,
+          "name": "PUBLIC PROPERTY",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s1301",
+              "number": null,
+              "heading": "Charge of property transferred to the Federal Government",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1302",
+              "number": null,
+              "heading": "Lease of buildings",
+              "text": "Except as otherwise specifically provided by law, the leasing of buildings and property of the Federal Government shall be for a money consideration only. The lease may not include any provision for the alteration, repair, or improvement of the buildings or property as a part of the consideration for the rent to be paid for the use and occupation of the buildings or property. Money derived from the rent shall be deposited in the Treasury as miscellaneous receipts.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1303",
+              "number": null,
+              "heading": "Disposition of surplus real property",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1304",
+              "number": null,
+              "heading": "Transfer of federal property to States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1305",
+              "number": null,
+              "heading": "Disposition of land acquired by devise",
+              "text": "The General Services Administration may take custody, for disposal as excess property under this subtitle and division C (except sections 3302, 3501(b), 3509, 3906, 4710, and 4711) of subtitle I of title 41, of land acquired by the Federal Government by devise.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1306",
+              "number": null,
+              "heading": "Disposition of abandoned or forfeited personal property",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1307",
+              "number": null,
+              "heading": "Disposition of securities",
+              "text": "The President, or an officer, agent, or agency the President may designate, may dispose of any securities acquired on behalf of the Federal Government under the provisions of the Transportation Act of 1920 (ch. 91, ), including any securities acquired as an incident to a case under title 11, under a receivership or reorganization proceeding, by assignment, transfer, substitution, or issuance, or by acquisition of collateral given for the payment of obligations to the Government, or may make arrangements for the extension of the maturity of the securities, in the manner, in amounts, at prices, for cash, securities, or other property or any combination of cash, securities, or other property, and on terms and conditions the President or designee considers advisable and in the public interest.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1308",
+              "number": null,
+              "heading": "Disposition of unfit horses and mules",
+              "text": "Subject to applicable regulations under this subtitle and division C (except sections 3302, 3501(b), 3509, 3906, 4710, and 4711) of subtitle I of title 41, horses and mules belonging to the Federal Government that have become unfit for service may be destroyed or put out to pasture, either on pastures belonging to the Government or those belonging to financially sound and reputable humane organizations whose facilities permit them to care for the horses and mules during the remainder of their natural lives, at no cost to the Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1309",
+              "number": null,
+              "heading": "Preservation, sale, or collection of wrecked, abandoned, or derelict property",
+              "text": "The Administrator of General Services may make contracts and provisions for the preservation, sale, or collection of property, or the proceeds of property, which may have been wrecked, been abandoned, or become derelict, if the Administrator considers the contracts and provisions to be in the interest of the Federal Government and the property is within the jurisdiction of the United States and should come to the Government. A contract may provide compensation the Administrator considers just and reasonable to any person who gives information about the property or actually preserves, collects, surrenders, or pays over the property. Under each specific agreement for obtaining, preserving, collecting, or receiving property or making property available, the costs or claim chargeable to the Government may not exceed amounts realized and received by the Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1310",
+              "number": null,
+              "heading": "Sale of war supplies, land, and buildings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1311",
+              "number": null,
+              "heading": "Authority of President to obtain release",
+              "text": "For the use or benefit of the Federal Government, the President may obtain from an individual or officer to whom land has been or will be conveyed a release of the individual’s or officer’s interest to the Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1312",
+              "number": null,
+              "heading": "Release of real estate in certain cases",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1313",
+              "number": null,
+              "heading": "Releasing property from attachment",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1314",
+              "number": null,
+              "heading": "Easements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s1315",
+              "number": null,
+              "heading": "Law enforcement authority of Secretary of Homeland Security for protection of public property",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t40/stII",
+      "number": null,
+      "name": "PUBLIC BUILDINGS AND WORKS",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t40/stIII",
+      "number": null,
+      "name": "INFORMATION TECHNOLOGY MANAGEMENT",
+      "chapters": [
+        {
+          "id": "/us/usc/t40/stIII/ch111",
+          "number": null,
+          "name": "GENERAL",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s11101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s11102",
+              "number": null,
+              "heading": "Sense of Congress",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s11103",
+              "number": null,
+              "heading": "Applicability to national security systems",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stIII/ch113",
+          "number": null,
+          "name": "RESPONSIBILITY FOR ACQUISITIONS OF INFORMATION TECHNOLOGY",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t40/stIII/ch115",
+          "number": null,
+          "name": "INFORMATION TECHNOLOGY ACQUISITION PILOT PROGRAM",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t40/stIII/ch117",
+          "number": null,
+          "name": "ADDITIONAL INFORMATION RESOURCES MANAGEMENT MATTERS",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s11701",
+              "number": null,
+              "heading": "Identification of excess and surplus computer equipment",
+              "text": "In accordance with chapter 5 of this title, the head of an executive agency shall maintain an inventory of all computer equipment under the control of that official that is excess or surplus property.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s11702",
+              "number": null,
+              "heading": "Index of certain information in information systems included in directory established under",
+              "text": "If in designing an information technology system pursuant to this subtitle, the head of an executive agency determines that a purpose of the system is to disseminate information to the public, then the head of that executive agency shall reasonably ensure that an index of information disseminated by the system is included in the directory created pursuant to . This section does not authorize the dissemination of information to the public unless otherwise authorized.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s11703",
+              "number": null,
+              "heading": "Procurement procedures",
+              "text": "To the maximum extent practicable, the Federal Acquisition Regulatory Council shall ensure that the process for acquisition of information technology is a simplified, clear, and understandable process that specifically addresses the management of risk, incremental acquisitions, and the need to incorporate commercial information technology in a timely manner.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s11704",
+              "number": null,
+              "heading": "Renumbered § 11703]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t40/stIV",
+      "number": null,
+      "name": "APPALACHIAN REGIONAL DEVELOPMENT",
+      "chapters": [
+        {
+          "id": "/us/usc/t40/stIV/ch141",
+          "number": null,
+          "name": "GENERAL PROVISIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s14101",
+              "number": null,
+              "heading": "Findings and purposes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s14102",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stIV/ch143",
+          "number": null,
+          "name": "APPALACHIAN REGIONAL COMMISSION",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t40/stIV/ch145",
+          "number": null,
+          "name": "SPECIAL APPALACHIAN PROGRAMS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t40/stIV/ch147",
+          "number": null,
+          "name": "MISCELLANEOUS",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s14701",
+              "number": null,
+              "heading": "Applicable labor standards",
+              "text": "All laborers and mechanics employed by contractors or subcontractors in the construction, alteration, or repair, including painting and decorating, of projects, buildings, and works which are financially assisted through federal amounts authorized under this subtitle shall be paid wages at rates not less than those prevailing on similar construction in the locality as the Secretary of Labor determines in accordance with sections 3141–3144, 3146, and 3147 of this title. With respect to those labor standards, the Secretary has the authority and functions set forth in Reorganization Plan Numbered 14 of 1950 (eff. , ) and .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s14702",
+              "number": null,
+              "heading": "Nondiscrimination",
+              "text": "An individual in the United States shall not, because of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under, a program or activity receiving federal financial assistance under this subtitle.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s14703",
+              "number": null,
+              "heading": "Authorization of appropriations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s14704",
+              "number": null,
+              "heading": "Termination",
+              "text": "This subtitle, except sections 14102(a)(1) and (b) and 14501, ceases to be in effect on .",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t40/stV",
+      "number": null,
+      "name": "REGIONAL ECONOMIC AND INFRASTRUCTURE DEVELOPMENT",
+      "chapters": [
+        {
+          "id": "/us/usc/t40/stV/ch11",
+          "number": null,
+          "name": "GENERAL PROVISIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s15101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stV/ch21",
+          "number": null,
+          "name": "REGIONAL COMMISSIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s15301",
+              "number": null,
+              "heading": "Establishment, membership, and employees",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15302",
+              "number": null,
+              "heading": "Decisions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15303",
+              "number": null,
+              "heading": "Functions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15304",
+              "number": null,
+              "heading": "Administrative powers and expenses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15305",
+              "number": null,
+              "heading": "Meetings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15306",
+              "number": null,
+              "heading": "Personal financial interests",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15307",
+              "number": null,
+              "heading": "Tribal participation",
+              "text": "Governments of Indian tribes in the region of the Southwest Border Regional Commission shall be allowed to participate in matters before that Commission in the same manner and to the same extent as State agencies and instrumentalities in the region.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15308",
+              "number": null,
+              "heading": "Annual report",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stV/ch31",
+          "number": null,
+          "name": "FINANCIAL ASSISTANCE",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s15501",
+              "number": null,
+              "heading": "Economic and infrastructure development grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15502",
+              "number": null,
+              "heading": "Comprehensive economic and infrastructure development plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15503",
+              "number": null,
+              "heading": "Approval of applications for assistance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15504",
+              "number": null,
+              "heading": "Program development criteria",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15505",
+              "number": null,
+              "heading": "Local development districts and organizations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s15506",
+              "number": null,
+              "heading": "Supplements to Federal grant programs",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stV/ch41",
+          "number": null,
+          "name": "ADMINISTRATIVE PROVISIONS",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t40/stVI",
+      "number": null,
+      "name": "MISCELLANEOUS",
+      "chapters": [
+        {
+          "id": "/us/usc/t40/stVI/ch171",
+          "number": null,
+          "name": "SAFETY STANDARDS FOR MOTOR VEHICLES",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s17101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17102",
+              "number": null,
+              "heading": "Prohibition on acquisition or purchase of motor vehicles by Federal Government",
+              "text": "The Federal Government shall not purchase a motor vehicle for use by the Government unless that motor vehicle is equipped with reasonable passenger safety devices that the Administrator of General Services requires. Those devices shall conform with standards the Administrator prescribes under .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17103",
+              "number": null,
+              "heading": "Commercial standards for passenger safety devices",
+              "text": "The Administrator of General Services shall prescribe and publish in the Federal Register commercial standards for passenger safety devices the Administrator requires under . Changes in the standards take effect one year and 90 days after the publication of the standards in the Federal Register.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stVI/ch173",
+          "number": null,
+          "name": "GOVERNMENT LOSSES IN SHIPMENT",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s17301",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17302",
+              "number": null,
+              "heading": "Compliance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17303",
+              "number": null,
+              "heading": "Fund for the payment of Government losses in shipment",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17304",
+              "number": null,
+              "heading": "Claim for replacement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17305",
+              "number": null,
+              "heading": "Replacing lost, destroyed, or damaged stamps, securities, obligations, or money",
+              "text": "Stamps, securities, or other obligations of the Federal Government, or money lost, destroyed, or damaged while in the custody or possession of, or charged to, the United States Postal Service while it is acting as agent for, or on behalf of, the Secretary of the Treasury for the sale of the stamps, securities, or obligations and for the collection of the money, shall be replaced out of the fund described in  under regulations the Secretary may prescribe, regardless of how the loss, destruction, or damage occurs.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17306",
+              "number": null,
+              "heading": "Agreements of indemnity",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17307",
+              "number": null,
+              "heading": "Purchase of insurance",
+              "text": "An executive department, independent establishment, agency, wholly owned Government corporation, officer, or employee may expend money, or incur an obligation, for insurance, or for the payment of premiums on insurance, against loss, destruction, or damage in the shipment of valuables only as specifically authorized by the Secretary of the Treasury. The Secretary may give the authorization if the Secretary finds that the risk of loss, destruction, or damage in the shipment cannot be guarded against adequately by the facilities of the Federal Government or that adequate replacement cannot be provided under this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17308",
+              "number": null,
+              "heading": "Presumption of lawful conduct",
+              "text": "For purposes of the propriety of an act or omission related to a shipment to which the regulations prescribed under  apply, every officer and employee of the Federal Government and every individual acting on behalf of a wholly owned Government corporation who makes a shipment of valuables in good faith under, and substantially in accordance with, the regulations is deemed to be acting in the faithful execution of the officer’s, employee’s, or individual’s duties of office and in full performance of any conditions of the officer’s, employee’s, or individual’s bond and oath of office.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17309",
+              "number": null,
+              "heading": "Rules and regulations",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stVI/ch175",
+          "number": null,
+          "name": "FEDERAL MOTOR VEHICLE EXPENDITURE CONTROL",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s17501",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17502",
+              "number": null,
+              "heading": "Monitoring system",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17503",
+              "number": null,
+              "heading": "Data collection",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17504",
+              "number": null,
+              "heading": "Agency statements with respect to motor vehicle use",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17505",
+              "number": null,
+              "heading": "Presidential report",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17506",
+              "number": null,
+              "heading": "Reduction of storage and disposal costs",
+              "text": "The Administrator of General Services shall take such actions as may be necessary to reduce motor vehicle storage and disposal costs and to improve the rate of return on motor vehicle sales through a program of vehicle reconditioning prior to sale.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17507",
+              "number": null,
+              "heading": "Savings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17508",
+              "number": null,
+              "heading": "Compliance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17509",
+              "number": null,
+              "heading": "Applicability",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17510",
+              "number": null,
+              "heading": "Cooperation",
+              "text": "The Director of the Office of Management and Budget and the Administrator of General Services shall cooperate closely in the implementation of this chapter.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stVI/ch177",
+          "number": null,
+          "name": "ALASKA COMMUNICATIONS DISPOSAL",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s17701",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17702",
+              "number": null,
+              "heading": "Transfer of Government-owned long-lines communication facilities in and to Alaska",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17703",
+              "number": null,
+              "heading": "National defense considerations and qualification of transferee",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17704",
+              "number": null,
+              "heading": "Contents of agreements for transfer",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17705",
+              "number": null,
+              "heading": "Approval of Federal Communications Commission",
+              "text": "A transfer under this chapter does not require the approval of the Federal Communications Commission except to the extent that the approval of the Commission is necessary under .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17706",
+              "number": null,
+              "heading": "Gross proceeds as miscellaneous receipts in the Treasury",
+              "text": "The gross proceeds of each transfer shall be deposited in the Treasury as miscellaneous receipts.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17707",
+              "number": null,
+              "heading": "Reports",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17708",
+              "number": null,
+              "heading": "Nonapplication",
+              "text": "This chapter does not modify in any manner the Communications Act of 1934 ( et seq.).",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stVI/ch179",
+          "number": null,
+          "name": "ALASKA FEDERAL-CIVILIAN ENERGY EFFICIENCY SWAP",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s17901",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17902",
+              "number": null,
+              "heading": "Sale of electric energy",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17903",
+              "number": null,
+              "heading": "Purchase of electric power",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s17904",
+              "number": null,
+              "heading": "Implementation powers and limitations",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stVI/ch181",
+          "number": null,
+          "name": "TELECOMMUNICATIONS ACCESSIBILITY FOR HEARING-IMPAIRED AND SPEECH-IMPAIRED INDIVIDUALS",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s18101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s18102",
+              "number": null,
+              "heading": "Federal telecommunications system",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s18103",
+              "number": null,
+              "heading": "Research and development",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s18104",
+              "number": null,
+              "heading": "TTY installation by Congress",
+              "text": "Each House of Congress shall establish a policy under which Members of the House of Representatives and the Senate may obtain TTY’s for use in communicating with hearing-impaired and speech-impaired individuals, and for the use of hearing-impaired and speech-impaired employees.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t40/stVI/ch183",
+          "number": null,
+          "name": "NATIONAL CAPITAL AREA INTEREST ARBITRATION STANDARDS",
+          "sections": [
+            {
+              "id": "/us/usc/t40/s18301",
+              "number": null,
+              "heading": "Findings and purposes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s18302",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s18303",
+              "number": null,
+              "heading": "Standards for arbitrators",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t40/s18304",
+              "number": null,
+              "heading": "Procedures for enforcement of awards",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": []
+}

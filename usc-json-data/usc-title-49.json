@@ -1,0 +1,1495 @@
+{
+  "id": 49,
+  "name": "Transportation",
+  "chapters": [],
+  "subtitles": [
+    {
+      "id": "/us/usc/t49/stI",
+      "number": null,
+      "name": "DEPARTMENT OF TRANSPORTATION",
+      "chapters": [
+        {
+          "id": "/us/usc/t49/stI/ch1",
+          "number": null,
+          "name": "ORGANIZATION",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s101",
+              "number": null,
+              "heading": "Purpose",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s102",
+              "number": null,
+              "heading": "Department of Transportation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s103",
+              "number": null,
+              "heading": "Federal Railroad Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s104",
+              "number": null,
+              "heading": "Federal Highway Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s105",
+              "number": null,
+              "heading": "National Highway Traffic Safety Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s106",
+              "number": null,
+              "heading": "Federal Aviation Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s107",
+              "number": null,
+              "heading": "Federal Transit Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s108",
+              "number": null,
+              "heading": "Pipeline and Hazardous Materials Safety Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s109",
+              "number": null,
+              "heading": "Maritime Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s110",
+              "number": null,
+              "heading": "Saint Lawrence Seaway Development Corporation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s111",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s112",
+              "number": null,
+              "heading": "Research and Innovative Technology Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s113",
+              "number": null,
+              "heading": "Federal Motor Carrier Safety Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s114",
+              "number": null,
+              "heading": "Transportation Security Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s115",
+              "number": null,
+              "heading": "Transportation Security Oversight Board",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stI/ch3",
+          "number": null,
+          "name": "GENERAL DUTIES AND POWERS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t49/stI/ch5",
+          "number": null,
+          "name": "SPECIAL AUTHORITY",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t49/stI/ch7",
+          "number": null,
+          "name": "SURFACE TRANSPORTATION BOARD",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t49/stII",
+      "number": null,
+      "name": "OTHER GOVERNMENT AGENCIES",
+      "chapters": [
+        {
+          "id": "/us/usc/t49/stII/ch11",
+          "number": null,
+          "name": "NATIONAL TRANSPORTATION SAFETY BOARD",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t49/stIII",
+      "number": null,
+      "name": "GENERAL AND INTERMODAL PROGRAMS",
+      "chapters": [
+        {
+          "id": "/us/usc/t49/stIII/ch51",
+          "number": null,
+          "name": "TRANSPORTATION OF HAZARDOUS MATERIAL",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s5101",
+              "number": null,
+              "heading": "Purpose",
+              "text": "The purpose of this chapter is to protect against the risks to life, property, and the environment that are inherent in the transportation of hazardous material in intrastate, interstate, and foreign commerce.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5102",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5103",
+              "number": null,
+              "heading": "General regulatory authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5103a",
+              "number": null,
+              "heading": "Limitation on issuance of hazmat licenses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5104",
+              "number": null,
+              "heading": "Representation and tampering",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5105",
+              "number": null,
+              "heading": "Transporting certain highly radioactive material",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5106",
+              "number": null,
+              "heading": "Handling criteria",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5107",
+              "number": null,
+              "heading": "Hazmat employee training requirements and grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5108",
+              "number": null,
+              "heading": "Registration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5109",
+              "number": null,
+              "heading": "Motor carrier safety permits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5110",
+              "number": null,
+              "heading": "Shipping papers and disclosure",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5111",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5112",
+              "number": null,
+              "heading": "Highway routing of hazardous material",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5113",
+              "number": null,
+              "heading": "Unsatisfactory safety rating",
+              "text": "A violation of section 31144(c)(3) shall be considered a violation of this chapter, and shall be subject to the penalties in sections 5123 and 5124.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5114",
+              "number": null,
+              "heading": "Air transportation of ionizing radiation material",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5115",
+              "number": null,
+              "heading": "Training curriculum for the public sector",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5116",
+              "number": null,
+              "heading": "Planning and training grants, monitoring, and review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5117",
+              "number": null,
+              "heading": "Special permits and exclusions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5118",
+              "number": null,
+              "heading": "Hazardous material technical assessment, research and development, and analysis program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5119",
+              "number": null,
+              "heading": "Uniform forms and procedures",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5120",
+              "number": null,
+              "heading": "International uniformity of standards and requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5121",
+              "number": null,
+              "heading": "Administrative",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5122",
+              "number": null,
+              "heading": "Enforcement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5123",
+              "number": null,
+              "heading": "Civil penalty",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5124",
+              "number": null,
+              "heading": "Criminal penalty",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5125",
+              "number": null,
+              "heading": "Preemption",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5126",
+              "number": null,
+              "heading": "Relationship to other laws",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5127",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5128",
+              "number": null,
+              "heading": "Authorization of appropriations",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stIII/ch53",
+          "number": null,
+          "name": "PUBLIC TRANSPORTATION",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s5301",
+              "number": null,
+              "heading": "Policies and purposes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5302",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5303",
+              "number": null,
+              "heading": "Metropolitan transportation planning",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5304",
+              "number": null,
+              "heading": "Statewide and nonmetropolitan transportation planning",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5305",
+              "number": null,
+              "heading": "Planning programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5306",
+              "number": null,
+              "heading": "Private enterprise participation in metropolitan planning and transportation improvement programs and relationship to other limitations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5307",
+              "number": null,
+              "heading": "Urbanized area formula grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5308",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5309",
+              "number": null,
+              "heading": "Fixed guideway capital investment grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5310",
+              "number": null,
+              "heading": "Formula grants for the enhanced mobility of seniors and individuals with disabilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5311",
+              "number": null,
+              "heading": "Formula grants for rural areas",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5312",
+              "number": null,
+              "heading": "Research, development, demonstration, and deployment projects",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5313",
+              "number": null,
+              "heading": "Transit cooperative research program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5314",
+              "number": null,
+              "heading": "Technical assistance and standards development",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5315",
+              "number": null,
+              "heading": "Private sector participation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5316, 5317",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5318",
+              "number": null,
+              "heading": "Bus testing facility",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5319",
+              "number": null,
+              "heading": "Bicycle facilities",
+              "text": "A project to provide access for bicycles to public transportation facilities, to provide shelters and parking facilities for bicycles in or around public transportation facilities, or to install equipment for transporting bicycles on public transportation vehicles is a capital project eligible for assistance under sections 5307, 5309, and 5311 of this title. Notwithstanding sections 5307(d), 5309(), and 5311(g), a grant made by the Government under this chapter for a project made eligible by this section is for 90 percent of the cost of the project, except that, if the grant or any portion of the grant is made with funds required to be expended under section 5307(d)(1)(K) and the project involves providing bicycle access to public transportation, that grant or portion of that grant shall be at a Federal share of 95 percent.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5320",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5321",
+              "number": null,
+              "heading": "Crime prevention and security",
+              "text": "The Secretary of Transportation may make capital grants from amounts available under  to public transportation systems for crime prevention and security. This chapter does not prevent the financing of a project under this section when a local governmental authority other than the grant applicant has law enforcement responsibilities.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5322",
+              "number": null,
+              "heading": "Human resources and training",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5323",
+              "number": null,
+              "heading": "General provisions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5324",
+              "number": null,
+              "heading": "Public transportation emergency relief program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5325",
+              "number": null,
+              "heading": "Contract requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5326",
+              "number": null,
+              "heading": "Transit asset management",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5327",
+              "number": null,
+              "heading": "Project management oversight",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5328",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5329",
+              "number": null,
+              "heading": "Public transportation safety program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5330",
+              "number": null,
+              "heading": "State safety oversight",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5331",
+              "number": null,
+              "heading": "Alcohol and controlled substances testing",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5332",
+              "number": null,
+              "heading": "Nondiscrimination",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5333",
+              "number": null,
+              "heading": "Labor standards",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5334",
+              "number": null,
+              "heading": "Administrative provisions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5335",
+              "number": null,
+              "heading": "National transit database",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5336",
+              "number": null,
+              "heading": "Apportionment of appropriations for formula grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5337",
+              "number": null,
+              "heading": "State of good repair grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5338",
+              "number": null,
+              "heading": "Authorizations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5339",
+              "number": null,
+              "heading": "Bus and bus facilities formula grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5340",
+              "number": null,
+              "heading": "Apportionments based on growing States and high density States formula factors",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stIII/ch55",
+          "number": null,
+          "name": "INTERMODAL TRANSPORTATION",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t49/stIII/ch57",
+          "number": null,
+          "name": "SANITARY FOOD TRANSPORTATION",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s5701",
+              "number": null,
+              "heading": "Food transportation safety inspections",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stIII/ch59",
+          "number": null,
+          "name": "INTERMODAL SAFE CONTAINER TRANSPORTATION",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s5901",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5902",
+              "number": null,
+              "heading": "Notifications and certifications",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5903",
+              "number": null,
+              "heading": "Prohibitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5904",
+              "number": null,
+              "heading": "State enforcement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5905",
+              "number": null,
+              "heading": "Liens",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5906",
+              "number": null,
+              "heading": "Perishable agricultural commodities",
+              "text": "does not apply to a container or trailer the contents of which are perishable agricultural commodities (as defined in the Perishable Agricultural Commodities Act, 1930 ( et seq.)).",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5907",
+              "number": null,
+              "heading": "Effective date",
+              "text": "This chapter shall take effect 180 days after the date of enactment of the Intermodal Safe Container Transportation Amendments Act of 1996.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s5908",
+              "number": null,
+              "heading": "Relationship to other laws",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stIII/ch61",
+          "number": null,
+          "name": "ONE-CALL NOTIFICATION PROGRAMS",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s6101",
+              "number": null,
+              "heading": "Purposes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6102",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6103",
+              "number": null,
+              "heading": "Minimum standards for State one-call notification programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6104",
+              "number": null,
+              "heading": "Compliance with minimum standards",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6105",
+              "number": null,
+              "heading": "Implementation of best practices guidelines",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6106",
+              "number": null,
+              "heading": "Grants to States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6107",
+              "number": null,
+              "heading": "Authorization of appropriations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6108",
+              "number": null,
+              "heading": "Relationship to State laws",
+              "text": "Nothing in this chapter preempts State law or shall impose a new requirement on any State or mandate revisions to a one-call system.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6109",
+              "number": null,
+              "heading": "Public education and awareness",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stIII/ch63",
+          "number": null,
+          "name": "BUREAU OF TRANSPORTATION STATISTICS",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s6301",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6302",
+              "number": null,
+              "heading": "Bureau of Transportation Statistics",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6303",
+              "number": null,
+              "heading": "Intermodal transportation database",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6304",
+              "number": null,
+              "heading": "National Transportation Library",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6305",
+              "number": null,
+              "heading": "Advisory council on transportation statistics",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6306",
+              "number": null,
+              "heading": "Transportation statistical collection, analysis, and dissemination",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6307",
+              "number": null,
+              "heading": "Furnishing of information, data, or reports by Federal agencies",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6308",
+              "number": null,
+              "heading": "Proceeds of data product sales",
+              "text": "Notwithstanding , amounts received by the Bureau from the sale of data products for necessary expenses incurred may be credited to the Highway Trust Fund (other than the Mass Transit Account) for the purpose of reimbursing the Bureau for those expenses.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6309",
+              "number": null,
+              "heading": "National transportation atlas database",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6310",
+              "number": null,
+              "heading": "Limitations on statutory construction",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6311",
+              "number": null,
+              "heading": "Research and development grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6312",
+              "number": null,
+              "heading": "Transportation statistics annual report",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s6313",
+              "number": null,
+              "heading": "Mandatory response authority for freight data collection",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t49/stIV",
+      "number": null,
+      "name": "INTERSTATE TRANSPORTATION",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t49/stV",
+      "number": null,
+      "name": "RAIL PROGRAMS",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t49/stVI",
+      "number": null,
+      "name": "MOTOR VEHICLE AND DRIVER PROGRAMS",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t49/stVII",
+      "number": null,
+      "name": "AVIATION PROGRAMS",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t49/stVIII",
+      "number": null,
+      "name": "PIPELINES",
+      "chapters": [
+        {
+          "id": "/us/usc/t49/stVIII/ch601",
+          "number": null,
+          "name": "SAFETY",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s60101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60102",
+              "number": null,
+              "heading": "Purpose and general authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60103",
+              "number": null,
+              "heading": "Standards for liquefied natural gas pipeline facilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60104",
+              "number": null,
+              "heading": "Requirements and limitations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60105",
+              "number": null,
+              "heading": "State pipeline safety program certifications",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60106",
+              "number": null,
+              "heading": "State pipeline safety agreements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60107",
+              "number": null,
+              "heading": "State pipeline safety grants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60108",
+              "number": null,
+              "heading": "Inspection and maintenance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60109",
+              "number": null,
+              "heading": "High-density population areas and environmentally sensitive areas",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60110",
+              "number": null,
+              "heading": "Excess flow valves",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60111",
+              "number": null,
+              "heading": "Financial responsibility for liquefied natural gas facilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60112",
+              "number": null,
+              "heading": "Pipeline facilities hazardous to life and property",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60113",
+              "number": null,
+              "heading": "Customer-owned natural gas service lines",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60114",
+              "number": null,
+              "heading": "One-call notification systems",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60115",
+              "number": null,
+              "heading": "Technical safety standards committees",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60116",
+              "number": null,
+              "heading": "Public education programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60117",
+              "number": null,
+              "heading": "Administrative",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60118",
+              "number": null,
+              "heading": "Compliance and waivers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60119",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60120",
+              "number": null,
+              "heading": "Enforcement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60121",
+              "number": null,
+              "heading": "Actions by private persons",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60122",
+              "number": null,
+              "heading": "Civil penalties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60123",
+              "number": null,
+              "heading": "Criminal penalties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60124",
+              "number": null,
+              "heading": "Biennial reports",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60125",
+              "number": null,
+              "heading": "Authorization of appropriations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60126",
+              "number": null,
+              "heading": "Risk management",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60127",
+              "number": null,
+              "heading": "Population encroachment and rights-of-way",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60128",
+              "number": null,
+              "heading": "Dumping within pipeline rights-of-way",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60129",
+              "number": null,
+              "heading": "Protection of employees providing pipeline safety information",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60130",
+              "number": null,
+              "heading": "Pipeline safety information grants to communities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60131",
+              "number": null,
+              "heading": "Verification of pipeline qualification programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60132",
+              "number": null,
+              "heading": "National pipeline mapping system",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60133",
+              "number": null,
+              "heading": "Coordination of environmental reviews",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60134",
+              "number": null,
+              "heading": "State damage prevention programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60135",
+              "number": null,
+              "heading": "Enforcement transparency",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60136",
+              "number": null,
+              "heading": "Petroleum product transportation capacity study",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60137",
+              "number": null,
+              "heading": "Pipeline control room management",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60138",
+              "number": null,
+              "heading": "Response plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60139",
+              "number": null,
+              "heading": "Maximum allowable operating pressure",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60140",
+              "number": null,
+              "heading": "Cover over buried pipelines",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stVIII/ch603",
+          "number": null,
+          "name": "USER FEES",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s60301",
+              "number": null,
+              "heading": "User fees",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stVIII/ch605",
+          "number": null,
+          "name": "INTERSTATE COMMERCE REGULATION",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s60501",
+              "number": null,
+              "heading": "Secretary of Energy",
+              "text": "Except as provided in , the Secretary of Energy has the duties and powers related to the transportation of oil by pipeline that were vested on , in the Interstate Commerce Commission or the chairman or a member of the Commission.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60502",
+              "number": null,
+              "heading": "Federal Energy Regulatory Commission",
+              "text": "The Federal Energy Regulatory Commission has the duties and powers related to the establishment of a rate or charge for the transportation of oil by pipeline or the valuation of that pipeline that were vested on , in the Interstate Commerce Commission or an officer or component of the Interstate Commerce Commission.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s60503",
+              "number": null,
+              "heading": "Effect of enactment",
+              "text": "The enactment of the Act of  (, ), the Act of  (, ), and the Act enacting this section does not repeal, and has no substantive effect on, any right, obligation, liability, or remedy of an oil pipeline, including a right, obligation, liability, or remedy arising under the Interstate Commerce Act or the Act of  (known as the Pomerene Bills of Lading Act), before any department, agency, or instrumentality of the United States Government, an officer or employee of the Government, or a court of competent jurisdiction.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t49/stIX",
+      "number": null,
+      "name": "[Transferred]",
+      "chapters": [
+        {
+          "id": "/us/usc/t49/stIX/ch701",
+          "number": null,
+          "name": "TRANSFERRED]",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t49/stIX/ch703",
+          "number": null,
+          "name": "TRANSFERRED]",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t49/stX",
+      "number": null,
+      "name": "MISCELLANEOUS",
+      "chapters": [
+        {
+          "id": "/us/usc/t49/stX/ch801",
+          "number": null,
+          "name": "BILLS OF LADING",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s80101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80102",
+              "number": null,
+              "heading": "Application",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80103",
+              "number": null,
+              "heading": "Negotiable and nonnegotiable bills",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80104",
+              "number": null,
+              "heading": "Form and requirements for negotiation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80105",
+              "number": null,
+              "heading": "Title and rights affected by negotiation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80106",
+              "number": null,
+              "heading": "Transfer without negotiation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80107",
+              "number": null,
+              "heading": "Warranties and liability",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80108",
+              "number": null,
+              "heading": "Alterations and additions",
+              "text": "An alteration or addition to a bill of lading after its issuance by a common carrier, without authorization from the carrier in writing or noted on the bill, is void. However, the original terms of the bill are enforceable.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80109",
+              "number": null,
+              "heading": "Liens under negotiable bills",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80110",
+              "number": null,
+              "heading": "Duty to deliver goods",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80111",
+              "number": null,
+              "heading": "Liability for delivery of goods",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80112",
+              "number": null,
+              "heading": "Liability under negotiable bills issued in parts, sets, or duplicates",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80113",
+              "number": null,
+              "heading": "Liability for nonreceipt, misdescription, and improper loading",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80114",
+              "number": null,
+              "heading": "Lost, stolen, and destroyed negotiable bills",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80115",
+              "number": null,
+              "heading": "Limitation on use of judicial process to obtain possession of goods from common carriers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80116",
+              "number": null,
+              "heading": "Criminal penalty",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stX/ch803",
+          "number": null,
+          "name": "CONTRABAND",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s80301",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80302",
+              "number": null,
+              "heading": "Prohibitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80303",
+              "number": null,
+              "heading": "Seizure and forfeiture",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80304",
+              "number": null,
+              "heading": "Administrative",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80305",
+              "number": null,
+              "heading": "Availability of certain appropriations",
+              "text": "Appropriations for enforcing customs, narcotics, counterfeiting, or internal revenue laws are available to carry out this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80306",
+              "number": null,
+              "heading": "Relationship to other laws",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t49/stX/ch805",
+          "number": null,
+          "name": "MISCELLANEOUS",
+          "sections": [
+            {
+              "id": "/us/usc/t49/s80501",
+              "number": null,
+              "heading": "Damage to transported property",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80502",
+              "number": null,
+              "heading": "Transportation of animals",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80503",
+              "number": null,
+              "heading": "Payments for inspection and quarantine services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t49/s80504",
+              "number": null,
+              "heading": "Medals of honor",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": []
+}

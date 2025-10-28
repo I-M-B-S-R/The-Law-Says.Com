@@ -1,0 +1,109 @@
+{
+  "id": 13,
+  "name": "Census",
+  "chapters": [
+    {
+      "id": "/us/usc/t13/ch1",
+      "number": null,
+      "name": "ADMINISTRATION",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t13/ch3",
+      "number": null,
+      "name": "COLLECTION AND PUBLICATION OF STATISTICS",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t13/ch5",
+      "number": null,
+      "name": "CENSUSES",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t13/ch7",
+      "number": null,
+      "name": "OFFENSES AND PENALTIES",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t13/ch9",
+      "number": null,
+      "name": "COLLECTION AND PUBLICATION OF FOREIGN COMMERCE AND TRADE STATISTICS",
+      "sections": [
+        {
+          "id": "/us/usc/t13/s301",
+          "number": null,
+          "heading": "Collection and publication",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t13/s302",
+          "number": null,
+          "heading": "Rules, regulations, and orders",
+          "text": "The Secretary may make such rules, regulations, and orders as he deems necessary or appropriate to carry out the provisions of this chapter. Any rules, regulations, or orders issued pursuant to this authority may be established in such form or manner, may contain such classifications or differentiations, and may provide for such adjustments and reasonable exceptions as in the judgment of the Secretary are necessary or proper to effectuate the purpose of this chapter, or to prevent circumvention or evasion of any rule, regulation, or order issued hereunder. The Secretary may also provide by rule or regulation, for such confidentiality, publication, or disclosure, of information collected hereunder as he may deem necessary or appropriate in the public interest. Rules, regulations, and orders, or amendments thereto shall have the concurrence of the Secretary of the Treasury prior to promulgation.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t13/s303",
+          "number": null,
+          "heading": "Secretary of Treasury functions",
+          "text": "To assist the Secretary to carry out the provisions of this chapter, the Secretary of the Treasury shall collect information in the form and manner prescribed by the regulations issued pursuant to this chapter from persons engaged in foreign commerce or trade and from the owners or operators of carriers.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t13/s304",
+          "number": null,
+          "heading": "Filing export information, delayed filings, penalties for failure to file",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t13/s305",
+          "number": null,
+          "heading": "Penalties for unlawful export information activities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t13/s306",
+          "number": null,
+          "heading": "Delegation of functions",
+          "text": "Subject to the concurrence of the head of the department or agency concerned, the Secretary may make such provisions as he shall deem appropriate, authorizing the performance by any officer, agency, or employee of the United States Government departments or offices, or the governments of any areas over which the United States exercises sovereignty, jurisdiction, or control, of any function of the Secretary, contained in this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t13/s307",
+          "number": null,
+          "heading": "Relationship to general census law",
+          "text": "The following sections only, 1, 2, 3, 4, 5, 6, 7, 11, 21, 22, 23, 24, 211, 212, 213, and 214, of chapters 1 through 7 of this title are applicable to this chapter.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t13/ch10",
+      "number": null,
+      "name": "EXCHANGE OF CENSUS INFORMATION",
+      "sections": [
+        {
+          "id": "/us/usc/t13/s401",
+          "number": null,
+          "heading": "Exchange of census information with Bureau of Economic Analysis",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t13/s402",
+          "number": null,
+          "heading": "Providing business data to Designated Statistical Agencies",
+          "text": "The Bureau of the Census may provide business data to the Bureau of Economic Analysis and the Bureau of Labor Statistics (“Designated Statistical Agencies”) if such information is required for an authorized statistical purpose and the provision is the subject of a written agreement with that Designated Statistical Agency, or their successors, as defined in the Confidential Information Protection and Statistical Efficiency Act of 2002.",
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "subtitles": [],
+  "parts": []
+}

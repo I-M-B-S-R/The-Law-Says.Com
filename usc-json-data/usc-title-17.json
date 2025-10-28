@@ -1,0 +1,1008 @@
+{
+  "id": 17,
+  "name": "Copyrights",
+  "chapters": [
+    {
+      "id": "/us/usc/t17/ch1",
+      "number": null,
+      "name": "SUBJECT MATTER AND SCOPE OF COPYRIGHT",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s101",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s102",
+          "number": null,
+          "heading": "Subject matter of copyright: In general",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s103",
+          "number": null,
+          "heading": "Subject matter of copyright: Compilations and derivative works",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s104",
+          "number": null,
+          "heading": "Subject matter of copyright: National origin",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s104A",
+          "number": null,
+          "heading": "Copyright in restored works",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s105",
+          "number": null,
+          "heading": "Subject matter of copyright: United States Government works",
+          "text": "Copyright protection under this title is not available for any work of the United States Government, but the United States Government is not precluded from receiving and holding copyrights transferred to it by assignment, bequest, or otherwise.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s106",
+          "number": null,
+          "heading": "Exclusive rights in copyrighted works",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s106A",
+          "number": null,
+          "heading": "Rights of certain authors to attribution and integrity",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s107",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Fair use",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s108",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Reproduction by libraries and archives",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s109",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Effect of transfer of particular copy or phonorecord",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s110",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Exemption of certain performances and displays",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s111",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Secondary transmissions of broadcast programming by cable",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s112",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Ephemeral recordings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s113",
+          "number": null,
+          "heading": "Scope of exclusive rights in pictorial, graphic, and sculptural works",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s114",
+          "number": null,
+          "heading": "Scope of exclusive rights in sound recordings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s115",
+          "number": null,
+          "heading": "Scope of exclusive rights in nondramatic musical works: Compulsory license for making and distributing phonorecords",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s116",
+          "number": null,
+          "heading": "Negotiated licenses for public performances by means of coin-operated phonorecord players",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s116A",
+          "number": null,
+          "heading": "Renumbered § 116]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s117",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Computer programs",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s118",
+          "number": null,
+          "heading": "Scope of exclusive rights: Use of certain works in connection with noncommercial broadcasting",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s119",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Secondary transmissions of distant television programming by satellite",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s120",
+          "number": null,
+          "heading": "Scope of exclusive rights in architectural works",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s121",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Reproduction for blind or other people with disabilities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s122",
+          "number": null,
+          "heading": "Limitations on exclusive rights: Secondary transmissions of local television programming by satellite",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch2",
+      "number": null,
+      "name": "COPYRIGHT OWNERSHIP AND TRANSFER",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s201",
+          "number": null,
+          "heading": "Ownership of copyright",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s202",
+          "number": null,
+          "heading": "Ownership of copyright as distinct from ownership of material object",
+          "text": "Ownership of a copyright, or of any of the exclusive rights under a copyright, is distinct from ownership of any material object in which the work is embodied. Transfer of ownership of any material object, including the copy or phonorecord in which the work is first fixed, does not of itself convey any rights in the copyrighted work embodied in the object; nor, in the absence of an agreement, does transfer of ownership of a copyright or of any exclusive rights under a copyright convey property rights in any material object.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s203",
+          "number": null,
+          "heading": "Termination of transfers and licenses granted by the author",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s204",
+          "number": null,
+          "heading": "Execution of transfers of copyright ownership",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s205",
+          "number": null,
+          "heading": "Recordation of transfers and other documents",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch3",
+      "number": null,
+      "name": "DURATION OF COPYRIGHT",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s301",
+          "number": null,
+          "heading": "Preemption with respect to other laws",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s302",
+          "number": null,
+          "heading": "Duration of copyright: Works created on or after",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s303",
+          "number": null,
+          "heading": "Duration of copyright: Works created but not published or copyrighted before",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s304",
+          "number": null,
+          "heading": "Duration of copyright: Subsisting copyrights",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s305",
+          "number": null,
+          "heading": "Duration of copyright: Terminal date",
+          "text": "All terms of copyright provided by sections 302 through 304 run to the end of the calendar year in which they would otherwise expire.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch4",
+      "number": null,
+      "name": "COPYRIGHT NOTICE, DEPOSIT, AND REGISTRATION",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s401",
+          "number": null,
+          "heading": "Notice of copyright: Visually perceptible copies",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s402",
+          "number": null,
+          "heading": "Notice of copyright: Phonorecords of sound recordings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s403",
+          "number": null,
+          "heading": "Notice of copyright: Publications incorporating United States Government works",
+          "text": "Sections 401(d) and 402(d) shall not apply to a work published in copies or phonorecords consisting predominantly of one or more works of the United States Government unless the notice of copyright appearing on the published copies or phonorecords to which a defendant in the copyright infringement suit had access includes a statement identifying, either affirmatively or negatively, those portions of the copies or phonorecords embodying any work or works protected under this title.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s404",
+          "number": null,
+          "heading": "Notice of copyright: Contributions to collective works",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s405",
+          "number": null,
+          "heading": "Notice of copyright: Omission of notice on certain copies and phonorecords",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s406",
+          "number": null,
+          "heading": "Notice of copyright: Error in name or date on certain copies and phonorecords",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s407",
+          "number": null,
+          "heading": "Deposit of copies or phonorecords for Library of Congress",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s408",
+          "number": null,
+          "heading": "Copyright registration in general",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s409",
+          "number": null,
+          "heading": "Application for copyright registration",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s410",
+          "number": null,
+          "heading": "Registration of claim and issuance of certificate",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s411",
+          "number": null,
+          "heading": "Registration and civil infringement actions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s412",
+          "number": null,
+          "heading": "Registration as prerequisite to certain remedies for infringement",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch5",
+      "number": null,
+      "name": "COPYRIGHT INFRINGEMENT AND REMEDIES",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s501",
+          "number": null,
+          "heading": "Infringement of copyright",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s502",
+          "number": null,
+          "heading": "Remedies for infringement: Injunctions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s503",
+          "number": null,
+          "heading": "Remedies for infringement: Impounding and disposition of infringing articles",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s504",
+          "number": null,
+          "heading": "Remedies for infringement: Damages and profits",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s505",
+          "number": null,
+          "heading": "Remedies for infringement: Costs and attorney’s fees",
+          "text": "In any civil action under this title, the court in its discretion may allow the recovery of full costs by or against any party other than the United States or an officer thereof. Except as otherwise provided by this title, the court may also award a reasonable attorney’s fee to the prevailing party as part of the costs.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s506",
+          "number": null,
+          "heading": "Criminal offenses",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s507",
+          "number": null,
+          "heading": "Limitations on actions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s508",
+          "number": null,
+          "heading": "Notification of filing and determination of actions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s509",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s510",
+          "number": null,
+          "heading": "Remedies for alteration of programming by cable systems",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s511",
+          "number": null,
+          "heading": "Liability of States, instrumentalities of States, and State officials for infringement of copyright",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s512",
+          "number": null,
+          "heading": "Limitations on liability relating to material online",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s513",
+          "number": null,
+          "heading": "Determination of reasonable license fees for individual proprietors",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch6",
+      "number": null,
+      "name": "IMPORTATION AND EXPORTATION",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s601",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s602",
+          "number": null,
+          "heading": "Infringing importation or exportation of copies or phonorecords",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s603",
+          "number": null,
+          "heading": "Importation prohibitions: Enforcement and disposition of excluded articles",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch7",
+      "number": null,
+      "name": "COPYRIGHT OFFICE",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s701",
+          "number": null,
+          "heading": "The Copyright Office: General responsibilities and organization",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s702",
+          "number": null,
+          "heading": "Copyright Office regulations",
+          "text": "The Register of Copyrights is authorized to establish regulations not inconsistent with law for the administration of the functions and duties made the responsibility of the Register under this title. All regulations established by the Register under this title are subject to the approval of the Librarian of Congress.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s703",
+          "number": null,
+          "heading": "Effective date of actions in Copyright Office",
+          "text": "In any case in which time limits are prescribed under this title for the performance of an action in the Copyright Office, and in which the last day of the prescribed period falls on a Saturday, Sunday, holiday, or other nonbusiness day within the District of Columbia or the Federal Government, the action may be taken on the next succeeding business day, and is effective as of the date when the period expired.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s704",
+          "number": null,
+          "heading": "Retention and disposition of articles deposited in Copyright Office",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s705",
+          "number": null,
+          "heading": "Copyright Office records: Preparation, maintenance, public inspection, and searching",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s706",
+          "number": null,
+          "heading": "Copies of Copyright Office records",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s707",
+          "number": null,
+          "heading": "Copyright Office forms and publications",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s708",
+          "number": null,
+          "heading": "Copyright Office fees",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s709",
+          "number": null,
+          "heading": "Delay in delivery caused by disruption of postal or other services",
+          "text": "In any case in which the Register of Copyrights determines, on the basis of such evidence as the Register may by regulation require, that a deposit, application, fee, or any other material to be delivered to the Copyright Office by a particular date, would have been received in the Copyright Office in due time except for a general disruption or suspension of postal or other transportation or communications services, the actual receipt of such material in the Copyright Office within one month after the date on which the Register determines that the disruption or suspension of such services has terminated, shall be considered timely.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s710",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch8",
+      "number": null,
+      "name": "PROCEEDINGS BY COPYRIGHT ROYALTY JUDGES",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s801",
+          "number": null,
+          "heading": "Copyright Royalty Judges; appointment and functions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s802",
+          "number": null,
+          "heading": "Copyright Royalty Judgeships; staff",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s803",
+          "number": null,
+          "heading": "Proceedings of Copyright Royalty Judges",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s804",
+          "number": null,
+          "heading": "Institution of proceedings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s805",
+          "number": null,
+          "heading": "General rule for voluntarily negotiated agreements",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch9",
+      "number": null,
+      "name": "PROTECTION OF SEMICONDUCTOR CHIP PRODUCTS",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s901",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s902",
+          "number": null,
+          "heading": "Subject matter of protection",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s903",
+          "number": null,
+          "heading": "Ownership, transfer, licensing, and recordation",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s904",
+          "number": null,
+          "heading": "Duration of protection",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s905",
+          "number": null,
+          "heading": "Exclusive rights in mask works",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s906",
+          "number": null,
+          "heading": "Limitation on exclusive rights: reverse engineering; first sale",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s907",
+          "number": null,
+          "heading": "Limitation on exclusive rights: innocent infringement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s908",
+          "number": null,
+          "heading": "Registration of claims of protection",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s909",
+          "number": null,
+          "heading": "Mask work notice",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s910",
+          "number": null,
+          "heading": "Enforcement of exclusive rights",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s911",
+          "number": null,
+          "heading": "Civil actions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s912",
+          "number": null,
+          "heading": "Relation to other laws",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s913",
+          "number": null,
+          "heading": "Transitional provisions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s914",
+          "number": null,
+          "heading": "International transitional provisions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch10",
+      "number": null,
+      "name": "DIGITAL AUDIO RECORDING DEVICES AND MEDIA",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t17/ch11",
+      "number": null,
+      "name": "SOUND RECORDINGS AND MUSIC VIDEOS",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s1101",
+          "number": null,
+          "heading": "Unauthorized fixation and trafficking in sound recordings and music videos",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch12",
+      "number": null,
+      "name": "COPYRIGHT PROTECTION AND MANAGEMENT SYSTEMS",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s1201",
+          "number": null,
+          "heading": "Circumvention of copyright protection systems",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1202",
+          "number": null,
+          "heading": "Integrity of copyright management information",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1203",
+          "number": null,
+          "heading": "Civil remedies",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1204",
+          "number": null,
+          "heading": "Criminal offenses and penalties",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1205",
+          "number": null,
+          "heading": "Savings clause",
+          "text": "Nothing in this chapter abrogates, diminishes, or weakens the provisions of, nor provides any defense or element of mitigation in a criminal prosecution or civil action under, any Federal or State law that prevents the violation of the privacy of an individual in connection with the individual’s use of the Internet.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t17/ch13",
+      "number": null,
+      "name": "PROTECTION OF ORIGINAL DESIGNS",
+      "sections": [
+        {
+          "id": "/us/usc/t17/s1301",
+          "number": null,
+          "heading": "Designs protected",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1302",
+          "number": null,
+          "heading": "Designs not subject to protection",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1303",
+          "number": null,
+          "heading": "Revisions, adaptations, and rearrangements",
+          "text": "Protection for a design under this chapter shall be available notwithstanding the employment in the design of subject matter excluded from protection under section 1302 if the design is a substantial revision, adaptation, or rearrangement of such subject matter. Such protection shall be independent of any subsisting protection in subject matter employed in the design, and shall not be construed as securing any right to subject matter excluded from protection under this chapter or as extending any subsisting protection under this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1304",
+          "number": null,
+          "heading": "Commencement of protection",
+          "text": "The protection provided for a design under this chapter shall commence upon the earlier of the date of publication of the registration under section 1313(a) or the date the design is first made public as defined by section 1310(b).",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1305",
+          "number": null,
+          "heading": "Term of protection",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1306",
+          "number": null,
+          "heading": "Design notice",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1307",
+          "number": null,
+          "heading": "Effect of omission of notice",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1308",
+          "number": null,
+          "heading": "Exclusive rights",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1309",
+          "number": null,
+          "heading": "Infringement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1310",
+          "number": null,
+          "heading": "Application for registration",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1311",
+          "number": null,
+          "heading": "Benefit of earlier filing date in foreign country",
+          "text": "An application for registration of a design filed in the United States by any person who has, or whose legal representative or predecessor or successor in title has, previously filed an application for registration of the same design in a foreign country which extends to designs of owners who are citizens of the United States, or to applications filed under this chapter, similar protection to that provided under this chapter shall have that same effect as if filed in the United States on the date on which the application was first filed in such foreign country, if the application in the United States is filed within 6 months after the earliest date on which any such foreign application was filed.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1312",
+          "number": null,
+          "heading": "Oaths and acknowledgments",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1313",
+          "number": null,
+          "heading": "Examination of application and issue or refusal of registration",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1314",
+          "number": null,
+          "heading": "Certification of registration",
+          "text": "Certificates of registration shall be issued in the name of the United States under the seal of the Office of the Administrator and shall be recorded in the official records of the Office. The certificate shall state the name of the useful article, the date of filing of the application, the date of registration, and the date the design was made public, if earlier than the date of filing of the application, and shall contain a reproduction of the drawing or other pictorial representation of the design. If a description of the salient features of the design appears in the application, the description shall also appear in the certificate. A certificate of registration shall be admitted in any court as prima facie evidence of the facts stated in the certificate.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1315",
+          "number": null,
+          "heading": "Publication of announcements and indexes",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1316",
+          "number": null,
+          "heading": "Fees",
+          "text": "The Administrator shall by regulation set reasonable fees for the filing of applications to register designs under this chapter and for other services relating to the administration of this chapter, taking into consideration the cost of providing these services and the benefit of a public record.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1317",
+          "number": null,
+          "heading": "Regulations",
+          "text": "The Administrator may establish regulations for the administration of this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1318",
+          "number": null,
+          "heading": "Copies of records",
+          "text": "Upon payment of the prescribed fee, any person may obtain a certified copy of any official record of the Office of the Administrator that relates to this chapter. That copy shall be admissible in evidence with the same effect as the original.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1319",
+          "number": null,
+          "heading": "Correction of errors in certificates",
+          "text": "The Administrator may, by a certificate of correction under seal, correct any error in a registration incurred through the fault of the Office, or, upon payment of the required fee, any error of a clerical or typographical nature occurring in good faith but not through the fault of the Office. Such registration, together with the certificate, shall thereafter have the same effect as if it had been originally issued in such corrected form.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1320",
+          "number": null,
+          "heading": "Ownership and transfer",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1321",
+          "number": null,
+          "heading": "Remedy for infringement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1322",
+          "number": null,
+          "heading": "Injunctions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1323",
+          "number": null,
+          "heading": "Recovery for infringement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1324",
+          "number": null,
+          "heading": "Power of court over registration",
+          "text": "In any action involving the protection of a design under this chapter, the court, when appropriate, may order registration of a design under this chapter or the cancellation of such a registration. Any such order shall be certified by the court to the Administrator, who shall make an appropriate entry upon the record.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1325",
+          "number": null,
+          "heading": "Liability for action on registration fraudulently obtained",
+          "text": "Any person who brings an action for infringement knowing that registration of the design was obtained by a false or fraudulent representation materially affecting the rights under this chapter, shall be liable in the sum of $10,000, or such part of that amount as the court may determine. That amount shall be to compensate the defendant and shall be charged against the plaintiff and paid to the defendant, in addition to such costs and attorney’s fees of the defendant as may be assessed by the court.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1326",
+          "number": null,
+          "heading": "Penalty for false marking",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1327",
+          "number": null,
+          "heading": "Penalty for false representation",
+          "text": "Whoever knowingly makes a false representation materially affecting the rights obtainable under this chapter for the purpose of obtaining registration of a design under this chapter shall pay a penalty of not less than $500 and not more than $1,000, and any rights or privileges that individual may have in the design under this chapter shall be forfeited.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1328",
+          "number": null,
+          "heading": "Enforcement by Treasury and Postal Service",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1329",
+          "number": null,
+          "heading": "Relation to design patent law",
+          "text": "The issuance of a design patent under title 35, United States Code, for an original design for an article of manufacture shall terminate any protection of the original design under this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1330",
+          "number": null,
+          "heading": "Common law and other rights unaffected",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1331",
+          "number": null,
+          "heading": "Administrator; Office of the Administrator",
+          "text": "In this chapter, the “Administrator” is the Register of Copyrights, and the “Office of the Administrator” and the “Office” refer to the Copyright Office of the Library of Congress.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t17/s1332",
+          "number": null,
+          "heading": "No retroactive effect",
+          "text": "Protection under this chapter shall not be available for any design that has been made public under section 1310(b) before the effective date of this chapter.",
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "subtitles": [],
+  "parts": []
+}

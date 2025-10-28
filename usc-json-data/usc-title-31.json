@@ -1,0 +1,1376 @@
+{
+  "id": 31,
+  "name": "Money and Finance",
+  "chapters": [],
+  "subtitles": [
+    {
+      "id": "/us/usc/t31/stI",
+      "number": null,
+      "name": "GENERAL",
+      "chapters": [
+        {
+          "id": "/us/usc/t31/stI/ch1",
+          "number": null,
+          "name": "DEFINITIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s101",
+              "number": null,
+              "heading": "Agency",
+              "text": "In this title, “agency” means a department, agency, or instrumentality of the United States Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s102",
+              "number": null,
+              "heading": "Executive agency",
+              "text": "In this title, “executive agency” means a department, agency, or instrumentality in the executive branch of the United States Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s103",
+              "number": null,
+              "heading": "United States",
+              "text": "In this title, “United States”, when used in a geographic sense, means the States of the United States and the District of Columbia.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stI/ch3",
+          "number": null,
+          "name": "DEPARTMENT OF THE TREASURY",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t31/stI/ch5",
+          "number": null,
+          "name": "OFFICE OF MANAGEMENT AND BUDGET",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t31/stI/ch7",
+          "number": null,
+          "name": "GOVERNMENT ACCOUNTABILITY OFFICE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t31/stI/ch9",
+          "number": null,
+          "name": "AGENCY CHIEF FINANCIAL OFFICERS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s901",
+              "number": null,
+              "heading": "Establishment of agency Chief Financial Officers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s902",
+              "number": null,
+              "heading": "Authority and functions of agency Chief Financial Officers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s903",
+              "number": null,
+              "heading": "Establishment of agency Deputy Chief Financial Officers",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t31/stII",
+      "number": null,
+      "name": "THE BUDGET PROCESS",
+      "chapters": [
+        {
+          "id": "/us/usc/t31/stII/ch11",
+          "number": null,
+          "name": "THE BUDGET AND FISCAL, BUDGET, AND PROGRAM INFORMATION",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s1101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1102",
+              "number": null,
+              "heading": "Fiscal year",
+              "text": "The fiscal year of the Treasury begins on October 1 of each year and ends on September 30 of the following year. Accounts of receipts and expenditures required under law to be published each year shall be published for the fiscal year.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1103",
+              "number": null,
+              "heading": "Budget ceiling",
+              "text": "Congress reaffirms its commitment that budget outlays of the United States Government for a fiscal year may be not more than the receipts of the Government for that year.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1104",
+              "number": null,
+              "heading": "Budget and appropriations authority of the President",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1105",
+              "number": null,
+              "heading": "Budget contents and submission to Congress",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1106",
+              "number": null,
+              "heading": "Supplemental budget estimates and changes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1107",
+              "number": null,
+              "heading": "Deficiency and supplemental appropriations",
+              "text": "The President may submit to Congress proposed deficiency and supplemental appropriations the President decides are necessary because of laws enacted after the submission of the budget or that are in the public interest. The President shall include the reasons for the submission of the proposed appropriations and the reasons the proposed appropriations were not included in the budget. When the total proposed appropriations would have required the President to make a recommendation under  if they had been included in the budget, the President shall make a recommendation under that section. The President shall transmit promptly to Congress without change, proposed deficiency and supplemental appropriations submitted to the President by the legislative branch and the judicial branch.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1108",
+              "number": null,
+              "heading": "Preparation and submission of appropriations requests to the President",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1109",
+              "number": null,
+              "heading": "Current programs and activities estimates",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1110",
+              "number": null,
+              "heading": "Year-ahead requests for authorizing legislation",
+              "text": "A request to enact legislation authorizing new budget authority to continue a program or activity for a fiscal year shall be submitted to Congress before May 16 of the year before the year in which the fiscal year begins. If a new program or activity will continue for more than one year, the request must be submitted for at least the first and 2d fiscal years.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1111",
+              "number": null,
+              "heading": "Improving economy and efficiency",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1112",
+              "number": null,
+              "heading": "Fiscal, budget, and program information",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1113",
+              "number": null,
+              "heading": "Congressional information",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1114",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1115",
+              "number": null,
+              "heading": "Federal Government and agency performance plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1116",
+              "number": null,
+              "heading": "Agency performance reporting",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1117",
+              "number": null,
+              "heading": "Exemption",
+              "text": "The Director of the Office of Management and Budget may exempt from the requirements of sections 1115 and 1116 of this title and , any agency with annual outlays of $20,000,000 or less.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1118",
+              "number": null,
+              "heading": "Pilot projects for performance goals",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1119",
+              "number": null,
+              "heading": "Pilot projects for performance budgeting",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1120",
+              "number": null,
+              "heading": "Federal Government and agency priority goals",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1121",
+              "number": null,
+              "heading": "Quarterly priority progress reviews and use of performance information",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1122",
+              "number": null,
+              "heading": "Transparency of programs, priority goals, and results",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1123",
+              "number": null,
+              "heading": "Chief Operating Officers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1124",
+              "number": null,
+              "heading": "Performance Improvement Officers and the Performance Improvement Council",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s1125",
+              "number": null,
+              "heading": "Elimination of unnecessary agency reporting",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stII/ch13",
+          "number": null,
+          "name": "APPROPRIATIONS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t31/stII/ch15",
+          "number": null,
+          "name": "APPROPRIATION ACCOUNTING",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t31/stIII",
+      "number": null,
+      "name": "FINANCIAL MANAGEMENT",
+      "chapters": [
+        {
+          "id": "/us/usc/t31/stIII/ch31",
+          "number": null,
+          "name": "PUBLIC DEBT",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t31/stIII/ch33",
+          "number": null,
+          "name": "DEPOSITING, KEEPING, AND PAYING MONEY",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t31/stIII/ch35",
+          "number": null,
+          "name": "ACCOUNTING AND COLLECTION",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t31/stIII/ch37",
+          "number": null,
+          "name": "CLAIMS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t31/stIII/ch38",
+          "number": null,
+          "name": "ADMINISTRATIVE REMEDIES FOR FALSE CLAIMS AND STATEMENTS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s3801",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3802",
+              "number": null,
+              "heading": "False claims and statements; liability",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3803",
+              "number": null,
+              "heading": "Hearing and determinations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3804",
+              "number": null,
+              "heading": "Subpoena authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3805",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3806",
+              "number": null,
+              "heading": "Collection of civil penalties and assessments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3807",
+              "number": null,
+              "heading": "Right to administrative offset",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3808",
+              "number": null,
+              "heading": "Limitations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3809",
+              "number": null,
+              "heading": "Regulations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3810",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3811",
+              "number": null,
+              "heading": "Effect on other law",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3812",
+              "number": null,
+              "heading": "Prohibition against delegation",
+              "text": "Any function, duty, or responsibility which this chapter specifies be carried out by the Attorney General or an Assistant Attorney General designated by the Attorney General, shall not be delegated to, or carried out by, any other officer or employee of the Department of Justice.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stIII/ch39",
+          "number": null,
+          "name": "PROMPT PAYMENT",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s3901",
+              "number": null,
+              "heading": "Definitions and application",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3902",
+              "number": null,
+              "heading": "Interest penalties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3903",
+              "number": null,
+              "heading": "Regulations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3904",
+              "number": null,
+              "heading": "Limitations on discount payments",
+              "text": "The head of an agency offered a discount by a business concern from an amount due under a contract for property or service in exchange for payment within a specified time may pay the discounted amount only if payment is made within the specified time. For the purpose of the preceding sentence, the specified time shall be determined from the date of the invoice. The head of the agency shall pay an interest penalty on an amount remaining unpaid in violation of this section. The penalty accrues as provided under sections 3902 and 3903 of this title, except that the required payment date for the unpaid amount is the last day specified in the contract that the discounted amount may be paid.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3905",
+              "number": null,
+              "heading": "Payment provisions relating to construction contracts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3906",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s3907",
+              "number": null,
+              "heading": "Relationship to other laws",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t31/stIV",
+      "number": null,
+      "name": "MONEY",
+      "chapters": [
+        {
+          "id": "/us/usc/t31/stIV/ch51",
+          "number": null,
+          "name": "COINS AND CURRENCY",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t31/stIV/ch53",
+          "number": null,
+          "name": "MONETARY TRANSACTIONS",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t31/stV",
+      "number": null,
+      "name": "GENERAL ASSISTANCE ADMINISTRATION",
+      "chapters": [
+        {
+          "id": "/us/usc/t31/stV/ch61",
+          "number": null,
+          "name": "PROGRAM INFORMATION",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s6101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6102",
+              "number": null,
+              "heading": "Program information requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6102a",
+              "number": null,
+              "heading": "Assistance awards information system",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6103",
+              "number": null,
+              "heading": "Access to computer information system",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6104",
+              "number": null,
+              "heading": "Catalog of Federal domestic assistance programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6105",
+              "number": null,
+              "heading": "Oversight responsibility of Director",
+              "text": "The Director shall have oversight responsibility for the exercise of all authorities and responsibilities in this chapter not specifically assigned to the Director.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6106",
+              "number": null,
+              "heading": "Authorization of appropriations",
+              "text": "After , there may be appropriated to the Administrator such sums as may be necessary to carry out the responsibilities of this chapter.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stV/ch62",
+          "number": null,
+          "name": "CONSOLIDATED FEDERAL FUNDS REPORT",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s6201",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6202",
+              "number": null,
+              "heading": "Content, form, and data for report",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6203",
+              "number": null,
+              "heading": "Printing and distribution of reports and machine-readable records",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6204",
+              "number": null,
+              "heading": "Delegation",
+              "text": "In order to carry out sections 6202 and 6203 of this chapter, the Director may delegate to any authority of the executive branch of the Federal Government the responsibility for carrying out such sections. The Director shall oversee the activities of any authority to which responsibilities are delegated under this section and shall monitor the compliance of each authority with respect to the requirements set forth in section 6205.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6205",
+              "number": null,
+              "heading": "Availability of information",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6206",
+              "number": null,
+              "heading": "Data consistency and uniformity of data elements",
+              "text": "The Director shall designate a single organizational unit to provide for data consistency and uniform reporting of data elements.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6207",
+              "number": null,
+              "heading": "Authorization of appropriations",
+              "text": "There are authorized to be appropriated to carry out this chapter such sums as may be necessary for each of the fiscal years 1986, 1987, 1988, 1989, and 1990.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stV/ch63",
+          "number": null,
+          "name": "USING PROCUREMENT CONTRACTS AND GRANT AND COOPERATIVE AGREEMENTS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s6301",
+              "number": null,
+              "heading": "Purposes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6302",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6303",
+              "number": null,
+              "heading": "Using procurement contracts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6304",
+              "number": null,
+              "heading": "Using grant agreements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6305",
+              "number": null,
+              "heading": "Using cooperative agreements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6306",
+              "number": null,
+              "heading": "Authority to vest title in tangible personal property for research",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6307",
+              "number": null,
+              "heading": "Interpretative guidelines and exemptions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6308",
+              "number": null,
+              "heading": "Use of multiple relationships for different parts of jointly financed projects",
+              "text": "This chapter does not require an executive agency to establish only one relationship between the United States Government and a State, a local government, or other recipient on a jointly financed project involving amounts from more than one program or appropriation when different relationships would otherwise be appropriate for different parts of the project.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stV/ch65",
+          "number": null,
+          "name": "INTERGOVERNMENTAL COOPERATION",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s6501",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6502",
+              "number": null,
+              "heading": "Information on grants received",
+              "text": "On request of a chief executive officer of a State, a State legislature, or an official designated by either of them, an executive agency carrying out a grant program to States and local governments shall provide the requesting officer or legislature with written information on the purpose and amounts of grants provided to the State or local government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6503",
+              "number": null,
+              "heading": "Intergovernmental financing",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6504",
+              "number": null,
+              "heading": "Use of existing State or multimember agency to administer grant programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6505",
+              "number": null,
+              "heading": "Authority to provide specialized or technical services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6506",
+              "number": null,
+              "heading": "Development assistance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6507",
+              "number": null,
+              "heading": "Congressional review of grant programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6508",
+              "number": null,
+              "heading": "Studies and reports",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stV/ch67",
+          "number": null,
+          "name": "FEDERAL PAYMENTS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s6701",
+              "number": null,
+              "heading": "Payments to local governments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6702",
+              "number": null,
+              "heading": "Local Government Fiscal Assistance Fund",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6703",
+              "number": null,
+              "heading": "Qualification for payment",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6704",
+              "number": null,
+              "heading": "State area allocations; allocations and payments to territorial governments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6705",
+              "number": null,
+              "heading": "Local government allocations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6706",
+              "number": null,
+              "heading": "Income gap multiplier",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6707",
+              "number": null,
+              "heading": "State variation of local government allocations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6708",
+              "number": null,
+              "heading": "Adjustments of local government allocations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6709",
+              "number": null,
+              "heading": "Information used in allocation formulas",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6710",
+              "number": null,
+              "heading": "Public participation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6711",
+              "number": null,
+              "heading": "Prohibited discrimination",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6712",
+              "number": null,
+              "heading": "Discrimination proceedings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6713",
+              "number": null,
+              "heading": "Suspension and termination of payments in discrimination proceedings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6714",
+              "number": null,
+              "heading": "Compliance agreements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6715",
+              "number": null,
+              "heading": "Enforcement by the Attorney General of prohibitions on discrimination",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6716",
+              "number": null,
+              "heading": "Civil action by a person adversely affected",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6717",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6718",
+              "number": null,
+              "heading": "Investigations and reviews",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6719",
+              "number": null,
+              "heading": "Reports",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6720",
+              "number": null,
+              "heading": "Definitions, application, and administration",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stV/ch69",
+          "number": null,
+          "name": "PAYMENT FOR ENTITLEMENT LAND",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s6901",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6902",
+              "number": null,
+              "heading": "Authority and Eligibility",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6903",
+              "number": null,
+              "heading": "Payments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6904",
+              "number": null,
+              "heading": "Additional payments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6905",
+              "number": null,
+              "heading": "Redwood National Park and the Lake Tahoe Basin",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6906",
+              "number": null,
+              "heading": "Funding",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s6907",
+              "number": null,
+              "heading": "State legislation requiring reallocation or redistribution of payments to smaller units of general purpose government",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stV/ch71",
+          "number": null,
+          "name": "JOINT FUNDING SIMPLIFICATION",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s7101",
+              "number": null,
+              "heading": "Purposes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7102",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7103",
+              "number": null,
+              "heading": "Authority of the President and heads of executive agencies",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7104",
+              "number": null,
+              "heading": "Processing project requests to be financed by at least 2 assistance programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7105",
+              "number": null,
+              "heading": "Prescribing uniform technical and administrative provisions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7106",
+              "number": null,
+              "heading": "Delegation of supervision of assistance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7107",
+              "number": null,
+              "heading": "Joint management funds",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7108",
+              "number": null,
+              "heading": "Limitation on authority under sections 7105–7107",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7109",
+              "number": null,
+              "heading": "Appropriations available for joint financing",
+              "text": "An appropriation available for technical assistance or personnel training under an assistance program is available for technical assistance and training for a project proposed or approved for joint financing involving the program and another assistance program.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7110",
+              "number": null,
+              "heading": "Use of joint financing provisions for Federal-State assisted projects",
+              "text": "Under regulations prescribed by the President, the head of an executive agency may make an agreement with a State to extend the benefits of this chapter to a project involving assistance from at least one executive agency and at least one State agency. The agreement may include arrangements to process requests or administer assistance on a joint basis.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7111",
+              "number": null,
+              "heading": "Report to Congress",
+              "text": "By , the President shall submit to Congress a report on actions taken under this chapter and make recommendations for its continuation, amendment, or termination. The report shall include a detailed evaluation of the operation of the chapter, including information on the benefits and costs of jointly financed projects that accrue to participating States, local governments, private nonprofit organizations, and the United States Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7112",
+              "number": null,
+              "heading": "Expiration date",
+              "text": "This chapter expires on .",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stV/ch73",
+          "number": null,
+          "name": "ADMINISTERING BLOCK GRANTS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s7301",
+              "number": null,
+              "heading": "Purpose",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7302",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7303",
+              "number": null,
+              "heading": "Reports and public hearings on proposed uses of amounts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7304",
+              "number": null,
+              "heading": "Availability of records",
+              "text": "To evaluate and review the use of block grant amounts, consolidated assistance, and other grant programs established or provided for in the Omnibus Budget Reconciliation Act of 1981 (, ), records related to the amounts, assistance, or programs that are in the possession, custody, or control of a State, a political subdivision of a State, or a grantee of a State or political subdivision of a State shall be made available to the Comptroller General.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7305",
+              "number": null,
+              "heading": "State auditing requirements",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stV/ch75",
+          "number": null,
+          "name": "REQUIREMENTS FOR SINGLE AUDITS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s7501",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7502",
+              "number": null,
+              "heading": "Audit requirements; exemptions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7503",
+              "number": null,
+              "heading": "Relation to other audit requirements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7504",
+              "number": null,
+              "heading": "Federal agency responsibilities and relations with non-Federal entities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7505",
+              "number": null,
+              "heading": "Regulations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7506",
+              "number": null,
+              "heading": "Monitoring responsibilities of the Comptroller General",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s7507",
+              "number": null,
+              "heading": "Effective date",
+              "text": "This chapter shall apply to any non-Federal entity with respect to any of its fiscal years which begin after .",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stV/ch77",
+          "number": null,
+          "name": "ACCESS TO INFORMATION FOR DEBT COLLECTION",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s7701",
+              "number": null,
+              "heading": "Taxpayer identifying number",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t31/stVI",
+      "number": null,
+      "name": "MISCELLANEOUS",
+      "chapters": [
+        {
+          "id": "/us/usc/t31/stVI/ch91",
+          "number": null,
+          "name": "GOVERNMENT CORPORATIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s9101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9102",
+              "number": null,
+              "heading": "Establishing and acquiring corporations",
+              "text": "An agency may establish or acquire a corporation to act as an agency only by or under a law of the United States specifically authorizing the action.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9103",
+              "number": null,
+              "heading": "Budgets of wholly owned Government corporations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9104",
+              "number": null,
+              "heading": "Congressional action on budgets of wholly owned Government corporations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9105",
+              "number": null,
+              "heading": "Audits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9106",
+              "number": null,
+              "heading": "Management reports",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9107",
+              "number": null,
+              "heading": "Accounts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9108",
+              "number": null,
+              "heading": "Obligations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9109",
+              "number": null,
+              "heading": "Exclusion of a wholly owned Government corporation from this chapter",
+              "text": "When the President considers it practicable and in the public interest, the President shall include in the budget submitted to Congress under  a recommendation that a wholly owned Government corporation be deemed to be an agency (except a corporation) under chapter 11 of this title and for fiscal matters. If Congress approves the recommendation, the corporation is deemed to be an agency (except a corporation) under chapter 11 and for fiscal matters for fiscal years beginning after the fiscal year of approval and is not subject to this chapter. The corporate entity is not affected by this section.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9110",
+              "number": null,
+              "heading": "Standards for depository institutions holding securities of a Government-sponsored corporation for customers",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stVI/ch93",
+          "number": null,
+          "name": "SURETIES AND SURETY BONDS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s9301",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9302",
+              "number": null,
+              "heading": "Prohibition against surety bonds for United States Government personnel",
+              "text": "An agency (except a mixed-ownership Government corporation) may not require or obtain a surety bond for a member of the uniformed services or an officer or employee of the United States Government in carrying out official duties. This section does not affect the personal financial liability of the member, officer, or employee.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9303",
+              "number": null,
+              "heading": "Use of eligible obligations instead of surety bonds",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9304",
+              "number": null,
+              "heading": "Surety corporations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9305",
+              "number": null,
+              "heading": "Authority and revocation of authority of surety corporations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9306",
+              "number": null,
+              "heading": "Surety corporations acting outside area of incorporation and place of principal office",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9307",
+              "number": null,
+              "heading": "Civil actions and judgments against surety corporations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9308",
+              "number": null,
+              "heading": "Civil penalty",
+              "text": "A surety corporation is liable to the United States Government for a civil penalty of at least $500 but not more than $5,000 for violating section 9304, 9305, or 9306 of this title. A civil action under this section may be brought in a judicial district in which a civil action may be brought against the corporation under . A penalty imposed under this section does not affect the validity of a contract made by the surety corporation.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9309",
+              "number": null,
+              "heading": "Priority of sureties",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stVI/ch95",
+          "number": null,
+          "name": "GOVERNMENT PENSION PLAN PROTECTION",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s9501",
+              "number": null,
+              "heading": "Purpose",
+              "text": "The purpose of this chapter is to protect the interests of the United States and of the participants and their beneficiaries in Government pension plans by requiring complete disclosure of the financial condition of those plans.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9502",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9503",
+              "number": null,
+              "heading": "Reports about Government pension plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9504",
+              "number": null,
+              "heading": "Review and recommendations",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t31/stVI/ch97",
+          "number": null,
+          "name": "MISCELLANEOUS",
+          "sections": [
+            {
+              "id": "/us/usc/t31/s9701",
+              "number": null,
+              "heading": "Fees and charges for Government services and things of value",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9702",
+              "number": null,
+              "heading": "Investment of trust funds",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9703",
+              "number": null,
+              "heading": "Managerial accountability and flexibility",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9704",
+              "number": null,
+              "heading": "Pilot projects for managerial accountability and flexibility",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9703",
+              "number": null,
+              "heading": "Department of the Treasury Forfeiture Fund",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t31/s9704",
+              "number": null,
+              "heading": "]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": []
+}

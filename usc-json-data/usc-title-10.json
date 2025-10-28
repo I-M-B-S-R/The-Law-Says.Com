@@ -1,0 +1,38 @@
+{
+  "id": 10,
+  "name": "Armed Forces",
+  "chapters": [],
+  "subtitles": [
+    {
+      "id": "/us/usc/t10/stA",
+      "number": null,
+      "name": "General Military Law",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t10/stB",
+      "number": null,
+      "name": "Army",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t10/stC",
+      "number": null,
+      "name": "Navy and Marine Corps",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t10/stD",
+      "number": null,
+      "name": "Air Force",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t10/stE",
+      "number": null,
+      "name": "Reserve Components",
+      "chapters": []
+    }
+  ],
+  "parts": []
+}

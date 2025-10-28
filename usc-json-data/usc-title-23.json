@@ -1,0 +1,1121 @@
+{
+  "id": 23,
+  "name": "Highways",
+  "chapters": [
+    {
+      "id": "/us/usc/t23/ch1",
+      "number": null,
+      "name": "FEDERAL-AID HIGHWAYS",
+      "sections": [
+        {
+          "id": "/us/usc/t23/s101",
+          "number": null,
+          "heading": "Definitions and declaration of policy",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s102",
+          "number": null,
+          "heading": "Program efficiencies",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s103",
+          "number": null,
+          "heading": "National Highway System",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s104",
+          "number": null,
+          "heading": "Apportionment",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s105",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s106",
+          "number": null,
+          "heading": "Project approval and oversight",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s107",
+          "number": null,
+          "heading": "Acquisition of rights-of-way—Interstate System",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s108",
+          "number": null,
+          "heading": "Advance acquisition of real property",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s109",
+          "number": null,
+          "heading": "Standards",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s110",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s111",
+          "number": null,
+          "heading": "Agreements relating to use of and access to rights-of-way—Interstate System",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s112",
+          "number": null,
+          "heading": "Letting of contracts",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s113",
+          "number": null,
+          "heading": "Prevailing rate of wage",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s114",
+          "number": null,
+          "heading": "Construction",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s115",
+          "number": null,
+          "heading": "Advance construction",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s116",
+          "number": null,
+          "heading": "Maintenance",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s117",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s118",
+          "number": null,
+          "heading": "Availability of funds",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s119",
+          "number": null,
+          "heading": "National highway performance program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s120",
+          "number": null,
+          "heading": "Federal share payable",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s121",
+          "number": null,
+          "heading": "Payment to States for construction",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s122",
+          "number": null,
+          "heading": "Payments to States for bond and other debt instrument financing",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s123",
+          "number": null,
+          "heading": "Relocation of utility facilities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s124",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s125",
+          "number": null,
+          "heading": "Emergency relief",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s126",
+          "number": null,
+          "heading": "Transferability of Federal-aid highway funds",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s127",
+          "number": null,
+          "heading": "Vehicle weight limitations—Interstate System",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s128",
+          "number": null,
+          "heading": "Public hearings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s129",
+          "number": null,
+          "heading": "Toll roads, bridges, tunnels, and ferries",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s130",
+          "number": null,
+          "heading": "Railway-highway crossings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s131",
+          "number": null,
+          "heading": "Control of outdoor advertising",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s132",
+          "number": null,
+          "heading": "Payments on Federal-aid projects undertaken by a Federal agency",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s133",
+          "number": null,
+          "heading": "Surface transportation program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s134",
+          "number": null,
+          "heading": "Metropolitan transportation planning",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s135",
+          "number": null,
+          "heading": "Statewide and nonmetropolitan transportation planning",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s136",
+          "number": null,
+          "heading": "Control of junkyards",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s137",
+          "number": null,
+          "heading": "Fringe and corridor parking facilities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s138",
+          "number": null,
+          "heading": "Preservation of parklands",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s139",
+          "number": null,
+          "heading": "Efficient environmental reviews for project decisionmaking",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s140",
+          "number": null,
+          "heading": "Nondiscrimination",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s141",
+          "number": null,
+          "heading": "Enforcement of requirements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s142",
+          "number": null,
+          "heading": "Public transportation",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s143",
+          "number": null,
+          "heading": "Highway use tax evasion projects",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s144",
+          "number": null,
+          "heading": "National bridge and tunnel inventory and inspection standards",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s145",
+          "number": null,
+          "heading": "Federal-State relationship",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s146",
+          "number": null,
+          "heading": "Carpool and vanpool projects",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s147",
+          "number": null,
+          "heading": "Construction of ferry boats and ferry terminal facilities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s148",
+          "number": null,
+          "heading": "Highway safety improvement program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s149",
+          "number": null,
+          "heading": "Congestion mitigation and air quality improvement program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s150",
+          "number": null,
+          "heading": "National goals and performance management measures",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s151",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s152",
+          "number": null,
+          "heading": "Hazard elimination program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s153",
+          "number": null,
+          "heading": "Use of safety belts and motorcycle helmets",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s154",
+          "number": null,
+          "heading": "Open container requirements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s155",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s156",
+          "number": null,
+          "heading": "Proceeds from the sale or lease of real property",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s157",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s158",
+          "number": null,
+          "heading": "National minimum drinking age",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s159",
+          "number": null,
+          "heading": "Revocation or suspension of drivers’ licenses of individuals convicted of drug offenses",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s160",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s161",
+          "number": null,
+          "heading": "Operation of motor vehicles by intoxicated minors",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s162",
+          "number": null,
+          "heading": "National scenic byways program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s163",
+          "number": null,
+          "heading": "Safety incentives to prevent operation of motor vehicles by intoxicated persons",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s164",
+          "number": null,
+          "heading": "Minimum penalties for repeat offenders for driving while intoxicated or driving under the influence",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s165",
+          "number": null,
+          "heading": "Territorial and Puerto Rico highway program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s166",
+          "number": null,
+          "heading": "HOV facilities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s167",
+          "number": null,
+          "heading": "National freight policy",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s168",
+          "number": null,
+          "heading": "Integration of planning and environmental review",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s169",
+          "number": null,
+          "heading": "Development of programmatic mitigation plans",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s170",
+          "number": null,
+          "heading": "Funding flexibility for transportation emergencies",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s181 to 190",
+          "number": null,
+          "heading": "Renumbered §§ 601 to 610]",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t23/ch2",
+      "number": null,
+      "name": "OTHER HIGHWAYS",
+      "sections": [
+        {
+          "id": "/us/usc/t23/s201",
+          "number": null,
+          "heading": "Federal lands and tribal transportation programs",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s202",
+          "number": null,
+          "heading": "Tribal transportation program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s203",
+          "number": null,
+          "heading": "Federal lands transportation program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s204",
+          "number": null,
+          "heading": "Federal lands access program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s205",
+          "number": null,
+          "heading": "Forest development roads and trails",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s206",
+          "number": null,
+          "heading": "Recreational trails program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s207 to 209",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s210",
+          "number": null,
+          "heading": "Defense access roads",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s211",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s212",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s213",
+          "number": null,
+          "heading": "Transportation alternatives",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s214",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s215",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s216",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s217",
+          "number": null,
+          "heading": "Bicycle transportation and pedestrian walkways",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s218",
+          "number": null,
+          "heading": "Alaska Highway",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s219",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t23/ch3",
+      "number": null,
+      "name": "GENERAL PROVISIONS",
+      "sections": [
+        {
+          "id": "/us/usc/t23/s301",
+          "number": null,
+          "heading": "Freedom from tolls",
+          "text": "Except as provided in  with respect to certain toll bridges and toll tunnels, all highways constructed under the provisions of this title shall be free from tolls of all kinds.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s302",
+          "number": null,
+          "heading": "State transportation department",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s303",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s304",
+          "number": null,
+          "heading": "Participation by small business enterprises",
+          "text": "It is declared to be in the national interest to encourage and develop the actual and potential capacity of small business and to utilize this important segment of our economy to the fullest practicable extent in construction of Federal-aid highways, including the Interstate System. In order to carry out that intent and encourage full and free competition, the Secretary should assist, insofar as feasible, small business enterprises in obtaining contracts in connection with the prosecution of the highway program.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s305",
+          "number": null,
+          "heading": "Archeological and paleontological salvage",
+          "text": "Funds authorized to be appropriated to carry out this title to the extent approved as necessary by the highway department of any State, may be used for archeological and paleontological salvage in that State in compliance with the Act entitled “An Act for the preservation of American antiquities”, approved  (), and State laws where applicable,",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s306",
+          "number": null,
+          "heading": "Mapping",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s307",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s308",
+          "number": null,
+          "heading": "Cooperation with Federal and State agencies and foreign countries",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s309",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s310",
+          "number": null,
+          "heading": "Civil defense",
+          "text": "In order to assure that adequate consideration is given to civil defense aspects in the planning and construction of highways constructed or reconstructed with the aid of Federal funds, the Secretary of Transportation is authorized and directed to consult, from time to time, with the Federal Civil Defense Administrator relative to the civil defense aspects of highways so constructed or reconstructed.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s311",
+          "number": null,
+          "heading": "Highway improvements strategically important to the national defense",
+          "text": "Funds made available under subsection (a) of  may be used to pay the entire engineering costs of the surveys, plans, specifications, estimates, and supervision of construction of projects for such urgent improvements of highways strategically important from the standpoint of the national defense as may be undertaken on the order of the Secretary and as the result of request of the Secretary of Defense or such other official as the President may designate. With the consent of a State, funds made available under subsection (b) of  may be used to the extent deemed necessary and advisable by the Secretary to carry out the provisions of this section.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s312",
+          "number": null,
+          "heading": "Detail of Army, Navy, and Air Force officers",
+          "text": "The Secretary of Defense, upon request of the Secretary, is authorized to make temporary details to the Federal Highway Administration of officers of the Army, the Navy, and the Air Force, without additional compensation, for technical advice and for consultation regarding highway needs for the national defense. Travel and subsistence expenses of officers so detailed shall be paid from appropriations available to the Department of Transportation on the same basis as authorized by law and by regulations of the Department of Defense for such officers.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s313",
+          "number": null,
+          "heading": "Buy America",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s314",
+          "number": null,
+          "heading": "Relief of employees in hazardous work",
+          "text": "The Secretary is authorized in an emergency to use appropriations to the Department of Transportation for carrying out the provisions of this title for medical supplies, services, and other assistance necessary for the immediate relief of employees of the Federal Highway Administration engaged in hazardous work.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s315",
+          "number": null,
+          "heading": "Rules, regulations, and recommendations",
+          "text": "Except as provided in sections 202(a)(5), 203(a)(3), and 205(a) of this title, the Secretary is authorized to prescribe and promulgate all needful rules and regulations for the carrying out of the provisions of this title. The Secretary may make such recommendations to the Congress and State transportation departments as he deems necessary for preserving and protecting the highways and insuring the safety of traffic thereon.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s316",
+          "number": null,
+          "heading": "Consent by United States to conveyance of property",
+          "text": "For the purposes of this title the consent of the United States is given to any railroad or canal company to convey to the State transportation department of any State, or its nominee, any part of its right-of-way or other property in that State acquired by grant from the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s317",
+          "number": null,
+          "heading": "Appropriation for highway purposes of lands or interests in lands owned by the United States",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s318",
+          "number": null,
+          "heading": "Highway relocation due to airport",
+          "text": "Federal highway funds shall not be used for the reconstruction or relocation of any highway giving access to an airport constructed or extended after , or for the reconstruction or relocation of any highway which has been or may be closed or the usefulness of which has been may be impaired by the location or construction of any airport constructed or extended after , unless, prior to such construction or extension, as the case may be, the State transportation department and the Secretary have concurred with the officials in charge of the airport that the location of such airport or extension thereof and the consequent reconstruction or relocation of the highway are in the public interest.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s319",
+          "number": null,
+          "heading": "Landscaping and scenic enhancement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s320",
+          "number": null,
+          "heading": "Bridges on Federal dams",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s321",
+          "number": null,
+          "heading": "Signs identifying funding sources",
+          "text": "If a State has a practice of erecting on projects under actual construction without Federal-aid highway assistance signs which indicate the source or sources of any funds used to carry out such projects, such State shall erect on all projects under actual construction with any funds made available out of the Highway Trust Fund (other than the Mass Transit Account) signs which are visible to highway users and which indicate each governmental source of funds being used to carry out such federally assisted projects and the amount of funds being made available by each such source.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s322",
+          "number": null,
+          "heading": "Magnetic levitation transportation technology deployment program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s323",
+          "number": null,
+          "heading": "Donations and credits",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s324",
+          "number": null,
+          "heading": "Prohibition of discrimination on the basis of sex",
+          "text": "No person shall on the ground of sex be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any program or activity receiving Federal assistance under this title or carried on under this title. This provision will be enforced through agency provisions and rules similar to those already established, with respect to racial and other discrimination, under title VI of the Civil Rights Act of 1964. However, this remedy is not exclusive and will not prejudice or cut off any other legal remedies available to a discrim­inatee.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s325",
+          "number": null,
+          "heading": "State assumption of responsibilities for certain programs and projects",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s326",
+          "number": null,
+          "heading": "State assumption of responsibility for categorical exclusions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s327",
+          "number": null,
+          "heading": "Surface transportation project delivery program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s328",
+          "number": null,
+          "heading": "Eligibility for environmental restoration and pollution abatement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s329",
+          "number": null,
+          "heading": "Eligibility for control of noxious weeds and aquatic noxious weeds and establishment of native species",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t23/ch4",
+      "number": null,
+      "name": "HIGHWAY SAFETY",
+      "sections": [
+        {
+          "id": "/us/usc/t23/s401",
+          "number": null,
+          "heading": "Authority of the Secretary",
+          "text": "The Secretary is authorized and directed to assist and cooperate with other Federal departments and agencies, State and local governments, private industry, and other interested parties, to increase highway safety. For the purposes of this chapter, the term “State” means any one of the fifty States, the District of Columbia, Puerto Rico, the Virgin Islands, Guam, American Samoa, and the Commonwealth of the Northern Mariana Islands.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s402",
+          "number": null,
+          "heading": "Highway safety programs",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s403",
+          "number": null,
+          "heading": "Highway safety research and development",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s404",
+          "number": null,
+          "heading": "National Highway Safety Advisory Committee",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s405",
+          "number": null,
+          "heading": "National priority safety programs",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s406 to 408",
+          "number": null,
+          "heading": "Repealed. –(d), , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s409",
+          "number": null,
+          "heading": "Discovery and admission as evidence of certain reports and surveys",
+          "text": "Notwithstanding any other provision of law, reports, surveys, schedules, lists, or data compiled or collected for the purpose of identifying, evaluating, or planning the safety enhancement of potential accident sites, hazardous roadway conditions, or railway-highway crossings, pursuant to sections 130, 144, and 148 of this title or for the purpose of developing any highway safety construction improvement project which may be implemented utilizing Federal-aid highway funds shall not be subject to discovery or admitted into evidence in a Federal or State court proceeding or considered for other purposes in any action for damages arising from any occurrence at a location mentioned or addressed in such reports, surveys, schedules, lists, or data.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s410, 411",
+          "number": null,
+          "heading": "Repealed. , (f), , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s412",
+          "number": null,
+          "heading": "Agency accountability",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t23/ch5",
+      "number": null,
+      "name": "RESEARCH, TECHNOLOGY, AND EDUCATION",
+      "sections": [
+        {
+          "id": "/us/usc/t23/s501",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s502",
+          "number": null,
+          "heading": "Surface transportation research, development, and technology",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s503",
+          "number": null,
+          "heading": "Research and technology development and deployment",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s504",
+          "number": null,
+          "heading": "Training and education",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s505",
+          "number": null,
+          "heading": "State planning and research",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s506, 507",
+          "number": null,
+          "heading": "Repealed. , §§ 52006(a), 52007(a), , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s508",
+          "number": null,
+          "heading": "Transportation research and development strategic planning",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s509",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s510",
+          "number": null,
+          "heading": "Future strategic highway research program",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s511",
+          "number": null,
+          "heading": "Multistate corridor operations and management",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s512",
+          "number": null,
+          "heading": "National ITS program plan",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s513",
+          "number": null,
+          "heading": "Use of funds for ITS activities",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s514",
+          "number": null,
+          "heading": "Goals and purposes",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s515",
+          "number": null,
+          "heading": "General authorities and requirements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s516",
+          "number": null,
+          "heading": "Research and development",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s517",
+          "number": null,
+          "heading": "National architecture and standards",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s518",
+          "number": null,
+          "heading": "Vehicle-to-vehicle and vehicle-to-infrastructure communications systems deployment",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t23/ch6",
+      "number": null,
+      "name": "INFRASTRUCTURE FINANCE",
+      "sections": [
+        {
+          "id": "/us/usc/t23/s601",
+          "number": null,
+          "heading": "Generally applicable provisions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s602",
+          "number": null,
+          "heading": "Determination of eligibility and project selection",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s603",
+          "number": null,
+          "heading": "Secured loans",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s604",
+          "number": null,
+          "heading": "Lines of credit",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s605",
+          "number": null,
+          "heading": "Program administration",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s606",
+          "number": null,
+          "heading": "State and local permits",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s607",
+          "number": null,
+          "heading": "Regulations",
+          "text": "The Secretary may promulgate such regulations as the Secretary determines to be appropriate to carry out this chapter",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s608",
+          "number": null,
+          "heading": "Funding",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s609",
+          "number": null,
+          "heading": "Reports to Congress",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t23/s610",
+          "number": null,
+          "heading": "State infrastructure bank program",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "subtitles": [],
+  "parts": []
+}

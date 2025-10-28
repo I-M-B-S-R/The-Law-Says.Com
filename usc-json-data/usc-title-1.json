@@ -1,0 +1,302 @@
+{
+  "id": 1,
+  "name": "General Provisions",
+  "chapters": [
+    {
+      "id": "/us/usc/t1/ch1",
+      "number": null,
+      "name": "RULES OF CONSTRUCTION",
+      "sections": [
+        {
+          "id": "/us/usc/t1/s1",
+          "number": null,
+          "heading": "Words denoting number, gender, and so forth",
+          "text": "In determining the meaning of any Act of Congress, unless the context indicates otherwise— words importing the singular include and apply to several persons, parties, or things; words importing the plural include the singular; words importing the masculine gender include the feminine as well; words used in the present tense include the future as well as the present; the words “insane” and “insane person” shall include every idiot, insane person, and person non compos mentis; the words “person” and “whoever” include corporations, companies, associations, firms, partnerships, societies, and joint stock companies, as well as individuals; “officer” includes any person authorized by law to perform the duties of the office; “signature” or “subscription” includes a mark when the person making the same intended it as such; “oath” includes affirmation, and “sworn” includes affirmed; “writing” includes printing and typewriting and reproductions of visual symbols by photographing, multigraphing, mimeographing, manifolding, or otherwise.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s2",
+          "number": null,
+          "heading": "“County” as including “parish”, and so forth",
+          "text": "The word “county” includes a parish, or any other equivalent subdivision of a State or Territory of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s3",
+          "number": null,
+          "heading": "“Vessel” as including all means of water transportation",
+          "text": "The word “vessel” includes every description of watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s4",
+          "number": null,
+          "heading": "“Vehicle” as including all means of land transportation",
+          "text": "The word “vehicle” includes every description of carriage or other artificial contrivance used, or capable of being used, as a means of transportation on land.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s5",
+          "number": null,
+          "heading": "“Company” or “association” as including successors and assigns",
+          "text": "The word “company” or “association”, when used in reference to a corporation, shall be deemed to embrace the words “successors and assigns of such company or association”, in like manner as if these last-named words, or words of similar import, were expressed.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s6",
+          "number": null,
+          "heading": "Limitation of term “products of American fisheries”",
+          "text": "Wherever, in the statutes of the United States or in the rulings, regulations, or interpretations of various administrative bureaus and agencies of the United States there appears or may appear the term “products of American fisheries” said term shall not include fresh or frozen fish fillets, fresh or frozen fish steaks, or fresh or frozen slices of fish substantially free of bone (including any of the foregoing divided into sections), produced in a foreign country or its territorial waters, in whole or in part with the use of the labor of persons who are not residents of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s7",
+          "number": null,
+          "heading": "Definition of “marriage” and “spouse”",
+          "text": "In determining the meaning of any Act of Congress, or of any ruling, regulation, or interpretation of the various administrative bureaus and agencies of the United States, the word “marriage” means only a legal union between one man and one woman as husband and wife, and the word “spouse” refers only to a person of the opposite sex who is a husband or a wife.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s8",
+          "number": null,
+          "heading": "“Person”, “human being”, “child”, and “individual” as including born-alive infant",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t1/ch2",
+      "number": null,
+      "name": "ACTS AND RESOLUTIONS; FORMALITIES OF ENACTMENT; REPEALS; SEALING OF INSTRUMENTS",
+      "sections": [
+        {
+          "id": "/us/usc/t1/s101",
+          "number": null,
+          "heading": "Enacting clause",
+          "text": "The enacting clause of all Acts of Congress shall be in the following form: “Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled.”",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s102",
+          "number": null,
+          "heading": "Resolving clause",
+          "text": "The resolving clause of all joint resolutions shall be in the following form: “Resolved by the Senate and House of Representatives of the United States of America in Congress assembled.”",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s103",
+          "number": null,
+          "heading": "Enacting or resolving words after first section",
+          "text": "No enacting or resolving words shall be used in any section of an Act or resolution of Congress except in the first.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s104",
+          "number": null,
+          "heading": "Numbering of sections; single proposition",
+          "text": "Each section shall be numbered, and shall contain, as nearly as may be, a single proposition of enactment.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s105",
+          "number": null,
+          "heading": "Title of appropriation Acts",
+          "text": "The style and title of all Acts making appropriations for the support of Government shall be as follows: “An Act making appropriations (here insert the object) for the year ending September 30 (here insert the calendar year).”",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s106",
+          "number": null,
+          "heading": "Printing bills and joint resolutions",
+          "text": "Every bill or joint resolution in each House of Congress shall, when such bill or resolution passes either House, be printed, and such printed copy shall be called the engrossed bill or resolution as the case may be. Said engrossed bill or resolution shall be signed by the Clerk of the House or the Secretary of the Senate, and shall be sent to the other House, and in that form shall be dealt with by that House and its officers, and, if passed, returned signed by said Clerk or Secretary. When such bill, or joint resolution shall have passed both Houses, it shall be printed and shall then be called the enrolled bill, or joint resolution, as the case may be, and shall be signed by the presiding officers of both Houses and sent to the President of the United States. During the last six days of a session such engrossing and enrolling of bills and joint resolutions may be done otherwise than as above prescribed, upon the order of Congress by concurrent resolution.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s106a",
+          "number": null,
+          "heading": "Promulgation of laws",
+          "text": "Whenever a bill, order, resolution, or vote of the Senate and House of Representatives, having been approved by the President, or not having been returned by him with his objections, becomes a law or takes effect, it shall forthwith be received by the Archivist of the United States from the President; and whenever a bill, order, resolution, or vote is returned by the President with his objections, and, on being reconsidered, is agreed to be passed, and is approved by two-thirds of both Houses of Congress, and thereby becomes a law or takes effect, it shall be received by the Archivist of the United States from the President of the Senate, or Speaker of the House of Representatives in whichsoever House it shall last have been so approved, and he shall carefully preserve the originals.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s106b",
+          "number": null,
+          "heading": "Amendments to Constitution",
+          "text": "Whenever official notice is received at the National Archives and Records Administration that any amendment proposed to the Constitution of the United States has been adopted, according to the provisions of the Constitution, the Archivist of the United States shall forthwith cause the amendment to be published, with his certificate, specifying the States by which the same may have been adopted, and that the same has become valid, to all intents and purposes, as a part of the Constitution of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s107",
+          "number": null,
+          "heading": "Parchment or paper for printing enrolled bills or resolutions",
+          "text": "Enrolled bills and resolutions of either House of Congress shall be printed on parchment or paper of suitable quality as shall be determined by the Joint Committee on Printing.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s108",
+          "number": null,
+          "heading": "Repeal of repealing act",
+          "text": "Whenever an Act is repealed, which repealed a former Act, such former Act shall not thereby be revived, unless it shall be expressly so provided.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s109",
+          "number": null,
+          "heading": "Repeal of statutes as affecting existing liabilities",
+          "text": "The repeal of any statute shall not have the effect to release or extinguish any penalty, forfeiture, or liability incurred under such statute, unless the repealing Act shall so expressly provide, and such statute shall be treated as still remaining in force for the purpose of sustaining any proper action or prosecution for the enforcement of such penalty, forfeiture, or liability. The expiration of a temporary statute shall not have the effect to release or extinguish any penalty, forfeiture, or liability incurred under such statute, unless the temporary statute shall so expressly provide, and such statute shall be treated as still remaining in force for the purpose of sustaining any proper action or prosecution for the enforcement of such penalty, forfeiture, or liability.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s110",
+          "number": null,
+          "heading": "Saving clause of Revised Statutes",
+          "text": "All acts of limitation, whether applicable to civil causes and proceedings, or to the prosecution of offenses, or for the recovery of penalties or forfeitures, embraced in the Revised Statutes and covered by the repeal contained therein, shall not be affected thereby, but all suits, proceedings, or prosecutions, whether civil or criminal, for causes arising, or acts done or committed prior to said repeal, may be commenced and prosecuted within the same time as if said repeal had not been made.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s111",
+          "number": null,
+          "heading": "Repeals as evidence of prior effectiveness",
+          "text": "No inference shall be raised by the enactment of the Act of  (ch. 202, ), that the sections of the Revised Statutes repealed by such Act were in force or effect at the time of such enactment: , That any rights or liabilities existing under such repealed sections shall not be affected by their repeal.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s112",
+          "number": null,
+          "heading": "Statutes at Large; contents; admissibility in evidence",
+          "text": "The Archivist of the United States shall cause to be compiled, edited, indexed, and published, the United States Statutes at Large, which shall contain all the laws and concurrent resolutions enacted during each regular session of Congress; all proclamations by the President in the numbered series issued since the date of the adjournment of the regular session of Congress next preceding; and also any amendments to the Constitution of the United States proposed or ratified pursuant to article V thereof since that date, together with the certificate of the Archivist of the United States issued in compliance with the provision contained in . In the event of an extra session of Congress, the Archivist of the United States shall cause all the laws and concurrent resolutions enacted during said extra session to be consolidated with, and published as part of, the contents of the volume for the next regular session. The United States Statutes at Large shall be legal evidence of laws, concurrent resolutions, treaties, international agreements other than treaties, proclamations by the President, and proposed or ratified amendments to the Constitution of the United States therein contained, in all the courts of the United States, the several States, and the Territories and insular possessions of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s112a",
+          "number": null,
+          "heading": "United States Treaties and Other International Agreements; contents; admissibility in evidence",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s112b",
+          "number": null,
+          "heading": "United States international agreements; transmission to Congress",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s113",
+          "number": null,
+          "heading": "“Little and Brown’s” edition of laws and treaties; slip laws; Treaties and Other International Acts Series; admissibility in evidence",
+          "text": "The edition of the laws and treaties of the United States, published by Little and Brown, and the publications in slip or pamphlet form of the laws of the United States issued under the authority of the Archivist of the United States, and the Treaties and Other International Acts Series issued under the authority of the Secretary of State shall be competent evidence of the several public and private Acts of Congress, and of the treaties, international agreements other than treaties, and proclamations by the President of such treaties and international agreements other than treaties, as the case may be, therein contained, in all the courts of law and equity and of maritime jurisdiction, and in all the tribunals and public offices of the United States, and of the several States, without any further proof or authentication thereof.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s114",
+          "number": null,
+          "heading": "Sealing of instruments",
+          "text": "In all cases where a seal is necessary by law to any commission, process, or other instrument provided for by the laws of Congress, it shall be lawful to affix the proper seal by making an impression therewith directly on the paper to which such seal is necessary; which shall be as valid as if made on wax or other adhesive substance.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t1/ch3",
+      "number": null,
+      "name": "CODE OF LAWS OF UNITED STATES AND SUPPLEMENTS; DISTRICT OF COLUMBIA CODE AND SUPPLEMENTS",
+      "sections": [
+        {
+          "id": "/us/usc/t1/s201",
+          "number": null,
+          "heading": "Publication and distribution of Code of Laws of United States and Supplements and District of Columbia Code and Supplements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s202",
+          "number": null,
+          "heading": "Preparation and publication of Codes and Supplements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s203",
+          "number": null,
+          "heading": "District of Columbia Code; preparation and publication; cumulative supplements",
+          "text": "The Committee on the Judiciary of the House of Representatives is authorized to print bills to codify, revise, and reenact the general and permanent laws relating to the District of Columbia and cumulative supplements thereto, similar in style, respectively, to the Code of Laws of the United States, and supplements thereto, and to so continue until final enactment thereof in both Houses of the Congress of the United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s204",
+          "number": null,
+          "heading": "Codes and Supplements as evidence of the laws of United States and District of Columbia; citation of Codes and Supplements",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s205",
+          "number": null,
+          "heading": "Codes and Supplement; where printed; form and style; ancillaries",
+          "text": "The publications provided for in sections 202, 203 of this title shall be printed at the Government Printing Office and shall be in such form and style and with such ancillaries as may be prescribed by the Committee on the Judiciary of the House of Representatives. The Librarian of Congress is directed to cooperate with such committee in the preparation of such ancillaries. Such publications shall be furnished with such thumb insets and other devices to distinguish parts, with such facilities for the insertion of additional matter, and with such explanatory and advertising slips, and shall be printed on such paper and bound in such material, as may be prescribed by such committee.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s206",
+          "number": null,
+          "heading": "Bills and resolutions of Committee on the Judiciary of House of Representatives; form and style; ancillaries; curtailment of copies",
+          "text": "All bills and resolutions relating to the revision of the laws referred to or reported by the Committee on the Judiciary of the House of Representatives shall be printed in such form and style, and with such ancillaries, as such committee may prescribe as being economical and suitable, to so continue until final enactment thereof in both Houses of Congress; and such committee may also curtail the number of copies of such bills to be printed in the various parliamentary stages in the House of Representatives.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s207",
+          "number": null,
+          "heading": "Copies of acts and resolutions in slip form; additional number printed for Committee on the Judiciary of House of Representatives",
+          "text": "The Public Printer is directed to print, in addition to the number provided by existing law, and, as soon as printed, to distribute in such manner as the Committee on the Judiciary of the House of Representatives shall determine, twenty copies in slip form of each public Act and joint resolution.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s208",
+          "number": null,
+          "heading": "Delegation of function of Committee on the Judiciary to other agencies; printing, and so forth, under direction of Joint Committee on Printing",
+          "text": "The functions vested by sections 201, 202, 204–207 of this title in the Committee on the Judiciary of the House of Representatives may from time to time be vested in such other agency as the Congress may by concurrent resolution provide: , That the printing, binding, and distribution of the volumes and publications enumerated in sections 202, 203 of this title shall be done under the direction of the Joint Committee on Printing.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s209",
+          "number": null,
+          "heading": "Copies of Supplements to Code of Laws of United States and of District of Columbia Code and Supplements; conclusive evidence of original",
+          "text": "Copies of the Code of Laws relating to the District of Columbia and copies of the supplements provided for by sections 202 and 203 of this title printed at the Government Printing Office and bearing its imprint, shall be conclusive evidence of the original of such code and supplements in the custody of the Administrator of General Services.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s210",
+          "number": null,
+          "heading": "Distribution of Supplements to Code of Laws of United States and of District of Columbia Code and Supplements; slip and pamphlet copies",
+          "text": "Copies of the Code of Laws relating to the District of Columbia, and of the supplements provided for by sections 202, 203 of this title shall be distributed by the Superintendent of Documents in the same manner as bound volumes of the Statutes at Large: , That no slip or pamphlet copies of the Code of Laws relating to the District of Columbia, and of the supplements provided for by sections 202, 203 of this title need be printed or distributed.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s211",
+          "number": null,
+          "heading": "Copies to Members of Congress",
+          "text": "In addition to quotas provided for by  there shall be printed, published, and distributed of the Code of Laws relating to the District of Columbia with tables, index, and other ancillaries, suitably bound and with thumb inserts and other convenient devices to distinguish the parts, and of the supplements to both codes as provided for by sections 202, 203 of this title, ten copies of each for each Member of the Senate and House of Representatives of the Congress in which the original authorized publication is made, for his use and distribution, and in addition for the Committee on the Judiciary of the House of Representatives and the Committee on the Judiciary of the Senate a number of bound copies of each equal to ten times the number of members of such committees, and one bound copy of each for the use of each committee of the Senate and House of Representatives.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s212",
+          "number": null,
+          "heading": "Additional distribution at each new Congress",
+          "text": "In addition the Superintendent of Documents shall, at the beginning of the first session of each Congress, supply to each Senator and Representative in such Congress, who may in writing apply for the same, one copy each of the Code of Laws of the United States, the Code of Laws relating to the District of Columbia, and the latest supplement to each code: , That such applicant shall certify in his written application for the same that the volume or volumes for which he applies is intended for his personal use exclusively: , That no Senator or Representative during his term of service shall receive under this section more than one copy each of the volumes enumerated herein.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t1/s213",
+          "number": null,
+          "heading": "Appropriation for preparing and editing supplements",
+          "text": "For preparation and editing an annual appropriation of $6,500 is authorized to carry out the purposes of sections 202 and 203 of this title.",
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "subtitles": [],
+  "parts": []
+}

@@ -14,6 +14,15 @@
     text-align: left;
     cursor: pointer;
     transition: background-color 0.2s, border-color 0.2s;
+    text-decoration: none; /* Remove underline for links */
+    pointer-events: auto; /* Ensure buttons are clickable */
+    position: relative; /* Establish stacking context */
+    z-index: 1; /* Ensure buttons are above other elements */
+    margin-bottom: 10px; /* Add spacing between buttons */
+}
+
+.lawItem:last-child {
+    margin-bottom: 0; /* Remove margin from last button */
 }
 
 .lawItem:hover {

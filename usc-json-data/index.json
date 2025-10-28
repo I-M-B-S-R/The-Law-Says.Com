@@ -1,0 +1,267 @@
+[
+  {
+    "title": 1,
+    "name": "General Provisions",
+    "file": "usc-title-1.json"
+  },
+  {
+    "title": 2,
+    "name": "The Congress",
+    "file": "usc-title-2.json"
+  },
+  {
+    "title": 3,
+    "name": "The President",
+    "file": "usc-title-3.json"
+  },
+  {
+    "title": 4,
+    "name": "Flag and Seal, Seat of Government, and the States",
+    "file": "usc-title-4.json"
+  },
+  {
+    "title": 5,
+    "name": "Government Organization and Employees",
+    "file": "usc-title-5.json"
+  },
+  {
+    "title": 6,
+    "name": "Domestic Security",
+    "file": "usc-title-6.json"
+  },
+  {
+    "title": 7,
+    "name": "Agriculture",
+    "file": "usc-title-7.json"
+  },
+  {
+    "title": 8,
+    "name": "Aliens and Nationality",
+    "file": "usc-title-8.json"
+  },
+  {
+    "title": 9,
+    "name": "Arbitration",
+    "file": "usc-title-9.json"
+  },
+  {
+    "title": 10,
+    "name": "Armed Forces",
+    "file": "usc-title-10.json"
+  },
+  {
+    "title": 11,
+    "name": "Bankruptcy",
+    "file": "usc-title-11.json"
+  },
+  {
+    "title": 12,
+    "name": "Banks and Banking",
+    "file": "usc-title-12.json"
+  },
+  {
+    "title": 13,
+    "name": "Census",
+    "file": "usc-title-13.json"
+  },
+  {
+    "title": 14,
+    "name": "Coast Guard",
+    "file": "usc-title-14.json"
+  },
+  {
+    "title": 15,
+    "name": "Commerce and Trade",
+    "file": "usc-title-15.json"
+  },
+  {
+    "title": 16,
+    "name": "Conservation",
+    "file": "usc-title-16.json"
+  },
+  {
+    "title": 17,
+    "name": "Copyrights",
+    "file": "usc-title-17.json"
+  },
+  {
+    "title": 18,
+    "name": "Crimes and Criminal Procedure",
+    "file": "usc-title-18.json"
+  },
+  {
+    "title": 19,
+    "name": "Customs Duties",
+    "file": "usc-title-19.json"
+  },
+  {
+    "title": 20,
+    "name": "Education",
+    "file": "usc-title-20.json"
+  },
+  {
+    "title": 21,
+    "name": "Food and Drugs",
+    "file": "usc-title-21.json"
+  },
+  {
+    "title": 22,
+    "name": "Foreign Relations and Intercourse",
+    "file": "usc-title-22.json"
+  },
+  {
+    "title": 23,
+    "name": "Highways",
+    "file": "usc-title-23.json"
+  },
+  {
+    "title": 24,
+    "name": "Hospitals and Asylums",
+    "file": "usc-title-24.json"
+  },
+  {
+    "title": 25,
+    "name": "Indians",
+    "file": "usc-title-25.json"
+  },
+  {
+    "title": 26,
+    "name": "Internal Revenue Code",
+    "file": "usc-title-26.json"
+  },
+  {
+    "title": 27,
+    "name": "Intoxicating Liquors",
+    "file": "usc-title-27.json"
+  },
+  {
+    "title": 28,
+    "name": "Judiciary and Judicial Procedure",
+    "file": "usc-title-28.json"
+  },
+  {
+    "title": 29,
+    "name": "Labor",
+    "file": "usc-title-29.json"
+  },
+  {
+    "title": 30,
+    "name": "Mineral Lands and Mining",
+    "file": "usc-title-30.json"
+  },
+  {
+    "title": 31,
+    "name": "Money and Finance",
+    "file": "usc-title-31.json"
+  },
+  {
+    "title": 32,
+    "name": "National Guard",
+    "file": "usc-title-32.json"
+  },
+  {
+    "title": 33,
+    "name": "Navigation and Navigable Waters",
+    "file": "usc-title-33.json"
+  },
+  {
+    "title": 34,
+    "name": "Crime Control and Law Enforcement",
+    "file": "usc-title-34.json"
+  },
+  {
+    "title": 35,
+    "name": "Patents",
+    "file": "usc-title-35.json"
+  },
+  {
+    "title": 36,
+    "name": "Patriotic and National Observances, Ceremonies, and Organizations",
+    "file": "usc-title-36.json"
+  },
+  {
+    "title": 37,
+    "name": "Pay and Allowances of the Uniformed Services",
+    "file": "usc-title-37.json"
+  },
+  {
+    "title": 38,
+    "name": "Veterans' Benefits",
+    "file": "usc-title-38.json"
+  },
+  {
+    "title": 39,
+    "name": "Postal Service",
+    "file": "usc-title-39.json"
+  },
+  {
+    "title": 40,
+    "name": "Public Buildings, Property, and Works",
+    "file": "usc-title-40.json"
+  },
+  {
+    "title": 41,
+    "name": "Public Contracts",
+    "file": "usc-title-41.json"
+  },
+  {
+    "title": 42,
+    "name": "The Public Health and Welfare",
+    "file": "usc-title-42.json"
+  },
+  {
+    "title": 43,
+    "name": "Public Lands",
+    "file": "usc-title-43.json"
+  },
+  {
+    "title": 44,
+    "name": "Public Printing and Documents",
+    "file": "usc-title-44.json"
+  },
+  {
+    "title": 45,
+    "name": "Railroads",
+    "file": "usc-title-45.json"
+  },
+  {
+    "title": 46,
+    "name": "Shipping",
+    "file": "usc-title-46.json"
+  },
+  {
+    "title": 47,
+    "name": "Telecommunications",
+    "file": "usc-title-47.json"
+  },
+  {
+    "title": 48,
+    "name": "Territories and Insular Possessions",
+    "file": "usc-title-48.json"
+  },
+  {
+    "title": 49,
+    "name": "Transportation",
+    "file": "usc-title-49.json"
+  },
+  {
+    "title": 50,
+    "name": "War and National Defense",
+    "file": "usc-title-50.json"
+  },
+  {
+    "title": 51,
+    "name": "National and Commercial Space Programs",
+    "file": "usc-title-51.json"
+  },
+  {
+    "title": 52,
+    "name": "Voting and Elections",
+    "file": "usc-title-52.json"
+  },
+  {
+    "title": 54,
+    "name": "National Park Service and Related Programs",
+    "file": "usc-title-54.json"
+  }
+]

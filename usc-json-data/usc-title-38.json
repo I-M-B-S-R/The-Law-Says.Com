@@ -1,0 +1,2028 @@
+{
+  "id": 38,
+  "name": "Veterans' Benefits",
+  "chapters": [],
+  "subtitles": [],
+  "parts": [
+    {
+      "id": "/us/usc/t38/ptI",
+      "number": null,
+      "name": "GENERAL PROVISIONS",
+      "chapters": [
+        {
+          "id": "/us/usc/t38/ptI/ch1",
+          "number": null,
+          "name": "GENERAL",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s102",
+              "number": null,
+              "heading": "Dependent parents",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s103",
+              "number": null,
+              "heading": "Special provisions relating to marriages",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s104",
+              "number": null,
+              "heading": "Approval of educational institutions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s105",
+              "number": null,
+              "heading": "Line of duty and misconduct",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s106",
+              "number": null,
+              "heading": "Certain service deemed to be active service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s107",
+              "number": null,
+              "heading": "Certain service deemed not to be active service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s108",
+              "number": null,
+              "heading": "Seven-year absence presumption of death",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s109",
+              "number": null,
+              "heading": "Benefits for discharged members of allied forces",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s110",
+              "number": null,
+              "heading": "Preservation of disability ratings",
+              "text": "A rating of total disability or permanent total disability which has been made for compensation, pension, or insurance purposes under laws administered by the Secretary, and which has been continuously in force for twenty or more years, shall not be reduced thereafter, except upon a showing that such rating was based on fraud. A disability which has been continuously rated at or above evaluation for twenty or more years for compensation purposes under laws administered by the Secretary shall not thereafter be rated at less than such evaluation, except upon a showing that such rating was based on fraud. The mentioned period shall be computed from the date determined by the Secretary as the date on which the status commenced for rating purposes.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s111",
+              "number": null,
+              "heading": "Payments or allowances for beneficiary travel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s111A",
+              "number": null,
+              "heading": "Transportation of individuals to and from Department facilities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s112",
+              "number": null,
+              "heading": "Presidential memorial certificate program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s113",
+              "number": null,
+              "heading": "Treatment of certain programs under sequestration procedures",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s114",
+              "number": null,
+              "heading": "Multiyear procurement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s115",
+              "number": null,
+              "heading": "Acquisition of real property",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s116",
+              "number": null,
+              "heading": "Reports to Congress: cost information",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s117",
+              "number": null,
+              "heading": "Advance appropriations for certain medical care accounts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s118",
+              "number": null,
+              "heading": "Submission of reports to Congress in electronic form",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptI/ch3",
+          "number": null,
+          "name": "DEPARTMENT OF VETERANS AFFAIRS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s301",
+              "number": null,
+              "heading": "Department",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s302",
+              "number": null,
+              "heading": "Seal",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s303",
+              "number": null,
+              "heading": "Secretary of Veterans Affairs",
+              "text": "There is a Secretary of Veterans Affairs, who is the head of the Department and is appointed by the President, by and with the advice and consent of the Senate. The Secretary is responsible for the proper execution and administration of all laws administered by the Department and for the control, direction, and management of the Department.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s304",
+              "number": null,
+              "heading": "Deputy Secretary of Veterans Affairs",
+              "text": "There is in the Department a Deputy Secretary of Veterans Affairs, who is appointed by the President, by and with the advice and consent of the Senate. The Deputy Secretary shall perform such functions as the Secretary shall prescribe. Unless the President designates another officer of the Government, the Deputy Secretary shall be Acting Secretary of Veterans Affairs during the absence or disability of the Secretary or in the event of a vacancy in the office of Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s305",
+              "number": null,
+              "heading": "Under Secretary for Health",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s306",
+              "number": null,
+              "heading": "Under Secretary for Benefits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s307",
+              "number": null,
+              "heading": "Under Secretary for Memorial Affairs",
+              "text": "There is in the Department an Under Secretary for Memorial Affairs, who is appointed by the President, by and with the advice and consent of the Senate. The Under Secretary is the head of the National Cemetery Administration as established in  and shall perform such functions as may be assigned by the Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s308",
+              "number": null,
+              "heading": "Assistant Secretaries; Deputy Assistant Secretaries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s309",
+              "number": null,
+              "heading": "Chief Financial Officer",
+              "text": "The Secretary shall designate the Assistant Secretary whose functions include budgetary and financial functions as the Chief Financial Officer of the Department. The Chief Financial Officer shall advise the Secretary on financial management of the Department and shall exercise the authority and carry out the functions specified in .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s310",
+              "number": null,
+              "heading": "Chief Information Officer",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s311",
+              "number": null,
+              "heading": "General Counsel",
+              "text": "There is in the Department the Office of the General Counsel. There is at the head of the office a General Counsel, who is appointed by the President, by and with the advice and consent of the Senate. The General Counsel is the chief legal officer of the Department and provides legal assistance to the Secretary concerning the programs and policies of the Department.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s312",
+              "number": null,
+              "heading": "Inspector General",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s312A",
+              "number": null,
+              "heading": "Director of Construction and Facilities Management",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s313",
+              "number": null,
+              "heading": "Availability of appropriations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s314",
+              "number": null,
+              "heading": "Central Office",
+              "text": "The Central Office of the Department shall be in the District of Columbia.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s315",
+              "number": null,
+              "heading": "Regional offices",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s316",
+              "number": null,
+              "heading": "Colocation of regional offices and medical centers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s317",
+              "number": null,
+              "heading": "Center for Minority Veterans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s318",
+              "number": null,
+              "heading": "Center for Women Veterans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s319",
+              "number": null,
+              "heading": "Office of Employment Discrimination Complaint Adjudication",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s320",
+              "number": null,
+              "heading": "Department of Veterans Affairs-Department of Defense Joint Executive Committee",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s321",
+              "number": null,
+              "heading": "Office of Survivors Assistance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s322",
+              "number": null,
+              "heading": "Office of National Veterans Sports Programs and Special Events",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptI/ch5",
+          "number": null,
+          "name": "AUTHORITY AND DUTIES OF THE SECRETARY",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptI/ch7",
+          "number": null,
+          "name": "EMPLOYEES",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s701",
+              "number": null,
+              "heading": "Placement of employees in military installations",
+              "text": "The Secretary may place employees of the Department in such Army, Navy, and Air Force installations as may be considered advisable for the purpose of adjudicating disability claims of, and giving aid and advice to, members of the Armed Forces who are about to be discharged or released from active military, naval, or air service.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s703",
+              "number": null,
+              "heading": "Miscellaneous authorities respecting employees",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s705",
+              "number": null,
+              "heading": "Telephone service for medical officers and facility directors",
+              "text": "The Secretary may pay for official telephone service and rental in the field whenever incurred in case of official telephones for directors of centers, hospitals, independent clinics, domiciliaries, and medical officers of the Department where such telephones are installed in private residences or private apartments or quarters, when authorized under regulations prescribed by the Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s707",
+              "number": null,
+              "heading": "Benefits for employees at overseas offices who are United States citizens",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s709",
+              "number": null,
+              "heading": "Employment restrictions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s711",
+              "number": null,
+              "heading": "Grade reductions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s712",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptI/ch9",
+          "number": null,
+          "name": "SECURITY AND LAW ENFORCEMENT ON PROPERTY UNDER THE JURISDICTION OF THE DEPARTMENT",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s901",
+              "number": null,
+              "heading": "Authority to prescribe rules for conduct and penalties for violations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s902",
+              "number": null,
+              "heading": "Enforcement and arrest authority of Department police officers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s903",
+              "number": null,
+              "heading": "Uniform allowance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s904",
+              "number": null,
+              "heading": "Equipment and weapons",
+              "text": "The Secretary shall furnish Department police officers with such weapons and related equipment as the Secretary determines to be necessary and appropriate.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s905",
+              "number": null,
+              "heading": "Use of facilities and services of other law enforcement agencies",
+              "text": "With the permission of the head of the agency concerned, the Secretary may use the facilities and services of Federal, State, and local law enforcement agencies when it is economical and in the public interest to do so.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t38/ptII",
+      "number": null,
+      "name": "GENERAL BENEFITS",
+      "chapters": [
+        {
+          "id": "/us/usc/t38/ptII/ch11",
+          "number": null,
+          "name": "COMPENSATION FOR SERVICE-CONNECTED DISABILITY OR DEATH",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptII/ch13",
+          "number": null,
+          "name": "DEPENDENCY AND INDEMNITY COMPENSATION FOR SERVICE-CONNECTED DEATHS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptII/ch15",
+          "number": null,
+          "name": "PENSION FOR NON-SERVICE-CONNECTED DISABILITY OR DEATH OR FOR SERVICE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptII/ch17",
+          "number": null,
+          "name": "HOSPITAL, NURSING HOME, DOMICILIARY, AND MEDICAL CARE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptII/ch18",
+          "number": null,
+          "name": "BENEFITS FOR CHILDREN OF VIETNAM VETERANS AND CERTAIN OTHER VETERANS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s1801",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptII/ch19",
+          "number": null,
+          "name": "INSURANCE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptII/ch20",
+          "number": null,
+          "name": "BENEFITS FOR HOMELESS VETERANS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptII/ch21",
+          "number": null,
+          "name": "SPECIALLY ADAPTED HOUSING FOR DISABLED VETERANS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s2101",
+              "number": null,
+              "heading": "Acquisition and adaptation of housing: eligible veterans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2101A",
+              "number": null,
+              "heading": "Eligibility for benefits and assistance: members of the Armed Forces with service-connected disabilities; individuals residing outside the United States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2102",
+              "number": null,
+              "heading": "Limitations on assistance furnished",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2102A",
+              "number": null,
+              "heading": "Assistance for individuals residing temporarily in housing owned by a family member",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2103",
+              "number": null,
+              "heading": "Furnishing of plans and specifications",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2104",
+              "number": null,
+              "heading": "Benefits additional to benefits under other laws",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2105",
+              "number": null,
+              "heading": "Nonliability of United States",
+              "text": "The Government of the United States shall have no liability in connection with any housing unit, or necessary land therefor, or adaptation acquired under the provisions of this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2106",
+              "number": null,
+              "heading": "Veterans’ mortgage life insurance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2107",
+              "number": null,
+              "heading": "Coordination of administration of benefits",
+              "text": "The Secretary shall provide for the coordination of the administration of programs to provide specially adapted housing that are administered by the Under Secretary for Health and such programs that are administered by the Under Secretary for Benefits under this chapter, chapter 17, and chapter 31 of this title.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2108",
+              "number": null,
+              "heading": "Specially adapted housing assistive technology grant program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2109",
+              "number": null,
+              "heading": "Specially adapted housing destroyed or damaged by natural disasters",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptII/ch23",
+          "number": null,
+          "name": "BURIAL BENEFITS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s2301",
+              "number": null,
+              "heading": "Flags",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2302",
+              "number": null,
+              "heading": "Funeral expenses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2303",
+              "number": null,
+              "heading": "Death in Department facility; plot allowance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2304",
+              "number": null,
+              "heading": "Claims for reimbursement",
+              "text": "Applications for payments under  must be filed within two years after the burial of the veteran. If the burial allowance was not payable at the death of the veteran because of the nature of the veteran’s discharge from the service, but after the veteran’s death the veteran’s discharge has been corrected by competent authority so as to reflect a discharge from the service under conditions other than dishonorable, then the burial allowance may be paid if a claim is filed within two years from the date of correction of the discharge. If a claimant’s application is incomplete at the time it is originally submitted, the Secretary shall notify the applicant of the evidence necessary to complete the application. If such evidence is not received within one year from the date of such notification, no allowance may be paid.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2305",
+              "number": null,
+              "heading": "Persons eligible under prior law",
+              "text": "The death of any person who had a status which would, under the laws in effect on , afford entitlement to the burial benefits and other benefits provided for in this chapter, but who did not meet the service requirements contained in this chapter, shall afford entitlement to such benefits, notwithstanding the failure of such person to meet such service requirements.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2306",
+              "number": null,
+              "heading": "Headstones, markers, and burial receptacles",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2307",
+              "number": null,
+              "heading": "Death from service-connected disability",
+              "text": "In any case in which a veteran dies as the result of a service-connected disability or disabilities, the Secretary, upon the request of the survivors of such veteran, shall pay the burial and funeral expenses incurred in connection with the death of the veteran in an amount not exceeding the greater of (1) $2,000, or (2) the amount authorized to be paid under  in the case of a Federal employee whose death occurs as the result of an injury sustained in the performance of duty. Funeral and burial benefits provided under this section shall be in lieu of any benefits authorized under sections 2302 and 2303(a)(1) and (b)(2) of this title.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2308",
+              "number": null,
+              "heading": "Transportation of deceased veteran to a national cemetery",
+              "text": "Where a veteran dies as the result of a service-connected disability, or is in receipt of (but for the receipt of retirement pay or pension under this title would have been entitled to) disability compensation, the Secretary may pay, in addition to any amount paid pursuant to section 2302 or 2307 of this title, the cost of transportation of the deceased veteran for burial in a national cemetery. Such payment shall not exceed the cost of transportation to the national cemetery nearest the veteran’s last place of residence in which burial space is available.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptII/ch24",
+          "number": null,
+          "name": "NATIONAL CEMETERIES AND MEMORIALS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s2400",
+              "number": null,
+              "heading": "Establishment of National Cemetery Administration; composition of Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2401",
+              "number": null,
+              "heading": "Advisory Committee on Cemeteries and Memorials",
+              "text": "There shall be appointed by the Secretary an Advisory Committee on Cemeteries and Memorials. The Secretary shall advise and consult with the Committee from time to time with respect to the administration of the cemeteries for which the Secretary is responsible, and with respect to the selection of cemetery sites, the erection of appropriate memorials, and the adequacy of Federal burial benefits. The Committee shall make periodic reports and recommendations to the Secretary and to Congress.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2402",
+              "number": null,
+              "heading": "Persons eligible for interment in national cemeteries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2403",
+              "number": null,
+              "heading": "Memorial areas",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2404",
+              "number": null,
+              "heading": "Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2405",
+              "number": null,
+              "heading": "Disposition of inactive cemeteries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2406",
+              "number": null,
+              "heading": "Acquisition of lands",
+              "text": "As additional lands are needed for national cemeteries, they may be acquired by the Secretary by purchase, gift (including donations from States or political subdivisions thereof), condemnation, transfer from other Federal agencies, exchange, or otherwise, as the Secretary determines to be in the best interest of the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2407",
+              "number": null,
+              "heading": "Authority to accept and maintain suitable memorials",
+              "text": "Subject to such restrictions as the Secretary may prescribe, the Secretary may accept gifts, devises, or bequests from legitimate societies and organizations or reputable individuals, made in any manner, which are made for the purpose of beautifying national cemeteries, or are determined to be beneficial to such cemetery. The Secretary may make land available for this purpose, and may furnish such care and maintenance as the Secretary deems necessary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2408",
+              "number": null,
+              "heading": "Aid to States for establishment, expansion, and improvement of veterans’ cemeteries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2409",
+              "number": null,
+              "heading": "Memorial areas in Arlington National Cemetery",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2410",
+              "number": null,
+              "heading": "Burial of cremated remains in Arlington National Cemetery",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2410A",
+              "number": null,
+              "heading": "Arlington National Cemetery: other administrative matters",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2411",
+              "number": null,
+              "heading": "Prohibition against interment or memorialization in the National Cemetery Administration or Arlington National Cemetery of persons committing Federal or State capital crimes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2412",
+              "number": null,
+              "heading": "Lease of land and buildings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2413",
+              "number": null,
+              "heading": "Prohibition on certain demonstrations and disruptions at cemeteries under control of the National Cemetery Administration and at Arlington National Cemetery",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s2414",
+              "number": null,
+              "heading": "Communication between Department of Veterans Affairs and medical examiners and funeral directors",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t38/ptIII",
+      "number": null,
+      "name": "READJUSTMENT AND RELATED BENEFITS",
+      "chapters": [
+        {
+          "id": "/us/usc/t38/ptIII/ch30",
+          "number": null,
+          "name": "ALL-VOLUNTEER FORCE EDUCATIONAL ASSISTANCE PROGRAM",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch31",
+          "number": null,
+          "name": "TRAINING AND REHABILITATION FOR VETERANS WITH SERVICE-CONNECTED DISABILITIES",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s3100",
+              "number": null,
+              "heading": "Purposes",
+              "text": "The purposes of this chapter are to provide for all services and assistance necessary to enable veterans with service-connected disabilities to achieve maximum independence in daily living and, to the maximum extent feasible, to become employable and to obtain and maintain suitable employment.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3102",
+              "number": null,
+              "heading": "Basic entitlement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3103",
+              "number": null,
+              "heading": "Periods of eligibility",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3104",
+              "number": null,
+              "heading": "Scope of services and assistance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3105",
+              "number": null,
+              "heading": "Duration of rehabilitation programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3106",
+              "number": null,
+              "heading": "Initial and extended evaluations; determinations regarding serious employment handicap",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3107",
+              "number": null,
+              "heading": "Individualized vocational rehabilitation plan",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3108",
+              "number": null,
+              "heading": "Allowances",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3109",
+              "number": null,
+              "heading": "Entitlement to independent living services and assistance",
+              "text": "In any case in which the Secretary has determined under  that the achievement of a vocational goal by a veteran currently is not reasonably feasible, such veteran shall be entitled, in accordance with the provisions of , to a program of independent living services and assistance designed to enable such veteran to achieve maximum independence in daily living.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3110",
+              "number": null,
+              "heading": "Leaves of absence",
+              "text": "The Secretary shall prescribe such regulations as the Secretary determines necessary for granting leaves of absence to veterans pursuing rehabilitation programs under this chapter. During authorized leaves of absence, a veteran shall be considered to be pursuing such program.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3111",
+              "number": null,
+              "heading": "Regulations to promote satisfactory conduct and cooperation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3112",
+              "number": null,
+              "heading": "Revolving fund loans",
+              "text": "The revolving fund established pursuant to part VII of Veterans Regulation Numbered 1(a) is continued in effect, and may be used by the Secretary, under regulations prescribed by the Secretary, for making advances, not in excess of twice the amount of the full-time institutional monthly subsistence allowance for a veteran with no dependents (as provided in ) to veterans pursuing rehabilitation programs under this chapter. Such advances, and advances from such fund made before the effective date of the Veterans’ Rehabilitation and Education Amendments of 1980, shall bear no interest and shall be repaid in such installments, as may be determined by the Secretary, by proper deductions from future payments of compensation, pension, subsistence allowance, educational assistance allowance, or retirement pay.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3113",
+              "number": null,
+              "heading": "Vocational rehabilitation for hospitalized members of the Armed Forces and veterans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3114",
+              "number": null,
+              "heading": "Vocational rehabilitation outside the United States",
+              "text": "Under regulations which the Secretary shall prescribe, a vocational rehabilitation program under this chapter may be provided outside the United States if the Secretary determines that such training is (1) necessary in the particular case to provide the preparation needed to render a veteran employable and enable such veteran to obtain and retain suitable employment, and (2) in the best interest of such veteran and the Federal Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3115",
+              "number": null,
+              "heading": "Rehabilitation resources",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3116",
+              "number": null,
+              "heading": "Promotion of employment and training opportunities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3117",
+              "number": null,
+              "heading": "Employment assistance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3118",
+              "number": null,
+              "heading": "Personnel training, development, and qualifications",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3119",
+              "number": null,
+              "heading": "Rehabilitation research and special projects",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3120",
+              "number": null,
+              "heading": "Program of independent living services and assistance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3121",
+              "number": null,
+              "heading": "Veterans’ Advisory Committee on Rehabilitation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3122",
+              "number": null,
+              "heading": "Longitudinal study of vocational rehabilitation programs",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch32",
+          "number": null,
+          "name": "POST-VIETNAM ERA VETERANS’ EDUCATIONAL ASSISTANCE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch33",
+          "number": null,
+          "name": "POST–9/11 EDUCATIONAL ASSISTANCE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch34",
+          "number": null,
+          "name": "VETERANS’ EDUCATIONAL ASSISTANCE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch35",
+          "number": null,
+          "name": "SURVIVORS’ AND DEPENDENTS’ EDUCATIONAL ASSISTANCE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch36",
+          "number": null,
+          "name": "ADMINISTRATION OF EDUCATIONAL BENEFITS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch37",
+          "number": null,
+          "name": "HOUSING AND SMALL BUSINESS LOANS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch39",
+          "number": null,
+          "name": "AUTOMOBILES AND ADAPTIVE EQUIPMENT FOR CERTAIN DISABLED VETERANS AND MEMBERS OF THE ARMED FORCES",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s3901",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3902",
+              "number": null,
+              "heading": "Assistance for providing automobile and adaptive equipment",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3903",
+              "number": null,
+              "heading": "Limitations on assistance; special training courses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s3904",
+              "number": null,
+              "heading": "Research and development",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch41",
+          "number": null,
+          "name": "JOB COUNSELING, TRAINING, AND PLACEMENT SERVICE FOR VETERANS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s4100",
+              "number": null,
+              "heading": "Findings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4101",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4102",
+              "number": null,
+              "heading": "Purpose",
+              "text": "The Congress declares as its intent and purpose that there shall be an effective (1) job and job training intensive services program, (2) employment placement service program, and (3) job training placement service program for eligible veterans and eligible persons and that, to this end policies and regulations shall be promulgated and administered by an Assistant Secretary of Labor for Veterans’ Employment and Training, established by , through a Veterans’ Employment and Training Service within the Department of Labor, so as to provide such veterans and persons the maximum of employment and training opportunities, with priority given to the needs of disabled veterans and veterans who served on active duty during a war or in a campaign or expedition for which a campaign badge has been authorized through existing programs, coordination and merger of programs and implementation of new programs, including programs carried out by the Veterans’ Employment and Training Service to implement all efforts to ease the transition of servicemembers to civilian careers that are consistent with, or an outgrowth of, the military experience of the servicemembers.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4102A",
+              "number": null,
+              "heading": "Assistant Secretary of Labor for Veterans’ Employment and Training; program functions; Regional Administrators",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4103",
+              "number": null,
+              "heading": "Directors and Assistant Directors for Veterans’ Employment and Training; additional Federal personnel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4103A",
+              "number": null,
+              "heading": "Disabled veterans’ outreach program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4104",
+              "number": null,
+              "heading": "Local veterans’ employment representatives",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4104A",
+              "number": null,
+              "heading": "Collaborative veterans’ training, mentoring, and placement program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4105",
+              "number": null,
+              "heading": "Cooperation of Federal agencies",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4106",
+              "number": null,
+              "heading": "Estimate of funds for administration; authorization of appropriations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4107",
+              "number": null,
+              "heading": "Administrative controls; annual report",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4108",
+              "number": null,
+              "heading": "Cooperation and coordination",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4109",
+              "number": null,
+              "heading": "National Veterans’ Employment and Training Services Institute",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4110",
+              "number": null,
+              "heading": "Advisory Committee on Veterans Employment, Training, and Employer Outreach",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4110A",
+              "number": null,
+              "heading": "Special unemployment study",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4110B",
+              "number": null,
+              "heading": "Coordination and nonduplication",
+              "text": "In carrying out this chapter, the Secretary shall require that an appropriate administrative entity in each State enter into an agreement with the Secretary regarding the implementation of the Workforce Investment Act of 1998 that includes the description and information described in paragraphs (8) and (14) of section 112(b) of the Workforce Investment Act of 1998 ().",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4111",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4112",
+              "number": null,
+              "heading": "Performance incentive awards for quality employment, training, and placement services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4113",
+              "number": null,
+              "heading": "Transition Assistance Program personnel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4114",
+              "number": null,
+              "heading": "Credentialing and licensure of veterans: demonstration project",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch42",
+          "number": null,
+          "name": "EMPLOYMENT AND TRAINING OF VETERANS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s4211",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4212",
+              "number": null,
+              "heading": "Veterans’ employment emphasis under Federal contracts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4213",
+              "number": null,
+              "heading": "Eligibility requirements for veterans under Federal employment and training programs",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4214",
+              "number": null,
+              "heading": "Employment within the Federal Government",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s4215",
+              "number": null,
+              "heading": "Priority of service for veterans in Department of Labor job training programs",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptIII/ch43",
+          "number": null,
+          "name": "EMPLOYMENT AND REEMPLOYMENT RIGHTS OF MEMBERS OF THE UNIFORMED SERVICES",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t38/ptIV",
+      "number": null,
+      "name": "GENERAL ADMINISTRATIVE PROVISIONS",
+      "chapters": [
+        {
+          "id": "/us/usc/t38/ptIV/ch51",
+          "number": null,
+          "name": "CLAIMS, EFFECTIVE DATES, AND PAYMENTS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptIV/ch53",
+          "number": null,
+          "name": "SPECIAL PROVISIONS RELATING TO BENEFITS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s5301",
+              "number": null,
+              "heading": "Nonassignability and exempt status of benefits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5302",
+              "number": null,
+              "heading": "Waiver of recovery of claims by the United States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5302A",
+              "number": null,
+              "heading": "Collection of indebtedness: certain debts of members of the Armed Forces and veterans who die of injury incurred or aggravated in the line of duty in a combat zone",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5303",
+              "number": null,
+              "heading": "Certain bars to benefits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5303A",
+              "number": null,
+              "heading": "Minimum active-duty service requirement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5304",
+              "number": null,
+              "heading": "Prohibition against duplication of benefits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5305",
+              "number": null,
+              "heading": "Waiver of retired pay",
+              "text": "Except as provided in , any person who is receiving pay pursuant to any provision of law providing retired or retirement pay to persons in the Armed Forces, or as a commissioned officer of the National Oceanic and Atmospheric Administration or of the Public Health Service, and who would be eligible to receive pension or compensation under the laws administered by the Secretary if such person were not receiving such retired or retirement pay, shall be entitled to receive such pension or compensation upon the filing by such person with the department by which such retired or retirement pay is paid of a waiver of so much of such person’s retired or retirement pay as is equal in amount to such pension or compensation. To prevent duplication of payments, the department with which any such waiver is filed shall notify the Secretary of the receipt of such waiver, the amount waived, and the effective date of the reduction in retired or retirement pay.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5306",
+              "number": null,
+              "heading": "Renouncement of right to benefits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5307",
+              "number": null,
+              "heading": "Apportionment of benefits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5308",
+              "number": null,
+              "heading": "Withholding benefits of persons in territory of the enemy",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5309",
+              "number": null,
+              "heading": "Payment of certain withheld benefits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5310",
+              "number": null,
+              "heading": "Payment of benefits for month of death",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5311",
+              "number": null,
+              "heading": "Prohibition of certain benefit payments",
+              "text": "There shall be no payment of dependency and indemnity compensation, death compensation, or death pension which, because of a widow’s relationship with another man before enactment of , would not have been payable by the Veterans’ Administration under the standard for determining remarriage applied by that agency before said enactment.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5312",
+              "number": null,
+              "heading": "Annual adjustment of certain benefit rates",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5313",
+              "number": null,
+              "heading": "Limitation on payment of compensation and dependency and indemnity compensation to persons incarcerated for conviction of a felony",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5313A",
+              "number": null,
+              "heading": "Limitation on payment of clothing allowance to incarcerated veterans",
+              "text": "In the case of a veteran who is incarcerated in a Federal, State, local, or other penal institution or correctional facility for a period in excess of 60 days and who is furnished clothing without charge by the institution, the amount of any annual clothing allowance payable to the veteran under  shall be reduced by an amount equal to ⁄ of the amount of the allowance otherwise payable under that section for each day on which the veteran was so incarcerated during the 12-month period preceding the date on which payment of the allowance would be due. This section shall be carried out under regulations prescribed by the Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5313B",
+              "number": null,
+              "heading": "Prohibition on providing certain benefits with respect to persons who are fugitive felons",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5314",
+              "number": null,
+              "heading": "Indebtedness offsets",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5315",
+              "number": null,
+              "heading": "Interest and administrative cost charges on delinquent payments of certain amounts due the United States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5316",
+              "number": null,
+              "heading": "Authority to sue to collect certain debts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5317",
+              "number": null,
+              "heading": "Use of income information from other agencies: notice and verification",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5317A",
+              "number": null,
+              "heading": "Use of income information from other agencies: independent verification required before termination or reduction of certain benefits and services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5318",
+              "number": null,
+              "heading": "Review of Social Security Administration death information",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5319",
+              "number": null,
+              "heading": "Limitations on access to financial records",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptIV/ch55",
+          "number": null,
+          "name": "MINORS, INCOMPETENTS, AND OTHER WARDS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s5501",
+              "number": null,
+              "heading": "Commitment actions",
+              "text": "The Secretary may incur necessary court costs and other expenses incident to proceedings for the commitment of mentally incompetent veterans to a Department hospital or domiciliary when necessary for treatment or domiciliary purposes.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5502",
+              "number": null,
+              "heading": "Payments to and supervision of fiduciaries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5503",
+              "number": null,
+              "heading": "Hospitalized veterans and estates of incompetent institutionalized veterans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5504",
+              "number": null,
+              "heading": "Administration of trust funds",
+              "text": "All cash balances in the personal funds of patients and the funds due incompetent beneficiaries trust funds administered by the Secretary, and all moneys received which are properly for deposit into these funds, may be deposited, respectively, into deposit fund accounts with the United States Treasury and such balances and deposits shall thereupon be available for disbursement for properly authorized purposes. When any balances have been on deposit with the Treasurer of the United States for more than one year and represent moneys belonging to individuals whose whereabouts are unknown, they shall be transferred and disposed of as directed in .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5505",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5506",
+              "number": null,
+              "heading": "Definition of “fiduciary”",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5507",
+              "number": null,
+              "heading": "Inquiry, investigations, and qualification of fiduciaries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5508",
+              "number": null,
+              "heading": "Periodic onsite reviews of institutional fiduciaries",
+              "text": "In addition to such other reviews of fiduciaries as the Secretary may otherwise conduct, the Secretary shall provide for the periodic onsite review of any person or agency located in the United States that receives the benefits payable under laws administered by the Secretary to another individual pursuant to the appointment of such person or agency as a fiduciary under  in any case in which the fiduciary is serving in that capacity with respect to more than 20 beneficiaries and the total annual amount of such benefits exceeds $50,000, as adjusted pursuant to .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5509",
+              "number": null,
+              "heading": "Authority to require fiduciary to receive payments at regional offices of the Department when failing to provide required accounting",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5510",
+              "number": null,
+              "heading": "Annual report",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptIV/ch57",
+          "number": null,
+          "name": "RECORDS AND INVESTIGATIONS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptIV/ch59",
+          "number": null,
+          "name": "AGENTS AND ATTORNEYS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s5901",
+              "number": null,
+              "heading": "Prohibition against acting as claims agent or attorney",
+              "text": "Except as provided by , no individual may act as an agent or attorney in the preparation, presentation, or prosecution of any claim under laws administered by the Secretary unless such individual has been recognized for such purposes by the Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5902",
+              "number": null,
+              "heading": "Recognition of representatives of organizations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5903",
+              "number": null,
+              "heading": "Recognition with respect to particular claims",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5904",
+              "number": null,
+              "heading": "Recognition of agents and attorneys generally",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s5905",
+              "number": null,
+              "heading": "Penalty for certain acts",
+              "text": "Whoever wrongfully withholds from any claimant or beneficiary any part of a benefit or claim allowed and due to the claimant or beneficiary, shall be fined as provided in title 18, or imprisoned not more than one year, or both.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptIV/ch61",
+          "number": null,
+          "name": "PENAL AND FORFEITURE PROVISIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s6101",
+              "number": null,
+              "heading": "Misappropriation by fiduciaries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6102",
+              "number": null,
+              "heading": "Fraudulent acceptance of payments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6103",
+              "number": null,
+              "heading": "Forfeiture for fraud",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6104",
+              "number": null,
+              "heading": "Forfeiture for treason",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6105",
+              "number": null,
+              "heading": "Forfeiture for subversive activities",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6106",
+              "number": null,
+              "heading": "Misuse of benefits by fiduciaries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6107",
+              "number": null,
+              "heading": "Reissuance of benefits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6108",
+              "number": null,
+              "heading": "Authority for judicial orders of restitution",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptIV/ch63",
+          "number": null,
+          "name": "OUTREACH ACTIVITIES",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s6301",
+              "number": null,
+              "heading": "Purpose; definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6302",
+              "number": null,
+              "heading": "Biennial plan",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6303",
+              "number": null,
+              "heading": "Outreach services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6304",
+              "number": null,
+              "heading": "Veterans assistance offices",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6305",
+              "number": null,
+              "heading": "Outstationing of counseling and outreach personnel",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6306",
+              "number": null,
+              "heading": "Use of other agencies",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6307",
+              "number": null,
+              "heading": "Outreach for eligible dependents",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s6308",
+              "number": null,
+              "heading": "Biennial report to Congress",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t38/ptV",
+      "number": null,
+      "name": "BOARDS, ADMINISTRATIONS, AND SERVICES",
+      "chapters": [
+        {
+          "id": "/us/usc/t38/ptV/ch71",
+          "number": null,
+          "name": "BOARD OF VETERANS’ APPEALS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s7101",
+              "number": null,
+              "heading": "Composition of Board of Veterans’ Appeals",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7101A",
+              "number": null,
+              "heading": "Members of Board: appointment; pay; performance review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7102",
+              "number": null,
+              "heading": "Assignment of members of Board",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7103",
+              "number": null,
+              "heading": "Reconsideration; correction of obvious errors",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7104",
+              "number": null,
+              "heading": "Jurisdiction of the Board",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7105",
+              "number": null,
+              "heading": "Filing of notice of disagreement and appeal",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7105A",
+              "number": null,
+              "heading": "Simultaneously contested claims",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7106",
+              "number": null,
+              "heading": "Administrative appeals",
+              "text": "Application for review on appeal may be made within the one-year period prescribed in  by such officials of the Department as may be designated by the Secretary. An application entered under this paragraph shall not operate to deprive the claimant of the right of review on appeal as provided in this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7107",
+              "number": null,
+              "heading": "Appeals: dockets; hearings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7108",
+              "number": null,
+              "heading": "Rejection of applications",
+              "text": "An application for review on appeal shall not be entertained unless it is in conformity with this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7109",
+              "number": null,
+              "heading": "Independent medical opinions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7110",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7111",
+              "number": null,
+              "heading": "Revision of decisions on grounds of clear and unmistakable error",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7112",
+              "number": null,
+              "heading": "Expedited treatment of remanded claims",
+              "text": "The Secretary shall take such actions as may be necessary to provide for the expeditious treatment by the Board of any claim that is remanded to the Secretary by the Court of Appeals for Veterans Claims.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptV/ch72",
+          "number": null,
+          "name": "UNITED STATES COURT OF APPEALS FOR VETERANS CLAIMS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptV/ch73",
+          "number": null,
+          "name": "VETERANS HEALTH ADMINISTRATION—ORGANIZATION AND FUNCTIONS",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptV/ch74",
+          "number": null,
+          "name": "VETERANS HEALTH ADMINISTRATION—PERSONNEL",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptV/ch75",
+          "number": null,
+          "name": "VISUAL IMPAIRMENT AND ORIENTATION AND MOBILITY PROFESSIONALS EDUCATIONAL ASSISTANCE PROGRAM",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s7501",
+              "number": null,
+              "heading": "Establishment of scholarship program; purpose",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7502",
+              "number": null,
+              "heading": "Application and acceptance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7503",
+              "number": null,
+              "heading": "Amount of assistance; duration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7504",
+              "number": null,
+              "heading": "Agreement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7505",
+              "number": null,
+              "heading": "Repayment for failure to satisfy requirements of agreement",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptV/ch76",
+          "number": null,
+          "name": "HEALTH PROFESSIONALS EDUCATIONAL ASSISTANCE PROGRAM",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptV/ch77",
+          "number": null,
+          "name": "VETERANS BENEFITS ADMINISTRATION",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptV/ch78",
+          "number": null,
+          "name": "VETERANS’ CANTEEN SERVICE",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s7801",
+              "number": null,
+              "heading": "Purpose of Veterans’ Canteen Service",
+              "text": "The Veterans’ Canteen Service (hereinafter in this chapter referred to as the “Service”) in the Department is an instrumentality of the United States, created for the primary purpose of making available to veterans of the Armed Forces who are hospitalized or domiciled in hospitals and homes of the Department, at reasonable prices, articles of merchandise and services essential to their comfort and well-being.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7802",
+              "number": null,
+              "heading": "Duties of Secretary with respect to Service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7803",
+              "number": null,
+              "heading": "Operation of Service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7804",
+              "number": null,
+              "heading": "Financing of Service",
+              "text": "To finance the establishment, maintenance, and operation of the Service there is hereby authorized to be appropriated, from time to time, such amounts as are necessary to provide for (1) the acquisition of necessary furniture, furnishings, fixtures, and equipment for the establishment, maintenance, and operation of canteens, warehouses, and storage depots; (2) stocks of merchandise and supplies for canteens and reserve stocks of same in warehouses and storage depots; (3) salaries, wages, and expenses of all employees; (4) administrative and operation expenses; and (5) adequate working capital for each canteen and for the Service as a whole. Amounts appropriated under the authority contained in this chapter and all income from canteen operations become and will be administered as a revolving fund to effectuate the provisions of this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7805",
+              "number": null,
+              "heading": "Revolving fund",
+              "text": "The revolving fund shall be deposited in a checking account with the Treasury of the United States. Such amounts thereof as the Secretary may determine to be necessary to establish and maintain operating accounts for the various canteens may be deposited in checking accounts or other interest-bearing accounts in other depositaries selected by the Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7806",
+              "number": null,
+              "heading": "Budget of Service",
+              "text": "The Service shall prepare annually and submit a budget program as provided for wholly owned Government corporations by chapter 91 of title 31, which shall contain an estimate of the needs of the Service for the ensuing fiscal year including an estimate of the amount required to restore any impairment of the revolving fund resulting from operations of the current fiscal year.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7807",
+              "number": null,
+              "heading": "Audit of accounts",
+              "text": "The Service shall maintain a set of accounts which shall be audited by the Comptroller General in accordance with the provisions of chapter 35 of title 31.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7808",
+              "number": null,
+              "heading": "Service to be independent unit",
+              "text": "It is the purpose of this chapter that, under control and supervision of the Secretary, the Service shall function as an independent unit in the Department and shall have exclusive control over all its activities including sales, procurement and supply, finance, including disbursements, and personnel management, except as otherwise provided in this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7809",
+              "number": null,
+              "heading": "Child-care centers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7810",
+              "number": null,
+              "heading": "Exemption from personnel ceilings",
+              "text": "Persons who are employed by the Service and compensated from the revolving fund established by  may not be considered to be employees of the Department for the purposes of any personnel ceiling which may otherwise be applied to employees of the Department by the President or an official of the executive branch.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptV/ch79",
+          "number": null,
+          "name": "INFORMATION SECURITY EDUCATION ASSISTANCE PROGRAM",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s7901",
+              "number": null,
+              "heading": "Programs; purpose",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7902",
+              "number": null,
+              "heading": "Scholarship program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7903",
+              "number": null,
+              "heading": "Education debt reduction program",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7904",
+              "number": null,
+              "heading": "Preferences in awarding financial assistance",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7905",
+              "number": null,
+              "heading": "Requirement of honorable discharge for veterans receiving assistance",
+              "text": "No veteran shall receive financial assistance under this chapter unless the veteran was discharged from the Armed Forces under honorable conditions.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7906",
+              "number": null,
+              "heading": "Regulations",
+              "text": "The Secretary shall prescribe regulations for the administration of this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s7907",
+              "number": null,
+              "heading": "Termination",
+              "text": "The authority of the Secretary to make a payment under this chapter shall terminate on .",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t38/ptVI",
+      "number": null,
+      "name": "ACQUISITION AND DISPOSITION OF PROPERTY",
+      "chapters": [
+        {
+          "id": "/us/usc/t38/ptVI/ch81",
+          "number": null,
+          "name": "ACQUISITION AND OPERATION OF HOSPITAL AND DOMICILIARY FACILITIES; PROCUREMENT AND SUPPLY; ENHANCED-USE LEASES OF REAL PROPERTY",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t38/ptVI/ch82",
+          "number": null,
+          "name": "ASSISTANCE IN ESTABLISHING NEW STATE MEDICAL SCHOOLS; GRANTS TO AFFILIATED MEDICAL SCHOOLS; ASSISTANCE TO HEALTH MANPOWER TRAINING INSTITUTIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s8201",
+              "number": null,
+              "heading": "Coordination with public health programs; administration",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptVI/ch83",
+          "number": null,
+          "name": "ACCEPTANCE OF GIFTS AND BEQUESTS",
+          "sections": [
+            {
+              "id": "/us/usc/t38/s8301",
+              "number": null,
+              "heading": "Authority to accept gifts, devises, and bequests",
+              "text": "The Secretary may accept devises, bequests, and gifts, made in any manner, with respect to which the testator or donor shall have indicated the intention that such property shall be for the benefit of groups of persons formerly in the active military, naval, or air service who by virtue of such service alone, or disability suffered therein or therefrom, are or shall be patients or members of any one or more hospitals or homes operated by the United States Government, or has indicated the intention that such property shall be for the benefit of any such hospital or home, or shall be paid or delivered to any official, as such, or any agency in administrative control thereof. The Secretary may also accept, for use in carrying out all laws administered by the Secretary, gifts, devises, and bequests which will enhance the Secretary’s ability to provide services or benefits.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s8302",
+              "number": null,
+              "heading": "Legal proceedings",
+              "text": "For the purpose of acquiring title to and possession of any property which the Secretary is by this chapter authorized to accept, the Secretary may initiate and appear in any appropriate legal proceedings, and take such steps therein or in connection therewith as in the Secretary’s discretion may be desirable and appropriate to reduce said property to possession. The Secretary may incur such expenses incident to such proceedings as the Secretary deems necessary or appropriate, which shall be paid as are other administrative expenses of the Department. All funds received by devise, bequest, gift, or otherwise, for the purposes contemplated in this chapter, including net proceeds of sales authorized by this chapter, shall be deposited with the Treasurer of the United States to the credit of the General Post Fund.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s8303",
+              "number": null,
+              "heading": "Restricted gifts",
+              "text": "Disbursements from the General Post Fund shall be made on orders by and within the discretion of the Secretary and in the manner prescribed in ; except that (1) if the testator or donor has directed or shall direct that the devise, bequest, or gift be devoted to a particular use authorized by this chapter, the same, less expenses incurred, or the net proceeds thereof, shall be used or disbursed as directed, except that a precatory direction shall be fulfilled only insofar as may be proper or practicable; and (2) if the testator or donor shall have indicated the desire that the devise, bequest, or gift shall be for the benefit of persons in hospitals or homes, or other institutions operated by the United States but under the jurisdiction of an official other than the Secretary, the same, less expenses incurred, or the net proceeds thereof which may come into possession of the Secretary, shall be disbursed by transfer to the governing authorities of such institution, or otherwise, in such manner as the Secretary may determine, for the benefit of the persons in the institution indicated by the testator or donor, for proper purposes, as nearly as practicable in conformity with such desire of the testator or donor.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s8304",
+              "number": null,
+              "heading": "Disposition of property",
+              "text": "If the Secretary receives any property other than moneys as contemplated by this chapter, the Secretary is authorized in the Secretary’s discretion to sell, assign, transfer, and convey the same, or any interest therein claimed by virtue of such devise, bequest, or gift, for such price and upon such terms as the Secretary deems advantageous (including consent to partition of realty and compromise of contested claim of title) and the Secretary’s assignment, deed, or other conveyance of any such property, executed in the name and on behalf of the United States, shall be valid to pass to the purchaser thereof such title to said property as the United States, beneficially or as trustee of the General Post Fund, may have by virtue of any such devise, bequest, or gift, and the proceedings incident thereto, subject to the conditions, limitations, and provisions of the instruments so executed by the Secretary.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t38/s8305",
+              "number": null,
+              "heading": "Savings provision",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t38/ptVI/ch85",
+          "number": null,
+          "name": "DISPOSITION OF DECEASED VETERANS’ PERSONAL PROPERTY",
+          "sections": []
+        }
+      ]
+    }
+  ]
+}

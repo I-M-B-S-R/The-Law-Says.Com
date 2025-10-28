@@ -1,0 +1,1263 @@
+{
+  "id": 46,
+  "name": "Shipping",
+  "chapters": [],
+  "subtitles": [
+    {
+      "id": "/us/usc/t46/stI",
+      "number": null,
+      "name": "General",
+      "chapters": [
+        {
+          "id": "/us/usc/t46/stI/ch1",
+          "number": null,
+          "name": "DEFINITIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s101",
+              "number": null,
+              "heading": "Agency",
+              "text": "In this title, the term “agency” means a department, agency, or instrumentality of the United States Government.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s102",
+              "number": null,
+              "heading": "Barge",
+              "text": "In this title, the term “barge” means a non-self-propelled vessel.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s103",
+              "number": null,
+              "heading": "Boundary Line",
+              "text": "In this title, the term “Boundary Line” means a line established under  ().",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s104",
+              "number": null,
+              "heading": "Citizen of the United States",
+              "text": "In this title, the term “citizen of the United States”, when used in reference to a natural person, means an individual who is a national of the United States as defined in section 101(a)(22) of the Immigration and Nationality Act ().",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s105",
+              "number": null,
+              "heading": "Consular officer",
+              "text": "In this title, the term “consular officer” means an officer or employee of the United States Government designated under regulations to issue visas.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s106",
+              "number": null,
+              "heading": "Documented vessel",
+              "text": "In this title, the term “documented vessel” means a vessel for which a certificate of documentation has been issued under chapter 121 of this title.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s107",
+              "number": null,
+              "heading": "Exclusive economic zone",
+              "text": "In this title, the term “exclusive economic zone” means the zone established by Presidential Proclamation 5030 of  ( note).",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s108",
+              "number": null,
+              "heading": "Fisheries",
+              "text": "In this title, the term “fisheries” includes processing, storing, transporting (except in foreign commerce), planting, cultivating, catching, taking, or harvesting fish, shellfish, marine animals, pearls, shells, or marine vegetation in the navigable waters of the United States or in the exclusive economic zone.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s109",
+              "number": null,
+              "heading": "Foreign commerce or trade",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s110",
+              "number": null,
+              "heading": "Foreign vessel",
+              "text": "In this title, the term “foreign vessel” means a vessel of foreign registry or operated under the authority of a foreign country.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s111",
+              "number": null,
+              "heading": "Numbered vessel",
+              "text": "In this title, the term “numbered vessel” means a vessel for which a number has been issued under chapter 123 of this title.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s112",
+              "number": null,
+              "heading": "State",
+              "text": "In this title, the term “State” means a State of the United States, the District of Columbia, Guam, Puerto Rico, the Virgin Islands, American Samoa, the Northern Mariana Islands, and any other territory or possession of the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s113",
+              "number": null,
+              "heading": "Undocumented",
+              "text": "In this title, the term “undocumented” means not having and not required to have a certificate of documentation issued under chapter 121 of this title.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s114",
+              "number": null,
+              "heading": "United States",
+              "text": "In this title, the term “United States”, when used in a geographic sense, means the States of the United States, the District of Columbia, Guam, Puerto Rico, the Virgin Islands, American Samoa, the Northern Mariana Islands, and any other territory or possession of the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s115",
+              "number": null,
+              "heading": "Vessel",
+              "text": "In this title, the term “vessel” has the meaning given that term in .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s116",
+              "number": null,
+              "heading": "Vessel of the United States",
+              "text": "In this title, the term “vessel of the United States” means a vessel documented under chapter 121 of this title (or exempt from documentation under ), numbered under chapter 123 of this title, or titled under the law of a State.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stI/ch3",
+          "number": null,
+          "name": "FEDERAL MARITIME COMMISSION",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s301",
+              "number": null,
+              "heading": "General organization",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s302",
+              "number": null,
+              "heading": "Quorum",
+              "text": "A vacancy or vacancies in the membership of the Federal Maritime Commission do not impair the power of the Commission to execute its functions. The affirmative vote of a majority of the Commissioners serving on the Commission is required to dispose of any matter before the Commission.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s303",
+              "number": null,
+              "heading": "Record of meetings and votes",
+              "text": "The Federal Maritime Commission, through its secretary, shall keep a record of its meetings and the votes taken on any action, order, contract, or financial transaction of the Commission.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s304",
+              "number": null,
+              "heading": "Delegation of authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s305",
+              "number": null,
+              "heading": "Regulations",
+              "text": "The Federal Maritime Commission may prescribe regulations to carry out its duties and powers.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s306",
+              "number": null,
+              "heading": "Annual report",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s307",
+              "number": null,
+              "heading": "Expenditures",
+              "text": "The Federal Maritime Commission may make such expenditures as are necessary in the performance of its functions from funds appropriated or otherwise made available to it, which appropriations are authorized.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stI/ch5",
+          "number": null,
+          "name": "OTHER GENERAL PROVISIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s501",
+              "number": null,
+              "heading": "Waiver of navigation and vessel-inspection laws",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s502",
+              "number": null,
+              "heading": "Cargo exempt from forfeiture",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s503",
+              "number": null,
+              "heading": "Notice of seizure",
+              "text": "When a forfeiture of a vessel or cargo accrues, the official of the United States Government required to give notice of the seizure of the vessel or cargo shall include in the notice, if they are known to that official, the name and the place of residence of the owner or consignee at the time of the seizure.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s504",
+              "number": null,
+              "heading": "Remission of fees and penalties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s505",
+              "number": null,
+              "heading": "Penalty for violating regulation or order",
+              "text": "A person convicted of knowingly and willfully violating a regulation or order of the Federal Maritime Commission or the Secretary of Transportation under subtitle IV or V of this title, for which no penalty is expressly provided, shall be fined not more than $500. Each day of a continuing violation is a separate offense.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t46/stII",
+      "number": null,
+      "name": "Vessels and Seamen",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t46/stIII",
+      "number": null,
+      "name": "Maritime Liability",
+      "chapters": [
+        {
+          "id": "/us/usc/t46/stIII/ch301",
+          "number": null,
+          "name": "GENERAL LIABILITY PROVISIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s30101",
+              "number": null,
+              "heading": "Extension of jurisdiction to cases of damage or injury on land",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30102",
+              "number": null,
+              "heading": "Liability to passengers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30103",
+              "number": null,
+              "heading": "Liability of master, mate, engineer, and pilot",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30104",
+              "number": null,
+              "heading": "Personal injury to or death of seamen",
+              "text": "A seaman injured in the course of employment or, if the seaman dies from the injury, the personal representative of the seaman may elect to bring a civil action at law, with the right of trial by jury, against the employer. Laws of the United States regulating recovery for personal injury to, or death of, a railway employee apply to an action under this section.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30105",
+              "number": null,
+              "heading": "Restriction on recovery by non-citizens and non-resident aliens for incidents in waters of other countries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30106",
+              "number": null,
+              "heading": "Time limit on bringing maritime action for personal injury or death",
+              "text": "Except as otherwise provided by law, a civil action for damages for personal injury or death arising out of a maritime tort must be brought within 3 years after the cause of action arose.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stIII/ch303",
+          "number": null,
+          "name": "DEATH ON THE HIGH SEAS",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s30301",
+              "number": null,
+              "heading": "Short title",
+              "text": "This chapter may be cited as the “Death on the High Seas Act”.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30302",
+              "number": null,
+              "heading": "Cause of action",
+              "text": "When the death of an individual is caused by wrongful act, neglect, or default occurring on the high seas beyond 3 nautical miles from the shore of the United States, the personal representative of the decedent may bring a civil action in admiralty against the person or vessel responsible. The action shall be for the exclusive benefit of the decedent’s spouse, parent, child, or dependent relative.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30303",
+              "number": null,
+              "heading": "Amount and apportionment of recovery",
+              "text": "The recovery in an action under this chapter shall be a fair compensation for the pecuniary loss sustained by the individuals for whose benefit the action is brought. The court shall apportion the recovery among those individuals in proportion to the loss each has sustained.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30304",
+              "number": null,
+              "heading": "Contributory negligence",
+              "text": "In an action under this chapter, contributory negligence of the decedent is not a bar to recovery. The court shall consider the degree of negligence of the decedent and reduce the recovery accordingly.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30305",
+              "number": null,
+              "heading": "Death of plaintiff in pending action",
+              "text": "If a civil action in admiralty is pending in a court of the United States to recover for personal injury caused by wrongful act, neglect, or default described in , and the individual dies during the action as a result of the wrongful act, neglect, or default, the personal representative of the decedent may be substituted as the plaintiff and the action may proceed under this chapter for the recovery authorized by this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30306",
+              "number": null,
+              "heading": "Foreign cause of action",
+              "text": "When a cause of action exists under the law of a foreign country for death by wrongful act, neglect, or default on the high seas, a civil action in admiralty may be brought in a court of the United States based on the foreign cause of action, without abatement of the amount for which recovery is authorized.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30307",
+              "number": null,
+              "heading": "Commercial aviation accidents",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30308",
+              "number": null,
+              "heading": "Nonapplication",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stIII/ch305",
+          "number": null,
+          "name": "EXONERATION AND LIMITATION OF LIABILITY",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s30501",
+              "number": null,
+              "heading": "Definition",
+              "text": "In this chapter, the term “owner” includes a charterer that mans, supplies, and navigates a vessel at the charterer’s own expense or by the charterer’s own procurement.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30502",
+              "number": null,
+              "heading": "Application",
+              "text": "Except as otherwise provided, this chapter (except section 30503) applies to seagoing vessels and vessels used on lakes or rivers or in inland navigation, including canal boats, barges, and lighters.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30503",
+              "number": null,
+              "heading": "Declaration of nature and value of goods",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30504",
+              "number": null,
+              "heading": "Loss by fire",
+              "text": "The owner of a vessel is not liable for loss or damage to merchandise on the vessel caused by a fire on the vessel unless the fire resulted from the design or neglect of the owner.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30505",
+              "number": null,
+              "heading": "General limit of liability",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30506",
+              "number": null,
+              "heading": "Limit of liability for personal injury or death",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30507",
+              "number": null,
+              "heading": "Apportionment of losses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30508",
+              "number": null,
+              "heading": "Provisions requiring notice of claim or limiting time for bringing action",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30509",
+              "number": null,
+              "heading": "Provisions limiting liability for personal injury or death",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30510",
+              "number": null,
+              "heading": "Vicarious liability for medical malpractice with regard to crew",
+              "text": "In a civil action by any person in which the owner or operator of a vessel or employer of a crewmember is claimed to have vicarious liability for medical malpractice with regard to a crewmember occurring at a shoreside facility, and to the extent the damages resulted from the conduct of any shoreside doctor, hospital, medical facility, or other health care provider, the owner, operator, or employer is entitled to rely on any statutory limitations of liability applicable to the doctor, hospital, medical facility, or other health care provider in the State of the United States in which the shoreside medical care was provided.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30511",
+              "number": null,
+              "heading": "Action by owner for limitation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30512",
+              "number": null,
+              "heading": "Liability as master, officer, or seaman not affected",
+              "text": "This chapter does not affect the liability of an individual as a master, officer, or seaman, even though the individual is also an owner of the vessel.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stIII/ch307",
+          "number": null,
+          "name": "LIABILITY OF WATER CARRIERS",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s30701",
+              "number": null,
+              "heading": "Definition",
+              "text": "In this chapter, the term “carrier” means the owner, manager, charterer, agent, or master of a vessel.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30702",
+              "number": null,
+              "heading": "Application",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30703",
+              "number": null,
+              "heading": "Bills of lading",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30704",
+              "number": null,
+              "heading": "Loading, stowage, custody, care, and delivery",
+              "text": "A carrier may not insert in a bill of lading or shipping document a provision avoiding its liability for loss or damage arising from negligence or fault in loading, stowage, custody, care, or proper delivery. Any such provision is void.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30705",
+              "number": null,
+              "heading": "Seaworthiness",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30706",
+              "number": null,
+              "heading": "Defenses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30707",
+              "number": null,
+              "heading": "Criminal penalty",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stIII/ch309",
+          "number": null,
+          "name": "SUITS IN ADMIRALTY AGAINST THE UNITED STATES",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s30901",
+              "number": null,
+              "heading": "Short title",
+              "text": "This chapter may be cited as the “Suits in Admiralty Act”.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30902",
+              "number": null,
+              "heading": "Definition",
+              "text": "In this chapter, the term “federally-owned corporation” means a corporation in which the United States owns all the outstanding capital stock.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30903",
+              "number": null,
+              "heading": "Waiver of immunity",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30904",
+              "number": null,
+              "heading": "Exclusive remedy",
+              "text": "If a remedy is provided by this chapter, it shall be exclusive of any other action arising out of the same subject matter against the officer, employee, or agent of the United States or the federally-owned corporation whose act or omission gave rise to the claim.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30905",
+              "number": null,
+              "heading": "Period for bringing action",
+              "text": "A civil action under this chapter must be brought within 2 years after the cause of action arose.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30906",
+              "number": null,
+              "heading": "Venue",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30907",
+              "number": null,
+              "heading": "Procedure for hearing and determination",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30908",
+              "number": null,
+              "heading": "Exemption from arrest or seizure",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30909",
+              "number": null,
+              "heading": "Security",
+              "text": "Neither the United States nor a federally-owned corporation may be required to give a bond or admiralty stipulation in a civil action under this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30910",
+              "number": null,
+              "heading": "Exoneration and limitation",
+              "text": "The United States is entitled to the exemptions from and limitations of liability provided by law to an owner, charterer, operator, or agent of a vessel.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30911",
+              "number": null,
+              "heading": "Costs and interest",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30912",
+              "number": null,
+              "heading": "Arbitration, compromise, or settlement",
+              "text": "The Secretary of a department of the United States Government, or the board of trustees of a federally-owned corporation, may arbitrate, compromise, or settle a claim under this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30913",
+              "number": null,
+              "heading": "Payment of judgment or settlement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30914",
+              "number": null,
+              "heading": "Release of privately owned vessel after arrest or attachment",
+              "text": "If a privately owned vessel not in the possession of the United States or a federally-owned corporation is arrested or attached in a civil action arising or alleged to have arisen from prior ownership, possession, or operation by the United States or corporation, the vessel shall be released without bond or stipulation on a statement by the United States, through the Attorney General or other authorized law officer, that the United States is interested in the action, desires release of the vessel, and assumes liability for the satisfaction of any judgment obtained by the plaintiff. After the vessel is released, the action shall proceed against the United States in accordance with this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30915",
+              "number": null,
+              "heading": "Seizures and other proceedings in foreign jurisdictions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30916",
+              "number": null,
+              "heading": "Recovery by the United States for salvage services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30917",
+              "number": null,
+              "heading": "Disposition of amounts recovered by the United States",
+              "text": "Amounts recovered in a civil action brought by the United States on a claim arising from the ownership, possession, or operation of a merchant vessel, or the ownership, possession, or carriage of cargo, shall be deposited in the Treasury to the credit of the department of the United States Government, or the federally-owned corporation, having control of the vessel or cargo, for reimbursement of the appropriation, insurance fund, or other fund from which the compensation for which the judgment was recovered was or will be paid.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s30918",
+              "number": null,
+              "heading": "Reports",
+              "text": "The Secretary of each department of the United States Government, and the board of trustees of each federally-owned corporation, shall report to Congress at each session thereof all arbitration awards and settlements agreed to under this chapter since the previous session, for which the time to appeal has expired or been waived.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stIII/ch311",
+          "number": null,
+          "name": "SUITS INVOLVING PUBLIC VESSELS",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s31101",
+              "number": null,
+              "heading": "Short title",
+              "text": "This chapter may be cited as the “Public Vessels Act”.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31102",
+              "number": null,
+              "heading": "Waiver of immunity",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31103",
+              "number": null,
+              "heading": "Applicable procedure",
+              "text": "A civil action under this chapter is subject to the provisions of chapter 309 of this title except to the extent inconsistent with this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31104",
+              "number": null,
+              "heading": "Venue",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31105",
+              "number": null,
+              "heading": "Security when counterclaim filed",
+              "text": "If a counterclaim is filed for a cause of action for which the original action is filed under this chapter, the respondent to the counterclaim shall give security in the usual amount and form to respond to the counterclaim, unless the court for cause shown orders otherwise. The proceedings in the original action shall be stayed until the security is given.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31106",
+              "number": null,
+              "heading": "Exoneration and limitation",
+              "text": "The United States is entitled to the exemptions from and limitations of liability provided by law to an owner, charterer, operator, or agent of a vessel.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31107",
+              "number": null,
+              "heading": "Interest",
+              "text": "A judgment in a civil action under this chapter may not include interest for the period before the judgment is issued unless the claim is based on a contract providing for interest.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31108",
+              "number": null,
+              "heading": "Arbitration, compromise, or settlement",
+              "text": "The Attorney General may arbitrate, compromise, or settle a claim under this chapter if a civil action based on the claim has been commenced.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31109",
+              "number": null,
+              "heading": "Payment of judgment or settlement",
+              "text": "The proper accounting officer of the United States shall pay a final judgment, arbitration award, or settlement under this chapter on presentation of an authenticated copy. Payment shall be made from any money in the Treasury appropriated for the purpose.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31110",
+              "number": null,
+              "heading": "Subpoenas to officers or members of crew",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31111",
+              "number": null,
+              "heading": "Claims by nationals of foreign countries",
+              "text": "A national of a foreign country may not maintain a civil action under this chapter unless it appears to the satisfaction of the court in which the action is brought that the government of that country, in similar circumstances, allows nationals of the United States to sue in its courts.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31112",
+              "number": null,
+              "heading": "Lien not recognized or created",
+              "text": "This chapter shall not be construed as recognizing the existence of or as creating a lien against a public vessel of the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s31113",
+              "number": null,
+              "heading": "Reports",
+              "text": "The Attorney General shall report to Congress at each session thereof all claims settled under this chapter.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stIII/ch313",
+          "number": null,
+          "name": "COMMERCIAL INSTRUMENTS AND MARITIME LIENS",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t46/stIV",
+      "number": null,
+      "name": "Regulation of Ocean Shipping",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t46/stV",
+      "number": null,
+      "name": "Merchant Marine",
+      "chapters": []
+    },
+    {
+      "id": "/us/usc/t46/stVI",
+      "number": null,
+      "name": "Clearance, Tonnage Taxes, and Duties",
+      "chapters": [
+        {
+          "id": "/us/usc/t46/stVI/ch601",
+          "number": null,
+          "name": "ARRIVAL AND DEPARTURE REQUIREMENTS",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s60101",
+              "number": null,
+              "heading": "Boarding arriving vessels before inspection",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60102",
+              "number": null,
+              "heading": "Production of certificate on entry",
+              "text": "On entry of a vessel documented under chapter 121 of this title, the master or other individual in charge of the vessel shall produce the certificate of documentation to the customs officer at the place where the vessel is entered. If the certificate is not produced, the vessel is not entitled to the privileges of a documented vessel.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60103",
+              "number": null,
+              "heading": "Oath of ownership on entry",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60104",
+              "number": null,
+              "heading": "Depositing certificates of documentation with consular officers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60105",
+              "number": null,
+              "heading": "Clearance of vessels",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60106",
+              "number": null,
+              "heading": "State inspection laws",
+              "text": "When State law requires a certificate of inspection for goods carried on a vessel, a vessel transporting the goods may not be cleared until the certificate is produced.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60107",
+              "number": null,
+              "heading": "Payment of fees on departing vessel",
+              "text": "A departing vessel may be cleared only when all legal fees that have accrued on the vessel are paid and proof of payment is presented to the individual granting the clearance.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60108",
+              "number": null,
+              "heading": "Duty to transport tendered cargo",
+              "text": "Clearance may be refused to a vessel or vehicle transporting cargo destined for a domestic or foreign port when the owner, master, or other individual in charge refuses to accept cargo tendered in good condition, with proper charges, for the same or an intermediate port by a citizen of the United States. This section does not apply if the vessel or vehicle is already fully loaded (giving appropriate consideration to its proper loading) or is not adaptable to transport the tendered cargo.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60109",
+              "number": null,
+              "heading": "Duty to transport money and securities of the United States Government",
+              "text": "Before being given clearance, a vessel owned by a citizen of the United States and bound on a voyage from a port in the United States to another port in the United States or in a foreign country, or on a voyage from a port in a foreign country to a port in the United States, shall receive on board any bullion, coin, notes, bonds, or other securities of the United States Government that an agency, consular officer, or other agent of the Government offers. The vessel shall transport the items securely and deliver them promptly to the proper authorities or consignees on arriving at the port of destination. Compensation shall be paid for services provided under this section that is equal to compensation paid to other carriers in the ordinary transaction of business.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stVI/ch603",
+          "number": null,
+          "name": "TONNAGE TAXES AND LIGHT MONEY",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s60301",
+              "number": null,
+              "heading": "Regular tonnage taxes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60302",
+              "number": null,
+              "heading": "Special tonnage taxes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60303",
+              "number": null,
+              "heading": "Light money",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60304",
+              "number": null,
+              "heading": "Presidential suspension of tonnage taxes and light money",
+              "text": "If the President is satisfied that the government of a foreign country does not impose discriminating or countervailing duties to the disadvantage of the United States, the President shall suspend the imposition of special tonnage taxes and light money under sections 60302 and 60303 of this title on vessels of that country.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60305",
+              "number": null,
+              "heading": "Vessels in distress",
+              "text": "A vessel is exempt from tonnage taxes and light money when it enters because it is in distress.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60306",
+              "number": null,
+              "heading": "Vessels not engaged in trade",
+              "text": "A vessel is exempt from tonnage taxes and light money when not engaged in trade.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60307",
+              "number": null,
+              "heading": "Vessels engaged in coastwise trade or the fisheries",
+              "text": "A vessel with a registry endorsement or a coastwise endorsement, trading from one port in the United States to another port in the United States or employed in the bank, whale, or other fisheries, is exempt from tonnage taxes and light money.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60308",
+              "number": null,
+              "heading": "Vessels engaged in Great Lakes trade",
+              "text": "A documented vessel with a registry endorsement, engaged in foreign trade on the Great Lakes or their tributary or connecting waters in trade with Canada, does not become subject to tonnage taxes or light money because of that trade.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60309",
+              "number": null,
+              "heading": "Passenger vessels making trips between ports of the United States and foreign ports",
+              "text": "A passenger vessel making at least 3 trips per week between a port of the United States and a foreign port is exempt from tonnage taxes and light money.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60310",
+              "number": null,
+              "heading": "Vessels making daily trips on interior waters",
+              "text": "A vessel making regular daily trips between a port of the United States and a port of Canada only on interior waters not navigable to the ocean is exempt from tonnage taxes and light money, except on its first clearing each year.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60311",
+              "number": null,
+              "heading": "Hospital vessels in time of war",
+              "text": "In time of war, a hospital vessel is exempt from tonnage taxes, light money, and pilotage charges in the ports of the United States if the vessel is one for which the conditions of the international convention for the exemption of hospital ships from taxation in time of war, concluded at The Hague on , are satisfied. The President by proclamation shall name the vessels for which the conditions are satisfied and state when the exemption begins and ends.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60312",
+              "number": null,
+              "heading": "Rights under treaties preserved",
+              "text": "This chapter and chapter 605 of this title do not affect a right or privilege of a foreign country relating to tonnage taxes or other duties on vessels under a law or treaty of the United States.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stVI/ch605",
+          "number": null,
+          "name": "DISCRIMINATING DUTIES AND RECIPROCAL PRIVILEGES",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s60501",
+              "number": null,
+              "heading": "Vessels allowed to import",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60502",
+              "number": null,
+              "heading": "Discriminating duty on goods imported in foreign vessels or from contiguous countries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60503",
+              "number": null,
+              "heading": "Reciprocal suspension of discriminating duties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60504",
+              "number": null,
+              "heading": "Reciprocal privileges for recreational vessels",
+              "text": "When the President is satisfied that yachts owned by residents of the United States and used only for pleasure are allowed to arrive at, depart from, and cruise in the waters of a foreign port without entering, clearing, or paying any duties or fees (including cruising license fees), the Secretary of Homeland Security may allow yachts from that foreign port used only for pleasure to arrive at and depart from the ports of the United States and to cruise in the waters of the United States without paying any duties or fees. However, the Secretary may require foreign yachts to obtain a license to cruise in the waters of the United States. The license shall be in the form prescribed by the Secretary and contain limitations about length of time, direction, place of cruising and action, and other matters the Secretary considers appropriate. The license shall be issued without cost to the yacht.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60505",
+              "number": null,
+              "heading": "Retaliatory suspension of commercial privileges",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60506",
+              "number": null,
+              "heading": "Retaliation against British dominions of North America",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s60507",
+              "number": null,
+              "heading": "Suspension of free passage through Saint Marys Falls Canal",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t46/stVII",
+      "number": null,
+      "name": "Security and Drug Enforcement",
+      "chapters": [
+        {
+          "id": "/us/usc/t46/stVII/ch701",
+          "number": null,
+          "name": "PORT SECURITY",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t46/stVII/ch703",
+          "number": null,
+          "name": "MARITIME SECURITY",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s70301",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70302",
+              "number": null,
+              "heading": "International measures for seaport and vessel security",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70303",
+              "number": null,
+              "heading": "Security standards at foreign ports",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70304",
+              "number": null,
+              "heading": "Travel advisories on security at foreign ports",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70305",
+              "number": null,
+              "heading": "Suspension of passenger services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70306",
+              "number": null,
+              "heading": "Report on terrorist threats",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stVII/ch705",
+          "number": null,
+          "name": "MARITIME DRUG LAW ENFORCEMENT",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s70501",
+              "number": null,
+              "heading": "Findings and declarations",
+              "text": "Congress finds and declares that (1) trafficking in controlled substances aboard vessels is a serious international problem, is universally condemned, and presents a specific threat to the security and societal well-being of the United States and (2) operating or embarking in a submersible vessel or semi-submersible vessel without nationality and on an international voyage is a serious international problem, facilitates transnational crime, including drug trafficking, and terrorism, and presents a specific threat to the safety of maritime navigation and the security of the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70502",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70503",
+              "number": null,
+              "heading": "Manufacture, distribution, or possession of controlled substances on vessels",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70504",
+              "number": null,
+              "heading": "Jurisdiction and venue",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70505",
+              "number": null,
+              "heading": "Failure to comply with international law as a defense",
+              "text": "A person charged with violating , or against whom a civil enforcement proceeding is brought under section 70508, does not have standing to raise a claim of failure to comply with international law as a basis for a defense. A claim of failure to comply with international law in the enforcement of this chapter may be made only by a foreign nation. A failure to comply with international law does not divest a court of jurisdiction and is not a defense to a proceeding under this chapter.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70506",
+              "number": null,
+              "heading": "Penalties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70507",
+              "number": null,
+              "heading": "Forfeitures",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s70508",
+              "number": null,
+              "heading": "Operation of submersible vessel or semi-submersible vessel without nationality",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t46/stVIII",
+      "number": null,
+      "name": "Miscellaneous",
+      "chapters": [
+        {
+          "id": "/us/usc/t46/stVIII/ch801",
+          "number": null,
+          "name": "WRECKS AND SALVAGE",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s80101",
+              "number": null,
+              "heading": "Vessel stranded on foreign coast",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80102",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80103",
+              "number": null,
+              "heading": "Property on Florida coast to be taken to port of entry",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80104",
+              "number": null,
+              "heading": "Salvaging operations by foreign vessels",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80105",
+              "number": null,
+              "heading": "Canadian vessels aiding vessels in United States waters",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80106",
+              "number": null,
+              "heading": "International agreement on derelicts",
+              "text": "The President may make an international agreement with other governments interested in the navigation of the North Atlantic Ocean, providing for the reporting, marking, and removal of dangerous wrecks, derelicts, and other menaces to navigation outside the coast waters of the countries bordering the North Atlantic Ocean.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80107",
+              "number": null,
+              "heading": "Salvors of life to share in remuneration",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stVIII/ch803",
+          "number": null,
+          "name": "ICE AND DERELICTS",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s80301",
+              "number": null,
+              "heading": "International agreements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80302",
+              "number": null,
+              "heading": "Patrol services",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80303",
+              "number": null,
+              "heading": "Speed of vessel in ice region",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t46/stVIII/ch805",
+          "number": null,
+          "name": "SAFE CONTAINERS FOR INTERNATIONAL CARGO",
+          "sections": [
+            {
+              "id": "/us/usc/t46/s80501",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80502",
+              "number": null,
+              "heading": "Application of Convention",
+              "text": "The Convention applies to an owner of a container used in international transport if the owner is domiciled or has its principal office in the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80503",
+              "number": null,
+              "heading": "General authority of the Secretary",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80504",
+              "number": null,
+              "heading": "Approval and examination",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80505",
+              "number": null,
+              "heading": "Enforcement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80506",
+              "number": null,
+              "heading": "Delegation of authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80507",
+              "number": null,
+              "heading": "Employee protection",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80508",
+              "number": null,
+              "heading": "Amendments to Convention",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t46/s80509",
+              "number": null,
+              "heading": "Civil penalty",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": []
+}

@@ -1,0 +1,536 @@
+{
+  "id": 47,
+  "name": "Telecommunications",
+  "chapters": [
+    {
+      "id": "/us/usc/t47/ch1",
+      "number": null,
+      "name": "TELEGRAPHS",
+      "sections": [
+        {
+          "id": "/us/usc/t47/s1 to 6",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s7",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s8",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s9",
+          "number": null,
+          "heading": "Subsidized companies required to construct and operate lines",
+          "text": "All railroad and telegraph companies to which the United States has granted any subsidy in lands or bonds or loan of credit for the construction of either railroad or telegraph lines, which, by the acts incorporating them, or by any act amendatory or supplementary thereto, are required to construct, maintain, or operate telegraph lines, and all companies engaged in operating said railroad or telegraph lines shall, by and through their own respective corporate officers and employees, maintain, and operate, for railroad, governmental, commercial, and all other purposes, telegraph lines, and exercise by themselves alone all the telegraph franchises conferred upon them and obligations assumed by them under the acts making the grants as aforesaid.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s10",
+          "number": null,
+          "heading": "Equal facilities to connecting lines; discrimination in rates",
+          "text": "Whenever any telegraph company which shall have accepted the provisions of sections 1 to 6 and 8  of this title, prior to the effective date of the repeal of such sections, shall extend its line to any station or office of a telegraph line belonging to any one of said railroad or telegraph companies, referred to in , said telegraph company so extending its line shall have the right and said railroad or telegraph company shall allow the line of said telegraph company so extending its line to connect with the telegraph line of said railroad or telegraph company to which it is extended at the place where their lines may meet, for the prompt and convenient interchange of telegraph business between said companies; and such railroad and telegraph companies, referred to in , shall so operate their respective telegraph lines as to afford equal facilities to all, without discrimination in favor of or against any person, company, or corporation whatever, and shall receive, deliver, and exchange business with connecting telegraph lines on equal terms, and affording equal facilities, and without discrimination for or against any one of such connecting lines; and such exchange of business shall be on terms just and equitable.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s11",
+          "number": null,
+          "heading": "Powers of Federal Communications Commission",
+          "text": "If any railroad or telegraph company referred to in , or company operating such railroad or telegraph line shall refuse or fail, in whole or in part, to maintain, and operate a telegraph line as provided herein, for the use of the Government or the public, for commercial and other purposes, without discrimination, or shall refuse or fail to make or continue such arrangements for the interchange of business with any connecting telegraph company, then any person, company, corporation, or connecting telegraph company may apply for relief to the Federal Communications Commission, whose duty it shall thereupon be, under such rules and regulations as said commission may prescribe, to ascertain the facts, and determine and order what arrangement is proper to be made in the particular case, and the railroad or telegraph company concerned shall abide by and perform such order; and it shall be the duty of the Federal Communications Commission, when such determination and order are made, to notify the parties concerned, and, if necessary, enforce the same by writ of mandamus in the courts of the United States, in the name of the United States, at the relation of either of said communication commissioners. The commissioners may institute any inquiry, upon their own motion, in the same manner and to the same effect as though complaint had been made.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s12",
+          "number": null,
+          "heading": "Interference with liens of United States",
+          "text": "In order to secure and preserve to the United States the full value and benefit of its liens upon all the telegraph lines required to be constructed by and lawfully belonging to railroad and telegraph companies referred to in , and to have the same possessed, used, and operated in conformity with sections 9 to 15 of this title, it is made the duty of the Attorney General of the United States, by proper proceedings, to prevent any unlawful interference with the rights and equities of the United States under all acts of Congress relating to such railroads and telegraph lines, and to have legally ascertained and finally adjudicated all alleged rights of all persons and corporations whatever claiming in any manner any control or interest of any kind in any telegraph lines or property, or exclusive rights-of-way upon the lands of said railroad companies, or any of them, and to have all contracts and provisions of contracts set aside and annulled which have been unlawfully and beyond their powers entered into by said railroad or telegraph companies, or any of them, with any other person, company, or corporation.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s13",
+          "number": null,
+          "heading": "Violations; punishment; action for damages",
+          "text": "Any officer or agent of said railroad or telegraph companies, or of any company operating the railroads and telegraph lines of said companies, who shall refuse or fail to operate the telegraph lines of said railroad or telegraph companies under his control, or which he is engaged in operating, in the manner herein directed, or who shall refuse or fail, in such operation and use, to afford and secure to the Government and the public equal facilities, or to secure to each of said connecting telegraph lines equal advantages and facilities in the interchange of business, as herein provided for, without any discrimination whatever for or adverse to the telegraph line of any or either of said connecting companies, or shall refuse to abide by or perform and carry out within a reasonable time the order or orders of the Federal Communications Commission, shall in every such case of refusal or failure be guilty of a misdemeanor, and, on conviction thereof, shall in every such case be fined in a sum of not exceeding $1,000, and may be imprisoned not less than six months; and in every such case of refusal or failure the party aggrieved may not only cause the officer or agent guilty thereof to be prosecuted under the provisions of this section, but may also bring an action for the damages sustained thereby against the company whose officer or agent may be guilty thereof, in the district court of the United States in any State or Territory in which any portion of the road or telegraph line of said company may be situated; and in case of suit process may be served upon any agent of the company found in such State or Territory, and such service shall be held by the court good and sufficient.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s14",
+          "number": null,
+          "heading": "Contracts filed with Federal Communications Commission; reports; failure to make",
+          "text": "It shall be the duty of each and every one of the aforesaid railroad and telegraph companies annually to report to the Federal Communications Commission, with reasonable fullness and certainty, the nature, extent, value, and condition of the telegraph lines and property then belonging to it, the gross earnings, and all expenses of maintenance, use, and operation thereof, and its relation and business with all connecting telegraph companies during the preceding year, at such time and in such manner as may be required by a system of reports which said commission shall prescribe; and if any of said railroad or telegraph companies shall refuse or fail to make such reports or any report as may be called for by said commission, or refuse to submit its books and records for inspection, such neglect or refusal shall operate as a forfeiture, in each case of such neglect or refusal, of a sum not less than $1,000 nor more than $5,000, to be recovered by the Attorney General of the United States, in the name and for the use and benefit of the United States; and it shall be the duty of the Federal Communications Commission to inform the Attorney General of all such cases of neglect or refusal, whose duty it shall be to proceed at once to judicially enforce the forfeitures herein before provided.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s15",
+          "number": null,
+          "heading": "Reservation of power to alter, amend, or repeal act; power to fix rates and purchase lines",
+          "text": "Nothing in sections 9 to 15 of this title shall be construed to affect or impair the right of Congress, at any time hereafter, to alter, amend, or repeal sections 1 to 6 and 8  of this title; and sections 9 to 15 of this title shall be subject to alteration, amendment, or repeal as, in the opinion of Congress, justice or the public welfare may require; and nothing herein contained shall be held to deny, exclude, or impair any right or remedy in the premises now or hereafter existing in the United States, or the authority of the Federal Communications Commission under the provisions of the Communications Act of 1934, as amended [ et seq.], to prescribe charges, classifications, regulations, and practices, including priorities, applicable to Government communications.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s16",
+          "number": null,
+          "heading": "Washington-Alaska Military Cable and Telegraph System; money transfers; portion of receipts withheld",
+          "text": "On and after , such amount of money as may be authorized by the Secretary of the Army may be withheld temporarily from the receipts of the Washington-Alaska Military Cable and Telegraph System by the auditor of said system as a working balance from which to make payments of money transfers from and to Alaska and between points within Alaska, to be accounted for accordingly.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s17",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t47/ch2",
+      "number": null,
+      "name": "SUBMARINE CABLES",
+      "sections": [
+        {
+          "id": "/us/usc/t47/s21",
+          "number": null,
+          "heading": "Submarine cables; willful injury to; punishment",
+          "text": "Any person who shall willfully and wrongfully break or injure, or attempt to break or injure, or who shall in any manner procure, counsel, aid, abet, or be accessory to such breaking or injury, or attempt to break or injure, a submarine cable in such manner as to interrupt or embarrass, in whole or in part, telegraphic communication, shall be guilty of a misdemeanor, and, on conviction thereof, shall be liable to imprisonment for a term not exceeding two years, or to a fine not exceeding $5,000, or to both fine and imprisonment, at the discretion of the court.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s22",
+          "number": null,
+          "heading": "Negligent injury to submarine cables; punishment",
+          "text": "Any person who by culpable negligence shall break or injure a submarine cable in such manner as to interrupt or embarrass, in whole or in part, telegraphic communication, shall be guilty of a misdemeanor, and, on conviction thereof, shall be liable to imprisonment for a term not exceeding three months, or to a fine not exceeding $500, or to both fine and imprisonment, at the discretion of the court.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s23",
+          "number": null,
+          "heading": "Injury to submarine cables in efforts to save life excepted",
+          "text": "The provisions of sections 21 and 22 of this title shall not apply to a person who breaks or injures a cable in an effort to save the life or limb of himself or of any other person, or to save his own or any other vessel: , That he takes reasonable precautions to avoid such breaking or injury.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s24",
+          "number": null,
+          "heading": "Vessels laying cables; signals; avoidance of buoys",
+          "text": "The master of any vessel which, while engaged in laying or repairing submarine cables, shall fail to observe the rules concerning signals that have been or shall be adopted by the parties to the convention described in  with a view to preventing collisions at sea; or the master of any vessel that, perceiving, or being able to perceive the said signals displayed upon a telegraph ship engaged in repairing a cable, shall not withdraw to or keep at distance of at least one nautical mile; or the master of any vessel that seeing or being able to see buoys intended to mark the position of a cable when being laid or when out of order or broken, shall not keep at a distance of at least a quarter of a nautical mile, shall be guilty of a misdemeanor, and on conviction thereof, shall be liable to imprisonment for a term not exceeding one month, or to a fine of not exceeding $500.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s25",
+          "number": null,
+          "heading": "Fishing vessels; duty to keep nets from cables",
+          "text": "The master of any fishing vessel who shall not keep his implements or nets at a distance of at least one nautical mile from a vessel engaged in laying or repairing a cable; or the master of any fishing vessel who shall not keep his implements or nets at a distance of at least a quarter of a nautical mile from a buoy or buoys intended to mark the position of a cable when being laid or when out of order or broken, shall be guilty of a misdemeanor, and on conviction thereof, shall be liable to imprisonment for a term not exceeding ten days, or to a fine not exceeding $250, or to both such fine and imprisonment, at the discretion of the court. Fishing vessels, on perceiving or being able to perceive the said signals displayed on a telegraph ship, shall be allowed such time as may be necessary to obey the notice thus given, not exceeding twenty-four hours, during which period no obstacle shall be placed in the way of their operations.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s26",
+          "number": null,
+          "heading": "Duties of commanders of warships",
+          "text": "For the purpose of carrying into effect the convention described in  a person commanding a ship of war of the United States or of any foreign state for the time being bound by the convention, or a ship specially commissioned by the Government of the United States or by the government of such foreign state, may exercise and perform the duties with respect to requiring exhibition of documents evidencing the nationality of offending vessels and making reports of infractions vested in and imposed on such officer by the convention.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s27",
+          "number": null,
+          "heading": "Offending vessels to show nationality",
+          "text": "Any person having the custody of the papers necessary for the preparation of the statements provided for in article 10 of the said convention with respect to reports of infractions, by officers commanding vessels of war or vessels especially commissioned, who shall refuse to exhibit them or shall violently resist persons having authority according to article 10 of said convention to draw up statements of facts in the exercise of their functions, shall be guilty of a misdemeanor, and on conviction thereof shall be liable to imprisonment not exceeding two years, or to a fine not exceeding $5,000, or to both fine and imprisonment, at the discretion of the court.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s28",
+          "number": null,
+          "heading": "Penalties not to bar suits for damages",
+          "text": "The penalties provided in this chapter for the breaking or injury of a submarine cable shall not be a bar to a suit for damages on account of such breaking or injury.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s29",
+          "number": null,
+          "heading": "Master of offending vessel punishable",
+          "text": "When an offense against this chapter shall have been committed by means of a vessel, or of any boat belonging to a vessel, the master of such vessel shall, unless some other person is shown to have been in charge of and navigating such vessel or boat, be deemed to have been in charge of and navigating the same, and be liable to be punished accordingly.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s30",
+          "number": null,
+          "heading": "Definitions",
+          "text": "Unless the context of this chapter otherwise requires, the term “vessel” shall be taken to mean every description of vessel used in navigation, in whatever way it is propelled; the term “master” shall be taken to include every person having command or charge of a vessel; and the term “person” to include a body of persons, corporate or incorporate. The term “convention” shall be taken to mean the International Convention for the Protection of Submarine Cables, made at Paris on the 14th day of May [March], 1884, and proclaimed by the President of the United States on the 22d day of May, 1885.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s31",
+          "number": null,
+          "heading": "Summary trials",
+          "text": "The provisions of sections 391–396 of title 33 shall extend to the trial of offenses against the provisions of sections 24 and 25 of this title.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s32",
+          "number": null,
+          "heading": "Application",
+          "text": "The provisions of this chapter shall be held to apply only to cables to which the convention for the time being applies.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s33",
+          "number": null,
+          "heading": "Jurisdiction and venue of actions and offenses",
+          "text": "The district courts of the United States shall have jurisdiction over all offenses against this chapter and of all suits of a civil nature arising thereunder, whether the infraction complained of shall have been committed within the territorial waters of the United States or on board a vessel of the United States outside of said waters. From the decrees and judgments of the district courts in actions and suits arising under this chapter appeals shall be allowed as provided by law in other cases. Criminal actions and proceedings for a violation of the provisions of this chapter shall be commenced and prosecuted in the district court for the district within which the offense was committed, and when not committed within any judicial district, then in the district court for the district within which the offender may be found; and suits of a civil nature may be commenced in the district court for any district within which the defendant may be found and shall be served with process.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s34",
+          "number": null,
+          "heading": "Licenses for landing or operating cables connecting United States with foreign country; necessity for",
+          "text": "No person shall land or operate in the United States any submarine cable directly or indirectly connecting the United States with any foreign country, or connecting one portion of the United States with any other portion thereof, unless a written license to land or operate such cable has been issued by the President of the United States. The conditions of sections 34 to 39 of this title shall not apply to cables, all of which, including both terminals, lie wholly within the continental United States.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s35",
+          "number": null,
+          "heading": "Withholding or revoking of licenses by President; terms and conditions of licenses",
+          "text": "The President may withhold or revoke such license when he shall be satisfied after due notice and hearing that such action will assist in securing rights for the landing or operation of cables in foreign countries, or in maintaining the rights or interests of the United States or of its citizens in foreign countries, or will promote the security of the United States, or may grant such license upon such terms as shall be necessary to assure just and reasonable rates and service in the operation and use of cables so licensed. The license shall not contain terms or conditions granting to the licensee exclusive rights of landing or of operation in the United States. Nothing herein contained shall be construed to limit the power and jurisdiction of the Federal Communications Commission with respect to the transmission of messages.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s36",
+          "number": null,
+          "heading": "Preventing landing or operating of cables; injunction",
+          "text": "The President is empowered to prevent the landing of any cable about to be landed in violation of sections 34 to 39 of this title. When any such cable is about to be or is landed or is being operated without a license, any district court of the United States exercising jurisdiction in the district in which such cable is about to be or is landed, or any district court of the United States having jurisdiction of the parties, shall have jurisdiction, at the suit of the United States, to enjoin the landing or operation of such cable or to compel, by injunction, the removal thereof.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s37",
+          "number": null,
+          "heading": "Violations; punishment",
+          "text": "Whoever knowingly commits, instigates, or assists in any act forbidden by  shall be guilty of a misdemeanor and shall be fined not more than $5,000, or imprisoned for not more than one year, or both.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s38",
+          "number": null,
+          "heading": "“United States” defined",
+          "text": "The term “United States” as used in sections 34 to 39 of this title includes the Canal Zone and all territory continental or insular, subject to the jurisdiction of the United States of America.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s39",
+          "number": null,
+          "heading": "Amendment, modification, etc., of rights granted",
+          "text": "No right shall accrue to any government, person, or corporation under the terms of sections 34 to 39 of this title that may not be rescinded, changed, modified, or amended by the Congress.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t47/ch3",
+      "number": null,
+      "name": "RADIOTELEGRAPHS",
+      "sections": [
+        {
+          "id": "/us/usc/t47/s51 to 63",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t47/ch4",
+      "number": null,
+      "name": "RADIO ACT OF 1927",
+      "sections": [
+        {
+          "id": "/us/usc/t47/s81 to 83",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s83a to 83e",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s84",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s84a, 84b",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s85 to 119",
+          "number": null,
+          "heading": "Repealed. ,",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s120, 121",
+          "number": null,
+          "heading": "Omitted",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t47/ch5",
+      "number": null,
+      "name": "WIRE OR RADIO COMMUNICATION",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t47/ch6",
+      "number": null,
+      "name": "COMMUNICATIONS SATELLITE SYSTEM",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t47/ch7",
+      "number": null,
+      "name": "CAMPAIGN COMMUNICATIONS",
+      "sections": [
+        {
+          "id": "/us/usc/t47/s801 to 805",
+          "number": null,
+          "heading": "Repealed. , ,",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t47/ch8",
+      "number": null,
+      "name": "NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t47/ch9",
+      "number": null,
+      "name": "INTERCEPTION OF DIGITAL AND OTHER COMMUNICATIONS",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t47/ch10",
+      "number": null,
+      "name": "LOCAL TV",
+      "sections": [
+        {
+          "id": "/us/usc/t47/s1101",
+          "number": null,
+          "heading": "Purpose",
+          "text": "The purpose of this chapter is to facilitate access, on a technologically neutral basis and by , to signals of local television stations for households located in nonserved areas and underserved areas.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1102",
+          "number": null,
+          "heading": "LOCAL Television Loan Guarantee Board",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1103",
+          "number": null,
+          "heading": "Approval of loan guarantees",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1104",
+          "number": null,
+          "heading": "Administration of loan guarantees",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1105",
+          "number": null,
+          "heading": "Annual audit",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1106",
+          "number": null,
+          "heading": "Improved cellular service in rural areas",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1107",
+          "number": null,
+          "heading": "Sunset",
+          "text": "No loan guarantee may be approved under this chapter after .",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1108",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1109",
+          "number": null,
+          "heading": "Authorizations of appropriations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1110",
+          "number": null,
+          "heading": "Prevention of interference to direct broadcast satellite services",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t47/ch11",
+      "number": null,
+      "name": "COMMERCIAL MOBILE SERVICE ALERTS",
+      "sections": [
+        {
+          "id": "/us/usc/t47/s1201",
+          "number": null,
+          "heading": "Federal Communications Commission duties",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1202",
+          "number": null,
+          "heading": "Commercial Mobile Service Alert Advisory Committee",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1203",
+          "number": null,
+          "heading": "Research and development",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1204",
+          "number": null,
+          "heading": "Grant program for remote community alert systems",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1205",
+          "number": null,
+          "heading": "Funding",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t47/ch12",
+      "number": null,
+      "name": "BROADBAND",
+      "sections": [
+        {
+          "id": "/us/usc/t47/s1301",
+          "number": null,
+          "heading": "Findings",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1302",
+          "number": null,
+          "heading": "Advanced telecommunications incentives",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1303",
+          "number": null,
+          "heading": "Improving Federal data on broadband",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1304",
+          "number": null,
+          "heading": "Encouraging State initiatives to improve broadband",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1305",
+          "number": null,
+          "heading": "Broadband Technology Opportunities Program",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t47/ch13",
+      "number": null,
+      "name": "PUBLIC SAFETY COMMUNICATIONS AND ELECTROMAGNETIC SPECTRUM AUCTIONS",
+      "sections": [
+        {
+          "id": "/us/usc/t47/s1401",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1402",
+          "number": null,
+          "heading": "Rule of construction",
+          "text": "Each range of frequencies described in this chapter shall be construed to be inclusive of the upper and lower frequencies in the range.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1403",
+          "number": null,
+          "heading": "Enforcement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t47/s1404",
+          "number": null,
+          "heading": "National security restrictions on use of funds and auction participation",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "subtitles": [],
+  "parts": []
+}

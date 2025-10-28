@@ -1,0 +1,1190 @@
+{
+  "id": 39,
+  "name": "Postal Service",
+  "chapters": [],
+  "subtitles": [],
+  "parts": [
+    {
+      "id": "/us/usc/t39/ptI",
+      "number": null,
+      "name": "GENERAL",
+      "chapters": [
+        {
+          "id": "/us/usc/t39/ptI/ch1",
+          "number": null,
+          "name": "POSTAL POLICY AND DEFINITIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s101",
+              "number": null,
+              "heading": "Postal policy",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s102",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptI/ch2",
+          "number": null,
+          "name": "ORGANIZATION",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s201",
+              "number": null,
+              "heading": "United States Postal Service",
+              "text": "There is established, as an independent establishment of the executive branch of the Government of the United States, the United States Postal Service.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s202",
+              "number": null,
+              "heading": "Board of Governors",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s203",
+              "number": null,
+              "heading": "Postmaster General; Deputy Postmaster General",
+              "text": "The chief executive officer of the Postal Service is the Postmaster General appointed under . The alternate chief executive officer of the Postal Service is the Deputy Postmaster General appointed under .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s204",
+              "number": null,
+              "heading": "General Counsel; Judicial Officer; Chief Postal Inspector",
+              "text": "There shall be within the Postal Service a General Counsel, such number of Assistant Postmasters General as the Board shall consider appropriate, a Judicial Officer, and a Chief Postal Inspector. The General Counsel, the Assistant Postmasters General, the Judicial Officer, and the Chief Postal Inspector shall be appointed by, and serve at the pleasure of, the Postmaster General. The Judicial Officer shall perform such quasi-judicial duties, not inconsistent with chapter 36 of this title, as the Postmaster General may designate. The Judicial Officer shall be the agency for the purposes of the requirements of chapter 5 of title 5, to the extent that functions are delegated to him by the Postmaster General. The Chief Postal Inspector shall report to, and be under the general supervision of, the Postmaster General. The Postmaster General shall promptly notify the Governors and both Houses of Congress in writing if he or she removes the Chief Postal Inspector or transfers the Chief Postal Inspector to another position or location within the Postal Service, and shall include in any such notification the reasons for the removal or transfer.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s205",
+              "number": null,
+              "heading": "Procedures of the Board of Governors",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s206",
+              "number": null,
+              "heading": "Advisory Council",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s207",
+              "number": null,
+              "heading": "Seal",
+              "text": "The seal of the Postal Service shall be filed by the Board in the Office of the Secretary of State, judicially noticed, affixed to all commissions of officers of the Postal Service, and used to authenticate records of the Postal Service.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s208",
+              "number": null,
+              "heading": "Reservation of powers",
+              "text": "Congress reserves the power to alter, amend, or repeal any or all of the sections of this title, but no such alteration, amendment, or repeal shall impair the obligation of any contract made by the Postal Service under any power conferred by this title.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptI/ch4",
+          "number": null,
+          "name": "GENERAL AUTHORITY",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s401",
+              "number": null,
+              "heading": "General powers of the Postal Service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s402",
+              "number": null,
+              "heading": "Delegation of authority",
+              "text": "Except for those powers, duties, or obligations specifically vested in the Governors, as distinguished from the Board of Governors, the Board may delegate the authority vested in it to the Postmaster General under such terms, conditions, and limitations, including the power of redelegation, as it deems desirable. The Board may establish such committees of the Board, and delegate such powers to any committee, as the Board determines appropriate to carry out its functions and duties. Delegations to the Postmaster General or committees shall be consistent with other provisions of this title, shall not relieve the Board of full responsibility for the carrying out of its duties and functions, and shall be revocable by the Governors in their exclusive judgment.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s403",
+              "number": null,
+              "heading": "General duties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s404",
+              "number": null,
+              "heading": "Specific powers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s404a",
+              "number": null,
+              "heading": "Specific limitations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s405",
+              "number": null,
+              "heading": "Printing of illustrations of United States postage stamps",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s406",
+              "number": null,
+              "heading": "Postal services at Armed Forces installations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s407",
+              "number": null,
+              "heading": "International postal arrangements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s408",
+              "number": null,
+              "heading": "International money-order exchanges",
+              "text": "The Postal Service may make arrangements with other governments, with which postal conventions are or may be concluded, for the exchange of sums of money by means of postal orders. It shall fix limitations on the amount which may be so exchanged and the rates of exchange.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s409",
+              "number": null,
+              "heading": "Suits by and against the Postal Service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s410",
+              "number": null,
+              "heading": "Application of other laws",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s411",
+              "number": null,
+              "heading": "Cooperation with other Government agencies",
+              "text": "Executive agencies within the meaning of  and the Government Printing Office are authorized to furnish property, both real and personal, and personal and nonpersonal services to the Postal Service, and the Postal Service is authorized to furnish property and services to them. The furnishing of property and services under this section shall be under such terms and conditions, including reimbursability, as the Postal Service and the head of the agency concerned shall deem appropriate.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s412",
+              "number": null,
+              "heading": "Nondisclosure of lists of names and addresses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s413",
+              "number": null,
+              "heading": "Postal services at diplomatic posts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s414",
+              "number": null,
+              "heading": "Special postage stamps",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s415",
+              "number": null,
+              "heading": "Prohibition on restriction or elimination of services",
+              "text": "The Postal Service may not restrict, eliminate, or adversely affect any service provided by the Postal Service as a result of the payment of any penalty imposed under the Occupational Safety and Health Act of 1970 ( et seq.).",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s416",
+              "number": null,
+              "heading": "Authority to issue semipostals",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptI/ch5",
+          "number": null,
+          "name": "POSTAL REGULATORY COMMISSION",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s501",
+              "number": null,
+              "heading": "Establishment",
+              "text": "The Postal Regulatory Commission is an independent establishment of the executive branch of the Government of the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s502",
+              "number": null,
+              "heading": "Commissioners",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s503",
+              "number": null,
+              "heading": "Rules; regulations; procedures",
+              "text": "The Postal Regulatory Commission shall promulgate rules and regulations and establish procedures, subject to chapters 5 and 7 of title 5, and take any other action they deem necessary and proper to carry out their functions and obligations to the Government of the United States and the people as prescribed under this title. Such rules, regulations, procedures, and actions shall not be subject to any change or supervision by the Postal Service.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s504",
+              "number": null,
+              "heading": "Administration",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s505",
+              "number": null,
+              "heading": "Officer of the Postal Regulatory Commission representing the general public",
+              "text": "The Postal Regulatory Commission shall designate an officer of the Postal Regulatory Commission in all public proceedings (such as developing rules, regulations, and procedures) who shall represent the interests of the general public.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptI/ch6",
+          "number": null,
+          "name": "PRIVATE CARRIAGE OF LETTERS",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s601",
+              "number": null,
+              "heading": "Letters carried out of the mail",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s602",
+              "number": null,
+              "heading": "Foreign letters out of the mails",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s603",
+              "number": null,
+              "heading": "Searches authorized",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s604",
+              "number": null,
+              "heading": "Seizing and detaining letters",
+              "text": "An officer or employee of the Postal Service performing duties related to the inspection of postal matters, a customs officer, or United States marshal or his deputy, may seize at any time, letters and bags, packets, or parcels containing letters which are being carried contrary to law on board any vessel or on any post road. The officer or employee who makes the seizure shall convey the articles seized to the nearest post office, or, by direction of the Postal Service or the Secretary of the Treasury, he may detain them until 2 months after the final determination of all suits and proceedings which may be brought within 6 months after the seizure against any person for sending or carrying the letters.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s605",
+              "number": null,
+              "heading": "Searching vessels for letters",
+              "text": "An officer or employee of the Postal Service performing duties related to the inspection of postal matters, when instructed by the Postal Service to make examinations and seizures, and any customs officer without special instructions shall search vessels for letters which may be on board, or which may have been conveyed contrary to law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s606",
+              "number": null,
+              "heading": "Disposition of seized mail",
+              "text": "Every package or parcel seized by an officer or employee of the Postal Service performing duties related to the inspection of postal matters, a customs officer, or United States marshal or his deputies, in which a letter is unlawfully concealed, shall be forfeited to the United States. The same proceedings may be used to enforce forfeitures as are authorized in respect of goods, wares, and merchandise forfeited for violation of the revenue laws. Laws for the benefit and protection of customs officers making seizures for violating revenue laws apply to officers and employees making seizures for violating the postal laws.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t39/ptII",
+      "number": null,
+      "name": "PERSONNEL",
+      "chapters": [
+        {
+          "id": "/us/usc/t39/ptII/ch10",
+          "number": null,
+          "name": "EMPLOYMENT WITHIN THE POSTAL SERVICE",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s1001",
+              "number": null,
+              "heading": "Appointment and status",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1002",
+              "number": null,
+              "heading": "Political recommendations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1003",
+              "number": null,
+              "heading": "Employment policy",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1004",
+              "number": null,
+              "heading": "Supervisory and other managerial organizations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1005",
+              "number": null,
+              "heading": "Applicability of laws relating to Federal employees",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1006",
+              "number": null,
+              "heading": "Right of transfer",
+              "text": "Officers and employees in the postal career service of the Postal Service shall be eligible for promotion or transfer to any other position in the Postal Service or the executive branch of the Government of the United States for which they are qualified. The authority given by this section shall be used to provide a maximum degree of career promotion opportunities for officers and employees and to insure continued improvement of postal services.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1007",
+              "number": null,
+              "heading": "Seniority for employees in rural service",
+              "text": "Subject to agreements made under chapter 12 of this title, the seniority of an employee of the Postal Service occupying a position whose regular duty involves the collection and delivery of mail on a rural route shall be preserved. Seniority for such employee shall commence on the first day of his service in such a position, or, in the event such an employee transfers to another such position, on the day he enters duty in the other position. Upon initial assignment, such an employee shall be assigned to the least desirable route and shall attain assignment to more desirable routes by seniority. Promotions and assignments for such an employee in such position shall be based on seniority and ability. If ability be sufficient, seniority shall govern.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1008",
+              "number": null,
+              "heading": "Temporary employees or carriers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1009",
+              "number": null,
+              "heading": "Personnel not to receive fees",
+              "text": "An officer or employee of the Postal Service may not receive any fee or perquisite from a patron of the Postal Service on account of the duties performed by virtue of his appointment, except as authorized by law.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1010",
+              "number": null,
+              "heading": "Administration of oaths related to postal inspection matters",
+              "text": "Officers and employees of the Postal Service performing duties related to the inspection of postal matters may administer oaths required or authorized by law or regulation with respect to any matter coming before them in the performance of their official duties.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1011",
+              "number": null,
+              "heading": "Oath of office",
+              "text": "Before entering upon their duties and before receiving any salary, all officers and employees of the Postal Service shall take and subscribe the following oath or affirmation: “I, ________, do solemnly swear (or affirm) that I will support and defend the Constitution of the United States against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same; that I take this obligation freely, without any mental reservation or purpose of evasion; and that I will well and faithfully discharge the duties of the office on which I am about to enter.” A person authorized to administer oaths by the laws of the United States, including , or of a State or territory, or an officer, civil or military, holding a commission under the United States, or any officer or employee of the Postal Service designated by the Board may administer and certify the oath or affirmation.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptII/ch12",
+          "number": null,
+          "name": "EMPLOYEE-MANAGEMENT AGREEMENTS",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s1201",
+              "number": null,
+              "heading": "Definition",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1202",
+              "number": null,
+              "heading": "Bargaining units",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1203",
+              "number": null,
+              "heading": "Recognition of labor organizations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1204",
+              "number": null,
+              "heading": "Elections",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1205",
+              "number": null,
+              "heading": "Deductions of dues",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1206",
+              "number": null,
+              "heading": "Collective-bargaining agreements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1207",
+              "number": null,
+              "heading": "Labor disputes",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1208",
+              "number": null,
+              "heading": "Suits",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s1209",
+              "number": null,
+              "heading": "Applicability of Federal labor laws",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t39/ptIII",
+      "number": null,
+      "name": "MODERNIZATION AND FISCAL ADMINISTRATION",
+      "chapters": [
+        {
+          "id": "/us/usc/t39/ptIII/ch20",
+          "number": null,
+          "name": "FINANCE",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s2001",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2002",
+              "number": null,
+              "heading": "Capital of the Postal Service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2003",
+              "number": null,
+              "heading": "The Postal Service Fund",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2004",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2005",
+              "number": null,
+              "heading": "Obligations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2006",
+              "number": null,
+              "heading": "Relationship between the Treasury and the Postal Service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2007",
+              "number": null,
+              "heading": "Public debt character of the obligations of the Postal Service",
+              "text": "For the purpose of any purchase of the obligations of the Postal Service, the Secretary of the Treasury is authorized to use as a public debt transaction the proceeds from the sale of any securities issued under chapter 31 of title 31, as now or hereafter in force, and the purposes for which securities may be issued under chapter 31 of title 31, as now or hereafter in force, are extended to include any purchases of the obligations of the Postal Service under this chapter. The Secretary of the Treasury may, at any time, sell any of the obligations of the Postal Service acquired by him under this chapter. All redemptions, purchases, and sales by the Secretary of the obligations of the Postal Service shall be treated as public debt transactions of the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2008",
+              "number": null,
+              "heading": "Audit and expenditures",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2009",
+              "number": null,
+              "heading": "Annual budget",
+              "text": "The Postal Service shall cause to be prepared annually a budget program which shall be submitted to the Office of Management and Budget, under such rules and regulations as the President may establish as to the date of submission, the form and content, the classifications of data, and the manner in which such budget program shall be prepared and presented. The budget program shall be a business-type budget, or plan of operations, with due allowance given to the need for flexibility, including provision for emergencies and contingencies, in order that the Postal Service may properly carry out its activities as authorized by law. The budget program shall contain estimates of the financial condition and operations of the Postal Service for the current and ensuing fiscal years and the actual condition and results of operation for the last completed fiscal year. Such budget program shall include a statement of financial condition, a statement of income and expense, an analysis of surplus or deficit, a statement of sources and application of funds, and such other supplementary statements and information as are necessary or desirable to make known the financial condition and operations of the Postal Service. Such statements shall include estimates of operations by major types of activities, together with estimates of administrative expenses and estimates of borrowings. The budget program shall also include separate statements of the amounts which (1) the Postal Service requests to be appropriated under subsections (b) and (c) of section 2401, (2) the Office of Inspector General of the United States Postal Service requests to be appropriated, out of the Postal Service Fund, under section 8G(f) of the Inspector General Act of 1978, and (3) the Postal Regulatory Commission requests to be appropriated, out of the Postal Service Fund, under . The President shall include these amounts, with his recommendations but without revision, in the budget transmitted to Congress under .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2009a",
+              "number": null,
+              "heading": "Budgetary treatment of the Postal Service Fund",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2010",
+              "number": null,
+              "heading": "Restrictions on agreements",
+              "text": "The Postal Service shall promote modern and efficient operations and should refrain from expending any funds, engaging in any practice, or entering into any agreement or contract, other than an agreement or contract under chapter 12 of this title, which restricts the use of new equipment or devices which may reduce the cost or improve the quality of postal services, except where such restriction is necessary to insure safe and healthful employment conditions.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2011",
+              "number": null,
+              "heading": "Provisions relating to competitive products",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptIII/ch22",
+          "number": null,
+          "name": "CONVICT LABOR",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s2201",
+              "number": null,
+              "heading": "No postal equipment or supplies manufactured by convict labor",
+              "text": "Except as provided in chapter 307 of title 18, the Postal Service may not make a contract for the purchase of equipment or supplies to be manufactured by convict labor.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptIII/ch24",
+          "number": null,
+          "name": "APPROPRIATIONS AND ANNUAL REPORT",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s2401",
+              "number": null,
+              "heading": "Appropriations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2402",
+              "number": null,
+              "heading": "Annual report",
+              "text": "The Postmaster General shall render an annual report to the Board concerning the operations of the Postal Service under this title. Upon approval thereof, or after making such changes as it considers appropriate, the Board shall transmit such reports to the President and the Congress.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptIII/ch26",
+          "number": null,
+          "name": "DEBTS AND COLLECTION",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s2601",
+              "number": null,
+              "heading": "Collection and adjustment of debts",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2602",
+              "number": null,
+              "heading": "Transportation of international mail by air carriers of the United States",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2603",
+              "number": null,
+              "heading": "Settlement of claims for damages caused by the Postal Service",
+              "text": "When the Postal Service finds a claim for damage to persons or property resulting from the operation of the Postal Service to be a proper charge against the United States, and it is not cognizable under , it may adjust and settle the claim.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2604",
+              "number": null,
+              "heading": "Delivery of stolen money to owner",
+              "text": "When the Postal Service is satisfied that money or property in the possession of the Postal Service represents money or property stolen from the mails, or the proceeds thereof, it may deliver it to the person it finds to be the rightful owner.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2605",
+              "number": null,
+              "heading": "Suits to recover wrongful or fraudulent payments",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptIII/ch28",
+          "number": null,
+          "name": "STRATEGIC PLANNING AND PERFORMANCE MANAGEMENT",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s2801",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2802",
+              "number": null,
+              "heading": "Strategic plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2803",
+              "number": null,
+              "heading": "Performance plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2804",
+              "number": null,
+              "heading": "Program performance reports",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s2805",
+              "number": null,
+              "heading": "Inherently Governmental functions",
+              "text": "The functions and activities of this chapter shall be considered to be inherently Governmental functions. The drafting of strategic plans, performance plans, and program performance reports under this section shall be performed only by employees of the Postal Service.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t39/ptIV",
+      "number": null,
+      "name": "MAIL MATTER",
+      "chapters": [
+        {
+          "id": "/us/usc/t39/ptIV/ch30",
+          "number": null,
+          "name": "NONMAILABLE MATTER",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s3001",
+              "number": null,
+              "heading": "Nonmailable matter",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3002",
+              "number": null,
+              "heading": "Nonmailable motor vehicle master keys",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3002a",
+              "number": null,
+              "heading": "Nonmailability of locksmithing devices",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3003",
+              "number": null,
+              "heading": "Mail bearing a fictitious name or address",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3004",
+              "number": null,
+              "heading": "Delivery of mail to persons not residents of the place of address",
+              "text": "Whenever the Postal Service determines that letters or parcels sent in the mail are addressed to places not the residence or regular business address of the person for whom they are intended, to enable the person to escape identification, the Postal Service may deliver the mail only upon identification of the person so addressed.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3005",
+              "number": null,
+              "heading": "False representations; lotteries",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3006",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3007",
+              "number": null,
+              "heading": "Detention of mail for temporary periods",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3008",
+              "number": null,
+              "heading": "Prohibition of pandering advertisements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3009",
+              "number": null,
+              "heading": "Mailing of unordered merchandise",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3010",
+              "number": null,
+              "heading": "Mailing of sexually oriented advertisements",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3011",
+              "number": null,
+              "heading": "Judicial enforcement",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3012",
+              "number": null,
+              "heading": "Civil penalties",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3013",
+              "number": null,
+              "heading": "Semiannual reports on investigative activities of the Postal Service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3014",
+              "number": null,
+              "heading": "Nonmailable plants",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3015",
+              "number": null,
+              "heading": "Nonmailable plant pests and injurious animals",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3016",
+              "number": null,
+              "heading": "Administrative subpoenas",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3017",
+              "number": null,
+              "heading": "Nonmailable skill contests or sweepstakes matter; notification to prohibit mailings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3018",
+              "number": null,
+              "heading": "Hazardous material",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptIV/ch32",
+          "number": null,
+          "name": "PENALTY AND FRANKED MAIL",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s3201",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3202",
+              "number": null,
+              "heading": "Penalty mail",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3203",
+              "number": null,
+              "heading": "Endorsements on penalty covers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3204",
+              "number": null,
+              "heading": "Restrictions on use of penalty mail",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3205",
+              "number": null,
+              "heading": "Accounting for penalty covers",
+              "text": "Executive departments and agencies, independent establishments of the Government of the United States, and organizations and persons authorized by law to use penalty mail, shall account for all penalty covers through the Postal Service.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3206",
+              "number": null,
+              "heading": "Reimbursement for penalty mail service",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3207",
+              "number": null,
+              "heading": "Limit of weight of penalty mail; postage on overweight matter",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3208",
+              "number": null,
+              "heading": "Shipment by most economical means",
+              "text": "Shipments of official matter other than franked mail shall be sent by the most economical means of transportation practicable. The Postal Service may refuse to accept official matter for shipment by mail when in its judgment it may be shipped by other means at less expense, or it may provide for its transportation by freight or express whenever a saving to the Government of the United States will result therefrom without detriment to the public service.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3209",
+              "number": null,
+              "heading": "Executive departments to supply information",
+              "text": "Persons and governmental organizations authorized to use penalty mail shall supply all information requested by the Postal Service necessary to carry out the provisions of this chapter as soon as practicable after request therefor.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3210",
+              "number": null,
+              "heading": "Franked mail transmitted by the Vice President, Members of Congress, and congressional officials",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3211",
+              "number": null,
+              "heading": "Public documents",
+              "text": "The Vice President, Members of Congress, the Secretary of the Senate, the Sergeant at Arms of the Senate, each of the elected officers of the House of Representatives (other than a Member of the House) during the 90-day period immediately following the expiration of their respective terms of office, may send and receive as franked mail all public documents printed by order of Congress.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3212",
+              "number": null,
+              "heading": "Congressional Record under frank of Members of Congress",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3213",
+              "number": null,
+              "heading": "Seeds and reports from Department of Agriculture",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3214",
+              "number": null,
+              "heading": "Mailing privilege of former President; surviving spouse of former President",
+              "text": "A former President and the surviving spouse of a former President may send nonpolitical mail within the United States and its territories and possessions as franked mail. Such mail of a former President and of the surviving spouse of a former President marked “Postage and Fees Paid” in the manner prescribed by the Postal Service shall be accepted by the Postal Service for transmission in the international mails.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3215",
+              "number": null,
+              "heading": "Lending or permitting use of frank unlawful",
+              "text": "A person entitled to use a frank may not lend it or permit its use by any committee, organization, or association, or permit its use by any person for the benefit or use of any committee, organization, or association. This section does not apply to any standing, select, special, or joint committee, or subcommittee thereof, or commission, of the Senate, House of Representatives, or Congress, composed of Members of Congress, or to the Democratic caucus or the Republican conference of the House of Representatives or of the Senate.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3216",
+              "number": null,
+              "heading": "Reimbursement for franked mailings",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3217",
+              "number": null,
+              "heading": "Correspondence of members of diplomatic corps and consuls of countries of Postal Union of Americas and Spain",
+              "text": "Correspondence of the members of the diplomatic corps of the countries of the Postal Union of the Americas and Spain stationed in the United States may be reciprocally transmitted in the domestic mails free of postage, and be entitled to free registration without right to indemnity in case of loss. The same privilege is accorded consuls and vice consuls when they are discharging the function of consuls of countries stationed in the United States, for official correspondence among themselves, and with the Government of the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3218",
+              "number": null,
+              "heading": "Franked mail for survivors of Members of Congress",
+              "text": "Upon the death of a Member of Congress during his term of office, the surviving spouse of such Member (or, if there is no surviving spouse, a member of the immediate family of the Member designated by the Secretary of the Senate or the Clerk of the House of Representatives, as appropriate, in accordance with rules and procedures established by the Secretary or the Clerk) may send, for a period not to exceed 180 days after his death, as franked mail, nonpolitical correspondence relating to the death of the Member.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3219",
+              "number": null,
+              "heading": "Mailgrams",
+              "text": "Any Mailgram sent by the Vice President, a Member of or Member-elect to Congress, the Secretary of the Senate, the Sergeant at Arms of the Senate, an elected officer of the House of Representatives (other than a Member of the House), the Legislative Counsel of the House of Representatives or the Senate, the Law Revision Counsel of the House of Representatives, or the Senate Legal Counsel, and then delivered by the Postal Service, shall be considered as franked mail, subject to , if such Mailgram contains matter of the kind authorized to be sent by that official as franked mail under .",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3220",
+              "number": null,
+              "heading": "Use of official mail in the location and recovery of missing children",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptIV/ch34",
+          "number": null,
+          "name": "ARMED FORCES AND FREE POSTAGE",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s3401",
+              "number": null,
+              "heading": "Mailing privileges of members of Armed Forces of the United States and of friendly foreign nations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3402",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3403",
+              "number": null,
+              "heading": "Matter for blind and other handicapped persons",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3404",
+              "number": null,
+              "heading": "Unsealed letters sent by blind or physically handicapped persons",
+              "text": "Unsealed letters sent by a blind person or a person having a physical impairment, as described in , in raised characters or sightsaving type, or in the form of sound recordings, may be mailed free of postage.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3405",
+              "number": null,
+              "heading": "Markings",
+              "text": "All matter relating to blind or other handicapped persons mailed under section 3403 or 3404 of this title, shall bear the words “Free Matter for the Blind or Handicapped”, or words to that effect specified by the Postal Service, in the upper right-hand corner of the address area.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s3406",
+              "number": null,
+              "heading": "Balloting materials under the Uniformed and Overseas Citizens Absentee Voting Act",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptIV/ch36",
+          "number": null,
+          "name": "POSTAL RATES, CLASSES, AND SERVICES",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t39/ptV",
+      "number": null,
+      "name": "TRANSPORTATION OF MAIL",
+      "chapters": [
+        {
+          "id": "/us/usc/t39/ptV/ch50",
+          "number": null,
+          "name": "GENERAL",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s5001",
+              "number": null,
+              "heading": "Provisions for carrying mail",
+              "text": "The Postal Service shall provide for the transportation of mail in accordance with the policies established under section 101(e) and (f) of this title and the provisions of this chapter. Notwithstanding any other provision of this title, the Postal Service may make arrangements on a temporary basis for the transportation of mail when, as determined by the Postal Service, an emergency arises. Such arrangements shall terminate when the emergency ceases and the Postal Service is promptly able to secure transportation services under other provisions of this title.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5002",
+              "number": null,
+              "heading": "Transportation of mail of adjoining countries through the United States",
+              "text": "The Postal Service, with the consent of the President, may make arrangements to allow the mail of countries adjoining the United States to be transported over the territory of the United States from one point in that country to any other point therein, at the expense of the country to which the mail belongs, upon obtaining a like privilege for the transportation of United States mail through the country to which the privilege is granted.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5003",
+              "number": null,
+              "heading": "Establishment of post roads",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5004",
+              "number": null,
+              "heading": "Discontinuance of service on post roads",
+              "text": "The Postal Service may discontinue service on a post road or part thereof when, in its opinion, the public interest so requires.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5005",
+              "number": null,
+              "heading": "Mail transportation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5006",
+              "number": null,
+              "heading": "Lien on compensation of contractor",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5007",
+              "number": null,
+              "heading": "Free transportation of postal employees",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptV/ch52",
+          "number": null,
+          "name": "REPEALED]",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s5201 to 5215",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptV/ch54",
+          "number": null,
+          "name": "TRANSPORTATION OF MAIL BY AIR",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s5401",
+              "number": null,
+              "heading": "Authorization",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5402",
+              "number": null,
+              "heading": "Contracts for transportation of mail by air",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5403",
+              "number": null,
+              "heading": "Fines",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t39/ptV/ch56",
+          "number": null,
+          "name": "TRANSPORTATION OF MAIL BY VESSEL",
+          "sections": [
+            {
+              "id": "/us/usc/t39/s5601",
+              "number": null,
+              "heading": "Sea post service",
+              "text": "The Postal Service may maintain sea post service on ocean vessels conveying mail to and from the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5602",
+              "number": null,
+              "heading": "Termination of contracts for foreign transportation",
+              "text": "Contracts for the transportation of mail by vessel between the United States and a foreign port shall be made subject to cancellation by the Postal Service or the Congress.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5603",
+              "number": null,
+              "heading": "Transportation of mail by vessel as freight or express",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5604",
+              "number": null,
+              "heading": "Fines on ocean carriers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t39/s5605",
+              "number": null,
+              "heading": "Contracts for transportation of mail by vessel",
+              "text": "The Postal Service may contract for the transportation of mail by vessel without advertising for bids.",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

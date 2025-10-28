@@ -6,11 +6,9 @@ import { RiHome4Fill } from 'react-icons/ri'; // Home icon
 const Breadcrumb = () => {
   return (
     <nav className={styles.breadcrumbNav}>
-      <Link href="/" passHref>
-        <div className={styles.breadcrumbLink}>
-          <RiHome4Fill className={styles.breadcrumbIcon} />
-          <span>Home</span>
-        </div>
+      <Link href="/" className={styles.breadcrumbLink}>
+        <RiHome4Fill className={styles.breadcrumbIcon} />
+        <span>Home</span>
       </Link>
     </nav>
   );

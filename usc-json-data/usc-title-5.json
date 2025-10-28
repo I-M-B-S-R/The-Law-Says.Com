@@ -1,0 +1,621 @@
+{
+  "id": 5,
+  "name": "Government Organization and Employees",
+  "chapters": [],
+  "subtitles": [],
+  "parts": [
+    {
+      "id": "/us/usc/t5/ptI",
+      "number": null,
+      "name": "THE AGENCIES GENERALLY",
+      "chapters": [
+        {
+          "id": "/us/usc/t5/ptI/ch1",
+          "number": null,
+          "name": "ORGANIZATION",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s101",
+              "number": null,
+              "heading": "Executive departments",
+              "text": "The Executive departments are: The Department of State. The Department of the Treasury. The Department of Defense. The Department of Justice. The Department of the Interior. The Department of Agriculture. The Department of Commerce. The Department of Labor. The Department of Health and Human Services. The Department of Housing and Urban Development. The Department of Transportation. The Department of Energy. The Department of Education. The Department of Veterans Affairs. The Department of Homeland Security.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s102",
+              "number": null,
+              "heading": "Military departments",
+              "text": "The military departments are: The Department of the Army. The Department of the Navy. The Department of the Air Force.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s103",
+              "number": null,
+              "heading": "Government corporation",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s104",
+              "number": null,
+              "heading": "Independent establishment",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s105",
+              "number": null,
+              "heading": "Executive agency",
+              "text": "For the purpose of this title, “Executive agency” means an Executive department, a Government corporation, and an independent establishment.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t5/ptI/ch3",
+          "number": null,
+          "name": "POWERS",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s301",
+              "number": null,
+              "heading": "Departmental regulations",
+              "text": "The head of an Executive department or military department may prescribe regulations for the government of his department, the conduct of its employees, the distribution and performance of its business, and the custody, use, and preservation of its records, papers, and property. This section does not authorize withholding information from the public or limiting the availability of records to the public.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s302",
+              "number": null,
+              "heading": "Delegation of authority",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s303",
+              "number": null,
+              "heading": "Oaths to witnesses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s304",
+              "number": null,
+              "heading": "Subpenas",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s305",
+              "number": null,
+              "heading": "Systematic agency review of operations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s306",
+              "number": null,
+              "heading": "Agency strategic plans",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t5/ptI/ch5",
+          "number": null,
+          "name": "ADMINISTRATIVE PROCEDURE",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t5/ptI/ch6",
+          "number": null,
+          "name": "THE ANALYSIS OF REGULATORY FUNCTIONS",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s601",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s602",
+              "number": null,
+              "heading": "Regulatory agenda",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s603",
+              "number": null,
+              "heading": "Initial regulatory flexibility analysis",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s604",
+              "number": null,
+              "heading": "Final regulatory flexibility analysis",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s605",
+              "number": null,
+              "heading": "Avoidance of duplicative or unnecessary analyses",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s606",
+              "number": null,
+              "heading": "Effect on other law",
+              "text": "The requirements of sections 603 and 604 of this title do not alter in any manner standards otherwise applicable by law to agency action.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s607",
+              "number": null,
+              "heading": "Preparation of analyses",
+              "text": "In complying with the provisions of sections 603 and 604 of this title, an agency may provide either a quantifiable or numerical description of the effects of a proposed rule or alternatives to the proposed rule, or more general descriptive statements if quantification is not practicable or reliable.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s608",
+              "number": null,
+              "heading": "Procedure for waiver or delay of completion",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s609",
+              "number": null,
+              "heading": "Procedures for gathering comments",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s610",
+              "number": null,
+              "heading": "Periodic review of rules",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s611",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s612",
+              "number": null,
+              "heading": "Reports and intervention rights",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t5/ptI/ch7",
+          "number": null,
+          "name": "JUDICIAL REVIEW",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s701",
+              "number": null,
+              "heading": "Application; definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s702",
+              "number": null,
+              "heading": "Right of review",
+              "text": "A person suffering legal wrong because of agency action, or adversely affected or aggrieved by agency action within the meaning of a relevant statute, is entitled to judicial review thereof. An action in a court of the United States seeking relief other than money damages and stating a claim that an agency or an officer or employee thereof acted or failed to act in an official capacity or under color of legal authority shall not be dismissed nor relief therein be denied on the ground that it is against the United States or that the United States is an indispensable party. The United States may be named as a defendant in any such action, and a judgment or decree may be entered against the United States:  That any mandatory or injunctive decree shall specify the Federal officer or officers (by name or by title), and their successors in office, personally responsible for compliance. Nothing herein (1) affects other limitations on judicial review or the power or duty of the court to dismiss any action or deny relief on any other appropriate legal or equitable ground; or (2) confers authority to grant relief if any other statute that grants consent to suit expressly or impliedly forbids the relief which is sought.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s703",
+              "number": null,
+              "heading": "Form and venue of proceeding",
+              "text": "The form of proceeding for judicial review is the special statutory review proceeding relevant to the subject matter in a court specified by statute or, in the absence or inadequacy thereof, any applicable form of legal action, including actions for declaratory judgments or writs of prohibitory or mandatory injunction or habeas corpus, in a court of competent jurisdiction. If no special statutory review proceeding is applicable, the action for judicial review may be brought against the United States, the agency by its official title, or the appropriate officer. Except to the extent that prior, adequate, and exclusive opportunity for judicial review is provided by law, agency action is subject to judicial review in civil or criminal proceedings for judicial enforcement.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s704",
+              "number": null,
+              "heading": "Actions reviewable",
+              "text": "Agency action made reviewable by statute and final agency action for which there is no other adequate remedy in a court are subject to judicial review. A preliminary, procedural, or intermediate agency action or ruling not directly reviewable is subject to review on the review of the final agency action. Except as otherwise expressly required by statute, agency action otherwise final is final for the purposes of this section whether or not there has been presented or determined an application for a declaratory order, for any form of reconsideration, or, unless the agency otherwise requires by rule and provides that the action meanwhile is inoperative, for an appeal to superior agency authority.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s705",
+              "number": null,
+              "heading": "Relief pending review",
+              "text": "When an agency finds that justice so requires, it may postpone the effective date of action taken by it, pending judicial review. On such conditions as may be required and to the extent necessary to prevent irreparable injury, the reviewing court, including the court to which a case may be taken on appeal from or on application for certiorari or other writ to a reviewing court, may issue all necessary and appropriate process to postpone the effective date of an agency action or to preserve status or rights pending conclusion of the review proceedings.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s706",
+              "number": null,
+              "heading": "Scope of review",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t5/ptI/ch8",
+          "number": null,
+          "name": "CONGRESSIONAL REVIEW OF AGENCY RULEMAKING",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s801",
+              "number": null,
+              "heading": "Congressional review",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s802",
+              "number": null,
+              "heading": "Congressional disapproval procedure",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s803",
+              "number": null,
+              "heading": "Special rule on statutory, regulatory, and judicial deadlines",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s804",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s805",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "No determination, finding, action, or omission under this chapter shall be subject to judicial review.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s806",
+              "number": null,
+              "heading": "Applicability; severability",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s807",
+              "number": null,
+              "heading": "Exemption for monetary policy",
+              "text": "Nothing in this chapter shall apply to rules that concern monetary policy proposed or implemented by the Board of Governors of the Federal Reserve System or the Federal Open Market Committee.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s808",
+              "number": null,
+              "heading": "Effective date of certain rules",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t5/ptI/ch9",
+          "number": null,
+          "name": "EXECUTIVE REORGANIZATION",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s901",
+              "number": null,
+              "heading": "Purpose",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s902",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s903",
+              "number": null,
+              "heading": "Reorganization plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s904",
+              "number": null,
+              "heading": "Additional contents of reorganization plan",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s905",
+              "number": null,
+              "heading": "Limitation on powers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s906",
+              "number": null,
+              "heading": "Effective date and publication of reorganization plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s907",
+              "number": null,
+              "heading": "Effect on other laws, pending legal proceedings, and unexpended appropriations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s908",
+              "number": null,
+              "heading": "Rules of Senate and House of Representatives on reorganization plans",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s909",
+              "number": null,
+              "heading": "Terms of resolution",
+              "text": "For the purpose of sections 908 through 912 of this title, “resolution” means only a joint resolution of the Congress, the matter after the resolving clause of which is as follows: “That the Congress approves the reorganization plan numbered      transmitted to the Congress by the President on   , 19  .”, and includes such modifications and revisions as are submitted by the President under section 903(c) of this chapter. The blank spaces therein are to be filled appropriately. The term does not include a resolution which specifies more than one reorganization plan.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s910",
+              "number": null,
+              "heading": "Introduction and reference of resolution",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s911",
+              "number": null,
+              "heading": "Discharge of committee considering resolution",
+              "text": "If the committee to which is referred a resolution introduced pursuant to subsection (a) of section 910 (or, in the absence of such a resolution, the first resolution introduced with respect to the same reorganization plan) has not reported such resolution or identical resolution at the end of 75 calendar days of continuous session of Congress after its introduction, such committee shall be deemed to be discharged from further consideration of such resolution and such resolution shall be placed on the appropriate calendar of the House involved.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s912",
+              "number": null,
+              "heading": "Procedure after report or discharge of committee; debate; vote on final passage",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s913",
+              "number": null,
+              "heading": "Omitted]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t5/ptII",
+      "number": null,
+      "name": "CIVIL SERVICE FUNCTIONS AND RESPONSIBILITIES",
+      "chapters": [
+        {
+          "id": "/us/usc/t5/ptII/ch11",
+          "number": null,
+          "name": "OFFICE OF PERSONNEL MANAGEMENT",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s1101",
+              "number": null,
+              "heading": "Office of Personnel Management",
+              "text": "The Office of Personnel Management is an independent establishment in the executive branch. The Office shall have an official seal, which shall be judicially noticed, and shall have its principal office in the District of Columbia, and may have field offices in other appropriate locations.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1102",
+              "number": null,
+              "heading": "Director; Deputy Director; Associate Directors",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1103",
+              "number": null,
+              "heading": "Functions of the Director",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1104",
+              "number": null,
+              "heading": "Delegation of authority for personnel management",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1105",
+              "number": null,
+              "heading": "Administrative procedure",
+              "text": "Subject to , in the exercise of the functions assigned under this chapter, the Director shall be subject to subsections (b), (c), and (d) of , notwithstanding subsection (a) of such section 553.",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t5/ptII/ch12",
+          "number": null,
+          "name": "MERIT SYSTEMS PROTECTION BOARD, OFFICE OF SPECIAL COUNSEL, AND EMPLOYEE RIGHT OF ACTION",
+          "sections": []
+        },
+        {
+          "id": "/us/usc/t5/ptII/ch13",
+          "number": null,
+          "name": "SPECIAL AUTHORITY",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s1301",
+              "number": null,
+              "heading": "Rules",
+              "text": "The Office of Personnel Management shall aid the President, as he may request, in preparing the rules he prescribes under this title for the administration of the competitive service.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1302",
+              "number": null,
+              "heading": "Regulations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1303",
+              "number": null,
+              "heading": "Investigations; reports",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1304",
+              "number": null,
+              "heading": "Loyalty investigations; reports; revolving fund",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1305",
+              "number": null,
+              "heading": "Administrative law judges",
+              "text": "For the purpose of sections 3105, 3344, 4301(2)(D), and 5372 of this title and the provisions of  that relate to administrative law judges, the Office of Personnel Management may, and for the purpose of , the Merit Systems Protection Board may investigate, prescribe regulations, appoint advisory committees as necessary, recommend legislation, subpena witnesses and records, and pay witness fees as established for the courts of the United States.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1306",
+              "number": null,
+              "heading": "Oaths to witnesses",
+              "text": "The Director of the Office of Personnel Management and authorized representatives of the Director may administer oaths to witnesses in matters pending before the Office.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1307",
+              "number": null,
+              "heading": "Minutes",
+              "text": "The Civil Service Commission shall keep minutes of its proceedings.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1308",
+              "number": null,
+              "heading": "Repealed. , , ]",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t5/ptII/ch14",
+          "number": null,
+          "name": "AGENCY CHIEF HUMAN CAPITAL OFFICERS",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s1401",
+              "number": null,
+              "heading": "Establishment of agency Chief Human Capital Officers",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1402",
+              "number": null,
+              "heading": "Authority and functions of agency Chief Human Capital Officers",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "id": "/us/usc/t5/ptII/ch15",
+          "number": null,
+          "name": "POLITICAL ACTIVITY OF CERTAIN STATE AND LOCAL EMPLOYEES",
+          "sections": [
+            {
+              "id": "/us/usc/t5/s1501",
+              "number": null,
+              "heading": "Definitions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1502",
+              "number": null,
+              "heading": "Influencing elections; taking part in political campaigns; prohibitions; exceptions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1503",
+              "number": null,
+              "heading": "Nonpartisan candidacies permitted",
+              "text": "does not prohibit any State or local officer or employee from being a candidate in any election if none of the candidates is to be nominated or elected at such election as representing a party any of whose candidates for Presidential elector received votes in the last preceding election at which Presidential electors were selected.",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1504",
+              "number": null,
+              "heading": "Investigations; notice of hearing",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1505",
+              "number": null,
+              "heading": "Hearings; adjudications; notice of determinations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1506",
+              "number": null,
+              "heading": "Orders; withholding loans or grants; limitations",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1507",
+              "number": null,
+              "heading": "Subpenas and depositions",
+              "text": "",
+              "subsections": []
+            },
+            {
+              "id": "/us/usc/t5/s1508",
+              "number": null,
+              "heading": "Judicial review",
+              "text": "",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t5/ptIII",
+      "number": null,
+      "name": "EMPLOYEES",
+      "chapters": []
+    }
+  ]
+}

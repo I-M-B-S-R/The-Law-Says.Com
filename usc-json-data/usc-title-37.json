@@ -1,0 +1,993 @@
+{
+  "id": 37,
+  "name": "Pay and Allowances of the Uniformed Services",
+  "chapters": [
+    {
+      "id": "/us/usc/t37/ch1",
+      "number": null,
+      "name": "DEFINITIONS",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s101",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t37/ch3",
+      "number": null,
+      "name": "BASIC PAY",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s201",
+          "number": null,
+          "heading": "Pay grades: assignment to; general rules",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s202",
+          "number": null,
+          "heading": "Pay grades: retired Coast Guard rear admirals (lower half)",
+          "text": "An officer of the Coast Guard holding a permanent appointment in the grade of rear admiral (lower half) on the retired list, and who in time of war or national emergency has served satisfactorily on active duty for two years in that grade or in a higher grade, is entitled when on active duty to the basic pay of a rear admiral.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s203",
+          "number": null,
+          "heading": "Rates",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s204",
+          "number": null,
+          "heading": "Entitlement",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s205",
+          "number": null,
+          "heading": "Computation: service creditable",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s206",
+          "number": null,
+          "heading": "Reserves; members of National Guard: inactive-duty training",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s207",
+          "number": null,
+          "heading": "Band leaders",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s208",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s209",
+          "number": null,
+          "heading": "Members of precommissioning programs",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s210",
+          "number": null,
+          "heading": "Pay of senior enlisted members during terminal leave and while hospitalized",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s211",
+          "number": null,
+          "heading": "Participation in Thrift Savings Plan",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s212",
+          "number": null,
+          "heading": "Advancement of basic pay: members deployed in combat zone for more than one year",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t37/ch5",
+      "number": null,
+      "name": "SPECIAL AND INCENTIVE PAYS",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t37/ch7",
+      "number": null,
+      "name": "ALLOWANCES OTHER THAN TRAVEL AND TRANSPORTATION ALLOWANCES",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s401",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s402",
+          "number": null,
+          "heading": "Basic allowance for subsistence",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s402a",
+          "number": null,
+          "heading": "Supplemental subsistence allowance for low-income members with dependents",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s403",
+          "number": null,
+          "heading": "Basic allowance for housing",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s403a",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s403b",
+          "number": null,
+          "heading": "Cost-of-living allowance in the continental United States",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s404",
+          "number": null,
+          "heading": "Renumbered § 474]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s404a",
+          "number": null,
+          "heading": "Renumbered § 474a]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s404b",
+          "number": null,
+          "heading": "Renumbered § 474b]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s405",
+          "number": null,
+          "heading": "Renumbered § 475]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s405a",
+          "number": null,
+          "heading": "Renumbered § 475a]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s406",
+          "number": null,
+          "heading": "Renumbered § 476]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s406a",
+          "number": null,
+          "heading": "Renumbered § 476a]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s406b",
+          "number": null,
+          "heading": "Renumbered § 476b]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s406c",
+          "number": null,
+          "heading": "Renumbered § 476c]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s407",
+          "number": null,
+          "heading": "Renumbered § 477]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s408",
+          "number": null,
+          "heading": "Renumbered § 478]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s408a",
+          "number": null,
+          "heading": "Renumbered § 478a]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s409",
+          "number": null,
+          "heading": "Renumbered § 479]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s410",
+          "number": null,
+          "heading": "Renumbered § 480]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411",
+          "number": null,
+          "heading": "Renumbered § 481]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411a",
+          "number": null,
+          "heading": "Renumbered § 481a]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411b",
+          "number": null,
+          "heading": "Renumbered § 481b]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411c",
+          "number": null,
+          "heading": "Renumbered § 481c]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411d",
+          "number": null,
+          "heading": "Renumbered § 481d]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411e",
+          "number": null,
+          "heading": "Renumbered § 481e]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411f",
+          "number": null,
+          "heading": "Renumbered § 481f]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411g",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411h",
+          "number": null,
+          "heading": "Renumbered § 481h]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411i",
+          "number": null,
+          "heading": "Renumbered § 481i]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411j",
+          "number": null,
+          "heading": "Renumbered § 481j]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411k",
+          "number": null,
+          "heading": "Renumbered § 481k]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s411l",
+          "number": null,
+          "heading": "Renumbered § 481l]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s412",
+          "number": null,
+          "heading": "Renumbered § 455]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s413",
+          "number": null,
+          "heading": "Chairman and Vice Chairman of the Joint Chiefs of Staff",
+          "text": "The Chairman and Vice Chairman of the Joint Chiefs of Staff are entitled to the allowances provided by law for the Chief of Staff of the Army.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s414",
+          "number": null,
+          "heading": "Personal money allowance",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s415",
+          "number": null,
+          "heading": "Uniform allowance: officers; initial allowance",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s416",
+          "number": null,
+          "heading": "Uniform allowance: officers; additional allowances",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s417",
+          "number": null,
+          "heading": "Uniform allowance: officers; general provisions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s418",
+          "number": null,
+          "heading": "Clothing allowance: enlisted members",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s419",
+          "number": null,
+          "heading": "Civilian clothing allowance",
+          "text": "Under regulations prescribed by the Secretary of Defense, an officer of an armed force who is assigned to a permanent duty station at a location outside the United States may be paid a civilian clothing allowance in such amount as the Secretary shall determine under regulations if such officer is required to wear civilian clothing all or a substantial portion of the time in the performance of the officer’s official duties. A clothing allowance under this section is in addition to any uniform allowance to which an officer is otherwise entitled under this title.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s420",
+          "number": null,
+          "heading": "Allowances while participating in international sports",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s421",
+          "number": null,
+          "heading": "Allowances: no increase while dependent is entitled to basic pay",
+          "text": "A member of a uniformed service may not be paid an increased allowance under this chapter, on account of a dependent, for any period during which that dependent is entitled to basic pay under .",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s422",
+          "number": null,
+          "heading": "Cadets and midshipmen",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s423",
+          "number": null,
+          "heading": "Validity of allowance payments based on purported marriages",
+          "text": "A payment of an allowance, based on a purported marriage, that is made under this chapter, under the Career Compensation Act of 1949, or under the Pay Readjustment Act of 1942, before judicial annulment or termination of that marriage, is valid, if a court of competent jurisdiction adjudges or decrees that the marriage was entered into in good faith on the part of the spouse who is a member of a uniformed service or if, in the absence of such a judgment or decree, such a finding of good faith is made by the Secretary concerned or by a person designated by him to investigate the matter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s424",
+          "number": null,
+          "heading": "Band leaders",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s425",
+          "number": null,
+          "heading": "United States Navy Band; United States Marine Corps Band: allowances while on concert tour",
+          "text": "While on concert tours approved by the President, the members of the United States Navy Band and the United States Marine Corps Band do not forfeit allowances.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s426",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s427",
+          "number": null,
+          "heading": "Family separation allowance",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s428",
+          "number": null,
+          "heading": "Renumbered § 488]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s429",
+          "number": null,
+          "heading": "Renumbered § 489]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s430",
+          "number": null,
+          "heading": "Renumbered § 490]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s431",
+          "number": null,
+          "heading": "Transferred]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s432",
+          "number": null,
+          "heading": "Renumbered § 492]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s433",
+          "number": null,
+          "heading": "Allowance for muster duty",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s433a",
+          "number": null,
+          "heading": "Allowance for participation in Ready Reserve screening",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s434",
+          "number": null,
+          "heading": "Renumbered § 494]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s435",
+          "number": null,
+          "heading": "Renumbered § 495]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s436",
+          "number": null,
+          "heading": "High-deployment allowance: lengthy or numerous deployments; frequent mobilizations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s437",
+          "number": null,
+          "heading": "Allowance to cover monthly premium for Servicemembers’ Group Life Insurance: members serving in Operation Enduring Freedom or Operation Iraqi Freedom",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s438",
+          "number": null,
+          "heading": "Preventive health services allowance",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s439",
+          "number": null,
+          "heading": "Special compensation: members of the uniformed services with catastrophic injuries or illnesses requiring assistance in everyday living",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t37/ch8",
+      "number": null,
+      "name": "TRAVEL AND TRANSPORTATION ALLOWANCES",
+      "sections": []
+    },
+    {
+      "id": "/us/usc/t37/ch9",
+      "number": null,
+      "name": "LEAVE",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s501",
+          "number": null,
+          "heading": "Payments for unused accrued leave",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s502",
+          "number": null,
+          "heading": "Absences due to sickness, wounds, and certain other causes",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s503",
+          "number": null,
+          "heading": "Absence without leave or over leave",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s504",
+          "number": null,
+          "heading": "Cadets and midshipmen: chapter does not apply to",
+          "text": "This chapter does not apply to cadets at the United States Military Academy, the United States Air Force Academy, the Coast Guard Academy, midshipmen at the United States Naval Academy, or cadets or midshipmen serving elsewhere in the armed forces.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t37/ch10",
+      "number": null,
+      "name": "PAYMENTS TO MISSING PERSONS",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s551",
+          "number": null,
+          "heading": "Definitions",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s552",
+          "number": null,
+          "heading": "Pay and allowances; continuance while in a missing status; limitations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s553",
+          "number": null,
+          "heading": "Allotments; continuance, suspension, initiation, resumption, or increase while in a missing status; limitations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s554",
+          "number": null,
+          "heading": "Renumbered § 484]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s555",
+          "number": null,
+          "heading": "Secretarial review",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s556",
+          "number": null,
+          "heading": "Secretarial determinations",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s557",
+          "number": null,
+          "heading": "Settlement of accounts",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s558",
+          "number": null,
+          "heading": "Income tax deferment",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s559",
+          "number": null,
+          "heading": "Benefits for members held as captives",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t37/ch11",
+      "number": null,
+      "name": "PAYMENTS TO MENTALLY INCOMPETENT PERSONS",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s601",
+          "number": null,
+          "heading": "Applicability",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s602",
+          "number": null,
+          "heading": "Payments: designation of person to receive amounts due",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s603",
+          "number": null,
+          "heading": "Regulations",
+          "text": "The Secretary concerned and the Secretary of Veterans Affairs shall prescribe regulations necessary to carry out this chapter.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s604",
+          "number": null,
+          "heading": "Determination of Secretary final",
+          "text": "The determination as to the person authorized to receive a payment under  is final and is not subject to review by an official of the United States or a court.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t37/ch13",
+      "number": null,
+      "name": "ALLOTMENTS AND ASSIGNMENTS OF PAY",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s701",
+          "number": null,
+          "heading": "Members of the Army, Navy, Air Force, and Marine Corps; contract surgeons",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s702",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s703",
+          "number": null,
+          "heading": "Allotments: members of Coast Guard",
+          "text": "Members of the Coast Guard may, under regulations prescribed by the Secretary of Homeland Security, make allotments from their pay and allowances.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s704",
+          "number": null,
+          "heading": "Allotments: officers of Public Health Service",
+          "text": "Commissioned officers of the Public Health Service who are on active duty may, under regulations prescribed by the President, make allotments from their pay.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s705",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s706",
+          "number": null,
+          "heading": "Allotments: commissioned officers of the National Oceanic and Atmospheric Administration",
+          "text": "Under regulations prescribed by the Secretary of Commerce, commissioned officers of the National Oceanic and Atmospheric Administration may make allotments or assignments of their pay.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s707",
+          "number": null,
+          "heading": "Allotments: members of the National Guard",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t37/ch15",
+      "number": null,
+      "name": "PROHIBITIONS AND PENALTIES",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s801",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s802",
+          "number": null,
+          "heading": "Forfeiture of pay during absence from duty due to disease from intemperate use of alcohol or drugs",
+          "text": "A member of the Army, Navy, Air Force, or Marine Corps, on active duty who is absent from his regular duties for a continuous period of more than one day because of disease that is directly caused by and immediately follows his intemperate use of alcoholic liquor or habit-forming drugs is not entitled to pay for the period of that absence. However, a member whose pay is forfeited for more than one month is entitled to $5 for personal expenses for each full month that his pay is forfeited. Determinations of periods and causes of absence under this section shall be made as prescribed by the Secretary concerned, and are final.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s803",
+          "number": null,
+          "heading": "Commissioned officers of Army or Air Force: forfeiture of pay when dropped from rolls",
+          "text": "A commissioned officer of the Army or the Air Force who is dropped from the rolls under  for absence without authority for three months forfeits all pay due or to become due.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s804",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s805",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t37/ch17",
+      "number": null,
+      "name": "MISCELLANEOUS RIGHTS AND BENEFITS",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s901",
+          "number": null,
+          "heading": "Wartime pay of officer of armed force exercising command higher than his grade",
+          "text": "In time of war, an officer of an armed force who is serving with troops operating against an enemy and who exercises, under assignment in orders issued by competent authority, a command above that pertaining to his grade, is entitled to the pay and allowances (not above that of pay grade O–7) appropriate to the command so exercised.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s902",
+          "number": null,
+          "heading": "Pay of crews of wrecked or lost naval vessels",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s903",
+          "number": null,
+          "heading": "Retired members recalled to active duty; former members",
+          "text": "A retired member or former member of a uniformed service, or a member of the Fleet Reserve or Fleet Marine Corps Reserve, who is serving on active duty is entitled to the pay and allowances to which he is entitled, under this title, for the grade, rank, or rating in which he is serving. In addition, while on active duty, he is entitled to the pay and allowances, while on leave of absence or while sick, of a member of a uniformed service of similar grade, rank, or rating who is entitled to basic pay.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s904",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s905",
+          "number": null,
+          "heading": "Reserve officers of the Navy or Marine Corps not on the active-duty list: effective date of pay and allowances",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s906",
+          "number": null,
+          "heading": "Extension of enlistment: effect on pay and allowances",
+          "text": "A member of the Army, Navy, Air Force, Marine Corps, or Coast Guard, as the case may be, who extends his enlistment under  is entitled to the same pay and allowances as though he had reenlisted. For the purposes of determining entitlement to reenlistment bonus or to travel and transportation allowances upon discharge, all such extensions of an enlistment are considered one continuous extension.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s907",
+          "number": null,
+          "heading": "Enlisted members and warrant officers appointed as officers: pay and allowances stabilized",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s908",
+          "number": null,
+          "heading": "Employment of reserves and retired members by foreign governments",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s909",
+          "number": null,
+          "heading": "Special and incentive pay: payment at unreduced rates during suspension of personnel laws",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s910",
+          "number": null,
+          "heading": "Replacement of lost income: involuntarily mobilized reserve component members subject to extended and frequent active duty service",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "/us/usc/t37/ch19",
+      "number": null,
+      "name": "ADMINISTRATION",
+      "sections": [
+        {
+          "id": "/us/usc/t37/s1001",
+          "number": null,
+          "heading": "Regulations relating to pay and allowances",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1002",
+          "number": null,
+          "heading": "Additional training or duty without pay: Reserves and members of National Guard",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1003",
+          "number": null,
+          "heading": "Assimilation of pay and allowances",
+          "text": "Chapters 3 and 5 and sections 402–403b, 474–477, 479–481, and 414 of this title apply equally to persons who are not serving as members of a uniformed service but whose pay or allowances, or both, are assimilated under law or a regulation prescribed under law, to the pay or allowances, or both, of commissioned officers, warrant officers, or enlisted members of any grade, rank, or rating in any uniformed service.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1004",
+          "number": null,
+          "heading": "Computation of pay and allowances for month or part of month",
+          "text": "A member of a uniformed service who is entitled to pay and allowances under this title for a continuous period of less than one month is entitled to his pay and allowances for each day of that period at the rate of ⁄ of the monthly amount of his pay and allowances. The thirty-first day of a calendar month may not be excluded from a computation under this section.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1005",
+          "number": null,
+          "heading": "Army and Air Force: prompt payments required",
+          "text": "Members of the Army and of the Air Force shall be paid at such times that arrears will at no time be more than two months, unless circumstances make further arrears unavoidable.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1006",
+          "number": null,
+          "heading": "Advance payments",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1007",
+          "number": null,
+          "heading": "Deductions from pay",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1008",
+          "number": null,
+          "heading": "Presidential recommendations concerning adjustments and changes in pay and allowances",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1009",
+          "number": null,
+          "heading": "Adjustments of monthly basic pay",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1010",
+          "number": null,
+          "heading": "Commissioned officers: promotions; effective date for pay and allowances",
+          "text": "An officer of a uniformed service who is promoted to a grade above second lieutenant or ensign is entitled to the pay and allowances of the grade to which promoted on the effective date of the promotion.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1011",
+          "number": null,
+          "heading": "Mess operation: reimbursement of expenses",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1012",
+          "number": null,
+          "heading": "Disbursement and accounting: pay of enlisted members of the National Guard",
+          "text": "Amounts appropriated for the pay, under subsections (a), (b), and (d) of section 206, section 301(f), section 402(e), and , of enlisted members of the Army National Guard of the United States or the Air National Guard of the United States for attending regular periods of duty and instruction shall be disbursed and accounted for by the Secretary of Defense. All such disbursements shall be made for 3-month periods for units of the Army National Guard or Air National Guard under regulations prescribed by the Secretary of Defense, and on pay rolls prepared and authenticated as prescribed in those regulations.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1013",
+          "number": null,
+          "heading": "Payment of compensation for victims of terrorism",
+          "text": "Any benefit or payment pursuant to , or section 1032 or 1095a or chapter 110 of title 10, shall be paid out of funds available to the Secretary concerned for military personnel.",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1014",
+          "number": null,
+          "heading": "Payment date for pay and allowances",
+          "text": "",
+          "subsections": []
+        },
+        {
+          "id": "/us/usc/t37/s1015",
+          "number": null,
+          "heading": "Repealed. , , ]",
+          "text": "",
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "subtitles": [],
+  "parts": []
+}
