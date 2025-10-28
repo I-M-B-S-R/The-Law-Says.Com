@@ -25,8 +25,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
-.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
 .vercel
@@ -35,22 +37,27 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# firebase
-.firebase
-firebase-debug.log
-firestore.rules.bak
-
-# custom scripts & data
-*.js
-*.json
-*.md
-*.mjs
-*.html
-*.css
-*.zip
-*.png
-*.svg
-*.xml
-usc-xml-data/
+# studio-specific
+.firebase/
+USC-DOWNLOAD-README.md
+USC-FILE-STRUCTURE.md
+USC-IMPLEMENTATION.md
+USC-QUICK-START.md
+download-from-github.js
+download-usc-github.js
+download-usc.js
+integrate-usc-data.js
+jsconfig.json
+next.config.js
+parse-usc.js
+postcss.config.mjs
+public/
+scrape-usc-chapters.js
+src/data/
+test-bulk-download.js
+test-download.js
+test-url-formats.js
+usc-chapters-data.js
+usc-chapters-data.json
 usc-json-data/
-New Text Document.txt
+usc-xml-data/
