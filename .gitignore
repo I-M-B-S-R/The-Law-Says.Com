@@ -37,27 +37,44 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# studio-specific
+# firebase
 .firebase/
-USC-DOWNLOAD-README.md
-USC-FILE-STRUCTURE.md
-USC-IMPLEMENTATION.md
-USC-QUICK-START.md
-download-from-github.js
-download-usc-github.js
-download-usc.js
-integrate-usc-data.js
+firebase.json
+.firebaserc
+firestore.rules
+firestore.indexes.json
+database.rules.json
+storage.rules
+
+#temp files
+temp/
+*.tmp
+*.bak
+*.swp
+
+# data files
+usc-xml-data/
+usc-json-data/
+title*-raw.xml
+usc-chapters-data.json
+
+# scripts
+download-*.js
+integrate-*.js
+parse-*.js
+scrape-*.js
+test-*.js
+uploader.js
+url-adder.js
+content-fetcher.js
+generate-*.js
+
+# other generated files
+New Text Document.txt
+USC-*.md
+ARS-DATA-README.md
+laws.xml
 jsconfig.json
-next.config.js
-parse-usc.js
 postcss.config.mjs
 public/
-scrape-usc-chapters.js
-src/data/
-test-bulk-download.js
-test-download.js
-test-url-formats.js
-usc-chapters-data.js
-usc-chapters-data.json
-usc-json-data/
-usc-xml-data/
+pages/
