@@ -38,7 +38,7 @@ export default function LanguageSelectPage() {
 
   return (
     <div className="flex h-screen flex-col items-center justify-center bg-black p-4">
-      <div className="flex h-[90vh] w-full max-w-sm flex-col bg-background shadow-2xl">
+      <div className="flex h-[90svh] w-full max-w-sm flex-col bg-background shadow-2xl">
         <header className="flex-shrink-0 rounded-t-2xl border-x-2 border-t-2 border-b-2 border-destructive bg-muted p-2 text-center text-3xl font-bold text-destructive-foreground shadow-md">
           <Link href="/">The-Law-Says.Com</Link>
         </header>
