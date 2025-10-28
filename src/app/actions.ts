@@ -38,10 +38,11 @@ export async function translateTextAction(values: TranslateTextInput) {
         const result = await translateText(validatedInput);
         return { success: true, data: result };
     } catch (error) {
+        console.error('Error translating text:', error);
         if (error instanceof z.ZodError) {
             return { success: false, error: error.errors.map(e => e.message).join(', ') };
         }
-        console.error('Error translating text:', error);
-        return { success: false, error: 'An unexpected error occurred. Please try again.' };
+        const errorMessage = error instanceof Error ? error.message : 'An unexpected error occurred during translation.';
+        return { success: false, error: errorMessage };
     }
 }

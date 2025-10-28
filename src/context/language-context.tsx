@@ -35,6 +35,9 @@ const UI_TEXT_ORIGINAL: Record<string, string> = {
     whyLawyer: 'Why Do You Need a Lawyer Even If You Know What the Law Says?'
 };
 
+// Use a unique separator that is unlikely to appear in the text
+const SEPARATOR = '|||';
+
 interface LanguageContextType {
   language: string;
   setLanguage: (language: string) => void;
@@ -55,17 +58,21 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
   const [whyLawyerText, setWhyLawyerText] = useState<string[]>(WHY_LAWYER_TEXT_ORIGINAL);
   const [uiText, setUiText] = useState<Record<string, string>>(UI_TEXT_ORIGINAL);
 
-  const translate = useCallback(async (text: string, targetLanguage: string) => {
-    if (targetLanguage === 'English') return text;
+  const translateBatch = useCallback(async (texts: string[], targetLanguage: string) => {
+    if (targetLanguage === 'English') return texts;
+    const combinedText = texts.join(SEPARATOR);
     try {
       const result = await translateTextAction({
-        textToTranslate: text,
+        textToTranslate: combinedText,
         targetLanguage: targetLanguage,
       });
-      return result.success && result.data ? result.data.translatedText : text;
+      if (result.success && result.data) {
+        return result.data.translatedText.split(SEPARATOR);
+      }
+      return texts; // Return original texts on failure
     } catch (error) {
-      console.error("Translation failed", error);
-      return text;
+      console.error("Batch translation failed", error);
+      return texts; // Return original texts on error
     }
   }, []);
 
@@ -83,37 +90,44 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
       return;
     }
 
-    const translateContent = async () => {
+    const translateAllContent = async () => {
       setIsLoading(true);
 
-      const translatedMission = await Promise.all(
-        MISSION_STATEMENT_ORIGINAL.map(p => translate(p, language))
-      );
-      setMissionStatement(translatedMission);
+      const allUiTextValues = Object.values(UI_TEXT_ORIGINAL);
+      const textsToTranslate = [
+        ...allUiTextValues,
+        ...MISSION_STATEMENT_ORIGINAL,
+        ...WHY_LAWYER_TEXT_ORIGINAL
+      ];
 
-      const translatedWhyLawyer = await Promise.all(
-        WHY_LAWYER_TEXT_ORIGINAL.map(p => translate(p, language))
-      );
-      setWhyLawyerText(translatedWhyLawyer);
+      const translatedTexts = await translateBatch(textsToTranslate, language);
 
-      const translatedUi: Record<string, string> = {};
-      for (const key in UI_TEXT_ORIGINAL) {
-        translatedUi[key] = await translate(UI_TEXT_ORIGINAL[key], language);
-      }
-      setUiText(translatedUi);
+      const uiKeys = Object.keys(UI_TEXT_ORIGINAL);
+      const newUiText: Record<string, string> = {};
+      uiKeys.forEach((key, index) => {
+        newUiText[key] = translatedTexts[index];
+      });
+      setUiText(newUiText);
+
+      const missionStartIndex = allUiTextValues.length;
+      const newMissionStatement = translatedTexts.slice(missionStartIndex, missionStartIndex + MISSION_STATEMENT_ORIGINAL.length);
+      setMissionStatement(newMissionStatement);
+
+      const whyLawyerStartIndex = missionStartIndex + MISSION_STATEMENT_ORIGINAL.length;
+      const newWhyLawyerText = translatedTexts.slice(whyLawyerStartIndex, whyLawyerStartIndex + WHY_LAWYER_TEXT_ORIGINAL.length);
+      setWhyLawyerText(newWhyLawyerText);
 
       setIsLoading(false);
     };
 
     const transitionWrapper = () => {
-        startTransition(() => {
-            translateContent();
-        })
-    }
-    
-    transitionWrapper();
+      startTransition(() => {
+        translateAllContent();
+      });
+    };
 
-  }, [language, translate]);
+    transitionWrapper();
+  }, [language, translateBatch]);
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, isTranslating, isLoading, missionStatement, whyLawyerText, uiText }}>
