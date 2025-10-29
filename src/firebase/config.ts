@@ -2,10 +2,10 @@
 // It's used to identify your app to the Firebase backend.
 // Security is enforced by Firebase Security Rules, not by hiding this object.
 export const firebaseConfig = {
-  apiKey: "AIzaSyCiOQsqWqNYwPitetoBUz6ubN003PqI0UI",
-  authDomain: "studio-9218455660-be898.firebaseapp.com",
-  projectId: "studio-9218455660-be898",
-  storageBucket: "studio-9218455660-be898.appspot.com",
-  messagingSenderId: "322149840321",
-  appId: "1:322149840321:web:87dfddccff8b46713cab40"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
 };

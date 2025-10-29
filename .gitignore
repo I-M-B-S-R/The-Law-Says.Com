@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.pnp.loader.mjs
 
 # testing
 /coverage
@@ -23,6 +24,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
 # local env files
 .env.local
@@ -36,45 +38,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# firebase
-.firebase/
-firebase.json
-.firebaserc
-firestore.rules
-firestore.indexes.json
-database.rules.json
-storage.rules
-
-#temp files
-temp/
-*.tmp
-*.bak
-*.swp
-
-# data files
-usc-xml-data/
-usc-json-data/
-title*-raw.xml
-usc-chapters-data.json
-
-# scripts
-download-*.js
-integrate-*.js
-parse-*.js
-scrape-*.js
-test-*.js
-uploader.js
-url-adder.js
-content-fetcher.js
-generate-*.js
-
-# other generated files
-New Text Document.txt
-USC-*.md
-ARS-DATA-README.md
-laws.xml
-jsconfig.json
-postcss.config.mjs
-public/
-pages/
