@@ -8,6 +8,10 @@ runConfig:
 
 # Defines the commands that are used to build and run your app.
 backend:
+  # Commands to run before installing dependencies.
+  prebuild:
+    - npm install -g genkit-cli@latest
+    - genkit config set updateNotificationsOptOut true
   # Command to install dependencies.
   installCommand: npm install
   # Command to build your app.
