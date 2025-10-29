@@ -3,13 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 9002",
-    "genkit:dev": "genkit start -- tsx src/ai/dev.ts",
+    "dev": "genkit start --port 3400 --tsx src/ai/dev.ts & next dev -p 9002",
     "genkit:watch": "genkit start -- tsx --watch src/ai/dev.ts",
     "build": "next build",
     "postinstall": "patch-package",
-    "start": "npm run genkit:start & next start",
-    "genkit:start": "genkit start -- tsx src/ai/dev.ts --port 3400 --attach",
+    "start": "genkit start --port 3400 --tsx src/ai/dev.ts --attach & next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
