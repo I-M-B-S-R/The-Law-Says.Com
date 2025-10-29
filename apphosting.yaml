@@ -5,3 +5,18 @@ runConfig:
   # Increase this value if you'd like to automatically spin up
   # more instances in response to increased traffic.
   maxInstances: 1
+
+# Defines the commands that are used to build and run your app.
+backend:
+  # Command to install dependencies.
+  installCommand: npm install
+  # Command to build your app.
+  buildCommand: npm run build
+  # Command to start your app.
+  startCommand: npm run genkit:dev
+
+# Defines the environment variables that will be available to your app.
+# It is recommended to use secrets for sensitive environment variables.
+# https://firebase.google.com/docs/app-hosting/configure#secrets
+# environmentVariables:
+#   SOME_VARIABLE: some_value
