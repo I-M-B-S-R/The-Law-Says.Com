@@ -13,7 +13,7 @@ backend:
   # Command to build your app.
   buildCommand: npm run build
   # Command to start your app.
-  startCommand: npm run genkit:dev
+  startCommand: npm start
 
 # Defines the environment variables that will be available to your app.
 # It is recommended to use secrets for sensitive environment variables.
