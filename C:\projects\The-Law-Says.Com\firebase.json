@@ -2,10 +2,5 @@
   "hosting": {
     "source": ".",
     "frameworksBackend": {}
-  },
-  "firestore": {
-    "predeploy": [
-      "echo 'Intentionally skipping Firestore deployment to fix backend state issue. If you see this, something is wrong.'; exit 1"
-    ]
   }
 }
