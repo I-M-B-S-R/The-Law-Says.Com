@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "The-Law-Says-Com"
+    "default": "the-law-says-com"
+  },
+  "targets": {
+    "the-law-says-com": {
+      "hosting": {
+        "default": [
+          "the-law-says-com"
+        ]
+      }
+    }
   }
 }

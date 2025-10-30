@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "The-Law-Says-Com",
+    "site": "the-law-says-com",
     "public": "public",
     "ignore": [
       "firebase.json",
