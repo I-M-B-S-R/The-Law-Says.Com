@@ -1,7 +1,14 @@
 {
-  "emulators": {
-    "hosting": {
-      "port": 9002
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "id": "studio",
+      "region": "us-central1"
     }
   }
 }
