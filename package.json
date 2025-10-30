@@ -6,7 +6,7 @@
     "dev": "genkit start --port 3400 & next dev -p 9002",
     "build": "next build",
     "postinstall": "patch-package",
-    "start": "genkit start --port 3400 </dev/null & next start",
+    "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
