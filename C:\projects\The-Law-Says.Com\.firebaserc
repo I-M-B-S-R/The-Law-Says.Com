@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "talqrma-26"
+  },
+  "targets": {
+    "talqrma-26": {
+      "hosting": {
+        "default": [
+          "talqrma-26"
+        ]
+      }
+    }
+  }
+}
