@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "talqrma-26",
+    "target": "default",
     "source": ".",
     "ignore": [
       "firebase.json",
