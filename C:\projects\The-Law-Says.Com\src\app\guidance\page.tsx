@@ -58,6 +58,7 @@ export default function StatesPage() {
               <div className="flex flex-col gap-4">
                 {filteredStates.map((state) => {
                   const isEnabled = enabledStates.includes(state);
+                  const stateSlug = state.toLowerCase().replace(/ /g, '-');
                   return (
                     <Button
                       key={state}
@@ -67,7 +68,7 @@ export default function StatesPage() {
                       disabled={!isEnabled}
                     >
                       {isEnabled ? (
-                        <Link href={`/guidance/${state.toLowerCase().replace(/ /g, '-')}`}>
+                        <Link href={`/guidance/${stateSlug}`}>
                           <div className="flex flex-col items-center">
                             <span className="font-bold">{state}</span>
                           </div>
