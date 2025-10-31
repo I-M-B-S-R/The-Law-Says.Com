@@ -1,0 +1,18 @@
+
+export const ARIZONA_COUNTIES = [
+  'Apache',
+  'Cochise',
+  'Coconino',
+  'Gila',
+  'Graham',
+  'Greenlee',
+  'La Paz',
+  'Maricopa',
+  'Mohave',
+  'Navajo',
+  'Pima',
+  'Pinal',
+  'Santa Cruz',
+  'Yavapai',
+  'Yuma',
+];

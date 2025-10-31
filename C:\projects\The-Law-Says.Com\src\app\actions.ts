@@ -1,0 +1,48 @@
+
+'use server';
+
+import { getLegalGuidance, type GetLegalGuidanceInput } from '@/ai/flows/get-legal-guidance';
+import { translateText, type TranslateTextInput } from '@/ai/flows/translate-text';
+import { z } from 'zod';
+
+const LegalActionInputSchema = z.object({
+  jurisdiction: z.string().min(1, 'Jurisdiction is required.'),
+  legalQuestion: z.string().min(20, 'Your question must be at least 20 characters.'),
+});
+
+export async function getGuidanceAction(values: GetLegalGuidanceInput) {
+  try {
+    const validatedInput = LegalActionInputSchema.parse(values);
+    const result = await getLegalGuidance(validatedInput);
+    return { success: true, data: result };
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      return { success: false, error: error.errors.map(e => e.message).join(', ') };
+    }
+    console.error('Error getting legal guidance:', error);
+    return { success: false, error: 'An unexpected error occurred. Please try again.' };
+  }
+}
+
+const TranslateActionInputSchema = z.object({
+    textToTranslate: z.string(),
+    targetLanguage: z.string(),
+});
+
+export async function translateTextAction(values: TranslateTextInput) {
+    try {
+        const validatedInput = TranslateActionInputSchema.parse(values);
+        if (!validatedInput.textToTranslate.trim()) {
+            return { success: true, data: { translatedText: '' } };
+        }
+        const result = await translateText(validatedInput);
+        return { success: true, data: result };
+    } catch (error) {
+        console.error('Error translating text:', error);
+        if (error instanceof z.ZodError) {
+            return { success: false, error: error.errors.map(e => e.message).join(', ') };
+        }
+        const errorMessage = error instanceof Error ? error.message : 'An unexpected error occurred during translation.';
+        return { success: false, error: errorMessage };
+    }
+}
