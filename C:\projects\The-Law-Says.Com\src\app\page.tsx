@@ -5,7 +5,7 @@ import React, { useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2, StopCircle, Accessibility, Home, MessageSquareQuote } from 'lucide-react';
+import { Languages, AudioLines, ArrowLeft, ArrowRight, Loader2, StopCircle, Accessibility, Home, MessageSquareQuote, FileTree } from 'lucide-react';
 import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -25,7 +25,8 @@ const HomePage = () => {
     ${uiText.listen},
     ${uiText.federalLaws},
     ${uiText.stateLaws},
-    Ask the AI a question
+    Ask the AI a question,
+    The Code!
   `, [uiText]);
 
   const missionContent = useMemo(() => `
@@ -127,6 +128,13 @@ const HomePage = () => {
                 <Link href="/guidance/ask" className="flex items-center justify-center">
                    <MessageSquareQuote className="mr-2 h-5 w-5" />
                    Ask The AI A Question
+                </Link>
+              </Button>
+
+              <Button asChild size="lg" className="h-14 font-bold btn-destructive">
+                <Link href="/the-code" className="flex items-center justify-center">
+                  <FileTree className="mr-2 h-5 w-5" />
+                  The Code!
                 </Link>
               </Button>
             </div>
