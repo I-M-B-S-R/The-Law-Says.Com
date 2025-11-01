@@ -37,6 +37,12 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    // This is required to allow the Next.js dev server to be accessible from the Firebase Studio preview pane.
+    allowedDevOrigins: [
+      'https://*.cluster-j6d3cbsvdbe5uxnhqrfzzeyj7i.cloudworkstations.dev',
+    ],
+  },
 };
 
 export default nextConfig;
