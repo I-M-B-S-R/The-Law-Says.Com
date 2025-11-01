@@ -10,30 +10,8 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { JURISDICTIONS } from '@/lib/constants';
 import { Input } from '@/components/ui/input';
 
-// Normalize display strings to a canonical key for matching and slugs
-const canonicalize = (s: string) =>
-  s
-    .toLowerCase()
-    .normalize('NFKD') // strip accents if any
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9\s-]/g, '') // remove punctuation
-    .replace(/\s+/g, ' ') // collapse spaces
-    .trim();
-
-// Build a safe slug from the canonical string
-const toSlug = (s: string) => canonicalize(s).replace(/\s+/g, '-');
-
 const states = JURISDICTIONS.filter(
-  j =>
-    ![
-      'Federal',
-      'District of Columbia',
-      'Puerto Rico',
-      'Guam',
-      'American Samoa',
-      'U.S. Virgin Islands',
-      'Northern Mariana Islands',
-    ].includes(j)
+    j => !["Federal", "District of Columbia", "Puerto Rico", "Guam", "American Samoa", "U.S. Virgin Islands", "Northern Mariana Islands"].includes(j)
 );
 
 export default function StatesPage() {
@@ -41,22 +19,15 @@ export default function StatesPage() {
   const [searchQuery, setSearchQuery] = useState('');
 
   const filteredStates = useMemo(() => {
-    if (!searchQuery) return states;
-    const q = canonicalize(searchQuery);
-    return states.filter((state) => canonicalize(state).includes(q));
+    if (!searchQuery) {
+      return states;
+    }
+    return states.filter((state) =>
+      state.toLowerCase().includes(searchQuery.toLowerCase())
+    );
   }, [searchQuery]);
 
-  // Use canonical keys for enabled states to avoid exact-string pitfalls
-  const enabledStatesCanonical = new Set([
-    canonicalize('Alabama'),
-    canonicalize('Arizona'),
-  ]);
-
-  // Optional explicit route overrides if needed
-  const routeOverrides: Record<string, string> = {
-    [canonicalize('Alabama')]: '/guidance/alabama',
-    [canonicalize('Arizona')]: '/guidance/arizona',
-  };
+  const enabledStates = ['Arizona', 'Alabama'];
 
   return (
     <div className="flex h-screen flex-col items-center justify-center bg-black p-4">
@@ -67,13 +38,13 @@ export default function StatesPage() {
 
         <ScrollArea className="flex-grow border-x-2 border-destructive">
           <div className="p-2 text-center text-sm font-bold text-destructive-foreground">
-            <Link href="/" className="flex items-center justify-center gap-2">
-              <Home className="h-4 w-4" />
-              Home
-            </Link>
+              <Link href="/" className="flex items-center justify-center gap-2">
+                  <Home className="h-4 w-4" />
+                  Home
+              </Link>
           </div>
           <div className="p-4 pt-0">
-            <div className="relative mb-4">
+             <div className="relative mb-4">
               <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
               <Input
                 type="text"
@@ -86,10 +57,8 @@ export default function StatesPage() {
             <main>
               <div className="flex flex-col gap-4">
                 {filteredStates.map((state) => {
-                  const key = canonicalize(state);
-                  const isEnabled = enabledStatesCanonical.has(key);
-                  const href = routeOverrides[key] ?? `/guidance/${toSlug(state)}`;
-
+                  const isEnabled = enabledStates.includes(state);
+                  const stateSlug = state.toLowerCase().replace(/ /g, '-');
                   return (
                     <Button
                       key={state}
@@ -99,7 +68,7 @@ export default function StatesPage() {
                       disabled={!isEnabled}
                     >
                       {isEnabled ? (
-                        <Link href={href}>
+                        <Link href={`/guidance/${stateSlug}`}>
                           <div className="flex flex-col items-center">
                             <span className="font-bold">{state}</span>
                           </div>
@@ -128,8 +97,10 @@ export default function StatesPage() {
               <ArrowLeft strokeWidth={3} className="h-8 w-8" />
             </button>
             <div className="flex flex-col items-center">
-              <Accessibility className="h-6 w-6" />
-              <p className="text-center text-xs">&copy; 2025 The-Law-Says.Com</p>
+                <Accessibility className="h-6 w-6" />
+                <p className="text-center text-xs">
+                    &copy; 2025 The-Law-Says.Com
+                </p>
             </div>
             <button
               onClick={() => router.forward()}
