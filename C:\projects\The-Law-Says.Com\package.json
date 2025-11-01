@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "genkit start --non-interactive --port 3400 & next dev -p 9002",
+    "dev": "genkit start --non-interactive --port 3400 & next dev",
     "build": "next build",
     "postinstall": "patch-package",
     "start": "next start",
