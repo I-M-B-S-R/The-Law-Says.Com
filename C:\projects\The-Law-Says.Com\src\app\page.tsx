@@ -134,7 +134,7 @@ const HomePage = () => {
               <Button asChild size="lg" className="h-14 font-bold btn-destructive">
                 <Link href="/the-code" className="flex items-center justify-center">
                   <FileTree className="mr-2 h-5 w-5" />
-                  The Code
+                  The Code!
                 </Link>
               </Button>
             </div>
